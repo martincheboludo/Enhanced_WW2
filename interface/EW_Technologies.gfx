@@ -2,7 +2,7 @@
 spriteTypes = {
 
 	SpriteType = {
-		name = "GFX_EW_SS_Technology_medium"
+		name = "GFX_Waffen_SS_units_tech_medium"
 		texturefile = "gfx/interface/technologies/EW/SS.dds"
 	}
 

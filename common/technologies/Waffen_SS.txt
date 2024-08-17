@@ -1,0 +1,39 @@
+technologies = {
+
+
+	Waffen_SS_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			WSS_infantry
+			WSS_mountaineers
+			WSS_motorized
+			WSS_mechanized
+			WSS_artillery_brigade
+			WSS_mot_artillery_brigade
+			WSS_cavalry
+			WSS_light_sp_artillery_brigade
+			WSS_medium_sp_artillery_brigade
+			WSS_heavy_sp_artillery_brigade
+			WSS_modern_sp_artillery_brigade
+			WSS_light_tank_destroyer_brigade
+			WSS_medium_tank_destroyer_brigade
+			WSS_heavy_tank_destroyer_brigade
+			WSS_modern_tank_destroyer_brigade
+			WSS_light_armor
+			WSS_medium_armor
+			WSS_modern_armor
+			WSS_heavy_armor
+		}
+
+
+	}
+
+
+}

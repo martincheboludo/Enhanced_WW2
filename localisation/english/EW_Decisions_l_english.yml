@@ -61,3 +61,5 @@ SS_EW_Decisions_desc:0 "The Schutzstaffel (SS) was a paramilitary organization u
 
 SS_Create_Waffen_SS:0 "Create Waffen SS"
 SS_Create_Waffen_SS_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."
+
+Waffen_SS_Created:0 "Waffen-SS Has Been Created."

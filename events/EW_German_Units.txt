@@ -18,6 +18,13 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			set_technology = {
+				Waffen_SS_units_tech = 1
+			}
+			set_country_flag = Waffen_SS_Created
+		}
 
 		hidden_effect = { 
 			news_event = { id = EW_German_Units_News.0 hours = 6 }
