@@ -1,0 +1,52 @@
+add_namespace = EW_German_Units_Country
+add_namespace = EW_German_Units_News
+
+#Creation of the Waffen SS
+country_event = {
+	id = EW_German_Units_Country.0
+	title = EW_German_Units_Country.0.t
+	desc = EW_German_Units_Country.0.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create Waffen SS
+		name = EW_German_Units_Country.0.a
+
+		ai_chance = {
+			factor = 1000
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_German_Units_News.0 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#We Don't Need It
+		name = EW_German_Units_Country.0.b
+
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+
+}
+
+#Creation of the Waffen SS
+news_event = {
+	id = EW_German_Units_News.0
+	picture = GFX_news_event_Waffen_SS_News
+	title = EW_German_Units_News.0.t
+	desc = EW_German_Units_News.0.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_German_Units_News.0.a
+		ai_chance = { factor = 1000 }
+	}
+}

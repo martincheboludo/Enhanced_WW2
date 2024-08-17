@@ -1,0 +1,63 @@
+﻿l_english:
+
+GER_EW_Decisions:0 "German War Actions"
+GER_EW_Decisions_desc:0 ""
+
+GER_Partition_Greece:0 "Partition Greece"
+GER_Partition_Yugoslavia:0 "Partition Yugoslavia"
+GER_Partition_Switzerland:0 "Partition Switzerland"
+GER_Partition_Czechoslovakia:0 "Fate of Czechoslovakia"
+GER_Partition_Romania:0 "Fate of Romania"
+GER_Partition_France:0 "Partition French Empire"
+GER_Partition_Britain:0 "Partition British Empire"
+GER_Partition_Poland:0 "Partition Poland"
+GER_Partition_USSR:0 "Partition Russia"
+GER_Partition_USA:0 "Partition North America"
+GER_Partition_South_America:0 "Partition South America"
+GER_Return_Dutch_East_Indies:0 "Return The East Indies To The Dutch"
+GER_Return_Dutch_East_Indies_JAP:0 "Transfer The East Indies To The Japanese"
+GER_Return_Northern_Sleswig:0 "Annex Northern Sleswig"
+GER_Invade_SWI:0 "The Swiss Anschluss"
+GER_brute_force_annex_norway:0 "Dissolve Quisling Government"
+GER_Integrate_Bulgaria:0 "Integrate Bulgarian Economy"
+GER_Return_Canada:0 "Transfer Canada To America"
+GER_Invite_Japan_Attack_USSR:0 "Ask Japan For Help Against The USSR"
+GER_French_State:0 "The French State"
+GER_Italian_Social_Republic:0 "The Italian Social Republic"
+GER_align_bulgaria:0 "Align Bulgaria"
+GER_align_bulgaria_desc:0 "Bulgaria is already in our sphere of influence, but we could easily sway them further to our way of thinking, making them even more easily manipulable in the future."
+GER_align_bulgaria_unaligned:0 "Align Bulgaria"
+GER_align_bulgaria_democratic:0 "Align Bulgaria"
+GER_Poland_Under_Attack:0 "Soviet Aggression Against Poland"
+
+EW_integrate_war_economies_tt3:0 "§R[BUL.GetName] must approve of the agreement for the bonuses to take effect.§!\n"
+
+JAP_EW_Decisions:0 "Japanese War Actions"
+JAP_EW_Decisions_desc:0 ""
+JAP_Invade_TIB:0 "The Tibet Expedition"
+
+SOV_EW_Decisions:0 "Soviet War Actions"
+SOV_EW_Decisions_desc:0 ""
+SOV_Defend_Leningrad:0 "The Defence of Leningrad"
+SOV_Defend_Moscow:0 "The Defence of Moscow"
+SOV_Defend_Stalingrad:0 "The Defence of Stalingrad"
+
+Allies_EW_Decisions:0 "Allies War Actions"
+Allies_EW_Decisions_desc:0 ""
+SOV_Poland_Under_Attack:0 "German Aggression Against Poland"
+
+ENG_Stop_German_Aggression:0 "Guarantee [FROM.GetName]"
+ENG_Stop_German_Aggression_desc:0 ""
+FRA_Stop_German_Aggression:0 "Guarantee [FROM.GetName]"
+FRA_Stop_German_Aggression_desc:0 ""
+SOV_Stop_German_Aggression:0 "Guarantee [FROM.GetName]"
+SOV_Stop_German_Aggression_desc:0 ""
+
+CHI_EW_annex_warlords_targeted_decision:0 "Annex [FROM.GetName]"
+CHI_EW_annex_warlords_targeted_decision_desc:0 ""
+
+SS_EW_Decisions:0 "Schutzstaffel (SS) Actions"
+SS_EW_Decisions_desc:0 "The Schutzstaffel (SS) was a paramilitary organization under Adolf Hitler and the Nazi Party, originally established in 1925 as a small bodyguard unit for Hitler. It rapidly expanded in influence and power, becoming a key instrument in enforcing Nazi policies and committing war crimes during World War II. The SS was divided into two main branches: the Waffen-SS, which served as a combat force alongside the regular German military, and the Allgemeine SS, which focused on internal security and ideological enforcement. The Allgemeine SS was notably responsible for running concentration camps and executing the regime's genocidal policies. The SS, under leaders like Heinrich Himmler, played a central role in the Holocaust, overseeing the systematic murder of six million Jews and millions of others deemed undesirable by the Nazi regime."
+
+SS_Create_Waffen_SS:0 "Create Waffen SS"
+SS_Create_Waffen_SS_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."

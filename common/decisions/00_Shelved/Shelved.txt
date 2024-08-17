@@ -1,0 +1,1404 @@
+CHI_EW_annex_warlords_targeted_decision = {
+	
+		icon = oppression
+		
+		allowed = {
+			original_tag = CHI
+		}
+	
+        visible = {
+			is_ai = yes
+        }
+        target_trigger = {
+            FROM = {
+                OR = {
+					original_tag = SHX
+					original_tag = PRC
+					original_tag = XSM
+					original_tag = SIK
+					original_tag = YUN
+					original_tag = GXC
+				}
+				is_ai = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		days_remove = 7
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+        available = {
+				JAP = { is_ai = no }
+				date < 1937.1.1
+				FROM = {
+					surrender_progress < 0.01	
+				}
+				ROOT = {
+					surrender_progress < 0.01	
+				}
+        }
+		complete_effect = {
+
+		}
+        remove_effect = {
+					FROM = {
+						every_unit_leader = {
+							set_nationality = ROOT
+						}
+					}
+					FROM = { transfer_navy = { target = ROOT } }
+					annex_country = {
+						target = FROM  transfer_troops = yes 
+					}
+        }
+    }
+	
+SOV_Stop_German_Aggression = {
+	
+		icon = SOV_the_stalin_constitution
+		
+		allowed = {
+			tag = SOV
+		}
+	
+        visible = {
+			date < 1939.1.1
+			threat < 0.25
+        }
+        target_trigger = {
+            FROM = {
+                OR = {
+					#Soviet Sphere
+					tag = FIN
+					tag = LIT
+					tag = LAT
+					tag = EST
+					tag = POL
+				}
+				OR = {
+					GER = { is_justifying_wargoal_against = FROM }
+					ITA = { is_justifying_wargoal_against = FROM }
+				}
+				NOT = { is_guaranteed_by = ROOT }
+            }
+        }
+        cost = 25
+		modifier = { }
+		days_remove = 7
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+        available = {
+			FROM = {
+				surrender_progress < 0.01	
+			}
+			ROOT = {
+				surrender_progress < 0.01	
+			}
+        }
+		complete_effect = {
+		
+		}
+        remove_effect = {
+			ROOT = { give_guarantee =  FROM }
+        }
+    }
+
+	JAP_Invade_TIB_AI = {
+		fire_only_once = yes
+		days_remove = 70
+		war_with_on_remove = TIB
+		icon = jap_pacific_guardian
+		cost = 0
+		allowed = {
+		}
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			has_government = fascism
+			has_completed_focus = JAP_intervene_in_china
+			country_exists = TIB
+			NOT = {
+				is_in_faction_with = TIB
+			}
+			NOT = {
+				has_war_with = TIB
+			}
+			
+			date > 1940.1.1
+			
+			OR = {
+				is_neighbor_of = CHI
+				any_country = {
+					is_subject_of = JAP
+					is_neighbor_of = CHI
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "China Neutralized"
+				
+				OR = {
+					CHI = {
+						has_capitulated = yes
+					}
+					CHI = {
+						exists = no
+					}
+					CHI = {
+						is_subject_of = JAP
+					}
+					OR = {
+						JAP = {
+							controls_state = 16
+						}
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 16
+						}
+					}
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = TIB
+				type = annex_everything
+			}
+		}
+	}
+	
+	
+	#Partition of French Empire
+	GER_Partition_France = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			#Temporarily Hidden
+			always = no
+		}
+
+		available = {
+			#has_war_with = FRA
+			#is_in_faction_with = ITA
+			country_exists = ITA
+			NOT = { has_war_with = ITA }
+			
+			NOT = { has_war_with = USA }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = FRA }
+			
+			OR = { 
+				FRA = { is_subject_of = GER }
+				FRA = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control France"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FRA
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.17
+			}	
+		}
+		
+	}
+	
+	#Partition of British Empire
+	GER_Partition_Britain = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			#Temporarily Hidden
+			always = no
+		}
+
+		available = {
+			#has_war_with = FRA
+			#is_in_faction_with = ITA
+			country_exists = ITA
+			NOT = { has_war_with = ITA }
+			
+			NOT = { has_war_with = USA }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = FRA }
+			
+			OR = { 
+				ENG = { is_subject_of = GER }
+				ENG = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Britain"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+							NOT = { is_core_of = IRE }
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.18
+			}	
+		}
+		
+	}
+	
+	#Partition of North America
+	GER_Partition_USA = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			#Temporarily Hidden
+			always = no
+		}
+
+		available = {
+			#has_war_with = USA
+			#is_in_faction_with = JAP
+			country_exists = JAP
+			NOT = { has_war_with = JAP }
+			
+			NOT = { has_war_with = USA }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = FRA }
+			
+			OR = { 
+				USA = { is_subject_of = GER }
+				USA = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control America"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Canada"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Mexico"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.21
+			}	
+		}
+		
+	}
+	
+	#Partition of South America
+	GER_Partition_South_America = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			#Temporarily Hidden
+			always = no
+		}
+
+		available = {
+			#has_war_with = USA
+			#is_in_faction_with = JAP
+			country_exists = JAP
+			NOT = { has_war_with = JAP }
+			
+			NOT = { has_war_with = USA }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = FRA }
+			
+			OR = { 
+				USA = { is_subject_of = GER }
+				USA = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Venezuela"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VEN
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Colombia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COL
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Guyanas"
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								state = 687
+								state = 309
+								state = 310
+							}
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Ecuador"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ECU
+							is_island_state = no
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Peru"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Bolivia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Paraguay"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAR
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Uruguay"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = URG
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Argentina"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ARG
+							is_island_state = no
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Chile"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHL
+							is_island_state = no
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Brazil"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRA
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.26
+			}	
+		}
+		
+	}
+	
+	
+	#Return Dutch East Indies
+	GER_Return_Dutch_East_Indies = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			#Temporarily Hidden
+			always = no
+		}
+
+		available = {
+			is_in_faction_with = HOL
+			
+			#country_exists = HOL
+			#NOT = { has_war_with = HOL }
+			
+			OR = { 
+				INS = { has_capitulated = yes }
+				INS = { exists = no }
+				INS = { is_subject_of = GER }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Germany Control Indonesia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = INS
+						}
+						OR = {
+							is_controlled_by = GER
+							is_controlled_by = INS
+						}
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				NOT  = { is_in_faction_with = HOL }
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			HOL = {
+				country_event = {
+					id = EW_Germany_Country.5
+				}
+			}			
+		}
+		
+	}
+	
+	#Return Dutch East Indies
+	GER_Return_Dutch_East_Indies_JAP = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			#Temporarily Hidden
+			always = no
+		}
+
+		available = {
+			#is_in_faction_with = JAP
+			
+			country_exists = JAP
+			NOT = { has_war_with = JAP }
+			
+			OR = { 
+				INS = { has_capitulated = yes }
+				INS = { exists = no }
+				INS = { is_subject_of = GER }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Germany Control Indonesia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = INS
+						}
+						OR = {
+							is_controlled_by = GER
+							is_controlled_by = INS
+						}
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				NOT  = { is_in_faction_with = JAP }
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			JAP = {
+				country_event = {
+					id = EW_Germany_Country.5
+				}
+			}			
+		}
+		
+	}
+	
+	
+	GER_align_bulgaria = {
+		fire_only_once = yes
+		days_remove = 70
+		icon = ger_reichskommissariats
+		cost = 120
+		allowed = {
+		}
+		visible = {
+		is_ai = no
+		}
+		available = {
+			is_subject = no
+			has_completed_focus = GER_grosraumwirtschaft
+			NOT = { has_war_with = BUL }
+			country_exists = BUL
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			set_country_flag = GER_align_bulgaria
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				BUL = {
+					add_timed_idea = { idea = GER_align_bulgaria days = 730 }
+				}
+			}	
+			if = {
+				limit = {
+					has_government = neutrality
+				}
+				BUL = {
+					add_timed_idea = { idea = GER_align_bulgaria_unaligned days = 730 }
+				}
+			}	
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				BUL = {
+					add_timed_idea = { idea = GER_align_bulgaria_democratic days = 730 }
+				}
+			}	
+			BUL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = GER_align_bulgaria
+				}
+			}
+		}
+	}
+	
+	GER_Integrate_Bulgaria = {
+		fire_only_once = yes
+		days_remove = 70
+		icon = ger_reichskommissariats
+		cost = 120
+		allowed = {
+		}
+		visible = {
+		is_ai = no
+		}
+		available = {
+			has_country_flag = GER_align_bulgaria
+			is_subject = no
+			has_completed_focus = GER_integrate_war_economies
+			BUL = {
+				is_in_faction_with = ROOT
+				is_free_or_subject_of_root = yes
+			}
+			country_exists = BUL
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+		if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = GER
+						is_free_or_subject_of_root = yes
+					}
+				}
+		BUL = { country_event = { id = wtt_germany.72 } }
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+							NOT = { has_state_flag = GER_integrate_war_economies }
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = GER_integrate_war_economies
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+							NOT = { has_state_flag = GER_integrate_war_economies }
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = GER_integrate_war_economies
+					}
+					BUL = {
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+							}
+							set_state_flag = GER_integrate_war_economies_1
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+							}
+							set_state_flag = GER_integrate_war_economies_2
+						}
+					}
+					if = {
+						limit = {
+							has_dlc = "Death or Dishonor" 
+						}
+						set_autonomy = { target = BUL autonomy_state = autonomy_satellite }
+					}
+					if = {
+						limit = { 
+							has_dlc = "Together for Victory"
+							NOT = { has_dlc = "Death or Dishonor" } 
+						}
+						set_autonomy = { target = BUL autonomy_state = autonomy_dominion }
+					}
+					if = {
+						limit = { 
+							NOT = { has_dlc = "Together for Victory" }
+							NOT = { has_dlc = "Death or Dishonor" }
+						}
+						puppet = BUL
+					}
+				}
+				custom_effect_tooltip = EW_integrate_war_economies_tt3
+			}
+		}
+	}
+	
+	GER_align_bulgaria_AI = {
+		fire_only_once = yes
+		days_remove = 70
+		icon = ger_reichskommissariats
+		cost = 0
+		allowed = {
+		}
+		visible = {
+		is_ai = yes
+		}
+		available = {
+			is_subject = no
+			has_completed_focus = GER_grosraumwirtschaft
+			NOT = { has_war_with = BUL }
+			country_exists = BUL
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			set_country_flag = GER_align_bulgaria
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				BUL = {
+					add_timed_idea = { idea = GER_align_bulgaria days = 730 }
+				}
+			}	
+			if = {
+				limit = {
+					has_government = neutrality
+				}
+				BUL = {
+					add_timed_idea = { idea = GER_align_bulgaria_unaligned days = 730 }
+				}
+			}	
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				BUL = {
+					add_timed_idea = { idea = GER_align_bulgaria_democratic days = 730 }
+				}
+			}	
+			BUL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = GER_align_bulgaria
+				}
+			}
+		}
+	}
+	
+	GER_Integrate_Bulgaria_AI = {
+		fire_only_once = yes
+		days_remove = 70
+		icon = ger_reichskommissariats
+		cost = 0
+		allowed = {
+		}
+		visible = {
+		is_ai = yes
+		}
+		available = {
+			has_country_flag = GER_align_bulgaria
+			is_subject = no
+			has_completed_focus = GER_integrate_war_economies
+			BUL = {
+				is_in_faction_with = ROOT
+				is_free_or_subject_of_root = yes
+			}
+			country_exists = BUL
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+		if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = GER
+						is_free_or_subject_of_root = yes
+					}
+				}
+		BUL = { country_event = { id = wtt_germany.72 } }
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+							NOT = { has_state_flag = GER_integrate_war_economies }
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = GER_integrate_war_economies
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+							NOT = { has_state_flag = GER_integrate_war_economies }
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = GER_integrate_war_economies
+					}
+					BUL = {
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+							}
+							set_state_flag = GER_integrate_war_economies_1
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+							}
+							set_state_flag = GER_integrate_war_economies_2
+						}
+					}
+					if = {
+						limit = {
+							has_dlc = "Death or Dishonor" 
+						}
+						set_autonomy = { target = BUL autonomy_state = autonomy_satellite }
+					}
+					if = {
+						limit = { 
+							has_dlc = "Together for Victory"
+							NOT = { has_dlc = "Death or Dishonor" } 
+						}
+						set_autonomy = { target = BUL autonomy_state = autonomy_dominion }
+					}
+					if = {
+						limit = { 
+							NOT = { has_dlc = "Together for Victory" }
+							NOT = { has_dlc = "Death or Dishonor" }
+						}
+						puppet = BUL
+					}
+				}
+				custom_effect_tooltip = EW_integrate_war_economies_tt3
+			}
+		}
+	}
+	
+	
+	#Give Canada to USA
+	GER_Return_Canada = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			is_in_faction_with = USA
+			
+			#country_exists = USA
+			#NOT = { has_war_with = USA }
+			
+			OR = { 
+				CAN = { has_capitulated = yes }
+				CAN = { exists = no }
+				CAN = { is_subject_of = GER }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Germany Control Canada"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+						}
+						OR = {
+							is_controlled_by = GER
+							is_controlled_by = CAN
+						}
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				NOT  = { is_in_faction_with = USA }
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			USA = {
+				country_event = {
+					id = EW_Germany_Country.22
+				}
+			}			
+		}
+		
+	}
+	
+	SOV_Poland_Under_Attack = {
+		fire_only_once = yes
+		icon = SOV_the_stalin_constitution
+		cost = 25
+		allowed = {
+		}
+		visible = {
+		}
+		available = {
+			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = POL }
+			NOT = { has_war_with = GER }
+			NOT = { has_war_with = POL }
+			GER = { has_offensive_war_with = POL }
+			NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+			date > 1933.1.1
+			date < 1949.1.1
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			country_event = {
+				id = EW_Soviet_Country.4
+			}
+		}
+	}
+	
+	GER_Poland_Under_Attack = {
+		fire_only_once = yes
+		icon = ger_reichskommissariats
+		cost = 25
+		allowed = {
+		}
+		visible = {
+		}
+		available = {
+			NOT = { is_in_faction_with = SOV }
+			NOT = { is_in_faction_with = POL }
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = POL }
+			SOV = { has_offensive_war_with = POL }
+			NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+			date > 1933.1.1
+			date < 1949.1.1
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.104
+			}
+		}
+	}
+	
+	
+	ENG_Stop_German_Aggression = {
+	
+		icon = SWI_swiss_democratic_tradition_campaign
+		
+		allowed = {
+			tag = ENG
+		}
+	
+        visible = {
+			date < 1939.1.1
+			threat < 0.25
+        }
+        target_trigger = {
+            FROM = {
+                OR = {
+					#Countries of German Interest and Their Puppets
+					tag = BEL
+					tag = LUX
+					tag = HOL
+					tag = FRA
+					tag = DEN
+					tag = NOR
+					tag = SWE
+					tag = SWI
+					is_subject_of = FRA
+					is_subject_of = HOL
+					is_subject_of = DEN
+					#Other Western European Nations
+					tag = SPR
+					tag = POR
+					tag = IRE
+					tag = ITA
+					#Balkan Countries
+					tag = YUG
+					tag = ROM
+					tag = GRE
+					tag = HUN
+					tag = BUL
+					#Middle East
+					tag = TUR
+					tag = AFG
+					tag = IRQ
+					tag = PER
+					tag = SAU
+					tag = OMA
+					tag = YEM
+					#Soviet Sphere
+					tag = FIN
+					tag = LIT
+					tag = LAT
+					tag = EST
+					tag = POL
+				}
+				OR = {
+					GER = { is_justifying_wargoal_against = FROM }
+					ITA = { is_justifying_wargoal_against = FROM }
+					SOV = { is_justifying_wargoal_against = FROM }
+				}
+				NOT = { is_guaranteed_by = ROOT }
+            }
+        }
+        cost = 25
+		modifier = { }
+		days_remove = 7
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+        available = {
+			FROM = {
+				surrender_progress < 0.01	
+			}
+			ROOT = {
+				surrender_progress < 0.01	
+			}
+        }
+		complete_effect = {
+		
+		}
+        remove_effect = {
+			ROOT = { give_guarantee =  FROM }
+        }
+    }
+	
+	FRA_Stop_German_Aggression = {
+	
+		icon = SWI_swiss_democratic_tradition_campaign
+		
+		allowed = {
+			tag = FRA
+		}
+	
+        visible = {
+			date < 1939.1.1
+			threat < 0.25
+        }
+        target_trigger = {
+            FROM = {
+                OR = {
+					tag = BEL
+					tag = LUX
+					tag = HOL
+					tag = FRA
+					tag = DEN
+					tag = NOR
+					tag = SWE
+					tag = SWI
+					is_subject_of = ENG
+					is_subject_of = HOL
+					is_subject_of = DEN
+					#Other Western European Nations
+					tag = SPR
+					tag = POR
+					tag = IRE
+					tag = ITA
+					#Balkan Countries
+					tag = YUG
+					tag = ROM
+					tag = GRE
+					tag = HUN
+					tag = BUL
+					#Middle East
+					tag = TUR
+					tag = AFG
+					tag = IRQ
+					tag = PER
+					tag = SAU
+					tag = OMA
+					tag = YEM
+				}
+				OR = {
+					GER = { is_justifying_wargoal_against = FROM }
+					ITA = { is_justifying_wargoal_against = FROM }
+					SOV = { is_justifying_wargoal_against = FROM }
+				}
+				NOT = { is_guaranteed_by = ROOT }
+            }
+        }
+        cost = 25
+		modifier = { }
+		days_remove = 7
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+        available = {
+			FROM = {
+				surrender_progress < 0.01	
+			}
+			ROOT = {
+				surrender_progress < 0.01	
+			}
+        }
+		complete_effect = {
+		
+		}
+        remove_effect = {
+			ROOT = { give_guarantee =  FROM }
+        }
+    }

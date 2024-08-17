@@ -1,0 +1,4992 @@
+add_namespace = EW_Germany_Country
+add_namespace = EW_Germany_News
+
+#Axis Occupation of Greece
+country_event = {
+	id = EW_Germany_Country.0
+	title = EW_Germany_Country.0.t
+	desc = EW_Germany_Country.0.d
+	picture = GFX_report_event_Partition_Greece_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.0.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#German Occupation Zone
+		GER = {
+			transfer_state = 731
+			transfer_state = 182
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 47
+			transfer_state = 185
+			transfer_state = 186
+			transfer_state = 187
+			transfer_state = 164
+		}
+		
+		#Bulgarian Occupation Zone
+		BUL = {
+			transfer_state = 184
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.0 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Partition Between Italy and Bulgaria
+		name = EW_Germany_Country.0.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 47
+			transfer_state = 185
+			transfer_state = 186
+			transfer_state = 187
+			transfer_state = 164
+			transfer_state = 182
+		}
+		
+		#Bulgarian Occupation Zone
+		BUL = {
+			transfer_state = 184
+			transfer_state = 731
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.0 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of Greece
+news_event = {
+	id = EW_Germany_News.0
+	title = EW_Germany_News.0.t
+	desc = EW_Germany_News.0.d
+	picture = GFX_news_event_Partition_Greece_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.0.a
+	}
+}
+
+#Axis Occupation of Yugoslavia
+country_event = {
+	id = EW_Germany_Country.1
+	title = EW_Germany_Country.1.t
+	desc = EW_Germany_Country.1.d
+	picture = GFX_report_event_Partition_Yugoslavia_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.1.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Croatia
+		CRO = {
+			transfer_state = 103
+			transfer_state = 104
+			transfer_state = 804
+			transfer_state = 109
+			104 = { add_core_of = CRO }
+			804 = { add_core_of = CRO }
+		}
+		
+		
+		
+		#Serbia
+		SER = {
+			transfer_state = 764
+			transfer_state = 107
+			transfer_state = 108
+		}
+		
+		#German Occupation Zone
+		GER = {
+			transfer_state = 102
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 853
+			transfer_state = 105
+			transfer_state = 802
+			853 = { remove_core_of = GER }
+		}
+		
+		#Bulgarian Occupation Zone
+		BUL = {
+			transfer_state = 803
+			transfer_state = 106
+		}
+		
+		#Hungarian Occupation Zone
+		HUN = {
+			transfer_state = 45
+		}
+		
+		if = {
+			limit = {
+				ALB = { is_subject_of = ITA }
+			}
+			ALB = {
+				transfer_state = 802
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = CRO
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SER
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = CRO
+					puppet = SER
+				}
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.1 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Give Dalmatia to Italy
+		name = EW_Germany_Country.1.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		#Croatia
+		CRO = {
+			transfer_state = 103
+			transfer_state = 104
+			transfer_state = 804
+			transfer_state = 109
+			104 = { add_core_of = CRO }
+			804 = { add_core_of = CRO }
+		}
+		
+		
+		
+		#Serbia
+		SER = {
+			transfer_state = 764
+			transfer_state = 107
+			transfer_state = 108
+		}
+		
+		#German Occupation Zone
+		GER = {
+			transfer_state = 102
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 853
+			transfer_state = 105
+			transfer_state = 802
+			853 = { remove_core_of = GER }
+		}
+		
+		#Bulgarian Occupation Zone
+		BUL = {
+			transfer_state = 803
+			transfer_state = 106
+		}
+		
+		#Hungarian Occupation Zone
+		HUN = {
+			transfer_state = 45
+		}
+		
+		if = {
+			limit = {
+				ALB = { is_subject_of = ITA }
+			}
+			ALB = {
+				transfer_state = 802
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = CRO
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SER
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = CRO
+					puppet = SER
+				}
+			}
+		}
+		
+		#Dalmatia to Italy
+		ITA = {
+			transfer_state = 103
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.1 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Banat to Hungary
+		name = EW_Germany_Country.1.c
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		#Croatia
+		CRO = {
+			transfer_state = 103
+			transfer_state = 104
+			transfer_state = 804
+			transfer_state = 109
+			104 = { add_core_of = CRO }
+			804 = { add_core_of = CRO }
+		}
+		
+		
+		
+		#Serbia
+		SER = {
+			transfer_state = 764
+			transfer_state = 107
+			transfer_state = 108
+		}
+		
+		#German Occupation Zone
+		GER = {
+			transfer_state = 102
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 853
+			transfer_state = 105
+			transfer_state = 802
+			853 = { remove_core_of = GER }
+		}
+		
+		#Bulgarian Occupation Zone
+		BUL = {
+			transfer_state = 803
+			transfer_state = 106
+		}
+		
+		#Hungarian Occupation Zone
+		HUN = {
+			transfer_state = 45
+		}
+		
+		if = {
+			limit = {
+				ALB = { is_subject_of = ITA }
+			}
+			ALB = {
+				transfer_state = 802
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = CRO
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SER
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = CRO
+					puppet = SER
+				}
+			}
+		}
+		
+		#Dalmatia to Italy
+		ITA = {
+			transfer_state = 103
+		}
+		
+		#Banat to Hungary
+		HUN = {
+			transfer_state = 764
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.1 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of Yugoslavia
+news_event = {
+	id = EW_Germany_News.1
+	title = EW_Germany_News.1.t
+	desc = EW_Germany_News.1.d
+	picture = GFX_news_event_Partition_Yugoslavia_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.1.a
+	}
+}
+
+
+#Axis Occupation of Switzerland
+country_event = {
+	id = EW_Germany_Country.2
+	title = EW_Germany_Country.2.t
+	desc = EW_Germany_Country.2.d
+	picture = GFX_report_event_Partition_Switzerland_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Partition with Italy
+		name = EW_Germany_Country.2.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#German Occupation Zone
+		GER = {
+			transfer_state = 151
+			transfer_state = 3
+			transfer_state = 847
+			transfer_state = 845
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 846
+			846 = { remove_core_of = GER }
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.2 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Partition with Italy and France
+		name = EW_Germany_Country.2.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		#German Occupation Zone
+		GER = {
+			transfer_state = 151
+			transfer_state = 3
+			transfer_state = 847
+			transfer_state = 845
+		}
+		
+		#Italian Occupation Zone
+		ITA = {
+			transfer_state = 846
+			846 = { remove_core_of = GER }
+		}
+		
+		# Romandie to France
+		if = {
+			limit = {
+				country_exists = FRA
+				FRA = { NOT = { has_war_with = GER }  }
+			}
+			FRA = {
+				transfer_state = 845
+				845 = { remove_core_of = GER }
+			}
+		}	
+		
+		# Romandie to Vichy
+		if = {
+			limit = {
+				country_exists = VIC
+				VIC = { NOT = { has_war_with = GER }  }
+			}
+			VIC = {
+				transfer_state = 845
+				845 = { remove_core_of = GER }
+			}
+		}	
+			
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.2 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of Switzerland
+news_event = {
+	id = EW_Germany_News.2
+	title = EW_Germany_News.2.t
+	desc = EW_Germany_News.2.d
+	picture = GFX_news_event_Partition_Switzerland_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.2.a
+	}
+}
+
+#Fate of Czechoslovakia (Conquest)
+country_event = {
+	id = EW_Germany_Country.3
+	title = EW_Germany_Country.3.t
+	desc = EW_Germany_Country.3.d
+	picture = GFX_report_event_Partition_Czechoslovakia_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.3.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Germany Takes Sudetenland
+		GER = {
+			transfer_state = 69
+			transfer_state = 74
+		}
+		
+		#Germany Takes Zaolzie
+		GER = {
+			transfer_state = 72
+		}
+		
+		#Slovakia Released
+		SLO = {
+			transfer_state = 70
+			transfer_state = 71
+			transfer_state = 664
+			transfer_state = 73
+			70 = { add_core_of = SLO }
+			71 = { add_core_of = SLO }
+			664 = { add_core_of = SLO }
+			73 = { add_core_of = SLO }
+		}
+		
+		#Hungary Gets Territory
+		HUN = {
+			transfer_state = 664
+			transfer_state = 73
+		}
+		
+		#Poland Gets Zaolzie
+		if = {
+			limit = {
+				country_exists = POL
+				POL = { NOT = { has_war_with = GER }  }
+			}
+			POL = {
+				transfer_state = 72
+			}
+		}	
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = SLO
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = SLO
+				}
+			}
+		}
+		
+		hidden_effect = {  
+			GER = { annex_country = { target = CZE } } 
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.3 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Hungary Gets Slovakia
+		name = EW_Germany_Country.3.b
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Germany Takes Sudetenland
+		GER = {
+			transfer_state = 69
+			transfer_state = 74
+		}
+		
+		#Germany Takes Zaolzie
+		GER = {
+			transfer_state = 72
+		}
+		
+		#Slovakia Cores Appear
+		SLO = {
+			70 = { add_core_of = SLO }
+			71 = { add_core_of = SLO }
+			664 = { add_core_of = SLO }
+			73 = { add_core_of = SLO }
+		}
+		
+		#Hungary Gets Territory
+		HUN = {
+			transfer_state = 70
+			transfer_state = 71
+			transfer_state = 664
+			transfer_state = 73
+		}
+		
+		#Poland Gets Zaolzie
+		if = {
+			limit = {
+				country_exists = POL
+				POL = { NOT = { has_war_with = GER }  }
+			}
+			POL = {
+				transfer_state = 72
+			}
+		}	
+		
+		hidden_effect = {  
+			GER = { annex_country = { target = CZE } } 
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.3 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of Czechoslovakia
+news_event = {
+	id = EW_Germany_News.3
+	title = EW_Germany_News.3.t
+	desc = EW_Germany_News.3.d
+	picture = GFX_news_event_Partition_Czechoslovakia_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.3.a
+	}
+}
+
+#Fate of Romania (Conquest)
+country_event = {
+	id = EW_Germany_Country.4
+	title = EW_Germany_Country.4.t
+	desc = EW_Germany_Country.4.d
+	picture = GFX_report_event_Partition_Romania_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.4.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Romania Gets Core States
+		GER = {
+			release = ROM
+		}
+		
+		#Hungary Takes Northern Transylvania
+		HUN = {
+			transfer_state = 76
+		}
+		
+		#Bulgaria takes Dobrudja
+		BUL = {
+			transfer_state = 77
+		}
+		
+		#Soviets Get Land
+		if = {
+			limit = {
+				country_exists = SOV
+				SOV = { NOT = { has_war_with = GER }  }
+				SOV = { NOT = { is_subject_of = GER } }
+				NOT = { GER = { owns_state = 219 } }
+			}
+			SOV = {
+				transfer_state = 80
+				transfer_state = 78
+				transfer_state = 766
+			}
+		}	
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = ROM
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = ROM
+				}
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.4 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Hungary gets all of Transylvania
+		name = EW_Germany_Country.4.b
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Romania Gets Core States
+		GER = {
+			release = ROM
+		}
+		
+		#Hungary Takes ALL Transylvania
+		HUN = {
+			transfer_state = 76
+			transfer_state = 82
+			transfer_state = 83
+			transfer_state = 76
+		}
+		
+		#Bulgaria takes Dobrudja
+		BUL = {
+			transfer_state = 77
+		}
+		
+		#Soviets Get Land
+		if = {
+			limit = {
+				country_exists = SOV
+				SOV = { NOT = { has_war_with = GER }  }
+				SOV = { NOT = { is_subject_of = GER } }
+				NOT = { GER = { owns_state = 219 } }
+			}
+			SOV = {
+				transfer_state = 80
+				transfer_state = 78
+				transfer_state = 766
+			}
+		}	
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = ROM
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = ROM
+				}
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.4 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of Romania
+news_event = {
+	id = EW_Germany_News.4
+	title = EW_Germany_News.4.t
+	desc = EW_Germany_News.4.d
+	picture = GFX_news_event_Partition_Romania_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.4.a
+	}
+}
+
+#Dutch East Indies
+country_event = {
+	id = EW_Germany_Country.5
+	title = EW_Germany_Country.5.t
+	desc = EW_Germany_Country.5.d
+	picture = GFX_report_event_Dutch_East_Indies_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.5.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Dutch get them as Puppets
+		if = {
+			limit = {
+				country_exists = INS
+				INS = { is_subject_of = GER }
+				NOT = { ROOT = { is_subject_of = GER } }
+			}
+			ROOT = {
+				puppet = INS
+			}
+		}
+		
+		#Dutch get them as Puppets
+		if = {
+			limit = {
+				country_exists = INS
+				INS = { is_subject_of = GER }
+				ROOT = { is_subject_of = GER }
+			}
+			ROOT = { annex_country = { target = INS } } 
+		}
+		
+		#Dutch get them as Puppets
+		if = {
+			limit = {
+				NOT = { country_exists = INS }
+			}
+			GER = { release = INS }
+			ROOT = { annex_country = { target = INS } } 
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.5 hours = 6 }
+		}
+
+	}
+}
+
+#Dutch_East_Indies
+news_event = {
+	id = EW_Germany_News.5
+	title = EW_Germany_News.5.t
+	desc = EW_Germany_News.5.d
+	picture = GFX_news_event_Dutch_East_Indies_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.5.a
+	}
+}
+
+# Swiss Anschluss Completed
+country_event = {
+	id = EW_Germany_Country.14
+	title = EW_Germany_Country.14.t
+	desc = EW_Germany_Country.14.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_named_threat = { threat = 10 name = "Swiss Anschluss" }
+		}
+	}
+
+	option = {
+		name = EW_Germany_Country.14.a
+		every_state = {
+			limit = {
+				is_core_of = SWI
+				NOT = { is_owned_by = ITA }
+			}
+			add_core_of = GER
+		}
+		SWI = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		annex_country = { target = SWI transfer_troops = yes }
+		add_political_power = 75
+		set_country_flag = SWI_annexed
+		add_war_support = 0.1
+		add_stability = 0.05
+		#USA = {
+		#	set_country_flag = { flag = USA_anschluss_window days = 60 #value = 1 }
+		#}
+		custom_effect_tooltip = anschluss_mefo_bills_tt
+		hidden_effect = { # Having it appear twice might be confusing
+			GER_mefo_bills_level_down = yes
+			GER_mefo_bills_level_down = yes
+		}
+		custom_effect_tooltip = anschluss_mefo_bills_double_reduction
+		add_to_variable = { var = GER_mefo_bill_counter value = -10 }
+
+		hidden_effect = {
+			news_event = { hours = 6 id = EW_Germany_News.136 }
+		}
+	}
+}
+
+# Switzerland asked about Anschluss
+country_event = {
+	id = EW_Germany_Country.128
+	title = EW_Germany_Country.128.t
+	desc = EW_Germany_Country.128.d
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = EW_Germany_Country.128.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 100
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				is_in_faction_with = GER
+			}
+			modifier = {
+				add = 20
+				has_government = fascism
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = EW_Germany_Country.14 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+	option = { # Refuse
+		name = EW_Germany_Country.128.b
+		ai_chance = {
+			base = 10
+			#modifier = {
+				#factor = 0
+				#is_historical_focus_on = yes
+				#NOT = { HUN = { has_completed_focus = HUN_protect_austria } }
+			#}
+			modifier = {
+				GER = { has_army_size = { size > 39 } }
+				factor = 0.5
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+			#modifier = {
+			#	add = 100
+			#	AUS = {
+			#
+			#		is_in_faction_with = SWI
+			#
+			#	}
+			#}
+			modifier = {
+				factor = 2
+				is_in_faction = yes
+				NOT = { is_in_faction_with = GER }
+			}
+			modifier = {
+				any_other_country = {
+					has_guaranteed = SWI
+				}
+				factor = 5
+			}
+			#If Germany is at war with Allies The Swiss Will Say No to Anschluss
+			modifier = {
+				add = 500
+				OR = {
+					USA = { has_war_with = GER }
+					SOV = { has_war_with = GER }
+					ENG = { has_war_with = GER }
+				}
+			}
+		}
+		GER = {
+			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
+			country_event = { hours = 2 id = EW_Germany_Country.129 }
+			if = { limit = { is_in_faction_with = SWI }
+				remove_from_faction = SWI
+			}
+		}
+	}
+}
+
+### Switzerland refuses Anschluss
+country_event = {
+	id = EW_Germany_Country.129
+	title = EW_Germany_Country.129.t
+	desc = EW_Germany_Country.129.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.129.a
+		every_state = { 
+			limit = { 
+				is_core_of = SWI
+			} 
+			GER = {
+				add_state_claim = PREV
+			}
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = SWI
+		}
+	}
+}
+
+## Anschluss of Austria
+news_event = {
+	id = EW_Germany_News.136
+	title = EW_Germany_News.136.t
+	desc = EW_Germany_News.136.d
+	picture = GFX_news_event_german_speech
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.136.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ITA
+				TAG = FRA
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = EW_Germany_News.136.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = EW_Germany_News.136.c
+		trigger = { TAG = ITA }
+	}
+	option = {
+		name = EW_Germany_News.136.e
+		trigger = {
+			OR = {
+				TAG = FRA
+				TAG = ENG
+			}
+		}
+	}
+}
+
+##Axis Occupation of Poland
+country_event = {
+	id = EW_Germany_Country.15
+	title = EW_Germany_Country.15.t
+	desc = EW_Germany_Country.15.d
+	picture = GFX_report_event_Partition_Poland_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.15.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		
+		GER = {
+			#German Cores
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 807
+			transfer_state = 762
+			#German Annexations
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 72
+			#General Government
+			transfer_state = 10
+			transfer_state = 88
+			transfer_state = 90
+			transfer_state = 92
+			#annex_country = {
+			#	target = POL
+			#}
+		}
+		
+		#Soviet Cores
+		SOV = {
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 89
+			transfer_state = 97
+		}
+		
+		if = {
+			limit = {
+				LIT = { exists = yes }
+			}
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 784
+			}
+		}
+		
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.15 hours = 6 }
+		}
+		
+		clr_global_flag = sov_yes_pact
+
+	}
+	
+	option = {
+		#1914 Borders
+		name = EW_Germany_Country.15.b
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		
+		GER = {
+			#German Cores
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 807
+			transfer_state = 762
+			#annex_country = {
+			#	target = POL
+			#}
+		}
+		
+		#Soviet Cores
+		SOV = {
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 97
+			#German Annexations
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 72
+			#General Government
+			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 92
+		}
+		
+		if = {
+			limit = {
+				LIT = { exists = yes }
+			}
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 784
+			}
+		}
+		
+		if = {
+			limit = {
+				AUS = { is_in_faction_with = GER }
+			}
+			AUS = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 72
+			}
+		}
+		else_if = {
+			limit = {
+				HUN = { is_in_faction_with = GER }
+				has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+			}
+			HUN = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.15 hours = 6 }
+		}
+		
+		clr_global_flag = sov_yes_pact
+
+	}
+	
+	option = {
+		#1795 Borders
+		name = EW_Germany_Country.15.c
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		
+		GER = {
+			#German Cores
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 807
+			transfer_state = 762
+			#annex_country = {
+			#	target = POL
+			#}
+			#German Annexations
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 97
+			transfer_state = 72
+		}
+		
+		#Soviet Cores
+		SOV = {
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+		}
+		
+		if = {
+			limit = {
+				LIT = { exists = yes }
+			}
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 784
+			}
+		}
+		
+		if = {
+			limit = {
+				AUS = { is_in_faction_with = GER }
+			}
+			AUS = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 92
+				transfer_state = 72
+			}
+		}
+		else_if = {
+			limit = {
+				HUN = { is_in_faction_with = GER }
+				has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+			}
+			HUN = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 92
+			}
+		}
+		else = {
+			GER = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 92
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.15 hours = 6 }
+		}
+		
+		clr_global_flag = sov_yes_pact
+
+	}
+	
+	option = {
+		#Prussian Borders
+		name = EW_Germany_Country.15.e
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		
+		GER = {
+			#German Cores
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 807
+			transfer_state = 762
+			#annex_country = {
+			#	target = POL
+			#}
+			#German Annexations
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 97
+			transfer_state = 72
+		}
+		
+		#Soviet Cores
+		SOV = {
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+		}
+		
+		if = {
+			limit = {
+				LIT = { exists = yes }
+			}
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 784
+			}
+		}
+		
+		if = {
+			limit = {
+				AUS = { is_in_faction_with = GER }
+			}
+			AUS = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 92
+				transfer_state = 72
+			}
+		}
+		else_if = {
+			limit = {
+				HUN = { is_in_faction_with = GER }
+				has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+			}
+			HUN = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 92
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 88
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 92
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.15 hours = 6 }
+		}
+		
+		clr_global_flag = sov_yes_pact
+
+	}
+
+}
+
+#Axis Occupation of Poland
+news_event = {
+	id = EW_Germany_News.15
+	title = EW_Germany_News.15.t
+	desc = EW_Germany_News.15.d
+	picture = GFX_news_event_Partition_Poland_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.15.a
+	}
+}
+
+#Axis Occupation of USSR
+country_event = {
+	id = EW_Germany_Country.16
+	title = EW_Germany_Country.16.t
+	desc = EW_Germany_Country.16.d
+	picture = GFX_report_event_Partition_USSR_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		##Historical Partition
+		name = EW_Germany_Country.16.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		GER = {
+			release = SOV
+		}
+		
+		GER = { 
+			every_state = { 
+				limit = { 
+					is_core_of = SOV
+						OR = {
+							state = 351
+							state = 262
+							state = 581
+							state = 573
+							state = 582
+							state = 999
+							state = 406
+							state = 236
+							state = 407
+							state = 401
+							state = 239
+							state = 400
+							state = 398
+							state = 252
+							state = 255
+							state = 256
+							state = 397
+							state = 399
+							state = 249
+							state = 651
+							state = 652
+							state = 250
+							state = 251
+							state = 825
+							state = 880
+							state = 829
+							state = 833
+							is_on_continent = europe
+							state = 826
+							state = 229
+							state = 230
+							state = 231
+						}
+				} 
+			GER = { transfer_state = PREV } 
+			}
+		}
+		
+		# Poland
+		if = {
+			limit = {
+				OR = {
+					POL = { has_capitulated = yes }
+					POL = { exists = no }
+					POL = { is_ai = yes }
+				}
+			}
+			GER = {
+				every_state = { 
+					limit = {
+						is_core_of = POL
+						NOT = { state = 784 } 
+
+					} 
+					GER = { transfer_state = PREV } 
+				}
+			}
+			if = {
+				limit = {
+					LIT = { exists = yes }
+				}
+				LIT = {
+					transfer_state = 784
+				}
+			}
+			else = {
+				GER = {
+					transfer_state = 784
+				}
+			}
+		}
+		
+		# Baltics
+		if = {
+			limit = {
+				OR = {
+					LIT = { has_capitulated = yes }
+					LIT = { exists = no }
+					LIT = { is_ai = yes }
+				}
+			}
+			GER = {
+				every_state = { 
+					limit = {
+						OR = {
+							is_core_of = LIT
+							state = 784
+						} 
+					} 
+					GER = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					LAT = { has_capitulated = yes }
+					LAT = { exists = no }
+					LAT = { is_ai = yes }
+				}
+			}
+			GER = {
+				every_state = { 
+					limit = { 
+						is_core_of = LAT
+					} 
+					GER = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					EST = { has_capitulated = yes }
+					EST = { exists = no }
+					EST = { is_ai = yes }
+				}
+			}
+			GER = {
+				every_state = { 
+					limit = { 
+						is_core_of = EST
+					} 
+					GER = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				FIN = { exists = yes }
+				NOT = { FIN = { has_war_with = GER } }
+			}
+			FIN = {
+				transfer_state = 213
+				transfer_state = 215
+				transfer_state = 216
+				transfer_state = 146
+				transfer_state = 147
+				transfer_state = 722
+			}
+		}
+		
+		if = {
+			limit = {
+				ROM = { exists = yes }
+				NOT = { ROM = { has_war_with = GER } }
+			}
+			ROM = {
+				transfer_state = 80
+				transfer_state = 78
+				transfer_state = 766
+				transfer_state = 198
+				transfer_state = 834
+				transfer_state = 192
+			}
+		}
+		
+		if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 655
+				transfer_state = 637
+				transfer_state = 822
+				transfer_state = 874
+				transfer_state = 562
+				transfer_state = 644
+				transfer_state = 877
+				transfer_state = 574
+				transfer_state = 876
+				transfer_state = 575
+				transfer_state = 567
+				transfer_state = 566
+				transfer_state = 564
+				transfer_state = 565
+				transfer_state = 563
+				transfer_state = 875
+			}
+			# Manchuko
+			if = {
+				limit = {
+					MAN = { exists = yes }
+				}
+				MAN = {
+					transfer_state = 561
+					transfer_state = 657
+					transfer_state = 560
+					transfer_state = 408
+					transfer_state = 409
+				}
+				else = {
+					JAP = {
+						transfer_state = 561
+						transfer_state = 657
+						transfer_state = 560
+						transfer_state = 408
+						transfer_state = 409
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						MON = { has_capitulated = yes }
+						MON = { exists = no }
+						MON = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = MON
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+				if = {
+					limit = {
+						MEN = { exists = yes }
+					}
+					MEN = {
+						every_state = { 
+								limit = { 
+									is_core_of = MON
+								} 
+								MEN = { transfer_state = PREV } 
+							}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						TAN = { has_capitulated = yes }
+						TAN = { exists = no }
+						TAN = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = TAN
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+				if = {
+					limit = {
+						TAN = { exists = yes }
+					}
+					MEN = {
+						every_state = { 
+								limit = { 
+									is_core_of = TAN
+								} 
+								MEN = { transfer_state = PREV } 
+							}
+					}
+				}
+			}
+		}
+		
+		KAZ = {
+			transfer_state = 402
+			transfer_state = 404
+			transfer_state = 586
+			transfer_state = 831
+			transfer_state = 742
+			transfer_state = 832
+			transfer_state = 405
+			transfer_state = 584
+			transfer_state = 830
+			transfer_state = 585
+			transfer_state = 587
+			transfer_state = 823
+			transfer_state = 832
+			transfer_state = 732
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = SOV
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = KAZ
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = SOV
+					puppet = KAZ
+				}
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.16 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of USSR
+news_event = {
+	id = EW_Germany_News.16
+	title = EW_Germany_News.16.t
+	desc = EW_Germany_News.16.d
+	picture = GFX_news_event_Partition_USSR_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.16.a
+	}
+}
+
+##Axis Occupation of France
+country_event = {
+	id = EW_Germany_Country.17
+	title = EW_Germany_Country.17.t
+	desc = EW_Germany_Country.17.d
+	picture = GFX_report_event_Partition_France_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.17.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = {
+			GER = {
+				release = FRA
+				release = SYR
+				release = LEB
+				release = MOR
+				release = ALG
+			}
+			
+			FRA = {
+				release = SYR
+				release = LEB
+				release = MOR
+				release = ALG
+			}
+		}
+		
+		#German Annexations France
+		GER = {
+			transfer_state = 28
+			transfer_state = 29
+		}
+		
+		#German Annexations Africa
+		GER = {
+			transfer_state = 708
+			transfer_state = 543
+			transfer_state = 706
+			transfer_state = 772
+			transfer_state = 539
+			transfer_state = 773
+			transfer_state = 660
+			transfer_state = 776
+			transfer_state = 777
+			transfer_state = 779
+			transfer_state = 780
+			transfer_state = 272
+		}
+		
+		#Canada Gets St Pierre
+		if = {
+			limit = {
+				CAN = { exists = yes }
+			}
+			CAN = {
+				transfer_state = 730
+			}
+		}
+		
+		if = {
+			limit = {
+				BEL = { exists = yes }
+				NOT = { BEL = { has_war_with = GER } }
+			}
+			BEL = {
+				transfer_state = 29
+			}
+		}
+		
+		if = {
+			limit = {
+				ITA = { exists = yes }
+				NOT = { ITA = { has_war_with = GER } }
+			}
+			ITA = {
+				transfer_state = 735
+				transfer_state = 1
+				transfer_state = 458
+				transfer_state = 665
+				transfer_state = 268
+			}
+		}
+		
+		if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 671
+				transfer_state = 670
+				transfer_state = 286
+				transfer_state = 741
+				transfer_state = 320
+				transfer_state = 728
+				transfer_state = 641
+				transfer_state = 635
+				transfer_state = 734
+			}
+		}
+		
+		if = {
+				limit = {
+					RAJ = { exists = yes }
+				}
+				RAJ = { transfer_state = 320 }
+			}
+		
+		FRA  = { 
+			add_country_leader_role = {
+				character = FRA_philippe_petain
+				country_leader = {
+					ideology = fascism_ideology 
+					expire = "1965.1.1.1"
+					id = -1
+				}
+				promote_leader = yes 
+			}
+			set_cosmetic_tag = FRA_VICHY 
+			annex_country = { target = ALG }
+		}
+		
+		if = {
+			limit = {
+				SPR = { exists = yes }
+				NOT = { SPR = { has_war_with = GER } }
+			}
+			SPR = {
+				transfer_state = 461
+				transfer_state = 462
+				annex_country = { target = MOR }
+			}
+		}
+		else = {
+			FRA = {
+				transfer_state = 461
+				transfer_state = 462
+				annex_country = { target = MOR }
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = FRA
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SYR
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = LEB
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = FRA
+					puppet = SYR
+					puppet = LEB
+				}
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.17 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of France
+news_event = {
+	id = EW_Germany_News.17
+	title = EW_Germany_News.17.t
+	desc = EW_Germany_News.17.d
+	picture = GFX_news_event_Partition_France_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.17.a
+	}
+}
+
+#Axis Occupation of Britain
+country_event = {
+	id = EW_Germany_Country.18
+	title = EW_Germany_Country.18.t
+	desc = EW_Germany_Country.18.d
+	picture = GFX_report_event_Partition_Britain_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.18.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = {
+		GER = {
+			release = ENG
+			release = EGY
+			release = SUD
+			release = JOR
+			release = PAL
+			release = SAF
+			release = CAN
+		}
+		
+		ENG = {
+			release = EGY
+			release = SUD
+			release = JOR
+			release = PAL
+			release = SAF
+			release = CAN
+		}
+		
+		}
+		
+		#German Gains In Africa
+		GER = {
+			transfer_state = 770
+			transfer_state = 771
+			transfer_state = 546
+			transfer_state = 905
+			transfer_state = 547
+			transfer_state = 904
+			transfer_state = 548
+			transfer_state = 900
+			transfer_state = 901
+			transfer_state = 902
+			transfer_state = 558
+			transfer_state = 274
+			transfer_state = 700
+			transfer_state = 701
+			transfer_state = 703
+			transfer_state = 704
+			transfer_state = 709
+			transfer_state = 707
+		}
+		
+		hidden_effect = {
+		SAF = {
+			every_state = { 
+				limit = { 
+					is_core_of = SAF
+				} 
+				SAF = { transfer_state = PREV } 
+			}
+		}
+		
+		CAN = {
+			every_state = { 
+				limit = { 
+					is_core_of = CAN
+				} 
+				CAN = { transfer_state = PREV } 
+			}
+		}
+		}
+		
+		if = {
+			limit = {
+				ITA = { exists = yes }
+				NOT = { ITA = { has_war_with = GER } }
+			}
+			ITA = {
+				transfer_state = 116
+				transfer_state = 183
+				transfer_state = 269
+				transfer_state = 903
+				transfer_state = 906
+				annex_country = { target = EGY }
+				annex_country = { target = SUD }
+				every_state = { 
+					limit = { 
+						OR = { is_core_of = EGY }
+						OR = { is_core_of = SUD }
+					} 
+					ITA = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 733
+				transfer_state = 422
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 725
+				transfer_state = 711
+				transfer_state = 712
+				transfer_state = 523
+				transfer_state = 737
+				transfer_state = 634
+				#Canada Gains
+				transfer_state = 471
+				transfer_state = 473
+				transfer_state = 864
+				transfer_state = 739
+				transfer_state = 740
+				#Hong Kong
+				transfer_state = 326
+			}
+			if = {
+				limit = {
+					OR = {
+						RAJ = { has_capitulated = yes }
+						RAJ = { exists = no }
+						RAJ = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+								OR = {
+									is_core_of = RAJ
+									is_core_of = PAK
+									is_core_of = BAN
+									is_core_of = BRM
+									state = 422
+								}
+								NOT = { state = 320 }
+								NOT = { state = 321 }
+						} 
+						RAJ = { transfer_state = PREV } 
+					}
+					if = {
+						limit = {
+							JAP = { owns_state = 320 }
+						}
+						RAJ = { transfer_state = 320 }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							NEP = { has_capitulated = yes }
+							NEP = { exists = no }
+							NEP = { is_ai = yes }
+						}
+					}
+					JAP = {
+						every_state = { 
+							limit = { 
+								is_core_of = NEP
+							} 
+							RAJ = { transfer_state = PREV } 
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							BHU = { has_capitulated = yes }
+							BHU = { exists = no }
+							BHU = { is_ai = yes }
+						}
+					}
+					JAP = {
+						every_state = { 
+							limit = { 
+								is_core_of = BHU
+							} 
+							RAJ = { transfer_state = PREV } 
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+					JAP = {
+						set_autonomy = {
+							target = RAJ
+							autonomous_state = autonomy_satellite
+							freedom_level = 0.1
+						}
+					}
+					else = {
+						JAP = {
+							puppet = RAJ
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						MAL = { has_capitulated = yes }
+						MAL = { exists = no }
+						MAL = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = MAL
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AST = { has_capitulated = yes }
+						AST = { exists = no }
+						AST = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = AST
+						} 
+						JAP = { transfer_state = PREV } 
+						}
+						JAP = { 
+							release = AST 
+						}
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							JAP = {
+								set_autonomy = {
+									target = AST
+									autonomous_state = autonomy_satellite
+									freedom_level = 0.1
+								}
+							}
+							else = {
+								JAP = {
+									puppet = AST
+								}
+							}
+						}
+					
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						NZL = { has_capitulated = yes }
+						NZL = { exists = no }
+						NZL = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = NZL
+						} 
+						JAP = { transfer_state = PREV } 
+						}
+						JAP = { 
+							release = NZL 
+						}
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							JAP = {
+								set_autonomy = {
+									target = NZL
+									autonomous_state = autonomy_satellite
+									freedom_level = 0.1
+								}
+							}
+							else = {
+								JAP = {
+									puppet = NZL
+								}
+							}
+						}
+					}
+				}
+			}
+		
+		if = {
+			limit = {
+				IRE = { exists = yes }
+			}
+			IRE = {
+				transfer_state = 119
+			}
+		}
+		
+		if = {
+			limit = {
+				SAF = { exists = yes }
+			}
+			SAF = {
+				transfer_state = 542
+				transfer_state = 545
+			}
+		}
+		
+		if = {
+			limit = {
+				CAN = { exists = yes }
+			}
+			CAN = {
+				transfer_state = 331
+				transfer_state = 332
+			}
+		}
+		
+		if = {
+			limit = {
+				IRQ = { exists = yes }
+			}
+			IRQ = {
+				transfer_state = 656
+			}
+		}
+		
+		if = {
+			limit = {
+				SAU = { exists = yes }
+			}
+			SAU = {
+				transfer_state = 765
+				transfer_state = 658
+			}
+		}
+		
+		if = {
+			limit = {
+				YEM = { exists = yes }
+			}
+			YEM = {
+				transfer_state = 659
+			}
+		}
+		
+		#ENG  = { 
+		#	set_cosmetic_tag = ENG_england
+		#}
+		
+		if = {
+			limit = {
+				SPR = { exists = yes }
+				NOT = { SPR = { has_war_with = GER } }
+			}
+			SPR = {
+				transfer_state = 118
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = ENG
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = PAL
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = JOR
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SAF
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = CAN
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = ENG
+					puppet = PAL
+					puppet = JOR
+					puppet = SAF
+					puppet = CAN
+				}
+			}
+		}
+		
+		# Handle Ireland If It Doesn't Exist
+		if = {
+			limit = {
+				IRE = { exists = no }
+			}
+			hidden_effect = {
+				IRE = {
+					every_state = { 
+						limit = { 
+							is_core_of = IRE
+						} 
+						IRE = { transfer_state = PREV } 
+					}
+				}
+			}
+			# Puppets
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
+				GER = {
+					set_autonomy = {
+						target = IRE
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+				}
+				else = {
+					GER = {
+						puppet = IRE
+					}
+				}
+			}
+		}
+		
+		# Axis US Gets Canada
+		if = {
+			limit = {
+				OR = {
+					USA = { is_subject_of = GER }
+					USA = { is_in_faction_with = GER }
+				}
+			}
+			USA = {
+				annex_country = { target = CAN }
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.18 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.18.b
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = {
+		GER = {
+			release = ENG
+			release = EGY
+			release = SUD
+			release = JOR
+			release = PAL
+			release = SCO
+			release = WLS
+			release = SAF
+			release = CAN
+		}
+		
+		ENG = {
+			release = EGY
+			release = SUD
+			release = JOR
+			release = PAL
+			release = SCO
+			release = WLS
+			release = SAF
+			release = CAN
+		}
+		}
+		
+		hidden_effect = {
+		SAF = {
+			every_state = { 
+				limit = { 
+					is_core_of = SAF
+				} 
+				SAF = { transfer_state = PREV } 
+			}
+		}
+		
+		CAN = {
+			every_state = { 
+				limit = { 
+					is_core_of = CAN
+				} 
+				CAN = { transfer_state = PREV } 
+			}
+		}
+		}
+		
+		#German Gains In Africa
+		GER = {
+			transfer_state = 770
+			transfer_state = 771
+			transfer_state = 546
+			transfer_state = 905
+			transfer_state = 547
+			transfer_state = 904
+			transfer_state = 548
+			transfer_state = 900
+			transfer_state = 901
+			transfer_state = 902
+			transfer_state = 558
+			transfer_state = 274
+			transfer_state = 700
+			transfer_state = 701
+			transfer_state = 703
+			transfer_state = 704
+			transfer_state = 709
+			transfer_state = 707
+		}
+		
+		if = {
+			limit = {
+				ITA = { exists = yes }
+				NOT = { ITA = { has_war_with = GER } }
+			}
+			ITA = {
+				transfer_state = 116
+				transfer_state = 183
+				transfer_state = 269
+				transfer_state = 903
+				transfer_state = 906
+				annex_country = { target = EGY }
+				annex_country = { target = SUD }
+				every_state = { 
+					limit = { 
+						OR = { is_core_of = EGY }
+						OR = { is_core_of = SUD }
+					} 
+					ITA = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 733
+				transfer_state = 422
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 725
+				transfer_state = 711
+				transfer_state = 712
+				transfer_state = 523
+				transfer_state = 737
+				transfer_state = 634
+				#Canada Gains
+				transfer_state = 471
+				transfer_state = 473
+				transfer_state = 864
+				transfer_state = 739
+				transfer_state = 740
+			}
+			if = {
+				limit = {
+					OR = {
+						RAJ = { has_capitulated = yes }
+						RAJ = { exists = no }
+						RAJ = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+								OR = {
+									is_core_of = RAJ
+									is_core_of = PAK
+									is_core_of = BAN
+									is_core_of = BRM
+									state = 422
+								}
+								NOT = { state = 320 }
+								NOT = { state = 321 }
+						} 
+						RAJ = { transfer_state = PREV } 
+					}
+					if = {
+						limit = {
+							JAP = { owns_state = 320 }
+						}
+						RAJ = { transfer_state = 320 }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							NEP = { has_capitulated = yes }
+							NEP = { exists = no }
+							NEP = { is_ai = yes }
+						}
+					}
+					JAP = {
+						every_state = { 
+							limit = { 
+								is_core_of = NEP
+							} 
+							RAJ = { transfer_state = PREV } 
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							BHU = { has_capitulated = yes }
+							BHU = { exists = no }
+							BHU = { is_ai = yes }
+						}
+					}
+					JAP = {
+						every_state = { 
+							limit = { 
+								is_core_of = BHU
+							} 
+							RAJ = { transfer_state = PREV } 
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+					JAP = {
+						set_autonomy = {
+							target = RAJ
+							autonomous_state = autonomy_satellite
+							freedom_level = 0.1
+						}
+					}
+					else = {
+						JAP = {
+							puppet = RAJ
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						MAL = { has_capitulated = yes }
+						MAL = { exists = no }
+						MAL = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = MAL
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AST = { has_capitulated = yes }
+						AST = { exists = no }
+						AST = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = AST
+						} 
+						JAP = { transfer_state = PREV } 
+						}
+						JAP = { 
+							release = AST 
+						}
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							JAP = {
+								set_autonomy = {
+									target = AST
+									autonomous_state = autonomy_satellite
+									freedom_level = 0.1
+								}
+							}
+							else = {
+								JAP = {
+									puppet = AST
+								}
+							}
+						}
+					
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						NZL = { has_capitulated = yes }
+						NZL = { exists = no }
+						NZL = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = NZL
+						} 
+						JAP = { transfer_state = PREV } 
+						}
+						JAP = { 
+							release = NZL 
+						}
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							JAP = {
+								set_autonomy = {
+									target = NZL
+									autonomous_state = autonomy_satellite
+									freedom_level = 0.1
+								}
+							}
+							else = {
+								JAP = {
+									puppet = NZL
+								}
+							}
+						}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				IRE = { exists = yes }
+			}
+			IRE = {
+				transfer_state = 119
+			}
+		}
+		
+		if = {
+			limit = {
+				SAF = { exists = yes }
+			}
+			SAF = {
+				transfer_state = 542
+				transfer_state = 545
+			}
+		}
+		
+		if = {
+			limit = {
+				CAN = { exists = yes }
+			}
+			CAN = {
+				transfer_state = 331
+				transfer_state = 332
+			}
+		}
+		
+		if = {
+			limit = {
+				IRQ = { exists = yes }
+			}
+			IRQ = {
+				transfer_state = 656
+			}
+		}
+		
+		if = {
+			limit = {
+				SAU = { exists = yes }
+			}
+			SAU = {
+				transfer_state = 765
+				transfer_state = 658
+			}
+		}
+		
+		if = {
+			limit = {
+				YEM = { exists = yes }
+			}
+			YEM = {
+				transfer_state = 659
+			}
+		}
+		
+		SCO = {
+			every_state = { 
+				limit = { 
+					is_core_of = SCO
+				} 
+				SCO = { transfer_state = PREV } 
+			}
+		}
+			
+		WLS = {
+			every_state = { 
+				limit = { 
+					is_core_of = WLS
+				} 
+				WLS = { transfer_state = PREV } 
+			}
+		}
+		
+		ENG  = { 
+			set_cosmetic_tag = ENG_england
+		}
+		
+		if = {
+			limit = {
+				SPR = { exists = yes }
+				NOT = { SPR = { has_war_with = GER } }
+			}
+			SPR = {
+				transfer_state = 118
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = ENG
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = WLS
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SCO
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = PAL
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = JOR
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SAF
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = CAN
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = ENG
+					puppet = WLS
+					puppet = SCO
+					puppet = PAL
+					puppet = JOR
+					puppet = SAF
+					puppet = CAN
+				}
+			}
+		}
+		
+		# Handle Ireland If It Doesn't Exist
+		if = {
+			limit = {
+				IRE = { exists = no }
+			}
+			hidden_effect = {
+				IRE = {
+					every_state = { 
+						limit = { 
+							is_core_of = IRE
+						} 
+						IRE = { transfer_state = PREV } 
+					}
+				}
+			}
+			# Puppets
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
+				GER = {
+					set_autonomy = {
+						target = IRE
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+				}
+				else = {
+					GER = {
+						puppet = IRE
+					}
+				}
+			}
+		}
+		
+		# Axis US Gets Canada
+		if = {
+			limit = {
+				OR = {
+					USA = { is_subject_of = GER }
+					USA = { is_in_faction_with = GER }
+				}
+			}
+			USA = {
+				annex_country = { target = CAN }
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.18 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of Britain
+news_event = {
+	id = EW_Germany_News.18
+	title = EW_Germany_News.18.t
+	desc = EW_Germany_News.18.d
+	picture = GFX_news_event_Partition_Britain_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.18.a
+	}
+}
+
+#Fate of China (Conquest)
+country_event = {
+	id = EW_Germany_Country.19
+	title = EW_Germany_Country.19.t
+	desc = EW_Germany_Country.19.d
+	picture = GFX_report_event_Partition_China_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.19.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#China Gets Core States
+		JAP = {
+			release = CHI
+		}
+		
+			CHI = {
+				every_state = { 
+					limit = {
+						is_core_of = CHI
+						NOT = { is_core_of = MAN } 
+						NOT = { is_core_of = MEN }
+						NOT = { state = 728 }
+						NOT = { state = 729 }
+						NOT = { state = 326 }
+
+					} 
+					CHI = { transfer_state = PREV } 
+				}
+			}
+			
+			CHI = {
+				every_state = { 
+					limit = {
+						is_core_of = SHX
+					} 
+					CHI = { transfer_state = PREV } 
+				}
+			}
+			
+			if = {
+					limit = {
+						OR = {
+							TIB = { has_capitulated = yes }
+							TIB = { exists = no }
+							TIB = { is_ai = yes }
+						}
+					}
+					CHI = {
+						every_state = { 
+							limit = { 
+								is_core_of = TIB
+							} 
+							CHI = { transfer_state = PREV } 
+						}
+					}
+				}
+			
+			if = {
+					limit = {
+						MEN = { exists = yes }
+					}
+					MEN = {
+						every_state = { 
+								limit = { 
+									is_core_of = SHX
+									is_core_of = MEN
+								} 
+								MEN = { transfer_state = PREV } 
+							}
+					}
+				}
+		
+		#Japan Takes Coastal States
+		JAP = {
+			transfer_state = 524
+			transfer_state = 745
+			transfer_state = 609
+			transfer_state = 608
+			transfer_state = 614
+			transfer_state = 597
+			transfer_state = 743
+			transfer_state = 598
+			transfer_state = 613
+			transfer_state = 595
+			transfer_state = 596
+			transfer_state = 592
+			transfer_state = 593
+			transfer_state = 594
+			transfer_state = 591
+			#transfer_state = 728
+			#transfer_state = 729
+			#transfer_state = 326
+		}
+		
+				if = {
+					limit = {
+						OR = {
+						FRA = { is_subject_of = GER }
+						FRA = { exists = no }
+						FRA = { has_capitulated = yes }
+						}
+					}
+					JAP = {
+						transfer_state = 728
+					}
+				}
+				
+				if = {
+					limit = {
+						OR = {
+						ENG = { is_subject_of = GER }
+						ENG = { exists = no }
+						ENG = { has_capitulated = yes }
+						}
+					}
+					JAP = {
+						transfer_state = 326
+					}
+				}
+				
+				if = {
+					limit = {
+						OR = {
+						POR = { is_subject_of = GER }
+						POR = { exists = no }
+						POR = { has_capitulated = yes }
+						}
+					}
+					JAP = {
+						transfer_state = 729
+					}
+				}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			JAP = {
+				set_autonomy = {
+					target = CHI
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				JAP = {
+					puppet = CHI
+				}
+			}
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.19 hours = 6 }
+		}
+
+	}
+
+}
+
+#Axis Occupation of China
+news_event = {
+	id = EW_Germany_News.19
+	title = EW_Germany_News.19.t
+	desc = EW_Germany_News.19.d
+	picture = GFX_news_event_Partition_China_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.19.a
+	}
+}
+
+##Axis Victory
+country_event = {
+	id = EW_Germany_Country.20
+	title = EW_Germany_Country.20.t
+	desc = EW_Germany_Country.20.d
+	picture = GFX_report_event_Partition_France_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.20.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = {
+			GER = {
+				release = FRA
+				release = SYR
+				release = LEB
+				release = MOR
+				release = ALG
+			}
+			
+			FRA = {
+				release = SYR
+				release = LEB
+				release = MOR
+				release = ALG
+			}
+		}
+		
+		#German Annexations France
+		GER = {
+			transfer_state = 28
+			transfer_state = 29
+		}
+		
+		#German Annexations Africa
+		GER = {
+			transfer_state = 708
+			transfer_state = 543
+			transfer_state = 706
+			transfer_state = 772
+			transfer_state = 539
+			transfer_state = 773
+			transfer_state = 660
+			transfer_state = 776
+			transfer_state = 777
+			transfer_state = 779
+			transfer_state = 780
+			transfer_state = 272
+		}
+		
+		#Canada Gets St Pierre
+		if = {
+			limit = {
+				CAN = { exists = yes }
+			}
+			CAN = {
+				transfer_state = 730
+			}
+		}
+		
+		if = {
+			limit = {
+				BEL = { exists = yes }
+				NOT = { BEL = { has_war_with = GER } }
+			}
+			BEL = {
+				transfer_state = 29
+			}
+		}
+		
+		if = {
+			limit = {
+				ITA = { exists = yes }
+				NOT = { ITA = { has_war_with = GER } }
+			}
+			ITA = {
+				transfer_state = 735
+				transfer_state = 1
+				transfer_state = 458
+				transfer_state = 665
+				transfer_state = 268
+			}
+		}
+		
+		if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 671
+				transfer_state = 670
+				transfer_state = 286
+				transfer_state = 741
+				transfer_state = 320
+				transfer_state = 728
+				transfer_state = 641
+				transfer_state = 635
+				transfer_state = 734
+			}
+		}
+		
+		if = {
+				limit = {
+					RAJ = { exists = yes }
+				}
+				RAJ = { transfer_state = 320 }
+			}
+		
+		FRA  = { 
+			add_country_leader_role = {
+				character = FRA_philippe_petain
+				country_leader = {
+					ideology = fascism_ideology 
+					expire = "1965.1.1.1"
+					id = -1
+				}
+				promote_leader = yes 
+			}
+			set_cosmetic_tag = FRA_VICHY 
+			annex_country = { target = ALG }
+		}
+		
+		if = {
+			limit = {
+				SPR = { exists = yes }
+				NOT = { SPR = { has_war_with = GER } }
+			}
+			SPR = {
+				transfer_state = 461
+				transfer_state = 462
+				annex_country = { target = MOR }
+			}
+		}
+		else = {
+			FRA = {
+				transfer_state = 461
+				transfer_state = 462
+				annex_country = { target = MOR }
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = FRA
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SYR
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = LEB
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = FRA
+					puppet = SYR
+					puppet = LEB
+				}
+			}
+		}
+		
+		hidden_effect = {
+		GER = {
+			release = ENG
+			release = EGY
+			release = SUD
+			release = JOR
+			release = PAL
+			release = SAF
+			release = CAN
+		}
+		
+		ENG = {
+			release = EGY
+			release = SUD
+			release = JOR
+			release = PAL
+			release = SAF
+			release = CAN
+		}
+		
+		}
+		
+		#German Gains In Africa
+		GER = {
+			transfer_state = 770
+			transfer_state = 771
+			transfer_state = 546
+			transfer_state = 905
+			transfer_state = 547
+			transfer_state = 904
+			transfer_state = 548
+			transfer_state = 900
+			transfer_state = 901
+			transfer_state = 902
+			transfer_state = 558
+			transfer_state = 274
+			transfer_state = 700
+			transfer_state = 701
+			transfer_state = 703
+			transfer_state = 704
+			transfer_state = 709
+			transfer_state = 707
+		}
+		
+		hidden_effect = {
+		SAF = {
+			every_state = { 
+				limit = { 
+					is_core_of = SAF
+				} 
+				SAF = { transfer_state = PREV } 
+			}
+		}
+		
+		CAN = {
+			every_state = { 
+				limit = { 
+					is_core_of = CAN
+				} 
+				CAN = { transfer_state = PREV } 
+			}
+		}
+		}
+		
+		if = {
+			limit = {
+				ITA = { exists = yes }
+				NOT = { ITA = { has_war_with = GER } }
+			}
+			ITA = {
+				transfer_state = 116
+				transfer_state = 183
+				transfer_state = 269
+				transfer_state = 903
+				transfer_state = 906
+				annex_country = { target = EGY }
+				annex_country = { target = SUD }
+				every_state = { 
+					limit = { 
+						OR = { is_core_of = EGY }
+						OR = { is_core_of = SUD }
+					} 
+					ITA = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 733
+				transfer_state = 422
+				transfer_state = 636
+				transfer_state = 726
+				transfer_state = 643
+				transfer_state = 639
+				transfer_state = 725
+				transfer_state = 711
+				transfer_state = 712
+				transfer_state = 523
+				transfer_state = 737
+				transfer_state = 634
+				#Canada Gains
+				transfer_state = 471
+				transfer_state = 473
+				transfer_state = 864
+				transfer_state = 739
+				transfer_state = 740
+			}
+			if = {
+				limit = {
+					OR = {
+						RAJ = { has_capitulated = yes }
+						RAJ = { exists = no }
+						RAJ = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+								OR = {
+									is_core_of = RAJ
+									is_core_of = PAK
+									is_core_of = BAN
+									is_core_of = BRM
+									state = 422
+								}
+								NOT = { state = 320 }
+								NOT = { state = 321 }
+						} 
+						RAJ = { transfer_state = PREV } 
+					}
+					if = {
+						limit = {
+							JAP = { owns_state = 320 }
+						}
+						RAJ = { transfer_state = 320 }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							NEP = { has_capitulated = yes }
+							NEP = { exists = no }
+							NEP = { is_ai = yes }
+						}
+					}
+					JAP = {
+						every_state = { 
+							limit = { 
+								is_core_of = NEP
+							} 
+							RAJ = { transfer_state = PREV } 
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							BHU = { has_capitulated = yes }
+							BHU = { exists = no }
+							BHU = { is_ai = yes }
+						}
+					}
+					JAP = {
+						every_state = { 
+							limit = { 
+								is_core_of = BHU
+							} 
+							RAJ = { transfer_state = PREV } 
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+					JAP = {
+						set_autonomy = {
+							target = RAJ
+							autonomous_state = autonomy_satellite
+							freedom_level = 0.1
+						}
+					}
+					else = {
+						JAP = {
+							puppet = RAJ
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						MAL = { has_capitulated = yes }
+						MAL = { exists = no }
+						MAL = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = MAL
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AST = { has_capitulated = yes }
+						AST = { exists = no }
+						AST = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = AST
+						} 
+						JAP = { transfer_state = PREV } 
+						}
+						JAP = { 
+							release = AST 
+						}
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							JAP = {
+								set_autonomy = {
+									target = AST
+									autonomous_state = autonomy_satellite
+									freedom_level = 0.1
+								}
+							}
+							else = {
+								JAP = {
+									puppet = AST
+								}
+							}
+						}
+					
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						NZL = { has_capitulated = yes }
+						NZL = { exists = no }
+						NZL = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = NZL
+						} 
+						JAP = { transfer_state = PREV } 
+						}
+						JAP = { 
+							release = NZL 
+						}
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							JAP = {
+								set_autonomy = {
+									target = NZL
+									autonomous_state = autonomy_satellite
+									freedom_level = 0.1
+								}
+							}
+							else = {
+								JAP = {
+									puppet = NZL
+								}
+							}
+						}
+					}
+				}
+			}
+		
+		if = {
+			limit = {
+				IRE = { exists = yes }
+			}
+			IRE = {
+				transfer_state = 119
+			}
+		}
+		
+		if = {
+			limit = {
+				SAF = { exists = yes }
+			}
+			SAF = {
+				transfer_state = 542
+				transfer_state = 545
+			}
+		}
+		
+		if = {
+			limit = {
+				CAN = { exists = yes }
+			}
+			CAN = {
+				transfer_state = 331
+				transfer_state = 332
+			}
+		}
+		
+		if = {
+			limit = {
+				IRQ = { exists = yes }
+			}
+			IRQ = {
+				transfer_state = 656
+			}
+		}
+		
+		if = {
+			limit = {
+				SAU = { exists = yes }
+			}
+			SAU = {
+				transfer_state = 765
+				transfer_state = 658
+			}
+		}
+		
+		if = {
+			limit = {
+				YEM = { exists = yes }
+			}
+			YEM = {
+				transfer_state = 659
+			}
+		}
+		
+		#ENG  = { 
+		#	set_cosmetic_tag = ENG_england
+		#}
+		
+		if = {
+			limit = {
+				SPR = { exists = yes }
+				NOT = { SPR = { has_war_with = GER } }
+			}
+			SPR = {
+				transfer_state = 118
+			}
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = ENG
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = PAL
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = JOR
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = SAF
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+				set_autonomy = {
+					target = CAN
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = ENG
+					puppet = PAL
+					puppet = JOR
+					puppet = SAF
+					puppet = CAN
+				}
+			}
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.17 hours = 6 }
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.18 hours = 6 }
+		}
+		
+		#More Annexations
+		
+		#Italy gets Ethiopia
+		if = {
+			limit = {
+				ITA = { exists = yes }
+				NOT = { ITA = { has_war_with = GER } }
+			}
+			ITA = {
+				annex_country = { target = ETH }
+				annex_country = { target = AFA }
+				every_state = { 
+					limit = { 
+						OR = { is_core_of = ETH }
+						OR = { is_core_of = AFA }
+					} 
+					ITA = { transfer_state = PREV } 
+				}
+			}
+		}
+		
+			#Germany Annexes Liberia
+			if = {
+				limit = {
+					OR = {
+						LIB = { has_capitulated = yes }
+						LIB = { exists = no }
+						LIB = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = LIB
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+		
+			#Japanese Gains
+			if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 463
+				transfer_state = 385
+				transfer_state = 386
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 377
+				transfer_state = 387
+				transfer_state = 638
+				transfer_state = 632
+				transfer_state = 642
+				transfer_state = 727
+				transfer_state = 630
+				transfer_state = 632
+				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 650
+			}
+			if = {
+				limit = {
+					OR = {
+						PHI = { has_capitulated = yes }
+						PHI = { exists = no }
+						PHI = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = PHI
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						INS = { has_capitulated = yes }
+						INS = { exists = no }
+						INS = { is_ai = yes }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = INS
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+						POR = { is_subject_of = GER }
+						POR = { exists = no }
+						POR = { has_capitulated = yes }
+						}
+					}
+					JAP = {
+						transfer_state = 721
+					}
+				}
+			}
+		}
+		
+		GER = {
+			release = USA
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = USA
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = USA
+				}
+			}
+		}
+		
+		USA = {
+			annex_country = { target = CAN }
+		}
+		
+
+	}
+
+}
+
+#Axis Victory
+news_event = {
+	id = EW_Germany_News.20
+	title = EW_Germany_News.20.t
+	desc = EW_Germany_News.20.d
+	picture = GFX_news_event_Partition_France_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.20.a
+	}
+}
+
+##Axis Partition of USA
+country_event = {
+	id = EW_Germany_Country.21
+	title = EW_Germany_Country.21.t
+	desc = EW_Germany_Country.21.d
+	picture = GFX_report_event_Partition_North_America_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.21.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+			GER = {
+				transfer_state = 315
+				transfer_state = 318
+				transfer_state = 319
+				transfer_state = 686
+				transfer_state = 689
+				transfer_state = 692
+				transfer_state = 308
+				transfer_state = 694
+				transfer_state = 693
+				transfer_state = 690
+			}
+		
+			if = {
+				limit = {
+					OR = {
+						USA = { has_capitulated = yes }
+						USA = { exists = no }
+						USA = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = USA
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+		
+			if = {
+				limit = {
+					OR = {
+						CAN = { has_capitulated = yes }
+						CAN = { exists = no }
+						CAN = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = CAN
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+		
+			#Japanese American Gains
+			if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			JAP = {
+				transfer_state = 463
+				transfer_state = 385
+				transfer_state = 386
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 377
+				transfer_state = 387
+				transfer_state = 638
+				transfer_state = 632
+				transfer_state = 642
+				transfer_state = 727
+				transfer_state = 630
+				transfer_state = 632
+				transfer_state = 629
+				transfer_state = 631
+				transfer_state = 650
+			}
+			if = {
+				limit = {
+					OR = {
+						PHI = { has_capitulated = yes }
+						PHI = { exists = no }
+						PHI = { is_ai = yes }
+						PHI = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = PHI
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = PHI }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						MEX = { has_capitulated = yes }
+						MEX = { exists = no }
+						MEX = { is_ai = yes }
+						MEX = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = MEX
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = MEX }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						GUA = { has_capitulated = yes }
+						GUA = { exists = no }
+						GUA = { is_ai = yes }
+						GUA = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = GUA
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = GUA }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						BLZ = { has_capitulated = yes }
+						BLZ = { exists = no }
+						BLZ = { is_ai = yes }
+						BLZ = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = BLZ
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = BLZ }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						ELS = { has_capitulated = yes }
+						ELS = { exists = no }
+						ELS = { is_ai = yes }
+						ELS = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = ELS
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = ELS }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						HON = { has_capitulated = yes }
+						HON = { exists = no }
+						HON = { is_ai = yes }
+						HON = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = HON
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = HON }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						NIC = { has_capitulated = yes }
+						NIC = { exists = no }
+						NIC = { is_ai = yes }
+						NIC = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = NIC
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = NIC }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						COS = { has_capitulated = yes }
+						COS = { exists = no }
+						COS = { is_ai = yes }
+						COS = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = COS
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = COS }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						PAN = { has_capitulated = yes }
+						PAN = { exists = no }
+						PAN = { is_ai = yes }
+						PAN = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = PAN
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = PAN }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						CAN = { has_capitulated = yes }
+						CAN = { exists = no }
+						CAN = { is_ai = yes }
+						CAN = { is_ai = yes }
+					}
+				}
+				JAP = {
+					transfer_state = 471
+					transfer_state = 473
+					transfer_state = 864
+					transfer_state = 739
+					transfer_state = 740
+				}
+			}
+		}
+		
+		GER = {
+			release = USA
+			release = CAN
+		}
+		
+		# Puppets
+		if = {
+			limit = {
+				has_dlc = "Death or Dishonor"
+			}
+			GER = {
+				set_autonomy = {
+					target = USA
+					autonomous_state = autonomy_satellite
+					freedom_level = 0.1
+				}
+			}
+			else = {
+				GER = {
+					puppet = USA
+				}
+			}
+		}
+		
+		USA = {
+			annex_country = { target = CAN }
+		}
+		
+
+	}
+
+}
+
+#North American Partition
+news_event = {
+	id = EW_Germany_News.21
+	title = EW_Germany_News.21.t
+	desc = EW_Germany_News.21.d
+	picture = GFX_news_event_Partition_North_America_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.21.a
+	}
+}
+
+#German USA Gets Canada
+country_event = {
+	id = EW_Germany_Country.22
+	title = EW_Germany_Country.22.t
+	desc = EW_Germany_Country.22.d
+	picture = GFX_report_event_Partition_North_America_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.22.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		#Dutch get them as Puppets
+		if = {
+			limit = {
+				country_exists = CAN
+				CAN = { is_subject_of = GER }
+				NOT = { ROOT = { is_subject_of = GER } }
+			}
+			ROOT = {
+				puppet = CAN
+			}
+		}
+		
+		#Dutch get them as Puppets
+		if = {
+			limit = {
+				country_exists = CAN
+				CAN = { is_subject_of = GER }
+				ROOT = { is_subject_of = GER }
+			}
+			ROOT = { annex_country = { target = CAN } } 
+		}
+		
+		#Dutch get them as Puppets
+		if = {
+			limit = {
+				NOT = { country_exists = CAN }
+			}
+			GER = { release = CAN }
+			ROOT = { annex_country = { target = CAN } } 
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Germany_News.22 hours = 6 }
+		}
+
+	}
+}
+
+#Canada
+news_event = {
+	id = EW_Germany_News.22
+	title = EW_Germany_News.22.t
+	desc = EW_Germany_News.22.d
+	picture = GFX_news_event_Partition_North_America_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.22.a
+	}
+}
+
+#Germany Proposed Joint Invasion of USSR
+country_event = {
+	id = EW_Germany_Country.23
+	title = EW_Germany_Country.23.t
+	desc = EW_Germany_Country.23.d
+	picture = GFX_report_event_Partition_USSR_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = EW_Germany_Country.23.a
+
+		ai_chance = {
+			factor = 70
+		}
+		
+			JAP = {
+				add_state_claim = 655
+				add_state_claim = 637
+				add_state_claim = 822
+				add_state_claim = 874
+				add_state_claim = 562
+				add_state_claim = 644
+				add_state_claim = 877
+				add_state_claim = 574
+				add_state_claim = 876
+				add_state_claim = 575
+				add_state_claim = 567
+				add_state_claim = 566
+				add_state_claim = 564
+				add_state_claim = 565
+				add_state_claim = 563
+				add_state_claim = 875
+				add_state_claim = 561
+				add_state_claim = 657
+				add_state_claim = 560
+				add_state_claim = 408
+				add_state_claim = 409
+			}
+			
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = MON
+						} 
+						JAP = { add_state_claim = PREV } 
+					}
+				}
+				JAP = {
+					every_state = { 
+							limit = { 
+								is_core_of = MON
+							} 
+							JAP = { add_state_claim = PREV } 
+						}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = TAN
+						} 
+						JAP = { add_state_claim = PREV } 
+					}
+				}
+				
+				create_wargoal = {
+					target = SOV
+					type = take_state_focus
+					generator = { 408 409 655 }
+				}
+				
+				GER = { country_event = { id = EW_Germany_Country.24 } }
+
+	}
+	
+	#We are better alone
+	option = {
+		name = EW_Germany_Country.23.b
+		
+		ai_chance = {
+			factor = 30
+		}
+
+		GER = { country_event = { id = EW_Germany_Country.25 } }
+	}
+
+}
+
+#Japan Yes
+country_event = {
+	id = EW_Germany_Country.24
+	title = EW_Germany_Country.24.t
+	desc = EW_Germany_Country.24.d
+	picture = GFX_report_event_Partition_USSR_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = EW_Germany_Country.24.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+
+}
+
+#Japan No
+country_event = {
+	id = EW_Germany_Country.25
+	title = EW_Germany_Country.25.t
+	desc = EW_Germany_Country.25.d
+	picture = GFX_report_event_Partition_USSR_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = EW_Germany_Country.25.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+
+}
+
+##Axis Partition of South
+country_event = {
+	id = EW_Germany_Country.26
+	title = EW_Germany_Country.26.t
+	desc = EW_Germany_Country.26.d
+	picture = GFX_report_event_Partition_South_America_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Historical Partition
+		name = EW_Germany_Country.26.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+			GER = {
+				transfer_state = 695
+				transfer_state = 691
+				transfer_state = 687
+				transfer_state = 309
+				transfer_state = 310
+			}
+		
+			if = {
+				limit = {
+					OR = {
+						BRA = { has_capitulated = yes }
+						BRA = { exists = no }
+						BRA = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = BRA
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+		
+			if = {
+				limit = {
+					OR = {
+						ARG = { has_capitulated = yes }
+						ARG = { exists = no }
+						ARG = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = ARG
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						PAR = { has_capitulated = yes }
+						PAR = { exists = no }
+						PAR = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = PAR
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						URG = { has_capitulated = yes }
+						URG = { exists = no }
+						URG = { is_ai = yes }
+					}
+				}
+				GER = {
+					every_state = { 
+						limit = { 
+							is_core_of = URG
+						} 
+						GER = { transfer_state = PREV } 
+					}
+				}
+			}
+		
+			#Japanese South American Gains
+			if = {
+			limit = {
+				JAP = { exists = yes }
+				NOT = { JAP = { has_war_with = GER } }
+			}
+			if = {
+				limit = {
+					OR = {
+						VEN = { has_capitulated = yes }
+						VEN = { exists = no }
+						VEN = { is_ai = yes }
+						VEN = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = VEN
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = VEN }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						COL = { has_capitulated = yes }
+						COL = { exists = no }
+						COL = { is_ai = yes }
+						COL = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = COL
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = COL }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						ECU = { has_capitulated = yes }
+						ECU = { exists = no }
+						ECU = { is_ai = yes }
+						ECU = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = ECU
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = ECU }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						PRU = { has_capitulated = yes }
+						PRU = { exists = no }
+						PRU = { is_ai = yes }
+						PRU = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = PRU
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = PRU }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						BOL = { has_capitulated = yes }
+						BOL = { exists = no }
+						BOL = { is_ai = yes }
+						BOL = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = BOL
+							NOT = { is_core_of = PAR } 
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = BOL }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						CHL = { has_capitulated = yes }
+						CHL = { exists = no }
+						CHL = { is_ai = yes }
+						CHL = { is_subject_of = GER }
+					}
+				}
+				JAP = {
+					every_state = { 
+						limit = { 
+							is_core_of = CHL
+						} 
+						JAP = { transfer_state = PREV } 
+					}
+					annex_country = { target = CHL }
+				}
+			}
+		}
+		
+
+	}
+
+}
+
+#South American Partition
+news_event = {
+	id = EW_Germany_News.26
+	title = EW_Germany_News.26.t
+	desc = EW_Germany_News.26.d
+	picture = GFX_news_event_Partition_South_America_News
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_News.26.a
+	}
+}
+
+
+##The Soviet Invasion of Poland
+country_event = {
+	id = EW_Germany_Country.104
+	title = EW_Germany_Country.104.t
+	desc = EW_Germany_Country.104.d
+	picture = GFX_report_event_Soviet_Soldiers_Country
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		NOT = { is_in_faction_with = SOV }
+		NOT = { is_in_faction_with = POL }
+		NOT = { has_war_with = SOV }
+		NOT = { has_war_with = POL }
+		SOV = { has_offensive_war_with = POL }
+		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		date > 1933.1.1
+		date < 1949.1.1
+	}
+
+	option = {
+		#Support Poland
+		name = EW_Germany_Country.104.a
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				any_other_country = {
+					has_guaranteed = POL
+				}
+				factor = 2
+			}
+			modifier = {
+				OR = {
+					USA = { has_war_with = SOV }
+					FRA = { has_war_with = SOV }
+					ENG = { has_war_with = SOV }
+					JAP = { has_war_with = SOV }
+				}
+				factor = 2
+			}
+		}
+		
+		POL = {
+			country_event = {
+				id = EW_Germany_Country.105
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		#Remain Neutral
+		name = EW_Germany_Country.104.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				any_country = {
+					is_major = yes
+					has_war_with = GER
+				}
+				factor = 4
+			}
+		}
+
+
+	}
+
+}
+
+#Telegram from Berlin
+country_event = {
+	id = EW_Germany_Country.105
+	title = EW_Germany_Country.105.t
+	desc = EW_Germany_Country.105.d
+	picture = GFX_report_event_Hitler_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Accept Soviet Assistance
+		name = EW_Germany_Country.105.a
+
+		ai_chance = {
+			factor = 50
+		}
+		
+		GER = {
+			country_event = {
+				id = EW_Germany_Country.106
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		#Reject German Offer
+		name = EW_Germany_Country.105.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				any_other_country = {
+					has_guaranteed = POL
+				}
+				factor = 2
+			}
+			modifier = {
+				OR = {
+					USA = { has_war_with = SOV }
+					FRA = { has_war_with = SOV }
+					ENG = { has_war_with = SOV }
+					JAP = { has_war_with = SOV }
+				}
+				factor = 2
+			}
+			modifier = {
+				any_country = {
+					is_major = yes
+					has_war_with = GER
+				}
+				factor = 2
+			}
+		}
+		
+		GER = {
+			country_event = {
+				id = EW_Germany_Country.107
+				hours = 6
+			}
+		}
+
+
+	}
+
+}
+
+#Poland Accepts
+country_event = {
+	id = EW_Germany_Country.106
+	title = EW_Germany_Country.106.t
+	desc = EW_Germany_Country.106.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.106.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		GER = {
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 807
+			transfer_state = 762
+		}
+		
+		hidden_effect = {
+			85 = { remove_core_of = POL }
+			86 = { remove_core_of = POL }
+			807 = { remove_core_of = POL }
+			762 = { remove_core_of = POL }
+		}
+		
+		POL = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = our_liberators
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = { is_in_faction = no }
+			} 
+			GER = {
+				add_to_faction = POL
+			}
+		}
+		else = {
+			POL = {
+				give_military_access = GER
+			}
+		}
+		
+		declare_war_on = {
+			target = SOV
+			type = annex_everything
+		}
+
+	}
+
+}
+
+#Poland Declines
+country_event = {
+	id = EW_Germany_Country.107
+	title = EW_Germany_Country.107.t
+	desc = EW_Germany_Country.107.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.107.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_opinion_modifier = {
+			target = POL
+			modifier = refused_help
+		}
+
+	}
+
+}

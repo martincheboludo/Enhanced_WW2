@@ -1,0 +1,1102 @@
+#Allies Decisions
+Allies_EW_Decisions = {
+
+}
+
+#Soviet Decisions
+SOV_EW_Decisions = {
+
+SOV_Defend_Leningrad = {
+		fire_only_once = yes
+		icon = SOV_the_stalin_constitution
+		cost = 0
+		allowed = {
+		}
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			has_government = communism
+			has_defensive_war_with = GER
+			195 = { is_fully_controlled_by = SOV }
+			OR = {
+				NOT = { 208 = { is_fully_controlled_by = SOV } }
+				NOT = { 263 = { is_fully_controlled_by = SOV } }
+				NOT = { 244 = { is_fully_controlled_by = SOV } }
+				AND = {
+					has_war_with = FIN
+					NOT = { 146 = { is_fully_controlled_by = SOV } }
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			country_event = {
+				id = EW_Soviet_Country.1
+			}
+		}
+	}
+	
+	SOV_Defend_Moscow = {
+		fire_only_once = yes
+		icon = SOV_the_stalin_constitution
+		cost = 0
+		allowed = {
+		}
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			has_government = communism
+			has_defensive_war_with = GER
+			219 = { is_fully_controlled_by = SOV }
+			OR = {
+				NOT = { 247 = { is_fully_controlled_by = SOV } }
+				NOT = { 246 = { is_fully_controlled_by = SOV } }
+				NOT = { 242 = { is_fully_controlled_by = SOV } }
+				NOT = { 205 = { is_fully_controlled_by = SOV } }
+				NOT = { 223 = { is_fully_controlled_by = SOV } }
+				NOT = { 254 = { is_fully_controlled_by = SOV } }
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			country_event = {
+				id = EW_Soviet_Country.2
+			}
+		}
+	}
+	
+	SOV_Defend_Stalingrad = {
+		fire_only_once = yes
+		icon = SOV_the_stalin_constitution
+		cost = 0
+		allowed = {
+		}
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			has_government = communism
+			has_defensive_war_with = GER
+			217 = { is_fully_controlled_by = SOV }
+			OR = {
+				NOT = { 265 = { is_fully_controlled_by = SOV } }
+				NOT = { 245 = { is_fully_controlled_by = SOV } }
+				NOT = { 238 = { is_fully_controlled_by = SOV } }
+				NOT = { 237 = { is_fully_controlled_by = SOV } }
+				NOT = { 236 = { is_fully_controlled_by = SOV } }
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			country_event = {
+				id = EW_Soviet_Country.3
+			}
+		}
+	}
+
+}
+
+#Japanese Decisions
+JAP_EW_Decisions = {
+	
+}
+
+#German Decisions
+GER_EW_Decisions = {
+
+	#Italian Social Republic
+	GER_Italian_Social_Republic = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			country_exists = ITA
+			ITA = { is_subject_of = GER }
+			ITA = { has_civil_war = no }
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			#hidden_effect = {
+				#GER = { 
+				#	end_puppet = ITA
+				#	puppet = ITA
+				#}
+			#}
+			ITA = { 
+				set_cosmetic_tag = greater_italy 
+				create_country_leader = {
+					name = "Benito Mussolini"
+					picture = "gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+					ideology = fascism_ideology
+					traits = { il_duce }
+				}
+			}
+			#hidden_effect = {
+			#	set_autonomy = {
+			#		target = ITA
+			#		autonomous_state = autonomy_satellite
+			#		freedom_level = 0.1
+			#	}
+			#}
+		}
+		
+	}
+	
+	#French State
+	GER_French_State = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			country_exists = FRA
+			FRA = { is_subject_of = GER }
+			FRA = { has_civil_war = no }
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			FRA = { 
+			set_cosmetic_tag = FRA_VICHY 
+				create_country_leader = {
+					name = "Philippe Petain"
+					picture = "gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
+					ideology = fascism_ideology
+				}
+			}
+			#hidden_effect = {
+			#	set_autonomy = {
+			#		target = FRA
+			#		autonomous_state = autonomy_satellite
+			#		freedom_level = 0.1
+			#	}
+			#}
+		}
+		
+	}
+
+	#Partition of Greece
+	GER_Partition_Greece = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = GRE
+			#is_in_faction_with = ITA
+			country_exists = ITA
+			NOT = { has_war_with = ITA }
+			OR = { 
+				GRE = { has_capitulated = yes }
+				GRE = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Greece"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GRE
+							NOT = {
+								state = 164
+								state = 182
+								state = 187
+							}
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.0
+			}	
+		}
+		
+	}
+	
+	#Partition of Yugoslavia
+	GER_Partition_Yugoslavia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = YUG
+			#is_in_faction_with = ITA
+			country_exists = ITA
+			NOT = { has_war_with = ITA }
+			OR = { 
+				YUG = { has_capitulated = yes }
+				YUG = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Yugoslavia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = YUG
+							NOT = {
+								#Italian
+								state = 163
+								state = 852
+								state = 736
+								#Hungarian
+								state = 764
+								state = 45
+								#Bulgarian
+								state = 803
+								state = 106
+							}
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.1
+			}	
+		}
+		
+	}
+	
+	#Partition of Switzerland
+	GER_Partition_Switzerland = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = SWI
+			#is_in_faction_with = ITA
+			country_exists = ITA
+			NOT = { has_war_with = ITA }
+			OR = { 
+				SWI = { has_capitulated = yes }
+				SWI = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Switzerland"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SWI
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.2
+			}	
+		}
+		
+	}
+	
+	#Partition of Czechoslovakia
+	GER_Partition_Czechoslovakia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = CZE
+			#is_in_faction_with = HUN
+			country_exists = HUN
+			NOT = { has_war_with = HUN }
+			OR = { 
+				CZE = { has_capitulated = yes }
+				CZE = { exists = no }
+			}
+			
+			SLO = { exists = no }
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Czechoslovakia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+							NOT = { state = 664 }
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.3
+			}	
+		}
+		
+	}
+	
+	#Partition of Poland
+	GER_Partition_Poland = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = POL
+			#is_in_faction_with = SOV
+			country_exists = SOV
+			NOT = { has_war_with = SOV }
+			
+			any_controlled_state = {
+				AND = {
+					is_core_of = POL
+					any_neighbor_state = {
+						is_core_of = SOV
+						is_controlled_by = SOV
+					}
+				}
+			}
+			
+			OR = { 
+				POL = { has_capitulated = yes }
+				POL = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Poland"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.15
+			}	
+		}
+		
+	}
+	
+	#Partition of USSR
+	GER_Partition_USSR = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = SOV
+			#is_in_faction_with = JAP
+			country_exists = JAP
+			NOT = { has_war_with = JAP }
+			OR = { 
+				SOV = { has_capitulated = yes }
+				SOV = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control USSR"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+						}
+						OR = {
+							is_controlled_by_ROOT_or_ally = yes
+							is_controlled_by = JAP
+						}
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.16
+			}	
+		}
+		
+	}
+	
+	#Partition of Romania
+	GER_Partition_Romania = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = ROM
+			#is_in_faction_with = HUN
+			country_exists = HUN
+			NOT = { has_war_with = HUN }
+			OR = { 
+				ROM = { has_capitulated = yes }
+				ROM = { exists = no }
+				AND = {
+					ROM = { is_subject_of = GER }
+					NOT = { HUN = { owns_state = 76 } }
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Romania"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ROM
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.4
+			}	
+		}
+		
+	}
+	
+	
+	#Annexation of Northern Sleswig
+	GER_Return_Northern_Sleswig = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			DEN = { is_subject_of = GER }
+			DEN = { owns_state = 912 }
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+		}
+
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			GER = {
+				transfer_state = 912
+			}
+		}
+		
+	}
+	
+	GER_Invade_SWI = {
+		fire_only_once = yes
+		days_remove = 70
+		war_with_on_remove = SWI
+		icon = ger_reichskommissariats
+		cost = 10
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			surrender_progress < 0.01
+			has_government = fascism
+			NOT = { has_completed_focus = GER_operation_tannenbaum }
+			country_exists = SWI
+			NOT = {
+				is_in_faction_with = SWI
+			}
+			NOT = {
+				has_war_with = SWI
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Controls All Austrian States"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#date > 1940.1.1
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_SOV_Neutralized_tt
+				OR = {
+						SOV = {
+							has_capitulated = yes
+						}
+						SOV = {
+							exists = no
+						}
+						SOV = {
+							is_subject_of = GER
+						}
+						AND = {
+							SOV = { surrender_progress > 0.6 }
+							OR = {
+								GER = {
+									controls_state = 219
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 219
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 217
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 217
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 195
+								}
+								FIN = {
+									controls_state = 195
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 195
+								}
+							}
+						}
+					}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Britain Neutralized"
+				OR = {
+					ENG = {
+						has_capitulated = yes
+					}
+					ENG = {
+						exists = no
+					}
+					ENG = {
+						is_subject_of = GER
+					}
+					OR = {
+						ENG = {
+							controls_state = 126
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 126
+						}
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "France Neutralized"
+				
+				OR = {
+					FRA = {
+						has_capitulated = yes
+					}
+					FRA = {
+						exists = no
+					}
+					FRA = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 16
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 16
+						}
+					}
+					has_global_flag = fall_of_france
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			SWI = {
+				country_event = EW_Germany_Country.128
+			}
+			#create_wargoal = {
+			#	target = SWI
+			#	type = annex_everything
+			#}
+		}
+	}
+	
+	GER_brute_force_annex_norway = {
+	
+		fire_only_once = yes
+	
+		icon = ger_reichskommissariats
+		
+		allowed = {
+		}
+	
+        visible = {
+		
+        }
+        cost = 10
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+			GER = { 
+				has_government = fascism
+			}
+			NOR = { 
+				is_in_faction_with = GER 
+				has_government = fascism
+				NOT = { is_subject_of = GER }
+				has_country_leader = {
+					name = "Vidkun Quisling"
+					ruling_only = yes
+				}
+				is_ai = yes
+			}
+			num_of_civilian_factories_available_for_projects > 24
+				FROM = {
+					surrender_progress < 0.01	
+				}
+				ROOT = {
+					surrender_progress < 0.01	
+				}
+        }
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+        remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			
+					GER = {
+						puppet = NOR
+					}
+					
+					# Puppets
+					hidden_effect = {
+						if = {
+							limit = {
+								has_dlc = "Death or Dishonor"
+							}
+							GER = {
+								set_autonomy = {
+									target = NOR
+									autonomous_state = autonomy_reichskommissariat
+									freedom_level = 0.1
+								}
+							}
+						}
+					}
+					
+					NOR = {
+					set_cosmetic_tag = NOR_GER_fascism
+						create_country_leader = {
+							name = "Josef Terboven"
+							desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+							picture = GFX_portrait_Josef_Terboven
+							expire = "1965.1.1"
+							ideology = nazism
+							traits = {
+							}
+						}
+					}
+			
+			clr_country_flag = Coring_In_Progress
+        }
+    }
+	
+	#Partition of USSR
+	GER_Invite_Japan_Attack_USSR = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_war_with = SOV
+			#is_in_faction_with = JAP
+			country_exists = JAP
+			NOT = { has_war_with = JAP }
+			SOV = { has_capitulated = no }
+			NOT = { SOV = { has_war_with = JAP } }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_SOV_Neutralized_tt
+				OR = {
+						SOV = {
+							has_capitulated = yes
+						}
+						SOV = {
+							exists = no
+						}
+						SOV = {
+							is_subject_of = GER
+						}
+						AND = {
+							SOV = { surrender_progress > 0.6 }
+							OR = {
+								GER = {
+									controls_state = 219
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 219
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 217
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 217
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 195
+								}
+								FIN = {
+									controls_state = 195
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 195
+								}
+							}
+						}
+					}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			JAP = {
+				country_event = {
+					id = EW_Germany_Country.23
+				}	
+			}
+		}
+		
+	}
+	
+	
+}	
+
+#German Units Decisions
+SS_EW_Decisions = {
+
+	SS_Create_Waffen_SS = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+		
+		date > 1940.1.1
+		has_tech = mechanised_infantry
+		
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = "Poland Neutralized"
+					
+					OR = {
+						POL = {
+							has_capitulated = yes
+						}
+						POL = {
+							exists = no
+						}
+						POL = {
+							is_subject_of = GER
+						}
+						OR = {
+							GER = {
+								controls_state = 10
+							}
+							any_other_country = {
+								is_in_faction_with = GER
+								controls_state = 10
+							}
+						}
+					}
+				}
+			
+				custom_trigger_tooltip = {
+					tooltip = "France Neutralized"
+					
+					OR = {
+						FRA = {
+							has_capitulated = yes
+						}
+						FRA = {
+							exists = no
+						}
+						FRA = {
+							is_subject_of = GER
+						}
+						OR = {
+							GER = {
+								controls_state = 16
+							}
+							any_other_country = {
+								is_in_faction_with = GER
+								controls_state = 16
+							}
+						}
+						has_global_flag = fall_of_france
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			GER = {
+				country_event = {
+					id = EW_German_Units_Country.0
+				}	
+			}
+		}
+	}
+	
+}

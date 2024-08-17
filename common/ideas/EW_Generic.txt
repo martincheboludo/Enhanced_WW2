@@ -1,0 +1,94 @@
+ideas = {
+
+	country = {
+	
+	EW_chinese_resistance_strategy = {
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+			
+			picture = chi_war_of_resistance3
+
+			cancel = {
+				NOT = { has_war_with = JAP }
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.50
+				dig_in_speed_factor = 0.50
+				max_dig_in_factor = 0.25
+				terrain_penalty_reduction = 0.25
+				attrition = -0.25
+			}
+
+		}
+
+		EW_japanese_bogged_down_in_china = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+			
+			picture = FRA_motorized_focus
+
+			cancel = {
+				NOT = { has_war_with = CHI }
+			}
+			
+			modifier = {
+				attrition = 0.25
+				supply_consumption_factor = 0.25
+			}
+
+		}
+		
+		EW_soviet_resistance_strategy = {
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+			
+			picture = chi_war_of_resistance3
+
+			cancel = {
+				NOT = { has_war_with = JAP }
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.50
+				dig_in_speed_factor = 0.50
+				max_dig_in_factor = 0.25
+				terrain_penalty_reduction = 0.25
+				attrition = -0.25
+			}
+
+		}
+
+		EW_germans_bogged_down_in_russia = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+			
+			picture = FRA_motorized_focus
+
+			cancel = {
+				NOT = { has_war_with = SOV }
+			}
+			
+			modifier = {
+				truck_attrition_factor = 0.25
+				supply_consumption_factor = 0.25
+			}
+
+		}
+	
+	}
+	
+	
+}

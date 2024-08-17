@@ -1,0 +1,401 @@
+﻿l_english:
+
+ #Events
+ 
+ EW_Germany_Country.x.t:0 ""
+ EW_Germany_Country.x.d:0 ""
+ EW_Germany_Country.x.a:1 "OK"
+ EW_Germany_News.x.t:0 ""
+ EW_Germany_News.x.d:0 ""
+ EW_Germany_News.x.a:1 "OK"
+
+ EW_Germany_Country.0.t:0 "Partition of Greece"
+ EW_Germany_Country.0.d:0 "The occupation of Greece by the Axis Powers began in April 1941 after Nazi Germany invaded the Kingdom of Greece to assist its ally, Italy, in their ongoing war that had started in October 1940. Following the conquest of Crete, the entirety of Greece was occupied starting in June 1941. The occupation of the mainland lasted until Germany and its ally Bulgaria withdrew under Allied pressure in early October 1944, with Crete and some other Aegean islands being surrendered to the Allies by German garrisons in May and June 1945, after the end of World War II in Europe."
+ EW_Germany_Country.0.a:1 "Historical Partition"
+ EW_Germany_Country.0.b:1 "Partition Between Italy and Bulgaria"
+ EW_Germany_Country.0.c:1 "Italy Will Handle The Occupation"
+ EW_Germany_News.0.t:0 "Axis Occupation of Greece"
+ EW_Germany_News.0.d:0 "The occupation of Greece by the Axis Powers began in April 1941 after Nazi Germany invaded the Kingdom of Greece to assist its ally, Italy, in their ongoing war that had started in October 1940. Following the conquest of Crete, the entirety of Greece was occupied starting in June 1941. The occupation of the mainland lasted until Germany and its ally Bulgaria withdrew under Allied pressure in early October 1944, with Crete and some other Aegean islands being surrendered to the Allies by German garrisons in May and June 1945, after the end of World War II in Europe."
+ EW_Germany_News.0.a:1 "OK"
+ 
+  EW_Germany_Country.1.t:0 "Partition of Yugoslavia"
+ EW_Germany_Country.1.d:0 "The invasion of Yugoslavia was a German-led attack on the Kingdom of Yugoslavia by the Axis powers which began on 6 April 1941 during World War II. The order for the invasion was put forward in 'Führer Directive No. 25', which Adolf Hitler issued on 27 March 1941, following a Yugoslav coup d'état that overthrew the pro-Axis government."
+ EW_Germany_Country.1.a:1 "Historical Partition"
+ EW_Germany_Country.1.b:1 "Give Dalmatia to Italy"
+ EW_Germany_Country.1.c:1 "Give Banat To Hungary"
+ EW_Germany_News.1.t:0 "Axis Occupation of Yugoslavia"
+ EW_Germany_News.1.d:0 "The invasion of Yugoslavia was a German-led attack on the Kingdom of Yugoslavia by the Axis powers which began on 6 April 1941 during World War II. The order for the invasion was put forward in 'Führer Directive No. 25', which Adolf Hitler issued on 27 March 1941, following a Yugoslav coup d'état that overthrew the pro-Axis government."
+ EW_Germany_News.1.a:1 "OK"
+ 
+ EW_Germany_Country.2.t:0 "Partition of Switzerland"
+ EW_Germany_Country.2.d:0 "In August 1942, Hitler further described Switzerland as 'a pimple on the face of Europe' and as a state that no longer had a right to exist, denouncing the Swiss people as 'a misbegotten branch of our Volk.' From a Nazi viewpoint, Switzerland, as a small, multilingual, decentralized democracy where German-speakers felt more of an affinity with their French-speaking fellow Swiss citizens than towards their German brothers across the border, was the antithesis of the racially homogeneous and collectivised 'Führer State'. Hitler also believed that the independent Swiss state had come into existence at a time of temporary weakness of the Holy Roman Empire, and now that German power had been re-established after the National Socialist takeover, the independent country of Switzerland had become obsolete."
+ EW_Germany_Country.2.a:1 "Partition With Italy"
+ EW_Germany_Country.2.b:1 "Partition With Italy and France"
+ EW_Germany_Country.2.c:1 "Italy Will Handle The Occupation"
+ EW_Germany_News.2.t:0 "Operation Tannenbaum"
+ EW_Germany_News.2.d:0 "In August 1942, Hitler further described Switzerland as 'a pimple on the face of Europe' and as a state that no longer had a right to exist, denouncing the Swiss people as 'a misbegotten branch of our Volk.' From a Nazi viewpoint, Switzerland, as a small, multilingual, decentralized democracy where German-speakers felt more of an affinity with their French-speaking fellow Swiss citizens than towards their German brothers across the border, was the antithesis of the racially homogeneous and collectivised 'Führer State'. Hitler also believed that the independent Swiss state had come into existence at a time of temporary weakness of the Holy Roman Empire, and now that German power had been re-established after the National Socialist takeover, the independent country of Switzerland had become obsolete."
+ EW_Germany_News.2.a:1 "OK"
+ 
+ EW_Germany_Country.3.t:0 "Fate of Czechoslovakia"
+ EW_Germany_Country.3.d:0 "The military occupation of Czechoslovakia by Nazi Germany began with the German annexation of the Sudetenland in 1938, continued with the creation of the Protectorate of Bohemia and Moravia, and by the end of 1944 extended to all parts of Czechoslovakia."
+ EW_Germany_Country.3.a:1 "Historical Partition"
+ EW_Germany_Country.3.b:1 "Give Slovakia To Hungary"
+ EW_Germany_News.3.t:0 "Occupation of Czechoslovakia"
+ EW_Germany_News.3.d:0 "The military occupation of Czechoslovakia by Nazi Germany began with the German annexation of the Sudetenland in 1938, continued with the creation of the Protectorate of Bohemia and Moravia, and by the end of 1944 extended to all parts of Czechoslovakia."
+ EW_Germany_News.3.a:1 "OK"
+ 
+ EW_Germany_Country.4.t:0 "Fate of Romania"
+ EW_Germany_Country.4.d:0 "Negotiations with Hungary started on 16 August did not reach an agreement, and Hitler decided to resolve the dispute. He saw it necessary to somewhat satisfy Hungary and not cripple Romania, but also to keep both of them dissatisfied to ensure their cooperation with Germany. In Vienna, Hitler showed his proposal and gave the option to either accept or fight with Axis-backed Hungary. Following a Crown Council on 30 August, the Second Vienna Award was accepted and Hungary was given Northern Transylvania. Further, after negotiations, the Treaty of Craiova that returned Southern Dobruja to Bulgaria was signed on 7 September. Romania lost a third of its territory (99,790 km2, 38,530 sq mi) and population (6,161,317 inhabitants)."
+ EW_Germany_Country.4.a:1 "Historical Partition"
+ EW_Germany_Country.4.b:1 "Give All of Transylvania To Hungary"
+ EW_Germany_News.4.t:0 "Occupation of Romania"
+ EW_Germany_News.4.d:0 "Negotiations with Hungary started on 16 August did not reach an agreement, and Hitler decided to resolve the dispute. He saw it necessary to somewhat satisfy Hungary and not cripple Romania, but also to keep both of them dissatisfied to ensure their cooperation with Germany. In Vienna, Hitler showed his proposal and gave the option to either accept or fight with Axis-backed Hungary. Following a Crown Council on 30 August, the Second Vienna Award was accepted and Hungary was given Northern Transylvania. Further, after negotiations, the Treaty of Craiova that returned Southern Dobruja to Bulgaria was signed on 7 September. Romania lost a third of its territory (99,790 km2, 38,530 sq mi) and population (6,161,317 inhabitants)."
+ EW_Germany_News.4.a:1 "OK"
+ 
+ EW_Germany_Country.5.t:0 "Germany Transfers Dutch East Indies"
+ EW_Germany_Country.5.d:0 "The Dutch East Indies, also known as the Netherlands East Indies, was a Dutch colony with territory mostly comprising the modern state of Indonesia, which declared independence on 17 August 1945."
+ EW_Germany_Country.5.a:1 "Historical Partition"
+ EW_Germany_News.5.t:0 "Germany Transfers Dutch East Indies"
+ EW_Germany_News.5.d:0 "The Dutch East Indies, also known as the Netherlands East Indies, was a Dutch colony with territory mostly comprising the modern state of Indonesia, which declared independence on 17 August 1945."
+ EW_Germany_News.5.a:1 "OK"
+
+ EW_Germany_Country.14.t:0 "Swiss Anschluss"
+ EW_Germany_Country.14.d:0 "Repeated uprisings in Switzerland clearly show that the people there long to be united with our Reich. It is now time to take action and allow the will of the people to be made manifest."
+ EW_Germany_Country.14.a:0 "How can anyone say that Switzerland is not German?!"
+ 
+ EW_Germany_Country.15.t:0 "Partition of Poland"
+ EW_Germany_Country.15.d:0 "The occupation of Poland by Nazi Germany and the Soviet Union during World War II (1939–1945) began with the German-Soviet invasion of Poland in September 1939, and it was formally concluded with the defeat of Germany by the Allies in May 1945. Throughout the entire course of the occupation, the territory of Poland was divided between Nazi Germany and the Soviet Union (USSR), both of which intended to eradicate Poland's culture and subjugate its people. In the summer-autumn of 1941, the lands which were annexed by the Soviets were overrun by Germany in the course of the initially successful German attack on the USSR. After a few years of fighting, the Red Army drove the German forces out of the USSR and crossed into Poland from the rest of Central and Eastern Europe."
+ EW_Germany_Country.15.a:1 "1938 Borders (Historical)"
+ EW_Germany_Country.15.b:1 "1914 Borders"
+ EW_Germany_Country.15.c:1 "1795 Borders"
+ EW_Germany_Country.15.e:1 "Greater Prussian Borders"
+ EW_Germany_News.15.t:0 "Axis Occupation of Poland"
+ EW_Germany_News.15.d:0 "The occupation of Poland by Nazi Germany and the Soviet Union during World War II (1939–1945) began with the German-Soviet invasion of Poland in September 1939, and it was formally concluded with the defeat of Germany by the Allies in May 1945. Throughout the entire course of the occupation, the territory of Poland was divided between Nazi Germany and the Soviet Union (USSR), both of which intended to eradicate Poland's culture and subjugate its people. In the summer-autumn of 1941, the lands which were annexed by the Soviets were overrun by Germany in the course of the initially successful German attack on the USSR. After a few years of fighting, the Red Army drove the German forces out of the USSR and crossed into Poland from the rest of Central and Eastern Europe."
+ EW_Germany_News.15.a:1 "OK"
+ 
+ EW_Germany_Country.16.t:0 "Partition of USSR"
+ EW_Germany_Country.16.d:0 "Operation Barbarossa was the invasion of the Soviet Union by Nazi Germany and many of its Axis allies, starting on Sunday, 22 June 1941, during the Second World War. It was the largest land offensive in human history, with around 10 million combatants taking part. The operation, code-named after Frederick Barbarossa ('red beard'), a 12th-century Holy Roman Emperor and Crusader, put into action Nazi Germany's ideological goal of conquering the western Soviet Union to repopulate it with Germans. The German Generalplan Ost aimed to use some of the conquered people as forced labour for the Axis war effort while acquiring the oil reserves of the Caucasus as well as the agricultural resources of various Soviet territories, including Ukraine and Byelorussia. Their ultimate goal was to create more Lebensraum (living space) for Germany, and the eventual extermination of the native Slavic peoples by mass deportation to Siberia, Germanisation, enslavement, and genocide."
+ EW_Germany_Country.16.a:1 "Historical Partition"
+ EW_Germany_News.16.t:0 "Axis Occupation of USSR"
+ EW_Germany_News.16.d:0 "Operation Barbarossa was the invasion of the Soviet Union by Nazi Germany and many of its Axis allies, starting on Sunday, 22 June 1941, during the Second World War. It was the largest land offensive in human history, with around 10 million combatants taking part. The operation, code-named after Frederick Barbarossa ('red beard'), a 12th-century Holy Roman Emperor and Crusader, put into action Nazi Germany's ideological goal of conquering the western Soviet Union to repopulate it with Germans. The German Generalplan Ost aimed to use some of the conquered people as forced labour for the Axis war effort while acquiring the oil reserves of the Caucasus as well as the agricultural resources of various Soviet territories, including Ukraine and Byelorussia. Their ultimate goal was to create more Lebensraum (living space) for Germany, and the eventual extermination of the native Slavic peoples by mass deportation to Siberia, Germanisation, enslavement, and genocide."
+ EW_Germany_News.16.a:1 "OK"
+ 
+ EW_Germany_Country.17.t:0 "Partition of France"
+ EW_Germany_Country.17.d:0 "Vichy France, officially the French State, was the French rump state headed by Marshal Philippe Pétain during World War II. It was named after its seat of government, the city of Vichy. Officially independent, but with half of its territory occupied under the harsh terms of the 1940 armistice with Nazi Germany, it adopted a policy of collaboration. Though Paris was nominally its capital, the government established itself in the resort town of Vichy in the unoccupied 'free zone' (zone libre), where it remained responsible for the civil administration of France as well as its colonies. The occupation of France by Nazi Germany at first affected only the northern and western portions of the country, but in November 1942 the Germans and Italians occupied the remainder of Metropolitan France, ending any pretence of independence by the Vichy government."
+ EW_Germany_Country.17.a:1 "Most Likely Partition"
+ EW_Germany_Country.17.b:1 "Give Arabia To Italy"
+ EW_Germany_News.17.t:0 "Collapse of The French Empire"
+ EW_Germany_News.17.d:0 "Vichy France, officially the French State, was the French rump state headed by Marshal Philippe Pétain during World War II. It was named after its seat of government, the city of Vichy. Officially independent, but with half of its territory occupied under the harsh terms of the 1940 armistice with Nazi Germany, it adopted a policy of collaboration. Though Paris was nominally its capital, the government established itself in the resort town of Vichy in the unoccupied 'free zone' (zone libre), where it remained responsible for the civil administration of France as well as its colonies. The occupation of France by Nazi Germany at first affected only the northern and western portions of the country, but in November 1942 the Germans and Italians occupied the remainder of Metropolitan France, ending any pretence of independence by the Vichy government."
+ EW_Germany_News.17.a:1 "OK"
+ 
+ EW_Germany_Country.18.t:0 "Partition of Britain"
+ EW_Germany_Country.18.d:0 "In this alternate history, the outcome of World War II took a startling turn when Operation Sea Lion, Germany's plan to invade and occupy the United Kingdom, proved remarkably successful. Under the strategic brilliance of Field Marshal Erwin Rommel, German forces executed a meticulously planned amphibious assault in 1941. A combination of surprise tactics, advanced weaponry, and coordination with the Luftwaffe resulted in the rapid fall of British defenses. Winston Churchill, caught off guard, was forced into exile as German forces, with unexpected efficiency, secured control over key British cities. The occupation marked a significant shift in the war's dynamics, altering the course of European history. The successful execution of Operation Sea Lion established a new order, with Germany consolidating its dominance over a subdued United Kingdom and reshaping the geopolitical landscape in ways unforeseen in our own timeline."
+ EW_Germany_Country.18.a:1 "Most Likely Partition"
+ EW_Germany_Country.18.b:1 "Break Up Britain"
+ EW_Germany_News.18.t:0 "Collapse of The British Empire"
+ EW_Germany_News.18.d:0 "In this alternate history, the outcome of World War II took a startling turn when Operation Sea Lion, Germany's plan to invade and occupy the United Kingdom, proved remarkably successful. Under the strategic brilliance of Field Marshal Erwin Rommel, German forces executed a meticulously planned amphibious assault in 1941. A combination of surprise tactics, advanced weaponry, and coordination with the Luftwaffe resulted in the rapid fall of British defenses. Winston Churchill, caught off guard, was forced into exile as German forces, with unexpected efficiency, secured control over key British cities. The occupation marked a significant shift in the war's dynamics, altering the course of European history. The successful execution of Operation Sea Lion established a new order, with Germany consolidating its dominance over a subdued United Kingdom and reshaping the geopolitical landscape in ways unforeseen in our own timeline."
+ EW_Germany_News.18.a:1 "OK"
+ 
+ EW_Germany_Country.19.t:0 "Partition of China"
+ EW_Germany_Country.19.d:0 "In this alternate history, Japan secures a swift and decisive victory over China during the Second Sino-Japanese War (1937-1945), marked by superior military strategies, international diplomatic maneuvers, and technological innovations. International powers either lend support or remain neutral, preventing Western intervention on behalf of China. Internal divisions within China's Nationalist and Communist forces, coupled with a lack of popular support for the resistance, further contribute to Japan's success. The Japanese occupation is marked by efficient governance, successful assimilation efforts, and a negotiated settlement that establishes a puppet government in China with Japanese influence. With East Asia firmly under Japanese control, the dynamics of World War II are reshaped, as Japan focuses on consolidating power in the region rather than engaging in a broader conflict with the Allies."
+ EW_Germany_Country.19.a:1 "Most Likely Partition"
+ EW_Germany_Country.19.b:1 "Break Up Britain"
+ EW_Germany_News.19.t:0 "Japanese Victory in China"
+ EW_Germany_News.19.d:0 "In this alternate history, Japan secures a swift and decisive victory over China during the Second Sino-Japanese War (1937-1945), marked by superior military strategies, international diplomatic maneuvers, and technological innovations. International powers either lend support or remain neutral, preventing Western intervention on behalf of China. Internal divisions within China's Nationalist and Communist forces, coupled with a lack of popular support for the resistance, further contribute to Japan's success. The Japanese occupation is marked by efficient governance, successful assimilation efforts, and a negotiated settlement that establishes a puppet government in China with Japanese influence. With East Asia firmly under Japanese control, the dynamics of World War II are reshaped, as Japan focuses on consolidating power in the region rather than engaging in a broader conflict with the Allies."
+ EW_Germany_News.19.a:1 "OK"
+ 
+ EW_Germany_Country.21.t:0 "Partition of North America"
+ EW_Germany_Country.21.d:0 "In this alternate history, Germany achieves a stunning victory over the United States during World War II, altering the course of the conflict and reshaping the geopolitical landscape. German military strategies prove overwhelmingly successful, with advanced technology and strategic brilliance leading to swift victories on American soil. Diplomatic maneuvers isolate the United States from potential allies, leaving the nation without the crucial support it needs. Internal divisions within the U.S. government and society further weaken the resistance, allowing Germany to establish control. With the fall of major American cities, a negotiated settlement results in a puppet government sympathetic to Nazi ideology. The global balance of power shifts dramatically as Germany consolidates its dominance, reshaping the post-war world order under German influence. This alternate reality sees the Third Reich extending its reach across continents, fundamentally changing the trajectory of history."
+ EW_Germany_Country.21.a:1 "Most Likely Partition"
+ EW_Germany_News.21.t:0 "German Victory in North America"
+ EW_Germany_News.21.d:0 "In this alternate history, Germany achieves a stunning victory over the United States during World War II, altering the course of the conflict and reshaping the geopolitical landscape. German military strategies prove overwhelmingly successful, with advanced technology and strategic brilliance leading to swift victories on American soil. Diplomatic maneuvers isolate the United States from potential allies, leaving the nation without the crucial support it needs. Internal divisions within the U.S. government and society further weaken the resistance, allowing Germany to establish control. With the fall of major American cities, a negotiated settlement results in a puppet government sympathetic to Nazi ideology. The global balance of power shifts dramatically as Germany consolidates its dominance, reshaping the post-war world order under German influence. This alternate reality sees the Third Reich extending its reach across continents, fundamentally changing the trajectory of history."
+ EW_Germany_News.21.a:1 "OK"
+ 
+ EW_Germany_Country.22.t:0 "Germany Transfers Canada"
+ EW_Germany_Country.22.d:0 "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the world's second-largest country by total area, with the world's longest coastline. Its border with the United States is the world's longest international land border. The country is characterized by a wide range of both meteorologic and geological regions. It is a sparsely inhabited country of 40 million people, the vast majority residing south of the 55th parallel in urban areas. Canada's capital is Ottawa and its three largest metropolitan areas are Toronto, Montreal, and Vancouver."
+ EW_Germany_Country.22.a:1 "Historical Partition"
+ EW_Germany_News.22.t:0 "Germany Transfers Canada"
+ EW_Germany_News.22.d:0 "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the world's second-largest country by total area, with the world's longest coastline. Its border with the United States is the world's longest international land border. The country is characterized by a wide range of both meteorologic and geological regions. It is a sparsely inhabited country of 40 million people, the vast majority residing south of the 55th parallel in urban areas. Canada's capital is Ottawa and its three largest metropolitan areas are Toronto, Montreal, and Vancouver."
+ EW_Germany_News.22.a:1 "OK"
+ 
+EW_Germany_Country.23.t:0 "Negotiations with Germany"
+EW_Germany_Country.23.d:0 "After fall of important Soviet cities, Germany quickly started a diplomatic campaign with us. As the Soviet army had redeployed most of their Manchurian divisions to defend against the onslaught of the German army, we could easily occupy important cities in the east which would significantly reduce the morale of the Red Army and force the Soviet Union into a two-front war."
+EW_Germany_Country.23.a:0 "Join In Their War"
+EW_Germany_Country.23.b:0 "We Are Better Alone"
+
+EW_Germany_Country.24.t:0 "Response of Japanese"
+EW_Germany_Country.24.d:0 "We approached Japan with a request for joint action against the Soviet Union and obtained consent."
+EW_Germany_Country.24.a:0 "Great!"
+
+EW_Germany_Country.25.t:0 "Response of Japanese"
+EW_Germany_Country.25.d:0 "Despite all efforts to attract Japan to the war with the USSR, our recent proposal was met with no enthusiasm. [From.GetLeader] and the government refused to join the war, citing the fact that "at the moment all our resources are directed to the Pacific theater of war.""
+EW_Germany_Country.25.a:0 "Damn!"
+
+ EW_Germany_Country.26.t:0 "Partition of South America"
+ EW_Germany_Country.26.d:0 "In an alternate history twist, imagine if, amidst the chaos of World War II, Nazi Germany set its sights on South America. In a daring strategic move, Hitler's forces launched a surprise invasion of the continent, aiming to secure vital resources and expand their influence beyond Europe. As the German war machine rolled into Brazil, Argentina, and other nations, it encountered fierce resistance from local militias and Allied forces stationed in the region. The jungles of the Amazon and the rugged Andes Mountains became battlegrounds, where German blitzkrieg tactics clashed with guerilla warfare strategies employed by indigenous fighters and Allied troops. The conflict in South America added a new dimension to the already tumultuous global war, altering the course of history and shaping the geopolitical landscape for generations to come."
+ EW_Germany_Country.26.a:1 "Most Likely Partition"
+ EW_Germany_News.26.t:0 "German Victory in South America"
+ EW_Germany_News.26.d:0 "In an alternate history twist, imagine if, amidst the chaos of World War II, Nazi Germany set its sights on South America. In a daring strategic move, Hitler's forces launched a surprise invasion of the continent, aiming to secure vital resources and expand their influence beyond Europe. As the German war machine rolled into Brazil, Argentina, and other nations, it encountered fierce resistance from local militias and Allied forces stationed in the region. The jungles of the Amazon and the rugged Andes Mountains became battlegrounds, where German blitzkrieg tactics clashed with guerilla warfare strategies employed by indigenous fighters and Allied troops. The conflict in South America added a new dimension to the already tumultuous global war, altering the course of history and shaping the geopolitical landscape for generations to come."
+ EW_Germany_News.26.a:1 "OK"
+ 
+  EW_Germany_Country.104.t:0 "The Soviet Union Invades Poland!"
+ EW_Germany_Country.104.d:0 "Mein Führer, recent reports confirm that the Soviet Union has launched an aggressive invasion of Poland, seeking to reclaim territories lost to them. This presents us with an unexpected opportunity. By offering Poland military assistance, we could turn this situation to our advantage. In exchange for our support, we could demand the return of territories such as Danzig, West Prussia, Posen, and Upper Silesia, which were unjustly taken from us. This move could not only strengthen our strategic position but also create a powerful ally against the Bolsheviks."
+ EW_Germany_Country.104.a:1 "Offer Poland Support"
+ EW_Germany_Country.104.b:1 "Focus on Other Matters"
+ 
+ EW_Germany_Country.105.t:0 "Telegram from Berlin"
+ EW_Germany_Country.105.d:0 "An urgent telegram from Berlin has arrived, Mr. President. The German Reich has made a significant proposal in response to the Soviet invasion. They are willing to declare war on the Soviet Union and provide military assistance to Poland. However, there is a condition: in exchange for their support, the Germans demand the return of territories including Danzig, West Prussia, Posen, and Upper Silesia. This offer presents a unique opportunity to gain critical allies and secure the safety of our nation. We must decide whether to accept this offer or resist the Soviets independently."
+ EW_Germany_Country.105.a:1 "Accept German Assistance"
+ EW_Germany_Country.105.b:1 "Reject German Offer"
+ 
+ EW_Germany_Country.106.t:0 "Poland Accepts German Assistance"
+ EW_Germany_Country.106.d:0 "Poland has accepted our offer of assistance in their struggle against the Soviet Union. In exchange for military support, they have agreed to cede Danzig, West Prussia, Posen, and Upper Silesia to us. Our forces will mobilize to aid Poland, and we will begin coordinating with their military to ensure a unified front against the Bolshevik aggressors."
+ EW_Germany_Country.106.a:1 "We will crush the Bolshevik invaders together. For victory!"
+ 
+  EW_Germany_Country.107.t:0 "Poland Declines German Assistance"
+ EW_Germany_Country.107.d:0 "With Poland choosing not to accept our assistance, we must evaluate our strategy moving forward. We will explore other options for advancing our interests and securing our position in Eastern Europe. Our diplomatic and military efforts will need to adapt to the evolving situation on the continent."
+ EW_Germany_Country.107.a:1 "Fools, they will perish alone. Their fate is sealed."
+ 
+ EW_Germany_Country.128.t:0 "Germans press for Anschluss"
+ EW_Germany_Country.128.d:0 "Civil unrest and acts of violence have broken out as protesters voice their desire for Switzerland to join Germany in a union of German peoples. Berlin is pressing hard for an Anschluss, which would see Switzerland annexed into their nation."
+ EW_Germany_Country.128.a:0 "We shall join the German Reich!"
+ EW_Germany_Country.128.b:0 "No, Switzerland's destiny lies elsewhere."
+ 
+ EW_Germany_Country.129.t:0 "Switzerland refuses the Anschluss!"
+ EW_Germany_Country.129.d:0 "The fools in Bern have refused to accept the merger of our two nations! This is a blatant disregard for the will of the Swiss people, and it will not stand! We may have to enforce the Anschluss through military means."
+ EW_Germany_Country.129.a:0 "We must prepare for a military intervention."
+ 
+ EW_Germany_News.136.t:0 "The Anschluss of Switzerland"
+ EW_Germany_News.136.d:0 "After a successful coup d'état by the local Nazi party in Bern, German troops have crossed the Swiss border and taken control of the country. \n\nNo fighting has been reported, and the German soldiers were greeted by cheering crowds in the cities.\n\nIn a speech before a massive crowd at the Bundesplatz in Bern, Hitler announced the Anschluss of Switzerland, annexing the country into Germany:\n\n'The oldest western province of the German people shall be, from this point on, the newest bastion of the German Reich!'"
+ EW_Germany_News.136.a:0 "If that is what they wish..."
+ EW_Germany_News.136.b:0 "Welcome to the Reich!"
+ EW_Germany_News.136.c:0 "We must secure our northern borders!"
+ EW_Germany_News.136.e:0 "This violates the Versailles Treaty!"
+ 
+ EW_Soviet_Country.1.t:0 "The Defence of Leningrad"
+ EW_Soviet_Country.1.d:0 "Comrade Stalin, the enemy's noose tightens around Leningrad, our city of Lenin. As the fascists encroach, we have ordered the construction of a deep defensive belt. Trenches are being dug, anti-tank ditches carved out, and obstacles placed to slow the invaders. Our people are mobilized, from soldiers to factory workers, producing weapons even under bombardment. Reinforcements from the Northern Front are being redirected to defend the approaches, while naval artillery from the Baltic Fleet will support the defense. Leningrad will become a fortress, and we shall ensure that the enemy will find no easy victory here."
+ EW_Soviet_Country.1.a:1 "Hold the line!"
+ 
+ EW_Soviet_Country.2.t:0 "The Defence of Moscow"
+ EW_Soviet_Country.2.d:0 "Comrade Stalin, the fascists march towards Moscow, the beating heart of our Motherland. In response, we are rapidly organizing a layered defense of the capital. Barricades and tank traps are being set up across the city, while thousands of trenches are being dug to protect our troops. The workers of Moscow are constructing fortified positions and the city's perimeter is being turned into a series of defensive lines. Our reserve divisions are being committed to the front, and the capital will be defended street by street, block by block. The enemy will be forced to fight for every inch of Moscow!"
+ EW_Soviet_Country.2.a:1 "Defend the heart of the Motherland!"
+ 
+ EW_Soviet_Country.3.t:0 "The Defence of Stalingrad"
+ EW_Soviet_Country.3.d:0 "Comrade Stalin, the fascist forces have reached the Volga, threatening Stalingrad, the city that bears your name. The defense of this city will be a turning point in this war. The workers and soldiers of Stalingrad are preparing for a siege. Trenches are being dug along the city's outskirts, and defensive positions are being established in the factories and apartment blocks. The Volga will serve as our lifeline, and every building will be turned into a fortress. Reinforcements are being deployed from across the Motherland, and we will hold Stalingrad with every ounce of our strength. The enemy will find nothing but ruin and resistance in Stalingrad. There is no land behind the Volga!"
+ EW_Soviet_Country.3.a:1 "Not one step back!"
+ 
+ EW_Soviet_Country.4.t:0 "Germany Invades Poland!"
+ EW_Soviet_Country.4.d:0 "Comrade Stalin, recent intelligence reports confirm that Germany has launched an unprovoked attack on Poland, bypassing any formal declaration of war. This sudden aggression provides us with a unique opportunity to reassert our influence in the region and possibly reclaim the territories that were once ours. By extending an offer of assistance to Poland, we can not only help them in their time of need but also negotiate for the return of the territories of Belarus and Ukraine that were lost to Germany. Such a move could strengthen our position in Eastern Europe and ensure that the balance of power remains favorable to our interests."
+ EW_Soviet_Country.4.a:1 "Support Poland"
+ EW_Soviet_Country.4.b:1 "Remain Neutral"
+ 
+ EW_Soviet_Country.5.t:0 "Telegram from Moscow"
+ EW_Soviet_Country.5.d:0 "An urgent telegram from Moscow has arrived, Mr. President. The Soviet Union has made a significant proposal in response to the German invasion. Moscow is willing to declare war on Germany and provide military assistance to Poland. However, there is a condition: in exchange for their support, the Soviets demand the return of the territories of Belarus and Ukraine, which were ceded to Poland in the past. This offer presents a unique opportunity for us to gain critical allies and potentially restore these important lands. We must decide whether to accept this offer or continue resisting Germany independently."
+ EW_Soviet_Country.5.a:1 "Accept Soviet Assistance"
+ EW_Soviet_Country.5.b:1 "Reject Soviet Offer"
+ 
+ EW_Soviet_Country.6.t:0 "Poland Accepts Soviet Assistance"
+ EW_Soviet_Country.6.d:0 "Poland has accepted our offer of assistance in their struggle against Germany. In exchange for military support, they have agreed to cede the Belarusian and Ukrainian territories to us. Our forces will mobilize to aid Poland, and we will begin coordinating with their military to ensure a unified front against the German aggressors."
+ EW_Soviet_Country.6.a:1 "We will crush the fascist invaders together. For victory!"
+ 
+ EW_Soviet_Country.7.t:0 "Poland Declines Soviet Assistance"
+ EW_Soviet_Country.7.d:0 "With Poland choosing not to accept our assistance, we must evaluate our strategy moving forward. We will explore other options for advancing our interests and securing our position in Eastern Europe. Our diplomatic and military efforts will need to adapt to the evolving situation on the continent."
+ EW_Soviet_Country.7.a:1 "Fools, they will perish alone. Their fate is sealed."
+ 
+ EW_Allies_Country.2.t:0 "[GER.GetAdjective] Aggression Against [FROM.GetName]"
+ EW_Allies_Country.2.d:0 "Recent intelligence reports indicate that [GER.GetName] is amassing large numbers of troops along its borders with [FROM.GetName]. The signs are unmistakable—[GER.GetLeader]'s regime is poised to break the fragile peace that has held Europe together since the Great War. This blatant act of aggression threatens not only [FROM.GetName] but the stability of the entire continent. The eyes of the world are upon us, expecting a response. Shall we stand firm in defense of freedom, or will we retreat into neutrality and risk the consequences of unchecked tyranny?"
+ EW_Allies_Country.2.a:1 "Guarantee their independence"
+ EW_Allies_Country.2.b:1 "There is nothing we can do."
+ 
+ EW_Allies_Country.3.t:0 "[SOV.GetAdjective] Aggression Against [FROM.GetName]"
+ EW_Allies_Country.3.d:0 "Recent intelligence reports indicate that [SOV.GetName] is amassing large numbers of troops along its borders with [FROM.GetName]. The signs are unmistakable—[SOV.GetLeader]'s regime is poised to break the fragile peace that has held Europe together since the Great War. This blatant act of aggression threatens not only [FROM.GetName] but the stability of the entire continent. The eyes of the world are upon us, expecting a response. Shall we stand firm in defense of freedom, or will we retreat into neutrality and risk the consequences of unchecked tyranny?"
+ EW_Allies_Country.3.a:1 "Guarantee their independence"
+ EW_Allies_Country.3.b:1 "There is nothing we can do."
+ 
+ EW_Allies_Country.4.t:0 "[ITA.GetAdjective] Aggression Against [FROM.GetName]"
+ EW_Allies_Country.4.d:0 "Recent intelligence reports indicate that [ITA.GetName] is amassing large numbers of troops along its borders with [FROM.GetName]. The signs are unmistakable—[ITA.GetLeader]'s regime is poised to break the fragile peace that has held Europe together since the Great War. This blatant act of aggression threatens not only [FROM.GetName] but the stability of the entire continent. The eyes of the world are upon us, expecting a response. Shall we stand firm in defense of freedom, or will we retreat into neutrality and risk the consequences of unchecked tyranny?"
+ EW_Allies_Country.4.a:1 "Guarantee their independence"
+ EW_Allies_Country.4.b:1 "There is nothing we can do."
+ 
+ EW_Allies_Country.5.t:0 "German Forces Land In Britain!"
+ EW_Allies_Country.5.d:0 "The unthinkable has happened. German forces have successfully launched Operation Sea Lion, landing on British soil and rapidly advancing towards London. The skies are filled with the ominous roar of enemy bombers, and the streets echo with the march of invading troops. The situation is dire, and the fate of Britain hangs in the balance. In this darkest hour, the British government faces a fateful decision. Should we move the seat of power to Canada to ensure the continuity of our leadership and the fight against Nazi tyranny, or shall we remain in London, vowing to defend our homeland to the last?"
+ EW_Allies_Country.5.a:1 "Move the Government to Canada."
+ EW_Allies_Country.5.b:1 "We shall not flee. Stand and fight!"
+ 
+ EW_Allies_Country.6.t:0 "The British Government Requests Relocation to Canada"
+ EW_Allies_Country.6.d:0 "In the wake of Germany's successful invasion of the British Isles, the British government has issued a formal request for relocation to Canada. With the imminent threat of complete occupation and the possibility of the British government being lost, the British leadership seeks refuge in our Canadian capital to continue their efforts against the Axis powers. This request carries immense historical significance, reflecting our duty as members of the British Empire to support and uphold our shared values in this critical time. However, we must also consider the potential implications of hosting the British government. The relocation would solidify our role as the new center of Allied leadership but could also lead to increased British interference in Canadian affairs and a potential loss of some measure of our independence."
+ EW_Allies_Country.6.a:1 "Grant the Request"
+ EW_Allies_Country.6.b:1 "Reject the Request"
+ 
+ EW_Allies_Country.7.t:0 "Canada Accepts the Relocation of the British Government"
+ EW_Allies_Country.7.d:0 "Canada has graciously accepted the British government’s request to relocate to Ottawa. This significant decision ensures that the leadership of the British Empire will continue to guide the fight against the Axis powers from Canadian soil."
+ EW_Allies_Country.7.a:1 "We thank Canada for its crucial support"
+ 
+ EW_Allies_Country.8.t:0 "Canada Declines the Relocation Request"
+ EW_Allies_Country.8.d:0 "Canada has decided to decline our request to relocate the British government to Ottawa. While we understand their desire to preserve national independence, this decision will force us to continue our leadership efforts from the British Isles or find alternative arrangements. We respect Canada’s stance and will adapt our strategy accordingly."
+ EW_Allies_Country.8.a:1 "We respect Canada’s decision"
+ 
+ EW_Allies_Country.9.t:0 "Assume the Leadership of the Allies"
+ EW_Allies_Country.9.d:0 "Despite the valiant efforts of the British forces, London has fallen, and the British Empire lies in ruins. With the British government having relocated to Canada and now based in Ottawa, it is time for our nation to honor Britain’s wishes and assume the leadership of the Allies. Canada now faces a pivotal decision. We can choose to unite with Britain, which would merge our nations and bring together Britain’s vast colonial empire under Canadian leadership. Churchill would become our Prime Minister, and our combined strength would bolster the fight against tyranny. However, this union would mean the end of Canada as a separate, sovereign nation. Alternatively, we can remain as Canada and lead the Allies independently. This choice preserves our national identity and sovereignty while allowing us to take on the role of faction leader in the struggle for freedom. Though we will not inherit Britain’s colonies, we will continue to guide the Allied forces with our own strength and resolve."
+ EW_Allies_Country.9.a:1 "Union with Britain"
+ EW_Allies_Country.9.b:1 "Remain Canada and Lead the Allies"
+ 
+ EW_Allies_Country.10.t:0 "Decide Leadership of the Merged State"
+ EW_Allies_Country.10.d:0 "With the fall of Britain and the relocation of the British government to Canada, we now face a pivotal decision regarding the leadership of our newly merged entity. The choice between Canadian and British leadership will have profound implications for our strategy and international standing.\nOpting for Canada to lead the merged state would align with the historical shift in power and consolidate our strength under Canadian leadership. This decision would create a unified front against the Axis powers, enhance Canada’s global influence, and reflect the actual historical reality. However, it might also lead to a reduction in British prestige and present challenges in adjusting to the new leadership structure.\nOn the other hand, choosing to keep Britain as the leader of the merged state would preserve the historic continuity and prestige of British leadership. This option would maintain the British identity at the helm, ensuring that Britain’s legacy remains central to our cause. While this choice upholds Britain’s traditional role and morale, it could lead to potential disunity in coordinating efforts between Britain and Canada and might reduce the strategic influence and recognition of Canada.\nThe decision we make will define our strategic direction and affect how the world perceives our unity. We must carefully weigh the pros and cons of each option as we move forward in this crucial phase of the war."
+ EW_Allies_Country.10.a:1 "Canada will lead the Union"
+ EW_Allies_Country.10.b:1 "Britain will lead the Union"
+ 
+ EW_Allies_Country.11.t:0 "Canada Restores British Leadership"
+ EW_Allies_Country.11.d:0 "In a powerful gesture of loyalty and unity, Canada has formally requested that Britain assume leadership of the newly merged state. With the British Isles having fallen and the British government now based in Canada, this decision reflects Canada’s unwavering commitment to the Empire and its desire to restore British leadership during this critical period.\nThe Canadian government has chosen to maintain the traditional British leadership, affirming the enduring strength and prestige of Britain despite the current adversities. This move re-establishes Britain as the central figure in our united struggle against the Axis powers, preserving its historic role and influence."
+ EW_Allies_Country.11.a:1 "Let us honor Canada's request"
+ 
+ EW_Allies_Country.13.t:0 "Liberation of the British Isles"
+ EW_Allies_Country.13.d:0 "After a grueling campaign to reclaim the British Isles from Nazi occupation, the British Empire, now headquartered in Ottawa, has achieved a momentous victory. The liberation of the British homeland is not just a strategic triumph but a profound symbol of resilience and unity across the Empire.\nFrom the shores of Scotland to the streets of London, Allied forces, bolstered by Canadian leadership and British determination, have driven the enemy out and restored freedom to the land. This victory stands as a testament to the enduring spirit of the Empire and the unbreakable bond between Britain and Canada.\nNow, as the Union Jack flies once more over Buckingham Palace, we face a critical decision about the future of our united Empire. Should we restore the capital to London, honoring the historic heart of the British Empire? Or should we maintain Ottawa as the seat of our government, reflecting the new center of power and the sacrifices made to uphold liberty?"
+ EW_Allies_Country.13.a:1 "Restore the capital to London"
+ EW_Allies_Country.13.b:1 "Keep the capital in Ottawa"
+ 
+ EW_Allies_Country.14.t:0 "Liberation of the British Isles"
+ EW_Allies_Country.14.d:0 "Under the leadership of Canada and with the support of the British Government in Exile, the British Isles have been freed from the grip of Nazi occupation. Canadian forces, alongside their Allied counterparts, have marched through liberated cities, from Edinburgh to London, reclaiming the heart of the British Empire. The streets of London are once again filled with the sounds of freedom as the Union Jack is raised high above the city.\nThis historic victory marks the culmination of Canada’s steadfast commitment to the Allied cause and its unwavering support for Britain during its darkest hour. With the British homeland now secure, the British Government in Exile prepares to depart from Ottawa, ready to govern once more from the hallowed halls of Westminster.\nAs the British return to their rightful place, Canada reflects with pride on the role it played in this momentous campaign. The mission to uphold liberty and justice across the Atlantic has been fulfilled, and Canada now considers its duty complete, standing tall as a nation that answered the call when the world needed it most."
+ EW_Allies_Country.14.a:1 "Mission Accomplished"
+ 
+ EW_Allies_Country.15.t:0 "Liberation of the British Isles"
+ EW_Allies_Country.15.d:0 "In a momentous turn of events, the British Isles have been liberated from Nazi occupation, thanks to the unwavering resolve and bravery of Canadian forces. As Canadian troops, bolstered by Allied support, swept through the beleaguered cities of our homeland, the oppressive grip of the enemy was broken, and the Union Jack once again flies over London.\nThe British people, who endured years of occupation and hardship, now look upon their Canadian liberators with profound gratitude. The liberation signifies not just a military victory, but a restoration of hope and sovereignty. As the British Government in Exile, which found refuge in Ottawa, prepares to return to Westminster, the resilience of our nation and the strength of our bonds with the Commonwealth are on full display.\nThis historic victory heralds the beginning of a new chapter for Britain, one that will be written with the courage and sacrifice of those who never wavered in the face of tyranny."
+ EW_Allies_Country.15.a:1 "A New Dawn for Britain"
+ 
+ EW_Allies_Country.16.t:0 "Our Place in the Empire"
+ EW_Allies_Country.16.d:0 "With the British Isles under Nazi occupation, the seat of our government has been forced to relocate to Canada. Though Britain has fallen, the spirit of the Empire endures from across the Atlantic. We continue to be part of a global struggle, with Canada hosting the British Government in Exile, striving to uphold the values and unity of the Empire. Now, we are called upon to decide our future within this reconfigured Empire. Should we remain steadfast in our loyalty, continuing as we have, or is this our opportunity to seek greater autonomy, defining a new path while still supporting the greater cause? The decision we make now will shape our role and identity in the challenging days ahead."
+ EW_Allies_Country.16.a:1 "Push For More Autonomy"
+ EW_Allies_Country.16.b:1 "Maintain the Status Quo"
+ 
+ EW_Allies_Country.17.t:0 "[FROM.GetName] Demands More Autonomy"
+ EW_Allies_Country.17.d:0 "A reply has been received from [FROM.GetName], affirming their commitment to the ongoing fight against Nazi aggression. However, they have also expressed a desire for greater autonomy, seeking to redefine their relationship within the Empire while still standing with us in this critical hour. This demand places us in a difficult position. On one hand, granting their request could strengthen their resolve and maintain unity in the face of adversity. On the other hand, allowing such a shift could set a precedent, potentially weakening the cohesion of our war effort. We must decide whether to view this as a reasonable request or a potential threat to the stability of our unified front."
+ EW_Allies_Country.17.a:1 "Grant Their Request"
+ EW_Allies_Country.17.b:1 "Deny Their Request"
+ 
+ EW_Allies_Country.18.t:0 "Request for More Autonomy Granted"
+ EW_Allies_Country.18.d:0 "The British Government in Exile, recognizing the complexities of the current situation, has decided to grant our request for greater autonomy. This decision marks a significant shift in our relationship within the Empire, allowing us more self-governance while continuing to support the common cause against Nazi aggression. This newfound autonomy provides us with the freedom to chart our own course, yet we remain steadfast in our commitment to the collective defense of the Empire and the values it upholds. The road ahead is uncertain, but with this newfound responsibility, we stand ready to face the challenges that lie ahead."
+ EW_Allies_Country.18.a:1 "Embrace Our New Role"
+ 
+ EW_Allies_Country.19.t:0 "A Stern Warning from the British Government"
+ EW_Allies_Country.19.d:0 "Our request for more autonomy has been met with a stark warning from the British Government in Exile. They have declared that any further pursuit of this demand will be regarded as a potential act of treason, with severe consequences for those who challenge the unity and authority of the Empire. This warning underscores the gravity of our position. We must now weigh the risks of continuing down this path against the possible repercussions. The choice before us is clear: stand down and maintain our current status within the Empire, or proceed with the understanding that Britain will use all means at its disposal to restore order and unity."
+ EW_Allies_Country.19.a:1 "We Won't Be Told What to Do"
+ EW_Allies_Country.19.b:1 "Back Down and Maintain Status Quo"
+ 
+ EW_Allies_Country.20.t:0 "[FROM.GetName] Remains Defiant"
+ EW_Allies_Country.20.d:0 "[FROM.GetName] has chosen to defy the British Government in Exile's warning and has declared its independence. Despite our attempts to maintain unity in these challenging times, they have opted to sever ties, rejecting our authority and moving forward with their own path. This act of defiance poses significant challenges for our efforts to sustain a unified front against Nazi aggression. The loss of this colony may weaken our position and test our resolve. We must now address the implications of this break and strategize our response to ensure the stability of the Empire and our continued fight for freedom."
+ EW_Allies_Country.20.a:1 "This Will Be Solved by Military Force"
+ EW_Allies_Country.20.b:1 "We Have Enough on Our Plate Already"
+ 
+ EW_Allies_Country.21.t:0 "[FROM.GetName] Maintains Status Quo"
+ EW_Allies_Country.21.d:0 "In a display of loyalty and understanding, the colony has decided to maintain the status quo. Recognizing the critical need for unity during these trying times, they have chosen to uphold their current status within the Empire, standing firm alongside us in the struggle against Nazi forces. This decision reaffirms our strength and cohesion, reinforcing the collective resolve of the Empire. We can now focus on coordinating our efforts and leveraging our unified front to confront the challenges ahead with renewed determination and support."
+ EW_Allies_Country.21.a:1 "Welcome Back, Old Chaps"
+ 
+ EW_Allies_Country.115.t:0 "Is This the End of the Empire?"
+ EW_Allies_Country.115.d:0 "With the British Isles under Nazi occupation, the British Government has made the defiant decision to remain in Britain and continue the fight from within. The refusal to evacuate to Canada, or the rejection of such a request by Canada, has left the government and people of Britain isolated, with the heart of the Empire under siege. The question now looms large: can the Empire survive with its homeland occupied? As we continue to resist the invaders, we must also consider the future of our global Empire. Will our colonies and dominions remain loyal, or will they see this moment as an opportunity to assert greater independence? The fate of the Empire hangs in the balance, and our choices now will determine whether this is truly the end of an era."
+ EW_Allies_Country.115.a:1 "Send A Message To Our Subjects"
+ EW_Allies_Country.115.b:1 "Grant Independence To Our Subjects"
+ 
+ EW_Allies_Country.116.t:0 "Our Place in the Empire"
+ EW_Allies_Country.116.d:0 "Despite the British Isles being under Nazi occupation, the government has chosen to stay and continue the fight from within, rather than relocating to Canada. The heart of the Empire is under siege, but the spirit of resistance endures. As the situation grows increasingly dire, we, as one of Britain's colonies, must decide our future within this beleaguered Empire. Should we remain steadfast in our loyalty, continuing as we have, or is this our opportunity to seek greater autonomy, defining a new path while still supporting the greater cause? The decision we make now will shape our role and identity in these challenging days ahead."
+ EW_Allies_Country.116.a:1 "Push For More Autonomy"
+ EW_Allies_Country.116.b:1 "Maintain the Status Quo"
+ 
+ EW_Allies_Country.117.t:0 "[FROM.GetName] Demands More Autonomy"
+ EW_Allies_Country.117.d:0 "A reply has been received from [FROM.GetName], affirming their commitment to the ongoing fight against Nazi occupation. However, they have also expressed a desire for greater autonomy, seeking to redefine their relationship within the Empire while still standing with us in this critical hour. This demand places us in a difficult position. On one hand, granting their request could strengthen their resolve and maintain unity in the face of adversity. On the other hand, allowing such a shift could set a precedent, potentially weakening the cohesion of our war effort. We must decide whether to view this as a reasonable request or a potential threat to the stability of our unified front."
+ EW_Allies_Country.117.a:1 "Grant Their Request"
+ EW_Allies_Country.117.b:1 "Deny Their Request"
+ 
+ EW_Allies_Country.118.t:0 "Request for More Autonomy Granted"
+ EW_Allies_Country.118.d:0 "The British Government, recognizing the complexities of the current situation, has decided to grant our request for greater autonomy. This decision marks a significant shift in our relationship within the Empire, allowing us more self-governance while continuing to support the common cause against Nazi occupation. This newfound autonomy provides us with the freedom to chart our own course, yet we remain steadfast in our commitment to the collective defense of the Empire and the values it upholds. The road ahead is uncertain, but with this newfound responsibility, we stand ready to face the challenges that lie ahead."
+ EW_Allies_Country.118.a:1 "Embrace Our New Role"
+ 
+ EW_Allies_Country.119.t:0 "A Stern Warning from the British Government"
+ EW_Allies_Country.119.d:0 "Our request for more autonomy has been met with a stark warning from the British Government. They have declared that any further pursuit of this demand will be regarded as a potential act of treason, with severe consequences for those who challenge the unity and authority of the Empire. This warning underscores the gravity of our position. We must now weigh the risks of continuing down this path against the possible repercussions. The choice before us is clear: stand down and maintain our current status within the Empire, or proceed with the understanding that Britain will use all means at its disposal to restore order and unity."
+ EW_Allies_Country.119.a:1 "We Won't Be Told What to Do"
+ EW_Allies_Country.119.b:1 "Back Down and Maintain Status Quo"
+ 
+ EW_Allies_Country.120.t:0 "[FROM.GetName] Remains Defiant"
+ EW_Allies_Country.120.d:0 "[FROM.GetName] has chosen to defy the British Government's warning and has declared its independence. Despite our attempts to maintain unity in these challenging times, they have opted to sever ties, rejecting our authority and moving forward with their own path. This act of defiance poses significant challenges for our efforts to sustain a unified front against Nazi occupation. The loss of this colony may weaken our position and test our resolve. We must now address the implications of this break and strategize our response to ensure the stability of the Empire and our continued fight for freedom."
+ EW_Allies_Country.120.a:1 "This Will Be Solved by Military Force"
+ EW_Allies_Country.120.b:1 "We Have Enough on Our Plate Already"
+ 
+ EW_Allies_Country.121.t:0 "[FROM.GetName] Maintains Status Quo"
+ EW_Allies_Country.121.d:0 "In a display of loyalty and understanding, the colony has decided to maintain the status quo. Recognizing the critical need for unity during these trying times, they have chosen to uphold their current status within the Empire, standing firm alongside us in the struggle against Nazi forces. This decision reaffirms our strength and cohesion, reinforcing the collective resolve of the Empire. We can now focus on coordinating our efforts and leveraging our unified front to confront the challenges ahead with renewed determination and support."
+ EW_Allies_Country.121.a:1 "Welcome Back, Old Chaps"
+ 
+  EW_Allies_Country.122.t:0 "Britain Declares Independence for the Colonies"
+ EW_Allies_Country.122.d:0 "With Britain now fully occupied and the heart of the Empire under Nazi control, the British Government has made a dramatic decision. Acknowledging the impossibility of maintaining control over its colonies, Britain has declared that all colonies are to govern themselves independently. This declaration marks the end of British rule, but with a final plea for the colonies to continue supporting the fight against the Axis powers. The Empire may be falling, but our shared struggle endures. How will we respond to this call for continued unity?"
+ EW_Allies_Country.122.a:1 "Embrace Our New Independence"
+ EW_Allies_Country.122.b:1 "We Won't Abandon Them In Their Time of Greatest Need"
+ 
+ EW_Allies_Country.123.t:0 "The Fall of Britain"
+ EW_Allies_Country.123.d:0 "The inevitable has come to pass. The German forces have successfully conquered the British Isles, marking the fall of Britain to Nazi occupation. Despite the valiant efforts and unwavering spirit of the British people, the relentless advance of the German war machine has overwhelmed the defenses. With the United States of America having failed to intervene and save us, our allies have abandoned us in our darkest hour. The heart of the Empire lies in ruins, and the British government is now faced with the grim reality of total defeat. The fall of Britain symbolizes the end of British morale and the collapse of our once-great Empire. The colonies and dominions are left to grapple with the consequences of this monumental shift, as the remnants of British authority fade into the background. What remains of the British government must now decide the next steps to ensure the continued fight against tyranny, if possible."
+ EW_Allies_Country.123.a:1 "This is it, old chaps"
+ 
+ EW_Allies_Country.124.t:0 "A Pledge to Stand Together"
+ EW_Allies_Country.124.d:0 "In a stirring display of loyalty and resolve, the colonies have responded to Britain’s declaration with a resounding commitment to stand by the Empire until the very end. Despite the overwhelming odds and the crumbling state of British control, the colonies have pledged to support the ongoing struggle against the Axis powers. This act of solidarity comes as a beacon of hope amidst the encroaching darkness, reaffirming the shared bonds of the Empire even as its core is being shattered. The colonies’ decision to continue the fight represents a powerful testament to their enduring commitment and courage in the face of adversity."
+ EW_Allies_Country.124.a:1 "We Are Not Alone"
+ 
+ EW_Allies_Country.125.t:0 "The Question of The Flag"
+ EW_Allies_Country.125.d:0 "With the victorious fusion of Britain and Canada, we stand at a crossroads in defining our identity moving forward. The Union Jack, a symbol of our shared heritage, holds great significance, but the time has come to decide whether we should maintain tradition or forge a new path. As we celebrate our triumph, we must address the issue of our national symbols and name. We could choose to return to the Union Jack and call ourselves the British Empire, embracing our historical roots and the legacy of our shared past. Alternatively, we could continue with our current Free Britain War Flag and remain as Free Britain, preserving our current identity and the spirit of our recent struggle. If Britain is to lead the new union, we could adopt the name British-Canadian Union and feature a Union Jack with a maple leaf in the middle as our flag, symbolizing our strong alliance and shared leadership. Should Canada take the lead, we could be known as the Canadian-British Federation, with a Canadian Flag modified with a British color scheme and a maple leaf in the middle, representing Canada’s new leading role and our combined heritage."
+ EW_Allies_Country.125.a:1 "Return to Tradition"
+ EW_Allies_Country.125.b:1 "Maintain Current Identity"
+ EW_Allies_Country.125.c:1 "British-Canadian Union"
+ EW_Allies_Country.125.e:1 "Canadian-British Federation"
+ 
+ EW_Allies_Country.126.t:0 "Chinese Resistance Stiffens"
+ EW_Allies_Country.126.d:0 "As Japanese forces push further into Chinese territory, the resolve of the Chinese people and military has hardened. Faced with the overwhelming might of the Japanese invasion, China has employed a variety of strategies to slow the advance. Guerrilla warfare, determined local defense efforts, and the strategic use of mountainous and rugged terrain have all contributed to stalling the Japanese momentum. The Chinese people are more united than ever, rallying to defend their homeland. The Chinese government has also bolstered its defenses and reoriented its military strategy to a more defensive posture, aiming to maximize their effectiveness in holding the line."
+ EW_Allies_Country.126.a:1 "Defend our homeland with all our might!"
+ 
+ EW_Allies_Country.127.t:0 "Bogged Down in China"
+ EW_Allies_Country.127.d:0 "The relentless Chinese resistance and the harsh terrain of China have begun to take their toll on the Japanese advance. What was initially a rapid push into Chinese territory has now slowed to a frustrating crawl. Japanese forces are facing fierce opposition in every town and village, and logistical challenges are compounding the difficulties. The high cost of maintaining supply lines and the growing number of casualties are starting to weigh heavily on Japanese morale. Frustration mounts as the initial plans for a swift victory seem increasingly out of reach."
+ EW_Allies_Country.127.a:1 "For the Emperor!"
+ 
+ EW_Allies_Country.128.t:0 "The Motherland Calls!"
+ EW_Allies_Country.128.d:0 "As the German invasion pushes deeper into Soviet territory, the call to defend the Motherland resonates throughout the Soviet Union. In response to the German advances, the Soviet people and military have mobilized with renewed vigor. The Soviet government has implemented a series of measures to boost the defense, including mass mobilization of reserves, improved supply lines, and extensive use of defensive fortifications. The spirit of patriotism and determination strengthens Soviet defenses, ensuring that the invaders face fierce resistance at every turn."
+ EW_Allies_Country.128.a:1 "Mobilize all resources and strengthen our defenses!"
+ 
+ EW_Allies_Country.129.t:0 "Logistical Challenges of Barbarossa"
+ EW_Allies_Country.129.d:0 "The German offensive in the Soviet Union has encountered significant difficulties as the logistical challenges of Barbarossa become increasingly apparent. The once rapid advance is now hampered by supply issues, terrain difficulties, and the growing strain on German resources. The logistical constraints have bogged down the Wehrmacht, leading to increased attrition and growing frustrations among the ranks. The anticipated swift victory is now fraught with complications as Soviet resistance stiffens and operational efficiency deteriorates."
+ EW_Allies_Country.129.a:1 "We will break through!"
+ 
+ EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
+ EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
+ EW_Allies_News.2.a:1 "Interesting..."
+ 
+ EW_Allies_News.3.t:0 "[FROM.GetName] Issues Stern Warning To [SOV.GetName]"
+ EW_Allies_News.3.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [SOV.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [SOV.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [SOV.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [SOV.GetName] could determine the course of history."
+ EW_Allies_News.3.a:1 "Interesting..."
+ 
+ EW_Allies_News.4.t:0 "[FROM.GetName] Issues Stern Warning To [ITA.GetName]"
+ EW_Allies_News.4.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [ITA.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [ITA.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [ITA.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [ITA.GetName] could determine the course of history."
+ EW_Allies_News.4.a:1 "Interesting..."
+ 
+ EW_Allies_News.5.t:0 "British Government Relocates to Canada"
+ EW_Allies_News.5.d:0 "In a dramatic turn of events, the British government has relocated to Ottawa, Canada, following the fall of London. This historic move ensures that British leadership continues to guide the Allied effort from Canadian soil. The relocation symbolizes the unwavering commitment of Britain to the fight against tyranny, even as the heart of the British Empire lies in ruins. The world watches as Canada steps into this crucial role, marking a new chapter in the ongoing struggle for freedom."
+ EW_Allies_News.5.a:1 "Interesting..."
+ 
+ EW_Allies_News.6.t:0 "Canada and Britain Form a Unified Empire"
+ EW_Allies_News.6.d:0 "In a monumental decision, Canada and Britain have officially merged into a single entity. Under this new arrangement, Canada inherits Britain’s extensive colonial empire and assumes leadership of the Allies. Winston Churchill becomes the Prime Minister, and the combined strength of the newly unified empire represents a significant force against the Axis powers. This union marks the end of Canada’s status as a separate nation but strengthens the Allied front with a powerful, consolidated leadership."
+ EW_Allies_News.6.a:1 "Interesting..."
+ 
+ EW_Allies_News.7.t:0 "Canada Assumes Leadership of the Allies"
+ EW_Allies_News.7.d:0 "Canada has officially taken over as the leader of the Allies, following the fall of Britain and the relocation of the British government. Although the British government has not merged with Canada, the North American nation now leads the Allied forces in their fight against the Axis powers. This new role underscores Canada’s growing importance in the global conflict and its commitment to the cause of liberty. The world now looks to Canada to guide the Allied strategy and rally the forces of freedom."
+ EW_Allies_News.7.a:1 "Interesting..."
+ 
+ EW_Allies_News.8.t:0 "Allies Liberate the British Isles from Nazi Occupation"
+ EW_Allies_News.8.d:0 "In a stunning turn of events, the British Isles have been liberated from Nazi control by the forces of the British Empire, now operating from its temporary capital in Ottawa. After years of occupation, the swastika has been torn down, and the Union Jack once again flies proudly over Britain. The liberation was a monumental effort, with combined forces from across the Commonwealth and Allied nations launching a determined campaign to reclaim the heart of the British Empire. The victory marks a pivotal moment in the war, sending a clear message to the Axis powers that their expansion will not go unchallenged. As the dust settles, the world watches closely to see what the future holds for the British Empire, now split between its historical homeland and its new seat of power in Canada. This triumph is a beacon of hope for occupied nations everywhere, signaling that the tide of war may be turning."
+ EW_Allies_News.8.a:1 "Interesting..."
+ 
+ EW_Allies_News.9.t:0 "The Fall of Britain"
+ EW_Allies_News.9.d:0 "In a staggering turn of events, the British Isles have fallen under Nazi occupation, marking the end of an era for one of the world’s most storied empires. The relentless advance of German forces has brought Britain to its knees, concluding a chapter of fierce resistance and profound sacrifice. The absence of decisive intervention by the United States has left Britain isolated and unable to fend off the overwhelming might of the Nazi war machine. As the last vestiges of British authority crumble, the world watches with bated breath, contemplating the implications of this seismic shift in global power dynamics. The fall of Britain signals a dramatic realignment of allegiances and raises questions about the future direction of the war and the stability of the international order."
+ EW_Allies_News.9.a:1 "Interesting..."
+ 
+ EW_German_Units_Country.0.t:0 "The Birth of the Waffen-SS"
+ EW_German_Units_Country.0.d:0 "The time has come to formalize the Waffen-SS as an elite fighting force. Born from the fervor and ideology of the Nazi regime, the Waffen-SS is to be more than just a military unit; it is to embody our principles and our commitment to victory. This new formation will serve as both a symbol of our strength and a spearhead in our campaigns across Europe. With its unique role and unwavering loyalty, the Waffen-SS will become a cornerstone of our military operations."
+ EW_German_Units_Country.0.a:1 "Establish the Waffen-SS"
+ EW_German_Units_Country.0.b:1 "We Only Need The Heer"
+ 
+ EW_German_Units_News.0.t:0 "Germany Unveils New Elite Force"
+ EW_German_Units_News.0.d:0 "Following their decisive victory in Western Europe and the fall of France, Germany has announced the formation of a new elite military unit: the Waffen-SS. Designed to serve as a symbol of the regime’s strength and ideological commitment, the Waffen-SS will operate as both an elite fighting force and a potent tool for advancing Germany’s strategic goals. This new division promises to be a formidable addition to the German military, reflecting the country's continued expansion and its intent to consolidate power across the continent. The Waffen-SS is expected to play a crucial role in future operations, embodying the discipline and fervor that have come to define the Nazi regime’s military ambitions."
+ EW_German_Units_News.0.a:1 "Interesting..."

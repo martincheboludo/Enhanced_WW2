@@ -1,0 +1,86 @@
+Allies_EW_Decisions = {
+	picture = GFX_decision_cat_ALLIES_EW
+	icon = generic_democracy
+
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = USA
+			original_tag = SOV
+			original_tag = CHI
+		}
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 1000
+	}
+}
+
+GER_EW_Decisions = {
+	picture = GFX_decision_cat_GER_EW
+	icon = ger_reichskommissariats
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 1000
+	}
+}
+
+SS_EW_Decisions = {
+	picture = GFX_decision_cat_SS_EW
+	icon = ger_reichskommissariats
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 1000
+	}
+}
+
+
+JAP_EW_Decisions = {
+	picture = GFX_decision_cat_JAP_EW
+	icon = jap_pacific_guardian
+
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 1000
+	}
+}
+
+SOV_EW_Decisions = {
+	picture = GFX_decision_cat_SOV_EW
+	icon = sov_great_patriotic_war
+
+	allowed = {
+		original_tag = SOV
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 1000
+	}
+}

@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+	
+		EW_BGIE = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = democratic
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.15
+				war_support_factor = 0.20
+			}
+		}
+		
+		EW_We_Shall_Never_Surrender = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = democratic
+			}
+			
+			picture = EW_BGIE
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.15
+				stability_factor = 0.15
+				war_support_factor = 0.20
+				surrender_limit = 1.0
+			}
+		}
+	
+	}
+	
+}

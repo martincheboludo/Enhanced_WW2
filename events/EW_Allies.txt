@@ -1,0 +1,4563 @@
+add_namespace = EW_Allies_Country
+add_namespace = EW_Allies_News
+
+##Event to trigger German Aggression
+country_event = {
+	id = EW_Allies_Country.1
+	picture = GFX_report_event_German_Soldiers_Country
+	title = EW_Allies_Country.1.t
+	desc = EW_Allies_Country.1.d
+	hidden = yes
+	trigger = {
+			date > 1933.1.1
+			date < 1939.1.1
+			threat < 0.25
+				OR = {
+					#Countries of German Interest and Their Puppets
+					tag = BEL
+					tag = LUX
+					tag = HOL
+					tag = FRA
+					tag = ENG
+					tag = DEN
+					tag = NOR
+					tag = SWE
+					tag = SWI
+					is_subject_of = FRA
+					is_subject_of = ENG
+					is_subject_of = HOL
+					is_subject_of = DEN
+					#Other Western European Nations
+					tag = SPR
+					tag = POR
+					tag = IRE
+					tag = ITA
+					#Balkan Countries
+					tag = YUG
+					tag = ROM
+					tag = GRE
+					tag = HUN
+					tag = BUL
+					#Middle East
+					tag = TUR
+					tag = AFG
+					tag = IRQ
+					tag = PER
+					tag = SAU
+					tag = OMA
+					tag = YEM
+					#Soviet Sphere
+					tag = FIN
+					tag = LIT
+					tag = LAT
+					tag = EST
+					tag = POL
+					tag = ALB
+					AND = { tag = AUS date < 1938.1.1 }
+					AND = { tag = CZE date < 1938.1.1 }
+				}
+				ROOT = { has_war = no }
+				OR = { 
+					GER = { is_justifying_wargoal_against = ROOT }
+					SOV = { is_justifying_wargoal_against = ROOT }
+					ITA = { is_justifying_wargoal_against = ROOT }
+				}
+				OR = { 
+					AND = { 
+						NOT = { is_guaranteed_by = ENG }
+						NOT = { has_country_flag = EW_Britain_Declined_Guarantee }
+						ENG = { has_government = democratic }
+						NOT = { ROOT = { tag = ENG } }
+						NOT = { ROOT = { is_subject_of = ENG } }
+						ENG = { has_war = no }
+					}
+					AND = { 
+						NOT = { is_guaranteed_by = FRA }
+						NOT = { has_country_flag = EW_France_Declined_Guarantee }
+						FRA = { has_government = democratic }
+						NOT = { ROOT = { tag = FRA } }
+						NOT = { ROOT = { is_subject_of = FRA } }
+						FRA = { has_war = no }
+					}
+				}
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.1.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+			if = {
+				limit = { 
+					GER = { is_justifying_wargoal_against = ROOT }
+				}
+		
+				if = {
+					limit = { 
+						ENG = { 
+							NOT = { has_guaranteed = ROOT } 
+							NOT = { ROOT = { has_country_flag = EW_Britain_Declined_Guarantee } }
+							has_government = democratic
+							NOT = { ROOT = { tag = ENG } }						
+						} 
+					}
+					ENG = { country_event = { id = EW_Allies_Country.2 hours = 6 random_hours = 6 } }
+				}
+
+		
+		
+				if = {
+					limit = { 
+						FRA = { 
+							NOT = { has_guaranteed = ROOT } 
+							NOT = { ROOT = { has_country_flag = EW_France_Declined_Guarantee } }
+							has_government = democratic
+							NOT = { ROOT = { tag = ENG } }						
+						} 
+					}
+					FRA = { country_event = { id = EW_Allies_Country.2 hours = 6 random_hours = 6 } }
+				}
+			}
+			
+			if = {
+				limit = { 
+					SOV = { is_justifying_wargoal_against = ROOT }
+				}
+		
+				if = {
+					limit = { 
+						ENG = { 
+							NOT = { has_guaranteed = FROM } 
+							NOT = { FROM = { has_country_flag = EW_Britain_Declined_Guarantee } }
+							has_government = democratic
+							NOT = { FROM = { tag = ENG } }						
+						} 
+					}
+					ENG = { country_event = { id = EW_Allies_Country.3 hours = 6 random_hours = 6 } }
+				}
+
+		
+		
+				if = {
+					limit = { 
+						FRA = { 
+							NOT = { has_guaranteed = FROM } 
+							NOT = { FROM = { has_country_flag = EW_France_Declined_Guarantee } }
+							has_government = democratic
+							NOT = { FROM = { tag = ENG } }						
+						} 
+					}
+					FRA = { country_event = { id = EW_Allies_Country.3 hours = 6 random_hours = 6 } }
+				}
+			}
+			
+			if = {
+				limit = { 
+					ITA = { is_justifying_wargoal_against = ROOT }
+				}
+		
+				if = {
+					limit = { 
+						ENG = { 
+							NOT = { has_guaranteed = ROOT } 
+							NOT = { ROOT = { has_country_flag = EW_Britain_Declined_Guarantee } }
+							has_government = democratic
+							NOT = { ROOT = { tag = ENG } }						
+						} 
+					}
+					ENG = { country_event = { id = EW_Allies_Country.4 hours = 6 random_hours = 6 } }
+				}
+
+		
+		
+				if = {
+					limit = { 
+						FRA = { 
+							NOT = { has_guaranteed = ROOT } 
+							NOT = { ROOT = { has_country_flag = EW_France_Declined_Guarantee } }
+							has_government = democratic
+							NOT = { ROOT = { tag = ENG } }						
+						} 
+					}
+					FRA = { country_event = { id = EW_Allies_Country.4 hours = 6 random_hours = 6 } }
+				}
+			}
+
+	}
+}
+
+##Guarantee Country from German Aggresion for Allies
+country_event = {
+	id = EW_Allies_Country.2
+	picture = GFX_report_event_German_Soldiers_Country
+	title = EW_Allies_Country.2.t
+	desc = EW_Allies_Country.2.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.2.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 70
+				FROM = { tag = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = LUX } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = LUX } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 65
+				FROM = { tag = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 65
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_subject_of = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_subject_of = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = NOR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = NOR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SWE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SWE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = SWI } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = SWI } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = SPR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = SPR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = POR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = POR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = IRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = IRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = ITA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = ITA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = ALB } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = ALB } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = YUG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = YUG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = ROM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = ROM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = GRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = GRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = HUN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = HUN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = BUL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = BUL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = TUR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = TUR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = AFG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = AFG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = IRQ } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = IRQ } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = PER } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = PER } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SAU } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = SAU } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = OMA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = OMA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = YEM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = YEM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = FIN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = FIN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = LAT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = LAT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = LIT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = LIT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = EST } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = EST } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = POL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = POL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = AUS } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = AUS } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = CZE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = CZE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_guaranteed_by = FRA }
+			}
+			modifier = {
+				factor = 50
+				FROM = { is_guaranteed_by = ENG }
+			}
+		}
+
+		give_guarantee =  FROM
+		
+		FROM = {
+			news_event = { id = EW_Allies_News.2 hours = 6 }
+		}
+		
+
+	}
+	option = {
+		name = EW_Allies_Country.2.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 30
+				FROM = { tag = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = LUX } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = LUX } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 35
+				FROM = { tag = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 35
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_subject_of = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_subject_of = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = NOR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = NOR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SWE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SWE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = SWI } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = SWI } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = SPR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = SPR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = POR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = POR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = IRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = IRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = ITA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = ITA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = ALB } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = ALB } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = YUG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = YUG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = ROM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = ROM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = GRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = GRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = HUN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = HUN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = BUL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = BUL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = TUR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = TUR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = AFG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = AFG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = IRQ } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = IRQ } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = PER } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = PER } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SAU } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = SAU } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = OMA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = OMA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = YEM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = YEM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = FIN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = FIN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = LAT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = LAT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = LIT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = LIT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = EST } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = EST } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = POL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = POL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = AUS } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = AUS } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = CZE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = CZE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { has_country_flag = EW_France_Declined_Guarantee }
+			}
+			modifier = {
+				factor = 50
+				FROM = { has_country_flag = EW_Britain_Declined_Guarantee }
+			}
+		}
+		
+			if = {
+				limit = { 
+						tag = ENG					
+					} 
+				FROM = {
+					set_country_flag = EW_Britain_Declined_Guarantee
+				}
+			}
+			
+			if = {
+				limit = { 
+						tag = FRA				
+					} 
+				FROM = {
+					set_country_flag = EW_France_Declined_Guarantee
+				}
+			}
+
+		
+
+	}
+}
+
+##Guarantee Country from Soviet Aggresion for Allies
+country_event = {
+	id = EW_Allies_Country.3
+	picture = GFX_report_event_Soviet_Soldiers_Country
+	title = EW_Allies_Country.3.t
+	desc = EW_Allies_Country.3.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.3.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 20
+				FROM = { tag = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = LUX } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = LUX } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_subject_of = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_subject_of = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = NOR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = NOR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = SWE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SWE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = SWI } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = SWI } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = SPR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = SPR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = POR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = POR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = IRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = IRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = ITA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = ITA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = ALB } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = ALB } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = YUG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = YUG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = ROM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = ROM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = GRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = GRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = HUN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = HUN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = BUL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = BUL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = TUR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = TUR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = AFG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = AFG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = IRQ } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = IRQ } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = PER } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = PER } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SAU } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = SAU } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = OMA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = OMA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = YEM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = YEM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = FIN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = FIN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = LAT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = LAT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = LIT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = LIT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = EST } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = EST } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = POL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = POL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = AUS } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = AUS } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = CZE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = CZE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_guaranteed_by = FRA }
+			}
+			modifier = {
+				factor = 50
+				FROM = { is_guaranteed_by = ENG }
+			}
+		}
+
+		give_guarantee =  FROM
+		
+		FROM = {
+			news_event = { id = EW_Allies_News.3 hours = 6 }
+		}
+		
+
+	}
+	option = {
+		name = EW_Allies_Country.3.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 80
+				FROM = { tag = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = LUX } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = LUX } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_subject_of = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_subject_of = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = NOR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = NOR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = SWE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SWE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = SWI } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = SWI } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = SPR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = SPR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = POR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = POR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = IRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = IRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = ITA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = ITA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = ALB } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = ALB } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = YUG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = YUG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = ROM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = ROM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = GRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = GRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = HUN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = HUN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = BUL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = BUL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = TUR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = TUR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = AFG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = AFG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = IRQ } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = IRQ } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = PER } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = PER } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SAU } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = SAU } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = OMA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = OMA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = YEM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = YEM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = FIN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = FIN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = LAT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = LAT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = LIT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = LIT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = EST } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = EST } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = POL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = POL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = AUS } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = AUS } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = CZE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = CZE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { has_country_flag = EW_France_Declined_Guarantee }
+			}
+			modifier = {
+				factor = 50
+				FROM = { has_country_flag = EW_Britain_Declined_Guarantee }
+			}
+		}
+		
+			if = {
+				limit = { 
+						tag = ENG					
+					} 
+				FROM = {
+					set_country_flag = EW_Britain_Declined_Guarantee
+				}
+			}
+			
+			if = {
+				limit = { 
+						tag = FRA				
+					} 
+				FROM = {
+					set_country_flag = EW_France_Declined_Guarantee
+				}
+			}
+
+		
+
+	}
+}
+
+##Guarantee Country from Italian Aggresion for Allies
+country_event = {
+	id = EW_Allies_Country.4
+	picture = GFX_report_event_Italian_Soldiers_Country
+	title = EW_Allies_Country.4.t
+	desc = EW_Allies_Country.4.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.4.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 30
+				FROM = { tag = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = LUX } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = LUX } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 35
+				FROM = { tag = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 35
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_subject_of = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_subject_of = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = NOR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = NOR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = SWE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SWE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = SWI } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = SWI } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = SPR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = SPR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = POR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = POR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 100
+				FROM = { tag = IRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = IRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = ALB } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = ALB } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = YUG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = YUG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = ROM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = ROM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = GRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = GRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = HUN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = HUN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = BUL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = BUL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = TUR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = TUR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = AFG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = AFG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = IRQ } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = IRQ } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = PER } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = PER } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 15
+				FROM = { tag = SAU } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = SAU } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = OMA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = OMA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 10
+				FROM = { tag = YEM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 5
+				FROM = { tag = YEM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = FIN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = FIN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = LAT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = LAT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = LIT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = LIT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = EST } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = EST } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = POL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = POL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = AUS } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = AUS } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = CZE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = CZE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { is_guaranteed_by = FRA }
+			}
+			modifier = {
+				factor = 50
+				FROM = { is_guaranteed_by = ENG }
+			}
+		}
+
+		give_guarantee =  FROM
+		
+		FROM = {
+			news_event = { id = EW_Allies_News.4 hours = 6 }
+		}
+		
+
+	}
+	option = {
+		name = EW_Allies_Country.4.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 70
+				FROM = { tag = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { is_subject_of = BEL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = LUX } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = LUX } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 65
+				FROM = { tag = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 65
+				FROM = { is_subject_of = HOL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_subject_of = FRA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_subject_of = ENG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { is_subject_of = DEN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = NOR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = NOR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = SWE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SWE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = SWI } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = SWI } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = SPR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = SPR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = POR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = POR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = IRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = IRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = ALB } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = ALB } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = YUG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = YUG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = ROM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = ROM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = GRE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = GRE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = HUN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = HUN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = BUL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = BUL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = TUR } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = TUR } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = AFG } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = AFG } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = IRQ } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = IRQ } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = PER } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = PER } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 85
+				FROM = { tag = SAU } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = SAU } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = OMA } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = OMA } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 90
+				FROM = { tag = YEM } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 95
+				FROM = { tag = YEM } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = FIN } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = FIN } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = LAT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = LAT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = LIT } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = LIT } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = EST } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = EST } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = POL } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = POL } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = AUS } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = AUS } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = CZE } 
+				ROOT = { tag = ENG } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = CZE } 
+				ROOT = { tag = FRA } 
+			}
+			modifier = {
+				factor = 30
+				FROM = { has_country_flag = EW_France_Declined_Guarantee }
+			}
+			modifier = {
+				factor = 50
+				FROM = { has_country_flag = EW_Britain_Declined_Guarantee }
+			}
+		}
+		
+			if = {
+				limit = { 
+						tag = ENG					
+					} 
+				FROM = {
+					set_country_flag = EW_Britain_Declined_Guarantee
+				}
+			}
+			
+			if = {
+				limit = { 
+						tag = FRA				
+					} 
+				FROM = {
+					set_country_flag = EW_France_Declined_Guarantee
+				}
+			}
+
+		
+
+	}
+}
+
+##Move Government To Canada?
+country_event = {
+	id = EW_Allies_Country.5
+	picture = GFX_report_event_British_Soldiers_Country
+	title = EW_Allies_Country.5.t
+	desc = EW_Allies_Country.5.d
+	fire_only_once = yes
+	trigger = {
+			date > 1933.1.1
+			date < 1949.1.1
+			tag = ENG
+			has_government = democratic
+			has_war_with = GER
+			surrender_progress > 0.30
+			#NOT = { is_in_faction_with = USA}
+			#NOT = { USA = { has_war_with = GER } }
+			country_exists = CAN
+			CAN = { is_subject_of = ENG }
+			CAN = { has_war_with = GER }
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.5.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		CAN = {
+			country_event = {
+				id = EW_Allies_Country.6
+				hours = 6
+			}
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.5.b
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_ideas = EW_We_Shall_Never_Surrender
+		
+
+	}
+}
+
+##Move Government To Canada?
+country_event = {
+	id = EW_Allies_Country.6
+	picture = GFX_report_event_British_Soldiers_Country
+	title = EW_Allies_Country.6.t
+	desc = EW_Allies_Country.6.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.6.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		CAN = {
+			set_major = yes
+			add_ideas = EW_BGIE
+		}
+		
+		ENG = {
+			country_event = {
+				id = EW_Allies_Country.7
+				hours = 6
+			}
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.6.b
+		ai_chance = {
+			factor = 0
+		}
+		
+		ENG = {
+			country_event = {
+				id = EW_Allies_Country.8
+				hours = 6
+			}
+		}
+		
+
+	}
+}
+
+##Canada Accepts
+country_event = {
+	id = EW_Allies_Country.7
+	picture = GFX_report_event_British_Soldiers_Country
+	title = EW_Allies_Country.7.t
+	desc = EW_Allies_Country.7.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.7.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		ENG = {
+			add_stability = 0.10
+			add_war_support = 0.15
+			release = CAN
+			end_puppet = CAN
+			create_country_leader = {
+				name = "British Interim Government"
+				picture = "gfx/leaders/ENG/British_Parliament.dds"
+				ideology = conservatism
+			}
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.5 hours = 6 }
+		}
+		
+	}
+
+}
+
+##Canada Declines
+country_event = {
+	id = EW_Allies_Country.8
+	picture = GFX_report_event_British_Soldiers_Country
+	title = EW_Allies_Country.8.t
+	desc = EW_Allies_Country.8.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.8.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		ENG = {
+			hidden_effect = { set_country_flag = EW_Canada_Refused_Help }
+			add_stability = -0.10
+			add_war_support = -0.15
+			add_opinion_modifier = {
+				target = CAN
+				modifier = refused_help
+			}
+		}
+		
+	}
+
+}
+
+##Assume Leadership of Allies
+country_event = {
+	id = EW_Allies_Country.9
+	picture = GFX_report_event_Nazi_Occupied_Britain_Country
+	title = EW_Allies_Country.9.t
+	desc = EW_Allies_Country.9.d
+	fire_only_once = yes
+	trigger = {
+			date > 1933.1.1
+			date < 1949.1.1
+			tag = CAN
+			has_idea = EW_BGIE
+			has_war_with = GER
+			is_in_faction_with = ENG
+			ENG = { has_war_with = GER }
+			ENG = { has_capitulated = yes }
+			
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.9.a
+		ai_chance = {
+			factor = 70
+		}
+		
+		CAN = {
+			set_faction_leader = yes
+			country_event = { id = EW_Allies_Country.10 hours = 6 }
+			hidden_effect = { set_global_flag = EW_ENG_CAN_Fusion }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.9.b
+		ai_chance = {
+			factor = 30
+		}
+		
+		CAN = {
+			set_faction_leader = yes
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.7 hours = 6 }
+		}
+
+	}
+}
+
+##Who Leads the Merged State
+country_event = {
+	id = EW_Allies_Country.10
+	picture = GFX_report_event_Churchill_Country
+	title = EW_Allies_Country.10.t
+	desc = EW_Allies_Country.10.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.10.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_dominion
+					}
+				}
+				set_country_flag = EW_British_Dominion
+			}
+			
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_colony
+					}
+				}
+				set_country_flag = EW_British_Colony
+			}
+			
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_puppet
+					}
+				}
+				set_country_flag = EW_British_Puppet
+			}
+			
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_integrated_puppet
+					}
+				}
+				set_country_flag = EW_British_Integrated_Puppet
+			}
+		}
+		
+		ENG = {
+			every_unit_leader = {
+				set_nationality = CAN
+			}
+			transfer_navy = { target = CAN } 
+		}
+		
+		CAN = {
+			every_state = {
+				limit = { is_core_of = ENG }
+				add_core_of = CAN
+			}
+			annex_country = {
+				target = ENG  transfer_troops = yes 
+			}
+			create_country_leader = {
+				name = "Winston Churchill"
+				picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+				ideology = conservatism
+			}
+			set_cosmetic_tag = Free_Britain
+			every_other_country = {
+				limit = {
+					OR = {
+						has_country_flag = EW_British_Dominion
+						has_country_flag = EW_British_Colony
+						has_country_flag = EW_British_Puppet
+						has_country_flag = EW_British_Integrated_Puppet
+					}
+				}
+				country_event = { id = EW_Allies_Country.16 hours = 6 }
+			}
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.6 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.10.b
+		ai_chance = {
+			factor = 0
+		}
+		
+		ENG = {
+			country_event = { id = EW_Allies_Country.11 hours = 6 }
+		}
+
+	}
+}
+
+##Canada hands over the reigns
+country_event = {
+	id = EW_Allies_Country.11
+	picture = GFX_report_event_Churchill_Country
+	title = EW_Allies_Country.11.t
+	desc = EW_Allies_Country.11.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.11.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		CAN = {
+			every_unit_leader = {
+				set_nationality = ENG
+			}
+			transfer_navy = { target = ENG } 
+			remove_ideas = EW_BGIE
+		}
+		
+		ENG = {
+			every_state = {
+				limit = { is_core_of = CAN }
+				add_core_of = ENG
+			}
+			annex_country = {
+				target = CAN  transfer_troops = yes 
+			}
+			create_country_leader = {
+				name = "Winston Churchill"
+				picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+				ideology = conservatism
+			}
+			set_cosmetic_tag = Free_Britain
+			add_ideas = EW_BGIE
+			set_capital = { state = 276 }
+			every_other_country = {
+				limit = {
+					is_subject_of = ENG
+				}
+				country_event = { id = EW_Allies_Country.16 hours = 6 }
+			}
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.6 hours = 6 }
+		}
+
+	}
+}
+
+##Liberation of the British Isles
+country_event = {
+	id = EW_Allies_Country.12
+	picture = GFX_report_event_British_Soldiers_Country
+	title = EW_Allies_Country.12.t
+	desc = EW_Allies_Country.12.d
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+			date > 1933.1.1
+			date < 1949.1.1
+			OR = {
+				tag = CAN
+				tag = ENG
+			}
+			has_idea = EW_BGIE
+			NOT = { has_war_with = GER }
+			123 = { is_controlled_by_ROOT_or_ally = yes }
+			126 = { is_controlled_by_ROOT_or_ally = yes }
+			127 = { is_controlled_by_ROOT_or_ally = yes }
+			338 = { is_controlled_by_ROOT_or_ally = yes }
+			122 = { is_controlled_by_ROOT_or_ally = yes }
+			125 = { is_controlled_by_ROOT_or_ally = yes }
+			129 = { is_controlled_by_ROOT_or_ally = yes }
+			128 = { is_controlled_by_ROOT_or_ally = yes }
+			130 = { is_controlled_by_ROOT_or_ally = yes }
+			132 = { is_controlled_by_ROOT_or_ally = yes }
+			131 = { is_controlled_by_ROOT_or_ally = yes }
+			121 = { is_controlled_by_ROOT_or_ally = yes }
+			931 = { is_controlled_by_ROOT_or_ally = yes }
+			133 = { is_controlled_by_ROOT_or_ally = yes }
+			136 = { is_controlled_by_ROOT_or_ally = yes }
+			120 = { is_controlled_by_ROOT_or_ally = yes }
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.12.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+				#If Canada and the UK Merged
+				if = {
+				limit = { 
+					has_global_flag = EW_ENG_CAN_Fusion
+				}
+		
+				if = {
+					limit = { 
+						country_exists = CAN
+					}
+					CAN = { country_event = { id = EW_Allies_Country.13 hours = 6 } }
+				}
+				else = {
+					ENG= { country_event = { id = EW_Allies_Country.13 hours = 6 } }
+				}
+		
+				}
+				
+				#If Canada and the UK Didn't Merge
+				if = {
+				limit = { 
+					NOT = { has_global_flag = EW_ENG_CAN_Fusion }
+				}
+				
+				if = {
+					limit = { 
+						country_exists = CAN
+					}
+					CAN = { country_event = { id = EW_Allies_Country.14 hours = 6 } }
+				}
+		
+				}
+}
+}
+
+##Liberation of the British Isles Fused
+country_event = {
+	id = EW_Allies_Country.13
+	picture = GFX_report_event_British_Victory_Country
+	title = EW_Allies_Country.13.t
+	desc = EW_Allies_Country.13.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.13.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 100
+				tag = ENG
+			}
+			modifier = {
+				factor = 20
+				tag = CAN
+			}
+		}
+		
+		set_capital = { state = 126 }
+		remove_ideas = EW_BGIE
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.8 hours = 6 }
+			country_event = { id = EW_Allies_Country.125 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.13.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				tag = ENG
+			}
+			modifier = {
+				factor = 80
+				tag = CAN
+			}
+		}
+		
+		remove_ideas = EW_BGIE
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.8 hours = 6 }
+			country_event = { id = EW_Allies_Country.125 hours = 6 }
+		}
+
+	}
+}
+
+##Liberation of the British Isles Canada
+country_event = {
+	id = EW_Allies_Country.14
+	picture = GFX_report_event_British_Victory_Country
+	title = EW_Allies_Country.14.t
+	desc = EW_Allies_Country.14.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.14.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		remove_ideas = EW_BGIE
+		
+		ENG = { country_event = { id = EW_Allies_Country.15 hours = 6 } }
+		
+	}
+}
+
+##Liberation of the British Isles Britain
+country_event = {
+	id = EW_Allies_Country.15
+	picture = GFX_report_event_British_Victory_Country
+	title = EW_Allies_Country.15.t
+	desc = EW_Allies_Country.15.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.15.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		ENG = {
+			set_faction_leader = yes
+			add_opinion_modifier = {
+				target = CAN
+				modifier = our_liberators
+			}
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.8 hours = 6 }
+		}
+		
+	}
+}
+
+##Our Place in the Empire
+country_event = {
+	id = EW_Allies_Country.16
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.16.t
+	desc = EW_Allies_Country.16.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.16.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 50
+				tag = AST
+			}
+			modifier = {
+				factor = 45
+				tag = NZL
+			}
+			modifier = {
+				factor = 55
+				tag = SAF
+			}
+			modifier = {
+				factor = 65
+				tag = RAJ
+			}
+			modifier = {
+				factor = 40
+				tag = MAL
+			}
+			modifier = {
+				factor = 30
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.17 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.16.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 50
+				tag = AST
+			}
+			modifier = {
+				factor = 55
+				tag = NZL
+			}
+			modifier = {
+				factor = 45
+				tag = SAF
+			}
+			modifier = {
+				factor = 35
+				tag = RAJ
+			}
+			modifier = {
+				factor = 60
+				tag = MAL
+			}
+			modifier = {
+				factor = 70
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.21 hours = 6 }
+		}
+		
+	}
+}
+
+##[FROM.GetName] Demands More Autonomy
+country_event = {
+	id = EW_Allies_Country.17
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.17.t
+	desc = EW_Allies_Country.17.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.17.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 60
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 55
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 65
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 70
+				FROM = { tag = CAN}
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.18 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.17.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 40
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 45
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 35
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 30
+				FROM = { tag = CAN}
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.19 hours = 6 }
+		}
+		
+	}
+}
+
+#Request for More Autonomy Granted
+country_event = {
+	id = EW_Allies_Country.18
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.18.t
+	desc = EW_Allies_Country.18.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.18.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_dominion
+					has_country_flag = EW_British_Dominion
+				}
+			}
+			FROM = { end_puppet = ROOT }
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_colony
+					has_country_flag = EW_British_Colony
+				}
+			}
+			FROM = { 
+				puppet = ROOT 
+				set_autonomy = {
+					target = ROOT
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_puppet
+					has_country_flag = EW_British_Puppet
+				}
+			}
+			FROM = { 
+				puppet = ROOT 
+				set_autonomy = {
+					target = ROOT
+					autonomy_state = autonomy_colony
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_integrated_puppet
+					has_country_flag = EW_British_Integrated_Puppet
+				}
+			}
+			FROM = {
+				puppet = ROOT 
+				set_autonomy = {
+					target = ROOT
+					autonomy_state = autonomy_puppet
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+	}
+}
+
+#A Stern Warning from the British Government
+country_event = {
+	id = EW_Allies_Country.19
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.19.t
+	desc = EW_Allies_Country.19.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.19.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 25
+				tag = AST
+			}
+			modifier = {
+				factor = 20
+				tag = NZL
+			}
+			modifier = {
+				factor = 40
+				tag = SAF
+			}
+			modifier = {
+				factor = 60
+				tag = RAJ
+			}
+			modifier = {
+				factor = 30
+				tag = MAL
+			}
+			modifier = {
+				factor = 15
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			end_puppet = ROOT
+			country_event = { id = EW_Allies_Country.20 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.19.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 75
+				tag = AST
+			}
+			modifier = {
+				factor = 80
+				tag = NZL
+			}
+			modifier = {
+				factor = 60
+				tag = SAF
+			}
+			modifier = {
+				factor = 40
+				tag = RAJ
+			}
+			modifier = {
+				factor = 70
+				tag = MAL
+			}
+			modifier = {
+				factor = 85
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.21 hours = 6 }
+		}
+		
+	}
+}
+
+#[FROM.GetName] Remains Defiant
+country_event = {
+	id = EW_Allies_Country.20
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.20.t
+	desc = EW_Allies_Country.20.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.20.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 30
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 25
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 35
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 20
+				FROM = { tag = CAN}
+			}
+		}
+		
+		remove_from_faction = FROM
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.20.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 70
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 75
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 65
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 80
+				FROM = { tag = CAN}
+			}
+		}
+		add_stability = -0.10
+	}
+}
+
+#[FROM.GetName] Maintains Status Quo
+country_event = {
+	id = EW_Allies_Country.21
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.21.t
+	desc = EW_Allies_Country.21.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.21.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+			if = {
+				limit = {
+					NOT = { 
+						FROM = { 
+							is_subject_of = ROOT 
+						} 
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Dominion
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_dominion
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Colony
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_colony
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Puppet
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_puppet
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Integrated_Puppet
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_integrated_puppet
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+			}
+		
+		add_stability = 0.10
+	}
+}
+
+
+##Is This the end of the Empire?
+country_event = {
+	id = EW_Allies_Country.115
+	picture = GFX_report_event_British_Soldiers_Country
+	title = EW_Allies_Country.115.t
+	desc = EW_Allies_Country.115.d
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		has_war_with = GER
+		OR = {
+			AND = {
+				surrender_progress > 0.69
+				has_country_flag = EW_Canada_Refused_Help
+			}
+			AND = {
+				has_idea = EW_We_Shall_Never_Surrender
+				NOT = { 123 = { is_controlled_by = ENG } }
+				NOT = { 126 = { is_controlled_by = ENG } }
+				NOT = { 127 = { is_controlled_by = ENG } }
+				NOT = { 338 = { is_controlled_by = ENG } }
+				NOT = { 122 = { is_controlled_by = ENG } }
+				NOT = { 125 = { is_controlled_by = ENG } }
+				NOT = { 129 = { is_controlled_by = ENG } }
+				NOT = { 128 = { is_controlled_by = ENG } }
+				NOT = { 130 = { is_controlled_by = ENG } }
+				NOT = { 132 = { is_controlled_by = ENG } }
+				NOT = { 131 = { is_controlled_by = ENG } }
+				NOT = { 121 = { is_controlled_by = ENG } }
+				NOT = { 931 = { is_controlled_by = ENG } }
+				NOT = { 133 = { is_controlled_by = ENG } }
+				NOT = { 136 = { is_controlled_by = ENG } }
+				NOT = { 120 = { is_controlled_by = ENG } }
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.115.a
+		trigger = {
+			is_in_faction_with = USA
+			USA = { has_war_with = GER }
+		}
+		ai_chance = {
+			factor = 1000
+		}
+		every_other_country = {
+			limit = {
+				is_subject_of = ENG
+			}
+			country_event = { id = EW_Allies_Country.116 hours = 6 }
+		}
+		
+	}
+	
+	option = {
+		name = EW_Allies_Country.115.b
+		trigger = {
+			OR = {
+				NOT = { is_in_faction_with = USA }
+				NOT = { USA = { has_war_with = GER } }
+			}
+		}
+		ai_chance = {
+			factor = 1000
+		}
+		every_other_country = {
+			limit = {
+				is_subject_of = ENG
+			}
+			country_event = { id = EW_Allies_Country.122 hours = 6 }
+		}
+		hidden_effect = { 
+			if = { 
+				limit = {
+					has_idea = EW_We_Shall_Never_Surrender
+				}
+			country_event = { id = EW_Allies_Country.123 days = 7 } 
+			}
+		}
+	}
+}
+
+##Our Place in the Empire
+country_event = {
+	id = EW_Allies_Country.116
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.116.t
+	desc = EW_Allies_Country.116.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.116.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 60
+				tag = AST
+			}
+			modifier = {
+				factor = 55
+				tag = NZL
+			}
+			modifier = {
+				factor = 65
+				tag = SAF
+			}
+			modifier = {
+				factor = 70
+				tag = RAJ
+			}
+			modifier = {
+				factor = 50
+				tag = MAL
+			}
+			modifier = {
+				factor = 35
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.117 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.116.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 40
+				tag = AST
+			}
+			modifier = {
+				factor = 45
+				tag = NZL
+			}
+			modifier = {
+				factor = 35
+				tag = SAF
+			}
+			modifier = {
+				factor = 30
+				tag = RAJ
+			}
+			modifier = {
+				factor = 50
+				tag = MAL
+			}
+			modifier = {
+				factor = 65
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.121 hours = 6 }
+		}
+		
+	}
+}
+
+##[FROM.GetName] Demands More Autonomy
+country_event = {
+	id = EW_Allies_Country.117
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.117.t
+	desc = EW_Allies_Country.117.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.117.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 45
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 55
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 35
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = CAN}
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.118 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.117.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 55
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 50
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 45
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 65
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = CAN}
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.119 hours = 6 }
+		}
+		
+	}
+}
+
+#Request for More Autonomy Granted
+country_event = {
+	id = EW_Allies_Country.118
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.118.t
+	desc = EW_Allies_Country.118.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.118.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_dominion
+					has_country_flag = EW_British_Dominion
+				}
+			}
+			FROM = { end_puppet = ROOT }
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_colony
+					has_country_flag = EW_British_Colony
+				}
+			}
+			FROM = { 
+				puppet = ROOT 
+				set_autonomy = {
+					target = ROOT
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_puppet
+					has_country_flag = EW_British_Puppet
+				}
+			}
+			FROM = { 
+				puppet = ROOT 
+				set_autonomy = {
+					target = ROOT
+					autonomy_state = autonomy_colony
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_autonomy_state = autonomy_integrated_puppet
+					has_country_flag = EW_British_Integrated_Puppet
+				}
+			}
+			FROM = {
+				puppet = ROOT 
+				set_autonomy = {
+					target = ROOT
+					autonomy_state = autonomy_puppet
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+	}
+}
+
+#A Stern Warning from the British Government
+country_event = {
+	id = EW_Allies_Country.119
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.119.t
+	desc = EW_Allies_Country.119.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.119.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 40
+				tag = AST
+			}
+			modifier = {
+				factor = 35
+				tag = NZL
+			}
+			modifier = {
+				factor = 45
+				tag = SAF
+			}
+			modifier = {
+				factor = 50
+				tag = RAJ
+			}
+			modifier = {
+				factor = 30
+				tag = MAL
+			}
+			modifier = {
+				factor = 15
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			end_puppet = ROOT
+			country_event = { id = EW_Allies_Country.120 hours = 6 }
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.119.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 60
+				tag = AST
+			}
+			modifier = {
+				factor = 65
+				tag = NZL
+			}
+			modifier = {
+				factor = 55
+				tag = SAF
+			}
+			modifier = {
+				factor = 50
+				tag = RAJ
+			}
+			modifier = {
+				factor = 70
+				tag = MAL
+			}
+			modifier = {
+				factor = 85
+				tag = CAN
+			}
+		}
+		
+		FROM = {
+			country_event = { id = EW_Allies_Country.121 hours = 6 }
+		}
+		
+	}
+}
+
+#[FROM.GetName] Remains Defiant
+country_event = {
+	id = EW_Allies_Country.120
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.120.t
+	desc = EW_Allies_Country.120.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.120.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 50
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 45
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 55
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = CAN}
+			}
+		}
+		
+		remove_from_faction = FROM
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+		
+	}
+	option = {
+		name = EW_Allies_Country.120.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 50
+				FROM = { tag = AST} 
+			}
+			modifier = {
+				factor = 55
+				FROM = { tag = NZL}
+			}
+			modifier = {
+				factor = 45
+				FROM = { tag = SAF}
+			}
+			modifier = {
+				factor = 40
+				FROM = { tag = RAJ}
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = MAL}
+			}
+			modifier = {
+				factor = 60
+				FROM = { tag = CAN}
+			}
+		}
+		add_stability = -0.10
+	}
+}
+
+#[FROM.GetName] Maintains Status Quo
+country_event = {
+	id = EW_Allies_Country.121
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.121.t
+	desc = EW_Allies_Country.121.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.121.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+			if = {
+				limit = {
+					NOT = { 
+						FROM = { 
+							is_subject_of = ROOT 
+						} 
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Dominion
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_dominion
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Colony
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_colony
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Puppet
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_puppet
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = EW_British_Integrated_Puppet
+						}
+					}
+					ROOT = { 
+						puppet = FROM
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_integrated_puppet
+							end_wars = no
+							end_civil_wars = no
+						}
+					}
+				}
+			}
+		
+		add_stability = 0.10
+	}
+}
+
+#Independence Granted
+country_event = {
+	id = EW_Allies_Country.122
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.122.t
+	desc = EW_Allies_Country.122.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.122.a
+		ai_chance = {
+			factor = 1000
+		}
+		FROM = { end_puppet = ROOT }
+	}
+		option = {
+			name = EW_Allies_Country.122.b
+			ai_chance = {
+				factor = 0
+			}
+			add_war_support = 0.05
+			add_stability = 0.05
+			ENG = { 
+			country_event = { id = EW_Allies_Country.124 hours = 6 }
+			}
+		}
+}
+
+#The Fall of Britain
+country_event = {
+	id = EW_Allies_Country.123
+	picture = GFX_report_event_Nazi_Occupied_Britain_Country
+	title = EW_Allies_Country.123.t
+	desc = EW_Allies_Country.123.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.123.a
+		ai_chance = {
+			factor = 1000
+		}
+		add_war_support = -0.50
+		add_stability = -0.50
+		remove_ideas = EW_We_Shall_Never_Surrender
+		
+		hidden_effect = { 
+			news_event = { id = EW_Allies_News.9 hours = 6 }
+		}
+		
+	}
+}
+
+#Pledge of Loyalty
+country_event = {
+	id = EW_Allies_Country.124
+	picture = GFX_report_event_British_Flag_Country
+	title = EW_Allies_Country.124.t
+	desc = EW_Allies_Country.124.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.124.a
+		ai_chance = {
+			factor = 1000
+		}
+		add_war_support = 0.10
+		add_stability = 0.10
+	}
+}
+
+#The Issue of the Flag
+country_event = {
+	id = EW_Allies_Country.125
+	picture = GFX_report_event_London2_Country
+	title = EW_Allies_Country.125.t
+	desc = EW_Allies_Country.125.d
+	is_triggered_only = yes
+	option = {
+		name = EW_Allies_Country.125.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 70
+				tag = ENG
+				126 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 40
+				tag = ENG
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 10
+				tag = CAN
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 20
+				tag = CAN
+				126 = { is_capital = yes }
+			}
+		}
+		set_cosmetic_tag = ENG_British_Empire
+	}
+	option = {
+		name = EW_Allies_Country.125.b
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 20
+				tag = ENG
+				126 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 20
+				tag = ENG
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 10
+				tag = CAN
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 10
+				tag = CAN
+				126 = { is_capital = yes }
+			}
+		}
+		set_cosmetic_tag = Free_Britain
+	}
+	option = {
+		name = EW_Allies_Country.125.c
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 5
+				tag = ENG
+				126 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 20
+				tag = ENG
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 60
+				tag = CAN
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 50
+				tag = CAN
+				126 = { is_capital = yes }
+			}
+		}
+		set_cosmetic_tag = ENG_British_Canadian_Union
+	}
+	option = {
+		name = EW_Allies_Country.125.e
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 5
+				tag = ENG
+				126 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 20
+				tag = ENG
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 20
+				tag = CAN
+				276 = { is_capital = yes }
+			}
+			modifier = {
+				factor = 20
+				tag = CAN
+				126 = { is_capital = yes }
+			}
+		}
+		set_cosmetic_tag = CAN_British_Canadian_Union
+	}
+}
+
+##Chinese Resistance Stiffens
+country_event = {
+	id = EW_Allies_Country.126
+	picture = GFX_report_event_Chinese_Soldiers_Country
+	title = EW_Allies_Country.126.t
+	desc = EW_Allies_Country.126.d
+	fire_only_once = yes
+	trigger = {
+		tag = CHI
+		has_defensive_war_with = JAP
+		date > 1933.1.1
+		date < 1949.1.1
+		OR = {
+			surrender_progress > 0.20
+			SIK = { has_capitulated = yes }
+			XSM = { has_capitulated = yes }
+			PRC = { has_capitulated = yes }
+			SHX = { has_capitulated = yes }
+			YUN = { has_capitulated = yes }
+			GXC = { has_capitulated = yes }
+		}
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.126.a
+		ai_chance = {
+			factor = 1000
+		}
+
+		JAP = { country_event = { id = EW_Allies_Country.127 hours = 6 } }
+
+		every_country = {
+				limit = { 
+					OR = {
+						tag = SHX
+						tag = PRC
+						tag = XSM
+						tag = SIK
+						tag = YUN
+						tag = GXC
+					}
+					is_in_faction_with = CHI  
+					has_war_with = JAP 
+				}
+				add_ideas = EW_chinese_resistance_strategy
+		}
+
+		add_ideas = EW_chinese_resistance_strategy
+
+	}
+}
+
+##Japan Bogged Down In China
+country_event = {
+	id = EW_Allies_Country.127
+	picture = GFX_report_event_Japanese_Soldiers_Country
+	title = EW_Allies_Country.127.t
+	desc = EW_Allies_Country.127.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.127.a
+		ai_chance = {
+			factor = 50
+		}
+		JAP = {
+			add_ideas = EW_japanese_bogged_down_in_china
+		}
+	}
+}
+
+##Soviet Resistance Stiffens
+country_event = {
+	id = EW_Allies_Country.128
+	picture = GFX_report_event_Battle_of_Moscow_Country
+	title = EW_Allies_Country.128.t
+	desc = EW_Allies_Country.128.d
+	fire_only_once = yes
+	trigger = {
+		tag = SOV
+		has_defensive_war_with = GER
+		date > 1933.1.1
+		date < 1949.1.1
+		surrender_progress > 0.49
+		NOT = { 208 = { is_fully_controlled_by = SOV } }
+		NOT = { 263 = { is_fully_controlled_by = SOV } }
+		NOT = { 246 = { is_fully_controlled_by = SOV } }
+		NOT = { 242 = { is_fully_controlled_by = SOV } }
+		NOT = { 205 = { is_fully_controlled_by = SOV } }
+		NOT = { 222 = { is_fully_controlled_by = SOV } }
+		NOT = { 220 = { is_fully_controlled_by = SOV } }
+		NOT = { 240 = { is_fully_controlled_by = SOV } }
+		NOT = { 221 = { is_fully_controlled_by = SOV } }
+		NOT = { 226 = { is_fully_controlled_by = SOV } }
+		NOT = { 200 = { is_fully_controlled_by = SOV } }
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.128.a
+		ai_chance = {
+			factor = 1000
+		}
+
+		GER = { country_event = { id = EW_Allies_Country.129 hours = 6 } }
+
+		add_ideas = EW_soviet_resistance_strategy
+
+	}
+}
+
+##Germany Bogged Down In Russia
+country_event = {
+	id = EW_Allies_Country.129
+	picture = GFX_report_event_German_Advance_Slows_Country
+	title = EW_Allies_Country.129.t
+	desc = EW_Allies_Country.129.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.129.a
+		ai_chance = {
+			factor = 50
+		}
+		GER = {
+			add_ideas = EW_germans_bogged_down_in_russia
+		}
+	}
+}
+
+#Allies Vow to Stop German Aggression
+news_event = {
+	id = EW_Allies_News.2
+	picture = GFX_news_event_German_Soldiers_News
+	title = EW_Allies_News.2.t
+	desc = EW_Allies_News.2.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.2.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Allies Vow to Stop Soviet Aggression
+news_event = {
+	id = EW_Allies_News.3
+	picture = GFX_news_event_Soviet_Soldiers_News
+	title = EW_Allies_News.3.t
+	desc = EW_Allies_News.3.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.3.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Allies Vow to Stop Italian Aggression
+news_event = {
+	id = EW_Allies_News.4
+	picture = GFX_news_event_Italian_Soldiers_News
+	title = EW_Allies_News.4.t
+	desc = EW_Allies_News.4.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.4.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#British Government Relocates to Canada
+news_event = {
+	id = EW_Allies_News.5
+	picture = GFX_news_event_Churchill_News
+	title = EW_Allies_News.5.t
+	desc = EW_Allies_News.5.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.5.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Canada and Britain Form a Unified Empire
+news_event = {
+	id = EW_Allies_News.6
+	picture = GFX_news_event_London2_News
+	title = EW_Allies_News.6.t
+	desc = EW_Allies_News.6.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.6.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Canada Assumes Leadership of the Allies
+news_event = {
+	id = EW_Allies_News.7
+	picture = GFX_news_event_London2_News
+	title = EW_Allies_News.7.t
+	desc = EW_Allies_News.7.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.7.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Allies Liberate the British Isles from Nazi Occupation
+news_event = {
+	id = EW_Allies_News.8
+	picture = GFX_news_event_British_Victory_News
+	title = EW_Allies_News.8.t
+	desc = EW_Allies_News.8.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.8.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Fall of Britain
+news_event = {
+	id = EW_Allies_News.9
+	picture = GFX_news_event_Nazi_Occupied_Britain2_News
+	title = EW_Allies_News.9.t
+	desc = EW_Allies_News.9.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.9.a
+		ai_chance = { factor = 1000 }
+	}
+}

@@ -1,0 +1,48 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_decision_cat_GER_EW"
+		texturefile = "gfx/interface/decisions/Germany/GER_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_SOV_EW"
+		texturefile = "gfx/interface/decisions/Russia/SOV_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_JAP_EW"
+		texturefile = "gfx/interface/decisions/Japan/JAP_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_USA_EW"
+		texturefile = "gfx/interface/decisions/America/USA_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_ENG_EW"
+		texturefile = "gfx/interface/decisions/Britain/ENG_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_ITA_EW"
+		texturefile = "gfx/interface/decisions/Italy/ITA_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_ALLIES_EW"
+		texturefile = "gfx/interface/decisions/Generic/ALLIES_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_AXIS_EW"
+		texturefile = "gfx/interface/decisions/Generic/AXIS_EW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_SS_EW"
+		texturefile = "gfx/interface/decisions/Germany/Waffen_SS.dds"
+	}
+	
+}

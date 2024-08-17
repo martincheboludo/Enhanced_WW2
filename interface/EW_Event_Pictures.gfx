@@ -1,0 +1,373 @@
+spriteTypes = {
+
+	spriteType = {
+        name = "GFX_report_event_Stalin_Country"
+        texturefile = "gfx/event_pictures/Russian/Stalin_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Soviet_Invasion_Country"
+        texturefile = "gfx/event_pictures/Russian/Soviet_Invasion_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Hitler_Country"
+        texturefile = "gfx/event_pictures/German/Hitler_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_German_Invasion_Country"
+        texturefile = "gfx/event_pictures/German/German_Invasion_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Reichstag_Speech_Country"
+        texturefile = "gfx/event_pictures/German/Reichstag_Speech_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Reichstag_Speech_News"
+        texturefile = "gfx/event_pictures/German/Reichstag_Speech_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Waffen_SS_Country"
+        texturefile = "gfx/event_pictures/German/Waffen_SS_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Waffen_SS_News"
+        texturefile = "gfx/event_pictures/German/Waffen_SS_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Waffen_SS2_Country"
+        texturefile = "gfx/event_pictures/German/Waffen_SS2_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Waffen_SS2_News"
+        texturefile = "gfx/event_pictures/German/Waffen_SS2_News.dds"
+    }
+
+	spriteType = {
+        name = "GFX_report_event_Partition_Britain_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Britain_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Britain_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Britain_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Britain_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Britain_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_France_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_France_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_France_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_France_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Greece_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Greece_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Greece_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Greece_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_North_America_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_North_America_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_North_America_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_North_America_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_South_America_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_South_America_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_South_America_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_South_America_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Switzerland_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Switzerland_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Switzerland_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Switzerland_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Czechoslovakia_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Czechoslovakia_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Czechoslovakia_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Czechoslovakia_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Romania_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Romania_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Romania_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Romania_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_USSR_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_USSR_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_USSR_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_USSR_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Yugoslavia_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Yugoslavia_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Yugoslavia_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Yugoslavia_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_Poland_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Poland_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Poland_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_Poland_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Dutch_East_Indies_Country"
+        texturefile = "gfx/event_pictures/Transfers/Dutch_East_Indies_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Dutch_East_Indies_News"
+        texturefile = "gfx/event_pictures/Transfers/Dutch_East_Indies_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Partition_China_Country"
+        texturefile = "gfx/event_pictures/Partitions/Partition_China_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_China_News"
+        texturefile = "gfx/event_pictures/Partitions/Partition_China_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Leningrad_Country"
+        texturefile = "gfx/event_pictures/Russian/Leningrad_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Moscow_Country"
+        texturefile = "gfx/event_pictures/Russian/Moscow_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Stalingrad_Country"
+        texturefile = "gfx/event_pictures/Russian/Stalingrad_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Axis_Country"
+        texturefile = "gfx/event_pictures/Generic/Axis_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Allies_Country"
+        texturefile = "gfx/event_pictures/Generic/Allies_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Axis_News"
+        texturefile = "gfx/event_pictures/Generic/Axis_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Partition_Allies_News"
+        texturefile = "gfx/event_pictures/Generic/Allies_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_German_Soldiers_Country"
+        texturefile = "gfx/event_pictures/Generic/German_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_German_Soldiers_News"
+        texturefile = "gfx/event_pictures/Generic/German_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Italian_Soldiers_Country"
+        texturefile = "gfx/event_pictures/Generic/Italian_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Italian_Soldiers_News"
+        texturefile = "gfx/event_pictures/Generic/Italian_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Soviet_Soldiers_Country"
+        texturefile = "gfx/event_pictures/Generic/Soviet_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Soviet_Soldiers_News"
+        texturefile = "gfx/event_pictures/Generic/Soviet_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_British_Soldiers_Country"
+        texturefile = "gfx/event_pictures/Britain/British_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_British_Soldiers_News"
+        texturefile = "gfx/event_pictures/Britain/British_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_British_Flag_Country"
+        texturefile = "gfx/event_pictures/Britain/British_Flag_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_British_Flag_News"
+        texturefile = "gfx/event_pictures/Britain/British_Flag_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_British_Victory_Country"
+        texturefile = "gfx/event_pictures/Britain/British_Victory_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_British_Victory_News"
+        texturefile = "gfx/event_pictures/Britain/British_Victory_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Churchill_Country"
+        texturefile = "gfx/event_pictures/Britain/Churchill_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Churchill_News"
+        texturefile = "gfx/event_pictures/Britain/Churchill_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_London_Country"
+        texturefile = "gfx/event_pictures/Britain/London_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_London_News"
+        texturefile = "gfx/event_pictures/Britain/London_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_London2_Country"
+        texturefile = "gfx/event_pictures/Britain/London2_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_London2_News"
+        texturefile = "gfx/event_pictures/Britain/London2_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Nazi_Occupied_Britain_Country"
+        texturefile = "gfx/event_pictures/Britain/Nazi_Occupied_Britain_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Nazi_Occupied_Britain_News"
+        texturefile = "gfx/event_pictures/Britain/Nazi_Occupied_Britain_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Nazi_Occupied_Britain2_Country"
+        texturefile = "gfx/event_pictures/Britain/Nazi_Occupied_Britain2_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Nazi_Occupied_Britain2_News"
+        texturefile = "gfx/event_pictures/Britain/Nazi_Occupied_Britain2_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Chinese_Soldiers_Country"
+        texturefile = "gfx/event_pictures/Generic/Chinese_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Chinese_Soldiers_News"
+        texturefile = "gfx/event_pictures/Generic/Chinese_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Japanese_Soldiers_Country"
+        texturefile = "gfx/event_pictures/Generic/Japanese_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Japanese_Soldiers_News"
+        texturefile = "gfx/event_pictures/Generic/Japanese_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Battle_of_Moscow_Country"
+        texturefile = "gfx/event_pictures/Generic/Battle_of_Moscow_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Battle_of_Moscow_News"
+        texturefile = "gfx/event_pictures/Generic/Battle_of_Moscow_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_German_Advance_Slows_Country"
+        texturefile = "gfx/event_pictures/Generic/German_Advance_Slows_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_German_Advance_Slows_News"
+        texturefile = "gfx/event_pictures/Generic/German_Advance_Slows_News.dds"
+    }
+	
+}
