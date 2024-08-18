@@ -1,0 +1,324 @@
+﻿l_english:
+
+ Waffen_SS_units_tech:0 "Waffen-SS"
+ Waffen_SS_units_tech_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."
+
+ WSS_artillery_brigade:0 "SS Artillery"
+ WSS_artillery_brigade_desc:0 ""
+ WSS_mot_artillery_brigade:0 "SS Motorized Artillery"
+ WSS_mot_artillery_brigade_desc:0 ""
+ WSS_light_tank_destroyer_brigade:0 "SS Light Tank Destroyer"
+ WSS_light_tank_destroyer_brigade_desc:0 "Tank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Light Tank Destroyers are based on the chassis of Light Tanks, which means they are fairly mobile but do not carry particularly powerful guns compared to heavier TDs."
+ WSS_medium_tank_destroyer_brigade:0 "SS Medium Tank Destroyer"
+ WSS_medium_tank_destroyer_brigade_desc:0 "Tank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Medium Tank Destroyers are based on the chassis of Medium Tanks, meaning they are fairly mobile and carry respectable firepower."
+ WSS_heavy_tank_destroyer_brigade:0 "SS Heavy Tank Destroyer"
+ WSS_heavy_tank_destroyer_brigade_desc:0 "A heavy tank destroyer has the turret removed to carry an even larger gun in a fixed mounting."
+ WSS_modern_tank_destroyer_brigade:0 "SS Modern Tank Destroyer"
+ WSS_modern_tank_destroyer_brigade_desc:0 "A Modern Tank chassis fitted with a much larger gun instead of a turret."
+ WSS_light_sp_artillery_brigade:0 "SS Light SP Artillery"
+ WSS_medium_sp_artillery_brigade:0 "SS Medium SP Artillery"
+ WSS_heavy_sp_artillery_brigade:0 "SS Heavy SP Artillery"
+ WSS_modern_sp_artillery_brigade:0 "SS Modern SP Artillery"
+ WSS_cavalry:0 "SS Cavalry"
+ WSS_cavalry_desc:0 "Horse mounted infantry. More expensive, but with good mobility."
+ WSS_light_armor:0 "SS Light Tank"
+ WSS_light_armor_desc:0 "Lightly armored tanks."
+ WSS_medium_armor:0 "SS Medium Tank"
+ WSS_medium_armor_desc:0 "Medium tanks are flexible and can do almost any job."
+ WSS_heavy_armor:0 "SS Heavy Tank"
+ WSS_heavy_armor_desc:0 "The strongest tanks with powerful armor and weapons, but slow and tactically inflexible."
+ WSS_motorized:0 "SS Motorized Infantry"
+ WSS_motorized_desc:0 "Motorized infantry transportation, such as trucks and motorcycles."
+ WSS_mechanized:0 "SS Mechanized Infantry"
+ WSS_mechanized_desc:0 "Lightly armored infantry transportation."
+ WSS_modern_armor:0 "SS Modern Tank"
+ WSS_modern_armor_desc:0 "Modern Tanks have evolved to deal with most battlefield situations. Powerful guns and sloped armor have eliminated the need for specialized tanks."
+ WSS_infantry:0 "SS Infantry"
+ WSS_infantry_desc:0 "Meat for the meat grinder."
+ WSS_mountaineers:0 "SS Mountaineers"
+ WSS_mountaineers_desc:0 "Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. Providing our soldiers with specialized training for this environment, we can minimize these risks."
+ 
+ EW_German_Units_Country.0.t:0 "The Birth of the Waffen-SS"
+ EW_German_Units_Country.0.d:0 "The time has come to formalize the Waffen-SS as an elite fighting force. Born from the fervor and ideology of the Nazi regime, the Waffen-SS is to be more than just a military unit; it is to embody our principles and our commitment to victory. This new formation will serve as both a symbol of our strength and a spearhead in our campaigns across Europe. With its unique role and unwavering loyalty, the Waffen-SS will become a cornerstone of our military operations."
+ EW_German_Units_Country.0.a:1 "Establish the Waffen-SS"
+ EW_German_Units_Country.0.b:1 "We Only Need The Heer"
+ 
+ EW_German_Units_News.0.t:0 "Germany Unveils New Elite Force"
+ EW_German_Units_News.0.d:0 "Following their decisive victory in Western Europe and the fall of France, Germany has announced the formation of a new elite military unit: the Waffen-SS. Designed to serve as a symbol of the regime’s strength and ideological commitment, the Waffen-SS will operate as both an elite fighting force and a potent tool for advancing Germany’s strategic goals. This new division promises to be a formidable addition to the German military, reflecting the country's continued expansion and its intent to consolidate power across the continent. The Waffen-SS is expected to play a crucial role in future operations, embodying the discipline and fervor that have come to define the Nazi regime’s military ambitions."
+ EW_German_Units_News.0.a:1 "Interesting..."
+ 
+ SS_EW_Decisions:0 "Schutzstaffel (SS) Actions"
+ SS_EW_Decisions_desc:0 "The Schutzstaffel (SS) was a paramilitary organization under Adolf Hitler and the Nazi Party, originally established in 1925 as a small bodyguard unit for Hitler. It rapidly expanded in influence and power, becoming a key instrument in enforcing Nazi policies and committing war crimes during World War II. The SS was divided into two main branches: the Waffen-SS, which served as a combat force alongside the regular German military, and the Allgemeine SS, which focused on internal security and ideological enforcement. The Allgemeine SS was notably responsible for running concentration camps and executing the regime's genocidal policies. The SS, under leaders like Heinrich Himmler, played a central role in the Holocaust, overseeing the systematic murder of six million Jews and millions of others deemed undesirable by the Nazi regime."
+
+ SS_Create_Waffen_SS:0 "Create Waffen SS"
+ SS_Create_Waffen_SS_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."
+ Waffen_SS_Created:0 "Waffen-SS Has Been Created."
+
+ SS_Create_Waffen_SS_1:0 "1. SS-Panzerdivision Leibstandarte SS Adolf Hitler"
+ SS_Create_Waffen_SS_1_desc:0 "The Leibstandarte SS Adolf Hitler (LSSAH) was an elite division of the Waffen-SS during World War II, originally formed as Adolf Hitler's personal bodyguard unit in 1933. Over time, it evolved into a highly trained and combat-effective military unit, participating in numerous key battles across Europe, including the invasions of Poland, France, and the Soviet Union, as well as significant actions during the Battle of the Bulge. Known for its formidable combat capabilities and strong ideological commitment to National Socialism, the LSSAH was involved in war crimes and atrocities, reflecting the dark side of its fervent loyalty and militaristic prowess."
+
+ EW_German_Units_Country.1.t:0 "1. SS-Panzerdivision Leibstandarte SS Adolf Hitler"
+ EW_German_Units_Country.1.d:0 "The Leibstandarte SS Adolf Hitler (LSSAH) was an elite division of the Waffen-SS during World War II, originally formed as Adolf Hitler's personal bodyguard unit in 1933. Over time, it evolved into a highly trained and combat-effective military unit, participating in numerous key battles across Europe, including the invasions of Poland, France, and the Soviet Union, as well as significant actions during the Battle of the Bulge. Known for its formidable combat capabilities and strong ideological commitment to National Socialism, the LSSAH was involved in war crimes and atrocities, reflecting the dark side of its fervent loyalty and militaristic prowess."
+ EW_German_Units_Country.1.a:1 "Create Unit"
+
+ SS_Create_Waffen_SS_2:0 "2. SS-Panzerdivision Das Reich"
+ SS_Create_Waffen_SS_2_desc:0 "The 2nd SS Panzer Division “Das Reich” was a highly regarded armored unit in the Waffen-SS, known for its significant role in several major battles during World War II. Formed in 1939, Das Reich was involved in key campaigns such as the invasion of France and the Eastern Front, including the brutal battles at Kursk and Kharkov. The division earned a reputation for its combat effectiveness and operational success, but it was also implicated in numerous war crimes, including the infamous massacre at Oradour-sur-Glane in France. Das Reich's legacy is marked by both its military achievements and its association with the atrocities committed during its operations."
+
+EW_German_Units_Country.2.t:0 "2. SS-Panzerdivision Das Reich"
+EW_German_Units_Country.2.d:0 "The 2nd SS Panzer Division “Das Reich” was a highly regarded armored unit in the Waffen-SS, known for its significant role in several major battles during World War II. Formed in 1939, Das Reich was involved in key campaigns such as the invasion of France and the Eastern Front, including the brutal battles at Kursk and Kharkov. The division earned a reputation for its combat effectiveness and operational success, but it was also implicated in numerous war crimes, including the infamous massacre at Oradour-sur-Glane in France. Das Reich's legacy is marked by both its military achievements and its association with the atrocities committed during its operations."
+EW_German_Units_Country.2.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_3:0 "3. SS-Panzerdivision Totenkopf"
+SS_Create_Waffen_SS_3_desc:0 " The 3rd SS Panzergrenadier Division “Totenkopf” was one of the most notorious divisions of the Waffen-SS, formed largely from personnel who had served as concentration camp guards. Created in 1939, it quickly gained a fearsome reputation on the Eastern Front, participating in some of the war's most brutal fighting, including the Battle of Demyansk and the defensive battles around Kharkov. Known for its tenacity in combat, the Totenkopf division was also infamous for its involvement in numerous war crimes, reflecting the brutal ideology of its members. Despite its controversial nature, the division was considered an elite unit within the Waffen-SS and played a significant role in Germany's military campaigns."
+
+EW_German_Units_Country.3.t:0 "3. SS-Panzerdivision Totenkopf"
+EW_German_Units_Country.3.d:0 " The 3rd SS Panzergrenadier Division “Totenkopf” was one of the most notorious divisions of the Waffen-SS, formed largely from personnel who had served as concentration camp guards. Created in 1939, it quickly gained a fearsome reputation on the Eastern Front, participating in some of the war's most brutal fighting, including the Battle of Demyansk and the defensive battles around Kharkov. Known for its tenacity in combat, the Totenkopf division was also infamous for its involvement in numerous war crimes, reflecting the brutal ideology of its members. Despite its controversial nature, the division was considered an elite unit within the Waffen-SS and played a significant role in Germany's military campaigns."
+EW_German_Units_Country.3.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_4:0 "4. SS-Polizei-Panzergrenadier-Division"
+SS_Create_Waffen_SS_4_desc:0 "The 4th SS Polizei Panzergrenadier Division was originally formed from members of the German police force in 1939, reflecting the integration of civilian institutions into the Nazi war machine. Initially deployed in the invasion of France and later in anti-partisan operations in the Balkans, the division was later upgraded to a Panzergrenadier division, receiving more mechanized and armored units. The Polizei Division saw heavy fighting on the Eastern Front, including the grueling battles at Leningrad and in the defensive campaigns of 1944. Although not as ideologically driven as other Waffen-SS units, the division still participated in atrocities and was considered a reliable combat force within the SS structure."
+
+EW_German_Units_Country.4.t:0 "4. SS-Polizei-Panzergrenadier-Division"
+EW_German_Units_Country.4.d:0 "The 4th SS Polizei Panzergrenadier Division was originally formed from members of the German police force in 1939, reflecting the integration of civilian institutions into the Nazi war machine. Initially deployed in the invasion of France and later in anti-partisan operations in the Balkans, the division was later upgraded to a Panzergrenadier division, receiving more mechanized and armored units. The Polizei Division saw heavy fighting on the Eastern Front, including the grueling battles at Leningrad and in the defensive campaigns of 1944. Although not as ideologically driven as other Waffen-SS units, the division still participated in atrocities and was considered a reliable combat force within the SS structure."
+EW_German_Units_Country.4.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_5:0 "5. SS-Panzerdivision Wiking"
+SS_Create_Waffen_SS_5_desc:0 "The 5th SS Panzer Division “Wiking” was formed in 1940 and was unique among the Waffen-SS divisions for its multinational composition, drawing volunteers from countries such as Denmark, Norway, Sweden, Finland, and the Netherlands. The division was originally formed at Heuberg, Germany, and was created to operate on the Eastern Front during World War II. Known for its fierce fighting and high mobility, the Wiking division became one of the most renowned SS units, participating in numerous significant battles, including those on the Eastern Front against the Soviet Union."
+
+EW_German_Units_Country.5.t:0 "5. SS-Panzerdivision Wiking"
+EW_German_Units_Country.5.d:0 "The 5th SS Panzer Division “Wiking” was formed in 1940 and was unique among the Waffen-SS divisions for its multinational composition, drawing volunteers from countries such as Denmark, Norway, Sweden, Finland, and the Netherlands. The division was originally formed at Heuberg, Germany, and was created to operate on the Eastern Front during World War II. Known for its fierce fighting and high mobility, the Wiking division became one of the most renowned SS units, participating in numerous significant battles, including those on the Eastern Front against the Soviet Union."
+EW_German_Units_Country.5.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_6:0 "6. SS-Gebirgs-Division Nord"
+SS_Create_Waffen_SS_6_desc:0 "The 6th SS Mountain Division 'Nord' was a mountain infantry division of the Waffen-SS, established in 1941 and primarily composed of soldiers from Norway, Finland, and other northern European countries. It was initially formed for operations in the far north, including the Arctic and Scandinavian theaters, but later fought on the Eastern Front and in Finland. The division was known for its specialized mountain warfare capabilities and was involved in defensive battles during the retreat from Finland. Despite its mixed combat record, 'Nord' was notable for its endurance in harsh conditions and challenging terrains."
+
+EW_German_Units_Country.6.t:0 "6. SS-Gebirgs-Division Nord"
+EW_German_Units_Country.6.d:0 "The 6th SS Mountain Division 'Nord' was a mountain infantry division of the Waffen-SS, established in 1941 and primarily composed of soldiers from Norway, Finland, and other northern European countries. It was initially formed for operations in the far north, including the Arctic and Scandinavian theaters, but later fought on the Eastern Front and in Finland. The division was known for its specialized mountain warfare capabilities and was involved in defensive battles during the retreat from Finland. Despite its mixed combat record, 'Nord' was notable for its endurance in harsh conditions and challenging terrains."
+EW_German_Units_Country.6.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_7:0 "7. SS-Freiwilligen-Gebirgs-Division Prinz Eugen"
+SS_Create_Waffen_SS_7_desc:0 "The 7th SS Volunteer Mountain Division 'Prinz Eugen' was formed in 1941, primarily composed of ethnic Germans from the Balkans. The division was named after the famous Austro-Hungarian general, Eugen of Savoy. Initially formed at the Stabskommando in Germany, it was later stationed in the Balkans for anti-partisan operations. The division saw action on the Eastern Front and in the Balkans, participating in counter-insurgency operations against Yugoslav and Greek partisans. Known for its mountainous warfare capabilities, 'Prinz Eugen' became notorious for its brutal tactics and involvement in war crimes."
+
+EW_German_Units_Country.7.t:0 "7. SS-Freiwilligen-Gebirgs-Division Prinz Eugen"
+EW_German_Units_Country.7.d:0 "The 7th SS Volunteer Mountain Division 'Prinz Eugen' was formed in 1941, primarily composed of ethnic Germans from the Balkans. The division was named after the famous Austro-Hungarian general, Eugen of Savoy. Initially formed at the Stabskommando in Germany, it was later stationed in the Balkans for anti-partisan operations. The division saw action on the Eastern Front and in the Balkans, participating in counter-insurgency operations against Yugoslav and Greek partisans. Known for its mountainous warfare capabilities, 'Prinz Eugen' became notorious for its brutal tactics and involvement in war crimes."
+EW_German_Units_Country.7.a:1 "Create Unit"
+
+
+SS_Create_Waffen_SS_8:0 "8. SS-Kavallerie-Division Florian Geyer"
+SS_Create_Waffen_SS_8_desc:0 "The 8th SS Cavalry Division Florian Geyer was a Waffen-SS unit formed in 1941. Initially intended as a cavalry division, it was eventually restructured into a more conventional infantry division. The division saw action primarily on the Eastern Front, participating in anti-partisan operations and various engagements with Soviet forces. Named after the 16th-century German knight and mercenary Florian Geyer, the division had a reputation for its combat performance but also faced controversies due to its involvement in war crimes and harsh occupation policies."
+
+EW_German_Units_Country.8.t:0 "8. SS-Kavallerie-Division Florian Geyer"
+EW_German_Units_Country.8.d:0 "The 8th SS Cavalry Division Florian Geyer was a Waffen-SS unit formed in 1941. Initially intended as a cavalry division, it was eventually restructured into a more conventional infantry division. The division saw action primarily on the Eastern Front, participating in anti-partisan operations and various engagements with Soviet forces. Named after the 16th-century German knight and mercenary Florian Geyer, the division had a reputation for its combat performance but also faced controversies due to its involvement in war crimes and harsh occupation policies."
+EW_German_Units_Country.8.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_9:0 "9. SS-Panzerdivision Hohenstaufen"
+SS_Create_Waffen_SS_9_desc:0 "The 9th SS Panzer Division 'Hohenstaufen' was a renowned unit in the Waffen-SS, formed in 1943. It was named after the Hohenstaufen Castle in Germany and became known for its effectiveness in armored warfare. The division saw significant action on the Eastern Front, including participation in the battles of Kursk and the defensive operations in Hungary and Austria. It was recognized for its combat prowess but also faced accusations of involvement in war crimes during its engagements."
+
+EW_German_Units_Country.9.t:0 "9. SS-Panzerdivision Hohenstaufen"
+EW_German_Units_Country.9.d:0 "The 9th SS Panzer Division 'Hohenstaufen' was a renowned unit in the Waffen-SS, formed in 1943. It was named after the Hohenstaufen Castle in Germany and became known for its effectiveness in armored warfare. The division saw significant action on the Eastern Front, including participation in the battles of Kursk and the defensive operations in Hungary and Austria. It was recognized for its combat prowess but also faced accusations of involvement in war crimes during its engagements."
+EW_German_Units_Country.9.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_10:0 "10. SS-Panzerdivision Frundsberg"
+SS_Create_Waffen_SS_10_desc:0 "The 10th SS Panzer Division 'Frundsberg' was established in 1943 and named after the 16th-century German knight Franz von Frundsberg. Known for its effectiveness in combat, the division fought extensively on both the Eastern and Western Fronts. It participated in key battles including the Battle of the Bulge and various defensive actions in Germany. The division was recognized for its strong performance in combat but, like other Waffen-SS units, was also involved in war crimes during its operations."
+
+EW_German_Units_Country.10.t:0 "10. SS-Panzerdivision Frundsberg"
+EW_German_Units_Country.10.d:0 "The 10th SS Panzer Division 'Frundsberg' was established in 1943 and named after the 16th-century German knight Franz von Frundsberg. Known for its effectiveness in combat, the division fought extensively on both the Eastern and Western Fronts. It participated in key battles including the Battle of the Bulge and various defensive actions in Germany. The division was recognized for its strong performance in combat but, like other Waffen-SS units, was also involved in war crimes during its operations."
+EW_German_Units_Country.10.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_11:0 "11. SS-Panzergrenadierdivision Nordland"
+SS_Create_Waffen_SS_11_desc:0 "The 11th SS Panzergrenadier Division 'Nordland' was an elite division of the Waffen-SS, predominantly made up of Scandinavian volunteers from countries such as Denmark, Norway, and Sweden. Formed in 1942, it saw significant action on the Eastern Front, particularly in the battles around Leningrad and during the defense of the Baltic States. Known for its strong nationalistic motivations and combat prowess, the division was also involved in numerous war crimes. Despite its controversial nature, it was considered a formidable force within the Waffen-SS."
+
+EW_German_Units_Country.11.t:0 "11. SS-Panzergrenadierdivision Nordland"
+EW_German_Units_Country.11.d:0 "The 11th SS Panzergrenadier Division 'Nordland' was an elite division of the Waffen-SS, predominantly made up of Scandinavian volunteers from countries such as Denmark, Norway, and Sweden. Formed in 1942, it saw significant action on the Eastern Front, particularly in the battles around Leningrad and during the defense of the Baltic States. Known for its strong nationalistic motivations and combat prowess, the division was also involved in numerous war crimes. Despite its controversial nature, it was considered a formidable force within the Waffen-SS."
+EW_German_Units_Country.11.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_12:0 "12. SS-Panzerdivision Hitlerjugend"
+SS_Create_Waffen_SS_12_desc:0 "The 12th SS Panzer Division 'Hitlerjugend' was a Waffen-SS division largely composed of young men from the Hitler Youth organization. Formed in 1943, it was initially established in France, with its training centered in Paris and surrounding areas. The division was known for its high levels of indoctrination and ideological zeal, and it participated in significant battles on the Western Front, including the Normandy Invasion. Despite its relatively short history, the division gained a reputation for its fierce fighting and commitment to the Nazi cause, though it was also implicated in war crimes."
+
+EW_German_Units_Country.12.t:0 "12. SS-Panzerdivision Hitlerjugend"
+EW_German_Units_Country.12.d:0 "The 12th SS Panzer Division 'Hitlerjugend' was a Waffen-SS division largely composed of young men from the Hitler Youth organization. Formed in 1943, it was initially established in France, with its training centered in Paris and surrounding areas. The division was known for its high levels of indoctrination and ideological zeal, and it participated in significant battles on the Western Front, including the Normandy Invasion. Despite its relatively short history, the division gained a reputation for its fierce fighting and commitment to the Nazi cause, though it was also implicated in war crimes."
+EW_German_Units_Country.12.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_13:0 "13. Waffen-Gebirgs-Division der SS Handschar (1. Kroatische)"
+SS_Create_Waffen_SS_13_desc:0 "The 13th Waffen Mountain Division of the SS Handschar (1st Croatian) was a Waffen-SS division composed primarily of Croatian volunteers. Formed in 1943 in the Independent State of Croatia, the division was intended to operate in the mountainous regions of the Balkans. Known for its diverse ethnic composition and participation in anti-partisan operations, the Handschar division was involved in both front-line combat and suppression of resistance movements. Despite its operational role, it was implicated in various war crimes and atrocities during its service."
+
+EW_German_Units_Country.13.t:0 "13. Waffen-Gebirgs-Division der SS Handschar (1. Kroatische)"
+EW_German_Units_Country.13.d:0 "The 13th Waffen Mountain Division of the SS Handschar (1st Croatian) was a Waffen-SS division composed primarily of Croatian volunteers. Formed in 1943 in the Independent State of Croatia, the division was intended to operate in the mountainous regions of the Balkans. Known for its diverse ethnic composition and participation in anti-partisan operations, the Handschar division was involved in both front-line combat and suppression of resistance movements. Despite its operational role, it was implicated in various war crimes and atrocities during its service."
+EW_German_Units_Country.13.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_14:0 "14. Waffen-Grenadier-Division der SS (1. Galizische)"
+SS_Create_Waffen_SS_14_desc:0 "The 14th Waffen Grenadier Division of the SS (1st Galician) was a division formed in 1943, primarily composed of Ukrainian volunteers from Galicia. Created as part of the Waffen-SS, the division was involved in various operations on the Eastern Front, including anti-partisan activities and combat against Soviet forces. Despite its contributions on the battlefield, the division was also implicated in war crimes and faced significant criticism for its conduct during the war."
+
+EW_German_Units_Country.14.t:0 "14. Waffen-Grenadier-Division der SS (1. Galizische)"
+EW_German_Units_Country.14.d:0 "The 14th Waffen Grenadier Division of the SS (1st Galician) was a division formed in 1943, primarily composed of Ukrainian volunteers from Galicia. Created as part of the Waffen-SS, the division was involved in various operations on the Eastern Front, including anti-partisan activities and combat against Soviet forces. Despite its contributions on the battlefield, the division was also implicated in war crimes and faced significant criticism for its conduct during the war."
+EW_German_Units_Country.14.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_15:0 "15. Waffen-Grenadier-Division der SS (1. Lettische)"
+SS_Create_Waffen_SS_15_desc:0 "The 15th Waffen Grenadier Division of the SS (1st Latvian) was established in 1943, predominantly composed of Latvian volunteers. This division was involved in various operations on the Eastern Front, including defensive and anti-partisan actions. Despite its role in the German military efforts, the division's association with the Waffen-SS and its actions during the war have been subject to significant scrutiny, including involvement in war crimes."
+
+EW_German_Units_Country.15.t:0 "15. Waffen-Grenadier-Division der SS (1. Lettische)"
+EW_German_Units_Country.15.d:0 "The 15th Waffen Grenadier Division of the SS (1st Latvian) was established in 1943, predominantly composed of Latvian volunteers. This division was involved in various operations on the Eastern Front, including defensive and anti-partisan actions. Despite its role in the German military efforts, the division's association with the Waffen-SS and its actions during the war have been subject to significant scrutiny, including involvement in war crimes."
+EW_German_Units_Country.15.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_16:0 "16. SS-Panzergrenadier-Division Reichsführer-SS"
+SS_Create_Waffen_SS_16_desc:0 "The 16th SS Panzergrenadier Division Reichsführer-SS was formed in 1944 from existing SS units and new recruits. Known for its heavy involvement in the defense of the Reich towards the end of World War II, the division was engaged in intense combat on the Western Front, particularly in the Ardennes Offensive. It was named in honor of Heinrich Himmler, the Reichsführer-SS, and reflected his personal influence on the division's formation."
+
+EW_German_Units_Country.16.t:0 "16. SS-Panzergrenadier-Division Reichsführer-SS"
+EW_German_Units_Country.16.d:0 "The 16th SS Panzergrenadier Division Reichsführer-SS was formed in 1944 from existing SS units and new recruits. Known for its heavy involvement in the defense of the Reich towards the end of World War II, the division was engaged in intense combat on the Western Front, particularly in the Ardennes Offensive. It was named in honor of Heinrich Himmler, the Reichsführer-SS, and reflected his personal influence on the division's formation."
+EW_German_Units_Country.16.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_17:0 "17. SS-Panzergrenadier-Division Götz von Berlichingen"
+SS_Create_Waffen_SS_17_desc:0 "The 17th SS Panzergrenadier Division Götz von Berlichingen was formed in 1943, named after the famous German knight Götz von Berlichingen. It was established from a combination of various units and was intended to bolster the Waffen-SS's panzergrenadier capabilities. The division was composed largely of personnel from the Reichsarbeitsdienst (RAD) and was deployed on the Eastern Front, participating in various defensive operations against the Soviet Red Army. It was known for its mixed combat record, struggling with equipment shortages and logistical issues but still contributing to the war effort with a committed and determined fighting force."
+
+EW_German_Units_Country.17.t:0 "17. SS-Panzergrenadier-Division Götz von Berlichingen"
+EW_German_Units_Country.17.d:0 "The 17th SS Panzergrenadier Division Götz von Berlichingen was formed in 1943, named after the famous German knight Götz von Berlichingen. It was established from a combination of various units and was intended to bolster the Waffen-SS's panzergrenadier capabilities. The division was composed largely of personnel from the Reichsarbeitsdienst (RAD) and was deployed on the Eastern Front, participating in various defensive operations against the Soviet Red Army. It was known for its mixed combat record, struggling with equipment shortages and logistical issues but still contributing to the war effort with a committed and determined fighting force."
+EW_German_Units_Country.17.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_18:0 "18. SS-Grenadier-Division Horst Wessel"
+SS_Create_Waffen_SS_18_desc:0 "The 18th SS Grenadier Division Horst Wessel was established in 1943 and named after the Nazi party anthem's author, Horst Wessel. This division was formed primarily from personnel recruited from the Reichsarbeitsdienst (RAD) and other sources, with the intention of reinforcing the Waffen-SS's infantry capabilities. Deployed on the Eastern Front, the division was involved in various defensive operations against the Soviet Army. The Horst Wessel Division was known for its relatively poor combat performance compared to other Waffen-SS units, struggling with both equipment shortages and logistical difficulties."
+EW_German_Units_Country.18.t:0 "18. SS-Grenadier-Division Horst Wessel"
+
+EW_German_Units_Country.18.d:0 "The 18th SS Grenadier Division Horst Wessel was established in 1943 and named after the Nazi party anthem's author, Horst Wessel. This division was formed primarily from personnel recruited from the Reichsarbeitsdienst (RAD) and other sources, with the intention of reinforcing the Waffen-SS's infantry capabilities. Deployed on the Eastern Front, the division was involved in various defensive operations against the Soviet Army. The Horst Wessel Division was known for its relatively poor combat performance compared to other Waffen-SS units, struggling with both equipment shortages and logistical difficulties."
+EW_German_Units_Country.18.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_19:0 "19. Waffen-Grenadier-Division der SS (2. Lettische)"
+SS_Create_Waffen_SS_19_desc:0 "The 19th SS Grenadier Division Lettische Nr. 2 was formed in 1943 as a Waffen-SS unit consisting primarily of Latvian volunteers. It was part of a broader effort to incorporate non-German troops into the Waffen-SS, reflecting the extensive collaboration of various occupied countries with the Nazi regime. The division was involved in combat operations on the Eastern Front, where it participated in defensive and offensive actions against the Soviet Red Army. The division's performance varied, and it faced challenges in training and integration compared to other Waffen-SS units."
+
+EW_German_Units_Country.19.t:0 "19. Waffen-Grenadier-Division der SS (2. Lettische)"
+EW_German_Units_Country.19.d:0 "The 19th SS Grenadier Division Lettische Nr. 2 was formed in 1943 as a Waffen-SS unit consisting primarily of Latvian volunteers. It was part of a broader effort to incorporate non-German troops into the Waffen-SS, reflecting the extensive collaboration of various occupied countries with the Nazi regime. The division was involved in combat operations on the Eastern Front, where it participated in defensive and offensive actions against the Soviet Red Army. The division's performance varied, and it faced challenges in training and integration compared to other Waffen-SS units."
+EW_German_Units_Country.19.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_20:0 "20. Waffen-Grenadier-Division der SS (1. Estnische)"
+SS_Create_Waffen_SS_20_desc:0 "The 20th Waffen-Grenadier-Division der SS (1. Estnische) was formed in 1943, consisting primarily of Estonian volunteers. This division was part of the Nazi regime's efforts to incorporate soldiers from occupied territories into the Waffen-SS. The division was engaged in various combat operations on the Eastern Front, participating in defensive and offensive actions against the Soviet Union. Its formation reflected the broader collaboration of Baltic states with the German military during World War II."
+
+EW_German_Units_Country.20.t:0 "20. Waffen-Grenadier-Division der SS (1. Estnische)"
+EW_German_Units_Country.20.d:0 "The 20th Waffen-Grenadier-Division der SS (1. Estnische) was formed in 1943, consisting primarily of Estonian volunteers. This division was part of the Nazi regime's efforts to incorporate soldiers from occupied territories into the Waffen-SS. The division was engaged in various combat operations on the Eastern Front, participating in defensive and offensive actions against the Soviet Union. Its formation reflected the broader collaboration of Baltic states with the German military during World War II."
+EW_German_Units_Country.20.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_21:0 "21. Waffen-Gebirgsdivision der SS Skanderbeg (1. Albanisch)"
+SS_Create_Waffen_SS_21_desc:0 "The 21st Waffen-Gebirgsdivision der SS Skanderbeg (1. Albanisch) was established in 1944, composed primarily of Albanian volunteers. Named after the national hero Skanderbeg, this division was part of the German efforts to mobilize troops from occupied territories. It operated primarily in the Balkans, engaging in anti-partisan and defensive operations against Allied forces. The division reflects the complex dynamics of collaboration and resistance in the region during World War II."
+
+EW_German_Units_Country.21.t:0 "21. Waffen-Gebirgsdivision der SS Skanderbeg (1. Albanisch)"
+EW_German_Units_Country.21.d:0 "The 21st Waffen-Gebirgsdivision der SS Skanderbeg (1. Albanisch) was established in 1944, composed primarily of Albanian volunteers. Named after the national hero Skanderbeg, this division was part of the German efforts to mobilize troops from occupied territories. It operated primarily in the Balkans, engaging in anti-partisan and defensive operations against Allied forces. The division reflects the complex dynamics of collaboration and resistance in the region during World War II."
+EW_German_Units_Country.21.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_22:0 "22. SS-Freiwilligen Kavallerie-Division"
+SS_Create_Waffen_SS_22_desc:0 "The 22nd SS-Freiwilligen Kavallerie-Division, initially named Maria Theresia, was formed in December 1943 from the 17th SS-Cavalry Regiment of the 8th SS Cavalry Division Florian Geyer. It was established in Kisbér, Hungary, with personnel largely comprising Hungarian Volksdeutsche conscripts. The division's training and organization continued in Kisber, Győr, and Budapest, using primarily Hungarian equipment. By June 1944, it had a strength of about 4,900 and was involved in operations on the Eastern Front."
+
+EW_German_Units_Country.22.t:0 "22. SS-Freiwilligen Kavallerie-Division"
+EW_German_Units_Country.22.d:0 "The 22nd SS-Freiwilligen Kavallerie-Division, initially named Maria Theresia, was formed in December 1943 from the 17th SS-Cavalry Regiment of the 8th SS Cavalry Division Florian Geyer. It was established in Kisbér, Hungary, with personnel largely comprising Hungarian Volksdeutsche conscripts. The division's training and organization continued in Kisber, Győr, and Budapest, using primarily Hungarian equipment. By June 1944, it had a strength of about 4,900 and was involved in operations on the Eastern Front."
+EW_German_Units_Country.22.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_23:0 "23. Waffen Gebirgs-Division der SS Kama (2. Kroatische)"
+SS_Create_Waffen_SS_23_desc:0 "The 23rd Waffen Mountain Division of the SS Kama, formed on 1 April 1944, was a Croatian unit organized primarily from volunteers. It was established in Split, Croatia, and trained in the mountainous regions of the country. The division was designed for operations in the Balkans and saw service on the Eastern Front after its formation."
+
+EW_German_Units_Country.23.t:0 "23. Waffen Gebirgs-Division der SS Kama (2. Kroatische)"
+EW_German_Units_Country.23.d:0 "The 23rd Waffen Mountain Division of the SS Kama, formed on 1 April 1944, was a Croatian unit organized primarily from volunteers. It was established in Split, Croatia, and trained in the mountainous regions of the country. The division was designed for operations in the Balkans and saw service on the Eastern Front after its formation."
+EW_German_Units_Country.23.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_24:0 "24. Waffen-Gebirgs-Division der SS Karstjäger"
+SS_Create_Waffen_SS_24_desc:0 "The 24th Waffen Mountain Division of the SS Karstjäger was formed in 1944, primarily consisting of German and Italian personnel. Established in Trieste, Italy, the division was designed for operations in mountainous terrain, reflecting its name, which refers to the Karst region known for its rugged landscape. The division was involved in various operations in the mountainous regions of Italy, facing difficult conditions in its engagements."
+
+EW_German_Units_Country.24.t:0 "24. Waffen-Gebirgs-Division der SS Karstjäger"
+EW_German_Units_Country.24.d:0 "The 24th Waffen Mountain Division of the SS Karstjäger was formed in 1944, primarily consisting of German and Italian personnel. Established in Trieste, Italy, the division was designed for operations in mountainous terrain, reflecting its name, which refers to the Karst region known for its rugged landscape. The division was involved in various operations in the mountainous regions of Italy, facing difficult conditions in its engagements."
+EW_German_Units_Country.24.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_25:0 "25. Waffen-Grenadier-Division der SS Hunyadi (1. Ungarisch)"
+SS_Create_Waffen_SS_25_desc:0 "The 25th Waffen Grenadier Division of the SS Hunyadi (1st Hungarian) was formed in 1944 from Hungarian volunteers and conscripts. The division was named after the 15th-century Hungarian nobleman János Hunyadi, known for his military leadership. It was established in Hungary and trained there before being deployed on the Eastern Front. The division participated in various operations and engagements in the late stages of World War II."
+
+EW_German_Units_Country.25.t:0 "25. Waffen-Grenadier-Division der SS Hunyadi (1. Ungarisch)"
+EW_German_Units_Country.25.d:0 "The 25th Waffen Grenadier Division of the SS Hunyadi (1st Hungarian) was formed in 1944 from Hungarian volunteers and conscripts. The division was named after the 15th-century Hungarian nobleman János Hunyadi, known for his military leadership. It was established in Hungary and trained there before being deployed on the Eastern Front. The division participated in various operations and engagements in the late stages of World War II."
+EW_German_Units_Country.25.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_26:0 ""
+SS_Create_Waffen_SS_26_desc:0 ""
+
+EW_German_Units_Country.26.t:0 ""
+EW_German_Units_Country.26.d:0 ""
+EW_German_Units_Country.26.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_27:0 ""
+SS_Create_Waffen_SS_27_desc:0 ""
+
+EW_German_Units_Country.27.t:0 ""
+EW_German_Units_Country.27.d:0 ""
+EW_German_Units_Country.27.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_28:0 ""
+SS_Create_Waffen_SS_28_desc:0 ""
+
+EW_German_Units_Country.28.t:0 ""
+EW_German_Units_Country.28.d:0 ""
+EW_German_Units_Country.28.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_29:0 ""
+SS_Create_Waffen_SS_29_desc:0 ""
+
+EW_German_Units_Country.29.t:0 ""
+EW_German_Units_Country.29.d:0 ""
+EW_German_Units_Country.29.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_30:0 ""
+SS_Create_Waffen_SS_30_desc:0 ""
+
+EW_German_Units_Country.30.t:0 ""
+EW_German_Units_Country.30.d:0 ""
+EW_German_Units_Country.30.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_31:0 ""
+SS_Create_Waffen_SS_31_desc:0 ""
+
+EW_German_Units_Country.31.t:0 ""
+EW_German_Units_Country.31.d:0 ""
+EW_German_Units_Country.31.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_32:0 ""
+SS_Create_Waffen_SS_32_desc:0 ""
+
+EW_German_Units_Country.32.t:0 ""
+EW_German_Units_Country.32.d:0 ""
+EW_German_Units_Country.32.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_33:0 ""
+
+
+SS_Create_Waffen_SS_33_desc:0 ""
+
+EW_German_Units_Country.33.t:0 ""
+EW_German_Units_Country.33.d:0 ""
+EW_German_Units_Country.33.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_34:0 ""
+SS_Create_Waffen_SS_34_desc:0 ""
+
+EW_German_Units_Country.34.t:0 ""
+EW_German_Units_Country.34.d:0 ""
+EW_German_Units_Country.34.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_35:0 ""
+SS_Create_Waffen_SS_35_desc:0 ""
+
+EW_German_Units_Country.35.t:0 ""
+EW_German_Units_Country.35.d:0 ""
+EW_German_Units_Country.35.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_36:0 ""
+SS_Create_Waffen_SS_36_desc:0 ""
+
+EW_German_Units_Country.36.t:0 ""
+EW_German_Units_Country.36.d:0 ""
+EW_German_Units_Country.36.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_37:0 ""
+SS_Create_Waffen_SS_37_desc:0 ""
+
+EW_German_Units_Country.37.t:0 ""
+EW_German_Units_Country.37.d:0 ""
+EW_German_Units_Country.37.a:1 "Create Unit"
+
+SS_Create_Waffen_SS_38:0 ""
+SS_Create_Waffen_SS_38_desc:0 ""
+
+EW_German_Units_Country.38.t:0 ""
+EW_German_Units_Country.38.d:0 ""
+EW_German_Units_Country.38.a:1 "Create Unit"

@@ -1024,7 +1024,7 @@ SS_EW_Decisions = {
 		}
 
 		available = {
-		
+		surrender_progress < 0.01
 		date > 1940.1.1
 		has_tech = mechanised_infantry
 		
@@ -1098,5 +1098,1368 @@ SS_EW_Decisions = {
 			}
 		}
 	}
+	
+#1. SS-Panzerdivision "Leibstandarte SS Adolf Hitler"	
+SS_Create_Waffen_SS_1 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1939.01.01
+		#Berlin
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.1
+            }    
+        }
+    }
+}
+#Das Reich
+SS_Create_Waffen_SS_2 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1939.01.01
+		#Munich
+		52 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.2
+            }    
+        }
+    }
+}
+#Totenkopf
+SS_Create_Waffen_SS_3 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1939.01.01
+		#Munich
+		52 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.3
+            }    
+        }
+    }
+}
+#Polizei
+SS_Create_Waffen_SS_4 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.09.16
+		#Berlin
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.4
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_5 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.09.15
+		#Baden
+		50 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.5
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_6 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1941.09.15
+		763 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.6
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_7 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1941.08.01
+		52 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.7
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_8 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1941.10.01
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.8
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_9 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.10.15
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.9
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_10 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.11.01
+		57 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.10
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_11 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.08.24
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.11
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_12 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.06.01
+		16 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.12
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_13 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.11.15
+		104 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.13
+            }    
+        }
+    }
+}
+#
+SS_Create_Waffen_SS_14 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.11.28
+		89 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.14
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_15 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.11.28
+		808 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.15
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_16 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.11.15
+		57 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.16
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_17 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.12.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.17
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_18 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.12.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.18
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_19 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		808 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.19
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_20 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.02.28
+		812 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.20
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_21 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.04.01
+		44 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.21
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_22 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.04.01
+		155 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.22
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_23 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.05.01
+		103 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.23
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_24 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.06.01
+		736 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.24
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_25 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.07.15
+		155 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.25
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_26 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.08.15
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.26
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_27 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.09.15
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.27
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_28 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.10.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.28
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_29 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.11.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.29
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_30 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.12.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.30
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_31 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.01.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.31
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_32 = {
+
+    icon = ger_reichskommissariats
+
+
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.02.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.32
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_33 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.03.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.33
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_34 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.04.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.34
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_35 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.05.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.35
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_36 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.06.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.36
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_37 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.07.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.37
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_38 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.08.01
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.38
+            }    
+        }
+    }
+}
 	
 }

@@ -1,7 +1,7 @@
 ﻿l_english:
 
 GER_EW_Decisions:0 "German War Actions"
-GER_EW_Decisions_desc:0 ""
+GER_EW_Decisions_desc:0 "During World War II, Germany, under the leadership of Adolf Hitler and the Nazi Party, sought to establish a totalitarian regime and expand its territorial control across Europe. The primary goals of Nazi Germany included the creation of a vast empire dominated by the so-called Aryan race, the extermination of Jews and other groups deemed undesirable, and the acquisition of Lebensraum (living space) to ensure the economic and strategic dominance of the Third Reich. This expansionist ideology led to the invasion of numerous countries, resulting in widespread devastation and a relentless campaign of military aggression that reshaped the geopolitical landscape of Europe."
 
 GER_Partition_Greece:0 "Partition Greece"
 GER_Partition_Yugoslavia:0 "Partition Yugoslavia"
@@ -33,18 +33,23 @@ GER_Poland_Under_Attack:0 "Soviet Aggression Against Poland"
 EW_integrate_war_economies_tt3:0 "§R[BUL.GetName] must approve of the agreement for the bonuses to take effect.§!\n"
 
 JAP_EW_Decisions:0 "Japanese War Actions"
-JAP_EW_Decisions_desc:0 ""
+JAP_EW_Decisions_desc:0 "During World War II, Japan, under the leadership of Emperor Hirohito and Prime Minister Tojo Hideki, aimed to establish itself as a dominant power in Asia and the Pacific. The Japanese goals included the creation of a Greater East Asia Co-Prosperity Sphere, which envisioned Japanese hegemony over East and Southeast Asia, and the acquisition of resources to fuel its militaristic ambitions. This expansionist policy led to the invasion of China, the attack on Pearl Harbor, and subsequent military campaigns across the Pacific, resulting in widespread occupation, significant regional conflicts, and a brutal regime marked by intense nationalism and aggression."
 JAP_Invade_TIB:0 "The Tibet Expedition"
 
 SOV_EW_Decisions:0 "Soviet War Actions"
-SOV_EW_Decisions_desc:0 ""
+SOV_EW_Decisions_desc:0 "During World War II, the Soviet Union, led by Joseph Stalin and the Communist Party, sought to expand its influence and secure its borders while advancing its ideological goals. The Soviet objectives included the protection and consolidation of the USSR's territory, the defeat of the Axis powers, and the promotion of communist ideology across Europe and Asia. This ambition drove the Soviets to endure significant sacrifices on the Eastern Front, engage in large-scale military operations, and ultimately aim to reshape the post-war world order in favor of Soviet interests and socialist principles. The war effort also facilitated the USSR's rise as a superpower, leading to its prominent role in the ensuing Cold War."
 SOV_Defend_Leningrad:0 "The Defence of Leningrad"
 SOV_Defend_Moscow:0 "The Defence of Moscow"
 SOV_Defend_Stalingrad:0 "The Defence of Stalingrad"
 
+ITA_EW_Decisions:0 "Italian War Actions"
+ITA_EW_Decisions_desc:0 "During World War II, Italy, under the leadership of Benito Mussolini and the Fascist Party, sought to establish itself as a major power by reviving the grandeur of the Roman Empire. Mussolini’s goals included expanding Italy’s territorial control across the Mediterranean and Africa, asserting dominance in the region, and aligning with Nazi Germany to influence European affairs. Italy aimed to achieve this through military aggression and strategic alliances, seeking to reshape the balance of power in Europe and assert its role as a key player on the global stage. Despite initial successes, Italy's military campaigns ultimately faced significant challenges, and the country’s involvement in the Axis coalition had mixed results."
+
 Allies_EW_Decisions:0 "Allies War Actions"
-Allies_EW_Decisions_desc:0 ""
-SOV_Poland_Under_Attack:0 "German Aggression Against Poland"
+Allies_EW_Decisions_desc:0 "During World War II, the Western Allies, primarily the United States, the United Kingdom, and the Soviet Union, united to combat the Axis powers and restore global stability. Their main goals included defeating the aggressive regimes of Nazi Germany, Fascist Italy, and Imperial Japan, ending the threat of totalitarianism, and restoring occupied territories. The Allies also aimed to uphold democratic values and human rights, prevent future conflicts through collective security, and establish a new international order that would promote economic recovery and cooperation. Their coordinated military and diplomatic efforts eventually led to the Axis powers' defeat and the formation of key post-war institutions, such as the United Nations, to foster global peace and security."
+
+Axis_EW_Decisions:0 "Axis War Actions"
+Axis_EW_Decisions_desc:0 "During World War II, the European Axis powers, primarily Nazi Germany, Fascist Italy, and, to a lesser extent, Hungary and Romania, sought to reshape Europe according to their expansionist and authoritarian ideals. Nazi Germany aimed to establish a totalitarian empire across Europe, promoting Aryan supremacy and securing Lebensraum (living space) through military conquest and the subjugation of various nations. Fascist Italy, under Benito Mussolini, sought to revive the glory of the Roman Empire by expanding its influence in the Mediterranean and Africa. Hungary and Romania, aligning with the Axis, pursued territorial gains and regional influence. Their collective goals included dismantling the post-World War I order, dominating Europe through military aggression, and establishing a new geopolitical and ideological order based on their totalitarian and expansionist visions."
 
 ENG_Stop_German_Aggression:0 "Guarantee [FROM.GetName]"
 ENG_Stop_German_Aggression_desc:0 ""
@@ -55,11 +60,3 @@ SOV_Stop_German_Aggression_desc:0 ""
 
 CHI_EW_annex_warlords_targeted_decision:0 "Annex [FROM.GetName]"
 CHI_EW_annex_warlords_targeted_decision_desc:0 ""
-
-SS_EW_Decisions:0 "Schutzstaffel (SS) Actions"
-SS_EW_Decisions_desc:0 "The Schutzstaffel (SS) was a paramilitary organization under Adolf Hitler and the Nazi Party, originally established in 1925 as a small bodyguard unit for Hitler. It rapidly expanded in influence and power, becoming a key instrument in enforcing Nazi policies and committing war crimes during World War II. The SS was divided into two main branches: the Waffen-SS, which served as a combat force alongside the regular German military, and the Allgemeine SS, which focused on internal security and ideological enforcement. The Allgemeine SS was notably responsible for running concentration camps and executing the regime's genocidal policies. The SS, under leaders like Heinrich Himmler, played a central role in the Holocaust, overseeing the systematic murder of six million Jews and millions of others deemed undesirable by the Nazi regime."
-
-SS_Create_Waffen_SS:0 "Create Waffen SS"
-SS_Create_Waffen_SS_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."
-
-Waffen_SS_Created:0 "Waffen-SS Has Been Created."

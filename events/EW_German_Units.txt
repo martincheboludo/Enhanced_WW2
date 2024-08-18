@@ -19,38 +19,25 @@ country_event = {
 			factor = 1000
 		}
 		
+		army_experience = 10
+		
 		hidden_effect = {
+			if  = {
+				limit  = {
+					NOT = {
+						has_tech = mechanised_infantry
+					}
+				}
+				set_technology = {
+					mechanised_infantry = 1
+				}
+			}
 			set_technology = {
 				Waffen_SS_units_tech = 1
 			}
 			division_template = {
-				name = "SS-Panzer-Division"
-				division_names_group = GER_SS_01
-
-				regiments = {
-					WSS_medium_armor = { x = 0 y = 0 }
-					WSS_medium_armor = { x = 0 y = 1 }
-					WSS_medium_armor = { x = 1 y = 0 }
-					WSS_medium_armor = { x = 1 y = 1 }
-					WSS_motorized = { x = 2 y = 0 }
-					WSS_motorized = { x = 2 y = 1 }
-					WSS_motorized = { x = 2 y = 2 }
-					WSS_motorized = { x = 3 y = 0 }
-					WSS_motorized = { x = 3 y = 1 }
-					WSS_motorized = { x = 3 y = 2 }
-				}
-				support = {
-					mot_recon = { x = 0 y = 0 }
-					engineer = { x = 0 y = 1 }
-					artillery = { x = 0 y = 2 }
-				}
-				priority = 2
-				is_locked = yes
-			}
-			division_template = {
 				name = "SS-Infanterie-Division"					# Represents Infanterie Welles 1-4
 				division_names_group = GER_SS_01
-
 				regiments = {
 					WSS_infantry = { x = 0 y = 0 }
 					WSS_infantry = { x = 0 y = 1 }
@@ -67,12 +54,76 @@ country_event = {
 					engineer = { x = 0 y = 0 }
 					artillery = { x = 0 y = 1 }
 				}
-				is_locked = yes
+				priority = 2
+				
+			}
+			division_template = {
+				name = "SS-Panzer-Division"
+				division_names_group = GER_SS_01
+				regiments = {
+					WSS_medium_armor = { x = 0 y = 0 }
+					WSS_medium_armor = { x = 0 y = 1 }
+					WSS_medium_armor = { x = 1 y = 0 }
+					WSS_medium_armor = { x = 1 y = 1 }
+					WSS_mechanized = { x = 2 y = 0 }
+					WSS_mechanized = { x = 2 y = 1 }
+					WSS_mechanized = { x = 2 y = 2 }
+					WSS_mechanized = { x = 3 y = 0 }
+					WSS_mechanized = { x = 3 y = 1 }
+					WSS_mechanized = { x = 3 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }	
+				}
+				priority = 2
+				
+			}
+			division_template = {
+				name = "SS-Panzergrenadier-Division"
+				division_names_group = GER_SS_01
+				regiments = {
+					WSS_mechanized = { x = 0 y = 0 }
+					WSS_mechanized = { x = 0 y = 1 }
+					WSS_mechanized = { x = 0 y = 2 }
+					WSS_mechanized = { x = 1 y = 0 }
+					WSS_mechanized = { x = 1 y = 1 }
+					WSS_mechanized = { x = 1 y = 2 }
+					WSS_mechanized = { x = 2 y = 0 }
+					WSS_mechanized = { x = 2 y = 1 }
+					WSS_mechanized = { x = 2 y = 2 }
+					WSS_medium_armor = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }			
+				}
+				priority = 2
+			}
+			division_template = {
+				name = "SS-Infanterie-Division (mot.)"
+				division_names_group = GER_SS_01
+				regiments = {
+					WSS_motorized = { x = 0 y = 0 }
+					WSS_motorized = { x = 0 y = 1 }
+					WSS_motorized = { x = 0 y = 2 }
+					WSS_motorized = { x = 1 y = 0 }
+					WSS_motorized = { x = 1 y = 1 }
+					WSS_motorized = { x = 1 y = 2 }
+					WSS_motorized = { x = 2 y = 0 }
+					WSS_motorized = { x = 2 y = 1 }
+					WSS_motorized = { x = 2 y = 2 }
+					WSS_motorized = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }			
+				}
+				priority = 2
 			}
 			division_template = {
 				name = "SS-Gebirgs-Division"						# Gebirgs-Divisions
 				division_names_group = GER_SS_01
-
 				regiments = {
 					WSS_mountaineers = { x = 0 y = 0 }
 					WSS_mountaineers = { x = 0 y = 1 }
@@ -89,30 +140,28 @@ country_event = {
 					engineer = { x = 0 y = 0 }
 					artillery = { x = 0 y = 1 }	
 				}
-				is_locked = yes
+				priority = 2
 			}
 			division_template = {
-				name = "SS-Infanterie-Division (mot.)"
-				division_names_group = GER_MOT_02
-
+				name = "SS-Kavallerie-Division"						# Kavallerie-Divisions
+				division_names_group = GER_SS_01
 				regiments = {
-					WSS_motorized = { x = 0 y = 0 }
-					WSS_motorized = { x = 0 y = 1 }
-					WSS_motorized = { x = 0 y = 2 }
-					WSS_motorized = { x = 1 y = 0 }
-					WSS_motorized = { x = 1 y = 1 }
-					WSS_motorized = { x = 1 y = 2 }
-					WSS_motorized = { x = 2 y = 0 }
-					WSS_motorized = { x = 2 y = 1 }
-					WSS_motorized = { x = 2 y = 2 }
-					WSS_motorized = { x = 3 y = 0 }
+					WSS_cavalry = { x = 0 y = 0 }
+					WSS_cavalry = { x = 0 y = 1 }
+					WSS_cavalry = { x = 0 y = 2 }
+					WSS_cavalry = { x = 1 y = 0 }
+					WSS_cavalry = { x = 1 y = 1 }
+					WSS_cavalry = { x = 1 y = 2 }
+					WSS_cavalry = { x = 2 y = 0 }
+					WSS_cavalry = { x = 2 y = 1 }
+					WSS_cavalry = { x = 2 y = 2 }
+					WSS_cavalry = { x = 3 y = 0 }
 				}
 				support = {
-					mot_recon = { x = 0 y = 0 }
-					engineer = { x = 0 y = 1 }
-					artillery = { x = 0 y = 2 }			
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }	
 				}
-				is_locked = yes
+				priority = 2
 			}
 			set_country_flag = Waffen_SS_Created
 		}
@@ -148,3 +197,1017 @@ news_event = {
 		ai_chance = { factor = 1000 }
 	}
 }
+
+#1st SS Panzer Division - LSSAH
+country_event = {
+	id = EW_German_Units_Country.1
+	title = EW_German_Units_Country.1.t
+	desc = EW_German_Units_Country.1.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.1.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"1. SS-Panzerdivision “Leibstandarte SS Adolf Hitler”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 1.0"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#2nd SS Panzer Division - Das Reich
+country_event = {
+	id = EW_German_Units_Country.2
+	title = EW_German_Units_Country.2.t
+	desc = EW_German_Units_Country.2.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.2.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		52 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"2. SS-Panzerdivision “Das Reich”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.8"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#3rd SS Panzergrenadier Division - Totenkopf
+country_event = {
+	id = EW_German_Units_Country.3
+	title = EW_German_Units_Country.3.t
+	desc = EW_German_Units_Country.3.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.3.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		52 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"3. SS-Panzerdivision “Totenkopf”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.8"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#4th SS Panzergrenadier Division - Polizei
+country_event = {
+	id = EW_German_Units_Country.4
+	title = EW_German_Units_Country.4.t
+	desc = EW_German_Units_Country.4.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.4.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		65 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"4. SS-Polizei-Panzergrenadier-Division\" division_template = \"SS-Panzergrenadier-Division\" start_experience_factor = 0.8"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#5th SS Panzergrenadier Division - Wiking
+country_event = {
+	id = EW_German_Units_Country.5
+	title = EW_German_Units_Country.5.t
+	desc = EW_German_Units_Country.5.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.5.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		50 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"5. SS-Panzerdivision “Wiking”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.8"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#6th SS Panzergrenadier Division - Nord
+country_event = {
+	id = EW_German_Units_Country.6
+	title = EW_German_Units_Country.6.t
+	desc = EW_German_Units_Country.6.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.6.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		763 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"6. SS-Gebirgs-Division “Nord”\" division_template = \"SS-Gebirgs-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#7th SS Mountain Division - Prinz Eugen
+country_event = {
+	id = EW_German_Units_Country.7
+	title = EW_German_Units_Country.7.t
+	desc = EW_German_Units_Country.7.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.7.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		52 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"7. SS-Freiwilligen Gebirgs-Division “Prinz Eugen”\" division_template = \"SS-Gebirgs-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#8th SS Panzergrenadier Division - Florian Geyer
+country_event = {
+	id = EW_German_Units_Country.8
+	title = EW_German_Units_Country.8.t
+	desc = EW_German_Units_Country.8.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.8.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		65 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"8. SS-Kavallerie-Division “Florian Geyer”\" division_template = \"SS-Kavallerie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#9th SS Panzer Division - Hohenstaufen
+country_event = {
+	id = EW_German_Units_Country.9
+	title = EW_German_Units_Country.9.t
+	desc = EW_German_Units_Country.9.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.9.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		65 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"9. SS-Panzerdivision “Hohenstaufen”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#10th SS Panzer Division - Frundsberg
+country_event = {
+	id = EW_German_Units_Country.10
+	title = EW_German_Units_Country.10.t
+	desc = EW_German_Units_Country.10.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.10.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		57 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"10. SS-Panzerdivision “Frundsberg”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#11th SS Panzergrenadier Division - Nordland
+country_event = {
+	id = EW_German_Units_Country.11
+	title = EW_German_Units_Country.11.t
+	desc = EW_German_Units_Country.11.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.11.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"11. SS-Panzergrenadierdivision “Nordland”\" division_template = \"SS-Panzergrenadier-Division\" start_experience_factor = 0.8"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#12th SS Panzer Division - Hitlerjugend
+country_event = {
+	id = EW_German_Units_Country.12
+	title = EW_German_Units_Country.12.t
+	desc = EW_German_Units_Country.12.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.12.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		16 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"12. SS-Panzerdivision “Hitlerjugend”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.8"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#13th SS Mountain Division - Handschar
+country_event = {
+	id = EW_German_Units_Country.13
+	title = EW_German_Units_Country.13.t
+	desc = EW_German_Units_Country.13.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.13.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		104 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"13. Waffen-Gebirgs-Division der SS “Handschar”\" division_template = \"SS-Gebirgs-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#14. Waffen-Grenadier-Division der SS (1. Galizische)
+country_event = {
+	id = EW_German_Units_Country.14
+	title = EW_German_Units_Country.14.t
+	desc = EW_German_Units_Country.14.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.14.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		89 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"14. Waffen-Grenadier-Division der SS (1. Galizische)\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#15th SS Grenadier Division - Lettische
+country_event = {
+	id = EW_German_Units_Country.15
+	title = EW_German_Units_Country.15.t
+	desc = EW_German_Units_Country.15.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.15.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		
+		808 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"15. Waffen-Grenadier-Division der SS (1. Lettische)\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#16th SS Grenadier Division - Reichsführer-SS
+country_event = {
+	id = EW_German_Units_Country.16
+	title = EW_German_Units_Country.16.t
+	desc = EW_German_Units_Country.16.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.16.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		57 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"16. SS-Panzergrenadier-Division “Reichsführer-SS”\" division_template = \"SS-Panzergrenadier-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#17th SS Panzergrenadier Division - Götz von Berlichingen
+country_event = {
+	id = EW_German_Units_Country.17
+	title = EW_German_Units_Country.17.t
+	desc = EW_German_Units_Country.17.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.17.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"17. SS-Panzergrenadier-Division “Götz von Berlichingen”\" division_template = \"SS-Panzergrenadier-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#18th SS Grenadier Division - Horst Wessel
+country_event = {
+	id = EW_German_Units_Country.18
+	title = EW_German_Units_Country.18.t
+	desc = EW_German_Units_Country.18.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.18.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"18. SS-Grenadier-Division “Horst Wessel”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+
+
+#19th SS Grenadier Division - Lettische Nr. 2
+country_event = {
+	id = EW_German_Units_Country.19
+	title = EW_German_Units_Country.19.t
+	desc = EW_German_Units_Country.19.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.19.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		808 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"19. Waffen-Grenadier-Division der SS (2. Lettische)\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#20th SS Grenadier Division - Estnische
+country_event = {
+	id = EW_German_Units_Country.20
+	title = EW_German_Units_Country.20.t
+	desc = EW_German_Units_Country.20.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.20.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		812 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"20. Waffen-Grenadier-Division der SS (1. Estnische)\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#21st SS Mountain Division - Skanderbeg
+country_event = {
+	id = EW_German_Units_Country.21
+	title = EW_German_Units_Country.21.t
+	desc = EW_German_Units_Country.21.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.21.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		44 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"21. Waffen-Gebirgsdivision der SS Skanderbeg (1. Albanisch)\" division_template = \"SS-Gebirgs-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#22nd SS Grenadier Division - Maria Theresia
+country_event = {
+	id = EW_German_Units_Country.22
+	title = EW_German_Units_Country.22.t
+	desc = EW_German_Units_Country.22.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.22.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		155 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"22. SS-Freiwilligen Kavallerie-Division “Maria Theresia”\" division_template = \"SS-Kavallerie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#23. Waffen Gebirgs-Division der SS Kama (2. Kroatische)
+country_event = {
+	id = EW_German_Units_Country.23
+	title = EW_German_Units_Country.23.t
+	desc = EW_German_Units_Country.23.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.23.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		103 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"23. Waffen-Gebirgs-Division der SS “Kama”\" division_template = \"SS-Gebirgs-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#24. Waffen-Gebirgs-Division der SS Karstjäger
+country_event = {
+	id = EW_German_Units_Country.24
+	title = EW_German_Units_Country.24.t
+	desc = EW_German_Units_Country.24.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.24.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		736 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"24. Waffen-Gebirgs-Division der SS “Karstjäger”\" division_template = \"SS-Gebirgs-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#25. Waffen-Grenadier-Division der SS Hunyadi (1. Ungarisch)
+country_event = {
+	id = EW_German_Units_Country.25
+	title = EW_German_Units_Country.25.t
+	desc = EW_German_Units_Country.25.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.25.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		155 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"25. Waffen-Grenadier-Division der SS “Hunyadi”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#26th SS Grenadier Division - Charlemagne
+country_event = {
+	id = EW_German_Units_Country.26
+	title = EW_German_Units_Country.26.t
+	desc = EW_German_Units_Country.26.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.26.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#27th SS Grenadier Division - Sturmbrigade Reichsführer-SS
+country_event = {
+	id = EW_German_Units_Country.27
+	title = EW_German_Units_Country.27.t
+	desc = EW_German_Units_Country.27.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.27.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#28th SS Grenadier Division - Wallonien
+country_event = {
+	id = EW_German_Units_Country.28
+	title = EW_German_Units_Country.28.t
+	desc = EW_German_Units_Country.28.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.28.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#29th SS Grenadier Division - Alpenjäger
+country_event = {
+	id = EW_German_Units_Country.29
+	title = EW_German_Units_Country.29.t
+	desc = EW_German_Units_Country.29.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.29.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#30th SS Grenadier Division - Korps von Eberstein
+country_event = {
+	id = EW_German_Units_Country.30
+	title = EW_German_Units_Country.30.t
+	desc = EW_German_Units_Country.30.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.30.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#31st SS Grenadier Division - Koenig
+country_event = {
+	id = EW_German_Units_Country.31
+	title = EW_German_Units_Country.31.t
+	desc = EW_German_Units_Country.31.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.31.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#32nd SS Grenadier Division - Speer
+country_event = {
+	id = EW_German_Units_Country.32
+	title = EW_German_Units_Country.32.t
+	desc = EW_German_Units_Country.32.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.32.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#33rd SS Grenadier Division - Harzer
+country_event = {
+	id = EW_German_Units_Country.33
+	title = EW_German_Units_Country.33.t
+	desc = EW_German_Units_Country.33.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.33.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#34th SS Grenadier Division - Sachsen
+country_event = {
+	id = EW_German_Units_Country.34
+	title = EW_German_Units_Country.34.t
+	desc = EW_German_Units_Country.34.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.34.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#35th SS Grenadier Division - Leipzig
+country_event = {
+	id = EW_German_Units_Country.35
+	title = EW_German_Units_Country.35.t
+	desc = EW_German_Units_Country.35.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.35.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#36th SS Grenadier Division - Brandenburger
+country_event = {
+	id = EW_German_Units_Country.36
+	title = EW_German_Units_Country.36.t
+	desc = EW_German_Units_Country.36.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.36.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#37th SS Grenadier Division - Freie Stadt Danzig
+country_event = {
+	id = EW_German_Units_Country.37
+	title = EW_German_Units_Country.37.t
+	desc = EW_German_Units_Country.37.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.37.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+#38th SS Grenadier Division - Ostmark
+country_event = {
+	id = EW_German_Units_Country.38
+	title = EW_German_Units_Country.38.t
+	desc = EW_German_Units_Country.38.d
+	picture = GFX_report_event_Waffen_SS_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.38.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+```
