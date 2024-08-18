@@ -1,0 +1,16 @@
+SS_EW_Decisions = {
+	picture = GFX_decision_cat_SS_EW
+	icon = ger_reichskommissariats
+
+	allowed = {
+		original_tag = GER
+		has_government = fascism
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 900
+	}
+}

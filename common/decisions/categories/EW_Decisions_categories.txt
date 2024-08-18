@@ -35,24 +35,6 @@ GER_EW_Decisions = {
 	}
 }
 
-SS_EW_Decisions = {
-	picture = GFX_decision_cat_SS_EW
-	icon = ger_reichskommissariats
-
-	allowed = {
-		original_tag = GER
-		has_government = fascism
-	}
-
-	visible = {
-	}
-	
-	priority = {
-		base = 1000
-	}
-}
-
-
 JAP_EW_Decisions = {
 	picture = GFX_decision_cat_JAP_EW
 	icon = jap_pacific_guardian
