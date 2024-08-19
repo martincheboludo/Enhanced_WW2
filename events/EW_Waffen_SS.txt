@@ -1414,7 +1414,7 @@ country_event = {
 					field_hospital = { x = 0 y = 3 }
 					anti_tank = { x = 0 y = 4 }
 				}
-				priority = 2
+				priority = 1
 				is_locked = yes
 				
 			}
@@ -1440,7 +1440,7 @@ country_event = {
 					field_hospital = { x = 0 y = 3 }
 					anti_tank = { x = 0 y = 4 }
 				}
-				priority = 2
+				priority = 1
 				is_locked = yes
 			}
 		}
