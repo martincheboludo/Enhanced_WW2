@@ -45,4 +45,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/Germany/Waffen_SS.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_Wehrmacht_EW"
+		texturefile = "gfx/interface/decisions/Germany/Wehrmacht.dds"
+	}
+	
 }

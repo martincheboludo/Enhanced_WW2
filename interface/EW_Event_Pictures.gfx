@@ -231,6 +231,16 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_report_event_German_Soldiers_DAK_Country"
+        texturefile = "gfx/event_pictures/Generic/German_Soldiers_DAK_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_German_Soldiers_DAK_News"
+        texturefile = "gfx/event_pictures/Generic/German_Soldiers_DAK_News.dds"
+    }
+	
+	spriteType = {
         name = "GFX_report_event_Italian_Soldiers_Country"
         texturefile = "gfx/event_pictures/Generic/Italian_Soldiers_Country.dds"
     }

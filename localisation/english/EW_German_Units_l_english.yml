@@ -176,8 +176,8 @@ EW_German_Units_Country.17.a:1 "Create Unit"
 
 SS_Create_Waffen_SS_18:0 "18. SS-Grenadier-Division Horst Wessel"
 SS_Create_Waffen_SS_18_desc:0 "The 18th SS Grenadier Division Horst Wessel was established in 1943 and named after the Nazi party anthem's author, Horst Wessel. This division was formed primarily from personnel recruited from the Reichsarbeitsdienst (RAD) and other sources, with the intention of reinforcing the Waffen-SS's infantry capabilities. Deployed on the Eastern Front, the division was involved in various defensive operations against the Soviet Army. The Horst Wessel Division was known for its relatively poor combat performance compared to other Waffen-SS units, struggling with both equipment shortages and logistical difficulties."
-EW_German_Units_Country.18.t:0 "18. SS-Grenadier-Division Horst Wessel"
 
+EW_German_Units_Country.18.t:0 "18. SS-Grenadier-Division Horst Wessel"
 EW_German_Units_Country.18.d:0 "The 18th SS Grenadier Division Horst Wessel was established in 1943 and named after the Nazi party anthem's author, Horst Wessel. This division was formed primarily from personnel recruited from the Reichsarbeitsdienst (RAD) and other sources, with the intention of reinforcing the Waffen-SS's infantry capabilities. Deployed on the Eastern Front, the division was involved in various defensive operations against the Soviet Army. The Horst Wessel Division was known for its relatively poor combat performance compared to other Waffen-SS units, struggling with both equipment shortages and logistical difficulties."
 EW_German_Units_Country.18.a:1 "Create Unit"
 
@@ -230,95 +230,96 @@ EW_German_Units_Country.25.t:0 "25. Waffen-Grenadier-Division der SS Hunyadi (1.
 EW_German_Units_Country.25.d:0 "The 25th Waffen Grenadier Division of the SS Hunyadi (1st Hungarian) was formed in 1944 from Hungarian volunteers and conscripts. The division was named after the 15th-century Hungarian nobleman János Hunyadi, known for his military leadership. It was established in Hungary and trained there before being deployed on the Eastern Front. The division participated in various operations and engagements in the late stages of World War II."
 EW_German_Units_Country.25.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_26:0 ""
-SS_Create_Waffen_SS_26_desc:0 ""
+SS_Create_Waffen_SS_26:0 "26. Waffen-Grenadier-Division der SS Hungaria (2. Ungarisch)"
+SS_Create_Waffen_SS_26_desc:0 "Formed in Hungary in 1944, the 26th Waffen Grenadier Division of the SS (ungarische Nr. 2) was primarily composed of Hungarian Volksdeutsche and conscripts. It was one of the last divisions raised by the Waffen-SS, with the bulk of its formation and training taking place in various locations across Hungary."
 
-EW_German_Units_Country.26.t:0 ""
-EW_German_Units_Country.26.d:0 ""
+EW_German_Units_Country.26.t:0 "26. Waffen-Grenadier-Division der SS Hungaria (2. Ungarisch)"
+EW_German_Units_Country.26.d:0 "Formed in Hungary in 1944, the 26th Waffen Grenadier Division of the SS (ungarische Nr. 2) was primarily composed of Hungarian Volksdeutsche and conscripts. It was one of the last divisions raised by the Waffen-SS, with the bulk of its formation and training taking place in various locations across Hungary."
 EW_German_Units_Country.26.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_27:0 ""
-SS_Create_Waffen_SS_27_desc:0 ""
+SS_Create_Waffen_SS_27:0 "27. SS-Freiwilligen-Grenadier-Division Langemarck (1. Flämische)"
+SS_Create_Waffen_SS_27_desc:0 "The 27th SS Volunteer Grenadier Division Langemarck (1st Flemish) was formed in 1944. It was composed primarily of Flemish volunteers who had joined the Waffen-SS. The division was named after the Battle of Langemarck during World War I and was mostly formed and trained in the region around Wildflecken, Germany."
 
-EW_German_Units_Country.27.t:0 ""
-EW_German_Units_Country.27.d:0 ""
+EW_German_Units_Country.27.t:0 "27. SS-Freiwilligen-Grenadier-Division Langemarck (1. Flämische)"
+EW_German_Units_Country.27.d:0 "The 27th SS Volunteer Grenadier Division Langemarck (1st Flemish) was formed in 1944, primarily from Flemish volunteers. It was trained in the Wildflecken area in Germany and named after the famous Battle of Langemarck."
 EW_German_Units_Country.27.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_28:0 ""
-SS_Create_Waffen_SS_28_desc:0 ""
+SS_Create_Waffen_SS_28:0 "28. SS-Freiwilligen-Grenadier-Division (1. Wallonien)"
+SS_Create_Waffen_SS_28_desc:0 "The 28th SS Volunteer Grenadier Division Wallonien was formed in 1944, composed primarily of Walloon volunteers from Belgium. The division was initially raised in Wildflecken, Germany, and was named to reflect the Walloon region of Belgium."
 
-EW_German_Units_Country.28.t:0 ""
-EW_German_Units_Country.28.d:0 ""
+EW_German_Units_Country.28.t:0 "28. SS-Freiwilligen-Grenadier-Division (1. Wallonien)"
+EW_German_Units_Country.28.d:0 "Formed in 1944, the 28th SS Volunteer Grenadier Division Wallonien consisted of Walloon volunteers from Belgium. The division was assembled and trained in Wildflecken, Germany."
 EW_German_Units_Country.28.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_29:0 ""
-SS_Create_Waffen_SS_29_desc:0 ""
+SS_Create_Waffen_SS_29:0 "29. Waffen-Grenadier-Division der SS (1. Italienische)"
+SS_Create_Waffen_SS_29_desc:0 "The 29th Waffen Grenadier Division of the SS (1st Italian) was formed in 1944, consisting primarily of Italian volunteers. The division was initially organized in the region of northern Italy under German occupation following the armistice of Italy with the Allies."
 
-EW_German_Units_Country.29.t:0 ""
-EW_German_Units_Country.29.d:0 ""
+EW_German_Units_Country.29.t:0 "29. Waffen-Grenadier-Division der SS (1. Italienische)"
+EW_German_Units_Country.29.d:0 "Formed in 1944, the 29th Waffen Grenadier Division of the SS (1st Italian) was composed of Italian volunteers and was organized in northern Italy after the armistice."
 EW_German_Units_Country.29.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_30:0 ""
-SS_Create_Waffen_SS_30_desc:0 ""
+SS_Create_Waffen_SS_30:0 "30. Waffen-Grenadier-Division der SS (1. Weißruthenische)"
+SS_Create_Waffen_SS_30_desc:0 "Formed in 1944, the 30th Waffen Grenadier Division of the SS (1st Belarusian) was primarily composed of Belarusian volunteers and conscripts. The division was initially formed in the area of Königsbrück, Saxony, Germany, before being sent to the Eastern Front."
 
-EW_German_Units_Country.30.t:0 ""
-EW_German_Units_Country.30.d:0 ""
+EW_German_Units_Country.30.t:0 "30. Waffen-Grenadier-Division der SS (1. Weißruthenische)"
+EW_German_Units_Country.30.d:0 "Formed in 1944, the 30th Waffen Grenadier Division of the SS (1st Belarusian) was primarily composed of Belarusian volunteers and conscripts. The division was initially formed in the area of Königsbrück, Saxony, Germany, before being sent to the Eastern Front."
 EW_German_Units_Country.30.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_31:0 ""
-SS_Create_Waffen_SS_31_desc:0 ""
+SS_Create_Waffen_SS_31:0 "31. SS-Freiwilligen-Grenadier-Division Batschka"
+SS_Create_Waffen_SS_31_desc:0 "Formed in 1944, the 31st SS-Freiwilligen-Grenadier-Division was primarily composed of ethnic Germans from Hungary and Yugoslavia, particularly from the Batschka region. The division was established in the area of the Low Countries, specifically around Lingen, Germany, before being deployed to the frontlines."
 
-EW_German_Units_Country.31.t:0 ""
-EW_German_Units_Country.31.d:0 ""
+EW_German_Units_Country.31.t:0 "31. SS-Freiwilligen-Grenadier-Division Batschka"
+EW_German_Units_Country.31.d:0 "Formed in 1944, the 31st SS-Freiwilligen-Grenadier-Division was primarily composed of ethnic Germans from Hungary and Yugoslavia, particularly from the Batschka region. The division was established in the area of the Low Countries, specifically around Lingen, Germany, before being deployed to the frontlines."
 EW_German_Units_Country.31.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_32:0 ""
-SS_Create_Waffen_SS_32_desc:0 ""
+SS_Create_Waffen_SS_32:0 "32. SS-Freiwilligen-Grenadier-Division 30. Januar"
+SS_Create_Waffen_SS_32_desc:0 "Formed in early 1945, the 32nd SS-Freiwilligen-Grenadier-Division 30. Januar was composed mainly of Volksdeutsche from the region of the German Reich. The division was established in Germany, with formation and training taking place in the area of the Saarland."
 
-EW_German_Units_Country.32.t:0 ""
-EW_German_Units_Country.32.d:0 ""
+EW_German_Units_Country.32.t:0 "32. SS-Freiwilligen-Grenadier-Division 30. Januar"
+EW_German_Units_Country.32.d:0 "Formed in early 1945, the 32nd SS-Freiwilligen-Grenadier-Division 30. Januar was composed mainly of Volksdeutsche from the region of the German Reich. The division was established in Germany, with formation and training taking place in the area of the Saarland."
 EW_German_Units_Country.32.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_33:0 ""
+SS_Create_Waffen_SS_33:0 "33. Waffen-Kavallerie-Division der SS (3. Ungarische)"
+SS_Create_Waffen_SS_33_desc:0 "Formed in 1945, the 33rd Waffen-Kavallerie-Division der SS (ungarische Nr. 3) was established with Hungarian personnel. The division was raised in Hungary, specifically in the region of Budapest and its surroundings."
 
-
-SS_Create_Waffen_SS_33_desc:0 ""
-
-EW_German_Units_Country.33.t:0 ""
-EW_German_Units_Country.33.d:0 ""
+EW_German_Units_Country.33.t:0 "33. Waffen-Kavallerie-Division der SS (3. Ungarische)"
+EW_German_Units_Country.33.d:0 "Formed in 1945, the 33rd Waffen-Kavallerie-Division der SS (ungarische Nr. 3) was established with Hungarian personnel. The division was raised in Hungary, specifically in the region of Budapest and its surroundings."
 EW_German_Units_Country.33.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_34:0 ""
-SS_Create_Waffen_SS_34_desc:0 ""
+SS_Create_Waffen_SS_34:0 "34. SS-Freiwilligen-Grenadier-Division Landstorm Nederland"
+SS_Create_Waffen_SS_34_desc:0 "Formed in late 1944, the 34th SS-Freiwilligen-Grenadier-Division 'Landstorm Nederland' was composed primarily of Dutch volunteers. It was raised in the Netherlands, with its formation centered around Amsterdam and its vicinity."
 
-EW_German_Units_Country.34.t:0 ""
-EW_German_Units_Country.34.d:0 ""
+EW_German_Units_Country.34.t:0 "34. SS-Freiwilligen-Grenadier-Division Landstorm Nederland"
+EW_German_Units_Country.34.d:0 "Formed in late 1944, the 34th SS-Freiwilligen-Grenadier-Division 'Landstorm Nederland' was composed primarily of Dutch volunteers. It was raised in the Netherlands, with its formation centered around Amsterdam and its vicinity."
 EW_German_Units_Country.34.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_35:0 ""
-SS_Create_Waffen_SS_35_desc:0 ""
+SS_Create_Waffen_SS_35:0 "35. SS- und Polizei-Grenadier-Division"
+SS_Create_Waffen_SS_35_desc:0 "Formed in late 1944, the 35th SS and Police Grenadier Division was primarily composed of personnel from the SS and police units. It was established as part of the late-war efforts to bolster the German military with additional forces drawn from various sources."
 
-EW_German_Units_Country.35.t:0 ""
-EW_German_Units_Country.35.d:0 ""
+EW_German_Units_Country.35.t:0 "35. SS- und Polizei-Grenadier-Division"
+EW_German_Units_Country.35.d:0 "Formed in late 1944, the 35th SS and Police Grenadier Division was primarily composed of personnel from the SS and police units. It was established as part of the late-war efforts to bolster the German military with additional forces drawn from various sources."
 EW_German_Units_Country.35.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_36:0 ""
-SS_Create_Waffen_SS_36_desc:0 ""
+SS_Create_Waffen_SS_36:0 "36. Waffen-Grenadier-Division der SS Dirlewanger"
+SS_Create_Waffen_SS_36_desc:0 "Formed in late 1944, the 36th Waffen-Grenadier-Division der SS Dirlewanger was composed primarily of convicts, criminals, and other undesirables. The division was led by Oskar Dirlewanger and was notorious for its brutal conduct and war crimes throughout its operations."
 
-EW_German_Units_Country.36.t:0 ""
-EW_German_Units_Country.36.d:0 ""
+EW_German_Units_Country.36.t:0 "36. Waffen-Grenadier-Division der SS Dirlewanger"
+EW_German_Units_Country.36.d:0 "Formed in late 1944, the 36th Waffen-Grenadier-Division der SS Dirlewanger was composed primarily of convicts, criminals, and other undesirables. The division was led by Oskar Dirlewanger and was notorious for its brutal conduct and war crimes throughout its operations."
 EW_German_Units_Country.36.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_37:0 ""
-SS_Create_Waffen_SS_37_desc:0 ""
+SS_Create_Waffen_SS_37:0 "37. SS-Freiwilligen-Kavallerie-Division Lützow"
+SS_Create_Waffen_SS_37_desc:0 "Formed in January 1945, the 37th SS Volunteer Cavalry Division Lützow was composed mainly of volunteers from the German Wehrmacht and other sources. It was named after the Prussian cavalry leader Ferdinand von Lützow and was one of the last divisions formed by the Waffen-SS during the late stages of World War II."
 
-EW_German_Units_Country.37.t:0 ""
-EW_German_Units_Country.37.d:0 ""
+EW_German_Units_Country.37.t:0 "37. SS-Freiwilligen-Kavallerie-Division Lützow"
+EW_German_Units_Country.37.d:0 "Formed in January 1945, the 37th SS Volunteer Cavalry Division Lützow was composed mainly of volunteers from the German Wehrmacht and other sources. It was named after the Prussian cavalry leader Ferdinand von Lützow and was one of the last divisions formed by the Waffen-SS during the late stages of World War II."
 EW_German_Units_Country.37.a:1 "Create Unit"
 
-SS_Create_Waffen_SS_38:0 ""
-SS_Create_Waffen_SS_38_desc:0 ""
+SS_Create_Waffen_SS_38:0 "38. SS-Grenadier-Division Nibelungen"
+SS_Create_Waffen_SS_38_desc:0 "Formed in August 1944, the 38th SS Grenadier Division Nibelungen was composed primarily of Volksdeutsche and other recruits. Named after the Nibelung saga, it was tasked with defending the eastern front and saw action in various battles during the late stages of World War II."
 
-EW_German_Units_Country.38.t:0 ""
-EW_German_Units_Country.38.d:0 ""
+EW_German_Units_Country.38.t:0 "38. SS-Grenadier-Division Nibelungen"
+EW_German_Units_Country.38.d:0 "Formed in August 1944, the 38th SS Grenadier Division Nibelungen was composed primarily of Volksdeutsche and other recruits. Named after the Nibelung saga, it was tasked with defending the eastern front and saw action in various battles during the late stages of World War II."
 EW_German_Units_Country.38.a:1 "Create Unit"
+
+ Wehrmacht_EW_Decisions:0 "Wehrmacht Actions"
+ Wehrmacht_EW_Decisions_desc:0 "The Wehrmacht was the unified armed forces of Nazi Germany, established in 1935 under the leadership of Adolf Hitler. It consisted of three branches: the Heer (Army), the Kriegsmarine (Navy), and the Luftwaffe (Air Force). The Wehrmacht replaced the Reichswehr and was central to Germany's military operations during World War II. Unlike the Schutzstaffel (SS), the Wehrmacht was a regular military force with its primary role being the defense of the country and the execution of offensive operations across Europe and beyond."

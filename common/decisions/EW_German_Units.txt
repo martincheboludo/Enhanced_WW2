@@ -106,7 +106,7 @@ SS_Create_Waffen_SS_1 = {
     }
 
     available = {
-        date > 1939.01.01
+        date > 1940.01.01
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
     }
@@ -143,7 +143,7 @@ SS_Create_Waffen_SS_2 = {
     }
 
     available = {
-        date > 1939.01.01
+        date > 1940.01.01
 		#Munich
 		52 = { is_controlled_by_ROOT_or_ally = yes }
     }
@@ -180,7 +180,7 @@ SS_Create_Waffen_SS_3 = {
     }
 
     available = {
-        date > 1939.01.01
+        date > 1940.01.01
 		#Munich
 		52 = { is_controlled_by_ROOT_or_ally = yes }
     }
@@ -217,7 +217,7 @@ SS_Create_Waffen_SS_4 = {
     }
 
     available = {
-        date > 1940.09.16
+        date > 1940.01.01
 		#Berlin
 		65 = { is_controlled_by_ROOT_or_ally = yes }
     }
@@ -254,7 +254,7 @@ SS_Create_Waffen_SS_5 = {
     }
 
     available = {
-        date > 1940.09.15
+        date > 1940.01.01
 		#Baden
 		50 = { is_controlled_by_ROOT_or_ally = yes }
     }
@@ -291,7 +291,7 @@ SS_Create_Waffen_SS_6 = {
     }
 
     available = {
-        date > 1941.09.15
+        date > 1941.01.01
 		763 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -327,7 +327,7 @@ SS_Create_Waffen_SS_7 = {
     }
 
     available = {
-        date > 1941.08.01
+        date > 1942.01.01
 		52 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -363,7 +363,7 @@ SS_Create_Waffen_SS_8 = {
     }
 
     available = {
-        date > 1941.10.01
+        date > 1941.01.01
 		65 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -399,7 +399,7 @@ SS_Create_Waffen_SS_9 = {
     }
 
     available = {
-        date > 1943.10.15
+        date > 1943.01.01
 		65 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -435,7 +435,7 @@ SS_Create_Waffen_SS_10 = {
     }
 
     available = {
-        date > 1943.11.01
+        date > 1943.01.01
 		57 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -471,7 +471,7 @@ SS_Create_Waffen_SS_11 = {
     }
 
     available = {
-        date > 1943.08.24
+        date > 1943.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -507,7 +507,7 @@ SS_Create_Waffen_SS_12 = {
     }
 
     available = {
-        date > 1943.06.01
+        date > 1943.01.01
 		16 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -543,7 +543,7 @@ SS_Create_Waffen_SS_13 = {
     }
 
     available = {
-        date > 1943.11.15
+        date > 1943.01.01
 		104 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -579,7 +579,7 @@ SS_Create_Waffen_SS_14 = {
     }
 
     available = {
-        date > 1943.11.28
+        date > 1943.01.01
 		89 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -615,7 +615,7 @@ SS_Create_Waffen_SS_15 = {
     }
 
     available = {
-        date > 1943.11.28
+        date > 1943.01.01
 		808 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -651,7 +651,7 @@ SS_Create_Waffen_SS_16 = {
     }
 
     available = {
-        date > 1943.11.15
+        date > 1943.01.01
 		57 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -687,7 +687,7 @@ SS_Create_Waffen_SS_17 = {
     }
 
     available = {
-        date > 1943.12.01
+        date > 1943.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -723,7 +723,7 @@ SS_Create_Waffen_SS_18 = {
     }
 
     available = {
-        date > 1944.12.01
+        date > 1944.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -795,7 +795,7 @@ SS_Create_Waffen_SS_20 = {
     }
 
     available = {
-        date > 1944.02.28
+        date > 1944.01.01
 		812 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -831,7 +831,7 @@ SS_Create_Waffen_SS_21 = {
     }
 
     available = {
-        date > 1944.04.01
+        date > 1944.01.01
 		44 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -867,7 +867,7 @@ SS_Create_Waffen_SS_22 = {
     }
 
     available = {
-        date > 1944.04.01
+        date > 1944.01.01
 		155 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -903,7 +903,7 @@ SS_Create_Waffen_SS_23 = {
     }
 
     available = {
-        date > 1944.05.01
+        date > 1944.01.01
 		103 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -939,7 +939,7 @@ SS_Create_Waffen_SS_24 = {
     }
 
     available = {
-        date > 1944.06.01
+        date > 1942.01.01
 		736 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -975,7 +975,7 @@ SS_Create_Waffen_SS_25 = {
     }
 
     available = {
-        date > 1944.07.15
+        date > 1944.01.01
 		155 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
@@ -1011,7 +1011,8 @@ SS_Create_Waffen_SS_26 = {
     }
 
     available = {
-        date > 1944.08.15
+        date > 1944.01.01
+		43 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1046,7 +1047,8 @@ SS_Create_Waffen_SS_27 = {
     }
 
     available = {
-        date > 1944.09.15
+        date > 1943.01.01
+		54 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1081,7 +1083,8 @@ SS_Create_Waffen_SS_28 = {
     }
 
     available = {
-        date > 1944.10.01
+        date > 1943.01.01
+		54 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1116,7 +1119,8 @@ SS_Create_Waffen_SS_29 = {
     }
 
     available = {
-        date > 1944.11.01
+        date > 1944.01.01
+		159 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1151,7 +1155,8 @@ SS_Create_Waffen_SS_30 = {
     }
 
     available = {
-        date > 1944.12.01
+        date > 1944.01.01
+		65 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1186,7 +1191,8 @@ SS_Create_Waffen_SS_31 = {
     }
 
     available = {
-        date > 1945.01.01
+        date > 1944.01.01
+		57 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1223,7 +1229,8 @@ SS_Create_Waffen_SS_32 = {
     }
 
     available = {
-        date > 1945.02.01
+        date > 1945.01.01
+		42 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1258,7 +1265,8 @@ SS_Create_Waffen_SS_33 = {
     }
 
     available = {
-        date > 1945.03.01
+        date > 1944.01.01
+		43 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1293,7 +1301,8 @@ SS_Create_Waffen_SS_34 = {
     }
 
     available = {
-        date > 1945.04.01
+        date > 1943.01.01
+		7 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1328,7 +1337,8 @@ SS_Create_Waffen_SS_35 = {
     }
 
     available = {
-        date > 1945.05.01
+        date > 1945.01.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1363,7 +1373,8 @@ SS_Create_Waffen_SS_36 = {
     }
 
     available = {
-        date > 1945.06.01
+        date > 1940.01.01
+		66 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1398,7 +1409,8 @@ SS_Create_Waffen_SS_37 = {
     }
 
     available = {
-        date > 1945.07.01
+        date > 1945.01.01
+		66 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
@@ -1433,7 +1445,8 @@ SS_Create_Waffen_SS_38 = {
     }
 
     available = {
-        date > 1945.08.01
+        date > 1945.01.01
+		4 = { is_controlled_by_ROOT_or_ally = yes }
     }
 
     ai_will_do = {
