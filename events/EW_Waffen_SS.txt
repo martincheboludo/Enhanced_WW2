@@ -975,7 +975,7 @@ country_event = {
 
 }
 
-#26th SS Grenadier Division - Charlemagne
+#26. Waffen-Grenadier-Division der SS Hungaria (2. Ungarisch)
 country_event = {
 	id = EW_German_Units_Country.26
 	title = EW_German_Units_Country.26.t
@@ -990,12 +990,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		43 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"26. Waffen-Grenadier-Division der SS “Hungaria”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#27th SS Grenadier Division - Sturmbrigade Reichsführer-SS
+#27. SS-Freiwilligen-Grenadier-Division Langemarck (1. Flämische)
 country_event = {
 	id = EW_German_Units_Country.27
 	title = EW_German_Units_Country.27.t
@@ -1010,12 +1020,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		54 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"27. SS-Freiwilligen-Grenadier-Division “Langemarck”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#28th SS Grenadier Division - Wallonien
+#28. SS-Freiwilligen-Grenadier-Division (1. Wallonien)
 country_event = {
 	id = EW_German_Units_Country.28
 	title = EW_German_Units_Country.28.t
@@ -1030,12 +1050,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		54 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"28. SS-Freiwilligen-Grenadier-Division “Wallonien”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#29th SS Grenadier Division - Alpenjäger
+#29. Waffen-Grenadier-Division der SS (1. Italienische)
 country_event = {
 	id = EW_German_Units_Country.29
 	title = EW_German_Units_Country.29.t
@@ -1050,12 +1080,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		159 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"29. Waffen-Grenadier-Division der SS (1. Italienische)\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#30th SS Grenadier Division - Korps von Eberstein
+#30. Waffen-Grenadier-Division der SS (1. Weißruthenische)
 country_event = {
 	id = EW_German_Units_Country.30
 	title = EW_German_Units_Country.30.t
@@ -1070,12 +1110,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		65 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"30. Waffen-Grenadier-Division der SS (1. Weißruthenische)\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#31st SS Grenadier Division - Koenig
+#31. SS-Freiwilligen-Grenadier-Division Batschka
 country_event = {
 	id = EW_German_Units_Country.31
 	title = EW_German_Units_Country.31.t
@@ -1090,12 +1140,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		57 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"31. SS-Freiwilligen-Grenadier-Division “Batschka”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#32nd SS Grenadier Division - Speer
+#32. SS-Freiwilligen-Grenadier-Division 30. Januar
 country_event = {
 	id = EW_German_Units_Country.32
 	title = EW_German_Units_Country.32.t
@@ -1110,12 +1170,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		42 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"32. SS-Freiwilligen-Grenadier-Division “30. Januar”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#33rd SS Grenadier Division - Harzer
+#33. Waffen-Kavallerie-Division der SS (3. Ungarische)
 country_event = {
 	id = EW_German_Units_Country.33
 	title = EW_German_Units_Country.33.t
@@ -1130,12 +1200,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		43 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"33. Waffen-Kavallerie-Division der SS (3. Ungarische)\" division_template = \"SS-Kavallerie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#34th SS Grenadier Division - Sachsen
+#34. SS-Freiwilligen-Grenadier-Division Landstorm Nederland
 country_event = {
 	id = EW_German_Units_Country.34
 	title = EW_German_Units_Country.34.t
@@ -1150,12 +1230,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		7 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"34. SS-Freiwilligen-Grenadier-Division “Landstorm Nederland”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#35th SS Grenadier Division - Leipzig
+#35. SS- und Polizei-Grenadier-Division
 country_event = {
 	id = EW_German_Units_Country.35
 	title = EW_German_Units_Country.35.t
@@ -1170,12 +1260,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"35. SS- und Polizei-Grenadier-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#36th SS Grenadier Division - Brandenburger
+#36. Waffen-Grenadier-Division der SS Dirlewanger
 country_event = {
 	id = EW_German_Units_Country.36
 	title = EW_German_Units_Country.36.t
@@ -1190,12 +1290,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		66 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"36. Waffen-Grenadier-Division der SS “Dirlewanger”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#37th SS Grenadier Division - Freie Stadt Danzig
+#37. SS-Freiwilligen-Kavallerie-Division Lützow
 country_event = {
 	id = EW_German_Units_Country.37
 	title = EW_German_Units_Country.37.t
@@ -1210,12 +1320,22 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		66 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"37. SS-Freiwilligen-Kavallerie-Division “Lützow”\" division_template = \"SS-Kavallerie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
 
 	}
 
 }
 
-#38th SS Grenadier Division - Ostmark
+#38. SS-Grenadier-Division Nibelungen
 country_event = {
 	id = EW_German_Units_Country.38
 	title = EW_German_Units_Country.38.t
@@ -1229,6 +1349,16 @@ country_event = {
 		
 		ai_chance = {
 			factor = 1000
+		}
+		
+		4 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"38. SS-Grenadier-Division “Nibelungen”\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
 		}
 
 	}
