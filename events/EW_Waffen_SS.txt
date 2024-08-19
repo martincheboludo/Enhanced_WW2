@@ -1364,4 +1364,52 @@ country_event = {
 	}
 
 }
-```
+
+#Afrika Korps
+country_event = {
+	id = EW_German_Units_Country.39
+	title = EW_German_Units_Country.39.t
+	desc = EW_German_Units_Country.39.d
+	picture = GFX_report_event_German_Soldiers_DAK_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.39.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = EW_German_Units_News.39 hours = 6 }
+		}
+		
+
+	}
+	
+	option = {
+		name = EW_German_Units_Country.39.b
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+
+	}
+
+}
+
+#Creation of the Afrika Korps
+news_event = {
+	id = EW_German_Units_News.39
+	picture = GFX_news_event_German_Soldiers_DAK_News
+	title = EW_German_Units_News.39.t
+	desc = EW_German_Units_News.39.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_German_Units_News.39.a
+		ai_chance = { factor = 1000 }
+	}
+}
