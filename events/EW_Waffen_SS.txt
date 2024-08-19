@@ -1381,6 +1381,84 @@ country_event = {
 			factor = 1000
 		}
 		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					NOT = {
+						has_tech = mechanised_infantry
+					}
+				}
+				set_technology = {
+					mechanised_infantry = 1
+				}
+			}
+			division_template = {
+				name = "DAK-Panzer-Division"
+				division_names_group = GER_Arm_01
+				regiments = {
+					medium_armor = { x = 0 y = 0 }
+					medium_armor = { x = 0 y = 1 }
+					medium_armor = { x = 1 y = 0 }
+					medium_armor = { x = 1 y = 1 }
+					motorized = { x = 2 y = 0 }
+					motorized = { x = 2 y = 1 }
+					motorized = { x = 2 y = 2 }
+					motorized = { x = 3 y = 0 }
+					motorized = { x = 3 y = 1 }
+					motorized = { x = 3 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			division_template = {
+				name = "DAK-Panzergrenadier-Division"
+				division_names_group = GER_MOT_02
+				regiments = {
+					mechanized = { x = 0 y = 0 }
+					mechanized = { x = 0 y = 1 }
+					mechanized = { x = 0 y = 2 }
+					mechanized = { x = 1 y = 0 }
+					mechanized = { x = 1 y = 1 }
+					mechanized = { x = 1 y = 2 }
+					mechanized = { x = 2 y = 0 }
+					mechanized = { x = 2 y = 1 }
+					mechanized = { x = 2 y = 2 }
+					medium_armor = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+			}
+		}
+		
+		448 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"15. Panzer-Division (DAK)\" division_template = \"DAK-Panzer-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+			create_unit = {
+				division = "name = \"5. Leichte Division (DAK)\" division_template = \"DAK-Panzergrenadier-Division\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+		
 		hidden_effect = { 
 			news_event = { id = EW_German_Units_News.39 hours = 6 }
 		}
@@ -1411,5 +1489,6 @@ news_event = {
 	option = {
 		name = EW_German_Units_News.39.a
 		ai_chance = { factor = 1000 }
+		
 	}
 }
