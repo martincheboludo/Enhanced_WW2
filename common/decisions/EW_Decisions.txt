@@ -3,17 +3,20 @@ Allies_EW_Decisions = {
 
 }
 
-#Soviet Decisions
+##Soviet Decisions
 SOV_EW_Decisions = {
 
 		SOV_russian_weather_report = {
-		hidden = yes
+		icon = SOV_the_stalin_constitution
 		allowed = {
 		
 		}
 		available = {
 			surrender_progress > 0
-			is_russian_winter = yes
+			custom_trigger_tooltip = {
+				tooltip = is_russian_winter
+				is_russian_winter = yes
+			}
 			OR = {
 				NOT = { SOV = { has_idea = EW_General_Winter } }
 				AND = {
@@ -24,9 +27,6 @@ SOV_EW_Decisions = {
 					}
 				}
 			}
-			NOT = {
-				has_global_flag = RON_weather_report_in_progress
-			}
 		}
 		cost = 0
 		ai_will_do = {
@@ -34,15 +34,30 @@ SOV_EW_Decisions = {
 		}
 		days_re_enable = 30
 		visible = {
-			NOT = {
-				has_global_flag = RON_weather_report_in_progress
-			}
 		}
 		complete_effect = {
-			SOV = {
-				country_event = { id = weather_events.1 }
+			if = {
+				limit = {
+					NOT = { SOV = { has_idea = EW_General_Winter } }
+				}
+				SOV = {
+					add_timed_idea = {
+						idea = EW_General_Winter
+						days = 125
+					}
+				}
 			}
-			set_global_flag = RON_weather_report_in_progress
+			every_country = {
+				limit = {
+					any_state = { is_core_of = SOV is_controlled_by_ROOT_or_ally = yes }
+					has_war_with = SOV
+					NOT = { has_idea = EW_General_Winter_Attacker }
+				}
+				add_timed_idea = {
+					idea = EW_General_Winter_Attacker
+					days = 125
+				}
+			}
 		}
 	}
 

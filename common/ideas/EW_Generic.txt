@@ -96,10 +96,7 @@ ideas = {
 			removal_cost = -1
 
 			cancel = {
-				OR = {
-					is_russian_winter = no
-					SOV = { surrender_progress < 0.01 }
-				}
+				is_russian_winter = no
 			}
 			
 			modifier = {
@@ -118,10 +115,7 @@ ideas = {
 			picture = EW_General_Winter
 
 			cancel = {
-				OR = {
-					is_russian_winter = no
-					SOV = { surrender_progress < 0.01 }
-				}
+				is_russian_winter = no
 			}
 			
 			modifier = {
