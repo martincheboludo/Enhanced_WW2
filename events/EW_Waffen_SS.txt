@@ -1401,16 +1401,16 @@ country_event = {
 				name = "DAK-Panzer-Division"
 				division_names_group = GER_Arm_01
 				regiments = {
-					medium_armor = { x = 0 y = 0 }
-					medium_armor = { x = 0 y = 1 }
-					medium_armor = { x = 1 y = 0 }
-					medium_armor = { x = 1 y = 1 }
-					mechanized = { x = 2 y = 0 }
-					mechanized = { x = 2 y = 1 }
-					mechanized = { x = 2 y = 2 }
-					mechanized = { x = 3 y = 0 }
-					mechanized = { x = 3 y = 1 }
-					mechanized = { x = 3 y = 2 }
+					DAK_medium_armor = { x = 0 y = 0 }
+					DAK_medium_armor = { x = 0 y = 1 }
+					DAK_medium_armor = { x = 1 y = 0 }
+					DAK_medium_armor = { x = 1 y = 1 }
+					DAK_mechanized = { x = 2 y = 0 }
+					DAK_mechanized = { x = 2 y = 1 }
+					DAK_mechanized = { x = 2 y = 2 }
+					DAK_mechanized = { x = 3 y = 0 }
+					DAK_mechanized = { x = 3 y = 1 }
+					DAK_mechanized = { x = 3 y = 2 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -1426,16 +1426,16 @@ country_event = {
 				name = "DAK-Panzergrenadier-Division"
 				division_names_group = GER_MOT_02
 				regiments = {
-					mechanized = { x = 0 y = 0 }
-					mechanized = { x = 0 y = 1 }
-					mechanized = { x = 0 y = 2 }
-					mechanized = { x = 1 y = 0 }
-					mechanized = { x = 1 y = 1 }
-					mechanized = { x = 1 y = 2 }
-					mechanized = { x = 2 y = 0 }
-					mechanized = { x = 2 y = 1 }
-					mechanized = { x = 2 y = 2 }
-					medium_armor = { x = 3 y = 0 }
+					DAK_mechanized = { x = 0 y = 0 }
+					DAK_mechanized = { x = 0 y = 1 }
+					DAK_mechanized = { x = 0 y = 2 }
+					DAK_mechanized = { x = 1 y = 0 }
+					DAK_mechanized = { x = 1 y = 1 }
+					DAK_mechanized = { x = 1 y = 2 }
+					DAK_mechanized = { x = 2 y = 0 }
+					DAK_mechanized = { x = 2 y = 1 }
+					DAK_mechanized = { x = 2 y = 2 }
+					DAK_medium_armor = { x = 3 y = 0 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -1518,16 +1518,16 @@ country_event = {
 				name = "GD-Panzergrenadier-Division"
 				division_names_group = GER_MOT_02
 				regiments = {
-					mechanized = { x = 0 y = 0 }
-					mechanized = { x = 0 y = 1 }
-					mechanized = { x = 0 y = 2 }
-					mechanized = { x = 1 y = 0 }
-					mechanized = { x = 1 y = 1 }
-					mechanized = { x = 1 y = 2 }
-					mechanized = { x = 2 y = 0 }
-					mechanized = { x = 2 y = 1 }
-					mechanized = { x = 2 y = 2 }
-					medium_armor = { x = 3 y = 0 }
+					GD_mechanized = { x = 0 y = 0 }
+					GD_mechanized = { x = 0 y = 1 }
+					GD_mechanized = { x = 0 y = 2 }
+					GD_mechanized = { x = 1 y = 0 }
+					GD_mechanized = { x = 1 y = 1 }
+					GD_mechanized = { x = 1 y = 2 }
+					GD_mechanized = { x = 2 y = 0 }
+					GD_mechanized = { x = 2 y = 1 }
+					GD_mechanized = { x = 2 y = 2 }
+					GD_medium_armor = { x = 3 y = 0 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -1576,16 +1576,16 @@ country_event = {
 				name = "PL-Panzer-Division"
 				division_names_group = GER_Arm_01
 				regiments = {
-					medium_armor = { x = 0 y = 0 }
-					medium_armor = { x = 0 y = 1 }
-					medium_armor = { x = 1 y = 0 }
-					medium_armor = { x = 1 y = 1 }
-					mechanized = { x = 2 y = 0 }
-					mechanized = { x = 2 y = 1 }
-					mechanized = { x = 2 y = 2 }
-					mechanized = { x = 3 y = 0 }
-					mechanized = { x = 3 y = 1 }
-					mechanized = { x = 3 y = 2 }
+					PL_medium_armor = { x = 0 y = 0 }
+					PL_medium_armor = { x = 0 y = 1 }
+					PL_medium_armor = { x = 1 y = 0 }
+					PL_medium_armor = { x = 1 y = 1 }
+					PL_mechanized = { x = 2 y = 0 }
+					PL_mechanized = { x = 2 y = 1 }
+					PL_mechanized = { x = 2 y = 2 }
+					PL_mechanized = { x = 3 y = 0 }
+					PL_mechanized = { x = 3 y = 1 }
+					PL_mechanized = { x = 3 y = 2 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -1634,16 +1634,16 @@ country_event = {
 				name = "HG-Panzer-Division"
 				division_names_group = GER_Arm_01
 				regiments = {
-					medium_armor = { x = 0 y = 0 }
-					medium_armor = { x = 0 y = 1 }
-					medium_armor = { x = 1 y = 0 }
-					medium_armor = { x = 1 y = 1 }
-					mechanized = { x = 2 y = 0 }
-					mechanized = { x = 2 y = 1 }
-					mechanized = { x = 2 y = 2 }
-					mechanized = { x = 3 y = 0 }
-					mechanized = { x = 3 y = 1 }
-					mechanized = { x = 3 y = 2 }
+					HG_medium_armor = { x = 0 y = 0 }
+					HG_medium_armor = { x = 0 y = 1 }
+					HG_medium_armor = { x = 1 y = 0 }
+					HG_medium_armor = { x = 1 y = 1 }
+					HG_mechanized = { x = 2 y = 0 }
+					HG_mechanized = { x = 2 y = 1 }
+					HG_mechanized = { x = 2 y = 2 }
+					HG_mechanized = { x = 3 y = 0 }
+					HG_mechanized = { x = 3 y = 1 }
+					HG_mechanized = { x = 3 y = 2 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -1703,16 +1703,16 @@ country_event = {
 				name = "Infanterie-Division-Blau"
 				division_names_group = GER_Inf_01
 				regiments = {
-					infantry = { x = 0 y = 0 }
-					infantry = { x = 0 y = 1 }
-					infantry = { x = 0 y = 2 }
-					infantry = { x = 1 y = 0 }
-					infantry = { x = 1 y = 1 }
-					infantry = { x = 1 y = 2 }
-					infantry = { x = 2 y = 0 }
-					infantry = { x = 2 y = 1 }
-					infantry = { x = 2 y = 2 }
-					infantry = { x = 3 y = 0 }
+					DA_infantry = { x = 0 y = 0 }
+					DA_infantry = { x = 0 y = 1 }
+					DA_infantry = { x = 0 y = 2 }
+					DA_infantry = { x = 1 y = 0 }
+					DA_infantry = { x = 1 y = 1 }
+					DA_infantry = { x = 1 y = 2 }
+					DA_infantry = { x = 2 y = 0 }
+					DA_infantry = { x = 2 y = 1 }
+					DA_infantry = { x = 2 y = 2 }
+					DA_infantry = { x = 3 y = 0 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
