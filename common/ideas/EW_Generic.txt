@@ -87,6 +87,47 @@ ideas = {
 			}
 
 		}
+		
+		EW_General_Winter = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			cancel = {
+				OR = {
+					is_russian_winter = no
+					SOV = { surrender_progress < 0.01 }
+				}
+			}
+			
+			modifier = {
+			army_core_defence_factor = 0.50
+			winter_attrition_factor = -0.50
+			}
+		}
+		
+		EW_General_Winter_Attacker = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+			
+			picture = EW_General_Winter
+
+			cancel = {
+				OR = {
+					is_russian_winter = no
+					SOV = { surrender_progress < 0.01 }
+				}
+			}
+			
+			modifier = {
+			winter_attrition_factor = 0.50
+			}
+		}
 	
 	}
 	

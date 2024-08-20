@@ -1,0 +1,13 @@
+﻿l_english:
+
+RON_weather_report_in_progress:10 "Weather Event Open"
+is_russian_winter:0 "Is Russian Winter"
+SOV_russian_weather_report:0 "Russian Winter"
+
+EW_weather_events.1.t:0 "Russian Winter"
+EW_weather_events.1.d:0 "Winter has come to the Motherland, and with it, our greatest ally. The invaders, once so confident, now falter and freeze in the unforgiving cold. Our soldiers, hardened by years of harsh winters, stand resilient as the enemy succumbs to the elements. The biting winds and relentless snowdrifts favor us, grinding the foreign army down to its knees. The Russian winter will protect our land as it has throughout history, turning the tide of war in our favor."
+EW_weather_events.1.a:0 "Let the cold break their spirit!"
+
+EW_weather_events.2.t:0 "Russian Winter"
+EW_weather_events.2.d:0 "As the first snowflakes fall, what began as a swift campaign has turned into a frozen nightmare. Our troops, unprepared for the savage cold, find themselves struggling against nature itself. Roads vanish beneath blankets of snow, supplies dwindle, and frostbite claims more men than the enemy's bullets. The Russian winter is a merciless adversary, turning our triumphs into tragedies as the bitter cold slows our advance to a deadly standstill."
+EW_weather_events.2.a:0 "We must endure this frozen hell"

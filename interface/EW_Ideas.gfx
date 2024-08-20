@@ -4,4 +4,9 @@ spriteType = {
 		name = "GFX_idea_EW_BGIE"
 		texturefile = "gfx/interface/ideas/EW/Britain/EW_BGIE.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_EW_General_Winter"
+		texturefile = "gfx/interface/ideas/EW/Soviet/General_Winter.dds"
+	}
 }
