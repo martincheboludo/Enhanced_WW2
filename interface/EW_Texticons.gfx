@@ -209,5 +209,98 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+	
+	
+spriteType = {
+		name = "GFX_nato_unit_HG_medium_armor_icon_small"
+		texturefile = "gfx/texticons/HG_nato_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_HG_mechanized_icon_small"
+		texturefile = "gfx/texticons/HG_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_HG_medium_armor_icon_small"
+		texturefile = "gfx/texticons/HG_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_HG_mechanized_icon_small"
+		texturefile = "gfx/texticons/HG_nato_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+spriteType = {
+		name = "GFX_nato_unit_PL_medium_armor_icon_small"
+		texturefile = "gfx/texticons/PL_nato_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_PL_mechanized_icon_small"
+		texturefile = "gfx/texticons/PL_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_PL_medium_armor_icon_small"
+		texturefile = "gfx/texticons/PL_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_PL_mechanized_icon_small"
+		texturefile = "gfx/texticons/PL_nato_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_GD_medium_armor_icon_small"
+		texturefile = "gfx/texticons/GD_nato_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_GD_mechanized_icon_small"
+		texturefile = "gfx/texticons/GD_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_GD_medium_armor_icon_small"
+		texturefile = "gfx/texticons/GD_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_GD_mechanized_icon_small"
+		texturefile = "gfx/texticons/GD_nato_unit_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_DA_infantry_icon_small"
+		texturefile = "gfx/texticons/DA_nato_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_DA_infantry_icon_small"
+		texturefile = "gfx/texticons/DA_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 
 }
