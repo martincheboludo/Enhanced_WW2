@@ -273,7 +273,7 @@ country_event = {
 				limit = { is_controlled_by_ROOT_or_ally = yes }
 			}
 			create_unit = {
-				division = "name = \"2. SS-Panzerdivision “Das Reich”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.8"
+				division = "name = \"2. SS-Panzerdivision “Das Reich”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 1.0"
 				owner = GER
 			}
 		}
@@ -303,7 +303,7 @@ country_event = {
 				limit = { is_controlled_by_ROOT_or_ally = yes }
 			}
 			create_unit = {
-				division = "name = \"3. SS-Panzerdivision “Totenkopf”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 0.8"
+				division = "name = \"3. SS-Panzerdivision “Totenkopf”\" division_template = \"SS-Panzer-Division\" start_experience_factor = 1.0"
 				owner = GER
 			}
 		}
@@ -1400,12 +1400,12 @@ country_event = {
 					medium_armor = { x = 0 y = 1 }
 					medium_armor = { x = 1 y = 0 }
 					medium_armor = { x = 1 y = 1 }
-					motorized = { x = 2 y = 0 }
-					motorized = { x = 2 y = 1 }
-					motorized = { x = 2 y = 2 }
-					motorized = { x = 3 y = 0 }
-					motorized = { x = 3 y = 1 }
-					motorized = { x = 3 y = 2 }
+					mechanized = { x = 2 y = 0 }
+					mechanized = { x = 2 y = 1 }
+					mechanized = { x = 2 y = 2 }
+					mechanized = { x = 3 y = 0 }
+					mechanized = { x = 3 y = 1 }
+					mechanized = { x = 3 y = 2 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -1416,7 +1416,6 @@ country_event = {
 				}
 				priority = 1
 				is_locked = yes
-				
 			}
 			division_template = {
 				name = "DAK-Panzergrenadier-Division"
@@ -1491,4 +1490,308 @@ news_event = {
 		ai_chance = { factor = 1000 }
 		
 	}
+}
+
+#Panzergrenadier-Division Großdeutschland
+country_event = {
+	id = EW_German_Units_Country.40
+	title = EW_German_Units_Country.40.t
+	desc = EW_German_Units_Country.40.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.40.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			division_template = {
+				name = "GD-Panzergrenadier-Division"
+				division_names_group = GER_MOT_02
+				regiments = {
+					mechanized = { x = 0 y = 0 }
+					mechanized = { x = 0 y = 1 }
+					mechanized = { x = 0 y = 2 }
+					mechanized = { x = 1 y = 0 }
+					mechanized = { x = 1 y = 1 }
+					mechanized = { x = 1 y = 2 }
+					mechanized = { x = 2 y = 0 }
+					mechanized = { x = 2 y = 1 }
+					mechanized = { x = 2 y = 2 }
+					medium_armor = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 1
+				is_locked = yes
+			}
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Panzergrenadier-Division Großdeutschland\" division_template = \"GD-Panzergrenadier-Division\" start_experience_factor = 1.0"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#Panzer-Lehr-Division
+country_event = {
+	id = EW_German_Units_Country.41
+	title = EW_German_Units_Country.41.t
+	desc = EW_German_Units_Country.41.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.41.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			division_template = {
+				name = "PL-Panzer-Division"
+				division_names_group = GER_Arm_01
+				regiments = {
+					medium_armor = { x = 0 y = 0 }
+					medium_armor = { x = 0 y = 1 }
+					medium_armor = { x = 1 y = 0 }
+					medium_armor = { x = 1 y = 1 }
+					mechanized = { x = 2 y = 0 }
+					mechanized = { x = 2 y = 1 }
+					mechanized = { x = 2 y = 2 }
+					mechanized = { x = 3 y = 0 }
+					mechanized = { x = 3 y = 1 }
+					mechanized = { x = 3 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 1
+				is_locked = yes
+			}
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"130. Panzer-Lehr-Division\" division_template = \"PL-Panzer-Division\" start_experience_factor = 1.0"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#Fallschirm-Panzer-Division 1 Hermann Göring
+country_event = {
+	id = EW_German_Units_Country.42
+	title = EW_German_Units_Country.42.t
+	desc = EW_German_Units_Country.42.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.42.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			division_template = {
+				name = "HG-Panzer-Division"
+				division_names_group = GER_Arm_01
+				regiments = {
+					medium_armor = { x = 0 y = 0 }
+					medium_armor = { x = 0 y = 1 }
+					medium_armor = { x = 1 y = 0 }
+					medium_armor = { x = 1 y = 1 }
+					mechanized = { x = 2 y = 0 }
+					mechanized = { x = 2 y = 1 }
+					mechanized = { x = 2 y = 2 }
+					mechanized = { x = 3 y = 0 }
+					mechanized = { x = 3 y = 1 }
+					mechanized = { x = 3 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 1
+				is_locked = yes
+			}
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Fallschirm-Panzer-Division 1 Hermann Göring\" division_template = \"PL-Panzer-Division\" start_experience_factor = 1.0"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#250. Infanterie-Division (Spanische)
+country_event = {
+	id = EW_German_Units_Country.43
+	title = EW_German_Units_Country.43.t
+	desc = EW_German_Units_Country.43.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.43.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		if = {
+			limit = {
+			country_exists = SPR
+			NOT = { has_war_with = SPR }
+			}
+			add_opinion_modifier = {
+				target = SPR
+				modifier = offered_support
+			}
+		}
+		
+		hidden_effect = {
+			division_template = {
+				name = "Infanterie-Division-Blau"
+				division_names_group = GER_Inf_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 1
+				is_locked = yes
+				
+			}
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"250. Infanterie-Division (Spanische)\" division_template = \"Infanterie-Division-Blau\" start_experience_factor = 0.5"
+				owner = GER
+			}
+		}
+
+	}
+
+}
+
+#Franco Asked About The Blue Division
+country_event = {
+	id = EW_German_Units_Country.44
+	title = EW_German_Units_Country.44.t
+	desc = EW_German_Units_Country.44.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.44.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		GER = { country_event = { id = EW_German_Units_Country.43 hours = 6 } }
+		
+
+	}
+	
+	option = {
+		name = EW_German_Units_Country.44.b
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		GER = { country_event = { id = EW_German_Units_Country.45 hours = 6 } }
+		
+
+	}
+
+}
+
+#Franco Says No
+country_event = {
+	id = EW_German_Units_Country.45
+	title = EW_German_Units_Country.45.t
+	desc = EW_German_Units_Country.45.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.45.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_opinion_modifier = {
+			target = SPR
+			modifier = refused_help
+		}
+		
+	}
+
 }

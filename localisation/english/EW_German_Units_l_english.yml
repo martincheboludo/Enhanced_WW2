@@ -324,7 +324,7 @@ EW_German_Units_Country.38.a:1 "Create Unit"
  Wehrmacht_EW_Decisions:0 "Wehrmacht Actions"
  Wehrmacht_EW_Decisions_desc:0 "The Wehrmacht was the unified armed forces of Nazi Germany, established in 1935 under the leadership of Adolf Hitler. It consisted of three branches: the Heer (Army), the Kriegsmarine (Navy), and the Luftwaffe (Air Force). The Wehrmacht replaced the Reichswehr and was central to Germany's military operations during World War II. Unlike the Schutzstaffel (SS), the Wehrmacht was a regular military force with its primary role being the defense of the country and the execution of offensive operations across Europe and beyond."
  
-WE_Create_DAK:0 "Create The Afrikakorps"
+WE_Create_DAK:0 "Deutsches Afrikakorps"
 WE_Create_DAK_desc:0 "In response to the deteriorating situation in North Africa and the strategic importance of controlling the Mediterranean, the German High Command has decided to send a specialized expeditionary force to aid our Italian allies in their campaign against the British forces. This new formation, known as the Deutsches Afrikakorps (DAK), will be commanded by Generalleutnant Erwin Rommel, a seasoned officer with a reputation for bold and decisive action. The Afrikakorps will be tasked with stabilizing the front, regaining lost territories, and eventually driving the British out of North Africa entirely. The harsh desert environment will present unique challenges, but the men of the DAK are well-equipped and ready to meet the enemy head-on. The creation of this force marks a significant step in our efforts to secure control over North Africa and the vital Suez Canal."
 
 EW_German_Units_Country.39.t:0 "Formation of the Deutsches Afrikakorps"
@@ -335,3 +335,40 @@ EW_German_Units_Country.39.b:1 "Focus on Europe instead."
  EW_German_Units_News.39.t:0 "Afrika Korps Lands in North Africa!"
  EW_German_Units_News.39.d:0 "In a bold move to support the faltering Italian forces in North Africa, the German Reich has dispatched the Deutsches Afrikakorps (DAK) under Generalleutnant Erwin Rommel. This elite force has now landed on African soil, marking a significant escalation in the Mediterranean Theater of World War II. The arrival of the Afrika Korps signals Germany’s intent to challenge British control of the region. Rommel, known as the "Desert Fox," is expected to employ blitzkrieg tactics in the harsh desert environment. The world watches with bated breath as the Afrika Korps prepares to take on the British Eighth Army in what promises to be a pivotal chapter in the conflict."
  EW_German_Units_News.39.a:1 "The Desert War Intensifies!"
+ 
+WE_Create_0:0 "Panzergrenadier-Division Großdeutschland"
+WE_Create_0_desc:0 "The Panzergrenadier-Division Großdeutschland was one of the most elite and well-equipped divisions of the Wehrmacht, originally formed as an elite guard regiment in Berlin. It evolved into a full-fledged motorized infantry and later a panzergrenadier division, participating in key operations on the Eastern Front, including the Battle of Kursk. Renowned for its high morale, superior training, and excellent equipment, the division served as a critical "fire brigade" in various theaters, often deployed to the most intense and decisive battles."
+
+EW_German_Units_Country.40.t:0 "Panzergrenadier-Division Großdeutschland"
+EW_German_Units_Country.40.d:0 "The Panzergrenadier-Division Großdeutschland was one of the most elite and well-equipped divisions of the Wehrmacht, originally formed as an elite guard regiment in Berlin. It evolved into a full-fledged motorized infantry and later a panzergrenadier division, participating in key operations on the Eastern Front, including the Battle of Kursk. Renowned for its high morale, superior training, and excellent equipment, the division served as a critical "fire brigade" in various theaters, often deployed to the most intense and decisive battles."
+EW_German_Units_Country.40.a:1 "Create Unit"
+
+WE_Create_1:0 "130. Panzer-Lehr-Division"
+WE_Create_1_desc:0 "The Panzer-Lehr-Division was one of Nazi Germany’s premier armored divisions, formed in 1943 from elite training and demonstration units within Germany. Designed to be an instructional and model division, it was heavily equipped with the latest tanks and mechanized infantry. The division saw significant action during the Normandy Invasion and the Ardennes Offensive, where it was known for its high combat effectiveness despite suffering heavy casualties, particularly during the Allied bombing campaigns in Normandy."
+
+EW_German_Units_Country.41.t:0 "130. Panzer-Lehr-Division"
+EW_German_Units_Country.41.d:0 "The Panzer-Lehr-Division was one of Nazi Germany’s premier armored divisions, formed in 1943 from elite training and demonstration units within Germany. Designed to be an instructional and model division, it was heavily equipped with the latest tanks and mechanized infantry. The division saw significant action during the Normandy Invasion and the Ardennes Offensive, where it was known for its high combat effectiveness despite suffering heavy casualties, particularly during the Allied bombing campaigns in Normandy."
+EW_German_Units_Country.41.a:1 "Create Unit"
+
+WE_Create_2:0 "Fallschirm-Panzer-Division 1 Hermann Göring"
+WE_Create_2_desc:0 "The Fallschirm-Panzer-Division 1 Hermann Göring was an elite Luftwaffe unit that started as a police unit and later became a paratrooper division before being reformed into a panzer division in 1944. It fought in several critical campaigns, including North Africa, Sicily, Italy, and the Eastern Front. Known for its high morale and versatility, the division was equipped with a mix of armored vehicles and paratroopers, playing a key role in defensive operations, particularly during the Italian Campaign and the defense of the Reich in the war’s final stages."
+
+EW_German_Units_Country.42.t:0 "Fallschirm-Panzer-Division 1 Hermann Göring"
+EW_German_Units_Country.42.d:0 "The Fallschirm-Panzer-Division 1 Hermann Göring was an elite Luftwaffe unit that started as a police unit and later became a paratrooper division before being reformed into a panzer division in 1944. It fought in several critical campaigns, including North Africa, Sicily, Italy, and the Eastern Front. Known for its high morale and versatility, the division was equipped with a mix of armored vehicles and paratroopers, playing a key role in defensive operations, particularly during the Italian Campaign and the defense of the Reich in the war’s final stages."
+EW_German_Units_Country.42.a:1 "Create Unit"
+
+WE_Create_3:0 "250. Infanterie-Division (Spanische)"
+WE_Create_3_desc:0 "The 250. Infanterie-Division (Spanische), known as the División Azul or Spanish Blue Division, was a volunteer unit composed of Spanish soldiers who fought alongside the Wehrmacht on the Eastern Front during World War II. Formed in 1941 and composed of fervent anti-communists from Spain, the division was deployed primarily around Leningrad. Despite being less mechanized than German divisions, the Blue Division earned a reputation for its tenacity and courage under harsh conditions, fighting in some of the most grueling battles of the war before being withdrawn in 1943."
+
+EW_German_Units_Country.43.t:0 "250. Infanterie-Division (Spanische)"
+EW_German_Units_Country.43.d:0 "The 250. Infanterie-Division (Spanische), known as the División Azul or Spanish Blue Division, was a volunteer unit composed of Spanish soldiers who fought alongside the Wehrmacht on the Eastern Front during World War II. Formed in 1941 and composed of fervent anti-communists from Spain, the division was deployed primarily around Leningrad. Despite being less mechanized than German divisions, the Blue Division earned a reputation for its tenacity and courage under harsh conditions, fighting in some of the most grueling battles of the war before being withdrawn in 1943."
+EW_German_Units_Country.43.a:1 "Create Unit"
+
+EW_German_Units_Country.44.t:0 "Germany at War with the Soviet Union"
+EW_German_Units_Country.44.d:0 "Word has reached Madrid that Germany has launched a massive invasion of the Soviet Union, aiming to crush Bolshevism once and for all. The winds of war are sweeping across Europe, and many within our ranks see this as an opportunity to repay the German Reich for its support during our civil war. The Falange and many Spanish volunteers are eager to take up arms against the Soviet threat. Sending a division of our best men to the Eastern Front would not only demonstrate our solidarity with the Axis but also offer a chance to strike at the heart of Communism. The question now stands: Shall we form the División Azul and join the fight against the Red Menace?"
+EW_German_Units_Country.44.a:1 "Yes, we will send the División Azul to fight the Bolsheviks!"
+EW_German_Units_Country.44.b:1 "No, Spain will remain neutral in this conflict."
+
+EW_German_Units_Country.45.t:0 "Franco Rejects the European Crusade"
+EW_German_Units_Country.45.d:0 "Despite the fervent efforts of Ramón Serrano Suñer, the Falange, and the dedicated Blueshirts, it seems that Francisco Franco has decided to distance Spain from the great European crusade against Communism. Rumors from Madrid confirm that Franco has shut down the initiative to send Spanish volunteers to fight alongside our forces on the Eastern Front. This decision has left many within Spain and across Europe disillusioned, viewing it as a betrayal of the shared struggle against the Bolshevik threat. Franco’s refusal to commit Spain to the fight against the Soviet Union is a significant blow to our efforts to unify the continent under the banner of a new order. Spain will maintain its official neutrality, leaving the burden of the crusade on the shoulders of the true defenders of Europe."
+EW_German_Units_Country.45.a:1 "The fool! If we fall to the Reds, he’s next!"
