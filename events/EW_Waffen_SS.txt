@@ -1662,7 +1662,7 @@ country_event = {
 				limit = { is_controlled_by_ROOT_or_ally = yes }
 			}
 			create_unit = {
-				division = "name = \"Fallschirm-Panzer-Division 1 Hermann Göring\" division_template = \"PL-Panzer-Division\" start_experience_factor = 1.0"
+				division = "name = \"Fallschirm-Panzer-Division 1 Hermann Göring\" division_template = \"HG-Panzer-Division\" start_experience_factor = 1.0"
 				owner = GER
 			}
 		}

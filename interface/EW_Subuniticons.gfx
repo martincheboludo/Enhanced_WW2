@@ -25,6 +25,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_WSS_artillery_brigade_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/WSS_unit_art_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_WSS_mot_artillery_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/WSS_unit_mot_art_icon.dds" noOfFrames = 2 }
 
+	spriteType = { name = "GFX_unit_DAK_medium_armor_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/DAK_unit_medium_tank_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_DAK_mechanized_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/DAK_unit_mechanized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_HG_medium_armor_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/HG_unit_medium_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_HG_mechanized_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/HG_unit_mechanized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_PL_medium_armor_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/PL_unit_medium_tank_icon.dds" noOfFrames = 2 }
@@ -57,12 +59,23 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_WSS_heavy_tank_destroyer_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/WSS_onmap_unit_heavy_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_WSS_medium_tank_destroyer_brigade_icon_medium_white"		textureFile = "gfx/interface/counters/divisions_small/WSS_onmap_unit_medium_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_WSS_light_tank_destroyer_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/WSS_onmap_unit_light_tank_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_unit_DAK_mechanized_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/DAK_onmap_unit_mechanized_icon.dds" noOfFrames = 2}
+	
+	spriteType = { name = "GFX_unit_GD_mechanized_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/GD_onmap_unit_mechanized_icon.dds" noOfFrames = 2}
+	
+	spriteType = { name = "GFX_unit_HG_mechanized_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/HG_onmap_unit_mechanized_icon.dds" noOfFrames = 2}
+	
+	spriteType = { name = "GFX_unit_PL_mechanized_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/PL_onmap_unit_mechanized_icon.dds" noOfFrames = 2}
+	
+	spriteType = { name = "GFX_unit_DAK_medium_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/DAK_onmap_unit_medium_tank_icon.dds" noOfFrames = 2}
+
 	spriteType = { name = "GFX_unit_GD_medium_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/GD_onmap_unit_medium_tank_icon.dds" noOfFrames = 2}
-	spriteType = { name = "GFX_unit_GD_mechanized_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/GD_unit_mechanized_icon.dds" noOfFrames = 2 }
+
 	spriteType = { name = "GFX_unit_PL_medium_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/PL_onmap_unit_medium_tank_icon.dds" noOfFrames = 2}
-	spriteType = { name = "GFX_unit_PL_mechanized_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/PL_unit_mechanized_icon.dds" noOfFrames = 2 }
+
 	spriteType = { name = "GFX_unit_HG_medium_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/HG_onmap_unit_medium_tank_icon.dds" noOfFrames = 2}
-	spriteType = { name = "GFX_unit_HG_mechanized_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/HG_unit_mechanized_icon.dds" noOfFrames = 2 }
+
 	spriteType = { name = "GFX_unit_DA_infantry_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/DA_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
 	
 }
