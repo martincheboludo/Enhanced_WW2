@@ -1463,6 +1463,9 @@ country_event = {
 			}
 		}
 		
+		EW_Equipment_Medium_Tank_Remove = yes
+		EW_Equipment_Mechanized_Remove = yes
+		
 		hidden_effect = { 
 			news_event = { id = EW_German_Units_News.39 hours = 6 }
 		}
@@ -1550,6 +1553,8 @@ country_event = {
 				owner = GER
 			}
 		}
+		
+		EW_Equipment_Mechanized_Remove = yes
 
 	}
 
@@ -1608,6 +1613,8 @@ country_event = {
 				owner = GER
 			}
 		}
+		
+		EW_Equipment_Medium_Tank_Remove = yes
 
 	}
 
@@ -1666,6 +1673,8 @@ country_event = {
 				owner = GER
 			}
 		}
+		
+		EW_Equipment_Medium_Tank_Remove = yes
 
 	}
 
@@ -1736,6 +1745,8 @@ country_event = {
 				owner = GER
 			}
 		}
+		
+		EW_Equipment_Infantry_Remove = yes
 
 	}
 

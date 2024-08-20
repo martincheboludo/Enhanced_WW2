@@ -1,0 +1,65 @@
+
+EW_Equipment_Infantry = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1009 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_Medium_Tank = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 609 }
+		has_equipment = { mechanized_equipment > 239 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+		has_equipment = { medium_tank_chassis > 199 }
+	}
+}
+
+EW_Equipment_Mechanized = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 909 }
+		has_equipment = { mechanized_equipment > 359 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+		has_equipment = { medium_tank_chassis > 49 }
+	}
+}
+
+EW_Equipment_Motorized = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1009 }
+		has_equipment = { motorized_equipment > 379 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+
+EW_Equipment_Mountain = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1409 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_Cavalry = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1209 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}

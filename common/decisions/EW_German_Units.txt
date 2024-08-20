@@ -1539,8 +1539,9 @@ WE_Create_DAK = {
 					}
 				}
 			}
-			
 		}
+		
+		
 
 		ai_will_do = {
 			factor = 100

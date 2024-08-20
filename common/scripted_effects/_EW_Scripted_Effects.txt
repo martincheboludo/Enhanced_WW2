@@ -1,0 +1,53 @@
+
+EW_Equipment_Infantry_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1010 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+EW_Equipment_Medium_Tank_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -610 }
+	add_equipment_to_stockpile = { type = mechanized_equipment amount = -240 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+	add_equipment_to_stockpile = { type = medium_tank_chassis amount = -200 }
+}
+
+EW_Equipment_Mechanized_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -910 }
+	add_equipment_to_stockpile = { type = mechanized_equipment amount = -360 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+	add_equipment_to_stockpile = { type = medium_tank_chassis amount = -50 }
+}
+
+EW_Equipment_Motorized_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1010 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -380 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+
+EW_Equipment_Mountain_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1410 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+EW_Equipment_Cavalry_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1210 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
