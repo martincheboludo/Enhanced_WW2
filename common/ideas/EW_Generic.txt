@@ -115,7 +115,10 @@ ideas = {
 			picture = EW_General_Winter
 
 			cancel = {
-				is_russian_winter = no
+				OR = {
+					is_russian_winter = no
+					NOT = { has_war_with = SOV }
+				}
 			}
 			
 			modifier = {

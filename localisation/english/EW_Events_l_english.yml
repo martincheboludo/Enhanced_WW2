@@ -172,6 +172,24 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Germany_News.136.c:0 "We must secure our northern borders!"
  EW_Germany_News.136.e:0 "This violates the Versailles Treaty!"
  
+ EW_Germany_Country.204.t:0 "The Soviet Union Invades Lithuania!"
+ EW_Germany_Country.204.d:0 "Mein Führer, recent reports confirm that the Soviet Union has launched an aggressive invasion of Lithuania, seeking to reclaim territories lost to them. This presents us with an unexpected opportunity. By offering Lithuania military assistance, we could turn this situation to our advantage. In exchange for our support, we could demand the return of the Memel territory, which was unjustly taken from us. This move could not only strengthen our strategic position but also create a powerful ally against the Bolsheviks."
+ EW_Germany_Country.204.a:1 "Offer Lithuania Support"
+ EW_Germany_Country.204.b:1 "Focus on Other Matters"
+ 
+ EW_Germany_Country.205.t:0 "Telegram from Berlin"
+ EW_Germany_Country.205.d:0 "An urgent telegram from Berlin has arrived, Mr. President. The German Reich has made a significant proposal in response to the Soviet invasion. They are willing to declare war on the Soviet Union and provide military assistance to Lithuania. However, there is a condition: in exchange for their support, the Germans demand the Memel Territory. This offer presents a unique opportunity to gain critical allies and secure the safety of our nation. We must decide whether to accept this offer or resist the Soviets independently."
+ EW_Germany_Country.205.a:1 "Accept German Assistance"
+ EW_Germany_Country.205.b:1 "Reject German Offer"
+ 
+ EW_Germany_Country.206.t:0 "Lithuania Accepts German Assistance"
+ EW_Germany_Country.206.d:0 "Lithuania has accepted our offer of assistance in their struggle against the Soviet Union. In exchange for military support, they have agreed to cede Memel to us. Our forces will mobilize to aid Lithuania, and we will begin coordinating with their military to ensure a unified front against the Bolshevik aggressors."
+ EW_Germany_Country.206.a:1 "We will crush the Bolshevik invaders together. For victory!"
+ 
+  EW_Germany_Country.207.t:0 "Lithuania Declines German Assistance"
+ EW_Germany_Country.207.d:0 "With Lithuania choosing not to accept our assistance, we must evaluate our strategy moving forward. We will explore other options for advancing our interests and securing our position in Eastern Europe. Our diplomatic and military efforts will need to adapt to the evolving situation on the continent."
+ EW_Germany_Country.207.a:1 "Fools, they will perish alone. Their fate is sealed."
+ 
  EW_Soviet_Country.1.t:0 "The Defence of Leningrad"
  EW_Soviet_Country.1.d:0 "Comrade Stalin, the enemy's noose tightens around Leningrad, our city of Lenin. As the fascists encroach, we have ordered the construction of a deep defensive belt. Trenches are being dug, anti-tank ditches carved out, and obstacles placed to slow the invaders. Our people are mobilized, from soldiers to factory workers, producing weapons even under bombardment. Reinforcements from the Northern Front are being redirected to defend the approaches, while naval artillery from the Baltic Fleet will support the defense. Leningrad will become a fortress, and we shall ensure that the enemy will find no easy victory here."
  EW_Soviet_Country.1.a:1 "Hold the line!"
