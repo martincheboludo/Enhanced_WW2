@@ -19,6 +19,25 @@ Allies_EW_Decisions = {
 	}
 }
 
+Axis_EW_Decisions = {
+	picture = GFX_decision_cat_AXIS_EW
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+		}
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 1000
+	}
+}
+
 GER_EW_Decisions = {
 	picture = GFX_decision_cat_GER_EW
 	icon = ger_reichskommissariats
@@ -31,7 +50,7 @@ GER_EW_Decisions = {
 	}
 	
 	priority = {
-		base = 1000
+		base = 990
 	}
 }
 

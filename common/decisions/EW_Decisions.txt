@@ -1,7 +1,275 @@
+#Axis Decisions
+Axis_EW_Decisions = {
+
+EW_Case_White = {
+		icon = generic_army_support
+
+		available = {
+			tag = GER
+			date < 1941.1.1
+			has_war_with = POL
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = POL
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_speed_factor = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 35
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Case_Yellow = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1941.1.1
+			has_war_with = FRA
+			OR = {
+				has_war_with = BEL
+				has_war_with = HOL
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = HOL
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = BEL
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = LUX
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_speed_factor = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 42
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Operation_Weserubung = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1941.1.1
+			has_war_with = ENG
+			OR = {
+				has_war_with = DEN
+				has_war_with = NOR
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = DEN
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = NOR
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_speed_factor = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				NOT = { has_war_with = NOR } 
+			}
+		}
+		
+		days_remove = 62
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			load_oob = GER_WESERUBUNG
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
+}
+
 #Allies Decisions
 Allies_EW_Decisions = {
 
-USA_send_lend_lease_EW = {
+	USA_EW_send_lend_lease_ENG = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		available = {
+			has_government = democratic
+			surrender_progress < 0.01
+			date > 1939.12.31
+			date < 1946.1.1
+			is_subject = no
+			OR = {
+				num_of_civilian_factories > 99
+				num_of_military_factories > 99
+			}
+			country_exists = ENG
+			NOT = { has_war_with = ENG }
+			OR = {
+				ENG = { has_defensive_war_with = GER }
+				AND = {
+					ENG = { has_war_with = JAP }
+					USA = { has_defensive_war_with = JAP }
+				}
+			}
+			NOT = { ENG = { has_idea = EW_Lend_Lease} }
+			ENG = { is_ai = yes }
+			NOT = { CAN = { has_idea = EW_BGIE } }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+		}
+		days_re_enable = 30
+		visible = {
+			is_ai = yes
+			NOT = { CAN = { has_idea = EW_BGIE } }
+		}
+		complete_effect = {
+			ENG = {
+				country_event = {
+					id = EW_Allies_Country.131 hours = 6
+				}
+			}	
+		}
+	}
+	
+	USA_EW_send_lend_lease_CAN = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		available = {
+			has_government = democratic
+			surrender_progress < 0.01
+			date > 1939.12.31
+			date < 1946.1.1
+			is_subject = no
+			OR = {
+				num_of_civilian_factories > 99
+				num_of_military_factories > 99
+			}
+			country_exists = CAN
+			NOT = { has_war_with = CAN }
+			OR = {
+				CAN = { has_defensive_war_with = GER }
+				AND = {
+					CAN = { has_war_with = JAP }
+					USA = { has_defensive_war_with = JAP }
+				}
+			}
+			NOT = { CAN = { has_idea = EW_Lend_Lease} }
+			CAN = { is_ai = yes }
+			CAN = { has_idea = EW_BGIE }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+		}
+		days_re_enable = 30
+		visible = {
+			is_ai = yes
+			CAN = { has_idea = EW_BGIE }
+		}
+		complete_effect = {
+			CAN = {
+				country_event = {
+					id = EW_Allies_Country.131 hours = 6
+				}
+			}	
+		}
+	}
+	
+	USA_EW_send_lend_lease_SOV = {
 		icon = eng_puppet_usa
 		allowed = {
 			tag = USA
@@ -16,26 +284,17 @@ USA_send_lend_lease_EW = {
 				num_of_civilian_factories > 99
 				num_of_military_factories > 99
 			}
+			country_exists = SOV
+			NOT = { has_war_with = SOV }
 			OR = {
+				SOV = { has_defensive_war_with = GER }
 				AND = {
-					country_exists = ENG
-					NOT = { has_war_with = ENG }
-					ENG = { has_defensive_war_with = GER }
-					NOT = { ENG = { has_idea = EW_Lend_Lease} }
-				}
-				AND = {
-					country_exists = SOV
-					NOT = { has_war_with = SOV }
-					SOV = { has_defensive_war_with = GER }
-					NOT = { SOV = { has_idea = EW_Lend_Lease} }
-				}
-				AND = {
-					country_exists = CHI
-					NOT = { has_war_with = CHI }
-					CHI = { has_defensive_war_with = JAP }
-					NOT = { CHI = { has_idea = EW_Lend_Lease} }
+					SOV = { has_war_with = JAP }
+					USA = { has_defensive_war_with = JAP }
 				}
 			}
+			NOT = { SOV = { has_idea = EW_Lend_Lease} }
+			SOV = { is_ai = yes }
 		}
 		cost = 0
 		ai_will_do = {
@@ -46,45 +305,49 @@ USA_send_lend_lease_EW = {
 			is_ai = yes
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					country_exists = ENG
-					NOT = { has_war_with = ENG }
-					ENG = { has_defensive_war_with = GER }
-					NOT = { ENG = { has_idea = EW_Lend_Lease} }
+			SOV = {
+				country_event = {
+					id = EW_Allies_Country.130 hours = 6
 				}
-				ENG = {
-					country_event = {
-						id = EW_Allies_Country.131 hours = 6
-					}
-				}
+			}	
+		}
+	}
+	
+	USA_EW_send_lend_lease_CHI = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		available = {
+			has_government = democratic
+			surrender_progress < 0.01
+			date > 1940.12.31
+			date < 1946.1.1
+			is_subject = no
+			OR = {
+				num_of_civilian_factories > 99
+				num_of_military_factories > 99
 			}
-			if = {
-				limit = {
-					country_exists = SOV
-					NOT = { has_war_with = SOV }
-					SOV = { has_defensive_war_with = GER }
-					NOT = { SOV = { has_idea = EW_Lend_Lease} }
+			country_exists = CHI
+			NOT = { has_war_with = CHI }
+			CHI = { has_defensive_war_with = JAP }
+			NOT = { CHI = { has_idea = EW_Lend_Lease} }
+			CHI = { is_ai = yes }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+		}
+		days_re_enable = 30
+		visible = {
+			is_ai = yes
+		}
+		complete_effect = {
+			CHI = {
+				country_event = {
+					id = EW_Allies_Country.132 hours = 6
 				}
-				SOV = {
-					country_event = {
-						id = EW_Allies_Country.130 hours = 6
-					}
-				}
-			}
-			if = {
-				limit = {
-					country_exists = CHI
-					NOT = { has_war_with = CHI }
-					CHI = { has_defensive_war_with = GER }
-					NOT = { CHI = { has_idea = EW_Lend_Lease} }
-				}
-				CHI = {
-					country_event = {
-						id = EW_Allies_Country.132 hours = 6
-					}
-				}
-			}
+			}	
 		}
 	}
 
