@@ -60,3 +60,6 @@ SOV_Stop_German_Aggression_desc:0 ""
 
 CHI_EW_annex_warlords_targeted_decision:0 "Annex [FROM.GetName]"
 CHI_EW_annex_warlords_targeted_decision_desc:0 ""
+
+USA_send_lend_lease_EW:0 "Send Lend Lease to our Allies"
+USA_send_lend_lease_EW_desc:0 "Sending Lend-Lease aid to our allies is crucial for several reasons. Firstly, it strengthens the collective fight against the Axis powers, enhancing the overall military capacity of nations like Britain, the Soviet Union, and China who are on the front lines of the global struggle for freedom. By providing them with essential military equipment, supplies, and resources, we not only bolster their defense capabilities but also ensure that our own security interests are safeguarded. This aid helps to sustain our allies' resistance against aggressive totalitarian regimes, reducing the risk of them succumbing to Axis pressures and thereby creating a more favorable global strategic environment. Furthermore, supporting our allies through Lend-Lease fosters strong international partnerships and promotes a unified front, which is vital for the eventual victory and post-war reconstruction. Ultimately, Lend-Lease is not merely a matter of generosity but a strategic investment in a collective effort to achieve lasting peace and stability."

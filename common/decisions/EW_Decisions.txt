@@ -1,6 +1,88 @@
 #Allies Decisions
 Allies_EW_Decisions = {
 
+USA_send_lend_lease_EW = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		available = {
+			has_government = democratic
+			surrender_progress < 0.01
+			date > 1940.12.31
+			date < 1946.1.1
+			OR = {
+				AND = {
+					country_exists = ENG
+					NOT = { has_war_with = ENG }
+					ENG = { has_defensive_war_with = GER }
+					NOT = { ENG = { has_idea = EW_Lend_Lease} }
+				}
+				AND = {
+					country_exists = SOV
+					NOT = { has_war_with = SOV }
+					SOV = { has_defensive_war_with = GER }
+					NOT = { SOV = { has_idea = EW_Lend_Lease} }
+				}
+				AND = {
+					country_exists = CHI
+					NOT = { has_war_with = CHI }
+					CHI = { has_defensive_war_with = JAP }
+					NOT = { CHI = { has_idea = EW_Lend_Lease} }
+				}
+			}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+		}
+		days_re_enable = 30
+		visible = {
+			is_ai = yes
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = ENG
+					NOT = { has_war_with = ENG }
+					ENG = { has_defensive_war_with = GER }
+					NOT = { ENG = { has_idea = EW_Lend_Lease} }
+				}
+				ENG = {
+					country_event = {
+						id = EW_Allies_Country.131 hours = 6
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SOV
+					NOT = { has_war_with = SOV }
+					SOV = { has_defensive_war_with = GER }
+					NOT = { SOV = { has_idea = EW_Lend_Lease} }
+				}
+				SOV = {
+					country_event = {
+						id = EW_Allies_Country.130 hours = 6
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = CHI
+					NOT = { has_war_with = CHI }
+					CHI = { has_defensive_war_with = GER }
+					NOT = { CHI = { has_idea = EW_Lend_Lease} }
+				}
+				CHI = {
+					country_event = {
+						id = EW_Allies_Country.132 hours = 6
+					}
+				}
+			}
+		}
+	}
+
 }
 
 ##Soviet Decisions
