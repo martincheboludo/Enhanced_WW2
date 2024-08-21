@@ -12,6 +12,10 @@ USA_send_lend_lease_EW = {
 			date > 1940.12.31
 			date < 1946.1.1
 			OR = {
+				num_of_civilian_factories > 99
+				num_of_military_factories > 99
+			}
+			OR = {
 				AND = {
 					country_exists = ENG
 					NOT = { has_war_with = ENG }
