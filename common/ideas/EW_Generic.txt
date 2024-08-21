@@ -128,5 +128,22 @@ ideas = {
 	
 	}
 	
+	EW_Lend_Lease = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			cancel = {
+				NOT = { country_exists = USA }
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
+	
 	
 }

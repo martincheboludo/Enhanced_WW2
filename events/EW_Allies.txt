@@ -4450,6 +4450,255 @@ country_event = {
 	}
 }
 
+##Lend Lease to Russia
+country_event = {
+	id = EW_Allies_Country.130
+	picture = GFX_report_event_Lend_Lease_Country
+	title = EW_Allies_Country.130.t
+	desc = EW_Allies_Country.130.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.130.a
+		ai_chance = {
+			factor = 1000
+		}
+		#1941 Monthly Deliveries
+		if = {	
+			limit = {	
+			date > 1940.12.31
+			date < 1942.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 15 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 17 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 417 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1667 producer = USA }
+		}
+		#1942
+		if = {	
+			limit = {	
+			date > 1941.12.31
+			date < 1943.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 207 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 250 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 2500 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 12500 producer = USA }
+		}
+		#1943
+		if = {	
+			limit = {	
+			date > 1942.12.31
+			date < 1944.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 280 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 417 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 8333 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 25000 producer = USA }
+		}
+		#1944
+		if = {	
+			limit = {	
+			date > 1943.12.31
+			date < 1945.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 287 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 333 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 10000 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 33333 producer = USA }
+		}
+		#1945
+		if = {	
+			limit = {	
+			date > 1944.12.31
+			date < 1946.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 151 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 311 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 7778 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 16667 producer = USA }
+		}
+		
+		add_timed_idea = {
+			idea = EW_Lend_Lease
+			days = 30
+		}
+		
+	}
+}
+
+##Lend Lease to Britain
+country_event = {
+	id = EW_Allies_Country.131
+	picture = GFX_report_event_Lend_Lease_Country
+	title = EW_Allies_Country.131.t
+	desc = EW_Allies_Country.131.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.131.a
+		ai_chance = {
+			factor = 1000
+		}
+		#1940 Monthly Deliveries
+		if = {	
+			limit = {	
+			date > 1939.12.31
+			date < 1941.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 42 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 100 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 167 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 16667 producer = USA }
+		}
+		#1941 Monthly Deliveries
+		if = {	
+			limit = {	
+			date > 1940.12.31
+			date < 1942.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 92 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 175 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 417 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 25000 producer = USA }
+		}
+		#1942
+		if = {	
+			limit = {	
+			date > 1941.12.31
+			date < 1943.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 208 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 375 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 2917 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 33333 producer = USA }
+		}
+		#1943
+		if = {	
+			limit = {	
+			date > 1942.12.31
+			date < 1944.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 225 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 500 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 4167 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 41667 producer = USA }
+		}
+		#1944
+		if = {	
+			limit = {	
+			date > 1943.12.31
+			date < 1945.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 250 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 628 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 5833 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 50000 producer = USA }
+		}
+		#1945
+		if = {	
+			limit = {	
+			date > 1944.12.31
+			date < 1946.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 188 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 375 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 5000 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 37500 producer = USA }
+		}
+		
+		add_timed_idea = {
+			idea = EW_Lend_Lease
+			days = 30
+		}
+
+	}
+}
+
+##Lend Lease to China
+country_event = {
+	id = EW_Allies_Country.132
+	picture = GFX_report_event_Lend_Lease_Country
+	title = EW_Allies_Country.132.t
+	desc = EW_Allies_Country.132.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.132.a
+		ai_chance = {
+			factor = 1000
+		}
+		
+		#1941 Monthly Deliveries
+		if = {	
+			limit = {	
+			date > 1940.12.31
+			date < 1942.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 4 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 17 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 83 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 833 producer = USA }
+		}
+		#1942
+		if = {	
+			limit = {	
+			date > 1941.12.31
+			date < 1943.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 8 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 42 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 417 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1667 producer = USA }
+		}
+		#1943
+		if = {	
+			limit = {	
+			date > 1942.12.31
+			date < 1944.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 13 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 67 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 833 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 4167 producer = USA }
+		}
+		#1944
+		if = {	
+			limit = {	
+			date > 1943.12.31
+			date < 1945.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 17 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 83 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 1667 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 8333 producer = USA }
+		}
+		#1945
+		if = {	
+			limit = {	
+			date > 1944.12.31
+			date < 1946.1.1
+			}
+			add_equipment_to_stockpile = { type = medium_tank_chassis amount = 13 producer = USA }
+			add_equipment_to_stockpile = { type = small_plane_airframe amount = 63 producer = USA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 1250 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 6250 producer = USA }
+		}
+		
+		add_timed_idea = {
+			idea = EW_Lend_Lease
+			days = 30
+		}
+
+	}
+}
+
 #Allies Vow to Stop German Aggression
 news_event = {
 	id = EW_Allies_News.2
@@ -4558,6 +4807,20 @@ news_event = {
 	major = yes
 	option = {
 		name = EW_Allies_News.9.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#America Starts Lend Leae
+news_event = {
+	id = EW_Allies_News.130
+	picture = GFX_news_event_Lend_Lease_News
+	title = EW_Allies_News.130.t
+	desc = EW_Allies_News.130.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.130.a
 		ai_chance = { factor = 1000 }
 	}
 }

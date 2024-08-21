@@ -261,6 +261,16 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_report_event_Lend_Lease_Country"
+        texturefile = "gfx/event_pictures/Britain/Lend_Lease_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Lend_Lease_News"
+        texturefile = "gfx/event_pictures/Britain/Lend_Lease_News.dds"
+    }
+	
+	spriteType = {
         name = "GFX_report_event_British_Soldiers_Country"
         texturefile = "gfx/event_pictures/Britain/British_Soldiers_Country.dds"
     }
