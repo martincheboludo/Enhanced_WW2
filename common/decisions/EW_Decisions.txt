@@ -11,6 +11,7 @@ USA_send_lend_lease_EW = {
 			surrender_progress < 0.01
 			date > 1940.12.31
 			date < 1946.1.1
+			is_subject = no
 			OR = {
 				num_of_civilian_factories > 99
 				num_of_military_factories > 99
