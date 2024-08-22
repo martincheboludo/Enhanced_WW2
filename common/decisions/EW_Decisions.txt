@@ -584,6 +584,10 @@ Allies_EW_Decisions = {
 				num_of_civilian_factories > 99
 				num_of_military_factories > 99
 			}
+			OR = {
+				213 = { is_controlled_by = SOV }
+				408 = { is_controlled_by = SOV }
+			}
 			country_exists = SOV
 			NOT = { has_war_with = SOV }
 			OR = {
@@ -636,6 +640,27 @@ Allies_EW_Decisions = {
 			OR = {
 				num_of_civilian_factories > 99
 				num_of_military_factories > 99
+			}
+			custom_trigger_tooltip = {
+				tooltip = "Burma is controlled by a friendly government."
+				OR = {
+					AND = {
+						288 = { is_controlled_by = RAJ }
+						640 = { is_controlled_by = RAJ }
+					}
+					AND = {
+						288 = { is_controlled_by = ENG }
+						640 = { is_controlled_by = ENG }
+					}
+					AND = {
+						288 = { is_controlled_by = CAN }
+						640 = { is_controlled_by = CAN }
+					}
+					AND = {
+						288 = { is_controlled_by_ROOT_or_ally = yes }
+						640 = { is_controlled_by_ROOT_or_ally = yes }
+					}
+				}
 			}
 			country_exists = CHI
 			NOT = { has_war_with = CHI }
