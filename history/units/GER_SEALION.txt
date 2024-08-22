@@ -5,11 +5,9 @@ division_template = {
 		paratrooper = { x = 0 y = 0 }
 		paratrooper = { x = 0 y = 1 }
 		paratrooper = { x = 0 y = 2 }
-
 		paratrooper = { x = 1 y = 0 }
 		paratrooper = { x = 1 y = 1 }
 		paratrooper = { x = 1 y = 2 }
-
 		paratrooper = { x = 2 y = 0 }
 		paratrooper = { x = 2 y = 1 }
 		paratrooper = { x = 2 y = 2 }
@@ -32,6 +30,7 @@ division_template = {
 		paratrooper = { x = 0 y = 0 }
 		paratrooper = { x = 0 y = 1 }
 		paratrooper = { x = 0 y = 2 }
+
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -42,135 +41,123 @@ division_template = {
 	}
 	priority = 2
 }
-
 units = {
-
-	#16TH ARMY FIRST WAVE
 	division = {
 		name = "1. Infanterie-Division"
-		location = 6489  Britain
+		location = 9458 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "5. Infanterie-Division"
-		location = 9458  Britain
+		location = 6489 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "7. Infanterie-Division"
-		location = 11446  Britain
+		location = 11446 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "17. Infanterie-Division"
-		location = 3501  Britain
+		location = 3501 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "21. Infanterie-Division"
-		location = 13070  Britain
+		location = 13070 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "35. Infanterie-Division"
-		location = 6489  Britain
+		location = 9458 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "44. Infanterie-Division"
-		location = 9458  Britain
+		location = 6489 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "71. Infanterie-Division"
-		location = 11446  Britain
+		location = 11446 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "78. Infanterie-Division"
-		location = 3501  Britain
+		location = 3501 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "93. Infanterie-Division"
-		location = 13070  Britain
+		location = 13070 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-
+	
 	division = {
-		name = "7. Gebirgs-Division"
-		location = 6489  Britain
+		name = "7. Gebirgs Division"
+		location = 9458 # Britain
 		division_template = "Gebirgs-Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "1. Gebirgs-Division"
-		location = 9458  Britain
+		name = "1. Gebirgs Division"
+		location = 11446 # Britain
 		division_template = "Gebirgs-Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "5. Gebirgs-Division"
-		location = 11446  Britain
+		name = "5. Gebirgs Division"
+		location = 3501 # Britain
 		division_template = "Gebirgs-Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-
+	
 	division = {
 		name = "22. Luftlande-Division"
-		location = 507  Britain
+		location = 507 # Britain
 		division_template = "Flieger-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
+
 	division = {
 		name = "7. Flieger-Division"
-		location = 13070  Britain
+		location = 13070 # Britain
 		division_template = "Flieger-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	
+
 	division = {
 		name = "Brandenburger Regiment"
-		location = 11333  Britain
+		location = 11333 # Britain
 		division_template = "Brandenburger-Regiment"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 

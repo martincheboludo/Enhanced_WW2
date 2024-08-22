@@ -138,7 +138,57 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+			}
+
+		}
+		
+		EW_Lend_Lease_SOV = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			cancel = {
+				NOT = { country_exists = USA }
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.08
+			}
+
+		}
+		
+		EW_Lend_Lease_ENG = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			cancel = {
+				NOT = { country_exists = USA }
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.11
+			}
+
+		}
+		
+		EW_Lend_Lease_CHI = {
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			cancel = {
+				NOT = { country_exists = USA }
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.015
 			}
 
 		}
