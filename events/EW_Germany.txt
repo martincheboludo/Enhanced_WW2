@@ -5230,12 +5230,7 @@ country_event = {
 		
 		load_oob = GER_SEALION
 		
-		if = {
-			limit = {
-				is_ai = yes
-			}
-			country_event = { id = EW_Germany_Country.211 hours = 6 }	
-		}
+		country_event = { id = EW_Germany_Country.211 hours = 6 }	
 
 	}
 
@@ -5259,12 +5254,7 @@ country_event = {
 		
 		load_oob = GER_SEALION2
 		
-		if = {
-			limit = {
-				is_ai = yes
-			}
-			country_event = { id = EW_Germany_Country.212 hours = 6 }	
-		}
+		country_event = { id = EW_Germany_Country.212 hours = 6 }	
 
 	}
 
