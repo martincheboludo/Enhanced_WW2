@@ -156,6 +156,7 @@ EW_Case_White = {
 			naval_invasion_planning_bonus_speed = 0.25
 			navy_org_factor = 0.25
 			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
 		}
 
 		ai_will_do = {
@@ -358,7 +359,10 @@ EW_Case_White = {
 			tag = GER
 			has_war_with = ENG
 			surrender_progress < 0.01
-			
+			OR = {
+				29 = { is_controlled_by_ROOT_or_ally = yes }
+				6 = { is_controlled_by_ROOT_or_ally = yes }
+			}
 			custom_trigger_tooltip = {
 				tooltip = "France Neutralized"
 				
@@ -405,6 +409,7 @@ EW_Case_White = {
 			naval_invasion_planning_bonus_speed = 0.25
 			navy_org_factor = 0.25
 			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
 		}
 
 		ai_will_do = {

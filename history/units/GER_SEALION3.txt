@@ -3,7 +3,7 @@ units = {
 
 	division = {
 		name = "30. Infanterie-Division"
-		location = 3501 # Britain
+		location = 6489 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -11,7 +11,7 @@ units = {
 
 	division = {
 		name = "34. Infanterie-Division"
-		location = 3501 # Britain
+		location = 9458 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -19,7 +19,7 @@ units = {
 
 	division = {
 		name = "50. Infanterie-Division"
-		location = 11374 # Britain
+		location = 11446 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -27,7 +27,7 @@ units = {
 
 	division = {
 		name = "56. Infanterie-Division"
-		location = 271 # Britain
+		location = 3501 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -35,7 +35,7 @@ units = {
 
 	division = {
 		name = "71. Infanterie-Division"
-		location = 9458 # Britain
+		location = 13070 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -43,7 +43,7 @@ units = {
 
 	division = {
 		name = "94. Infanterie-Division"
-		location = 9458 # Britain
+		location = 3501 # Britain
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1

@@ -1,14 +1,14 @@
 units = {
 	division = {
 		name = "1.Panzer-Division"
-		location = 11446 # Britain
+		location = 9458 # Britain
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "2.Panzer-Division"
-		location = 11446 # Britain
+		location = 6489 # Britain
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -22,14 +22,14 @@ units = {
 	}
 	division = {
 		name = "16.Panzer-Division"
-		location = 11446 # Britain
+		location = 3501 # Britain
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "20.Panzer-Division"
-		location = 11446 # Britain
+		location = 13070 # Britain
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -43,14 +43,14 @@ units = {
 	}
 	division = {
 		name = "10.Infanterie-Division (mot.)"
-		location = 13070 # Britain
+		location = 11446 # Britain
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "14.Infanterie-Division (mot.)"
-		location = 13070 # Britain
+		location = 3501 # Britain
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
