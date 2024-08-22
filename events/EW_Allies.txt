@@ -4811,13 +4811,23 @@ news_event = {
 	}
 }
 
-#America Starts Lend Leae
+#America Starts Lend Lease
 news_event = {
 	id = EW_Allies_News.130
 	picture = GFX_news_event_Lend_Lease_News
 	title = EW_Allies_News.130.t
 	desc = EW_Allies_News.130.d
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		date > 1941.3.11
+		date < 1949.1.1
+		OR = {
+			ENG = { has_idea = EW_Lend_Lease }
+			SOV = { has_idea = EW_Lend_Lease }
+			CHI = { has_idea = EW_Lend_Lease }
+		}
+	}
 	major = yes
 	option = {
 		name = EW_Allies_News.130.a

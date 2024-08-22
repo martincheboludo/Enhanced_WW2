@@ -125,10 +125,8 @@ ideas = {
 			winter_attrition_factor = 0.50
 			}
 		}
-	
-	}
-	
-	EW_Lend_Lease = {
+		
+		EW_Lend_Lease = {
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
@@ -144,6 +142,9 @@ ideas = {
 			}
 
 		}
+	
+	}
+	
 	
 	
 }

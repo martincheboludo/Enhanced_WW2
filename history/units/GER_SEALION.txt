@@ -1,0 +1,182 @@
+division_template = {
+	name = "Flieger-Division"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Brandenburger-Regiment"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+units = {
+
+	#16TH ARMY FIRST WAVE
+	division = {
+		name = "1. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "5. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "7. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "17. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "21. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "35. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "44. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "71. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "78. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "93. Infanterie-Division"
+		location = 221  Britain
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "7. Gebirgs-Division"
+		location = 13070  Britain
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "1. Gebirgs-Division"
+		location = 13070  Britain
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "5. Gebirgs-Division"
+		location = 13070  Britain
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "22. Luftlande-Division"
+		location = 9458  Britain
+		division_template = "Flieger-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "7. Flieger-Division"
+		location = 9458  Britain
+		division_template = "Flieger-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Brandenburger Regiment"
+		location = 9458  Britain
+		division_template = "Brandenburger-Regiment"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+	}
+
+
+}
+
+
+
+

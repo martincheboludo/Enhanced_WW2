@@ -40,7 +40,7 @@ country_event = {
 		}
 
 		hidden_effect = { 
-			news_event = { id = EW_Germany_News.0 hours = 6 }
+			news_event = { id = EW_Germany_News.0 hours = 6 }news_event = { id = EW_Germany_News.0 hours = 6 }
 		}
 
 	}
@@ -5207,6 +5207,151 @@ country_event = {
 			target = LIT
 			modifier = refused_help
 		}
+
+	}
+
+}
+
+#Operation Sea Lion First Wave
+country_event = {
+	id = EW_Germany_Country.210
+	title = EW_Germany_Country.210.t
+	desc = EW_Germany_Country.210.d
+	picture = GFX_report_event_German_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.210.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		load_oob = GER_SEALION
+		
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			country_event = { id = EW_Germany_Country.211 hours = 6 }	
+		}
+
+	}
+
+}
+
+#Operation Sea Lion Second Wave
+country_event = {
+	id = EW_Germany_Country.211
+	title = EW_Germany_Country.211.t
+	desc = EW_Germany_Country.211.d
+	picture = GFX_report_event_German_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.211.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		load_oob = GER_SEALION2
+		
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			country_event = { id = EW_Germany_Country.212 hours = 6 }	
+		}
+
+	}
+
+}
+
+#Operation Sea Lion Third Wave
+country_event = {
+	id = EW_Germany_Country.212
+	title = EW_Germany_Country.212.t
+	desc = EW_Germany_Country.212.d
+	picture = GFX_report_event_German_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.212.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		load_oob = GER_SEALION3
+		
+
+	}
+
+}
+
+#German Invasion Imminent
+country_event = {
+	id = EW_Germany_Country.213
+	title = EW_Germany_Country.213.t
+	desc = EW_Germany_Country.213.d
+	picture = GFX_report_event_German_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.213.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_war_support = 0.1
+
+	}
+
+}
+
+#German Invasion For Norway
+country_event = {
+	id = EW_Germany_Country.214
+	title = EW_Germany_Country.214.t
+	desc = EW_Germany_Country.214.d
+	picture = GFX_report_event_German_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.214.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_war_support = 0.1
+
+	}
+
+}
+
+#Operation Weserubung
+country_event = {
+	id = EW_Germany_Country.215
+	title = EW_Germany_Country.215.t
+	desc = EW_Germany_Country.215.d
+	picture = GFX_report_event_German_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.215.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		load_oob = GER_WESERUBUNG
 
 	}
 
