@@ -157,7 +157,7 @@ units = {
 		name = "Brandenburger Regiment"
 		location = 11333 # Britain
 		division_template = "Brandenburger-Regiment"
-		start_experience_factor = 0.3
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 

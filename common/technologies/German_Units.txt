@@ -1,0 +1,135 @@
+technologies = {
+
+
+	Waffen_SS_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			WSS_infantry
+			WSS_mountaineers
+			WSS_motorized
+			WSS_mechanized
+			WSS_artillery_brigade
+			WSS_mot_artillery_brigade
+			WSS_cavalry
+			WSS_light_sp_artillery_brigade
+			WSS_medium_sp_artillery_brigade
+			WSS_heavy_sp_artillery_brigade
+			WSS_modern_sp_artillery_brigade
+			WSS_light_tank_destroyer_brigade
+			WSS_medium_tank_destroyer_brigade
+			WSS_heavy_tank_destroyer_brigade
+			WSS_modern_tank_destroyer_brigade
+			WSS_light_armor
+			WSS_medium_armor
+			WSS_modern_armor
+			WSS_heavy_armor
+		}
+
+
+	}
+	
+	Wehrmacht_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			HG_mechanized
+			HG_medium_armor
+			GD_mechanized
+			GD_medium_armor
+			DAK_mechanized
+			DAK_medium_armor
+			PL_mechanized
+			PL_medium_armor
+			BR_paratrooper
+		}
+	}
+	
+	EW_BR_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			BR_paratrooper
+		}
+	}
+	
+	EW_HG_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			HG_mechanized
+			HG_medium_armor
+		}
+	}
+	
+	EW_GD_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			GD_mechanized
+			GD_medium_armor
+		}
+	}
+	
+	EW_PL_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			PL_mechanized
+			PL_medium_armor
+		}
+	}
+	
+	EW_DAK_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			HG_mechanized
+			HG_medium_armor
+		}
+	}
+
+
+}

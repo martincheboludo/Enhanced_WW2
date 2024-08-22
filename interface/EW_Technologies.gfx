@@ -5,5 +5,35 @@ spriteTypes = {
 		name = "GFX_Waffen_SS_units_tech_medium"
 		texturefile = "gfx/interface/technologies/EW/SS.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_Wehrmacht_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/Wehrmacht.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_BR_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_BR.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_DAK_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_DAK.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_GD_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_GD.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_HG_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_HG.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_PL_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_PL.dds"
+	}
 
 }

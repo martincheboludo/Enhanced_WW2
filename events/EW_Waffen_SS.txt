@@ -1472,6 +1472,14 @@ country_event = {
 					mechanised_infantry = 1
 				}
 			}
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_DAK_units_tech = 1
+				}
+			}
 			division_template = {
 				name = "DAK-Panzer-Division"
 				division_names_group = GER_Arm_01
@@ -1495,7 +1503,7 @@ country_event = {
 					anti_tank = { x = 0 y = 4 }
 				}
 				priority = 1
-				is_locked = yes
+				#is_locked = yes
 			}
 			division_template = {
 				name = "DAK-Panzergrenadier-Division"
@@ -1520,7 +1528,7 @@ country_event = {
 					anti_tank = { x = 0 y = 4 }
 				}
 				priority = 1
-				is_locked = yes
+				#is_locked = yes
 			}
 		}
 		
@@ -1591,6 +1599,14 @@ country_event = {
 		}
 		
 		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_GD_units_tech = 1
+				}
+			}
 			division_template = {
 				name = "GD-Panzergrenadier-Division"
 				division_names_group = GER_MOT_02
@@ -1614,7 +1630,7 @@ country_event = {
 					anti_tank = { x = 0 y = 4 }
 				}
 				priority = 1
-				is_locked = yes
+				#is_locked = yes
 			}
 		}
 		
@@ -1651,6 +1667,14 @@ country_event = {
 		}
 		
 		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_PL_units_tech = 1
+				}
+			}
 			division_template = {
 				name = "PL-Panzer-Division"
 				division_names_group = GER_Arm_01
@@ -1674,7 +1698,7 @@ country_event = {
 					anti_tank = { x = 0 y = 4 }
 				}
 				priority = 1
-				is_locked = yes
+				#is_locked = yes
 			}
 		}
 		
@@ -1711,6 +1735,14 @@ country_event = {
 		}
 		
 		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_HG_units_tech = 1
+				}
+			}
 			division_template = {
 				name = "HG-Panzer-Division"
 				division_names_group = GER_Arm_01
@@ -1734,7 +1766,7 @@ country_event = {
 					anti_tank = { x = 0 y = 4 }
 				}
 				priority = 1
-				is_locked = yes
+				#is_locked = yes
 			}
 		}
 		
@@ -1882,6 +1914,67 @@ country_event = {
 			modifier = refused_help
 		}
 		
+	}
+
+}
+
+#Brandenburgers
+country_event = {
+	id = EW_German_Units_Country.46
+	title = EW_German_Units_Country.46.t
+	desc = EW_German_Units_Country.46.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_German_Units_Country.46.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_BR_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Brandenburger-Regiment"
+				regiments = {
+					BR_paratrooper = { x = 0 y = 0 }
+					BR_paratrooper = { x = 0 y = 1 }
+					BR_paratrooper = { x = 0 y = 2 }
+
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				#is_locked = yes
+			}
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Brandenburger Regiment\" division_template = \"Brandenburger-Regiment\" start_experience_factor = 1.0"
+				owner = GER
+			}
+		}
+		
+		EW_Equipment_Paratrooper_Regiment_Remove = yes
+
 	}
 
 }

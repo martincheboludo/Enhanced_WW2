@@ -70,3 +70,11 @@ EW_Equipment_DAK_Remove = {
 	add_equipment_to_stockpile = { type = support_equipment amount = -160 }
 	add_equipment_to_stockpile = { type = medium_tank_chassis amount = -250 }
 }
+
+EW_Equipment_Paratrooper_Regiment_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -400 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = 30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = 80 }
+}

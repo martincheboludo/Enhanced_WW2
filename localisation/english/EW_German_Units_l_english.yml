@@ -2,6 +2,19 @@
 
  Waffen_SS_units_tech:0 "Waffen-SS"
  Waffen_SS_units_tech_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."
+ 
+ Wehrmacht_units_tech:0 "Wehrmacht"
+ Wehrmacht_units_tech_desc:0 "By strengthening our Wehrmacht units, we will ensure a more robust and versatile fighting force. This foundation will support a wide array of tactical and operational roles, enhancing our ability to project power and sustain military campaigns across diverse fronts."
+ EW_BR_units_tech:0 "Brandenburger Regiment"
+ EW_BR_units_tech_desc:0 "By creating the Brandenburger Regiment, we can deploy an elite force adept at covert operations and deep infiltration. This specialized unit will enable us to conduct sabotage missions and gather critical intelligence behind enemy lines, significantly disrupting enemy operations and providing strategic advantages."
+ EW_DAK_units_tech:0 "Deutches Afrikakorps"
+ EW_DAK_units_tech_desc:0 "Forming the Deutsches Afrikakorps will enhance our capability to conduct operations in North Africa. This highly mobile and well-equipped force will excel in desert warfare, leveraging their specialized training and equipment to outmaneuver and defeat enemy forces in challenging environments."
+ EW_GD_units_tech:0 "Panzer-Division Großdeutschland"
+ EW_GD_units_tech_desc:0 "Establishing the Panzer-Division Großdeutschland will create a powerful armored unit that embodies the pinnacle of our tank warfare capabilities. This elite division will combine firepower, mobility, and armor to break through enemy lines and deliver decisive blows on the battlefield."
+ EW_HG_units_tech:0 "Fallschirm-Panzer-Division Hermann Göring"
+ EW_HG_units_tech_desc:0 "Forming the Fallschirm-Panzer-Division Hermann Göring will provide us with an elite combined-arms force capable of executing airborne assaults and armored operations. This division will leverage its unique blend of paratroopers and tanks to achieve strategic surprise and dominate key objectives."
+ EW_PL_units_tech:0 "Panzer-Lehr-Division"
+ EW_PL_units_tech_desc:0 "Creating the Panzer-Lehr-Division will enhance our ability to conduct advanced armored operations. This division will serve as an elite formation, utilizing cutting-edge tactics and equipment to spearhead our armored thrusts and provide a high level of combat effectiveness on the battlefield."
 
  WSS_artillery_brigade:0 "SS Artillery"
  WSS_artillery_brigade_desc:0 ""
@@ -393,3 +406,10 @@ EW_German_Units_Country.44.b:1 "No, Spain will remain neutral in this conflict."
 EW_German_Units_Country.45.t:0 "Franco Rejects the European Crusade"
 EW_German_Units_Country.45.d:0 "Despite the fervent efforts of Ramón Serrano Suñer, the Falange, and the dedicated Blueshirts, it seems that Francisco Franco has decided to distance Spain from the great European crusade against Communism. Rumors from Madrid confirm that Franco has shut down the initiative to send Spanish volunteers to fight alongside our forces on the Eastern Front. This decision has left many within Spain and across Europe disillusioned, viewing it as a betrayal of the shared struggle against the Bolshevik threat. Franco’s refusal to commit Spain to the fight against the Soviet Union is a significant blow to our efforts to unify the continent under the banner of a new order. Spain will maintain its official neutrality, leaving the burden of the crusade on the shoulders of the true defenders of Europe."
 EW_German_Units_Country.45.a:1 "The fool! If we fall to the Reds, he’s next!"
+
+WE_Create_6:0 "Brandenburger Regiment"
+WE_Create_6_desc:0 "Establish an elite unit of commandos specialized in sabotage, reconnaissance, and deep infiltration. The Brandenburger Regiment will be composed of highly trained operatives capable of executing high-risk missions behind enemy lines, paving the way for our conventional forces and disrupting enemy operations at critical junctures."
+
+EW_German_Units_Country.46.t:0 "Brandenburger Regiment"
+EW_German_Units_Country.46.d:0 "The Brandenburger Regiment has been successfully established. These elite commandos are now ready to undertake the most dangerous missions, utilizing their expertise in disguise, sabotage, and unconventional warfare. As masters of infiltration, they will strike fear into our enemies, disrupting their plans and sowing chaos behind their lines. With the Brandenburgers at our disposal, no target is beyond our reach."
+EW_German_Units_Country.46.a:1 "Create Unit"

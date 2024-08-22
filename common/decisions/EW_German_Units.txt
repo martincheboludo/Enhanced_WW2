@@ -1732,4 +1732,42 @@ WE_Create_3 = {
     }
 }
 
+#Brandenburgers
+WE_Create_6 = {
+
+    icon = ger_reichskommissariats
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+
+    }
+
+    available = {
+        date > 1940.01.01
+		#Berlin
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.46
+            }    
+        }
+    }
+}
+
 }
