@@ -674,6 +674,410 @@ Allies_EW_Decisions = {
 ##Soviet Decisions
 SOV_EW_Decisions = {
 
+		SOV_winter_campaign = {
+		icon = generic_army_support
+
+		available = {
+			tag = SOV
+			date > 1941.12.1
+			date < 1942.12.1
+			has_war_with = GER
+
+			surrender_progress > 0.01
+
+			OR = {
+				242 = { is_controlled_by_ROOT_or_ally = no }
+				208 = { is_controlled_by_ROOT_or_ally = no }
+				202 = { is_controlled_by_ROOT_or_ally = no }
+			}
+
+		}
+
+		visible = {
+			tag = SOV
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = HUN
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ROM
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			winter_attrition_factor = -0.25
+		}
+
+		days_remove = 150
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
+	SOV_operation_uranus = {
+		icon = generic_army_support
+
+		available = {
+			#is_ai = yes
+			tag = SOV
+			date > 1942.6.1
+			date < 1943.6.1
+			has_war_with = GER
+			217 = { is_controlled_by_ROOT_or_ally = yes }
+			surrender_progress > 0.01
+		}
+
+		visible = {
+			tag = SOV
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1942.11.1
+			}
+		}
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = HUN
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = ROM
+			attack_bonus_against = 0.50
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.50
+			air_cas_efficiency = 0.50
+			army_org_factor = 0.50
+			breakthrough_factor = 0.50
+			winter_attrition_factor = -0.50
+		}
+
+		days_remove = 4
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
+	SOV_operation_mars = {
+		icon = generic_army_support
+
+		available = {
+			#is_ai = yes
+			tag = SOV
+			date > 1942.6.1
+			date < 1943.6.1
+			has_war_with = GER
+			219 = { is_controlled_by_ROOT_or_ally = yes }
+			surrender_progress > 0.01
+		}
+
+		visible = {
+			tag = SOV
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1942.11.25
+			}
+		}
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = HUN
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ROM
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			winter_attrition_factor = -0.25
+		}
+
+		days_remove = 25
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	SOV_operation_bagration = {
+		icon = generic_army_support
+
+		available = {
+			#is_ai = yes
+			tag = SOV
+			date > 1944.1.1
+			date < 1945.1.1
+			has_war_with = GER
+			surrender_progress > 0.01
+
+			OR = {
+				208 = { is_controlled_by_ROOT_or_ally = yes }
+				201 = { is_controlled_by_ROOT_or_ally = yes }
+				192 = { is_controlled_by_ROOT_or_ally = yes }
+			}
+
+		}
+
+		visible = {
+			tag = SOV
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1944.6.22
+			}
+		}
+
+		days_remove = 56
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = HUN
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = ROM
+			attack_bonus_against = 0.50
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.50
+			air_cas_efficiency = 0.50
+			army_org_factor = 0.50
+			breakthrough_factor = 0.50
+			winter_attrition_factor = -0.50
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	SOV_prepare_operation_august_storm = {
+		icon = generic_army_support
+
+		available = {
+			tag = SOV
+			date > 1945.1.1
+			date < 1950.1.1
+			NOT = { has_war_with = GER }
+			NOT = { has_war_with = JAP }
+			USA = { has_war_with = JAP }
+			OR = { 
+				ENG = { has_war_with = JAP }
+				CAN = { has_war_with = JAP }
+			}
+			surrender_progress < 0.01
+		}
+
+		visible = {
+			tag = SOV
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1945.8.9
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = JAP
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Prepare_For_Operation_August_Storm
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			diplomatic_relation = {
+				country = JAP
+				relation = non_aggression_pact
+				active = no
+			}
+			create_wargoal = {			
+				expire = 100
+				target = JAP
+				type = annex_everything
+			}
+		}
+	}
+	
+	SOV_operation_august_storm = {
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = EW_Prepare_For_Operation_August_Storm
+			tag = SOV
+			date > 1945.1.1
+			date < 1950.1.1
+			has_war_with = JAP
+			surrender_progress < 0.01
+		}
+
+		visible = {
+			tag = SOV
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1945.8.9
+			}
+		}
+
+		days_remove = 11
+		
+		targeted_modifier = {
+			tag = JAP
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = MAN
+			attack_bonus_against = 0.50
+		}
+		
+		targeted_modifier = {
+			tag = MEN
+			attack_bonus_against = 0.50
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.50
+			air_cas_efficiency = 0.50
+			army_org_factor = 0.50
+			breakthrough_factor = 0.50
+			winter_attrition_factor = -0.50
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
 		SOV_russian_weather_report = {
 		icon = SOV_the_stalin_constitution
 		allowed = {

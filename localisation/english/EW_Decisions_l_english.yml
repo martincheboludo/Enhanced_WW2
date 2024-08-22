@@ -81,3 +81,23 @@ EW_Case_Blue_desc:0 "With the Soviet Union still reeling from our initial onslau
 
 EW_Operation_Sea_Lion:0 "Unternehmen Seelöwe"
 EW_Operation_Sea_Lion_desc:0 "Britain stands defiant, the last obstacle to our complete control over Western Europe. Unternehmen Seelöwe will bring the war to the British Isles, crushing their resistance and ending their hopes of prolonging the conflict. Our forces will cross the Channel and land on the southern shores of England, overwhelming the British defenses with a swift and decisive strike. The conquest of Britain will eliminate the last bastion of opposition, securing the Reich's dominance over Europe and forcing the world to acknowledge German supremacy. The time to end British defiance is now; their island fortress will soon fall."
+
+SOV_winter_campaign:0 "Winter Campaign of 1941-42"
+SOV_winter_campaign_desc:0 "We are preparing to launch our Winter Campaign of 1941-42, capitalizing on the harsh winter conditions to mount a powerful counteroffensive. Our forces are ready to exploit the weaknesses of the overstretched German lines, disrupt their advances, and reclaim the territories lost during their summer offensive. This is our chance to turn the tide and demonstrate our resilience and strategic prowess."
+
+SOV_operation_uranus:0 "Operation Uranus"
+SOV_operation_uranus_desc:0 "Operation Uranus is about to commence, with the objective of encircling and destroying the German 6th Army in Stalingrad. Our plan involves a coordinated assault on the enemy’s flanks to create a powerful encirclement. By isolating their forces, we aim to cripple their ability to fight and secure a decisive victory that will shift the balance of power on the Eastern Front."
+
+SOV_operation_mars:0 "Operation Mars"
+SOV_operation_mars_desc:0 "Operation Mars is set to begin, targeting the Rzhev salient and aimed at breaking through the entrenched German defenses. This large-scale offensive will deploy our troops in a concerted effort to regain lost ground and inflict significant damage on the enemy. With determination and strategic precision, we will challenge the German positions and push forward towards our objectives."
+
+SOV_operation_bagration:0 "Operation Bagration"
+SOV_operation_bagration_desc:0 "Operation Bagration is on the horizon, focused on liberating Belarus from German occupation. Our meticulously planned offensive will unleash overwhelming force against German Army Group Centre, aiming to dismantle their defenses and recapture critical territory. This operation will be a major step towards weakening the enemy's eastern front and restoring Soviet control over key areas."
+
+SOV_prepare_operation_august_storm:0 "Cancel Non-Aggression Pact with Japan"
+SOV_prepare_operation_august_storm_desc:0 "We have decided to terminate our Non-Aggression Pact with Japan, signaling a shift in our strategic posture. This decision will open the way for Operation August Storm, our planned offensive against Japanese forces in Manchuria. By ending this pact, we are preparing to challenge Japanese influence in the region and secure our strategic interests."
+
+SOV_operation_august_storm:0 "Operation August Storm"
+SOV_operation_august_storm_desc:0 "Operation August Storm is about to commence, targeting the Japanese Kwantung Army in Manchuria. We are mobilizing our forces to launch a decisive strike, leveraging our numerical and technological superiority. This offensive aims to swiftly defeat the Japanese forces, securing our strategic interests in the region and contributing to the overall collapse of Japanese resistance."
+
+EW_Prepare_For_Operation_August_Storm:0 "Has Cancelled Non-Aggression Pact with Japan"
