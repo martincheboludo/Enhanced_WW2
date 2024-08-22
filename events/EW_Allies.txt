@@ -2592,6 +2592,7 @@ country_event = {
 		CAN = {
 			set_major = yes
 			add_ideas = EW_BGIE
+			set_faction_leader = yes
 		}
 		
 		ENG = {
