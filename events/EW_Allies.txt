@@ -2592,7 +2592,6 @@ country_event = {
 		CAN = {
 			set_major = yes
 			add_ideas = EW_BGIE
-			set_faction_leader = yes
 		}
 		
 		ENG = {
@@ -2633,6 +2632,48 @@ country_event = {
 			factor = 1000
 		}
 		
+		hidden_effect = {
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_dominion
+					}
+				}
+				set_country_flag = EW_British_Dominion
+			}
+			
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_colony
+					}
+				}
+				set_country_flag = EW_British_Colony
+			}
+			
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_puppet
+					}
+				}
+				set_country_flag = EW_British_Puppet
+			}
+			
+			every_other_country = {
+				limit = {
+					AND = {
+						is_subject_of = ENG
+						has_autonomy_state = autonomy_integrated_puppet
+					}
+				}
+				set_country_flag = EW_British_Integrated_Puppet
+			}
+		}
+		
 		ENG = {
 			add_stability = 0.10
 			add_war_support = 0.15
@@ -2644,6 +2685,8 @@ country_event = {
 				ideology = conservatism
 			}
 		}
+		
+		CAN = { set_faction_leader = yes }
 		
 		hidden_effect = { 
 			news_event = { id = EW_Allies_News.5 hours = 6 }
@@ -2708,7 +2751,7 @@ country_event = {
 		}
 		
 		CAN = {
-			set_faction_leader = yes
+			#set_faction_leader = yes
 			country_event = { id = EW_Allies_Country.10 hours = 6 }
 			hidden_effect = { set_global_flag = EW_ENG_CAN_Fusion }
 		}
@@ -2720,9 +2763,9 @@ country_event = {
 			factor = 30
 		}
 		
-		CAN = {
-			set_faction_leader = yes
-		}
+		#CAN = {
+		#	set_faction_leader = yes
+		#}
 		
 		hidden_effect = { 
 			news_event = { id = EW_Allies_News.7 hours = 6 }
@@ -2742,48 +2785,6 @@ country_event = {
 		name = EW_Allies_Country.10.a
 		ai_chance = {
 			factor = 1000
-		}
-		
-		hidden_effect = {
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_dominion
-					}
-				}
-				set_country_flag = EW_British_Dominion
-			}
-			
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_colony
-					}
-				}
-				set_country_flag = EW_British_Colony
-			}
-			
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_puppet
-					}
-				}
-				set_country_flag = EW_British_Puppet
-			}
-			
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_integrated_puppet
-					}
-				}
-				set_country_flag = EW_British_Integrated_Puppet
-			}
 		}
 		
 		ENG = {
