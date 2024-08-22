@@ -328,5 +328,17 @@ spriteType = {
 		texturefile = "gfx/texticons/DAK_nato_unit_mechanized_icon_small.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_nato_unit_BR_paratroopers_icon_small"
+		texturefile = "gfx/texticons/BR_nato_unit_paratroop_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_BR_paratroopers_icon_small"
+		texturefile = "gfx/texticons/BR_unit_paratroop_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 
 }
