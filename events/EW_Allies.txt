@@ -2550,6 +2550,49 @@ country_event = {
 	mean_time_to_happen = {
 		days = 7
 	}
+	immediate = {
+		hidden_effect = {
+				every_other_country = {
+					limit = {
+						AND = {
+							is_subject_of = ENG
+							has_autonomy_state = autonomy_dominion
+						}
+					}
+					set_country_flag = EW_British_Dominion
+				}
+				
+				every_other_country = {
+					limit = {
+						AND = {
+							is_subject_of = ENG
+							has_autonomy_state = autonomy_colony
+						}
+					}
+					set_country_flag = EW_British_Colony
+				}
+				
+				every_other_country = {
+					limit = {
+						AND = {
+							is_subject_of = ENG
+							has_autonomy_state = autonomy_puppet
+						}
+					}
+					set_country_flag = EW_British_Puppet
+				}
+				
+				every_other_country = {
+					limit = {
+						AND = {
+							is_subject_of = ENG
+							has_autonomy_state = autonomy_integrated_puppet
+						}
+					}
+					set_country_flag = EW_British_Integrated_Puppet
+				}
+		}
+	}
 	option = {
 		name = EW_Allies_Country.5.a
 		ai_chance = {
@@ -2571,7 +2614,6 @@ country_event = {
 		}
 		
 		add_ideas = EW_We_Shall_Never_Surrender
-		
 
 	}
 }
@@ -2630,48 +2672,6 @@ country_event = {
 		name = EW_Allies_Country.7.a
 		ai_chance = {
 			factor = 1000
-		}
-		
-		hidden_effect = {
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_dominion
-					}
-				}
-				set_country_flag = EW_British_Dominion
-			}
-			
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_colony
-					}
-				}
-				set_country_flag = EW_British_Colony
-			}
-			
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_puppet
-					}
-				}
-				set_country_flag = EW_British_Puppet
-			}
-			
-			every_other_country = {
-				limit = {
-					AND = {
-						is_subject_of = ENG
-						has_autonomy_state = autonomy_integrated_puppet
-					}
-				}
-				set_country_flag = EW_British_Integrated_Puppet
-			}
 		}
 		
 		ENG = {
@@ -2811,6 +2811,7 @@ country_event = {
 			every_other_country = {
 				limit = {
 					OR = {
+						is_subject_of = ENG
 						has_country_flag = EW_British_Dominion
 						has_country_flag = EW_British_Colony
 						has_country_flag = EW_British_Puppet
@@ -2878,7 +2879,13 @@ country_event = {
 			set_capital = { state = 276 }
 			every_other_country = {
 				limit = {
-					is_subject_of = ENG
+					OR = {
+						is_subject_of = ENG
+						has_country_flag = EW_British_Dominion
+						has_country_flag = EW_British_Colony
+						has_country_flag = EW_British_Puppet
+						has_country_flag = EW_British_Integrated_Puppet
+					}
 				}
 				country_event = { id = EW_Allies_Country.16 hours = 6 }
 			}
@@ -3609,7 +3616,13 @@ country_event = {
 		}
 		every_other_country = {
 			limit = {
-				is_subject_of = ENG
+				OR = {
+					is_subject_of = ENG
+					has_country_flag = EW_British_Dominion
+					has_country_flag = EW_British_Colony
+					has_country_flag = EW_British_Puppet
+					has_country_flag = EW_British_Integrated_Puppet
+				}
 			}
 			country_event = { id = EW_Allies_Country.116 hours = 6 }
 		}
@@ -3629,7 +3642,13 @@ country_event = {
 		}
 		every_other_country = {
 			limit = {
-				is_subject_of = ENG
+				OR = {
+					is_subject_of = ENG
+					has_country_flag = EW_British_Dominion
+					has_country_flag = EW_British_Colony
+					has_country_flag = EW_British_Puppet
+					has_country_flag = EW_British_Integrated_Puppet
+				}
 			}
 			country_event = { id = EW_Allies_Country.122 hours = 6 }
 		}
@@ -4144,6 +4163,12 @@ country_event = {
 			factor = 1000
 		}
 		FROM = { end_puppet = ROOT }
+		leave_faction = yes
+		white_peace = GER
+		every_country = {
+			limit = { is_in_faction_with = GER }
+			white_peace = ROOT
+		}
 	}
 		option = {
 			name = EW_Allies_Country.122.b
