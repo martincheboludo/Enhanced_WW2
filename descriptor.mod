@@ -6,4 +6,4 @@ tags={
 	"Events"
 }
 name="Enhanced_WW2"
-supported_version="1.13.6"
+supported_version="1.14.7"

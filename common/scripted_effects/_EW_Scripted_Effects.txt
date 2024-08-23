@@ -1,4 +1,5 @@
 EW_Equipment_Mechanized_Remove = {
+	add_manpower = -13200
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -910 }
@@ -9,6 +10,7 @@ EW_Equipment_Mechanized_Remove = {
 }
 
 EW_Equipment_Infantry_Remove = {
+	add_manpower = -11900
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1010 }
@@ -25,6 +27,7 @@ EW_Equipment_Infantry_DA_Remove = {
 }
 
 EW_Equipment_Medium_Tank_Remove = {
+	add_manpower = -11100
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -610 }
@@ -35,6 +38,7 @@ EW_Equipment_Medium_Tank_Remove = {
 }
 
 EW_Equipment_Mechanized_Remove = {
+	add_manpower = -13200
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -910 }
@@ -45,6 +49,7 @@ EW_Equipment_Mechanized_Remove = {
 }
 
 EW_Equipment_Motorized_Remove = {
+	add_manpower = -13900
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1010 }
@@ -54,6 +59,7 @@ EW_Equipment_Motorized_Remove = {
 
 
 EW_Equipment_Mountain_Remove = {
+	add_manpower = -11900
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1410 }
@@ -62,6 +68,7 @@ EW_Equipment_Mountain_Remove = {
 }
 
 EW_Equipment_Cavalry_Remove = {
+	add_manpower = -11900
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1210 }
@@ -70,6 +77,7 @@ EW_Equipment_Cavalry_Remove = {
 }
 
 EW_Equipment_DAK_Remove = {
+	add_manpower = -24300
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -48 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -25 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1520 }
@@ -80,6 +88,7 @@ EW_Equipment_DAK_Remove = {
 }
 
 EW_Equipment_Paratrooper_Regiment_Remove = {
+	add_manpower = -4900
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -400 }
