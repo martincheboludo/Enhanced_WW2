@@ -101,3 +101,12 @@ SOV_operation_august_storm:0 "Operation August Storm"
 SOV_operation_august_storm_desc:0 "Operation August Storm is about to commence, targeting the Japanese Kwantung Army in Manchuria. We are mobilizing our forces to launch a decisive strike, leveraging our numerical and technological superiority. This offensive aims to swiftly defeat the Japanese forces, securing our strategic interests in the region and contributing to the overall collapse of Japanese resistance."
 
 EW_Prepare_For_Operation_August_Storm:0 "Has Cancelled Non-Aggression Pact with Japan"
+
+USA_operation_torch:0 "Operation Torch"
+USA_operation_torch_desc:0 "Launch a bold invasion of French North Africa, targeting key ports and cities held by Vichy France. This operation aims to secure the region as a staging ground for further Allied advances into Axis-held Europe, weakening Germany's grip on the Mediterranean and opening up a new front."
+USA_operation_husky:0 "Operation Husky"
+USA_operation_husky_desc:0 "Commence the invasion of Sicily, the first step in the Allied campaign to liberate Italy from Axis control. By seizing the island, the Allies will force Germany and Italy to defend their southern flank, paving the way for the eventual liberation of mainland Europe."
+USA_operation_overlord:0 "Operation Overlord"
+USA_operation_overlord_desc:0 "Embark on the largest amphibious invasion in history by storming the beaches of Normandy. This operation is the keystone of the Allied strategy to liberate Western Europe from Nazi occupation. Success here will open the road to Paris and signal the beginning of the end for Hitler's regime."
+USA_operation_dragoon:0 "Operation Dragoon"
+USA_operation_dragoon_desc:0 "Execute the invasion of Southern France to complement the ongoing efforts in Normandy. By liberating key Mediterranean ports and cutting off German forces in the region, the Allies will secure vital supply lines and hasten the collapse of German resistance in France."

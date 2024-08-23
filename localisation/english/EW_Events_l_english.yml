@@ -203,11 +203,11 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Germany_Country.212.a:1 "Securing our victory!"
  
  EW_Germany_Country.213.t:0 "German Invasion Imminent"
- EW_Germany_Country.213.d:0 "Recent intelligence reports and reconnaissance missions have revealed a massive buildup of German forces along the coast of southern England. It is clear that the Germans are preparing for an imminent invasion. The exact timing of their assault remains uncertain, but it could happen at any moment. Our military advisors urge immediate action to bolster our defenses and mobilize our troops. The fate of the nation hangs in the balance as we face one of the most critical moments in our history. Prepare your forces, reinforce key positions, and ensure that our defenses are ready to repel the incoming assault. The clock is ticking, and every moment counts. The German threat is real and imminent—act now to safeguard our shores and protect the United Kingdom from invasion."
+ EW_Germany_Country.213.d:0 "Recent intelligence reports and reconnaissance missions have revealed a massive buildup of German forces along the coast of southern England. The Axis powers are preparing for an imminent invasion of Britain, a move that threatens the very heart of the Allied war effort. The exact timing of their assault remains uncertain, but it could happen at any moment. Allied military advisors are urging immediate action to bolster defenses and mobilize troops. The fate of Britain, and indeed the entire Allied cause, hangs in the balance as we face one of the most critical moments of the war. Prepare our forces, reinforce key positions, and ensure that our defenses are ready to repel the incoming assault. The clock is ticking, and every moment counts. The German threat is real and imminent—act now to safeguard Britain and protect the Allied front."
  EW_Germany_Country.213.a:1 "We Will Fight Them On The Beaches"
  
  EW_Germany_Country.214.t:0 "German Invasion Imminent"
- EW_Germany_Country.214.d:0 "Recent intelligence has confirmed that German forces are preparing for a large-scale invasion of Norway under the codename Operation Weserübung. The buildup of German troops and naval assets near our borders indicates that an assault is imminent. The exact timing of the invasion is still unclear, but we must prepare for the worst. Our military advisors are urgently recommending that we fortify our defenses and mobilize our forces immediately. The fate of Norway hangs in the balance as we face a critical moment in our history. Prepare our coastal defenses, reinforce key positions, and ensure that our military is ready to resist the impending invasion. Time is of the essence. The German threat is real and imminent—take action now to protect Norway from being overrun."
+ EW_Germany_Country.214.d:0 "Recent intelligence has confirmed that German forces are preparing for a large-scale invasion of Norway under the codename Operation Weserübung. The buildup of German troops and naval assets near Norway’s borders indicates that an assault is imminent. This invasion threatens to undermine the Allied presence in Scandinavia and could have far-reaching consequences for the entire war. Military advisors within the Allied command are urgently recommending that Norway’s defenses be fortified and its forces mobilized immediately. The fate of Norway, and the security of the northern Allied front, hangs in the balance. Prepare Norway’s coastal defenses, reinforce key positions, and ensure that the country is ready to resist the impending invasion. Time is of the essence. The German threat is real and imminent—take action now to protect Norway and the Allied war effort."
  EW_Germany_Country.214.a:1 "We Will Resist!"
  
  EW_Germany_Country.215.t:0 "The Invasion of Norway Begins"
@@ -412,6 +412,42 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Allies_Country.132.t:0 "America Sends Lend-Lease"
  EW_Allies_Country.132.d:0 "The arrival of Lend-Lease aid from the United States marks a turning point in our battle against Japanese aggression. With this generous support, we are receiving vital military supplies, including aircraft, trucks, and equipment, which are crucial for sustaining our resistance. The American aid enhances our fighting capabilities and demonstrates the strength of our alliance. This support is a testament to the shared commitment to defeating the Axis powers and securing a future of peace and stability in Asia. Together with our American partners, we will continue our relentless fight for victory."
  EW_Allies_Country.132.a:1 "Accept Lend-Lease Aid"
+ 
+ EW_Allies_Country.133.t:0 "Sabotage in the West"
+ EW_Allies_Country.133.d:0 "As tensions rise across occupied France, a disturbing report has just arrived at the Führer's headquarters. The French Resistance, emboldened by the growing presence of Allied forces across the Channel, has launched a wave of coordinated sabotage against vital German infrastructure. Railways are severed, supply depots set ablaze, and communication lines cut, plunging entire sectors into chaos. These brazen acts of defiance threaten to undermine the Wehrmacht's ability to respond swiftly to any potential invasion. With each passing day, the shadow of an impending assault looms ever larger, and the cost of maintaining control over France grows heavier."
+ EW_Allies_Country.133.a:1 "Prepare for the Worst!"
+ 
+ EW_Allies_Country.134.t:0 "Operation Torch"
+ EW_Allies_Country.134.d:0 "The Allies have launched Operation Torch, a massive amphibious assault on the coast of French North Africa. American and British forces are storming the beaches, aiming to seize control of key ports and cities from Vichy France. This bold move marks the beginning of a new front in the Mediterranean, threatening Axis control in the region."
+ EW_Allies_Country.134.a:1 "Onward to Victory!"
+ 
+ EW_Allies_Country.135.t:0 "Allied Invasion of North Africa Imminent!"
+ EW_Allies_Country.135.d:0 "German intelligence reports indicate an imminent Allied invasion of French North Africa. The enemy seeks to undermine our position in the Mediterranean and open a new front. We must strengthen our defenses and prepare for a fierce battle to repel this invasion and maintain control over the region."
+ EW_Allies_Country.135.a:1 "Fortify Our Positions!"
+ 
+ EW_Allies_Country.136.t:0 "Operation Husky"
+ EW_Allies_Country.136.d:0 "Operation Husky is underway as Allied forces land on the shores of Sicily. This strategic island is the key to controlling the Mediterranean and serves as a stepping stone for the liberation of Italy. The Allies are determined to break Axis power in southern Europe and drive the enemy northward."
+ EW_Allies_Country.136.a:1 "Secure the Island!"
+ 
+ EW_Allies_Country.137.t:0 "Allied Invasion of Sicily Imminent!"
+ EW_Allies_Country.137.d:0 "The Allies are preparing for a large-scale invasion of Sicily. Their objective is clear: to capture this vital stronghold and use it as a launching pad for further attacks into the Italian mainland. We must brace for impact and ensure that the defenses of the island hold firm against the onslaught."
+ EW_Allies_Country.137.a:1 "Defend Sicily at All Costs!"
+ 
+ EW_Allies_Country.138.t:0 "Operation Overlord"
+ EW_Allies_Country.138.d:0 "The long-awaited Operation Overlord has begun. Allied forces are storming the beaches of Normandy in a massive assault that marks the beginning of the liberation of Western Europe. This is the most crucial battle of the war, and success here will pave the way for the defeat of Nazi Germany."
+ EW_Allies_Country.138.a:1 "Fight for Freedom!"
+ 
+ EW_Allies_Country.139.t:0 "Allied Invasion of Northern France Imminent!"
+ EW_Allies_Country.139.d:0 "Reports from across the Channel suggest that the Allies are on the verge of launching a major invasion of northern France. The enemy’s target is the heart of our occupied territories. We must prepare our forces to counter this attack and prevent the Allies from gaining a foothold on the continent."
+ EW_Allies_Country.139.a:1 "Prepare for the Invasion!"
+ 
+ EW_Allies_Country.140.t:0 "Operation Dragoon"
+ EW_Allies_Country.140.d:0 "Operation Dragoon has commenced, with Allied forces landing on the southern coast of France. Their aim is to liberate the region and link up with forces advancing from Normandy, tightening the noose around the German occupiers. The push into Southern France marks another significant step in the Allied campaign to reclaim Europe."
+ EW_Allies_Country.140.a:1 "Advance with Determination!"
+ 
+ EW_Allies_Country.141.t:0 "Allied Invasion of Southern France Imminent!"
+ EW_Allies_Country.141.d:0 "The Allies are preparing to invade Southern France in a bid to weaken our defensive lines and liberate occupied territories. Intelligence indicates that a large amphibious force is gathering, ready to strike. We must reinforce our southern defenses and prevent this invasion from succeeding."
+ EW_Allies_Country.141.a:1 "Hold the Line!"
  
  EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
  EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
