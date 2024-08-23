@@ -475,6 +475,77 @@ EW_Case_White = {
 #Allies Decisions
 Allies_EW_Decisions = {
 
+ENG_British_Invasion_of_Iraq = {
+		icon = generic_army_support
+		
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = CAN
+			}
+		}
+
+		available = {
+			OR = {
+				AND = {
+					tag = ENG
+					NOT = { CAN = { has_idea = EW_BGIE } }
+				}
+				AND = {
+					tag = CAN
+					has_idea = EW_BGIE
+				}
+			}
+			date > 1941.1.1
+			date < 1942.1.1
+			has_war_with = GER
+			NOT = { has_war_with = IRQ }
+			surrender_progress < 0.01
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			OR = {
+				AND = {
+					tag = ENG
+					NOT = { CAN = { has_idea = EW_BGIE } }
+				}
+				AND = {
+					tag = CAN
+					has_idea = EW_BGIE
+				}
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.5.2
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = IRQ
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {			
+				expire = 100
+				target = IRQ
+				type = annex_everything
+			}
+		}
+	}
+
 	USA_operation_torch = {
 		icon = generic_army_support
 
@@ -492,9 +563,12 @@ Allies_EW_Decisions = {
 				461 = { is_controlled_by_ROOT_or_ally = no }
 			}
 		}
+		
+		allowed = {
+			tag = USA
+		}
 
 		visible = {
-			tag = USA
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -605,9 +679,12 @@ Allies_EW_Decisions = {
 			459 = { is_controlled_by_ROOT_or_ally = yes }
 			461 = { is_controlled_by_ROOT_or_ally = yes }
 		}
+		
+		allowed = {
+			tag = USA
+		}
 
 		visible = {
-			tag = USA
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -716,9 +793,12 @@ Allies_EW_Decisions = {
 			29 = { is_controlled_by_ROOT_or_ally = no }
 			785 = { is_controlled_by_ROOT_or_ally = no }
 		}
+		
+		allowed = {
+			tag = USA
+		}
 	
 		visible = {
-			tag = USA
 			NOT = { has_country_flag = EW_Operation }
 		}
 	
@@ -825,9 +905,12 @@ Allies_EW_Decisions = {
 		29 = { is_controlled_by_ROOT_or_ally = yes }
 		785 = { is_controlled_by_ROOT_or_ally = yes }
 		}
+		
+		allowed = {
+			tag = USA
+		}
 	
 		visible = {
-		tag = USA
 		NOT = { has_country_flag = EW_Operation }
 		}
 	
@@ -1163,9 +1246,12 @@ SOV_EW_Decisions = {
 			}
 
 		}
+		
+		allowed = {
+			tag = SOV
+		}
 
 		visible = {
-			tag = SOV
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -1228,9 +1314,12 @@ SOV_EW_Decisions = {
 			217 = { is_controlled_by_ROOT_or_ally = yes }
 			surrender_progress > 0.01
 		}
+		
+		allowed = {
+			tag = SOV
+		}
 
 		visible = {
-			tag = SOV
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -1297,9 +1386,12 @@ SOV_EW_Decisions = {
 			219 = { is_controlled_by_ROOT_or_ally = yes }
 			surrender_progress > 0.01
 		}
+		
+		allowed = {
+			tag = SOV
+		}
 
 		visible = {
-			tag = SOV
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -1372,9 +1464,12 @@ SOV_EW_Decisions = {
 			}
 
 		}
+		
+		allowed = {
+			tag = SOV
+		}
 
 		visible = {
-			tag = SOV
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -1439,15 +1534,19 @@ SOV_EW_Decisions = {
 			NOT = { has_war_with = GER }
 			NOT = { has_war_with = JAP }
 			USA = { has_war_with = JAP }
+			NOT = { is_in_faction_with = JAP }
 			OR = { 
 				ENG = { has_war_with = JAP }
 				CAN = { has_war_with = JAP }
 			}
 			surrender_progress < 0.01
 		}
+		
+		allowed = {
+			tag = SOV
+		}
 
 		visible = {
-			tag = SOV
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -1497,9 +1596,12 @@ SOV_EW_Decisions = {
 			has_war_with = JAP
 			surrender_progress < 0.01
 		}
+		
+		allowed = {
+			tag = SOV
+		}
 
 		visible = {
-			tag = SOV
 			NOT = { has_country_flag = EW_Operation }
 		}
 
@@ -1552,7 +1654,7 @@ SOV_EW_Decisions = {
 		SOV_russian_weather_report = {
 		icon = SOV_the_stalin_constitution
 		allowed = {
-		
+			tag = SOV
 		}
 		available = {
 			surrender_progress > 0
