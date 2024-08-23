@@ -243,7 +243,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		64 = {
 			if = {
@@ -275,7 +275,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		52 = {
 			if = {
@@ -307,7 +307,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		52 = {
 			if = {
@@ -339,7 +339,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mechanized_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mechanized_Remove = yes }
 		
 		65 = {
 			if = {
@@ -371,7 +371,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		50 = {
 			if = {
@@ -403,7 +403,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mountain_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mountain_Remove = yes }
 		
 		763 = {
 			if = {
@@ -435,7 +435,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mountain_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mountain_Remove = yes }
 		
 		52 = {
 			if = {
@@ -467,7 +467,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Cavalry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Cavalry_Remove = yes }
 		
 		65 = {
 			if = {
@@ -499,7 +499,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		65 = {
 			if = {
@@ -531,7 +531,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		57 = {
 			if = {
@@ -563,7 +563,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mechanized_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mechanized_Remove = yes }
 		
 		64 = {
 			if = {
@@ -595,7 +595,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 		
 		16 = {
 			if = {
@@ -627,7 +627,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mountain_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mountain_Remove = yes }
 		
 		104 = {
 			if = {
@@ -659,7 +659,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		89 = {
 			if = {
@@ -691,7 +691,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		808 = {
 			if = {
@@ -723,7 +723,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mechanized_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mechanized_Remove = yes }
 		
 		57 = {
 			if = {
@@ -755,7 +755,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mechanized_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mechanized_Remove = yes }
 		
 		64 = {
 			if = {
@@ -787,7 +787,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		64 = {
 			if = {
@@ -821,7 +821,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		808 = {
 			if = {
@@ -853,7 +853,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		812 = {
 			if = {
@@ -885,7 +885,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mountain_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mountain_Remove = yes }
 		
 		44 = {
 			if = {
@@ -917,7 +917,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Cavalry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Cavalry_Remove = yes }
 		
 		155 = {
 			if = {
@@ -949,7 +949,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mountain_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mountain_Remove = yes }
 		
 		103 = {
 			if = {
@@ -981,7 +981,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Mountain_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mountain_Remove = yes }
 		
 		736 = {
 			if = {
@@ -1013,7 +1013,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		155 = {
 			if = {
@@ -1045,7 +1045,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		43 = {
 			if = {
@@ -1077,7 +1077,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		54 = {
 			if = {
@@ -1109,7 +1109,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		54 = {
 			if = {
@@ -1141,7 +1141,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		159 = {
 			if = {
@@ -1173,7 +1173,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		65 = {
 			if = {
@@ -1205,7 +1205,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		57 = {
 			if = {
@@ -1237,7 +1237,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		42 = {
 			if = {
@@ -1269,7 +1269,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		43 = {
 			if = {
@@ -1301,7 +1301,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		7 = {
 			if = {
@@ -1333,7 +1333,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		64 = {
 			if = {
@@ -1365,7 +1365,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		66 = {
 			if = {
@@ -1397,7 +1397,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Cavalry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Cavalry_Remove = yes }
 		
 		66 = {
 			if = {
@@ -1429,7 +1429,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 		
 		4 = {
 			if = {
@@ -1546,7 +1546,7 @@ country_event = {
 			}
 		}
 		
-		EW_Equipment_DAK_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_DAK_Remove = yes }
 		
 		hidden_effect = { 
 			news_event = { id = EW_German_Units_News.39 hours = 6 }
@@ -1644,7 +1644,7 @@ country_event = {
 			}
 		}
 		
-		EW_Equipment_Mechanized_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Mechanized_Remove = yes }
 
 	}
 
@@ -1712,7 +1712,7 @@ country_event = {
 			}
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 
 	}
 
@@ -1780,7 +1780,7 @@ country_event = {
 			}
 		}
 		
-		EW_Equipment_Medium_Tank_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Medium_Tank_Remove = yes }
 
 	}
 
@@ -1852,7 +1852,7 @@ country_event = {
 			}
 		}
 		
-		EW_Equipment_Infantry_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
 
 	}
 
@@ -1973,7 +1973,7 @@ country_event = {
 			}
 		}
 		
-		EW_Equipment_Paratrooper_Regiment_Remove = yes
+		if  = { limit  = { is_ai = no} EW_Equipment_Paratrooper_Regiment_Remove = yes }
 
 	}
 
