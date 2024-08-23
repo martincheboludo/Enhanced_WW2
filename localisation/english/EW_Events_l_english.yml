@@ -244,6 +244,20 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Soviet_Country.7.d:0 "With Poland choosing not to accept our assistance, we must evaluate our strategy moving forward. We will explore other options for advancing our interests and securing our position in Eastern Europe. Our diplomatic and military efforts will need to adapt to the evolving situation on the continent."
  EW_Soviet_Country.7.a:1 "Fools, they will perish alone. Their fate is sealed."
  
+ EW_Soviet_Country.8.t:0 "[ENG.GetAdjective] Proposal for Joint Invasion of Persia"
+ EW_Soviet_Country.8.d:0 "We have received a proposal from our [ENG.GetAdjective] allies suggesting a joint invasion of Persia (Iran). They argue that this operation would facilitate Lend-Lease deliveries and potentially grant us access to Iranian oil reserves, which could greatly benefit our war efforts. However, this operation would also mean engaging with another enemy, which could stretch our already strained resources as we focus on the fight against Germany. We must carefully consider whether the strategic benefits outweigh the risks and the additional burden on our military forces. Should we proceed with this joint invasion or focus our efforts elsewhere?"
+ EW_Soviet_Country.8.a:1 "Accept"
+ EW_Soviet_Country.8.b:1 "Decline"
+ 
+ EW_Soviet_Country.9.t:0 "[SOV.GetName] Accepts"
+ EW_Soviet_Country.9.d:0 "The [SOV.GetName] has agreed to join us in the invasion of Persia. This decision will enhance our strategic position by securing vital oil resources and ensuring the smooth delivery of Lend-Lease supplies to the [SOV.GetAdjective] front. The coordinated effort between our forces will be crucial in executing this operation successfully. Our combined strength will help us achieve our objectives and strengthen the Allied position in the Middle East."
+ EW_Soviet_Country.9.a:1 "Excellent"
+ 
+ EW_Soviet_Country.10.t:0 "[SOV.GetName] Declines"
+ EW_Soviet_Country.10.d:0 "The [SOV.GetName] has declined our proposal for a joint invasion of Persia. With the [SOV.GetAdjective] opting out, we must decide our next course of action. We can either proceed with the invasion independently or call off the operation. The decision will impact our strategic plans and the resources allocated to the Middle East campaign."
+ EW_Soviet_Country.10.a:1 "Invade Without The [SOV.GetName]"
+ EW_Soviet_Country.10.b:1 "Call Off Operation"
+ 
  EW_Allies_Country.2.t:0 "[GER.GetAdjective] Aggression Against [FROM.GetName]"
  EW_Allies_Country.2.d:0 "Recent intelligence reports indicate that [GER.GetName] is amassing large numbers of troops along its borders with [FROM.GetName]. The signs are unmistakable—[GER.GetLeader]'s regime is poised to break the fragile peace that has held Europe together since the Great War. This blatant act of aggression threatens not only [FROM.GetName] but the stability of the entire continent. The eyes of the world are upon us, expecting a response. Shall we stand firm in defense of freedom, or will we retreat into neutrality and risk the consequences of unchecked tyranny?"
  EW_Allies_Country.2.a:1 "Guarantee their independence"

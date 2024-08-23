@@ -500,6 +500,7 @@ ENG_British_Invasion_of_Iraq = {
 			date < 1942.1.1
 			has_war_with = GER
 			NOT = { has_war_with = IRQ }
+			NOT = { in_faction_with = IRQ }
 			surrender_progress < 0.01
 		}
 
@@ -527,6 +528,13 @@ ENG_British_Invasion_of_Iraq = {
 				factor = 0
 				date < 1941.5.2
 			}
+			modifier = {
+				#Need a land link
+				NOT = {
+					is_neighbor_of = IRQ
+				}
+				factor = 0
+			}
 		}
 
 		days_remove = 7
@@ -542,6 +550,85 @@ ENG_British_Invasion_of_Iraq = {
 				expire = 100
 				target = IRQ
 				type = annex_everything
+			}
+		}
+	}
+	
+	ENG_British_Invasion_of_Iran = {
+		icon = generic_army_support
+		
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = CAN
+			}
+		}
+
+		available = {
+			OR = {
+				AND = {
+					tag = ENG
+					NOT = { CAN = { has_idea = EW_BGIE } }
+				}
+				AND = {
+					tag = CAN
+					has_idea = EW_BGIE
+				}
+			}
+			date > 1941.1.1
+			date < 1942.1.1
+			has_war_with = GER
+			NOT = { has_war_with = PER }
+			NOT = { in_faction_with = PER }
+			NOT = { has_war_with = SOV }
+			SOV = { has_war_with = GER }
+			surrender_progress < 0.01
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			OR = {
+				AND = {
+					tag = ENG
+					NOT = { CAN = { has_idea = EW_BGIE } }
+				}
+				AND = {
+					tag = CAN
+					has_idea = EW_BGIE
+				}
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.5.17
+			}
+			modifier = {
+				#Need a land link
+				NOT = {
+					is_neighbor_of = PER
+				}
+				factor = 0
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = PER
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			SOV = {
+				country_event = { id = EW_Soviet_Country.8 hours = 6 }	
 			}
 		}
 	}

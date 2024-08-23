@@ -2019,3 +2019,126 @@ country_event = {
 	}
 
 }
+
+#British Proposes Joint Invasion
+country_event = {
+	id = EW_Soviet_Country.8
+	title = EW_Soviet_Country.8.t
+	desc = EW_Soviet_Country.8.d
+	picture = GFX_report_event_British_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Accept Soviet Assistance
+		name = EW_Soviet_Country.8.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		create_wargoal = {			
+			expire = 100
+			target = PER
+			type = annex_everything
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Soviet_Country.9
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		#Reject Soviet Offer
+		name = EW_Soviet_Country.8.b
+
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Soviet_Country.10
+				hours = 6
+			}
+		}
+
+
+	}
+
+}
+
+#USSR Accepts
+country_event = {
+	id = EW_Soviet_Country.9
+	title = EW_Soviet_Country.9.t
+	desc = EW_Soviet_Country.9.d
+	picture = GFX_report_event_Stalin_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Soviet_Country.9.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		create_wargoal = {			
+			expire = 100
+			target = PER
+			type = annex_everything
+		}
+
+	}
+
+}
+
+#USSR Declines
+country_event = {
+	id = EW_Soviet_Country.10
+	title = EW_Soviet_Country.10.t
+	desc = EW_Soviet_Country.10.d
+	picture = GFX_report_event_Stalin_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Soviet_Country.10.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		create_wargoal = {			
+			expire = 100
+			target = PER
+			type = annex_everything
+		}
+
+	}
+	
+	option = {
+		name = EW_Soviet_Country.10.b
+
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_war_support = -0.1
+
+	}
+
+}
