@@ -1,3 +1,12 @@
+EW_Equipment_Infantry_DA = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1009 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
 
 EW_Equipment_Infantry = {
 	AND = {
@@ -6,6 +15,18 @@ EW_Equipment_Infantry = {
 		has_equipment = { infantry_equipment > 1009 }
 		has_equipment = { motorized_equipment > 29 }
 		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_DAK = {
+	AND = {
+		has_equipment = { anti_tank_equipment > 47 }
+		has_equipment = { artillery_equipment > 24 }
+		has_equipment = { infantry_equipment > 1519 }
+		has_equipment = { mechanized_equipment > 599 }
+		has_equipment = { motorized_equipment > 59 }
+		has_equipment = { support_equipment > 159 }
+		has_equipment = { medium_tank_chassis > 249 }
 	}
 }
 
@@ -62,6 +83,14 @@ EW_Equipment_Cavalry = {
 		has_equipment = { motorized_equipment > 29 }
 		has_equipment = { support_equipment > 79 }
 	}
+}
+
+EW_Equipment_Paratrooper_Regiment = {
+	has_equipment = { anti_tank_equipment amount > 23 }
+	has_equipment = { artillery_equipment amount > 11 }
+	has_equipment = { infantry_equipment amount > 399 }
+	has_equipment = { motorized_equipment amount > 29 }
+	has_equipment = { support_equipment amount = > 79 }
 }
 
 is_russian_winter = {

@@ -291,7 +291,7 @@ country_event = {
 
 }
 
-#3rd SS Panzergrenadier Division - Totenkopf
+#3rd SS Panzer Division - Totenkopf
 country_event = {
 	id = EW_German_Units_Country.3
 	title = EW_German_Units_Country.3.t
@@ -1852,7 +1852,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+		if  = { limit  = { is_ai = no} EW_Equipment_Infantry_DA_Remove = yes }
 
 	}
 

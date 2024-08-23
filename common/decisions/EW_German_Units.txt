@@ -109,6 +109,12 @@ SS_Create_Waffen_SS_1 = {
         date > 1940.01.01
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+		
     }
 
     ai_will_do = {
@@ -146,6 +152,10 @@ SS_Create_Waffen_SS_2 = {
         date > 1940.01.01
 		#Munich
 		52 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -183,6 +193,10 @@ SS_Create_Waffen_SS_3 = {
         date > 1940.01.01
 		#Munich
 		52 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -220,6 +234,10 @@ SS_Create_Waffen_SS_4 = {
         date > 1940.01.01
 		#Berlin
 		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
     }
 
     ai_will_do = {
@@ -257,6 +275,10 @@ SS_Create_Waffen_SS_5 = {
         date > 1940.01.01
 		#Baden
 		50 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -274,7 +296,7 @@ SS_Create_Waffen_SS_5 = {
         }
     }
 }
-
+#6th SS Gebirgs Division - Nord
 SS_Create_Waffen_SS_6 = {
 
     icon = ger_reichskommissariats
@@ -293,6 +315,10 @@ SS_Create_Waffen_SS_6 = {
     available = {
         date > 1941.01.01
 		763 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
     }
 
     ai_will_do = {
@@ -310,7 +336,7 @@ SS_Create_Waffen_SS_6 = {
         }
     }
 }
-
+#7th SS Mountain Division - Prinz Eugen
 SS_Create_Waffen_SS_7 = {
 
     icon = ger_reichskommissariats
@@ -329,6 +355,10 @@ SS_Create_Waffen_SS_7 = {
     available = {
         date > 1942.01.01
 		52 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
     }
 
     ai_will_do = {
@@ -346,7 +376,7 @@ SS_Create_Waffen_SS_7 = {
         }
     }
 }
-
+#8th SS Kavallerie Division - Florian Geyer
 SS_Create_Waffen_SS_8 = {
 
     icon = ger_reichskommissariats
@@ -365,6 +395,10 @@ SS_Create_Waffen_SS_8 = {
     available = {
         date > 1941.01.01
 		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Cavalry = yes
+		}
     }
 
     ai_will_do = {
@@ -382,7 +416,7 @@ SS_Create_Waffen_SS_8 = {
         }
     }
 }
-
+#9th SS Panzer Division - Hohenstaufen
 SS_Create_Waffen_SS_9 = {
 
     icon = ger_reichskommissariats
@@ -401,6 +435,10 @@ SS_Create_Waffen_SS_9 = {
     available = {
         date > 1943.01.01
 		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -418,7 +456,7 @@ SS_Create_Waffen_SS_9 = {
         }
     }
 }
-
+#10th SS Panzer Division - Frundsberg
 SS_Create_Waffen_SS_10 = {
 
     icon = ger_reichskommissariats
@@ -437,6 +475,10 @@ SS_Create_Waffen_SS_10 = {
     available = {
         date > 1943.01.01
 		57 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -454,7 +496,7 @@ SS_Create_Waffen_SS_10 = {
         }
     }
 }
-
+#11th SS Panzergrenadier Division - Nordland
 SS_Create_Waffen_SS_11 = {
 
     icon = ger_reichskommissariats
@@ -473,6 +515,10 @@ SS_Create_Waffen_SS_11 = {
     available = {
         date > 1943.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
     }
 
     ai_will_do = {
@@ -490,7 +536,7 @@ SS_Create_Waffen_SS_11 = {
         }
     }
 }
-
+#12th SS Panzer Division - Hitlerjugend
 SS_Create_Waffen_SS_12 = {
 
     icon = ger_reichskommissariats
@@ -509,6 +555,10 @@ SS_Create_Waffen_SS_12 = {
     available = {
         date > 1943.01.01
 		16 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -526,7 +576,7 @@ SS_Create_Waffen_SS_12 = {
         }
     }
 }
-
+#13th SS Mountain Division - Handschar
 SS_Create_Waffen_SS_13 = {
 
     icon = ger_reichskommissariats
@@ -545,6 +595,10 @@ SS_Create_Waffen_SS_13 = {
     available = {
         date > 1943.01.01
 		104 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
     }
 
     ai_will_do = {
@@ -562,7 +616,7 @@ SS_Create_Waffen_SS_13 = {
         }
     }
 }
-#
+#14. Waffen-Grenadier-Division der SS (1. Galizische)
 SS_Create_Waffen_SS_14 = {
 
     icon = ger_reichskommissariats
@@ -581,6 +635,10 @@ SS_Create_Waffen_SS_14 = {
     available = {
         date > 1943.01.01
 		89 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -598,7 +656,7 @@ SS_Create_Waffen_SS_14 = {
         }
     }
 }
-
+#15th SS Grenadier Division - Lettische
 SS_Create_Waffen_SS_15 = {
 
     icon = ger_reichskommissariats
@@ -617,6 +675,10 @@ SS_Create_Waffen_SS_15 = {
     available = {
         date > 1943.01.01
 		808 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -634,7 +696,7 @@ SS_Create_Waffen_SS_15 = {
         }
     }
 }
-
+#16th SS Grenadier Division - Reichsführer-SS
 SS_Create_Waffen_SS_16 = {
 
     icon = ger_reichskommissariats
@@ -653,6 +715,10 @@ SS_Create_Waffen_SS_16 = {
     available = {
         date > 1943.01.01
 		57 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -670,7 +736,7 @@ SS_Create_Waffen_SS_16 = {
         }
     }
 }
-
+#17th SS Panzergrenadier Division - Götz von Berlichingen
 SS_Create_Waffen_SS_17 = {
 
     icon = ger_reichskommissariats
@@ -689,6 +755,10 @@ SS_Create_Waffen_SS_17 = {
     available = {
         date > 1943.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
     }
 
     ai_will_do = {
@@ -706,7 +776,7 @@ SS_Create_Waffen_SS_17 = {
         }
     }
 }
-
+#18th SS Grenadier Division - Horst Wessel
 SS_Create_Waffen_SS_18 = {
 
     icon = ger_reichskommissariats
@@ -725,6 +795,10 @@ SS_Create_Waffen_SS_18 = {
     available = {
         date > 1944.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -742,7 +816,7 @@ SS_Create_Waffen_SS_18 = {
         }
     }
 }
-
+#19th SS Grenadier Division - Lettische Nr. 2
 SS_Create_Waffen_SS_19 = {
 
     icon = ger_reichskommissariats
@@ -761,6 +835,10 @@ SS_Create_Waffen_SS_19 = {
     available = {
         date > 1944.01.01
 		808 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -778,7 +856,7 @@ SS_Create_Waffen_SS_19 = {
         }
     }
 }
-
+#20th SS Grenadier Division - Estnische
 SS_Create_Waffen_SS_20 = {
 
     icon = ger_reichskommissariats
@@ -797,6 +875,10 @@ SS_Create_Waffen_SS_20 = {
     available = {
         date > 1944.01.01
 		812 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -814,7 +896,7 @@ SS_Create_Waffen_SS_20 = {
         }
     }
 }
-
+#21st SS Mountain Division - Skanderbeg
 SS_Create_Waffen_SS_21 = {
 
     icon = ger_reichskommissariats
@@ -833,6 +915,10 @@ SS_Create_Waffen_SS_21 = {
     available = {
         date > 1944.01.01
 		44 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
     }
 
     ai_will_do = {
@@ -850,7 +936,7 @@ SS_Create_Waffen_SS_21 = {
         }
     }
 }
-
+#22nd SS Grenadier Division - Maria Theresia
 SS_Create_Waffen_SS_22 = {
 
     icon = ger_reichskommissariats
@@ -869,6 +955,10 @@ SS_Create_Waffen_SS_22 = {
     available = {
         date > 1944.01.01
 		155 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -886,7 +976,7 @@ SS_Create_Waffen_SS_22 = {
         }
     }
 }
-
+#23. Waffen Gebirgs-Division der SS Kama (2. Kroatische)
 SS_Create_Waffen_SS_23 = {
 
     icon = ger_reichskommissariats
@@ -905,6 +995,10 @@ SS_Create_Waffen_SS_23 = {
     available = {
         date > 1944.01.01
 		103 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
     }
 
     ai_will_do = {
@@ -922,7 +1016,7 @@ SS_Create_Waffen_SS_23 = {
         }
     }
 }
-
+#24. Waffen-Gebirgs-Division der SS Karstjäger
 SS_Create_Waffen_SS_24 = {
 
     icon = ger_reichskommissariats
@@ -941,6 +1035,10 @@ SS_Create_Waffen_SS_24 = {
     available = {
         date > 1942.01.01
 		736 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
     }
 
     ai_will_do = {
@@ -958,7 +1056,7 @@ SS_Create_Waffen_SS_24 = {
         }
     }
 }
-
+#25. Waffen-Grenadier-Division der SS Hunyadi (1. Ungarisch)
 SS_Create_Waffen_SS_25 = {
 
     icon = ger_reichskommissariats
@@ -977,6 +1075,10 @@ SS_Create_Waffen_SS_25 = {
     available = {
         date > 1944.01.01
 		155 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -994,7 +1096,7 @@ SS_Create_Waffen_SS_25 = {
         }
     }
 }
-
+#26. Waffen-Grenadier-Division der SS Hungaria (2. Ungarisch)
 SS_Create_Waffen_SS_26 = {
 
     icon = ger_reichskommissariats
@@ -1013,6 +1115,10 @@ SS_Create_Waffen_SS_26 = {
     available = {
         date > 1944.01.01
 		43 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1030,7 +1136,7 @@ SS_Create_Waffen_SS_26 = {
         }
     }
 }
-
+#27. SS-Freiwilligen-Grenadier-Division Langemarck (1. Flämische)
 SS_Create_Waffen_SS_27 = {
 
     icon = ger_reichskommissariats
@@ -1049,6 +1155,10 @@ SS_Create_Waffen_SS_27 = {
     available = {
         date > 1943.01.01
 		54 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1066,7 +1176,7 @@ SS_Create_Waffen_SS_27 = {
         }
     }
 }
-
+#28. SS-Freiwilligen-Grenadier-Division (1. Wallonien)
 SS_Create_Waffen_SS_28 = {
 
     icon = ger_reichskommissariats
@@ -1085,6 +1195,10 @@ SS_Create_Waffen_SS_28 = {
     available = {
         date > 1943.01.01
 		54 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1102,7 +1216,7 @@ SS_Create_Waffen_SS_28 = {
         }
     }
 }
-
+#29. Waffen-Grenadier-Division der SS (1. Italienische)
 SS_Create_Waffen_SS_29 = {
 
     icon = ger_reichskommissariats
@@ -1121,6 +1235,10 @@ SS_Create_Waffen_SS_29 = {
     available = {
         date > 1944.01.01
 		159 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1138,7 +1256,7 @@ SS_Create_Waffen_SS_29 = {
         }
     }
 }
-
+#30. Waffen-Grenadier-Division der SS (1. Weißruthenische)
 SS_Create_Waffen_SS_30 = {
 
     icon = ger_reichskommissariats
@@ -1157,6 +1275,10 @@ SS_Create_Waffen_SS_30 = {
     available = {
         date > 1944.01.01
 		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1174,7 +1296,7 @@ SS_Create_Waffen_SS_30 = {
         }
     }
 }
-
+#31. SS-Freiwilligen-Grenadier-Division Batschka
 SS_Create_Waffen_SS_31 = {
 
     icon = ger_reichskommissariats
@@ -1193,6 +1315,10 @@ SS_Create_Waffen_SS_31 = {
     available = {
         date > 1944.01.01
 		57 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1210,7 +1336,7 @@ SS_Create_Waffen_SS_31 = {
         }
     }
 }
-
+#32. SS-Freiwilligen-Grenadier-Division 30. Januar
 SS_Create_Waffen_SS_32 = {
 
     icon = ger_reichskommissariats
@@ -1231,6 +1357,10 @@ SS_Create_Waffen_SS_32 = {
     available = {
         date > 1945.01.01
 		42 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1248,7 +1378,7 @@ SS_Create_Waffen_SS_32 = {
         }
     }
 }
-
+#33. Waffen-Kavallerie-Division der SS (3. Ungarische)
 SS_Create_Waffen_SS_33 = {
 
     icon = ger_reichskommissariats
@@ -1267,6 +1397,10 @@ SS_Create_Waffen_SS_33 = {
     available = {
         date > 1944.01.01
 		43 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Cavalry = yes
+		}
     }
 
     ai_will_do = {
@@ -1284,7 +1418,7 @@ SS_Create_Waffen_SS_33 = {
         }
     }
 }
-
+#34. SS-Freiwilligen-Grenadier-Division Landstorm Nederland
 SS_Create_Waffen_SS_34 = {
 
     icon = ger_reichskommissariats
@@ -1303,6 +1437,10 @@ SS_Create_Waffen_SS_34 = {
     available = {
         date > 1943.01.01
 		7 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1320,7 +1458,7 @@ SS_Create_Waffen_SS_34 = {
         }
     }
 }
-
+#35. SS- und Polizei-Grenadier-Division
 SS_Create_Waffen_SS_35 = {
 
     icon = ger_reichskommissariats
@@ -1339,6 +1477,10 @@ SS_Create_Waffen_SS_35 = {
     available = {
         date > 1945.01.01
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1356,7 +1498,7 @@ SS_Create_Waffen_SS_35 = {
         }
     }
 }
-
+#36. Waffen-Grenadier-Division der SS Dirlewanger
 SS_Create_Waffen_SS_36 = {
 
     icon = ger_reichskommissariats
@@ -1375,6 +1517,10 @@ SS_Create_Waffen_SS_36 = {
     available = {
         date > 1940.01.01
 		66 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1392,7 +1538,7 @@ SS_Create_Waffen_SS_36 = {
         }
     }
 }
-
+#37. SS-Freiwilligen-Kavallerie-Division Lützow
 SS_Create_Waffen_SS_37 = {
 
     icon = ger_reichskommissariats
@@ -1411,6 +1557,10 @@ SS_Create_Waffen_SS_37 = {
     available = {
         date > 1945.01.01
 		66 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Cavalry = yes
+		}
     }
 
     ai_will_do = {
@@ -1428,7 +1578,7 @@ SS_Create_Waffen_SS_37 = {
         }
     }
 }
-
+#38. SS-Grenadier-Division Nibelungen
 SS_Create_Waffen_SS_38 = {
 
     icon = ger_reichskommissariats
@@ -1447,6 +1597,10 @@ SS_Create_Waffen_SS_38 = {
     available = {
         date > 1945.01.01
 		4 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
     }
 
     ai_will_do = {
@@ -1486,6 +1640,11 @@ WE_Create_DAK = {
 		date > 1941.1.1
 		448 = { is_controlled_by_ROOT_or_ally = yes }
 		has_tech = mechanised_infantry
+		
+		OR  = {
+			is_ai = yes
+			EW_Equipment_DAK = yes
+		}
 		
 			OR = {
 				custom_trigger_tooltip = {
@@ -1584,6 +1743,10 @@ WE_Create_0 = {
         date > 1943.01.01
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
     }
 
     ai_will_do = {
@@ -1601,7 +1764,7 @@ WE_Create_0 = {
         }
     }
 }
-
+#Panzer-Lehr-Division
 WE_Create_1 = {
 
     icon = ger_reichskommissariats
@@ -1621,6 +1784,10 @@ WE_Create_1 = {
         date > 1943.01.01
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -1638,7 +1805,7 @@ WE_Create_1 = {
         }
     }
 }
-
+#Fallschirm-Panzer-Division 1 Hermann Göring
 WE_Create_2 = {
 
     icon = ger_reichskommissariats
@@ -1658,6 +1825,10 @@ WE_Create_2 = {
         date > 1944.01.01
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
     }
 
     ai_will_do = {
@@ -1675,7 +1846,7 @@ WE_Create_2 = {
         }
     }
 }
-
+#250. Infanterie-Division (Spanische)
 WE_Create_3 = {
 
     icon = ger_reichskommissariats
@@ -1697,6 +1868,10 @@ WE_Create_3 = {
 		has_war_with = SOV
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry_DA = yes
+		}
 		OR = {
 			41 = { is_controlled_by_ROOT_or_ally = yes }
 			AND = {
@@ -1752,6 +1927,10 @@ WE_Create_6 = {
         date > 1940.01.01
 		#Berlin
 		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Paratrooper_Regiment = yes
+		}
     }
 
     ai_will_do = {
