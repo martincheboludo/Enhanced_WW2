@@ -50,4 +50,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/Germany/Wehrmacht.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_Red_Army_EW"
+		texturefile = "gfx/interface/decisions/Russia/Red_Army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_US_Army_EW"
+		texturefile = "gfx/interface/decisions/America/US_Army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_British_Army_EW"
+		texturefile = "gfx/interface/decisions/Britain/British_Army.dds"
+	}
+	
 }
