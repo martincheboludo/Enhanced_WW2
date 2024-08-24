@@ -1767,7 +1767,7 @@ country_event = {
 		name = EW_Soviet_Country.4.a
 
 		ai_chance = {
-			factor = 50
+			factor = 40
 			modifier = {
 				any_other_country = {
 					has_guaranteed = POL
@@ -1798,7 +1798,7 @@ country_event = {
 		name = EW_Soviet_Country.4.b
 
 		ai_chance = {
-			factor = 50
+			factor = 60
 			modifier = {
 				any_country = {
 					is_major = yes

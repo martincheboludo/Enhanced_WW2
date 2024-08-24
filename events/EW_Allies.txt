@@ -4809,6 +4809,18 @@ country_event = {
 				}
 				load_oob = ENG_OPERATION_TORCH
 			}
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_TORCH }
+				}
+				set_global_flag = EW_OPERATION_TORCH
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.13 hours = 6 }
+				}
+			}
+			
+			
 		
 
 	}
@@ -4864,6 +4876,16 @@ country_event = {
 				}
 				load_oob = ENG_OPERATION_HUSKY
 			}
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_HUSKY }
+				}
+				set_global_flag = EW_OPERATION_HUSKY
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.14 hours = 6 }
+				}
+			}
 		
 
 	}
@@ -4918,6 +4940,16 @@ country_event = {
 					tag = ENG
 				}
 				load_oob = ENG_OPERATION_OVERLORD
+			}
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_OVERLORD }
+				}
+				set_global_flag = EW_OPERATION_OVERLORD
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.15 hours = 6 }
+				}
 			}
 		
 
@@ -4983,6 +5015,16 @@ country_event = {
 				}
 				load_oob = FRA_OPERATION_DRAGOON
 			}
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_DRAGOON }
+				}
+				set_global_flag = EW_OPERATION_DRAGOON
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.16 hours = 6 }
+				}
+			}
 		
 
 	}
@@ -5005,6 +5047,466 @@ country_event = {
 		}
 		
 		add_war_support = 0.1
+
+	}
+
+}
+
+#Britain Demand for Occupation of Iceland
+country_event = {
+	id = EW_Allies_Country.142
+	title = EW_Allies_Country.142.t
+	desc = EW_Allies_Country.142.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.142.a
+
+		ai_chance = {
+			factor = 700
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.143
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.142.b
+
+		ai_chance = {
+			factor = 300
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.144
+				hours = 6
+			}
+		}
+
+	}
+
+}
+
+#Country Accepts
+country_event = {
+	id = EW_Allies_Country.143
+	title = EW_Allies_Country.143.t
+	desc = EW_Allies_Country.143.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.143.a
+
+		ai_chance = {
+			factor = 1000
+		}
+
+		transfer_state = 100
+
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.10 hours = 6 }
+		}
+
+	}
+
+}
+
+#Country Reject Demand
+country_event = {
+	id = EW_Allies_Country.144
+	title = EW_Allies_Country.144.t
+	desc = EW_Allies_Country.144.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.144.a
+
+		ai_chance = {
+			factor = 850
+		}
+		
+		transfer_state = 100
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.153
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.144.b
+
+		ai_chance = {
+			factor = 150
+		}
+		
+		add_war_support = -0.10
+
+
+	}
+
+}
+
+#USA Demand for Occupation of Iceland
+country_event = {
+	id = EW_Allies_Country.145
+	title = EW_Allies_Country.145.t
+	desc = EW_Allies_Country.145.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.145.a
+
+		ai_chance = {
+			factor = 900
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.146
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.145.b
+
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.147
+				hours = 6
+			}
+		}
+
+	}
+
+}
+
+#Country Accepts
+country_event = {
+	id = EW_Allies_Country.146
+	title = EW_Allies_Country.146.t
+	desc = EW_Allies_Country.146.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.146.a
+
+		ai_chance = {
+			factor = 1000
+		}
+
+		transfer_state = 100	
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.11 hours = 6 }
+		}
+
+	}
+
+}
+
+#Country Reject Demand
+country_event = {
+	id = EW_Allies_Country.147
+	title = EW_Allies_Country.147.t
+	desc = EW_Allies_Country.147.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.147.a
+
+		ai_chance = {
+			factor = 750
+		}
+		
+		transfer_state = 100
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.148
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.147.b
+
+		ai_chance = {
+			factor = 250
+		}
+		
+		add_war_support = -0.10
+
+
+	}
+
+}
+
+#Invaded Anyways What To Do
+country_event = {
+	id = EW_Allies_Country.148
+	title = EW_Allies_Country.148.t
+	desc = EW_Allies_Country.148.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.148.a
+
+		ai_chance = {
+			factor = 50
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.11 hours = 6 }
+		}
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.148.b
+
+		ai_chance = {
+			factor = 950
+		}
+		
+		add_war_support = -0.10
+
+
+	}
+
+}
+
+#USA Demand for Occupation of Iceland
+country_event = {
+	id = EW_Allies_Country.149
+	title = EW_Allies_Country.149.t
+	desc = EW_Allies_Country.149.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.149.a
+
+		ai_chance = {
+			factor = 800
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.150
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.149.b
+
+		ai_chance = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.151
+				hours = 6
+			}
+		}
+
+	}
+
+}
+
+#Country Accepts
+country_event = {
+	id = EW_Allies_Country.150
+	title = EW_Allies_Country.150.t
+	desc = EW_Allies_Country.150.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.150.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.12 hours = 6 }
+		}
+
+		transfer_state = 100	
+
+	}
+
+}
+
+#Country Reject Demand
+country_event = {
+	id = EW_Allies_Country.151
+	title = EW_Allies_Country.151.t
+	desc = EW_Allies_Country.151.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.151.a
+
+		ai_chance = {
+			factor = 650
+		}
+		
+		transfer_state = 100
+		
+		FROM = {
+			country_event = {
+				id = EW_Allies_Country.152
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.151.b
+
+		ai_chance = {
+			factor = 350
+		}
+		
+		add_war_support = -0.10
+
+
+	}
+
+}
+
+#Invaded Anyways What To Do
+country_event = {
+	id = EW_Allies_Country.152
+	title = EW_Allies_Country.152.t
+	desc = EW_Allies_Country.152.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.152.a
+
+		ai_chance = {
+			factor = 200
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.12 hours = 6 }
+		}
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.152.b
+
+		ai_chance = {
+			factor = 800
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.12 hours = 6 }
+		}
+		
+		add_war_support = -0.10
+
+
+	}
+
+}
+
+#Invaded Anyways What To Do
+country_event = {
+	id = EW_Allies_Country.153
+	title = EW_Allies_Country.153.t
+	desc = EW_Allies_Country.153.d
+	picture = GFX_report_event_British_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.153.a
+
+		ai_chance = {
+			factor = 150
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.10 hours = 6 }
+		}
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+
+	}
+	
+	option = {
+		name = EW_Allies_Country.153.b
+
+		ai_chance = {
+			factor = 850
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.10 hours = 6 }
+		}
+		
+		add_war_support = -0.10
+
 
 	}
 
@@ -5118,6 +5620,97 @@ news_event = {
 	major = yes
 	option = {
 		name = EW_Allies_News.9.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#British Forces Occupy Iceland
+news_event = {
+	id = EW_Allies_News.10
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.10.t
+	desc = EW_Allies_News.10.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.10.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#American Forces Occupy Iceland
+news_event = {
+	id = EW_Allies_News.11
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.11.t
+	desc = EW_Allies_News.11.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.11.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#American Forces Occupy Greenland
+news_event = {
+	id = EW_Allies_News.12
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.12.t
+	desc = EW_Allies_News.12.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.12.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#Allied Forces Storm North Africa!
+news_event = {
+	id = EW_Allies_News.13
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.13.t
+	desc = EW_Allies_News.13.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.13.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#Allied Troops Land in Sicily!
+news_event = {
+	id = EW_Allies_News.14
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.14.t
+	desc = EW_Allies_News.14.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.14.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#D-Day: Allies Land on Normandy Beaches!
+news_event = {
+	id = EW_Allies_News.15
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.15.t
+	desc = EW_Allies_News.15.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.15.a
+		ai_chance = { factor = 1000 }
+	}
+}
+#Allies Strike Southern France!
+news_event = {
+	id = EW_Allies_News.16
+	picture = GFX_news_event_British_Soldiers_News
+	title = EW_Allies_News.16.t
+	desc = EW_Allies_News.16.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.16.a
 		ai_chance = { factor = 1000 }
 	}
 }

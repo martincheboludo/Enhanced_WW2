@@ -500,7 +500,7 @@ ENG_British_Invasion_of_Iraq = {
 			date < 1942.1.1
 			has_war_with = GER
 			NOT = { has_war_with = IRQ }
-			NOT = { in_faction_with = IRQ }
+			NOT = { is_in_faction_with = IRQ }
 			surrender_progress < 0.01
 		}
 
@@ -579,7 +579,7 @@ ENG_British_Invasion_of_Iraq = {
 			date < 1942.1.1
 			has_war_with = GER
 			NOT = { has_war_with = PER }
-			NOT = { in_faction_with = PER }
+			NOT = { is_in_faction_with = PER }
 			NOT = { has_war_with = SOV }
 			SOV = { has_war_with = GER }
 			surrender_progress < 0.01
@@ -629,6 +629,283 @@ ENG_British_Invasion_of_Iraq = {
 			clr_country_flag = EW_Operation
 			SOV = {
 				country_event = { id = EW_Soviet_Country.8 hours = 6 }	
+			}
+		}
+	}
+	
+	ENG_British_Occupation_of_Iceland = {
+		icon = generic_army_support
+		
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = CAN
+			}
+		}
+
+		available = {
+			OR = {
+				AND = {
+					tag = ENG
+					NOT = { CAN = { has_idea = EW_BGIE } }
+				}
+				AND = {
+					tag = CAN
+					has_idea = EW_BGIE
+				}
+			}
+			date > 1940.1.1
+			date < 1941.1.1
+			has_war_with = GER
+			surrender_progress < 0.01
+			
+			NOT = { owns_state = 100 }
+			NOT = {
+				any_country = {
+					has_war_with = ENG
+					OR = {
+						controls_state = 100
+						owns_state = 100
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Denmark Has Fallen"
+				OR = {
+					DEN = {
+						has_capitulated = yes
+					}
+					DEN = {
+						exists = no
+					}
+					DEN = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 37
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 37
+						}
+					}
+				}
+			}
+			
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			OR = {
+				AND = {
+					tag = ENG
+					NOT = { CAN = { has_idea = EW_BGIE } }
+				}
+				AND = {
+					tag = CAN
+					has_idea = EW_BGIE
+				}
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1940.4.1
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = ICE
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			every_country = {
+				limit = { owns_state = 100 }
+				country_event = { id = EW_Allies_Country.142 hours = 6 }	
+			}
+		}
+	}
+	
+	USA_America_Occupation_of_Iceland = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			date > 1941.1.1
+			date < 1942.1.1
+			OR = {
+				has_war_with = GER
+				ENG = { has_war_with = GER }
+				CAN = { has_war_with = GER }
+			}
+			surrender_progress < 0.01
+			
+			NOT = { owns_state = 100 }
+			NOT = {
+				any_country = {
+					has_war_with = USA
+					OR = {
+						controls_state = 100
+						owns_state = 100
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Denmark Has Fallen"
+				OR = {
+					DEN = {
+						has_capitulated = yes
+					}
+					DEN = {
+						exists = no
+					}
+					DEN = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 37
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 37
+						}
+					}
+				}
+			}
+			
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.7.7
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = ICE
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			every_country = {
+				limit = { owns_state = 100 }
+				country_event = { id = EW_Allies_Country.145 hours = 6 }	
+			}
+		}
+	}
+	
+	USA_America_Occupation_of_Greenland = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			date > 1941.1.1
+			date < 1942.1.1
+			OR = {
+				has_war_with = GER
+				ENG = { has_war_with = GER }
+				CAN = { has_war_with = GER }
+			}
+			surrender_progress < 0.01
+			
+			NOT = { owns_state = 101 }
+			NOT = {
+				any_country = {
+					has_war_with = USA
+					OR = {
+						controls_state = 101
+						owns_state = 101
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Denmark Has Fallen"
+				OR = {
+					DEN = {
+						has_capitulated = yes
+					}
+					DEN = {
+						exists = no
+					}
+					DEN = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 37
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 37
+						}
+					}
+				}
+			}
+			
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.4.9
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = DEN
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			every_country = {
+				limit = { owns_state = 101 }
+				country_event = { id = EW_Allies_Country.149 hours = 6 }	
 			}
 		}
 	}
@@ -2569,7 +2846,7 @@ GER_EW_Decisions = {
 						is_subject_of = GER
 					}
 					OR = {
-						ENG = {
+						GER = {
 							controls_state = 126
 						}
 						any_other_country = {

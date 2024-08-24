@@ -463,6 +463,63 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Allies_Country.141.d:0 "The Allies are preparing to invade Southern France in a bid to weaken our defensive lines and liberate occupied territories. Intelligence indicates that a large amphibious force is gathering, ready to strike. We must reinforce our southern defenses and prevent this invasion from succeeding."
  EW_Allies_Country.141.a:1 "Hold the Line!"
  
+ EW_Allies_Country.142.t:0 "[ENG.GetAdjective] Demand for Occupation of Iceland"
+ EW_Allies_Country.142.d:0 "The [ENG.GetAdjective] government has sent a formal demand for the occupation of Iceland, citing the need to secure the North Atlantic against [GER.GetAdjective] threats. They argue that this occupation is crucial for preventing Nazi forces from using our territory as a base for operations. However, accepting this demand would compromise our sovereignty and drag us into the conflict, while declining might provoke a military response from [ENG.GetName]."
+ EW_Allies_Country.142.a:1 "Accept the [ENG.GetAdjective] demand."
+ EW_Allies_Country.142.b:1 "Reject the demand and maintain neutrality."
+ 
+ EW_Allies_Country.143.t:0 "[FROM.GetName] Agrees to [ENG.GetAdjective] Occupation"
+ EW_Allies_Country.143.d:0 "The [FROM.GetAdjective] government has reluctantly agreed to allow [ENG.GetAdjective] forces to occupy their territory. This peaceful occupation will allow us to establish a strategic presence in the North Atlantic, securing vital sea lanes and preventing any [GER.GetAdjective] expansion into the region. Our forces can now move in and fortify the island without resistance."
+ EW_Allies_Country.143.a:1 "Prepare the occupation forces immediately."
+ 
+ EW_Allies_Country.144.t:0 "[FROM.GetName] Rejects [ENG.GetAdjective] Demand"
+ EW_Allies_Country.144.d:0 "The [FROM.GetAdjective] government has refused our demand for occupation, choosing to remain neutral in the conflict. This rejection poses a significant risk, as it leaves the door open for potential [GER.GetAdjective] influence in the region. We now face a critical decision: respect [FROM.GetAdjective]'s sovereignty and risk [GER.GetAdjective] occupation or proceed with a military invasion to secure the island by force."
+ EW_Allies_Country.144.a:1 "Launch the invasion and secure Iceland."
+ EW_Allies_Country.144.b:1 "Respect their decision and let it be."
+ 
+ EW_Allies_Country.145.t:0 "[USA.GetAdjective] Demand for Occupation of Iceland"
+ EW_Allies_Country.145.d:0 "The [USA.GetName] has formally requested to take over the occupation of Iceland from our forces. They argue that this transfer is essential for securing the North Atlantic and relieving our forces for other operations. However, handing over control to the [USA.GetAdjective]s could be seen as diminishing our influence in the region, though it would strengthen our alliance and free up resources for other critical fronts."
+ EW_Allies_Country.145.a:1 "Agree to transfer Iceland to [USA.GetAdjective] control."
+ EW_Allies_Country.145.b:1 "Decline the request and maintain our occupation."
+ 
+ EW_Allies_Country.146.t:0 "[FROM.GetName] Agrees to Transfer Iceland"
+ EW_Allies_Country.146.d:0 "The [FROM.GetAdjective] government has agreed to our request to take over the occupation of Iceland. This strategic handover allows us to strengthen our presence in the North Atlantic, securing critical sea lanes and providing a base for operations closer to Europe. Our forces are now poised to move in and take control of the island, ensuring its security and bolstering our war effort."
+ EW_Allies_Country.146.a:1 "Prepare the occupation forces immediately."
+ 
+ EW_Allies_Country.147.t:0 "[FROM.GetName] Rejects Our Demand"
+ EW_Allies_Country.147.d:0 "The [FROM.GetAdjective] government has refused our request to transfer control of Iceland to our forces, choosing to maintain their occupation. However, the strategic importance of Iceland in securing the North Atlantic cannot be overstated. With the looming threat of [GER.GetAdjective] expansion, we must consider taking action to secure the island, regardless of [FROM.GetName]'s stance."
+ EW_Allies_Country.147.a:1 "Occupy Iceland anyway."
+ EW_Allies_Country.147.b:1 "Respect their decision and continue as is."
+ 
+ EW_Allies_Country.148.t:0 "[USA.GetName] Seize Iceland"
+ EW_Allies_Country.148.d:0 "Despite our refusal, [USA.GetAdjective] forces have unilaterally occupied Iceland, citing the necessity of preventing any [GER.GetAdjective] foothold in the North Atlantic. They have presented us with a fait accompli, justifying their actions as essential for the broader Allied war effort. This aggressive move leaves us with a difficult choice: accept the occupation and avoid further conflict, or respond forcefully, which could mean the end of Lend-Lease and the addition of a powerful new enemy while we are still fully engaged with the Axis powers."
+ EW_Allies_Country.148.a:1 "Declare war on the United States."
+ EW_Allies_Country.148.b:1 "Let the issue go and avoid further conflict."
+ 
+ EW_Allies_Country.149.t:0 "[USA.GetAdjective] Demand for Occupation of Greenland"
+ EW_Allies_Country.149.d:0 "The [USA.GetName] has formally requested to take control of Greenland, citing its strategic importance in the defense of the Western Hemisphere and the North Atlantic. They argue that establishing a military presence on the island is crucial to prevent any potential Axis incursion. However, allowing [USA.GetAdjective] forces to occupy Greenland would mean relinquishing our control over the territory, though it could strengthen the broader Allied war effort."
+ EW_Allies_Country.149.a:1 "Agree to transfer Greenland to [USA.GetAdjective] control."
+ EW_Allies_Country.149.b:1 "Decline the request and maintain our control."
+ 
+ EW_Allies_Country.150.t:0 "Greenland Occupation Approved"
+ EW_Allies_Country.150.d:0 "The [FROM.GetAdjective] government has agreed to our request to occupy Greenland. This strategic acquisition will allow us to establish a crucial base for operations in the North Atlantic, securing critical sea lanes and ensuring the defense of the Western Hemisphere. Our forces are now ready to move in and take control of the island, solidifying our position against any potential Axis threats."
+ EW_Allies_Country.150.a:1 "Prepare the occupation forces immediately."
+ 
+ EW_Allies_Country.151.t:0 "Greenland Occupation Denied"
+ EW_Allies_Country.151.d:0 "The [FROM.GetAdjective] government has refused our request to occupy Greenland, choosing to retain control over the island. However, the strategic importance of Greenland cannot be ignored, and with the ongoing threat of Axis expansion, we must consider whether to respect their decision or take matters into our own hands."
+ EW_Allies_Country.151.a:1 "Occupy Greenland anyway."
+ EW_Allies_Country.151.b:1 "Respect their decision and continue as is."
+ 
+ EW_Allies_Country.152.t:0 "[USA.GetAdjective]s Forcefully Occupy Greenland"
+ EW_Allies_Country.152.d:0 "Despite our clear refusal, [USA.GetAdjective] forces have taken control of Greenland by force, citing the necessity of securing the island against any potential Axis influence. This aggressive action has been justified by the [USA.GetAdjective]s as essential to the defense of the Western Hemisphere and the North Atlantic. We now face a critical decision: accept this violation of our sovereignty to avoid escalating the conflict, or retaliate and risk a war with the [USA.GetName], a conflict that could bring severe consequences."
+ EW_Allies_Country.152.a:1 "Declare war on the [USA.GetName]."
+ EW_Allies_Country.152.b:1 "Let the issue go and avoid further conflict."
+ 
+ EW_Allies_Country.153.t:0 "[ENG.GetAdjective] Forces Invade Iceland"
+ EW_Allies_Country.153.d:0 "Despite our clear refusal to allow [ENG.GetAdjective] forces to occupy our territory, they have proceeded with an invasion, seizing control of strategic positions across Iceland. The [ENG.GetAdjective] government justifies this act by claiming the necessity of securing the North Atlantic against [GER.GetAdjective] threats. This invasion is a direct violation of our sovereignty, and we now face a crucial decision; accept this occupation to avoid further conflict or retaliate and risk war with [ENG.GetName], a move that could have severe consequences for our nation."
+ EW_Allies_Country.153.a:1 "Declare war on [ENG.GetName]."
+ EW_Allies_Country.153.b:1 "Let the issue go and avoid further conflict."
+ 
  EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
  EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
  EW_Allies_News.2.a:1 "Interesting..."
@@ -494,6 +551,34 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Allies_News.9.t:0 "The Fall of Britain"
  EW_Allies_News.9.d:0 "In a staggering turn of events, the British Isles have fallen under Nazi occupation, marking the end of an era for one of the world’s most storied empires. The relentless advance of German forces has brought Britain to its knees, concluding a chapter of fierce resistance and profound sacrifice. The absence of decisive intervention by the United States has left Britain isolated and unable to fend off the overwhelming might of the Nazi war machine. As the last vestiges of British authority crumble, the world watches with bated breath, contemplating the implications of this seismic shift in global power dynamics. The fall of Britain signals a dramatic realignment of allegiances and raises questions about the future direction of the war and the stability of the international order."
  EW_Allies_News.9.a:1 "Interesting..."
+ 
+ EW_Allies_News.10.t:0 "[ENG.GetAdjective] Forces Occupy Iceland"
+ EW_Allies_News.10.d:0 "In a significant move, [ENG.GetAdjective] forces have occupied Iceland, citing the strategic importance of the North Atlantic in the ongoing war against [GER.GetAdjective] aggression. The [ENG.GetAdjective] government argued that the occupation was necessary to prevent Nazi forces from gaining a foothold in the region. While Iceland's government initially resisted the demand, [ENG.GetName] proceeded with the occupation, claiming it was vital for securing vital sea lanes and maintaining control over the North Atlantic. The occupation has raised concerns globally, as the balance of power in the region continues to shift amid the broader conflict."
+ EW_Allies_News.10.a:1 "The world watches as tensions rise."
+ 
+ EW_Allies_News.11.t:0 "[USA.GetAdjective] Forces Occupy Iceland"
+ EW_Allies_News.11.d:0 "In a bold strategic move, [USA.GetAdjective] forces have occupied Iceland, taking control of the island from [ENG.GetAdjective] hands. The [USA.GetAdjective] government justified the action by emphasizing the need to secure the North Atlantic against potential [GER.GetAdjective] threats, ensuring that Nazi forces could not establish a base in this crucial region. While this occupation has been presented as a necessary step for the broader Allied war effort, it has sparked international debate over the growing [USA.GetAdjective] influence in Europe and the potential implications for post-war geopolitics."
+ EW_Allies_News.11.a:1 "Observers question the growing reach of [USA.GetAdjective] power."
+ 
+ EW_Allies_News.12.t:0 "[USA.GetAdjective] Forces Occupy Greenland"
+ EW_Allies_News.12.d:0 "[USA.GetAdjective] forces have taken control of Greenland, following the refusal of its government to allow an [USA.GetAdjective] occupation. The [USA.GetAdjective] government argued that the occupation was essential to prevent Nazi forces from establishing a foothold in the North Atlantic and to protect vital shipping routes. The unilateral action has drawn mixed reactions globally, with some viewing it as a necessary step for Allied security, while others see it as an aggressive assertion of [USA.GetAdjective] power. The occupation of Greenland marks another critical point in the ever-expanding scope of the Second World War."
+ EW_Allies_News.12.a:1 "Global tensions rise as the conflict expands."
+ 
+EW_Allies_News.13.t:0 "Allied Forces Storm North Africa!" 
+EW_Allies_News.13.d:0 "In a bold move, Allied troops have launched a major invasion of North Africa, landing across French-held territories in Morocco and Algeria. The world watches with bated breath as this critical operation aims to establish a foothold in the Mediterranean and challenge Axis dominance in the region." 
+EW_Allies_News.13.a:1 "Turning the Tide in the Mediterranean?"
+
+EW_Allies_News.14.t:0 "Allied Troops Land in Sicily!" 
+EW_Allies_News.14.d:0 "The Allies have executed a daring amphibious assault on Sicily, marking the beginning of a crucial campaign to drive Axis forces from the island. The global spotlight is on this operation as it could pave the way for further Allied advances into Southern Europe and shift the war’s dynamics." 
+EW_Allies_News.14.a:1 "Key Offensive Moves in Southern Europe"
+
+EW_Allies_News.15.t:0 "D-Day: Allies Land on Normandy Beaches!" 
+EW_Allies_News.15.d:0 "In a historic and high-stakes operation, Allied forces have stormed the beaches of Normandy, marking the beginning of a massive invasion of Nazi-occupied France. The success of this monumental effort is critical for opening a new Western Front and could dramatically alter the course of the war in Europe." 
+EW_Allies_News.15.a:1 "The Fight for Normandy Has Begun"
+
+EW_Allies_News.16.t:0 "Allies Strike Southern France!" 
+EW_Allies_News.16.d:0 "The Allies have initiated a significant invasion of Southern France, landing troops along the coast in a bid to secure a strategic foothold. This operation aims to link up with forces advancing from the north and solidify Allied control over France, accelerating the push towards Germany." 
+EW_Allies_News.16.a:1 "The Push to Germany Continues."
  
  EW_Allies_News.130.t:0 "America Starts Lend Lease"
  EW_Allies_News.130.d:0 "Today, the United States of America has officially launched its Lend-Lease program, a significant move that will reshape the landscape of the ongoing global conflict. Under this new initiative, the USA has committed to providing extensive military and economic aid to its allies, including critical supplies, equipment, and support to bolster their war efforts. This unprecedented act of support marks a pivotal moment in the war. The United States is now supplying vital resources to countries fighting against Axis powers, aiming to strengthen their defenses and enhance their capacity to resist and ultimately defeat the forces threatening global stability. The Lend-Lease program promises to deliver a wide range of military equipment, including tanks, aircraft, and firearms, as well as essential materials and supplies. The world watches closely as this bold step by America is expected to significantly impact the course of the war and the balance of power on the battlefield. Allied nations are expected to receive much-needed assistance that will bolster their ability to continue the fight and maintain their resistance against Axis aggression. This move is a clear signal of America's commitment to supporting its allies and achieving victory in the struggle for freedom and democracy."
