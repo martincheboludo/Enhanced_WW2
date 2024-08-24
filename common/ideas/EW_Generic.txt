@@ -128,6 +128,8 @@ ideas = {
 		
 		EW_Lend_Lease = {
 		
+			picture = generic_usa_conflict
+		
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 
