@@ -1,0 +1,48 @@
+Red_Army_EW_Decisions = {
+	picture = GFX_decision_cat_Red_Army_EW
+	icon = sov_great_patriotic_war
+
+	allowed = {
+		original_tag = SOV
+		has_government = communism
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 910
+	}
+}
+
+US_Army_EW_Decisions = {
+	picture = GFX_decision_cat_US_Army_EW
+	icon = generic_democracy
+
+	allowed = {
+		original_tag = USA
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 910
+	}
+}
+
+British_Army_EW_Decisions = {
+	picture = GFX_decision_cat_British_Army_EW
+	icon = eng_imperial_conference
+
+	allowed = {
+		original_tag = USA
+	}
+
+	visible = {
+	}
+	
+	priority = {
+		base = 910
+	}
+}

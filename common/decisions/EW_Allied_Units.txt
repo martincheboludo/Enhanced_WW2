@@ -1,0 +1,11 @@
+#Red Army Units Decisions
+Red_Army_EW_Decisions = {
+}
+
+#US Army Units Decisions
+US_Army_EW_Decisions = {
+}
+
+#British Army Units Decisions
+British_Army_EW_Decisions = {
+}
