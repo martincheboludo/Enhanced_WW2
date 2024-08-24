@@ -10,6 +10,10 @@ spriteType = {
 		texturefile = "gfx/interface/ideas/EW/Soviet/General_Winter.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_EW_Lend_Lease"
+		texturefile = "gfx/interface/ideas/idea_generic_usa_conflict.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_EW_Lend_Lease_SOV"
 		texturefile = "gfx/interface/ideas/EW/USA/EW_Lend_Lease.dds"
 	}
