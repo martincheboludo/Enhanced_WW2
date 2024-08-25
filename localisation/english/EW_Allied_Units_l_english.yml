@@ -87,8 +87,8 @@ RED_medium_sp_artillery_brigade_desc:0 "Brigade with medium self-propelled artil
 RED_light_sp_artillery_brigade:0 "Guards Light SP Artillery" 
 RED_light_sp_artillery_brigade_desc:0 "Utilizes light self-propelled artillery for rapid deployment and support. Ideal for quick strikes and flexible artillery support."
 
-USA_first_airborne:0 "First Airborne"
-USA_first_airborne_desc:0 "U.S. airborne units renowned for their elite training and versatility in parachute operations. Skilled in high-risk missions and rapid deployments."
+USA_first_airborne:0 "82nd Airborne"
+USA_first_airborne_desc:0 "Iconic American airborne division known for its excellence in rapid deployment and airborne assaults. Highly trained for high-risk operations and combat behind enemy lines."
 
 USA_first_infantry:0 "First Infantry"
 USA_first_infantry_desc:0 "Legendary U.S. infantry division with a storied history of combat excellence. Known for their toughness and pivotal role in major operations."
