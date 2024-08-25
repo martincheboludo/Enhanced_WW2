@@ -4410,7 +4410,10 @@ country_event = {
 			factor = 50
 		}
 		JAP = {
-			add_ideas = EW_japanese_bogged_down_in_china
+			add_timed_idea = {
+				idea = EW_japanese_bogged_down_in_china
+				days = 180
+			}
 		}
 	}
 }
@@ -4472,7 +4475,10 @@ country_event = {
 			factor = 50
 		}
 		GER = {
-			add_ideas = EW_germans_bogged_down_in_russia
+			add_timed_idea = {
+				idea = EW_germans_bogged_down_in_russia
+				days = 180
+			}
 		}
 	}
 }
