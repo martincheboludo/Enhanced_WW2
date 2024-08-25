@@ -1,0 +1,254 @@
+add_namespace = EW_Soviet_Units_Country
+add_namespace = EW_Soviet_Units_News
+
+#Creation of the Soviet Guards
+country_event = {
+	id = EW_Soviet_Units_Country.0
+	title = EW_Soviet_Units_Country.0.t
+	desc = EW_Soviet_Units_Country.0.d
+	picture = GFX_report_event_Soviet_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create Soviet Guards
+		name = EW_Soviet_Units_Country.0.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		army_experience = 10
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					NOT = {
+						has_tech = mechanised_infantry
+					}
+				}
+				set_technology = {
+					mechanised_infantry = 1
+				}
+			}
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Soviet_Guards_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Guards Rifle Division"
+				division_names_group = SOV_INF_01
+				regiments = {
+					RED_infantry = { x = 0 y = 0 }
+					RED_infantry = { x = 0 y = 1 }
+					RED_infantry = { x = 0 y = 2 }
+					RED_infantry = { x = 1 y = 0 }
+					RED_infantry = { x = 1 y = 1 }
+					RED_infantry = { x = 1 y = 2 }
+					RED_infantry = { x = 2 y = 0 }
+					RED_infantry = { x = 2 y = 1 }
+					RED_infantry = { x = 2 y = 2 }
+					RED_infantry = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			division_template = {
+				name = "Guards Tank Division"
+				division_names_group = SOV_MEC_01
+				regiments = {
+					RED_medium_armor = { x = 0 y = 0 }
+					RED_medium_armor = { x = 0 y = 1 }
+					RED_medium_armor = { x = 1 y = 0 }
+					RED_medium_armor = { x = 1 y = 1 }
+					RED_mechanized = { x = 2 y = 0 }
+					RED_mechanized = { x = 2 y = 1 }
+					RED_mechanized = { x = 2 y = 2 }
+					RED_mechanized = { x = 3 y = 0 }
+					RED_mechanized = { x = 3 y = 1 }
+					RED_mechanized = { x = 3 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			division_template = {
+				name = "Guards Mechanized Division"
+				division_names_group = SOV_MEC_01
+				regiments = {
+					RED_mechanized = { x = 0 y = 0 }
+					RED_mechanized = { x = 0 y = 1 }
+					RED_mechanized = { x = 0 y = 2 }
+					RED_mechanized = { x = 1 y = 0 }
+					RED_mechanized = { x = 1 y = 1 }
+					RED_mechanized = { x = 1 y = 2 }
+					RED_mechanized = { x = 2 y = 0 }
+					RED_mechanized = { x = 2 y = 1 }
+					RED_mechanized = { x = 2 y = 2 }
+					RED_medium_armor = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+			}
+			division_template = {
+				name = "Guards Motorized Rifle Division"
+				division_names_group = SOV_MOT_01
+				regiments = {
+					RED_motorized = { x = 0 y = 0 }
+					RED_motorized = { x = 0 y = 1 }
+					RED_motorized = { x = 0 y = 2 }
+					RED_motorized = { x = 1 y = 0 }
+					RED_motorized = { x = 1 y = 1 }
+					RED_motorized = { x = 1 y = 2 }
+					RED_motorized = { x = 2 y = 0 }
+					RED_motorized = { x = 2 y = 1 }
+					RED_motorized = { x = 2 y = 2 }
+					RED_motorized = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+			}
+			division_template = {
+				name = "Guards Mountain Division"						# Gebirgs-Divisions
+				division_names_group = SOV_MNT_01
+				regiments = {
+					RED_mountaineers = { x = 0 y = 0 }
+					RED_mountaineers = { x = 0 y = 1 }
+					RED_mountaineers = { x = 0 y = 2 }
+					RED_mountaineers = { x = 1 y = 0 }
+					RED_mountaineers = { x = 1 y = 1 }
+					RED_mountaineers = { x = 1 y = 2 }
+					RED_mountaineers = { x = 2 y = 0 }
+					RED_mountaineers = { x = 2 y = 1 }
+					RED_mountaineers = { x = 2 y = 2 }
+					RED_mountaineers = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+			}
+			division_template = {
+				name = "Guards Cavalry Division"						# Kavallerie-Divisions
+				division_names_group = SOV_CAV_01
+				regiments = {
+					RED_cavalry = { x = 0 y = 0 }
+					RED_cavalry = { x = 0 y = 1 }
+					RED_cavalry = { x = 0 y = 2 }
+					RED_cavalry = { x = 1 y = 0 }
+					RED_cavalry = { x = 1 y = 1 }
+					RED_cavalry = { x = 1 y = 2 }
+					RED_cavalry = { x = 2 y = 0 }
+					RED_cavalry = { x = 2 y = 1 }
+					RED_cavalry = { x = 2 y = 2 }
+					RED_cavalry = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+			}
+			division_template = {
+				name = "Guards Airborne Division"
+				division_names_group = SOV_PAR_01
+				regiments = {
+					RED_paratrooper = { x = 0 y = 0 }
+					RED_paratrooper = { x = 0 y = 1 }
+					RED_paratrooper = { x = 0 y = 2 }
+					RED_paratrooper = { x = 1 y = 0 }
+					RED_paratrooper = { x = 1 y = 1 }
+					RED_paratrooper = { x = 1 y = 2 }
+					RED_paratrooper = { x = 2 y = 0 }
+					RED_paratrooper = { x = 2 y = 1 }
+					RED_paratrooper = { x = 2 y = 2 }
+					RED_paratrooper = { x = 3 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			set_country_flag = Soviet_Guards_Created
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Soviet_Units_News.0 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		#We Don't Need It
+		name = EW_Soviet_Units_Country.0.b
+
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+
+}
+
+#Creation of the Soviet Guards
+news_event = {
+	id = EW_Soviet_Units_News.0
+	picture = GFX_news_event_Soviet_Soldiers_News
+	title = EW_Soviet_Units_News.0.t
+	desc = EW_Soviet_Units_News.0.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Soviet_Units_News.0.a
+		ai_chance = { factor = 1000 }
+	}
+}
