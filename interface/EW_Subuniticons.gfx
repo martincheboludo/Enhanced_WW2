@@ -72,6 +72,11 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_RED_medium_sp_artillery_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/RED_unit_medium_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_RED_light_sp_artillery_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/RED_unit_light_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_RED_motorized_rocket_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/RED_unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ORP_infantry_icon_medium" textureFile = "gfx/interface/counters/divisions_large/ORP_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_KRI_infantry_icon_medium" textureFile = "gfx/interface/counters/divisions_large/KRI_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_LUF_infantry_icon_medium" textureFile = "gfx/interface/counters/divisions_large/LUF_unit_infantry_icon.dds" noOfFrames = 2 }
+
+	
 
 	
 	####################################################
@@ -182,6 +187,9 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_RED_medium_sp_artillery_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/RED_onmap_unit_medium_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_RED_light_sp_artillery_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/RED_onmap_unit_light_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_RED_motorized_rocket_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/RED_onmap_unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_KRI_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/KRI_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_LUF_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/LUF_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ORP_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/ORP_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
 
 	
 }

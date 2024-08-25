@@ -803,5 +803,44 @@ spriteType = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_nato_unit_KRI_infantry_icon_small"
+		texturefile = "gfx/texticons/KRI_nato_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_KRI_infantry_icon_small"
+		texturefile = "gfx/texticons/KRI_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_LUF_infantry_icon_small"
+		texturefile = "gfx/texticons/LUF_nato_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_LUF_infantry_icon_small"
+		texturefile = "gfx/texticons/LUF_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_ORP_infantry_icon_small"
+		texturefile = "gfx/texticons/ORP_nato_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_ORP_infantry_icon_small"
+		texturefile = "gfx/texticons/ORP_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
 
 }

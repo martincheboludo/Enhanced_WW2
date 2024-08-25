@@ -110,5 +110,31 @@ spriteTypes = {
 		name = "GFX_EW_Special_Service_Force_units_tech_medium"
 		texturefile = "gfx/interface/technologies/EW/EW_Special_Service_Force.dds"
 	}
+	
+	
+	SpriteType = {
+		name = "GFX_EW_Heer_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Heer.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Kriegsmarine_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Kriegsmarine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Luftwaffe_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Luftwaffe.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Orpo_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Orpo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_SA_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_SA.dds"
+	}
 
 }

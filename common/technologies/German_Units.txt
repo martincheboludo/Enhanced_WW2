@@ -130,6 +130,48 @@ technologies = {
 			DAK_medium_armor
 		}
 	}
+	
+	EW_Kriegsmarine_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			KRI_infantry
+		}
+	}
+	
+	EW_Orpo_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			ORP_infantry
+		}
+	}
+	
+	EW_Luftwaffe_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			LUF_infantry
+		}
+	}
 
 
 }
