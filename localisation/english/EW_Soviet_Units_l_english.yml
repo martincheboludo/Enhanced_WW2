@@ -33,8 +33,8 @@ RED_mechanized_desc:0 "Elite Soviet mechanized infantry, combining armored vehic
 RED_medium_armor:0 "Guards Medium Tank"
 RED_medium_armor_desc:0 "Soviet medium tanks with elite status, offering a balance of firepower, armor, and mobility. Their battle-hardened crews are pivotal in engaging enemy forces effectively."
 
-RED_mot_art_brigade:0 "Guards Motorized Artillery"
-RED_mot_art_brigade_desc:0 "Elite Soviet motorized artillery units, known for their mobility and precision. These battle-hardened troops provide rapid and effective fire support in dynamic combat situations."
+RED_mot_artillery_brigade:0 "Guards Motorized Artillery"
+RED_mot_artillery_brigade_desc:0 "Elite Soviet motorized artillery units, known for their mobility and precision. These battle-hardened troops provide rapid and effective fire support in dynamic combat situations."
 
 RED_motorized:0 "Guards Motorized Infantry"
 RED_motorized_desc:0 "Soviet motorized infantry with elite designation, equipped for rapid deployment and aggressive tactics. Their experience and toughness make them key assets in fast-paced operations."

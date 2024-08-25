@@ -1,475 +1,6 @@
 #Axis Decisions
 Axis_EW_Decisions = {
 
-EW_Case_White = {
-		icon = generic_army_support
-
-		available = {
-			tag = GER
-			date < 1941.1.1
-			has_offensive_war_with = POL
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = POL
-			attack_bonus_against = 0.25
-		}
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1939.1.1
-			}
-		}
-		
-		days_remove = 35
-
-		visible = {
-			tag = GER
-			NOT = { has_country_flag = EW_Operation }
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-	
-	EW_Case_Yellow = {
-		icon = generic_army_support
-
-		available = { 
-			tag = GER
-			date < 1941.1.1
-			has_war_with = FRA
-			OR = {
-				has_war_with = BEL
-				has_war_with = HOL
-			}
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = HOL
-			attack_bonus_against = 0.25
-		}
-		
-		targeted_modifier = {
-			tag = BEL
-			attack_bonus_against = 0.25
-		}
-		
-		targeted_modifier = {
-			tag = LUX
-			attack_bonus_against = 0.25
-		}
-		
-		targeted_modifier = {
-			tag = FRA
-			attack_bonus_against = 0.25
-		}
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1940.1.1
-			}
-		}
-		
-		days_remove = 42
-
-		visible = {
-			tag = GER
-			NOT = { has_country_flag = EW_Operation }
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-	
-	EW_Operation_Weserubung = {
-		icon = generic_army_support
-
-		available = { 
-			tag = GER
-			date < 1941.1.1
-			has_war_with = ENG
-			OR = {
-				has_war_with = DEN
-				has_war_with = NOR
-			}
-			surrender_progress < 0.01
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = DEN
-			attack_bonus_against = 0.25
-		}
-		
-		targeted_modifier = {
-			tag = NOR
-			attack_bonus_against = 0.25
-		}
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-			naval_invasion_planning_bonus_speed = 0.25
-			navy_org_factor = 0.25
-			naval_morale_factor = 0.25
-			naval_strike_targetting_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				NOT = { has_war_with = NOR } 
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1940.1.1
-			}
-		}
-		
-		days_remove = 62
-
-		visible = {
-			tag = GER
-			NOT = { has_country_flag = EW_Operation }
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-			if = {
-				limit = {
-					is_ai = yes
-				}
-				country_event = { id = EW_Germany_Country.215 days = 1 random_days = 7 }
-			}
-			every_country = {
-				limit = { 
-					OR = { 
-						tag = NOR
-						is_in_faction_with = NOR
-					} 
-				}
-				country_event = { id = EW_Germany_Country.214 hours = 6 }
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-	
-	EW_Operation_Barbarossa = {
-		icon = generic_army_support
-
-		available = { 
-			tag = GER
-			date < 1942.1.1
-			has_offensive_war_with = SOV
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = SOV
-			attack_bonus_against = 0.25
-		}
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1941.1.1
-			}
-		}
-		
-		days_remove = 167
-
-		visible = {
-			tag = GER
-			NOT = { has_country_flag = EW_Operation }
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-			set_country_flag = EW_Operation_Barbarossa
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-	
-	EW_Operation_Typhoon = {
-		icon = generic_army_support
-
-		available = { 
-			tag = GER
-			date < 1942.1.1
-			has_offensive_war_with = SOV
-			has_country_flag = EW_Operation_Barbarossa
-			242 = { is_controlled_by_ROOT_or_ally = yes }
-			NOT = {
-				219 = { is_controlled_by_ROOT_or_ally = yes }
-			}
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = SOV
-			attack_bonus_against = 0.25
-		}
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1941.1.1
-			}
-		}
-		
-		days_remove = 98
-
-		visible = {
-			tag = GER
-			OR = { 
-				NOT = { has_country_flag = EW_Operation }
-				has_country_flag = EW_Operation_Barbarossa
-			}
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-	
-	EW_Case_Blue = {
-		icon = generic_army_support
-
-		available = { 
-			tag = GER
-			date < 1943.1.1
-			has_offensive_war_with = SOV
-			226 = { is_controlled_by_ROOT_or_ally = yes }
-			NOT = {
-				217 = { is_controlled_by_ROOT_or_ally = yes }
-			}
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = SOV
-			attack_bonus_against = 0.25
-		}
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1942.1.1
-			}
-		}
-		
-		days_remove = 220
-
-		visible = {
-			tag = GER
-			NOT = { has_country_flag = EW_Operation }
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-	
-	EW_Operation_Sea_Lion = {
-		icon = generic_army_support
-
-		available = {
-			tag = GER
-			has_war_with = ENG
-			surrender_progress < 0.01
-			OR = {
-				29 = { is_controlled_by_ROOT_or_ally = yes }
-				6 = { is_controlled_by_ROOT_or_ally = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = "France Neutralized"
-				
-				OR = {
-					FRA = {
-						has_capitulated = yes
-					}
-					FRA = {
-						exists = no
-					}
-					FRA = {
-						is_subject_of = GER
-					}
-					OR = {
-						GER = {
-							controls_state = 16
-						}
-						any_other_country = {
-							is_in_faction_with = GER
-							controls_state = 16
-						}
-					}
-					has_global_flag = fall_of_france
-				}
-			}
-			
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-		
-		targeted_modifier = {
-			tag = ENG
-			attack_bonus_against = 0.25
-		}
-
-		
-		modifier = { 
-			air_superiority_efficiency = 0.25
-			air_cas_efficiency = 0.25
-			army_org_factor = 0.25
-			breakthrough_factor = 0.25
-			naval_invasion_planning_bonus_speed = 0.25
-			navy_org_factor = 0.25
-			naval_morale_factor = 0.25
-			naval_strike_targetting_factor = 0.25
-		}
-
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1943.1.1
-			}
-			modifier = {
-				factor = 0
-				has_war_with = SOV
-			}
-		}
-		
-		days_remove = 28
-
-		visible = {
-			tag = GER
-			NOT = { has_country_flag = EW_Operation }
-		}
-
-		complete_effect = {
-			set_country_flag = EW_Operation
-			if = {
-				limit = {
-					is_ai = yes
-				}
-				country_event = { id = EW_Germany_Country.210 days = 1 random_days = 7 }	
-			}
-			every_country = {
-				limit = { 
-					OR = { 
-						tag = ENG 
-						is_in_faction_with = ENG 
-					} 
-				}
-				country_event = { id = EW_Germany_Country.213 hours = 6 }
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-		}
-	}
-
 }
 
 #Allies Decisions
@@ -2179,6 +1710,475 @@ JAP_EW_Decisions = {
 #German Decisions
 GER_EW_Decisions = {
 
+	EW_Case_White = {
+		icon = generic_army_support
+
+		available = {
+			tag = GER
+			date < 1941.1.1
+			has_offensive_war_with = POL
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = POL
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1939.1.1
+			}
+		}
+		
+		days_remove = 35
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Case_Yellow = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1941.1.1
+			has_war_with = FRA
+			OR = {
+				has_war_with = BEL
+				has_war_with = HOL
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = HOL
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = BEL
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = LUX
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1940.1.1
+			}
+		}
+		
+		days_remove = 42
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Operation_Weserubung = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1941.1.1
+			has_war_with = ENG
+			OR = {
+				has_war_with = DEN
+				has_war_with = NOR
+			}
+			surrender_progress < 0.01
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = DEN
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = NOR
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				NOT = { has_war_with = NOR } 
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1940.1.1
+			}
+		}
+		
+		days_remove = 62
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				country_event = { id = EW_Germany_Country.215 days = 1 random_days = 7 }
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = NOR
+						is_in_faction_with = NOR
+					} 
+				}
+				country_event = { id = EW_Germany_Country.214 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Operation_Barbarossa = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1942.1.1
+			has_offensive_war_with = SOV
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1941.1.1
+			}
+		}
+		
+		days_remove = 167
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Operation_Barbarossa
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Operation_Typhoon = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1942.1.1
+			has_offensive_war_with = SOV
+			has_country_flag = EW_Operation_Barbarossa
+			242 = { is_controlled_by_ROOT_or_ally = yes }
+			NOT = {
+				219 = { is_controlled_by_ROOT_or_ally = yes }
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1941.1.1
+			}
+		}
+		
+		days_remove = 98
+
+		visible = {
+			tag = GER
+			OR = { 
+				NOT = { has_country_flag = EW_Operation }
+				has_country_flag = EW_Operation_Barbarossa
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Case_Blue = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1943.1.1
+			has_offensive_war_with = SOV
+			226 = { is_controlled_by_ROOT_or_ally = yes }
+			NOT = {
+				217 = { is_controlled_by_ROOT_or_ally = yes }
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1942.1.1
+			}
+		}
+		
+		days_remove = 220
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Operation_Sea_Lion = {
+		icon = generic_army_support
+
+		available = {
+			tag = GER
+			has_war_with = ENG
+			surrender_progress < 0.01
+			OR = {
+				29 = { is_controlled_by_ROOT_or_ally = yes }
+				6 = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = "France Neutralized"
+				
+				OR = {
+					FRA = {
+						has_capitulated = yes
+					}
+					FRA = {
+						exists = no
+					}
+					FRA = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 16
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 16
+						}
+					}
+					has_global_flag = fall_of_france
+				}
+			}
+			
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = ENG
+			attack_bonus_against = 0.25
+		}
+
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1943.1.1
+			}
+			modifier = {
+				factor = 0
+				has_war_with = SOV
+			}
+		}
+		
+		days_remove = 28
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				country_event = { id = EW_Germany_Country.210 days = 1 random_days = 7 }	
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = ENG 
+						is_in_faction_with = ENG 
+					} 
+				}
+				country_event = { id = EW_Germany_Country.213 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
 	#Italian Social Republic
 	GER_Italian_Social_Republic = {
 
@@ -2338,6 +2338,10 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+		OR = { 
+				GRE = { has_capitulated = yes }
+				GRE = { exists = no }
+			}
 		}
 
 		complete_effect = {
@@ -2405,6 +2409,10 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			OR = { 
+				YUG = { has_capitulated = yes }
+				YUG = { exists = no }
+			}
 		}
 
 		complete_effect = {
@@ -2460,6 +2468,10 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			OR = { 
+				SWI = { has_capitulated = yes }
+				SWI = { exists = no }
+			}
 		}
 
 		complete_effect = {
@@ -2518,6 +2530,10 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			OR = { 
+				CZE = { has_capitulated = yes }
+				CZE = { exists = no }
+			}
 		}
 
 		complete_effect = {
@@ -2584,6 +2600,10 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			OR = { 
+				POL = { has_capitulated = yes }
+				POL = { exists = no }
+			}
 		}
 
 		complete_effect = {
@@ -2638,6 +2658,10 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			OR = { 
+				SOV = { has_capitulated = yes }
+				SOV = { exists = no }
+			}
 		}
 
 		complete_effect = {
@@ -2697,6 +2721,14 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			OR = { 
+				ROM = { has_capitulated = yes }
+				ROM = { exists = no }
+				AND = {
+					ROM = { is_subject_of = GER }
+					NOT = { HUN = { owns_state = 76 } }
+				}
+			}
 		}
 
 		complete_effect = {
@@ -2737,6 +2769,8 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			DEN = { is_subject_of = GER }
+			DEN = { owns_state = 912 }
 		}
 
 		remove_effect = {
@@ -2757,7 +2791,7 @@ GER_EW_Decisions = {
 		allowed = {
 		}
 		visible = {
-
+			country_exists = SWI
 		}
 		available = {
 			surrender_progress < 0.01
@@ -2910,7 +2944,16 @@ GER_EW_Decisions = {
 		}
 	
         visible = {
-		
+			NOR = { 
+				is_in_faction_with = GER 
+				has_government = fascism
+				NOT = { is_subject_of = GER }
+				has_country_leader = {
+					name = "Vidkun Quisling"
+					ruling_only = yes
+				}
+				is_ai = yes
+			}
         }
         cost = 10
 		modifier = { civilian_factory_use = 25 }
@@ -3060,6 +3103,8 @@ GER_EW_Decisions = {
 		}
 
 		visible = {
+			has_war_with = SOV
+			country_exists = JAP
 		}
 
 		complete_effect = {
