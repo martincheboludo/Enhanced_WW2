@@ -8,3 +8,81 @@
  
  British_Army_EW_Decisions:0 "British Army Actions"
  British_Army_EW_Decisions_desc:0 "The British Army, the land warfare branch of the United Kingdom's Armed Forces, has a long history of military engagement, particularly noted during World War II. The British Army was a key component in numerous crucial campaigns, including the North African Campaign, the Italian Campaign, and the Normandy Invasion. Its actions were pivotal in holding key territories, launching counter-offensives against Axis forces, and eventually contributing to the liberation of occupied Europe. The British Army's strategic operations and resilience were fundamental to the Allied war effort and the eventual defeat of the Axis powers."
+ 
+ENG_Commandos:0 "Royal Marine Commandos"
+ENG_Commandos_desc:0 "Highly trained and versatile units, specializing in daring raids and reconnaissance. Known for their elite status and exceptional operational effectiveness."
+
+ENG_Grenadier_Guards:0 "Grenadier Guards"
+ENG_Grenadier_Guards_desc:0 "Elite infantry known for their distinguished service and formidable combat skills. Battle-hardened and renowned for their resilience in key engagements."
+
+ENG_Parachute:0 "Paras"
+ENG_Parachute_desc:0 "British airborne troops with elite training, skilled in rapid deployment and behind-enemy-lines operations. Known for their toughness and adaptability."
+
+ENG_SAS:0 "SAS"
+ENG_SAS_desc:0 "Special Air Service units, renowned for their elite special operations and counter-terrorism expertise. Highly trained and battle-hardened, they undertake high-risk missions."
+
+ENG_SBS:0 "SBS"
+ENG_SBS_desc:0 "Special Boat Service units specializing in maritime and amphibious operations. Elite and versatile, known for their toughness and effectiveness in diverse combat scenarios."
+
+RED_artillery:0 "Guards Artillery"
+RED_artillery_desc:0 "Elite Soviet artillery units with extensive combat experience, providing powerful and precise fire support. Known for their toughness and critical role in key battles."
+
+RED_cavalry:0 "Guards Cavalry"
+RED_cavalry_desc:0 "Highly skilled Soviet cavalry known for their elite status and battlefield prowess. They excel in rapid and devastating raids, reflecting their battle-hardened nature."
+
+RED_heavy_armor:0 "Guards Heavy Tank"
+RED_heavy_armor_desc:0 "Top-tier Soviet heavy tanks renowned for their exceptional armor and firepower. These elite units are crucial for breaching enemy defenses and leading armored assaults."
+
+RED_infantry:0 "Guards Infantry"
+RED_infantry_desc:0 "Soviet infantry units with elite status, trained and tested in the toughest conditions. Their combat experience and resilience make them the backbone of the Red Army's offensive operations."
+
+RED_light_armor:0 "Guards Light Tank"
+RED_light_armor_desc:0 "Elite Soviet light tanks designed for rapid maneuvers and reconnaissance. Their battle-hardened crews are known for their speed and efficiency in mobile warfare."
+
+RED_marine:0 "Guards Marines"
+RED_marine_desc:0 "Soviet marines with elite status, specializing in amphibious assaults and coastal operations. Their extensive training and combat experience make them a formidable force on any front."
+
+RED_mechanized:0 "Guards Mechanized Infantry"
+RED_mechanized_desc:0 "Elite Soviet mechanized infantry, combining armored vehicles with battle-hardened infantry. They excel in mobile and combined-arms operations, reflecting their high combat readiness."
+
+RED_medium_armor:0 "Guards Medium Tank"
+RED_medium_armor_desc:0 "Soviet medium tanks with elite status, offering a balance of firepower, armor, and mobility. Their battle-hardened crews are pivotal in engaging enemy forces effectively."
+
+RED_mot_art:0 "Guards Motorized Artillery"
+RED_mot_art_desc:0 "Elite Soviet motorized artillery units, known for their mobility and precision. These battle-hardened troops provide rapid and effective fire support in dynamic combat situations."
+
+RED_motorized:0 "Guards Motorized Infantry"
+RED_motorized_desc:0 "Soviet motorized infantry with elite designation, equipped for rapid deployment and aggressive tactics. Their experience and toughness make them key assets in fast-paced operations."
+
+RED_mountain:0 "Guards Mountain"
+RED_mountain_desc:0 "Elite Soviet mountain infantry, highly trained for operations in rugged and high-altitude terrain. Their resilience and specialized skills make them a vital component in challenging environments."
+
+RED_paratrooper:0 "Guards Paratrooper"
+RED_paratrooper_desc:0 "Soviet airborne troops with elite status, skilled in rapid parachute drops and surprise operations. Their battle-hardened nature makes them effective in behind-enemy-lines missions."
+
+USA_first_airborne:0 "First Airborne"
+USA_first_airborne_desc:0 "U.S. airborne units renowned for their elite training and versatility in parachute operations. Skilled in high-risk missions and rapid deployments."
+
+USA_first_infantry:0 "First Infantry"
+USA_first_infantry_desc:0 "Legendary U.S. infantry division with a storied history of combat excellence. Known for their toughness and pivotal role in major operations."
+
+USA_marine_raiders:0 "Marine Raiders"
+USA_marine_raiders_desc:0 "Elite U.S. Marine units specializing in unconventional warfare and amphibious assaults. Known for their high level of training and operational effectiveness."
+
+USA_merylls_marauders:0 "Meryll's Marauders"
+USA_merylls_marauders_desc:0 "Specialized U.S. unit renowned for their guerrilla tactics and adaptability in challenging environments. Battle-hardened and highly skilled."
+
+USA_paramarines:0 "Paramarines"
+USA_paramarines_desc:0 "U.S. Marines trained for airborne operations, excelling in rapid insertion and combat effectiveness. Known for their elite status and versatility."
+
+USA_rangers:0 "Army Rangers"
+USA_rangers_desc:0 "Elite U.S. infantry units known for their rigorous training and excellence in special operations. They perform high-risk missions with exceptional skill."
+
+USA_screaming_eagles:0 "Screaming Eagles"
+USA_screaming_eagles_desc:0 "Renowned U.S. airborne division with a reputation for bravery and toughness. Highly trained for rapid deployment and aggressive combat."
+
+USA_smoking_snakes:0 "Smoking Snakes"
+USA_smoking_snakes_desc:0 "The Brazilian 1st Infantry Division, known for its tough combat performance under U.S. command. Renowned for their resilience and effectiveness in challenging operations."
+
+USA_special_service_force:0 "First Special Service Force"
+USA_special_service_force_desc:0 "Elite U.S.-Canadian unit specializing in commando operations and mountain warfare. Known for their high level of training and battle-hardened experience."
