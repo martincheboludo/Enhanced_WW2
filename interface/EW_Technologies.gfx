@@ -35,5 +35,80 @@ spriteTypes = {
 		name = "GFX_EW_PL_units_tech_medium"
 		texturefile = "gfx/interface/technologies/EW/EW_PL.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_EW_82_Airborne_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_82_Airborne.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Commandos_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Commandos.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_First_Airborne_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_First_Airborne.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_First_Infantry_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_First_Infantry.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Grenadier_Guards_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Grenadier_Guards.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Marine_Raiders_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Marine_Raiders.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Merylls_Marauders_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Merylls_Marauders.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Paramarines_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Paramarines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Paras_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Paras.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Rangers_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Rangers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_SAS_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_SAS.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_SBS_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_SBS.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Smoking_Snakes_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Smoking_Snakes.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Soviet_Guards_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Soviet_Guards.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EW_Special_Service_Force_units_tech_medium"
+		texturefile = "gfx/interface/technologies/EW/EW_Special_Service_Force.dds"
+	}
 
 }

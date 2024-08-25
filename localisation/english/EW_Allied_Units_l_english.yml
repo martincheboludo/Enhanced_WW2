@@ -1,5 +1,50 @@
 ﻿l_english:
 
+ EW_82_Airborne_units_tech:0 "82nd Airborne"
+ EW_82_Airborne_units_tech_desc:0 "Elite U.S. paratroopers known for their daring operations during WWII and beyond."
+
+ EW_Commandos_units_tech:0 "Royal Marine Commandos"
+ EW_Commandos_units_tech_desc:0 "Britain's amphibious and special operations forces, famous for raids and elite combat."
+
+ EW_First_Airborne_units_tech:0 "Screaming Eagles"
+ EW_First_Airborne_units_tech_desc:0 "The U.S. 101st Airborne Division, renowned for their role in D-Day and Market Garden."
+
+ EW_First_Infantry_units_tech:0 "First Infantry"
+ EW_First_Infantry_units_tech_desc:0 "The U.S. 'Big Red One' Division, a key force in major WWII battles from Africa to Europe."
+
+ EW_Grenadier_Guards_units_tech:0 "Grenadier Guards"
+ EW_Grenadier_Guards_units_tech_desc:0 "A prestigious British Army regiment with a history of service dating back to 1656."
+
+ EW_Marine_Raiders_units_tech:0 "Marine Raiders"
+ EW_Marine_Raiders_units_tech_desc:0 "Elite U.S. Marines trained for unconventional warfare and amphibious assaults."
+
+ EW_Merylls_Marauders_units_tech:0 "Meryll's Marauders"
+ EW_Merylls_Marauders_units_tech_desc:0 "Specialized U.S. jungle warfare unit known for their campaigns in Burma during WWII."
+
+ EW_Paramarines_units_tech:0 "Paramarines"
+ EW_Paramarines_units_tech_desc:0 "U.S. Marine paratroopers trained for airborne operations during WWII."
+
+ EW_Paras_units_tech:0 "Paras"
+ EW_Paras_units_tech_desc:0 "British paratroopers, the elite airborne infantry of the British Army."
+
+ EW_Rangers_units_tech:0 "Army Rangers"
+ EW_Rangers_units_tech_desc:0 "U.S. Army's elite light infantry, skilled in direct action and special operations."
+
+ EW_SAS_units_tech:0 "SAS"
+ EW_SAS_units_tech_desc:0 "The British Special Air Service, experts in counter-terrorism, reconnaissance, and direct action."
+
+ EW_SBS_units_tech:0 "SBS"
+ EW_SBS_units_tech_desc:0 "The British Special Boat Service, specialists in maritime counter-terrorism and amphibious warfare."
+
+ EW_Smoking_Snakes_units_tech:0 "Smoking Snakes"
+ EW_Smoking_Snakes_units_tech_desc:0 "Brazilian Expeditionary Force unit known for their bravery in the Italian Campaign of WWII."
+
+ EW_Soviet_Guards_units_tech:0 "Soviet Guards"
+ EW_Soviet_Guards_units_tech_desc:0 "Elite units of the Red Army, recognized for their valor and key role in the Soviet victories."
+
+ EW_Special_Service_Force_units_tech:0 "Special Service Force"
+ EW_Special_Service_Force_units_tech_desc:0 "A joint U.S.-Canadian commando unit, specialized in mountain and arctic warfare."
+
  Red_Army_EW_Decisions:0 "Red Army Actions"
  Red_Army_EW_Decisions_desc:0 "The Red Army, the military force of the Soviet Union, was established under the leadership of the Bolsheviks following the Russian Revolution of 1917. As the primary Soviet military force, it played a crucial role in defending the USSR against Axis forces during World War II. The Red Army was instrumental in major battles such as Stalingrad and Kursk, and its actions were pivotal in the eventual defeat of Nazi Germany. The Red Army was not only a combat force but also a symbol of Soviet resilience and strength, executing extensive offensives across Eastern Europe and contributing significantly to the liberation of occupied territories."
  
@@ -87,8 +132,8 @@ RED_medium_sp_artillery_brigade_desc:0 "Brigade with medium self-propelled artil
 RED_light_sp_artillery_brigade:0 "Guards Light SP Artillery" 
 RED_light_sp_artillery_brigade_desc:0 "Utilizes light self-propelled artillery for rapid deployment and support. Ideal for quick strikes and flexible artillery support."
 
-USA_first_airborne:0 "82nd Airborne"
-USA_first_airborne_desc:0 "Iconic American airborne division known for its excellence in rapid deployment and airborne assaults. Highly trained for high-risk operations and combat behind enemy lines."
+USA_82nd_airborne:0 "82nd Airborne"
+USA_82nd_airborne_desc:0 "Iconic American airborne division known for its excellence in rapid deployment and airborne assaults. Highly trained for high-risk operations and combat behind enemy lines."
 
 USA_first_infantry:0 "First Infantry"
 USA_first_infantry_desc:0 "Legendary U.S. infantry division with a storied history of combat excellence. Known for their toughness and pivotal role in major operations."

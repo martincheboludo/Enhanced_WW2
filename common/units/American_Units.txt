@@ -179,7 +179,7 @@ sub_units = {
 		}
 	}
 	
-	USA_first_airborne = {
+	USA_82nd_airborne = {
 		abbreviation = "PAR"
 		sprite = infantry
 		map_icon_category = infantry

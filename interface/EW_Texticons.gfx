@@ -450,7 +450,7 @@ spriteType = {
 	}
 
 	spriteType = {
-		name = "GFX_nato_unit_USA_first_airborne_icon_small"
+		name = "GFX_nato_unit_USA_82nd_airborne_icon_small"
 		texturefile = "gfx/texticons/USA_nato_unit_first_airborne_icon_small.dds"
 		legacy_lazy_load = no
 	}
@@ -631,7 +631,7 @@ spriteType = {
 	}
 
 	spriteType = {
-		name = "GFX_unit_USA_first_airborne_icon_small"
+		name = "GFX_unit_USA_82nd_airborne_icon_small"
 		texturefile = "gfx/texticons/USA_unit_first_airborne_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2

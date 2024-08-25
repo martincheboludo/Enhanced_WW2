@@ -54,7 +54,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_RED_motorized_icon_medium" textureFile = "gfx/interface/counters/divisions_large/RED_unit_motorized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_RED_mountaineers_icon_medium" textureFile = "gfx/interface/counters/divisions_large/RED_unit_mountain_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_RED_paratrooper_icon_medium" textureFile = "gfx/interface/counters/divisions_large/RED_unit_paratroop_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_USA_first_airborne_icon_medium" textureFile = "gfx/interface/counters/divisions_large/USA_unit_first_airborne_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_USA_82nd_airborne_icon_medium" textureFile = "gfx/interface/counters/divisions_large/USA_unit_first_airborne_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_USA_first_infantry_icon_medium" textureFile = "gfx/interface/counters/divisions_large/USA_unit_first_infantry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_USA_marine_raiders_icon_medium" textureFile = "gfx/interface/counters/divisions_large/USA_unit_marine_raiders_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_USA_merylls_marauders_icon_medium" textureFile = "gfx/interface/counters/divisions_large/USA_unit_merylls_marauders_icon.dds" noOfFrames = 2 }
@@ -154,7 +154,7 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_unit_RED_paratrooper_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/RED_onmap_unit_paratroop_icon.dds" noOfFrames = 2 }
 
-	spriteType = { name = "GFX_unit_USA_first_airborne_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/USA_onmap_unit_first_airborne_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_USA_82nd_airborne_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/USA_onmap_unit_first_airborne_icon.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_USA_first_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/USA_onmap_unit_first_infantry_icon.dds" noOfFrames = 2 }
 

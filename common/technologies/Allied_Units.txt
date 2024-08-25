@@ -1,0 +1,229 @@
+technologies = {
+
+
+	EW_82_Airborne_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_82nd_airborne
+		}
+
+
+	}
+	
+	EW_First_Airborne_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_screaming_eagles
+		}
+
+
+	}
+	
+	EW_First_Infantry_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_first_infantry
+		}
+
+
+	}
+	
+	EW_Marine_Raiders_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_marine_raiders
+		}
+
+
+	}
+	
+	EW_Merylls_Marauders_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_merylls_marauders
+		}
+
+
+	}
+	
+	EW_Paramarines_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_paramarines
+		}
+
+
+	}
+	
+	EW_Rangers_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_rangers
+		}
+
+
+	}
+	
+	EW_Smoking_Snakes_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_smoking_snakes
+		}
+
+
+	}
+	
+	EW_Special_Service_Force_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			USA_special_service_force
+		}
+
+
+	}
+	
+	EW_Commandos_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			ENG_Commandos	
+		}
+
+
+	}
+	
+	EW_Grenadier_Guards_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			ENG_Grenadier_Guards
+		}
+
+
+	}
+	
+	EW_Paras_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			ENG_Parachute
+		}
+
+
+	}
+	
+	EW_SAS_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			ENG_SAS
+		}
+
+
+	}
+	
+	EW_SBS_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			ENG_SBS
+		}
+
+
+	}
+	
+
+}
