@@ -791,5 +791,17 @@ spriteType = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_nato_unit_RED_motorized_rocket_brigade_icon_small"
+		texturefile = "gfx/texticons/RED_nato_unit_motorized_rocket_brigade_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_RED_motorized_rocket_brigade_icon_small"
+		texturefile = "gfx/texticons/RED_nato_unit_motorized_rocket_brigade_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
 
 }

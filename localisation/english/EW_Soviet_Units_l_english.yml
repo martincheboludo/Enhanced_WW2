@@ -6,6 +6,9 @@
  Red_Army_EW_Decisions:0 "Red Army Actions"
  Red_Army_EW_Decisions_desc:0 "The Red Army, the military force of the Soviet Union, was established under the leadership of the Bolsheviks following the Russian Revolution of 1917. As the primary Soviet military force, it played a crucial role in defending the USSR against Axis forces during World War II. The Red Army was instrumental in major battles such as Stalingrad and Kursk, and its actions were pivotal in the eventual defeat of Nazi Germany. The Red Army was not only a combat force but also a symbol of Soviet resilience and strength, executing extensive offensives across Eastern Europe and contributing significantly to the liberation of occupied territories."
  
+RED_motorized_rocket_brigade:0 "Guards Motorized Rocket Artillery"
+RED_motorized_rocket_brigade_desc:0 "Highly mobile units equipped with powerful rocket launchers, designed to deliver devastating barrages and quickly reposition on the battlefield."
+ 
 RED_artillery_brigade:0 "Guards Artillery"
 RED_artillery_brigade_desc:0 "Elite Soviet artillery units with extensive combat experience, providing powerful and precise fire support. Known for their toughness and critical role in key battles."
 
