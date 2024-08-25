@@ -59,7 +59,7 @@ sub_units = {
 			artillery
 		}
 
-		group = infantry
+		group = combat_support
 		
 		categories = {
 			category_army
@@ -815,7 +815,7 @@ RED_paratrooper = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 
 		categories = {
 			category_all_armor
@@ -880,7 +880,7 @@ RED_paratrooper = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 
 		categories = {
 			category_all_armor
@@ -948,7 +948,7 @@ RED_paratrooper = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_all_armor
@@ -1016,7 +1016,7 @@ RED_paratrooper = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_all_armor
@@ -1084,7 +1084,7 @@ RED_paratrooper = {
 			anti_tank
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_front_line
@@ -1150,7 +1150,7 @@ RED_paratrooper = {
 			anti_tank
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_front_line
@@ -1221,7 +1221,7 @@ RED_paratrooper = {
 			anti_tank
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_front_line
@@ -1293,7 +1293,7 @@ RED_paratrooper = {
 			anti_tank
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_front_line
