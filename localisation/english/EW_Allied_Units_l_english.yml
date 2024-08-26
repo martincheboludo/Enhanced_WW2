@@ -89,3 +89,38 @@ USA_smoking_snakes_desc:0 "The Brazilian 1st Infantry Division, known for its to
 
 USA_special_service_force:0 "First Special Service Force"
 USA_special_service_force_desc:0 "Elite U.S.-Canadian unit specializing in commando operations and mountain warfare. Known for their high level of training and battle-hardened experience."
+
+ EW_Create_Allied_Units_1:0 "Royal Marine Commandos"
+ EW_Create_Allied_Units_1_desc:0 "Deploy the highly trained Royal Marine Commandos, elite units specialized in amphibious assaults and coastal operations. Their exceptional skills and versatility will strengthen our maritime capabilities."
+
+ EW_Allied_Units_Country.1.t:0 "Royal Marine Commandos"
+ EW_Allied_Units_Country.1.d:0 "The Royal Marine Commandos are renowned for their daring raids and amphibious assaults. By creating this unit, we enhance our ability to conduct specialized maritime operations and secure coastal areas."
+ EW_Allied_Units_Country.1.a:1 "Create Unit"
+ 
+ EW_Create_Allied_Units_2:0 "Grenadier Guards"
+ EW_Create_Allied_Units_2_desc:0 "Form the distinguished Grenadier Guards, known for their elite infantry skills and resilience in combat. This unit will bolster our ground forces with its storied history and formidable presence on the battlefield."
+
+ EW_Allied_Units_Country.2.t:0 "Grenadier Guards"
+ EW_Allied_Units_Country.2.d:0 "The Grenadier Guards are a symbol of elite infantry excellence. Creating this unit will provide us with battle-hardened troops capable of holding key positions and excelling in combat."
+ EW_Allied_Units_Country.2.a:0 "Create Unit"
+ 
+ EW_Create_Allied_Units_3:0 "Parachute Regiment"
+ EW_Create_Allied_Units_3_desc:0 "Deploy the elite Parachute Regiment, specializing in rapid deployment and airborne assaults. Their expertise in high-risk operations behind enemy lines will significantly enhance our strategic flexibility."
+
+ EW_Allied_Units_Country.3.t:0 "Parachute Regiment"
+ EW_Allied_Units_Country.3.d:0 "The Parachute Regiment, or 'Paras,' are elite airborne troops trained for swift and effective deployment. Establishing this unit will enable us to launch precise and impactful operations behind enemy lines."
+ EW_Allied_Units_Country.3.a:0 "Create Unit"
+ 
+ EW_Create_Allied_Units_4:0 "Special Air Service"
+ EW_Create_Allied_Units_4_desc:0 "Create the Special Air Service (SAS), an elite unit renowned for its special operations and counter-terrorism capabilities. Their training and experience in high-risk missions will provide a significant advantage in critical situations."
+
+ EW_Allied_Units_Country.4.t:0 "Special Air Service"
+ EW_Allied_Units_Country.4.d:0 "The SAS are famed for their expertise in special operations and counter-terrorism. By forming this unit, we gain access to highly skilled operatives capable of executing complex and high-stakes missions."
+ EW_Allied_Units_Country.4.a:0 "Create Unit"
+ 
+ EW_Create_Allied_Units_5:0 "Special Boat Service"
+ EW_Create_Allied_Units_5_desc:0 "Establish the Special Boat Service (SBS), a versatile unit specializing in maritime and amphibious operations. Their advanced skills in coastal and naval warfare will strengthen our amphibious capabilities and operational reach."
+
+ EW_Allied_Units_Country.5.t:0 "Special Boat Service"
+ EW_Allied_Units_Country.5.d:0 "The SBS are experts in maritime and amphibious operations. Creating this unit will enhance our ability to conduct effective operations in coastal and aquatic environments."
+ EW_Allied_Units_Country.5.a:0 "Create Unit"

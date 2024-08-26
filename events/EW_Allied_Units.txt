@@ -1,0 +1,281 @@
+add_namespace = EW_Allied_Units_Country
+add_namespace = EW_Allied_Units_News
+
+#Creation of the Royal Marine Commandos
+country_event = {
+	id = EW_Allied_Units_Country.1
+	title = EW_Allied_Units_Country.1.t
+	desc = EW_Allied_Units_Country.1.d
+	picture = GFX_report_event_British_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.1.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Commandos_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Royal Marine Commando Brigade"
+				division_names_group = ENG_INF_01
+				regiments = {
+					ENG_Commandos = { x = 0 y = 0 }
+					ENG_Commandos = { x = 0 y = 1 }
+					ENG_Commandos = { x = 0 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					field_hospital = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					artillery = { x = 0 y = 4 }
+				}
+				priority = 2
+				#is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+
+}
+
+
+#Creation of the Grenadier Guards
+country_event = {
+	id = EW_Allied_Units_Country.2
+	title = EW_Allied_Units_Country.2.t
+	desc = EW_Allied_Units_Country.2.d
+	picture = GFX_report_event_British_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.2.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Grenadier_Guards_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Grenadier Guards Brigade"
+				division_names_group = ENG_INF_01
+				regiments = {
+					ENG_Grenadier_Guards = { x = 0 y = 0 }
+					ENG_Grenadier_Guards = { x = 0 y = 1 }
+					ENG_Grenadier_Guards = { x = 0 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					field_hospital = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					artillery = { x = 0 y = 4 }
+				}
+				priority = 2
+				#is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+
+}
+
+
+#Creation of the Parachute Regiment Brigade
+country_event = {
+	id = EW_Allied_Units_Country.3
+	title = EW_Allied_Units_Country.3.t
+	desc = EW_Allied_Units_Country.3.d
+	picture = GFX_report_event_British_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.3.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Paras_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Parachute Regiment Brigade"
+				division_names_group = ENG_INF_01
+				regiments = {
+					ENG_Parachute = { x = 0 y = 0 }
+					ENG_Parachute = { x = 0 y = 1 }
+					ENG_Parachute = { x = 0 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					field_hospital = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					artillery = { x = 0 y = 4 }
+				}
+				priority = 2
+				#is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+
+}
+
+
+#Special Air Service Brigade
+country_event = {
+	id = EW_Allied_Units_Country.4
+	title = EW_Allied_Units_Country.4.t
+	desc = EW_Allied_Units_Country.4.d
+	picture = GFX_report_event_British_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.4.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_SAS_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Special Air Service Brigade"
+				division_names_group = ENG_INF_01
+				regiments = {
+					ENG_SAS = { x = 0 y = 0 }
+					ENG_SAS = { x = 0 y = 1 }
+					ENG_SAS = { x = 0 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					field_hospital = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					artillery = { x = 0 y = 4 }
+				}
+				priority = 2
+				#is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+
+}
+
+
+#Creation of the Special Boat Service Brigade
+country_event = {
+	id = EW_Allied_Units_Country.5
+	title = EW_Allied_Units_Country.5.t
+	desc = EW_Allied_Units_Country.5.d
+	picture = GFX_report_event_British_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.5.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_SBS_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Special Boat Service Brigade"
+				division_names_group = ENG_INF_01
+				regiments = {
+					ENG_SBS = { x = 0 y = 0 }
+					ENG_SBS = { x = 0 y = 1 }
+					ENG_SBS = { x = 0 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					field_hospital = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					artillery = { x = 0 y = 4 }
+				}
+				priority = 2
+				#is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+
+}
