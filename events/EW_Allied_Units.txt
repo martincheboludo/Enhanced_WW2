@@ -339,3 +339,337 @@ country_event = {
 	}
 
 }
+
+#82nd Airborne Division
+country_event = {
+	id = EW_Allied_Units_Country.6
+	title = EW_Allied_Units_Country.6.t
+	desc = EW_Allied_Units_Country.6.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.6.a
+
+		ai_chance = {
+			factor = 1000
+		}
+
+	}
+
+}
+
+# 1st Infantry Division
+country_event = {
+	id = EW_Allied_Units_Country.7
+	title = EW_Allied_Units_Country.7.t
+	desc = EW_Allied_Units_Country.7.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.7.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# Marine Raiders
+country_event = {
+	id = EW_Allied_Units_Country.8
+	title = EW_Allied_Units_Country.8.t
+	desc = EW_Allied_Units_Country.8.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.8.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# Merrill's Marauders
+country_event = {
+	id = EW_Allied_Units_Country.9
+	title = EW_Allied_Units_Country.9.t
+	desc = EW_Allied_Units_Country.9.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.9.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# Paramarines
+country_event = {
+	id = EW_Allied_Units_Country.10
+	title = EW_Allied_Units_Country.10.t
+	desc = EW_Allied_Units_Country.10.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.10.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# Army Rangers
+country_event = {
+	id = EW_Allied_Units_Country.11
+	title = EW_Allied_Units_Country.11.t
+	desc = EW_Allied_Units_Country.11.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.11.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		army_experience = 5
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Rangers_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Ranger Battalion"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_rangers = { x = 0 y = 0 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			set_country_flag = EW_US_Army_Rangers_Created
+		}
+
+		hidden_effect = { 
+			news_event = { id = EW_Allied_Units_Country.11 hours = 6 }
+		}
+		
+		
+	}
+	
+	option = {
+		#We Don't Need It
+		name = EW_Allied_Units_Country.11.b
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+}
+
+# Screaming Eagles (101st Airborne Division)
+country_event = {
+	id = EW_Allied_Units_Country.12
+	title = EW_Allied_Units_Country.12.t
+	desc = EW_Allied_Units_Country.12.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.12.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# Smoking Snakes (Brazilian 1st Infantry Division)
+country_event = {
+	id = EW_Allied_Units_Country.13
+	title = EW_Allied_Units_Country.13.t
+	desc = EW_Allied_Units_Country.13.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.13.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# First Special Service Force
+country_event = {
+	id = EW_Allied_Units_Country.14
+	title = EW_Allied_Units_Country.14.t
+	desc = EW_Allied_Units_Country.14.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.14.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# 1st Ranger Battalion
+country_event = {
+	id = EW_Allied_Units_Country.15
+	title = EW_Allied_Units_Country.15.t
+	desc = EW_Allied_Units_Country.15.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.15.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# 2nd Ranger Battalion
+country_event = {
+	id = EW_Allied_Units_Country.16
+	title = EW_Allied_Units_Country.16.t
+	desc = EW_Allied_Units_Country.16.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.16.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# 3rd Ranger Battalion
+country_event = {
+	id = EW_Allied_Units_Country.17
+	title = EW_Allied_Units_Country.17.t
+	desc = EW_Allied_Units_Country.17.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.17.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# 4th Ranger Battalion
+country_event = {
+	id = EW_Allied_Units_Country.18
+	title = EW_Allied_Units_Country.18.t
+	desc = EW_Allied_Units_Country.18.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.18.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# 5th Ranger Battalion
+country_event = {
+	id = EW_Allied_Units_Country.19
+	title = EW_Allied_Units_Country.19.t
+	desc = EW_Allied_Units_Country.19.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.19.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}
+
+# 6th Ranger Battalion
+country_event = {
+	id = EW_Allied_Units_Country.20
+	title = EW_Allied_Units_Country.20.t
+	desc = EW_Allied_Units_Country.20.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_Allied_Units_Country.20.a
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}

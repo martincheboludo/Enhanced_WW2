@@ -94,33 +94,154 @@ USA_special_service_force_desc:0 "Elite U.S.-Canadian unit specializing in comma
  EW_Create_Allied_Units_1_desc:0 "Deploy the highly trained Royal Marine Commandos, elite units specialized in amphibious assaults and coastal operations. Their exceptional skills and versatility will strengthen our maritime capabilities."
 
  EW_Allied_Units_Country.1.t:0 "Royal Marine Commandos"
- EW_Allied_Units_Country.1.d:0 "The Royal Marine Commandos are renowned for their daring raids and amphibious assaults. By creating this unit, we enhance our ability to conduct specialized maritime operations and secure coastal areas."
+ EW_Allied_Units_Country.1.d:0 "The Royal Marine Commandos are an elite force within the Royal Marines, formed during World War II to conduct amphibious and coastal operations. Originating in the early 1940s, these commandos were specially trained to execute daring raids and assaults against enemy positions. They gained renown for their role in operations such as the Dieppe Raid and the capture of strategic ports and coastal defenses across Europe. With their expertise in navigation, hand-to-hand combat, and small-unit tactics, the Royal Marine Commandos are poised to enhance our capabilities in maritime warfare and coastal operations. Establishing this unit will not only bolster our operational reach but also provide a crucial advantage in securing and exploiting coastal areas."
  EW_Allied_Units_Country.1.a:1 "Create Unit"
  
  EW_Create_Allied_Units_2:0 "Grenadier Guards"
  EW_Create_Allied_Units_2_desc:0 "Form the distinguished Grenadier Guards, known for their elite infantry skills and resilience in combat. This unit will bolster our ground forces with its storied history and formidable presence on the battlefield."
 
  EW_Allied_Units_Country.2.t:0 "Grenadier Guards"
- EW_Allied_Units_Country.2.d:0 "The Grenadier Guards are a symbol of elite infantry excellence. Creating this unit will provide us with battle-hardened troops capable of holding key positions and excelling in combat."
+ EW_Allied_Units_Country.2.d:0 "The Grenadier Guards are one of the most prestigious and storied regiments in the British Army, dating back to the early 17th century. Known for their elite status and distinguished service, they have participated in numerous key battles across history, from the Napoleonic Wars to World War II. Their reputation is built on their resilience, discipline, and formidable presence on the battlefield. Forming this unit will provide us with a cadre of experienced and battle-hardened infantrymen, capable of holding key positions and excelling in various combat scenarios. Their historic legacy and proven effectiveness will significantly enhance our ground forces."
  EW_Allied_Units_Country.2.a:0 "Create Unit"
  
  EW_Create_Allied_Units_3:0 "Parachute Regiment"
  EW_Create_Allied_Units_3_desc:0 "Deploy the elite Parachute Regiment, specializing in rapid deployment and airborne assaults. Their expertise in high-risk operations behind enemy lines will significantly enhance our strategic flexibility."
 
  EW_Allied_Units_Country.3.t:0 "Parachute Regiment"
- EW_Allied_Units_Country.3.d:0 "The Parachute Regiment, or 'Paras,' are elite airborne troops trained for swift and effective deployment. Establishing this unit will enable us to launch precise and impactful operations behind enemy lines."
+ EW_Allied_Units_Country.3.d:0 "The Parachute Regiment, commonly known as the 'Paras,' was established in 1942 as a specialized airborne unit capable of rapid deployment and high-impact operations behind enemy lines. Renowned for their rigorous training and bravery, the Paras have been involved in critical airborne assaults such as Operation Market Garden and the invasion of Normandy. Their ability to quickly project force and disrupt enemy operations makes them a formidable asset. By establishing this unit, we gain a highly skilled and versatile force adept at conducting airborne operations and responding to strategic needs with speed and precision."
  EW_Allied_Units_Country.3.a:0 "Create Unit"
  
  EW_Create_Allied_Units_4:0 "Special Air Service"
  EW_Create_Allied_Units_4_desc:0 "Create the Special Air Service (SAS), an elite unit renowned for its special operations and counter-terrorism capabilities. Their training and experience in high-risk missions will provide a significant advantage in critical situations."
 
  EW_Allied_Units_Country.4.t:0 "Special Air Service"
- EW_Allied_Units_Country.4.d:0 "The SAS are famed for their expertise in special operations and counter-terrorism. By forming this unit, we gain access to highly skilled operatives capable of executing complex and high-stakes missions."
+ EW_Allied_Units_Country.4.d:0 "The Special Air Service (SAS) was founded in 1941 to conduct unconventional warfare and special operations. The SAS gained fame for their daring missions behind enemy lines, including sabotage and reconnaissance operations in North Africa and Europe. Their rigorous selection process and specialized training make them experts in counter-terrorism and high-stakes operations. Forming this unit will provide us with highly skilled operatives who excel in executing complex and dangerous missions, offering a strategic advantage in scenarios that require discretion and expertise."
  EW_Allied_Units_Country.4.a:0 "Create Unit"
  
  EW_Create_Allied_Units_5:0 "Special Boat Service"
  EW_Create_Allied_Units_5_desc:0 "Establish the Special Boat Service (SBS), a versatile unit specializing in maritime and amphibious operations. Their advanced skills in coastal and naval warfare will strengthen our amphibious capabilities and operational reach."
 
  EW_Allied_Units_Country.5.t:0 "Special Boat Service"
- EW_Allied_Units_Country.5.d:0 "The SBS are experts in maritime and amphibious operations. Creating this unit will enhance our ability to conduct effective operations in coastal and aquatic environments."
+ EW_Allied_Units_Country.5.d:0 "The Special Boat Service (SBS) was established in 1940 to undertake maritime and amphibious operations. As a counterpart to the SAS, the SBS specializes in coastal raiding, reconnaissance, and counter-terrorism in aquatic environments. Their training includes advanced skills in naval operations, close-quarters combat, and navigation. The SBS has a distinguished record in operations such as the Normandy landings and various raids along the coastlines of Europe. Creating this unit will enhance our ability to conduct effective maritime operations and secure strategic coastal positions."
  EW_Allied_Units_Country.5.a:0 "Create Unit"
+ 
+ # 82nd Airborne Division
+EW_Create_Allied_Units_6:0 "82nd Airborne Division"
+EW_Create_Allied_Units_6_desc:0 "Establish the 82nd Airborne Division, an elite American airborne unit specializing in rapid deployment and airborne assaults. Their expertise in high-risk operations and combat behind enemy lines will enhance our strategic reach and effectiveness."
+
+EW_Allied_Units_Country.6.t:0 "82nd Airborne Division"
+EW_Allied_Units_Country.6.d:0 "The 82nd Airborne Division, also known as the 'All-American Division,' was activated in 1917 and reactivated as an airborne division in 1942. Famous for its role in key operations such as the D-Day landings and Operation Market Garden, the 82nd has built a legacy of courage and efficiency in airborne warfare. Their ability to deploy quickly and conduct operations behind enemy lines has made them a pivotal force in numerous campaigns. Establishing this unit will bolster our strategic reach and enhance our capability to perform rapid and decisive airborne assaults."
+EW_Allied_Units_Country.6.a:0 "Create Unit"
+
+# 1st Infantry Division
+EW_Create_Allied_Units_7:0 "1st Infantry Division"
+EW_Create_Allied_Units_7_desc:0 "Establish the 1st Infantry Division, a legendary U.S. infantry unit with a history of combat excellence. Their resilience and toughness in major operations will strengthen our ground forces."
+
+EW_Allied_Units_Country.7.t:0 "1st Infantry Division"
+EW_Allied_Units_Country.7.d:0 "The 1st Infantry Division, known as 'The Big Red One,' is one of the oldest and most decorated divisions in the U.S. Army. Established in 1917, it has participated in every major conflict involving the United States, including World War I, World War II, and the Vietnam War. The division is celebrated for its combat excellence and historical significance. Forming this unit will reinforce our ground forces with a battle-tested and resilient division, ensuring strength and effectiveness in major operations and combat scenarios."
+EW_Allied_Units_Country.7.a:0 "Create Unit"
+
+# Marine Raiders
+EW_Create_Allied_Units_8:0 "Marine Raiders"
+EW_Create_Allied_Units_8_desc:0 "Establish the Marine Raiders, an elite U.S. Marine unit specializing in unconventional warfare and amphibious assaults. Their advanced training and operational effectiveness will greatly enhance our special operations capabilities."
+
+EW_Allied_Units_Country.8.t:0 "Marine Raiders"
+EW_Allied_Units_Country.8.d:0 "The Marine Raiders were a special operations unit created during World War II, known for their expertise in unconventional warfare and amphibious assaults. Formed in 1942, the Raiders conducted numerous successful operations in the Pacific Theater, including raids on Japanese-held islands and crucial reconnaissance missions. Their advanced training and operational effectiveness make them a valuable asset for executing specialized missions. By establishing this unit, we enhance our special operations capabilities and increase our ability to perform high-impact amphibious and guerrilla warfare."
+EW_Allied_Units_Country.8.a:0 "Create Unit"
+
+# Merrill's Marauders
+EW_Create_Allied_Units_9:0 "Merrill's Marauders"
+EW_Create_Allied_Units_9_desc:0 "Establish Merrill's Marauders, a specialized U.S. unit renowned for their guerrilla tactics and adaptability in challenging environments. Their battle-hardened experience will provide an edge in unconventional warfare."
+
+EW_Allied_Units_Country.9.t:0 "Merrill's Marauders"
+EW_Allied_Units_Country.9.d:0 "Merrill's Marauders, officially known as the 5307th Composite Unit (Provisional), were a unique American unit formed in 1943 for operations in the Burma Theater. They specialized in guerrilla tactics and jungle warfare, conducting long-range reconnaissance and raids behind enemy lines. Their adaptability and resilience in the challenging terrain of Burma earned them a reputation for effectiveness in unconventional warfare. Creating this unit will provide us with a force capable of operating in difficult environments and executing complex and high-risk missions with exceptional skill."
+EW_Allied_Units_Country.9.a:0 "Create Unit"
+
+# Paramarines
+EW_Create_Allied_Units_10:0 "Paramarines"
+EW_Create_Allied_Units_10_desc:0 "Establish the Paramarines, a U.S. Marine unit trained for airborne operations. Their elite status and versatility will enhance our rapid deployment and combat effectiveness in airborne assaults."
+
+EW_Allied_Units_Country.10.t:0 "Paramarines"
+EW_Allied_Units_Country.10.d:0 "The Paramarines were a specialized airborne unit within the U.S. Marine Corps, established during World War II. They were trained for rapid deployment via parachute and were involved in operations that required both airborne and amphibious skills. Known for their elite status and rigorous training, the Paramarines played a crucial role in several key operations, demonstrating versatility and effectiveness in both airborne and ground combat. By establishing this unit, we gain a highly capable force that enhances our rapid deployment and combat effectiveness in complex missions."
+EW_Allied_Units_Country.10.a:0 "Create Unit"
+
+# Army Rangers
+EW_Create_Allied_Units_11:0 "Army Rangers"
+EW_Create_Allied_Units_11_desc:0 "Establish the Army Rangers, elite U.S. infantry units known for their rigorous training and excellence in special operations. Their skill in high-risk missions will greatly enhance our operational effectiveness."
+
+EW_Allied_Units_Country.11.t:0 "Army Rangers"
+EW_Allied_Units_Country.11.d:0 "The Army Rangers are an elite force within the U.S. Army, with a history dating back to World War II. Known for their rigorous training and expertise in special operations, the Rangers have participated in numerous critical missions, including beach assaults and behind-enemy-lines operations. Their reputation for excellence and bravery is well-earned through their successful execution of high-risk missions. Establishing this unit will significantly enhance our capability to conduct specialized operations and undertake missions requiring precision and courage."
+EW_Allied_Units_Country.11.a:0 "Create US Army Rangers"
+EW_Allied_Units_Country.11.b:0 "We Don't Need Them"
+
+# 101st Airborne Division (Screaming Eagles)
+EW_Create_Allied_Units_12:0 "101st Airborne Division"
+EW_Create_Allied_Units_12_desc:0 "Establish the 101st Airborne Division, known as the Screaming Eagles, a renowned U.S. airborne unit with a reputation for bravery and toughness. Their expertise in rapid deployment and aggressive combat will strengthen our airborne capabilities."
+
+EW_Allied_Units_Country.12.t:0 "101st Airborne Division"
+EW_Allied_Units_Country.12.d:0 "The 101st Airborne Division, famously known as the 'Screaming Eagles,' is an elite airborne unit renowned for its bravery and effectiveness in combat. Activated in 1942, the division played a pivotal role in major operations such as the Normandy landings and the Battle of the Bulge. Their expertise in rapid deployment and aggressive combat tactics has made them a crucial asset in many high-stakes operations. Forming this unit will provide us with an experienced and capable airborne force, ready to deliver decisive impacts in critical engagements."
+EW_Allied_Units_Country.12.a:0 "Create Unit"
+
+# Smoking Snakes (Brazilian 1st Infantry Division)
+EW_Create_Allied_Units_13:0 "Smoking Snakes"
+EW_Create_Allied_Units_13_desc:0 "Establish the Smoking Snakes, the Brazilian 1st Infantry Division, known for their tough combat performance under U.S. command. Their resilience and effectiveness in challenging operations will reinforce our coalition forces."
+
+EW_Allied_Units_Country.13.t:0 "Smoking Snakes"
+EW_Allied_Units_Country.13.d:0 "The Smoking Snakes, officially known as the Brazilian 1st Infantry Division, earned their nickname for their valiant performance under U.S. command during World War II. The division participated in significant campaigns in the Italian Theater, where they were recognized for their toughness and effectiveness in combat. Their resilience and dedication make them a valuable addition to our coalition forces. Establishing this unit will strengthen our operational capabilities and reinforce the diversity and effectiveness of our allied forces."
+EW_Allied_Units_Country.13.a:0 "Create Unit"
+
+# First Special Service Force
+EW_Create_Allied_Units_14:0 "First Special Service Force"
+EW_Create_Allied_Units_14_desc:0 "Establish the First Special Service Force, an elite U.S.-Canadian unit specializing in commando operations and mountain warfare. Their high level of training and battle-hardened experience will significantly enhance our special operations capabilities."
+
+EW_Allied_Units_Country.14.t:0 "First Special Service Force"
+EW_Allied_Units_Country.14.d:0 "The First Special Service Force, often referred to as the 'Devil's Brigade,' was a joint U.S.-Canadian unit formed in 1942. Renowned for its commando operations and expertise in mountain warfare, this elite unit was specially trained for high-risk missions and amphibious assaults. The brigade gained fame for its remarkable performance in Italy and France, demonstrating exceptional skill and bravery. Forming this unit will provide us with an elite force capable of executing specialized missions and overcoming formidable challenges with distinction."
+EW_Allied_Units_Country.14.a:0 "Create Unit"
+
+# 1st Ranger Battalion
+EW_Create_Allied_Units_15:0 "1st Ranger Battalion"
+EW_Create_Allied_Units_15_desc:0 "Form the 1st Ranger Battalion, an elite U.S. infantry unit known for their rigorous training and effectiveness in special operations. Their expertise in high-risk missions will provide a significant advantage on the battlefield."
+
+EW_Allied_Units_Country.15.t:0 "1st Ranger Battalion"
+EW_Allied_Units_Country.15.d:0 "The 1st Ranger Battalion is an elite infantry unit renowned for its rigorous training and exceptional performance in high-stakes operations. This battalion is equipped to undertake the most challenging missions, including raids, assaults, and operations behind enemy lines. By forming the 1st Ranger Battalion, we will enhance our military's ability to execute precise and high-impact missions, leveraging their specialized skills and combat experience to gain a decisive advantage in critical engagements."
+EW_Allied_Units_Country.15.a:0 "Create Unit"
+
+# 2nd Ranger Battalion
+EW_Create_Allied_Units_16:0 "2nd Ranger Battalion"
+EW_Create_Allied_Units_16_desc:0 "Form the 2nd Ranger Battalion, an elite unit trained for special operations and high-risk missions. Their exceptional skill and bravery will be a critical asset in our military operations."
+
+EW_Allied_Units_Country.16.t:0 "2nd Ranger Battalion"
+EW_Allied_Units_Country.16.d:0 "The 2nd Ranger Battalion is a premier unit within our armed forces, known for its specialized training in high-risk and special operations. This battalion excels in executing complex missions under challenging conditions, including deep reconnaissance and direct action operations. Establishing the 2nd Ranger Battalion will significantly bolster our operational capabilities, allowing us to conduct precision strikes and achieve strategic objectives with heightened effectiveness and operational flexibility."
+EW_Allied_Units_Country.16.a:0 "Create Unit"
+
+# 3rd Ranger Battalion
+EW_Create_Allied_Units_17:0 "3rd Ranger Battalion"
+EW_Create_Allied_Units_17_desc:0 "Establish the 3rd Ranger Battalion, a highly trained unit specializing in difficult and dangerous missions. Their advanced skills and determination will enhance our combat effectiveness."
+
+EW_Allied_Units_Country.17.t:0 "3rd Ranger Battalion"
+EW_Allied_Units_Country.17.d:0 "The 3rd Ranger Battalion is distinguished by its advanced training and proven success in executing demanding and high-risk missions. This elite unit is adept at performing specialized operations such as targeted raids and behind-enemy-lines incursions. By creating the 3rd Ranger Battalion, we will enhance our ability to conduct critical operations with increased efficiency and impact, leveraging their expertise and combat readiness to overcome obstacles and achieve our strategic goals."
+EW_Allied_Units_Country.17.a:0 "Create Unit"
+
+# 4th Ranger Battalion
+EW_Create_Allied_Units_18:0 "4th Ranger Battalion"
+EW_Create_Allied_Units_18_desc:0 "Form the 4th Ranger Battalion, an elite infantry unit trained for complex and high-stakes operations. Their exceptional readiness and skill will be vital in achieving our military objectives."
+
+EW_Allied_Units_Country.18.t:0 "4th Ranger Battalion"
+EW_Allied_Units_Country.18.d:0 "The 4th Ranger Battalion is an elite infantry unit known for its proficiency in executing complex and high-stakes operations. This battalion is highly trained to handle a variety of challenging scenarios, including direct action and unconventional warfare. Forming the 4th Ranger Battalion will provide us with a force capable of tackling intricate missions with exceptional skill and effectiveness, enhancing our operational capabilities and supporting our strategic objectives with precision."
+EW_Allied_Units_Country.18.a:0 "Create Unit"
+
+# 5th Ranger Battalion
+EW_Create_Allied_Units_19:0 "5th Ranger Battalion"
+EW_Create_Allied_Units_19_desc:0 "Establish the 5th Ranger Battalion, an elite unit known for their courage and effectiveness in battle. Their advanced training and combat experience will play a key role in our strategic operations."
+
+EW_Allied_Units_Country.19.t:0 "5th Ranger Battalion"
+EW_Allied_Units_Country.19.d:0 "The 5th Ranger Battalion is celebrated for its courage and effectiveness in battle, with a distinguished record in executing high-risk operations. This elite unit is well-equipped to perform strategic missions that require advanced skills and combat experience. By establishing the 5th Ranger Battalion, we will reinforce our ability to conduct crucial operations with enhanced effectiveness, leveraging their exceptional training and operational history to secure significant victories in our military endeavors."
+EW_Allied_Units_Country.19.a:0 "Create Unit"
+
+# 6th Ranger Battalion
+EW_Create_Allied_Units_20:0 "6th Ranger Battalion"
+EW_Create_Allied_Units_20_desc:0 "Form the 6th Ranger Battalion, an elite force skilled in high-risk missions and specialized combat operations. Their experience and readiness will be crucial in our military efforts."
+
+EW_Allied_Units_Country.20.t:0 "6th Ranger Battalion"
+EW_Allied_Units_Country.20.d:0 "The 6th Ranger Battalion is renowned for its expertise in specialized combat operations and high-risk missions. This elite unit possesses advanced training and extensive experience in executing complex and dangerous tasks. Forming the 6th Ranger Battalion will provide us with a critical asset in overcoming challenging scenarios and achieving operational success, enhancing our military capabilities and ensuring we are well-prepared for demanding engagements."
+EW_Allied_Units_Country.20.a:0 "Create Unit"
