@@ -2026,11 +2026,11 @@ country_event = {
 					engineer = { x = 0 y = 3 }
 					signal_company = { x = 0 y = 4 }
 				}
-				priority = 2
+				priority = 0
 				is_locked = yes
 				
 			}
-			#set_country_flag = XXX
+			set_country_flag = EW_Luftwaffe_Field_Divisions
 		}
 
 	}
@@ -2094,11 +2094,11 @@ country_event = {
 					engineer = { x = 0 y = 3 }
 					signal_company = { x = 0 y = 4 }
 				}
-				priority = 2
+				priority = 0
 				is_locked = yes
 				
 			}
-			#set_country_flag = XXX
+			set_country_flag = EW_Kriegsmarine_Field_Divisions
 		}
 
 	}
@@ -2120,7 +2120,7 @@ country_event = {
 	id = EW_German_Units_Country.49
 	title = EW_German_Units_Country.49.t
 	desc = EW_German_Units_Country.49.d
-	picture = GFX_report_event_Orpo_Field_Country
+	picture = GFX_report_event_Orpo_Country
 
 	is_triggered_only = yes
 
@@ -2151,13 +2151,13 @@ country_event = {
 					ORP_infantry = { x = 0 y = 0 }
 				}
 				support = {
-					artillery = { x = 0 y = 0 }
+					military_police = { x = 0 y = 0 }
 				}
-				priority = 2
+				priority = 0
 				is_locked = yes
 				
 			}
-			#set_country_flag = XXX
+			set_country_flag = EW_Order_Police
 		}
 
 	}

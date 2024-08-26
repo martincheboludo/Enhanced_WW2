@@ -19,7 +19,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		army_experience = 10
+		army_experience = 5
 		
 		hidden_effect = {
 			if  = {
