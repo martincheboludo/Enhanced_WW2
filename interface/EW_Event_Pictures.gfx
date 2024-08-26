@@ -390,4 +390,34 @@ spriteTypes = {
         texturefile = "gfx/event_pictures/Generic/German_Advance_Slows_News.dds"
     }
 	
+	spriteType = {
+        name = "GFX_report_event_Kriegsmarine_Field_Country"
+        texturefile = "gfx/event_pictures/German/Kriegsmarine_Field_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Kriegsmarine_Field_News"
+        texturefile = "gfx/event_pictures/German/Kriegsmarine_Field_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Luftwaffe_Field_Country"
+        texturefile = "gfx/event_pictures/German/Luftwaffe_Field_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Luftwaffe_Field_News"
+        texturefile = "gfx/event_pictures/German/Luftwaffe_Field_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_Orpo_Country"
+        texturefile = "gfx/event_pictures/German/Orpo_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Orpo_News"
+        texturefile = "gfx/event_pictures/German/Orpo_News.dds"
+    }
+	
 }

@@ -19,7 +19,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		army_experience = 10
+		army_experience = 5
 		
 		hidden_effect = {
 			if  = {
@@ -1974,6 +1974,201 @@ country_event = {
 		}
 		
 		if  = { limit  = { is_ai = no} EW_Equipment_Paratrooper_Regiment_Remove = yes }
+
+	}
+
+}
+
+#Luftwaffe Field Divisions
+country_event = {
+	id = EW_German_Units_Country.47
+	title = EW_German_Units_Country.47.t
+	desc = EW_German_Units_Country.47.d
+	picture = GFX_report_event_Luftwaffe_Field_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create Luftwaffe Field Divisions
+		name = EW_German_Units_Country.47.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		army_experience = 5
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Luftwaffe_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Luftwaffen-Feld-Division"					# Represents Infanterie Welles 1-4
+				division_names_group = GER_Inf_01
+				regiments = {
+					LUF_infantry = { x = 0 y = 0 }
+					LUF_infantry = { x = 0 y = 1 }
+					LUF_infantry = { x = 0 y = 2 }
+					LUF_infantry = { x = 1 y = 0 }
+					LUF_infantry = { x = 1 y = 1 }
+					LUF_infantry = { x = 1 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					recon = { x = 0 y = 1 }
+					anti_tank = { x = 0 y = 2 }
+					engineer = { x = 0 y = 3 }
+					signal_company = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+	
+	option = {
+		#We Don't Need It
+		name = EW_German_Units_Country.47.b
+
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+
+}
+
+#Kriegsmarine Field Divisions
+country_event = {
+	id = EW_German_Units_Country.48
+	title = EW_German_Units_Country.48.t
+	desc = EW_German_Units_Country.48.d
+	picture = GFX_report_event_Kriegsmarine_Field_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create Kriegsmarine Field Divisions
+		name = EW_German_Units_Country.48.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		army_experience = 5
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Kriegsmarine_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Marine-Infanterie-Division"
+				division_names_group = GER_Inf_01
+				regiments = {
+					KRI_infantry = { x = 0 y = 0 }
+					KRI_infantry = { x = 0 y = 1 }
+					KRI_infantry = { x = 0 y = 2 }
+					KRI_infantry = { x = 1 y = 0 }
+					KRI_infantry = { x = 1 y = 1 }
+					KRI_infantry = { x = 1 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					recon = { x = 0 y = 1 }
+					anti_tank = { x = 0 y = 2 }
+					engineer = { x = 0 y = 3 }
+					signal_company = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+	
+	option = {
+		#We Don't Need It
+		name = EW_German_Units_Country.48.b
+
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+
+}
+
+#Orpo Battalions
+country_event = {
+	id = EW_German_Units_Country.49
+	title = EW_German_Units_Country.49.t
+	desc = EW_German_Units_Country.49.d
+	picture = GFX_report_event_Orpo_Field_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Create Orpo Battalions
+		name = EW_German_Units_Country.49.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		army_experience = 5
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Orpo_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "Polizei-Bataillone"
+				division_names_group = GER_Inf_01
+				regiments = {
+					ORP_infantry = { x = 0 y = 0 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			#set_country_flag = XXX
+		}
+
+	}
+	
+	option = {
+		#We Don't Need It
+		name = EW_German_Units_Country.49.b
+
+		ai_chance = {
+			factor = 0
+		}
 
 	}
 
