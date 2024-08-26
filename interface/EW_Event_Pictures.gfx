@@ -420,4 +420,24 @@ spriteTypes = {
         texturefile = "gfx/event_pictures/German/Orpo_News.dds"
     }
 	
+	spriteType = {
+        name = "GFX_report_event_American_Soldiers_Country"
+        texturefile = "gfx/event_pictures/America/American_Soldiers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_American_Soldiers_News"
+        texturefile = "gfx/event_pictures/America/American_Soldiers_News.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_American_Rangers_Country"
+        texturefile = "gfx/event_pictures/America/American_Rangers_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_American_Rangers_News"
+        texturefile = "gfx/event_pictures/America/American_Rangers_News.dds"
+    }
+	
 }

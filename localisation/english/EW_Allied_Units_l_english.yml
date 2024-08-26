@@ -245,3 +245,9 @@ EW_Create_Allied_Units_20_desc:0 "Form the 6th Ranger Battalion, an elite force 
 EW_Allied_Units_Country.20.t:0 "6th Ranger Battalion"
 EW_Allied_Units_Country.20.d:0 "The 6th Ranger Battalion is renowned for its expertise in specialized combat operations and high-risk missions. This elite unit possesses advanced training and extensive experience in executing complex and dangerous tasks. Forming the 6th Ranger Battalion will provide us with a critical asset in overcoming challenging scenarios and achieving operational success, enhancing our military capabilities and ensuring we are well-prepared for demanding engagements."
 EW_Allied_Units_Country.20.a:0 "Create Unit"
+
+EW_Allied_Units_News.11.t:0 "America Unveils New Elite Force"
+
+EW_Allied_Units_News.11.d:0 "In a bold move to enhance its military capabilities, the United States has announced the establishment of the 1st Ranger Battalion, a new elite unit within the Army. Known for their rigorous training and exceptional performance in high-risk missions, the Rangers are set to become a key asset in the U.S. military’s strategic arsenal. This elite force will specialize in conducting critical operations such as raids, assaults, and reconnaissance, bringing unparalleled skill and effectiveness to the battlefield. The formation of the Ranger Battalion reflects America’s commitment to strengthening its military power and readiness, ensuring that its forces are prepared to meet the challenges of modern warfare with precision and courage. The creation of this unit is anticipated to bolster the U.S. military’s operational capabilities and contribute significantly to its strategic objectives worldwide."
+
+EW_Allied_Units_News.11.a:1 "Interesting..."

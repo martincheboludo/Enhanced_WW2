@@ -443,7 +443,7 @@ country_event = {
 	id = EW_Allied_Units_Country.11
 	title = EW_Allied_Units_Country.11.t
 	desc = EW_Allied_Units_Country.11.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -487,7 +487,7 @@ country_event = {
 		}
 
 		hidden_effect = { 
-			news_event = { id = EW_Allied_Units_Country.11 hours = 6 }
+			news_event = { id = EW_Allied_Units_News.11 hours = 6 }
 		}
 		
 		
@@ -565,7 +565,7 @@ country_event = {
 	id = EW_Allied_Units_Country.15
 	title = EW_Allied_Units_Country.15.t
 	desc = EW_Allied_Units_Country.15.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -584,7 +584,7 @@ country_event = {
 	id = EW_Allied_Units_Country.16
 	title = EW_Allied_Units_Country.16.t
 	desc = EW_Allied_Units_Country.16.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -603,7 +603,7 @@ country_event = {
 	id = EW_Allied_Units_Country.17
 	title = EW_Allied_Units_Country.17.t
 	desc = EW_Allied_Units_Country.17.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -622,7 +622,7 @@ country_event = {
 	id = EW_Allied_Units_Country.18
 	title = EW_Allied_Units_Country.18.t
 	desc = EW_Allied_Units_Country.18.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -641,7 +641,7 @@ country_event = {
 	id = EW_Allied_Units_Country.19
 	title = EW_Allied_Units_Country.19.t
 	desc = EW_Allied_Units_Country.19.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -660,7 +660,7 @@ country_event = {
 	id = EW_Allied_Units_Country.20
 	title = EW_Allied_Units_Country.20.t
 	desc = EW_Allied_Units_Country.20.d
-	picture = GFX_report_event_American_Soldiers_Country
+	picture = GFX_report_event_American_Rangers_Country
 
 	is_triggered_only = yes
 
@@ -671,5 +671,19 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+	}
+}
+
+#Creation of the US Army Rangers
+news_event = {
+	id = EW_Allied_Units_News.11
+	picture = GFX_news_event_American_Rangers_News
+	title = EW_Allied_Units_News.11.t
+	desc = EW_Allied_Units_News.11.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allied_Units_News.11.a
+		ai_chance = { factor = 1000 }
 	}
 }

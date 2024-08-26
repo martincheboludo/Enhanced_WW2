@@ -4786,7 +4786,7 @@ country_event = {
 	id = EW_Allies_Country.134
 	title = EW_Allies_Country.134.t
 	desc = EW_Allies_Country.134.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	hidden = yes
 	is_triggered_only = yes
 
@@ -4838,7 +4838,7 @@ country_event = {
 	id = EW_Allies_Country.135
 	title = EW_Allies_Country.135.t
 	desc = EW_Allies_Country.135.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -4859,7 +4859,7 @@ country_event = {
 	id = EW_Allies_Country.136
 	title = EW_Allies_Country.136.t
 	desc = EW_Allies_Country.136.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	hidden = yes
 	is_triggered_only = yes
 
@@ -4903,7 +4903,7 @@ country_event = {
 	id = EW_Allies_Country.137
 	title = EW_Allies_Country.137.t
 	desc = EW_Allies_Country.137.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -4924,7 +4924,7 @@ country_event = {
 	id = EW_Allies_Country.138
 	title = EW_Allies_Country.138.t
 	desc = EW_Allies_Country.138.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	hidden = yes
 	is_triggered_only = yes
 
@@ -4968,7 +4968,7 @@ country_event = {
 	id = EW_Allies_Country.139
 	title = EW_Allies_Country.139.t
 	desc = EW_Allies_Country.139.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -4998,7 +4998,7 @@ country_event = {
 	id = EW_Allies_Country.140
 	title = EW_Allies_Country.140.t
 	desc = EW_Allies_Country.140.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	hidden = yes
 	is_triggered_only = yes
 
@@ -5042,7 +5042,7 @@ country_event = {
 	id = EW_Allies_Country.141
 	title = EW_Allies_Country.141.t
 	desc = EW_Allies_Country.141.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5174,7 +5174,7 @@ country_event = {
 	id = EW_Allies_Country.145
 	title = EW_Allies_Country.145.t
 	desc = EW_Allies_Country.145.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5220,7 +5220,7 @@ country_event = {
 	id = EW_Allies_Country.146
 	title = EW_Allies_Country.146.t
 	desc = EW_Allies_Country.146.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5245,7 +5245,7 @@ country_event = {
 	id = EW_Allies_Country.147
 	title = EW_Allies_Country.147.t
 	desc = EW_Allies_Country.147.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5285,7 +5285,7 @@ country_event = {
 	id = EW_Allies_Country.148
 	title = EW_Allies_Country.148.t
 	desc = EW_Allies_Country.148.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5324,7 +5324,7 @@ country_event = {
 	id = EW_Allies_Country.149
 	title = EW_Allies_Country.149.t
 	desc = EW_Allies_Country.149.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5370,7 +5370,7 @@ country_event = {
 	id = EW_Allies_Country.150
 	title = EW_Allies_Country.150.t
 	desc = EW_Allies_Country.150.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5395,7 +5395,7 @@ country_event = {
 	id = EW_Allies_Country.151
 	title = EW_Allies_Country.151.t
 	desc = EW_Allies_Country.151.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5435,7 +5435,7 @@ country_event = {
 	id = EW_Allies_Country.152
 	title = EW_Allies_Country.152.t
 	desc = EW_Allies_Country.152.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5479,7 +5479,7 @@ country_event = {
 	id = EW_Allies_Country.153
 	title = EW_Allies_Country.153.t
 	desc = EW_Allies_Country.153.d
-	picture = GFX_report_event_British_Soldiers_Country
+	picture = GFX_report_event_American_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
@@ -5645,7 +5645,7 @@ news_event = {
 #American Forces Occupy Iceland
 news_event = {
 	id = EW_Allies_News.11
-	picture = GFX_news_event_British_Soldiers_News
+	picture = GFX_news_event_American_Soldiers_News
 	title = EW_Allies_News.11.t
 	desc = EW_Allies_News.11.d
 	is_triggered_only = yes
@@ -5658,7 +5658,7 @@ news_event = {
 #American Forces Occupy Greenland
 news_event = {
 	id = EW_Allies_News.12
-	picture = GFX_news_event_British_Soldiers_News
+	picture = GFX_news_event_American_Soldiers_News
 	title = EW_Allies_News.12.t
 	desc = EW_Allies_News.12.d
 	is_triggered_only = yes
@@ -5671,7 +5671,7 @@ news_event = {
 #Allied Forces Storm North Africa!
 news_event = {
 	id = EW_Allies_News.13
-	picture = GFX_news_event_British_Soldiers_News
+	picture = GFX_news_event_American_Soldiers_News
 	title = EW_Allies_News.13.t
 	desc = EW_Allies_News.13.d
 	is_triggered_only = yes
@@ -5684,7 +5684,7 @@ news_event = {
 #Allied Troops Land in Sicily!
 news_event = {
 	id = EW_Allies_News.14
-	picture = GFX_news_event_British_Soldiers_News
+	picture = GFX_news_event_American_Soldiers_News
 	title = EW_Allies_News.14.t
 	desc = EW_Allies_News.14.d
 	is_triggered_only = yes
@@ -5697,7 +5697,7 @@ news_event = {
 #D-Day: Allies Land on Normandy Beaches!
 news_event = {
 	id = EW_Allies_News.15
-	picture = GFX_news_event_British_Soldiers_News
+	picture = GFX_news_event_American_Soldiers_News
 	title = EW_Allies_News.15.t
 	desc = EW_Allies_News.15.d
 	is_triggered_only = yes
@@ -5710,7 +5710,7 @@ news_event = {
 #Allies Strike Southern France!
 news_event = {
 	id = EW_Allies_News.16
-	picture = GFX_news_event_British_Soldiers_News
+	picture = GFX_news_event_American_Soldiers_News
 	title = EW_Allies_News.16.t
 	desc = EW_Allies_News.16.d
 	is_triggered_only = yes
