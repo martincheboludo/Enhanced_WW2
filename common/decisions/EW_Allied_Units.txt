@@ -8,4 +8,210 @@ US_Army_EW_Decisions = {
 
 #British Army Units Decisions
 British_Army_EW_Decisions = {
+
+#Royal Marine Commandos
+EW_Create_Allied_Units_1 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+
+    }
+
+    available = {
+        date > 1940.06.01
+		121 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_ENG_Special_Forces_Regiment = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        ENG = {
+            country_event = {
+                id = EW_Allied_Units_Country.1
+            }    
+        }
+    }
+}
+
+#Grenadier Guards
+EW_Create_Allied_Units_2 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+
+    }
+
+    available = {
+        date > 1939.09.01
+		126 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_ENG_Special_Forces_Regiment = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        ENG = {
+            country_event = {
+                id = EW_Allied_Units_Country.2
+            }    
+        }
+    }
+}
+
+#Parachute Regiment
+EW_Create_Allied_Units_3 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+
+    }
+
+    available = {
+        date > 1940.08.01
+		132 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_ENG_Special_Forces_Regiment = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        ENG = {
+            country_event = {
+                id = EW_Allied_Units_Country.3
+            }    
+        }
+    }
+}
+
+#Special Air Service (SAS)
+EW_Create_Allied_Units_4 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+
+    }
+
+    available = {
+        date > 1941.07.01
+		907 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_ENG_Special_Forces_Regiment = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        ENG = {
+            country_event = {
+                id = EW_Allied_Units_Country.4
+            }    
+        }
+    }
+}
+
+#Special Boat Service (SBS)
+EW_Create_Allied_Units_5 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+
+    }
+
+    available = {
+        date > 1940.07.01
+		121 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_ENG_Special_Forces_Regiment = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 100
+    }
+
+    visible = {
+    }
+
+    complete_effect = {
+        ENG = {
+            country_event = {
+                id = EW_Allied_Units_Country.5
+            }    
+        }
+    }
+}
+
 }

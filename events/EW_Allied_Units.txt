@@ -51,6 +51,18 @@ country_event = {
 			}
 			#set_country_flag = XXX
 		}
+		
+		121 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Royal Marine Commando Brigade\" division_template = \"Royal Marine Commando Brigade\" start_experience_factor = 1.0"
+				owner = ENG
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -107,6 +119,18 @@ country_event = {
 			}
 			#set_country_flag = XXX
 		}
+		
+		126 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Grenadier Guards Brigade\" division_template = \"Grenadier Guards Brigade\" start_experience_factor = 1.0"
+				owner = ENG
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -163,6 +187,18 @@ country_event = {
 			}
 			#set_country_flag = XXX
 		}
+		
+		132 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Parachute Regiment Brigade\" division_template = \"Parachute Regiment Brigade\" start_experience_factor = 1.0"
+				owner = ENG
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -219,6 +255,18 @@ country_event = {
 			}
 			#set_country_flag = XXX
 		}
+		
+		907 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Special Air Service Brigade\" division_template = \"Special Air Service Brigade\" start_experience_factor = 1.0"
+				owner = ENG
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -275,6 +323,18 @@ country_event = {
 			}
 			#set_country_flag = XXX
 		}
+		
+		121 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Special Boat Service Brigade\" division_template = \"Special Boat Service Brigade\" start_experience_factor = 1.0"
+				owner = ENG
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 

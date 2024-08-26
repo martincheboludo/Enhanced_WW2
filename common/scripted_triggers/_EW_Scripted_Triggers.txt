@@ -103,6 +103,16 @@ EW_Equipment_Paratrooper_Regiment = {
 	}
 }
 
+EW_Equipment_ENG_Special_Forces_Regiment = {
+	AND = {
+		has_manpower > 5099
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 309 }
+		has_equipment = { motorized_equipment > 39 }
+		has_equipment = { support_equipment > 99 }
+	}
+}
+
 is_russian_winter = {
 	OR = {
 		AND = {

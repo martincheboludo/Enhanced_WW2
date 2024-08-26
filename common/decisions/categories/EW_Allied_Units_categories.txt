@@ -36,7 +36,7 @@ British_Army_EW_Decisions = {
 	icon = eng_imperial_conference
 
 	allowed = {
-		original_tag = USA
+		original_tag = ENG
 	}
 
 	visible = {

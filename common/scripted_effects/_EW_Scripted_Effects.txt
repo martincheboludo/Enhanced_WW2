@@ -95,3 +95,11 @@ EW_Equipment_Paratrooper_Regiment_Remove = {
 	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
 	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
 }
+
+EW_Equipment_ENG_Special_Forces_Regiment_Remove = {
+	add_manpower = -5100
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -460 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -40 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -100 }
+}
