@@ -173,6 +173,7 @@ EW_Allied_Units_Country.11.t:0 "Army Rangers"
 EW_Allied_Units_Country.11.d:0 "The Army Rangers are an elite force within the U.S. Army, with a history dating back to World War II. Known for their rigorous training and expertise in special operations, the Rangers have participated in numerous critical missions, including beach assaults and behind-enemy-lines operations. Their reputation for excellence and bravery is well-earned through their successful execution of high-risk missions. Establishing this unit will significantly enhance our capability to conduct specialized operations and undertake missions requiring precision and courage."
 EW_Allied_Units_Country.11.a:0 "Create US Army Rangers"
 EW_Allied_Units_Country.11.b:0 "We Don't Need Them"
+EW_US_Army_Rangers_Created:0 "US Army Rangers Have Been Created."
 
 # 101st Airborne Division (Screaming Eagles)
 EW_Create_Allied_Units_12:0 "101st Airborne Division"
@@ -246,8 +247,16 @@ EW_Allied_Units_Country.20.t:0 "6th Ranger Battalion"
 EW_Allied_Units_Country.20.d:0 "The 6th Ranger Battalion is renowned for its expertise in specialized combat operations and high-risk missions. This elite unit possesses advanced training and extensive experience in executing complex and dangerous tasks. Forming the 6th Ranger Battalion will provide us with a critical asset in overcoming challenging scenarios and achieving operational success, enhancing our military capabilities and ensuring we are well-prepared for demanding engagements."
 EW_Allied_Units_Country.20.a:0 "Create Unit"
 
+EW_Allied_Units_Country.21.t:0 "America at War with the Axis Powers"
+EW_Allied_Units_Country.21.d:0 "As the global conflict intensifies, the United States has called upon its allies in the Western Hemisphere to stand together against the Axis threat. Brazil, as the most powerful nation in South America, has an opportunity to contribute significantly to the Allied cause. Inspired by the bravery of our soldiers and the desire to defend democracy, many within the Brazilian military are eager to join the fight. Sending a division of our best troops, known as the 'Smoking Snakes', to fight alongside the Americans would not only strengthen our alliance but also secure Brazil's place on the world stage. The question now stands; Shall we form the Brazilian Expeditionary Force and join the Allies in their struggle against tyranny?"
+EW_Allied_Units_Country.21.a:1 "Yes, we will send the 'Smoking Snakes' to fight the Axis!"
+EW_Allied_Units_Country.21.b:1 "No, Brazil will focus on defending the homeland."
+
+EW_Allied_Units_Country.22.t:0 "Brazil Declines to Send Troops Overseas"
+EW_Allied_Units_Country.22.d:0 "Despite the United States' call for solidarity in the fight against the Axis powers, Brazil has chosen not to commit its troops to the overseas battlefields. This decision has come as a disappointment to the American leadership, who had hoped that Brazil’s involvement would bolster the Allied forces in Europe and further unify the Western Hemisphere against the Axis threat. While we respect Brazil's decision to prioritize its domestic security, this will undoubtedly affect our strategy and require us to seek additional support from other Allied nations."
+EW_Allied_Units_Country.22.a:1 "A cautious decision, but perhaps a wise one."
+
+
 EW_Allied_Units_News.11.t:0 "America Unveils New Elite Force"
-
 EW_Allied_Units_News.11.d:0 "In a bold move to enhance its military capabilities, the United States has announced the establishment of the 1st Ranger Battalion, a new elite unit within the Army. Known for their rigorous training and exceptional performance in high-risk missions, the Rangers are set to become a key asset in the U.S. military’s strategic arsenal. This elite force will specialize in conducting critical operations such as raids, assaults, and reconnaissance, bringing unparalleled skill and effectiveness to the battlefield. The formation of the Ranger Battalion reflects America’s commitment to strengthening its military power and readiness, ensuring that its forces are prepared to meet the challenges of modern warfare with precision and courage. The creation of this unit is anticipated to bolster the U.S. military’s operational capabilities and contribute significantly to its strategic objectives worldwide."
-
 EW_Allied_Units_News.11.a:1 "Interesting..."

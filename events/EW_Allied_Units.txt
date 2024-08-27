@@ -57,7 +57,7 @@ country_event = {
 				limit = { is_controlled_by_ROOT_or_ally = yes }
 			}
 			create_unit = {
-				division = "name = \"Royal Marine Commando Brigade\" division_template = \"Royal Marine Commando Brigade\" start_experience_factor = 1.0"
+				division = "name = \"Royal Marine Commando Brigade\" division_template = \"Royal Marine Commando Brigade\" start_experience_factor = 0.8"
 				owner = ENG
 			}
 		}
@@ -125,7 +125,7 @@ country_event = {
 				limit = { is_controlled_by_ROOT_or_ally = yes }
 			}
 			create_unit = {
-				division = "name = \"Grenadier Guards Brigade\" division_template = \"Grenadier Guards Brigade\" start_experience_factor = 1.0"
+				division = "name = \"Grenadier Guards Brigade\" division_template = \"Grenadier Guards Brigade\" start_experience_factor = 0.3"
 				owner = ENG
 			}
 		}
@@ -193,7 +193,7 @@ country_event = {
 				limit = { is_controlled_by_ROOT_or_ally = yes }
 			}
 			create_unit = {
-				division = "name = \"Parachute Regiment Brigade\" division_template = \"Parachute Regiment Brigade\" start_experience_factor = 1.0"
+				division = "name = \"Parachute Regiment Brigade\" division_template = \"Parachute Regiment Brigade\" start_experience_factor = 0.8"
 				owner = ENG
 			}
 		}
@@ -357,6 +357,56 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_82_Airborne_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "82nd Airborne Division"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_82nd_airborne = { x = 0 y = 0 }
+					USA_82nd_airborne = { x = 0 y = 1 }
+					USA_82nd_airborne = { x = 0 y = 2 }
+					USA_82nd_airborne = { x = 1 y = 0 }
+					USA_82nd_airborne = { x = 1 y = 1 }
+					USA_82nd_airborne = { x = 1 y = 2 }
+					USA_82nd_airborne = { x = 2 y = 0 }
+					USA_82nd_airborne = { x = 2 y = 1 }
+					USA_82nd_airborne = { x = 2 y = 2 }
+					USA_82nd_airborne = { x = 3 y = 0 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		365 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"82nd Airborne Division 'All American'\" division_template = \"82nd Airborne Division\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Paratrooper_Division_Remove = yes }
+		
 
 	}
 
@@ -378,6 +428,56 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_First_Infantry_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "1st Infantry Division"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_first_infantry = { x = 0 y = 0 }
+					USA_first_infantry = { x = 0 y = 1 }
+					USA_first_infantry = { x = 0 y = 2 }
+					USA_first_infantry = { x = 1 y = 0 }
+					USA_first_infantry = { x = 1 y = 1 }
+					USA_first_infantry = { x = 1 y = 2 }
+					USA_first_infantry = { x = 2 y = 0 }
+					USA_first_infantry = { x = 2 y = 1 }
+					USA_first_infantry = { x = 2 y = 2 }
+					USA_first_infantry = { x = 3 y = 0 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		358 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"1st Infantry Division 'The Big Red One'\" division_template = \"1st Infantry Division\" start_experience_factor = 0.8"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Division_Remove = yes }
+		
 	}
 }
 
@@ -397,6 +497,49 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Marine_Raiders_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "USMC Raider Battalion"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_marine_raiders = { x = 0 y = 0 }
+					USA_marine_raiders = { x = 0 y = 1 }
+					USA_marine_raiders = { x = 0 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		362 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Marine Raiders\" division_template = \"USMC Raider Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Regiment_Remove = yes }
+		
 	}
 }
 
@@ -416,6 +559,49 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Merylls_Marauders_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "5307th Composite Unit"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_merylls_marauders = { x = 0 y = 0 }
+					USA_merylls_marauders = { x = 0 y = 1 }
+					USA_merylls_marauders = { x = 0 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		426 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"5307th Composite Unit 'Merrill's Marauders'\" division_template = \"5307th Composite Unit\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Regiment_Remove = yes }
+		
 	}
 }
 
@@ -435,6 +621,49 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Paramarines_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "USMC Parachute Battalion"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_paramarines = { x = 0 y = 0 }
+					USA_paramarines = { x = 0 y = 1 }
+					USA_paramarines = { x = 0 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		363 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"USMC Parachute Battalion 'Paramarines'\" division_template = \"USMC Parachute Battalion\" start_experience_factor = 0.8"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Regiment_Remove = yes }
+		
 	}
 }
 
@@ -519,6 +748,56 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_First_Airborne_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "101st Airborne Division"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_screaming_eagles = { x = 0 y = 0 }
+					USA_screaming_eagles = { x = 0 y = 1 }
+					USA_screaming_eagles = { x = 0 y = 2 }
+					USA_screaming_eagles = { x = 1 y = 0 }
+					USA_screaming_eagles = { x = 1 y = 1 }
+					USA_screaming_eagles = { x = 1 y = 2 }
+					USA_screaming_eagles = { x = 2 y = 0 }
+					USA_screaming_eagles = { x = 2 y = 1 }
+					USA_screaming_eagles = { x = 2 y = 2 }
+					USA_screaming_eagles = { x = 3 y = 0 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		371 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"101st Airborne Division 'Screaming Eagles'\" division_template = \"101st Airborne Division\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Paratrooper_Division_Remove = yes }
+		
 	}
 }
 
@@ -538,6 +817,48 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			division_template = {
+				name = "Brazilian 1st Infantry Division"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_smoking_snakes = { x = 0 y = 0 }
+					USA_smoking_snakes = { x = 0 y = 1 }
+					USA_smoking_snakes = { x = 0 y = 2 }
+					USA_smoking_snakes = { x = 1 y = 0 }
+					USA_smoking_snakes = { x = 1 y = 1 }
+					USA_smoking_snakes = { x = 1 y = 2 }
+					USA_smoking_snakes = { x = 2 y = 0 }
+					USA_smoking_snakes = { x = 2 y = 1 }
+					USA_smoking_snakes = { x = 2 y = 2 }
+					USA_smoking_snakes = { x = 3 y = 0 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 1
+				is_locked = yes
+				
+			}
+		}
+		
+		361 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Brazilian 1st Infantry Division 'Smoking Snakes'\" division_template = \"Brazilian 1st Infantry Division\" start_experience_factor = 0.3"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Division_SS_Remove = yes }
+		
 	}
 }
 
@@ -557,6 +878,52 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		hidden_effect = {
+			if  = {
+				limit  = {
+					is_ai = no
+				}
+				set_technology = {
+					EW_Special_Service_Force_units_tech = 1
+				}
+			}
+			division_template = {
+				name = "First Special Service Force"
+				division_names_group = USA_INF_01
+				regiments = {
+					USA_special_service_force = { x = 0 y = 0 }
+					USA_special_service_force = { x = 0 y = 1 }
+					USA_special_service_force = { x = 0 y = 2 }
+					USA_special_service_force = { x = 1 y = 0 }
+					USA_special_service_force = { x = 1 y = 1 }
+					USA_special_service_force = { x = 1 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = no
+				
+			}
+		}
+		
+		388 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"First Special Service Force 'The Devil's Brigade'\" division_template = \"First Special Service Force\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Double_Infantry_Regiment_Remove = yes }
+		
 	}
 }
 
@@ -576,6 +943,19 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		119 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"1st Ranger Battalion\" division_template = \"Ranger Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		
 	}
 }
 
@@ -595,6 +975,19 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		368 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"2nd Ranger Battalion\" division_template = \"Ranger Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		
 	}
 }
 
@@ -614,6 +1007,19 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		459 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"3rd Ranger Battalion\" division_template = \"Ranger Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		
 	}
 }
 
@@ -633,6 +1039,19 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		459 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"4th Ranger Battalion\" division_template = \"Ranger Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		
 	}
 }
 
@@ -652,6 +1071,19 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		368 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"5th Ranger Battalion\" division_template = \"Ranger Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		
 	}
 }
 
@@ -671,7 +1103,80 @@ country_event = {
 		ai_chance = {
 			factor = 1000
 		}
+		
+		523 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"6th Ranger Battalion\" division_template = \"Ranger Battalion\" start_experience_factor = 1.0"
+				owner = USA
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		
 	}
+}
+
+#Brazil Asked About The Smoking Snakes
+country_event = {
+	id = EW_Allied_Units_Country.21
+	title = EW_Allied_Units_Country.21.t
+	desc = EW_Allied_Units_Country.21.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allied_Units_Country.21.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		USA = { country_event = { id = EW_Allied_Units_Country.13 hours = 6 } }
+		
+
+	}
+	
+	option = {
+		name = EW_Allied_Units_Country.21.b
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		USA = { country_event = { id = EW_Allied_Units_Country.22 hours = 6 } }
+		
+
+	}
+
+}
+
+#Brazil Says No
+country_event = {
+	id = EW_Allied_Units_Country.22
+	title = EW_Allied_Units_Country.22.t
+	desc = EW_Allied_Units_Country.22.d
+	picture = GFX_report_event_American_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allied_Units_Country.22.a
+		
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_opinion_modifier = {
+			target = BRA
+			modifier = refused_help
+		}
+		
+	}
+
 }
 
 #Creation of the US Army Rangers

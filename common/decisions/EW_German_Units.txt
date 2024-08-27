@@ -1877,8 +1877,8 @@ WE_Create_3 = {
 			AND = {
 				NOT = { has_war_with = SPR }
 				OR = { 
-					has_government = neutrality 
-					has_government = fascism
+					SPR = { has_government = neutrality } 
+					SPR = { has_government = fascism }
 				}
 			}
 		}
@@ -1931,6 +1931,7 @@ WE_Create_6 = {
 			is_ai = yes
 			EW_Equipment_Paratrooper_Regiment = yes
 		}
+		has_tech = paratroopers
     }
 
     ai_will_do = {

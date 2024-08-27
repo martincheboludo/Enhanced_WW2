@@ -4,6 +4,599 @@ Red_Army_EW_Decisions = {
 
 #US Army Units Decisions
 US_Army_EW_Decisions = {
+
+#82nd Airborne Division
+EW_Create_Allied_Units_6 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {}
+
+    available = {
+        date > 1942.01.01
+        365 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Paratrooper_Division = yes
+		}
+		has_tech = paratroopers
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1942.08.15
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.6
+            }    
+        }
+    }
+}
+# 1st Infantry Division
+EW_Create_Allied_Units_7 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {}
+
+    available = {
+        358 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Infantry_Division = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.7
+            }    
+        }
+    }
+}
+# Marine Raiders
+EW_Create_Allied_Units_8 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {}
+
+    available = {
+        date > 1942.01.01
+        362 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Infantry_Regiment = yes
+		}
+		has_tech = marines
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1942.02.16
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.8
+            }    
+        }
+    }
+}
+# Merrill's Marauders
+EW_Create_Allied_Units_9 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {}
+
+    available = {
+        date > 1943.1.1
+        426 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Infantry_Regiment = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.10.03
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.9
+            }    
+        }
+    }
+}
+# Paramarines
+EW_Create_Allied_Units_10 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {}
+
+    available = {
+        date > 1940.1.1
+        363 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Infantry_Regiment = yes
+		}
+		has_tech = paratroopers
+		has_tech = marines
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1940.10.26
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.10
+            }    
+        }
+    }
+}
+# Army Rangers
+EW_Create_Allied_Units_11 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+	}
+
+    available = {
+        date > 1942.01.01
+        threat > 0.5
+		has_tech = paratroopers
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1942.6.19
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.11
+            }    
+        }
+    }
+}
+# Screaming Eagles (101st Airborne Division)
+EW_Create_Allied_Units_12 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+	}
+
+    available = {
+        date > 1942.1.1
+        371 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Paratrooper_Division = yes
+		}
+		has_tech = paratroopers
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1942.08.16
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.12
+            }    
+        }
+    }
+}
+# Smoking Snakes (Brazilian 1st Infantry Division)
+EW_Create_Allied_Units_13 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+	}
+
+    available = {
+        date > 1943.1.1
+        361 = { is_controlled_by_ROOT_or_ally = yes }
+		has_war_with = GER
+		OR = {
+			500 = { is_controlled_by_ROOT_or_ally = yes }
+			AND = {
+				NOT = { has_war_with = BRA }
+				OR = { 
+					BRA = { has_government = neutrality } 
+					BRA = { has_government = democratic }
+				}
+			}
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.02.09
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        if = {
+			limit = {
+				country_exists = BRA
+				NOT = { 
+					has_war_with = BRA
+				}
+			}
+			BRA = { country_event = { id = EW_Allied_Units_Country.21 hours = 6 } }
+		}
+		else = {
+			  USA = { country_event = { id = EW_Allied_Units_Country.13 hours = 6 } }
+		}
+    }
+}
+# First Special Service Force
+EW_Create_Allied_Units_14 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+	}
+
+    available = {
+        date > 1942.1.1
+        388 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Double_Infantry_Regiment = yes
+		}
+		has_tech = paratroopers
+		has_tech = marines
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1942.07.09
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.14
+            }    
+        }
+    }
+}
+# 1st Ranger Battalion
+EW_Create_Allied_Units_15 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+		has_country_flag = EW_US_Army_Rangers_Created
+	}
+
+    available = {
+        119 = { is_controlled_by_ROOT_or_ally = yes }
+		has_country_flag = EW_US_Army_Rangers_Created
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Ranger_Battalion = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1942.06.19
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.15
+            }    
+        }
+    }
+}
+
+EW_Create_Allied_Units_16 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+		has_country_flag = EW_US_Army_Rangers_Created
+	}
+
+    available = {
+        368 = { is_controlled_by_ROOT_or_ally = yes }
+		has_country_flag = EW_US_Army_Rangers_Created
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Ranger_Battalion = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.04.01
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.16
+            }    
+        }
+    }
+}
+
+EW_Create_Allied_Units_17 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+		has_country_flag = EW_US_Army_Rangers_Created
+	}
+
+    available = {
+        459 = { is_controlled_by_ROOT_or_ally = yes }
+		has_country_flag = EW_US_Army_Rangers_Created
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Ranger_Battalion = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.05.21
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.17
+            }    
+        }
+    }
+}
+
+EW_Create_Allied_Units_18 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+		has_country_flag = EW_US_Army_Rangers_Created
+	}
+
+    available = {
+        459 = { is_controlled_by_ROOT_or_ally = yes }
+		has_country_flag = EW_US_Army_Rangers_Created
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Ranger_Battalion = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.06.08
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.18
+            }    
+        }
+    }
+}
+
+EW_Create_Allied_Units_19 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+		has_country_flag = EW_US_Army_Rangers_Created
+	}
+
+    available = {
+        368 = { is_controlled_by_ROOT_or_ally = yes }
+		has_country_flag = EW_US_Army_Rangers_Created
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Ranger_Battalion = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.09.01
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.19
+            }    
+        }
+    }
+}
+
+EW_Create_Allied_Units_20 = {
+    icon = generic_military
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {}
+
+    visible = {
+		has_country_flag = EW_US_Army_Rangers_Created
+	}
+
+    available = {
+        523 = { is_controlled_by_ROOT_or_ally = yes }
+		has_country_flag = EW_US_Army_Rangers_Created
+		OR  = {
+			is_ai = yes
+			EW_Equipment_USA_Ranger_Battalion = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1943.09.25
+		}
+    }
+
+    visible = {}
+
+    complete_effect = {
+        USA = {
+            country_event = {
+                id = EW_Allied_Units_Country.20
+            }    
+        }
+    }
+}
+
 }
 
 #British Army Units Decisions
@@ -26,16 +619,22 @@ EW_Create_Allied_Units_1 = {
     }
 
     available = {
-        date > 1940.06.01
+        date > 1940.1.1
 		121 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ENG_Special_Forces_Regiment = yes
 		}
+		has_tech = marines
     }
 
     ai_will_do = {
-        factor = 100
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1940.06.01
+		}
     }
 
     visible = {
@@ -69,6 +668,7 @@ EW_Create_Allied_Units_2 = {
     available = {
         date > 1939.09.01
 		126 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ENG_Special_Forces_Regiment = yes
@@ -76,7 +676,7 @@ EW_Create_Allied_Units_2 = {
     }
 
     ai_will_do = {
-        factor = 100
+        factor = 1000
     }
 
     visible = {
@@ -108,16 +708,22 @@ EW_Create_Allied_Units_3 = {
     }
 
     available = {
-        date > 1940.08.01
+        date > 1940.01.01
 		132 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ENG_Special_Forces_Regiment = yes
 		}
+		has_tech = paratroopers
     }
 
     ai_will_do = {
-        factor = 100
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1940.08.01
+		}
     }
 
     visible = {
@@ -149,16 +755,23 @@ EW_Create_Allied_Units_4 = {
     }
 
     available = {
-        date > 1941.07.01
+        date > 1941.01.01
 		907 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ENG_Special_Forces_Regiment = yes
 		}
+		has_tech = paratroopers
+		has_tech = marines
     }
 
     ai_will_do = {
-        factor = 100
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1941.07.01
+		}
     }
 
     visible = {
@@ -190,16 +803,22 @@ EW_Create_Allied_Units_5 = {
     }
 
     available = {
-        date > 1940.07.01
+        date > 1940.01.01
 		121 = { is_controlled_by_ROOT_or_ally = yes }
+		threat > 0.5
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ENG_Special_Forces_Regiment = yes
 		}
+		has_tech = marines
     }
 
     ai_will_do = {
-        factor = 100
+        factor = 1000
+		modifier = {
+			factor = 0
+			date < 1940.07.01
+		}
     }
 
     visible = {

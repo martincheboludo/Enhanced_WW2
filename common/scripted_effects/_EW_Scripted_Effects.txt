@@ -103,3 +103,55 @@ EW_Equipment_ENG_Special_Forces_Regiment_Remove = {
 	add_equipment_to_stockpile = { type = motorized_equipment amount = -40 }
 	add_equipment_to_stockpile = { type = support_equipment amount = -100 }
 }
+
+EW_Equipment_USA_Paratrooper_Division_Remove = {
+	add_manpower = -11900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1310 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+EW_Equipment_USA_Infantry_Division_Remove = {
+	add_manpower = -11900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1010 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+EW_Equipment_USA_Infantry_Division_SS_Remove = {
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -1010 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+EW_Equipment_USA_Infantry_Regiment_Remove = {
+	add_manpower = -4900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -460 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+EW_Equipment_USA_Double_Infantry_Regiment_Remove = {
+	add_manpower = -11900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -910 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}
+
+EW_Equipment_USA_Ranger_Battalion_Remove = {
+	add_manpower = -2900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -160 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
+}

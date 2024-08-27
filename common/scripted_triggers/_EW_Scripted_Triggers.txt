@@ -113,6 +113,61 @@ EW_Equipment_ENG_Special_Forces_Regiment = {
 	}
 }
 
+EW_Equipment_USA_Paratrooper_Division = {
+	AND = {
+		has_manpower > 11899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1309 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_USA_Infantry_Division = {
+	AND = {
+		has_manpower > 11899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1009 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_USA_Infantry_Regiment = {
+	AND = {
+		has_manpower > 4899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 459 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_USA_Double_Infantry_Regiment = {
+	AND = {
+		has_manpower > 7899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 9009 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
+EW_Equipment_USA_Ranger_Battalion = {
+	AND = {
+		has_manpower > 2899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 159 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
 is_russian_winter = {
 	OR = {
 		AND = {
