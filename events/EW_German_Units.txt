@@ -2868,9 +2868,7 @@ country_event = {
                 limit = { is_controlled_by_ROOT_or_ally = yes }
             }
             create_unit = {
-                division = "name = \"9. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0
-
-.2"
+                division = "name = \"9. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
                 owner = GER
             }
         }

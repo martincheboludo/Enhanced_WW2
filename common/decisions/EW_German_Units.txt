@@ -1,1628 +1,25 @@
 
 #German Units Decisions
-SS_EW_Decisions = {
-
-	SS_Create_Waffen_SS = {
-
-		icon = generic_military
-
-		fire_only_once = yes
-		cost = 10
-
-		allowed = {
-			
-		}
-
-		available = {
-		surrender_progress < 0.01
-		date > 1940.1.1
-		has_tech = mechanised_infantry
-		
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = "Poland Neutralized"
-					
-					OR = {
-						POL = {
-							has_capitulated = yes
-						}
-						POL = {
-							exists = no
-						}
-						POL = {
-							is_subject_of = GER
-						}
-						OR = {
-							GER = {
-								controls_state = 10
-							}
-							any_other_country = {
-								is_in_faction_with = GER
-								controls_state = 10
-							}
-						}
-					}
-				}
-			
-				custom_trigger_tooltip = {
-					tooltip = "France Neutralized"
-					
-					OR = {
-						FRA = {
-							has_capitulated = yes
-						}
-						FRA = {
-							exists = no
-						}
-						FRA = {
-							is_subject_of = GER
-						}
-						OR = {
-							GER = {
-								controls_state = 16
-							}
-							any_other_country = {
-								is_in_faction_with = GER
-								controls_state = 16
-							}
-						}
-						has_global_flag = fall_of_france
-					}
-				}
-			}
-			
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		visible = {
-		}
-
-		complete_effect = {
-			GER = {
-				country_event = {
-					id = EW_German_Units_Country.0
-				}	
-			}
-		}
-	}
-	
-#1. SS-Panzerdivision "Leibstandarte SS Adolf Hitler"	
-SS_Create_Waffen_SS_1 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1940.01.01
-		#Berlin
-		64 = { is_controlled_by_ROOT_or_ally = yes }
-		
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-		
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.1
-            }    
-        }
-    }
-}
-#Das Reich
-SS_Create_Waffen_SS_2 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1940.01.01
-		#Munich
-		52 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.2
-            }    
-        }
-    }
-}
-#Totenkopf
-SS_Create_Waffen_SS_3 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1940.01.01
-		#Munich
-		52 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.3
-            }    
-        }
-    }
-}
-#Polizei
-SS_Create_Waffen_SS_4 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1940.01.01
-		#Berlin
-		65 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mechanized = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.4
-            }    
-        }
-    }
-}
-
-SS_Create_Waffen_SS_5 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1940.01.01
-		#Baden
-		50 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.5
-            }    
-        }
-    }
-}
-#6th SS Gebirgs Division - Nord
-SS_Create_Waffen_SS_6 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1941.01.01
-		763 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mountain = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.6
-            }    
-        }
-    }
-}
-#7th SS Mountain Division - Prinz Eugen
-SS_Create_Waffen_SS_7 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1942.01.01
-		52 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mountain = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.7
-            }    
-        }
-    }
-}
-#8th SS Kavallerie Division - Florian Geyer
-SS_Create_Waffen_SS_8 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1941.01.01
-		65 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Cavalry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.8
-            }    
-        }
-    }
-}
-#9th SS Panzer Division - Hohenstaufen
-SS_Create_Waffen_SS_9 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		65 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.9
-            }    
-        }
-    }
-}
-#10th SS Panzer Division - Frundsberg
-SS_Create_Waffen_SS_10 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		57 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.10
-            }    
-        }
-    }
-}
-#11th SS Panzergrenadier Division - Nordland
-SS_Create_Waffen_SS_11 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		64 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mechanized = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.11
-            }    
-        }
-    }
-}
-#12th SS Panzer Division - Hitlerjugend
-SS_Create_Waffen_SS_12 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		16 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Medium_Tank = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.12
-            }    
-        }
-    }
-}
-#13th SS Mountain Division - Handschar
-SS_Create_Waffen_SS_13 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		104 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mountain = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.13
-            }    
-        }
-    }
-}
-#14. Waffen-Grenadier-Division der SS (1. Galizische)
-SS_Create_Waffen_SS_14 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		89 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.14
-            }    
-        }
-    }
-}
-#15th SS Grenadier Division - Lettische
-SS_Create_Waffen_SS_15 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		808 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.15
-            }    
-        }
-    }
-}
-#16th SS Grenadier Division - Reichsführer-SS
-SS_Create_Waffen_SS_16 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		57 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.16
-            }    
-        }
-    }
-}
-#17th SS Panzergrenadier Division - Götz von Berlichingen
-SS_Create_Waffen_SS_17 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		64 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mechanized = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.17
-            }    
-        }
-    }
-}
-#18th SS Grenadier Division - Horst Wessel
-SS_Create_Waffen_SS_18 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		64 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.18
-            }    
-        }
-    }
-}
-#19th SS Grenadier Division - Lettische Nr. 2
-SS_Create_Waffen_SS_19 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		808 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.19
-            }    
-        }
-    }
-}
-#20th SS Grenadier Division - Estnische
-SS_Create_Waffen_SS_20 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		812 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.20
-            }    
-        }
-    }
-}
-#21st SS Mountain Division - Skanderbeg
-SS_Create_Waffen_SS_21 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		44 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mountain = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.21
-            }    
-        }
-    }
-}
-#22nd SS Grenadier Division - Maria Theresia
-SS_Create_Waffen_SS_22 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		155 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.22
-            }    
-        }
-    }
-}
-#23. Waffen Gebirgs-Division der SS Kama (2. Kroatische)
-SS_Create_Waffen_SS_23 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		103 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mountain = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.23
-            }    
-        }
-    }
-}
-#24. Waffen-Gebirgs-Division der SS Karstjäger
-SS_Create_Waffen_SS_24 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1942.01.01
-		736 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Mountain = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.24
-            }    
-        }
-    }
-}
-#25. Waffen-Grenadier-Division der SS Hunyadi (1. Ungarisch)
-SS_Create_Waffen_SS_25 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		155 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.25
-            }    
-        }
-    }
-}
-#26. Waffen-Grenadier-Division der SS Hungaria (2. Ungarisch)
-SS_Create_Waffen_SS_26 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		43 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.26
-            }    
-        }
-    }
-}
-#27. SS-Freiwilligen-Grenadier-Division Langemarck (1. Flämische)
-SS_Create_Waffen_SS_27 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		54 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.27
-            }    
-        }
-    }
-}
-#28. SS-Freiwilligen-Grenadier-Division (1. Wallonien)
-SS_Create_Waffen_SS_28 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		54 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.28
-            }    
-        }
-    }
-}
-#29. Waffen-Grenadier-Division der SS (1. Italienische)
-SS_Create_Waffen_SS_29 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		159 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.29
-            }    
-        }
-    }
-}
-#30. Waffen-Grenadier-Division der SS (1. Weißruthenische)
-SS_Create_Waffen_SS_30 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		65 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.30
-            }    
-        }
-    }
-}
-#31. SS-Freiwilligen-Grenadier-Division Batschka
-SS_Create_Waffen_SS_31 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		57 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.31
-            }    
-        }
-    }
-}
-#32. SS-Freiwilligen-Grenadier-Division 30. Januar
-SS_Create_Waffen_SS_32 = {
-
-    icon = generic_military
-
-
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1945.01.01
-		42 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.32
-            }    
-        }
-    }
-}
-#33. Waffen-Kavallerie-Division der SS (3. Ungarische)
-SS_Create_Waffen_SS_33 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1944.01.01
-		43 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Cavalry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.33
-            }    
-        }
-    }
-}
-#34. SS-Freiwilligen-Grenadier-Division Landstorm Nederland
-SS_Create_Waffen_SS_34 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1943.01.01
-		7 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.34
-            }    
-        }
-    }
-}
-#35. SS- und Polizei-Grenadier-Division
-SS_Create_Waffen_SS_35 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1945.01.01
-		64 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.35
-            }    
-        }
-    }
-}
-#36. Waffen-Grenadier-Division der SS Dirlewanger
-SS_Create_Waffen_SS_36 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1940.01.01
-		66 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.36
-            }    
-        }
-    }
-}
-#37. SS-Freiwilligen-Kavallerie-Division Lützow
-SS_Create_Waffen_SS_37 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1945.01.01
-		66 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Cavalry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.37
-            }    
-        }
-    }
-}
-#38. SS-Grenadier-Division Nibelungen
-SS_Create_Waffen_SS_38 = {
-
-    icon = generic_military
-
-    fire_only_once = yes
-    cost = 10
-
-    allowed = {
-        
-    }
-    
-    visible = {
-        has_country_flag = Waffen_SS_Created
-    }
-
-    available = {
-        date > 1945.01.01
-		4 = { is_controlled_by_ROOT_or_ally = yes }
-		OR  = {
-			is_ai = yes
-			EW_Equipment_Infantry = yes
-		}
-    }
-
-    ai_will_do = {
-        factor = 1000
-    }
-
-    visible = {
-    }
-
-    complete_effect = {
-        GER = {
-            country_event = {
-                id = EW_German_Units_Country.38
-            }    
-        }
-    }
-}
-	
-}
-
-#German Units Decisions
 Wehrmacht_EW_Decisions = {
+
+show_hide_unit_decisions = {
+        priority = 100
+        visible = { always = yes }
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        complete_effect = { 
+            if = {
+                limit = { has_country_flag = show_unit_decisions }
+                clr_country_flag = show_unit_decisions
+            }
+            else = {
+                set_country_flag = show_unit_decisions
+            }
+        }
+    }
 
 WE_Create_DAK = {
 
@@ -1712,8 +109,9 @@ WE_Create_DAK = {
 		}
 
 		visible = {
+			NOT = { has_country_flag = show_unit_decisions }
 		}
-
+		
 		complete_effect = {
 			GER = {
 				country_event = {
@@ -1736,7 +134,7 @@ WE_Create_0 = {
     }
     
     visible = {
-
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -1751,9 +149,6 @@ WE_Create_0 = {
 
     ai_will_do = {
         factor = 1000
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -1777,7 +172,7 @@ WE_Create_1 = {
     }
     
     visible = {
-
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -1792,9 +187,6 @@ WE_Create_1 = {
 
     ai_will_do = {
         factor = 1000
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -1818,7 +210,7 @@ WE_Create_2 = {
     }
     
     visible = {
-
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -1833,9 +225,6 @@ WE_Create_2 = {
 
     ai_will_do = {
         factor = 1000
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -1859,7 +248,7 @@ WE_Create_3 = {
     }
     
     visible = {
-
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -1886,9 +275,6 @@ WE_Create_3 = {
 
     ai_will_do = {
         factor = 1000
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -1920,7 +306,7 @@ WE_Create_6 = {
     }
     
     visible = {
-
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -1936,9 +322,6 @@ WE_Create_6 = {
 
     ai_will_do = {
         factor = 0
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -1962,6 +345,7 @@ WE_Create_47 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -1976,9 +360,6 @@ WE_Create_47 = {
 			is_historical_focus_on = yes
 			date < 1942.10.01
 		}
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -2003,6 +384,7 @@ WE_Create_48 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -2017,9 +399,6 @@ WE_Create_48 = {
 			is_historical_focus_on = yes
 			date < 1945.3.02
 		}
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -2044,6 +423,7 @@ WE_Create_49 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
     }
 
     available = {
@@ -2058,9 +438,6 @@ WE_Create_49 = {
 			is_historical_focus_on = yes
 			date < 1939.8.01
 		}
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -2085,6 +462,7 @@ WE_Create_50 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Kriegsmarine_Field_Divisions
     }
 
@@ -2103,8 +481,7 @@ WE_Create_50 = {
         factor = 1000
     }
 
-    visible = {
-    }
+    
 
     complete_effect = {
         GER = {
@@ -2128,6 +505,7 @@ WE_Create_51 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Kriegsmarine_Field_Divisions
     }
 
@@ -2144,9 +522,6 @@ WE_Create_51 = {
 
     ai_will_do = {
         factor = 1000
-    }
-
-    visible = {
     }
 
     complete_effect = {
@@ -2169,8 +544,9 @@ WE_Create_52 = {
     allowed = {
         
     }
-    
-    visible = {
+	
+	visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2210,6 +586,7 @@ WE_Create_53 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2249,6 +626,7 @@ WE_Create_54 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2288,6 +666,7 @@ WE_Create_55 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2327,6 +706,7 @@ WE_Create_56 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2366,6 +746,7 @@ WE_Create_57 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2405,6 +786,7 @@ WE_Create_58 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2444,6 +826,7 @@ WE_Create_59 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2483,6 +866,7 @@ WE_Create_60 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2522,6 +906,7 @@ WE_Create_61 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2561,6 +946,7 @@ WE_Create_62 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Order_Police
     }
 
@@ -2598,8 +984,8 @@ WE_Create_64 = {
     allowed = {
         
     }
-    
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2639,6 +1025,7 @@ WE_Create_65 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2678,6 +1065,7 @@ WE_Create_66 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2717,6 +1105,7 @@ WE_Create_67 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2756,6 +1145,7 @@ WE_Create_68 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2795,6 +1185,7 @@ WE_Create_69 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2834,6 +1225,7 @@ WE_Create_70 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2873,6 +1265,7 @@ WE_Create_71 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2912,6 +1305,7 @@ WE_Create_72 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2951,6 +1345,7 @@ WE_Create_73 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -2990,6 +1385,7 @@ WE_Create_74 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3029,6 +1425,7 @@ WE_Create_75 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3068,6 +1465,7 @@ WE_Create_76 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3107,6 +1505,7 @@ WE_Create_77 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3146,6 +1545,7 @@ WE_Create_78 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3185,6 +1585,7 @@ WE_Create_79 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3224,6 +1625,7 @@ WE_Create_80 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3263,6 +1665,7 @@ WE_Create_81 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3302,6 +1705,7 @@ WE_Create_82 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3341,6 +1745,7 @@ WE_Create_83 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3380,6 +1785,7 @@ WE_Create_84 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3419,6 +1825,7 @@ WE_Create_85 = {
     }
     
     visible = {
+		NOT = { has_country_flag = show_unit_decisions }
 		has_country_flag = EW_Luftwaffe_Field_Divisions
     }
 
@@ -3447,4 +1854,1635 @@ WE_Create_85 = {
 
 
 
+}
+
+
+#German Units Decisions
+SS_EW_Decisions = {
+
+show_hide_unit_decisions_SS = {
+        priority = 100
+        visible = { always = yes }
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        complete_effect = { 
+            if = {
+                limit = { has_country_flag = show_unit_decisions }
+                clr_country_flag = show_unit_decisions
+            }
+            else = {
+                set_country_flag = show_unit_decisions
+            }
+        }
+    }
+
+	SS_Create_Waffen_SS = {
+
+		icon = generic_military
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+		
+		visible = {
+			NOT = { has_country_flag = show_unit_decisions }
+		}
+
+		available = {
+		surrender_progress < 0.01
+		date > 1940.1.1
+		has_tech = mechanised_infantry
+		
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = "Poland Neutralized"
+					
+					OR = {
+						POL = {
+							has_capitulated = yes
+						}
+						POL = {
+							exists = no
+						}
+						POL = {
+							is_subject_of = GER
+						}
+						OR = {
+							GER = {
+								controls_state = 10
+							}
+							any_other_country = {
+								is_in_faction_with = GER
+								controls_state = 10
+							}
+						}
+					}
+				}
+			
+				custom_trigger_tooltip = {
+					tooltip = "France Neutralized"
+					
+					OR = {
+						FRA = {
+							has_capitulated = yes
+						}
+						FRA = {
+							exists = no
+						}
+						FRA = {
+							is_subject_of = GER
+						}
+						OR = {
+							GER = {
+								controls_state = 16
+							}
+							any_other_country = {
+								is_in_faction_with = GER
+								controls_state = 16
+							}
+						}
+						has_global_flag = fall_of_france
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		complete_effect = {
+			GER = {
+				country_event = {
+					id = EW_German_Units_Country.0
+				}	
+			}
+		}
+	}
+	
+#1. SS-Panzerdivision "Leibstandarte SS Adolf Hitler"	
+SS_Create_Waffen_SS_1 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.01.01
+		#Berlin
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+		
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+		
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.1
+            }    
+        }
+    }
+}
+#Das Reich
+SS_Create_Waffen_SS_2 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.01.01
+		#Munich
+		52 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.2
+            }    
+        }
+    }
+}
+#Totenkopf
+SS_Create_Waffen_SS_3 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.01.01
+		#Munich
+		52 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.3
+            }    
+        }
+    }
+}
+#Polizei
+SS_Create_Waffen_SS_4 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.01.01
+		#Berlin
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.4
+            }    
+        }
+    }
+}
+
+SS_Create_Waffen_SS_5 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.01.01
+		#Baden
+		50 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.5
+            }    
+        }
+    }
+}
+#6th SS Gebirgs Division - Nord
+SS_Create_Waffen_SS_6 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1941.01.01
+		763 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.6
+            }    
+        }
+    }
+}
+#7th SS Mountain Division - Prinz Eugen
+SS_Create_Waffen_SS_7 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1942.01.01
+		52 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.7
+            }    
+        }
+    }
+}
+#8th SS Kavallerie Division - Florian Geyer
+SS_Create_Waffen_SS_8 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1941.01.01
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Cavalry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.8
+            }    
+        }
+    }
+}
+#9th SS Panzer Division - Hohenstaufen
+SS_Create_Waffen_SS_9 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.9
+            }    
+        }
+    }
+}
+#10th SS Panzer Division - Frundsberg
+SS_Create_Waffen_SS_10 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		57 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.10
+            }    
+        }
+    }
+}
+#11th SS Panzergrenadier Division - Nordland
+SS_Create_Waffen_SS_11 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.11
+            }    
+        }
+    }
+}
+#12th SS Panzer Division - Hitlerjugend
+SS_Create_Waffen_SS_12 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		16 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Medium_Tank = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.12
+            }    
+        }
+    }
+}
+#13th SS Mountain Division - Handschar
+SS_Create_Waffen_SS_13 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		104 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.13
+            }    
+        }
+    }
+}
+#14. Waffen-Grenadier-Division der SS (1. Galizische)
+SS_Create_Waffen_SS_14 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		89 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.14
+            }    
+        }
+    }
+}
+#15th SS Grenadier Division - Lettische
+SS_Create_Waffen_SS_15 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		808 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.15
+            }    
+        }
+    }
+}
+#16th SS Grenadier Division - Reichsführer-SS
+SS_Create_Waffen_SS_16 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		57 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.16
+            }    
+        }
+    }
+}
+#17th SS Panzergrenadier Division - Götz von Berlichingen
+SS_Create_Waffen_SS_17 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mechanized = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.17
+            }    
+        }
+    }
+}
+#18th SS Grenadier Division - Horst Wessel
+SS_Create_Waffen_SS_18 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.18
+            }    
+        }
+    }
+}
+#19th SS Grenadier Division - Lettische Nr. 2
+SS_Create_Waffen_SS_19 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		808 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.19
+            }    
+        }
+    }
+}
+#20th SS Grenadier Division - Estnische
+SS_Create_Waffen_SS_20 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		812 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.20
+            }    
+        }
+    }
+}
+#21st SS Mountain Division - Skanderbeg
+SS_Create_Waffen_SS_21 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		44 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.21
+            }    
+        }
+    }
+}
+#22nd SS Grenadier Division - Maria Theresia
+SS_Create_Waffen_SS_22 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		155 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.22
+            }    
+        }
+    }
+}
+#23. Waffen Gebirgs-Division der SS Kama (2. Kroatische)
+SS_Create_Waffen_SS_23 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		103 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.23
+            }    
+        }
+    }
+}
+#24. Waffen-Gebirgs-Division der SS Karstjäger
+SS_Create_Waffen_SS_24 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1942.01.01
+		736 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Mountain = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.24
+            }    
+        }
+    }
+}
+#25. Waffen-Grenadier-Division der SS Hunyadi (1. Ungarisch)
+SS_Create_Waffen_SS_25 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		155 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.25
+            }    
+        }
+    }
+}
+#26. Waffen-Grenadier-Division der SS Hungaria (2. Ungarisch)
+SS_Create_Waffen_SS_26 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		43 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.26
+            }    
+        }
+    }
+}
+#27. SS-Freiwilligen-Grenadier-Division Langemarck (1. Flämische)
+SS_Create_Waffen_SS_27 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		54 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.27
+            }    
+        }
+    }
+}
+#28. SS-Freiwilligen-Grenadier-Division (1. Wallonien)
+SS_Create_Waffen_SS_28 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		54 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.28
+            }    
+        }
+    }
+}
+#29. Waffen-Grenadier-Division der SS (1. Italienische)
+SS_Create_Waffen_SS_29 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		159 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.29
+            }    
+        }
+    }
+}
+#30. Waffen-Grenadier-Division der SS (1. Weißruthenische)
+SS_Create_Waffen_SS_30 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		65 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.30
+            }    
+        }
+    }
+}
+#31. SS-Freiwilligen-Grenadier-Division Batschka
+SS_Create_Waffen_SS_31 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		57 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.31
+            }    
+        }
+    }
+}
+#32. SS-Freiwilligen-Grenadier-Division 30. Januar
+SS_Create_Waffen_SS_32 = {
+
+    icon = generic_military
+
+
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.01.01
+		42 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.32
+            }    
+        }
+    }
+}
+#33. Waffen-Kavallerie-Division der SS (3. Ungarische)
+SS_Create_Waffen_SS_33 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1944.01.01
+		43 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Cavalry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.33
+            }    
+        }
+    }
+}
+#34. SS-Freiwilligen-Grenadier-Division Landstorm Nederland
+SS_Create_Waffen_SS_34 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1943.01.01
+		7 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.34
+            }    
+        }
+    }
+}
+#35. SS- und Polizei-Grenadier-Division
+SS_Create_Waffen_SS_35 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.01.01
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.35
+            }    
+        }
+    }
+}
+#36. Waffen-Grenadier-Division der SS Dirlewanger
+SS_Create_Waffen_SS_36 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1940.01.01
+		66 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.36
+            }    
+        }
+    }
+}
+#37. SS-Freiwilligen-Kavallerie-Division Lützow
+SS_Create_Waffen_SS_37 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.01.01
+		66 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Cavalry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.37
+            }    
+        }
+    }
+}
+#38. SS-Grenadier-Division Nibelungen
+SS_Create_Waffen_SS_38 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+        
+    }
+    
+    visible = {
+		NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Waffen_SS_Created
+    }
+
+    available = {
+        date > 1945.01.01
+		4 = { is_controlled_by_ROOT_or_ally = yes }
+		OR  = {
+			is_ai = yes
+			EW_Equipment_Infantry = yes
+		}
+    }
+
+    ai_will_do = {
+        factor = 1000
+    }
+
+    
+
+    complete_effect = {
+        GER = {
+            country_event = {
+                id = EW_German_Units_Country.38
+            }    
+        }
+    }
+}
+	
 }
