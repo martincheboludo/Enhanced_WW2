@@ -2788,10 +2788,15 @@ country_event = {
 	option = {
 		name = EW_Allies_Country.10.a
 		ai_chance = {
-			factor = 900
+			factor = 600
 			modifier = {
 				ENG = { is_ai = no }
 				factor = 0
+			}
+			modifier = {
+				NOT = { USA = { has_war_with = GER } }
+				NOT = { USA = { is_in_faction_with = ENG } }
+				factor = 1.5
 			}
 		}
 		
@@ -2839,6 +2844,11 @@ country_event = {
 		name = EW_Allies_Country.10.b
 		ai_chance = {
 			factor = 100
+			modifier = {
+				USA = { has_war_with = GER }
+				USA = { is_in_faction_with = ENG }
+				factor = 4
+			}
 		}
 		
 		ENG = {
