@@ -83,10 +83,7 @@ RED_light_sp_artillery_brigade_desc:0 "Utilizes light self-propelled artillery f
  
  RED_Create_Guard_Units:0 "Create Soviet Guard Units"
  RED_Create_Guard_Units_desc:0 "The time has come to formalize the Soviet Guards as an elite fighting force. Emerging from the trials of war and the relentless spirit of the Soviet people, the Soviet Guards will be more than just a military unit; they will embody our dedication to victory and our commitment to the motherland. This new formation will serve as both a symbol of our resilience and a key element in our campaigns. With their distinctive role and unwavering loyalty, the Soviet Guards will become a cornerstone of our military might."
- 
- Here's the localization for IDs 1 to 129 with the division names and descriptions filled in accordingly:
 
-```plaintext
 RED_Create_Guard_Units_1:0 "1st Guards Rifle Division"
 RED_Create_Guard_Units_1_desc:0 "Deploy the 1st Guards Rifle Division to reinforce our front lines. This division is well-equipped and highly motivated, ready to fight decisively."
 
@@ -192,9 +189,7 @@ EW_Soviet_Units_Country.15.t:0 "15th Guards Rifle Division"
 EW_Soviet_Units_Country.15.d:0 "The 15th Guards Rifle Division is now ready for deployment. This division will contribute greatly to our strategic objectives."
 EW_Soviet_Units_Country.15.a:1 "Create Unit"
 
-RED_Create_Guard_Units_16:0
-
- "16th Guards Rifle Division"
+RED_Create_Guard_Units_16:0 "16th Guards Rifle Division"
 RED_Create_Guard_Units_16_desc:0 "Deploy the 16th Guards Rifle Division to strengthen our frontline defenses. This elite unit will provide crucial support in our ongoing campaigns."
 
 EW_Soviet_Units_Country.16.t:0 "16th Guards Rifle Division"
@@ -410,9 +405,7 @@ RED_Create_Guard_Units_46:0 "46th Guards Rifle Division"
 RED_Create_Guard_Units_46_desc:0 "The 46th Guards Rifle Division is ready to be deployed. This elite unit will enhance our frontline strength and support our strategic objectives."
 
 EW_Soviet_Units_Country.46.t:0 "46th Guards Rifle Division"
-EW_Soviet_Units_Country.46
-
-.d:0 "The 46th Guards Rifle Division has been created and is now operational. This division will provide crucial support to our military operations."
+EW_Soviet_Units_Country.46.d:0 "The 46th Guards Rifle Division has been created and is now operational. This division will provide crucial support to our military operations."
 EW_Soviet_Units_Country.46.a:1 "Create Unit"
 
 RED_Create_Guard_Units_47:0 "47th Guards Rifle Division"
@@ -548,9 +541,7 @@ EW_Soviet_Units_Country.65.t:0 "65th Guards Rifle Division"
 EW_Soviet_Units_Country.65.d:0 "The 65th Guards Rifle Division has been established and is now operational. This division will enhance our military effectiveness and support our ongoing campaigns."
 EW_Soviet_Units_Country.65.a:1 "Create Unit"
 
-RED_Create_Guard
-
-_Units_66:0 "66th Guards Rifle Division"
+RED_Create_Guard_Units_66:0 "66th Guards Rifle Division"
 RED_Create_Guard_Units_66_desc:0 "Deploy the 66th Guards Rifle Division to strengthen our frontline defenses. This elite division will provide crucial support to our military operations and strategic goals."
 
 EW_Soviet_Units_Country.66.t:0 "66th Guards Rifle Division"
@@ -656,9 +647,7 @@ EW_Soviet_Units_Country.80.d:0 "The 80th Guards Rifle Division is now operationa
 EW_Soviet_Units_Country.80.a:1 "Create Unit"
 
 RED_Create_Guard_Units_81:0 "81st Guards Rifle Division"
-RED_Create
-
-_Guard_Units_81_desc:0 "The 81st Guards Rifle Division is ready for deployment. This division will bolster our frontline capabilities and support our strategic goals."
+RED_Create_Guard_Units_81_desc:0 "The 81st Guards Rifle Division is ready for deployment. This division will bolster our frontline capabilities and support our strategic goals."
 
 EW_Soviet_Units_Country.81.t:0 "81st Guards Rifle Division"
 EW_Soviet_Units_Country.81.d:0 "The 81st Guards Rifle Division has been created and is now operational. This division will enhance our military strength and support our ongoing campaigns."
@@ -763,9 +752,7 @@ EW_Soviet_Units_Country.95.d:0 "The 95th Guards Rifle Division has been created 
 EW_Soviet_Units_Country.95.a:1 "Create Unit"
 
 RED_Create_Guard_Units_96:0 "96th Guards Rifle Division"
-RED_Create_Guard_Units_
-
-96_desc:0 "Deploy the 96th Guards Rifle Division to reinforce our combat strength. This well-trained division will enhance our frontline defenses and support our strategic goals."
+RED_Create_Guard_Units_96_desc:0 "Deploy the 96th Guards Rifle Division to reinforce our combat strength. This well-trained division will enhance our frontline defenses and support our strategic goals."
 
 EW_Soviet_Units_Country.96.t:0 "96th Guards Rifle Division"
 EW_Soviet_Units_Country.96.d:0 "The 96th Guards Rifle Division is now operational. This elite unit will provide crucial support to our military operations and ongoing campaigns."
@@ -895,9 +882,7 @@ RED_Create_Guard_Units_114_desc:0 "Deploy the 114th Guards Rifle Division to rei
 
 EW_Soviet_Units_Country.114.t:0 "114th Guards Rifle Division"
 EW_Soviet_Units_Country.114.d:0 "The 114th Guards Rifle Division is now operational. This division will provide crucial support to our military operations and ongoing campaigns."
-EW_Soviet_Units_Country.114
-
-.a:1 "Create Unit"
+EW_Soviet_Units_Country.114.a:1 "Create Unit"
 
 RED_Create_Guard_Units_115:0 "115th Guards Rifle Division"
 RED_Create_Guard_Units_115_desc:0 "The 115th Guards Rifle Division is prepared for deployment. This division will bolster our frontline capabilities and support our strategic objectives."
@@ -1003,3 +988,524 @@ RED_Create_Guard_Units_129_desc:0 "The 129th Guards Rifle Division is ready for 
 EW_Soviet_Units_Country.129.t:0 "129th Guards Rifle Division"
 EW_Soviet_Units_Country.129.d:0 "The 129th Guards Rifle Division has been created and is now operational. This division will enhance our military strength and support our ongoing campaigns."
 EW_Soviet_Units_Country.129.a:1 "Create Unit"
+
+
+RED_Create_Guard_Units_130:0 "1st Guards Tank Division"
+RED_Create_Guard_Units_130_desc:0 "Deploying the 1st Guards Tank Division will significantly boost our armored capabilities, enhance our offensive operations, and strengthen our ability to penetrate enemy defenses."
+
+EW_Soviet_Units_Country.130.t:0 "1st Guards Tank Division"
+EW_Soviet_Units_Country.130.d:0 "The 1st Guards Tank Division has been created and is now operational. This elite division will provide a critical advantage in our armored operations and support our strategic initiatives."
+EW_Soviet_Units_Country.130.a:1 "Create Unit"
+
+#131st Guards Tank Division
+RED_Create_Guard_Units_131:0 "2nd Guards Tank Division"
+RED_Create_Guard_Units_131_desc:0 "The 2nd Guards Tank Division will bolster our tank forces, providing enhanced combat effectiveness and greater flexibility in executing our military strategies."
+
+EW_Soviet_Units_Country.131.t:0 "2nd Guards Tank Division"
+EW_Soviet_Units_Country.131.d:0 "The 2nd Guards Tank Division has been created and is now operational. This division will enhance our armored strength and contribute significantly to our military objectives."
+EW_Soviet_Units_Country.131.a:1 "Create Unit"
+
+#132nd Guards Tank Division
+RED_Create_Guard_Units_132:0 "3rd Guards Tank Division"
+RED_Create_Guard_Units_132_desc:0 "Deploying the 3rd Guards Tank Division will add substantial power to our tank corps, improving our offensive capabilities and supporting key operations on the frontlines."
+
+EW_Soviet_Units_Country.132.t:0 "3rd Guards Tank Division"
+EW_Soviet_Units_Country.132.d:0 "The 3rd Guards Tank Division has been created and is now operational. This division will provide enhanced support for our tank operations and drive forward our strategic goals."
+EW_Soviet_Units_Country.132.a:1 "Create Unit"
+
+#133rd Guards Tank Division
+RED_Create_Guard_Units_133:0 "4th Guards Tank Division"
+RED_Create_Guard_Units_133_desc:0 "The 4th Guards Tank Division will significantly strengthen our armored units, enhancing our ability to execute rapid assaults and achieve tactical superiority."
+
+EW_Soviet_Units_Country.133.t:0 "4th Guards Tank Division"
+EW_Soviet_Units_Country.133.d:0 "The 4th Guards Tank Division has been created and is now operational. This division will provide a decisive edge in armored combat and support our overall military strategy."
+EW_Soviet_Units_Country.133.a:1 "Create Unit"
+
+#134th Guards Tank Division
+RED_Create_Guard_Units_134:0 "5th Guards Tank Division"
+RED_Create_Guard_Units_134_desc:0 "Deploying the 5th Guards Tank Division will enhance our armored force capabilities, increase our ability to break through enemy lines, and support key military operations."
+
+EW_Soviet_Units_Country.134.t:0 "5th Guards Tank Division"
+EW_Soviet_Units_Country.134.d:0 "The 5th Guards Tank Division has been created and is now operational. This division will bolster our armored divisions and contribute to the success of our ongoing campaigns."
+EW_Soviet_Units_Country.134.a:1 "Create Unit"
+
+#135th Guards Tank Division
+RED_Create_Guard_Units_135:0 "6th Guards Tank Division"
+RED_Create_Guard_Units_135_desc:0 "The 6th Guards Tank Division will augment our tank forces, providing increased combat strength and improved operational capabilities in key areas."
+
+EW_Soviet_Units_Country.135.t:0 "6th Guards Tank Division"
+EW_Soviet_Units_Country.135.d:0 "The 6th Guards Tank Division has been created and is now operational. This division will enhance our tank capabilities and play a crucial role in our military operations."
+EW_Soviet_Units_Country.135.a:1 "Create Unit"
+
+#136th Guards Tank Division
+RED_Create_Guard_Units_136:0 "7th Guards Tank Division"
+RED_Create_Guard_Units_136_desc:0 "Deploying the 7th Guards Tank Division will provide a significant boost to our armored units, improving our offensive operations and overall battlefield effectiveness."
+
+EW_Soviet_Units_Country.136.t:0 "7th Guards Tank Division"
+EW_Soviet_Units_Country.136.d:0 "The 7th Guards Tank Division has been created and is now operational. This division will support our armored forces and enhance our strategic capabilities."
+EW_Soviet_Units_Country.136.a:1 "Create Unit"
+
+#137th Guards Tank Division
+RED_Create_Guard_Units_137:0 "8th Guards Tank Division"
+RED_Create_Guard_Units_137_desc:0 "The 8th Guards Tank Division will strengthen our armored divisions, providing additional firepower and supporting our strategic initiatives on the frontlines."
+
+EW_Soviet_Units_Country.137.t:0 "8th Guards Tank Division"
+EW_Soviet_Units_Country.137.d:0 "The 8th Guards Tank Division has been created and is now operational. This division will enhance our armored strength and support our military campaigns."
+EW_Soviet_Units_Country.137.a:1 "Create Unit"
+
+#138th Guards Tank Division
+RED_Create_Guard_Units_138:0 "9th Guards Tank Division"
+RED_Create_Guard_Units_138_desc:0 "Deploying the 9th Guards Tank Division will bolster our tank forces, improving our offensive capabilities and contributing to the success of our military operations."
+
+EW_Soviet_Units_Country.138.t:0 "9th Guards Tank Division"
+EW_Soviet_Units_Country.138.d:0 "The 9th Guards Tank Division has been created and is now operational. This division will provide crucial support to our armored units and enhance our strategic efforts."
+EW_Soviet_Units_Country.138.a:1 "Create Unit"
+
+#139th Guards Tank Division
+RED_Create_Guard_Units_139:0 "10th Guards Tank Division"
+RED_Create_Guard_Units_139_desc:0 "The 10th Guards Tank Division will enhance our armored capabilities, supporting key offensive operations and strengthening our position on the battlefield."
+
+EW_Soviet_Units_Country.139.t:0 "10th Guards Tank Division"
+EW_Soviet_Units_Country.139.d:0 "The 10th Guards Tank Division has been created and is now operational. This division will add significant power to our tank forces and support our ongoing campaigns."
+EW_Soviet_Units_Country.139.a:1 "Create Unit"
+
+#140th Guards Tank Division
+RED_Create_Guard_Units_140:0 "11th Guards Tank Division"
+RED_Create_Guard_Units_140_desc:0 "Deploying the 11th Guards Tank Division will provide a substantial boost to our armored strength, enhancing our ability to execute successful offensives and secure strategic gains."
+
+EW_Soviet_Units_Country.140.t:0 "11th Guards Tank Division"
+EW_Soviet_Units_Country.140.d:0 "The 11th Guards Tank Division has been created and is now operational. This division will support our armored forces and contribute to our overall military success."
+EW_Soviet_Units_Country.140.a:1 "Create Unit"
+
+#141st Guards Tank Division
+RED_Create_Guard_Units_141:0 "12th Guards Tank Division"
+RED_Create_Guard_Units_141_desc:0 "The 12th Guards Tank Division will strengthen our tank corps, providing enhanced combat capabilities and supporting key operations on the battlefield."
+
+EW_Soviet_Units_Country.141.t:0 "12th Guards Tank Division"
+EW_Soviet_Units_Country.141.d:0 "The 12th Guards Tank Division has been created and is now operational. This division will significantly contribute to our military efforts and support our strategic goals."
+EW_Soviet_Units_Country.141.a:1 "Create Unit"
+
+#142nd Guards Tank Division
+RED_Create_Guard_Units_142:0 "13th Guards Tank Division"
+RED_Create_Guard_Units_142_desc:0 "Deploying the 13th Guards Tank Division will enhance our armored divisions, improving our offensive capabilities and bolstering our military strength."
+
+EW_Soviet_Units_Country.142.t:0 "13th Guards Tank Division"
+EW_Soviet_Units_Country.142.d:0 "The 13th Guards Tank Division has been created and is now operational. This division will provide critical support to our tank operations and strengthen our strategic initiatives."
+EW_Soviet_Units_Country.142.a:1 "Create Unit"
+
+#143rd Guards Tank Division
+RED_Create_Guard_Units_143:0 "14th Guards Tank Division"
+RED_Create_Guard_Units_143_desc:0 "The 14th Guards Tank Division will bolster our tank forces, enhancing our combat effectiveness and supporting major offensive operations."
+
+EW_Soviet_Units_Country.143.t:0 "14th Guards Tank Division"
+EW_Soviet_Units_Country.143.d:0 "The 14th Guards Tank Division has been created and is now operational. This division will add substantial strength to our armored units and support our strategic efforts."
+EW_Soviet_Units_Country.143.a:1 "Create Unit"
+
+#144th Guards Tank Division
+RED_Create_Guard_Units_144:0 "15th Guards Tank Division"
+RED_Create_Guard_Units_144_desc:0 "Deploying the 15th Guards Tank Division will provide a significant boost to our armored capabilities, enhancing our ability to conduct successful operations and secure key objectives."
+
+EW_Soviet_Units_Country.144.t:0 "15th Guards Tank Division"
+EW_Soviet_Units_Country.144.d:0 "The 15th Guards Tank Division has been created and is now operational. This division will strengthen our tank forces and support our ongoing military campaigns."
+EW_Soviet_Units_Country.144.a:1 "Create Unit"
+
+#145th Guards Tank Division
+RED_Create_Guard_Units_145:0 "16th Guards Tank Division"
+RED_Create_Guard_Units_145_desc:0 "The 16th Guards Tank Division will enhance our armored divisions, providing additional firepower and supporting our strategic initiatives on the frontlines."
+
+EW_Soviet_Units_Country.145.t:0 "16th Guards Tank Division"
+EW_Soviet_Units_Country.145.d:0 "The 16th Guards Tank Division has been created and is now operational. This division will bolster our military strength and contribute to our overall success."
+EW_Soviet_Units_Country.145.a:1 "Create Unit"
+
+#146th Guards Tank Division
+RED_Create_Guard_Units_146:0 "17th Guards Tank Division"
+RED_Create_Guard_Units_146_desc:0 "Deploying the 17th Guards Tank Division will provide a substantial increase in our armored capabilities, enhancing our ability to execute effective offensives and secure battlefield advantages."
+
+EW_Soviet_Units_Country.146.t:0 "17th Guards Tank Division"
+EW_Soviet_Units_Country.146.d:0 "The 17th Guards Tank Division has been created and is now operational. This division will support our armored forces and play a crucial role in our military campaigns."
+EW_Soviet_Units_Country.146.a:1 "Create Unit"
+
+#147th Guards Tank Division
+RED_Create_Guard_Units_147:0 "18th Guards Tank Division"
+RED_Create_Guard_Units_147_desc:0 "The 18th Guards Tank Division will strengthen our tank units, providing increased combat effectiveness and supporting our major operational goals."
+
+EW_Soviet_Units_Country.147.t:0 "18th Guards Tank Division"
+EW_Soviet_Units_Country.147.d:0 "The 18th Guards Tank Division has been created and is now operational. This division will bolster our armored strength and support our strategic efforts."
+EW_Soviet_Units_Country.147.a:1 "Create Unit"
+
+#148th Guards Tank Division
+RED_Create_Guard_Units_148:0 "19th Guards Tank Division"
+RED_Create_Guard_Units_148_desc:0 "Deploying the 19th Guards Tank Division will provide a significant boost to our tank forces, enhancing our offensive capabilities and bolstering our military operations."
+
+EW_Soviet_Units_Country.148.t:0 "19th Guards Tank Division"
+EW_Soviet_Units_Country.148.d:0 "The 19th Guards Tank Division has been created and is now operational. This division will enhance our armored units and support our strategic objectives."
+EW_Soviet_Units_Country.148.a:1 "Create Unit"
+
+#149th Guards Tank Division
+RED_Create_Guard_Units_149:0 "20th Guards Tank Division"
+RED_Create_Guard_Units_149_desc:0 "The 20th Guards Tank Division will augment our armored capabilities, improving our ability to execute successful offensives and secure key tactical advantages."
+
+EW_Soviet_Units_Country.149.t:0 "20th Guards Tank Division"
+EW_Soviet_Units_Country.149.d:0 "The 20th Guards Tank Division has been created and is now operational. This division will play a vital role in our military operations and strengthen our strategic position."
+EW_Soviet_Units_Country.149.a:1 "Create Unit"
+
+#150th Guards Mechanized Division
+RED_Create_Guard_Units_150:0 "1st Guards Mechanized Division"
+RED_Create_Guard_Units_150_desc:0 "Deploying the 1st Guards Mechanized Division will enhance our mechanized capabilities, providing greater mobility and firepower to support our strategic operations and frontline engagements."
+
+EW_Soviet_Units_Country.150.t:0 "1st Guards Mechanized Division"
+EW_Soviet_Units_Country.150.d:0 "The 1st Guards Mechanized Division has been created and is now operational. This division will bolster our mechanized forces and contribute significantly to our military objectives."
+EW_Soviet_Units_Country.150.a:1 "Create Unit"
+
+#151st Guards Mechanized Division
+RED_Create_Guard_Units_151:0 "2nd Guards Mechanized Division"
+RED_Create_Guard_Units_151_desc:0 "Deploying the 2nd Guards Mechanized Division will improve our mechanized strength, providing enhanced mobility and combat effectiveness in key areas of operation."
+
+EW_Soviet_Units_Country.151.t:0 "2nd Guards Mechanized Division"
+EW_Soviet_Units_Country.151.d:0 "The 2nd Guards Mechanized Division has been created and is now operational. This division will support our mechanized units and advance our strategic goals."
+EW_Soviet_Units_Country.151.a:1 "Create Unit"
+
+#152nd Guards Mechanized Division
+RED_Create_Guard_Units_152:0 "3rd Guards Mechanized Division"
+RED_Create_Guard_Units_152_desc:0 "Deploying the 3rd Guards Mechanized Division will strengthen our mechanized forces, enhancing our operational mobility and providing critical support in our offensive operations."
+
+EW_Soviet_Units_Country.152.t:0 "3rd Guards Mechanized Division"
+EW_Soviet_Units_Country.152.d:0 "The 3rd Guards Mechanized Division has been created and is now operational. This division will enhance our mechanized capabilities and contribute to our ongoing campaigns."
+EW_Soviet_Units_Country.152.a:1 "Create Unit"
+
+#153rd Guards Mechanized Division
+RED_Create_Guard_Units_153:0 "4th Guards Mechanized Division"
+RED_Create_Guard_Units_153_desc:0 "The 4th Guards Mechanized Division will provide a significant boost to our mechanized units, offering improved combat effectiveness and greater flexibility in executing our military strategies."
+
+EW_Soviet_Units_Country.153.t:0 "4th Guards Mechanized Division"
+EW_Soviet_Units_Country.153.d:0 "The 4th Guards Mechanized Division has been created and is now operational. This division will strengthen our mechanized forces and support our key operational goals."
+EW_Soviet_Units_Country.153.a:1 "Create Unit"
+
+#154th Guards Mechanized Division
+RED_Create_Guard_Units_154:0 "5th Guards Mechanized Division"
+RED_Create_Guard_Units_154_desc:0 "Deploying the 5th Guards Mechanized Division will enhance our mechanized capabilities, improving our ability to conduct successful operations and achieve tactical superiority."
+
+EW_Soviet_Units_Country.154.t:0 "5th Guards Mechanized Division"
+EW_Soviet_Units_Country.154.d:0 "The 5th Guards Mechanized Division has been created and is now operational. This division will bolster our mechanized strength and support our strategic objectives."
+EW_Soviet_Units_Country.154.a:1 "Create Unit"
+
+#155th Guards Mechanized Division
+RED_Create_Guard_Units_155:0 "6th Guards Mechanized Division"
+RED_Create_Guard_Units_155_desc:0 "The 6th Guards Mechanized Division will provide enhanced combat capabilities, offering increased mobility and firepower to support our frontline operations."
+
+EW_Soviet_Units_Country.155.t:0 "6th Guards Mechanized Division"
+EW_Soviet_Units_Country.155.d:0 "The 6th Guards Mechanized Division has been created and is now operational. This division will support our mechanized forces and advance our military efforts."
+EW_Soviet_Units_Country.155.a:1 "Create Unit"
+
+#156th Guards Mechanized Division
+RED_Create_Guard_Units_156:0 "7th Guards Mechanized Division"
+RED_Create_Guard_Units_156_desc:0 "Deploying the 7th Guards Mechanized Division will strengthen our mechanized divisions, providing increased mobility and combat effectiveness for our strategic initiatives."
+
+EW_Soviet_Units_Country.156.t:0 "7th Guards Mechanized Division"
+EW_Soviet_Units_Country.156.d:0 "The 7th Guards Mechanized Division has been created and is now operational. This division will enhance our mechanized capabilities and contribute to our ongoing operations."
+EW_Soviet_Units_Country.156.a:1 "Create Unit"
+
+#157th Guards Mechanized Division
+RED_Create_Guard_Units_157:0 "8th Guards Mechanized Division"
+RED_Create_Guard_Units_157_desc:0 "The 8th Guards Mechanized Division will add significant strength to our mechanized units, improving our operational capabilities and supporting key offensive operations."
+
+EW_Soviet_Units_Country.157.t:0 "8th Guards Mechanized Division"
+EW_Soviet_Units_Country.157.d:0 "The 8th Guards Mechanized Division has been created and is now operational. This division will bolster our mechanized forces and support our strategic efforts."
+EW_Soviet_Units_Country.157.a:1 "Create Unit"
+
+#158th Guards Mechanized Division
+RED_Create_Guard_Units_158:0 "9th Guards Mechanized Division"
+RED_Create_Guard_Units_158_desc:0 "Deploying the 9th Guards Mechanized Division will enhance our mechanized strength, providing increased firepower and mobility to support our major operations."
+
+EW_Soviet_Units_Country.158.t:0 "9th Guards Mechanized Division"
+EW_Soviet_Units_Country.158.d:0 "The 9th Guards Mechanized Division has been created and is now operational. This division will contribute to our military success and strengthen our mechanized forces."
+EW_Soviet_Units_Country.158.a:1 "Create Unit"
+
+#159th Guards Mechanized Division
+RED_Create_Guard_Units_159:0 "10th Guards Mechanized Division"
+RED_Create_Guard_Units_159_desc:0 "The 10th Guards Mechanized Division will provide a significant boost to our mechanized divisions, improving our offensive capabilities and supporting key strategic goals."
+
+EW_Soviet_Units_Country.159.t:0 "10th Guards Mechanized Division"
+EW_Soviet_Units_Country.159.d:0 "The 10th Guards Mechanized Division has been created and is now operational. This division will enhance our mechanized strength and support our ongoing military campaigns."
+EW_Soviet_Units_Country.159.a:1 "Create Unit"
+
+#160th Guards Mechanized Division
+RED_Create_Guard_Units_160:0 "11th Guards Mechanized Division"
+RED_Create_Guard_Units_160_desc:0 "Deploying the 11th Guards Mechanized Division will bolster our mechanized forces, providing enhanced mobility and combat effectiveness in critical operations."
+
+EW_Soviet_Units_Country.160.t:0 "11th Guards Mechanized Division"
+EW_Soviet_Units_Country.160.d:0 "The 11th Guards Mechanized Division has been created and is now operational. This division will add significant strength to our mechanized units and support our strategic initiatives."
+EW_Soviet_Units_Country.160.a:1 "Create Unit"
+
+#161st Guards Mechanized Division
+RED_Create_Guard_Units_161:0 "12th Guards Mechanized Division"
+RED_Create_Guard_Units_161_desc:0 "The 12th Guards Mechanized Division will enhance our mechanized capabilities, providing increased firepower and mobility to support our key military operations."
+
+EW_Soviet_Units_Country.161.t:0 "12th Guards Mechanized Division"
+EW_Soviet_Units_Country.161.d:0 "The 12th Guards Mechanized Division has been created and is now operational. This division will strengthen our mechanized forces and contribute significantly to our military campaigns."
+EW_Soviet_Units_Country.161.a:1 "Create Unit"
+
+#1st Guards Cavalry Division
+RED_Create_Guard_Units_162:0 "1st Guards Cavalry Division"
+RED_Create_Guard_Units_162_desc:0 "Forming the 1st Guards Cavalry Division will enhance our military capability by adding a specialized cavalry unit. This division will play a crucial role in swift maneuvers and securing strategic positions."
+
+EW_Soviet_Units_Country.162.t:0 "1st Guards Cavalry Division"
+EW_Soviet_Units_Country.162.d:0 "The 1st Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.162.a:1 "Create Unit"
+
+#2nd Guards Cavalry Division
+RED_Create_Guard_Units_163:0 "2nd Guards Cavalry Division"
+RED_Create_Guard_Units_163_desc:0 "Establishing the 2nd Guards Cavalry Division will bolster our offensive capabilities with an additional cavalry unit. This division is essential for expanding our tactical flexibility and responding to enemy movements effectively."
+
+EW_Soviet_Units_Country.163.t:0 "2nd Guards Cavalry Division"
+EW_Soviet_Units_Country.163.d:0 "The 2nd Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.163.a:1 "Create Unit"
+
+#3rd Guards Cavalry Division
+RED_Create_Guard_Units_164:0 "3rd Guards Cavalry Division"
+RED_Create_Guard_Units_164_desc:0 "The creation of the 3rd Guards Cavalry Division will enhance our forces with another highly mobile unit. This division will be vital for rapid deployment and exploiting breakthroughs in enemy lines."
+
+EW_Soviet_Units_Country.164.t:0 "3rd Guards Cavalry Division"
+EW_Soviet_Units_Country.164.d:0 "The 3rd Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.164.a:1 "Create Unit"
+
+#4th Guards Cavalry Division
+RED_Create_Guard_Units_165:0 "4th Guards Cavalry Division"
+RED_Create_Guard_Units_165_desc:0 "Forming the 4th Guards Cavalry Division will add significant strength to our cavalry forces. This unit is designed to perform reconnaissance and flank enemy positions with increased effectiveness."
+
+EW_Soviet_Units_Country.165.t:0 "4th Guards Cavalry Division"
+EW_Soviet_Units_Country.165.d:0 "The 4th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.165.a:1 "Create Unit"
+
+#5th Guards Cavalry Division
+RED_Create_Guard_Units_166:0 "5th Guards Cavalry Division"
+RED_Create_Guard_Units_166_desc:0 "The 5th Guards Cavalry Division will further strengthen our cavalry corps, providing additional mobility and firepower. This division will be instrumental in executing rapid assaults and exploiting enemy weaknesses."
+
+EW_Soviet_Units_Country.166.t:0 "5th Guards Cavalry Division"
+EW_Soviet_Units_Country.166.d:0 "The 5th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.166.a:1 "Create Unit"
+
+#6th Guards Cavalry Division
+RED_Create_Guard_Units_167:0 "6th Guards Cavalry Division"
+RED_Create_Guard_Units_167_desc:0 "Creating the 6th Guards Cavalry Division will enhance our operational capabilities by adding another elite cavalry unit. This division will be essential for swift maneuvers and strategic advancements."
+
+EW_Soviet_Units_Country.167.t:0 "6th Guards Cavalry Division"
+EW_Soviet_Units_Country.167.d:0 "The 6th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.167.a:1 "Create Unit"
+
+#7th Guards Cavalry Division
+RED_Create_Guard_Units_168:0 "7th Guards Cavalry Division"
+RED_Create_Guard_Units_168_desc:0 "The formation of the 7th Guards Cavalry Division will bolster our forces with a new cavalry unit, enhancing our ability to respond rapidly and effectively to enemy movements and secure key objectives."
+
+EW_Soviet_Units_Country.168.t:0 "7th Guards Cavalry Division"
+EW_Soviet_Units_Country.168.d:0 "The 7th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.168.a:1 "Create Unit"
+
+#8th Guards Cavalry Division
+RED_Create_Guard_Units_169:0 "8th Guards Cavalry Division"
+RED_Create_Guard_Units_169_desc:0 "Establishing the 8th Guards Cavalry Division will add another layer of mobility and firepower to our forces. This division will be crucial for conducting effective reconnaissance and engaging in rapid assaults."
+
+EW_Soviet_Units_Country.169.t:0 "8th Guards Cavalry Division"
+EW_Soviet_Units_Country.169.d:0 "The 8th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.169.a:1 "Create Unit"
+
+#9th Guards Cavalry Division
+RED_Create_Guard_Units_170:0 "9th Guards Cavalry Division"
+RED_Create_Guard_Units_170_desc:0 "The 9th Guards Cavalry Division will further enhance our cavalry capabilities, offering increased flexibility and strength in mobile operations. This unit will be key in securing and holding strategic positions."
+
+EW_Soviet_Units_Country.170.t:0 "9th Guards Cavalry Division"
+EW_Soviet_Units_Country.170.d:0 "The 9th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.170.a:1 "Create Unit"
+
+#10th Guards Cavalry Division
+RED_Create_Guard_Units_171:0 "10th Guards Cavalry Division"
+RED_Create_Guard_Units_171_desc:0 "Forming the 10th Guards Cavalry Division will provide an additional elite cavalry unit to our forces. This division will be essential for executing rapid maneuvers and gaining tactical advantages over the enemy."
+
+EW_Soviet_Units_Country.171.t:0 "10th Guards Cavalry Division"
+EW_Soviet_Units_Country.171.d:0 "The 10th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.171.a:1 "Create Unit"
+
+#11th Guards Cavalry Division
+RED_Create_Guard_Units_172:0 "11th Guards Cavalry Division"
+RED_Create_Guard_Units_172_desc:0 "The creation of the 11th Guards Cavalry Division will strengthen our cavalry forces, adding a unit capable of rapid response and tactical superiority. This division will play a key role in offensive operations and strategic movements."
+
+EW_Soviet_Units_Country.172.t:0 "11th Guards Cavalry Division"
+EW_Soviet_Units_Country.172.d:0 "The 11th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.172.a:1 "Create Unit"
+
+#12th Guards Cavalry Division
+RED_Create_Guard_Units_173:0 "12th Guards Cavalry Division"
+RED_Create_Guard_Units_173_desc:0 "Forming the 12th Guards Cavalry Division will further bolster our cavalry units, providing increased mobility and strength. This division will enhance our operational flexibility and effectiveness in securing key areas."
+
+EW_Soviet_Units_Country.173.t:0 "12th Guards Cavalry Division"
+EW_Soviet_Units_Country.173.d:0 "The 12th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.173.a:1 "Create Unit"
+
+#13th Guards Cavalry Division
+RED_Create_Guard_Units_174:0 "13th Guards Cavalry Division"
+RED_Create_Guard_Units_174_desc:0 "The establishment of the 13th Guards Cavalry Division will enhance our cavalry capabilities with another elite unit. This division will be crucial for executing rapid maneuvers and responding to enemy threats."
+
+EW_Soviet_Units_Country.174.t:0 "13th Guards Cavalry Division"
+EW_Soviet_Units_Country.174.d:0 "The 13th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.174.a:1 "Create Unit"
+
+#14th Guards Cavalry Division
+RED_Create_Guard_Units_175:0 "14th Guards Cavalry Division"
+RED_Create_Guard_Units_175_desc:0 "Creating the 14th Guards Cavalry Division will further strengthen our cavalry forces, adding a specialized unit for effective reconnaissance and rapid assaults. This division will be vital for gaining and maintaining the initiative."
+
+EW_Soviet_Units_Country.175.t:0 "14th Guards Cavalry Division"
+EW_Soviet_Units_Country.175.d:0 "The 14th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.175.a:1 "Create Unit"
+
+#15th Guards Cavalry Division
+RED_Create_Guard_Units_176:0 "15th Guards Cavalry Division"
+RED_Create_Guard_Units_176_desc:0 "Forming the 15th Guards Cavalry Division will provide additional mobility and strength to our forces. This unit will enhance our ability to conduct fast and effective operations on the battlefield."
+
+EW_Soviet_Units_Country.176.t:0 "15th Guards Cavalry Division"
+EW_Soviet_Units_Country.176.d:0 "The 15th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.176.a:1 "Create Unit"
+
+#16th Guards Cavalry Division
+RED_Create_Guard_Units_177:0 "16th Guards Cavalry Division"
+RED_Create_Guard_Units_177_desc:0 "The 16th Guards Cavalry Division will add to our cavalry strength, providing another elite unit capable of rapid maneuver and strategic advantage. This division will play a key role in our operational strategy."
+
+EW_Soviet_Units_Country.177.t:0 "16th Guards Cavalry Division"
+EW_Soviet_Units_Country.177.d:0 "The 16th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.177.a:1 "Create Unit"
+
+#17th Guards Cavalry Division
+RED_Create_Guard_Units_178:0 "17th Guards Cavalry Division"
+RED_Create_Guard_Units_178_desc:0 "Establishing the 17th Guards Cavalry Division will further enhance our cavalry capabilities, providing additional units for rapid response and tactical superiority. This division will be essential for executing effective operations."
+
+EW_Soviet_Units_Country.178.t:0 "17th Guards Cavalry Division"
+EW_Soviet_Units_Country.178.d:0 "The 17th Guards Cavalry Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.178.a:1 "Create Unit"
+
+#1st Guards Airborne Division
+RED_Create_Guard_Units_179:0 "1st Guards Airborne Division"
+RED_Create_Guard_Units_179_desc:0 "Deploying the 1st Guards Airborne Division will enhance our strategic flexibility with a highly mobile unit capable of rapid insertion behind enemy lines. This division will be crucial for seizing key objectives and disrupting enemy operations."
+
+EW_Soviet_Units_Country.179.t:0 "1st Guards Airborne Division"
+EW_Soviet_Units_Country.179.d:0 "The 1st Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.179.a:1 "Create Unit"
+
+#2nd Guards Airborne Division
+RED_Create_Guard_Units_180:0 "2nd Guards Airborne Division"
+RED_Create_Guard_Units_180_desc:0 "Establishing the 2nd Guards Airborne Division will provide an additional airborne unit to our forces. This division will enhance our ability to conduct airborne assaults and secure critical positions behind enemy lines."
+
+EW_Soviet_Units_Country.180.t:0 "2nd Guards Airborne Division"
+EW_Soviet_Units_Country.180.d:0 "The 2nd Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.180.a:1 "Create Unit"
+
+#3rd Guards Airborne Division
+RED_Create_Guard_Units_181:0 "3rd Guards Airborne Division"
+RED_Create_Guard_Units_181_desc:0 "The creation of the 3rd Guards Airborne Division will add significant strength to our airborne forces. This division will be essential for executing high-impact airborne operations and capturing strategic targets."
+
+EW_Soviet_Units_Country.181.t:0 "3rd Guards Airborne Division"
+EW_Soviet_Units_Country.181.d:0 "The 3rd Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.181.a:1 "Create Unit"
+
+#4th Guards Airborne Division
+RED_Create_Guard_Units_182:0 "4th Guards Airborne Division"
+RED_Create_Guard_Units_182_desc:0 "Forming the 4th Guards Airborne Division will strengthen our airborne capabilities, allowing for more extensive and effective airborne operations. This unit will be key for penetrating enemy defenses and securing vital positions."
+
+EW_Soviet_Units_Country.182.t:0 "4th Guards Airborne Division"
+EW_Soviet_Units_Country.182.d:0 "The 4th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.182.a:1 "Create Unit"
+
+#5th Guards Airborne Division
+RED_Create_Guard_Units_183:0 "5th Guards Airborne Division"
+RED_Create_Guard_Units_183_desc:0 "The 5th Guards Airborne Division will provide additional airborne support to our forces. This unit will be instrumental in conducting rapid and surprise airborne assaults, enhancing our operational effectiveness."
+
+EW_Soviet_Units_Country.183.t:0 "5th Guards Airborne Division"
+EW_Soviet_Units_Country.183.d:0 "The 5th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.183.a:1 "Create Unit"
+
+#6th Guards Airborne Division
+RED_Create_Guard_Units_184:0 "6th Guards Airborne Division"
+RED_Create_Guard_Units_184_desc:0 "Creating the 6th Guards Airborne Division will add further strength to our airborne units, enabling more extensive and effective operations behind enemy lines. This division will be vital for gaining tactical advantages."
+
+EW_Soviet_Units_Country.184.t:0 "6th Guards Airborne Division"
+EW_Soviet_Units_Country.184.d:0 "The 6th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.184.a:1 "Create Unit"
+
+#7th Guards Airborne Division
+RED_Create_Guard_Units_185:0 "7th Guards Airborne Division"
+RED_Create_Guard_Units_185_desc:0 "Forming the 7th Guards Airborne Division will strengthen our airborne capabilities with another elite unit. This division will be crucial for executing precision operations and disrupting enemy rear areas."
+
+EW_Soviet_Units_Country.185.t:0 "7th Guards Airborne Division"
+EW_Soviet_Units_Country.185.d:0 "The 7th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.185.a:1 "Create Unit"
+
+#8th Guards Airborne Division
+RED_Create_Guard_Units_186:0 "8th Guards Airborne Division"
+RED_Create_Guard_Units_186_desc:0 "The establishment of the 8th Guards Airborne Division will enhance our airborne operations with another highly capable unit. This division will be vital for securing key objectives and conducting surprise attacks."
+
+EW_Soviet_Units_Country.186.t:0 "8th Guards Airborne Division"
+EW_Soviet_Units_Country.186.d:0 "The 8th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.186.a:1 "Create Unit"
+
+#9th Guards Airborne Division
+RED_Create_Guard_Units_187:0 "9th Guards Airborne Division"
+RED_Create_Guard_Units_187_desc:0 "Creating the 9th Guards Airborne Division will provide additional airborne strength, enhancing our ability to perform critical missions and respond rapidly to changing conditions on the battlefield."
+
+EW_Soviet_Units_Country.187.t:0 "9th Guards Airborne Division"
+EW_Soviet_Units_Country.187.d:0 "The 9th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.187.a:1 "Create Unit"
+
+#10th Guards Airborne Division
+RED_Create_Guard_Units_188:0 "10th Guards Airborne Division"
+RED_Create_Guard_Units_188_desc:0 "The formation of the 10th Guards Airborne Division will enhance our airborne capabilities with another elite unit. This division will be key for executing high-priority airborne assaults and securing crucial positions."
+
+EW_Soviet_Units_Country.188.t:0 "10th Guards Airborne Division"
+EW_Soviet_Units_Country.188.d:0 "The 10th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.188.a:1 "Create Unit"
+
+#11th Guards Airborne Division
+RED_Create_Guard_Units_189:0 "11th Guards Airborne Division"
+RED_Create_Guard_Units_189_desc:0 "Forming the 11th Guards Airborne Division will add considerable strength to our airborne forces. This division will be essential for rapid deployment and seizing key strategic points behind enemy lines."
+
+EW_Soviet_Units_Country.189.t:0 "11th Guards Airborne Division"
+EW_Soviet_Units_Country.189.d:0 "The 11th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.189.a:1 "Create Unit"
+
+#12th Guards Airborne Division
+RED_Create_Guard_Units_190:0 "12th Guards Airborne Division"
+RED_Create_Guard_Units_190_desc:0 "The creation of the 12th Guards Airborne Division will further augment our airborne capabilities. This division will be crucial for executing effective airborne operations and disrupting enemy strategies."
+
+EW_Soviet_Units_Country.190.t:0 "12th Guards Airborne Division"
+EW_Soviet_Units_Country.190.d:0 "The 12th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.190.a:1 "Create Unit"
+
+#13th Guards Airborne Division
+RED_Create_Guard_Units_191:0 "13th Guards Airborne Division"
+RED_Create_Guard_Units_191_desc:0 "Deploying the 13th Guards Airborne Division will enhance our operational flexibility with another airborne unit. This division will play a key role in executing high-impact operations and securing vital areas."
+
+EW_Soviet_Units_Country.191.t:0 "13th Guards Airborne Division"
+EW_Soviet_Units_Country.191.d:0 "The 13th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.191.a:1 "Create Unit"
+
+#14th Guards Airborne Division
+RED_Create_Guard_Units_192:0 "14th Guards Airborne Division"
+RED_Create_Guard_Units_192_desc:0 "Creating the 14th Guards Airborne Division will further strengthen our airborne forces, providing increased capacity for rapid and effective operations. This division will be essential for disrupting enemy rear areas and securing objectives."
+
+EW_Soviet_Units_Country.192.t:0 "14th Guards Airborne Division"
+EW_Soviet_Units_Country.192.d:0 "The 14th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.192.a:1 "Create Unit"
+
+#15th Guards Airborne Division
+RED_Create_Guard_Units_193:0 "15th Guards Airborne Division"
+RED_Create_Guard_Units_193_desc:0 "Forming the 15th Guards Airborne Division will bolster our airborne capabilities with another highly capable unit. This division will be crucial for executing rapid and surprise operations behind enemy lines."
+
+EW_Soviet_Units_Country.193.t:0 "15th Guards Airborne Division"
+EW_Soviet_Units_Country.193.d:0 "The 15th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.193.a:1 "Create Unit"
+
+#16th Guards Airborne Division
+RED_Create_Guard_Units_194:0 "16th Guards Airborne Division"
+RED_Create_Guard_Units_194_desc:0 "The establishment of the 16th Guards Airborne Division will add to our elite airborne units, providing additional strength and flexibility. This division will enhance our capability to execute critical airborne assaults and secure important objectives."
+
+EW_Soviet_Units_Country.194.t:0 "16th Guards Airborne Division"
+EW_Soviet_Units_Country.194.d:0 "The 16th Guards Airborne Division has been successfully formed and is now ready for deployment."
+EW_Soviet_Units_Country.194.a:1 "Create Unit"
+

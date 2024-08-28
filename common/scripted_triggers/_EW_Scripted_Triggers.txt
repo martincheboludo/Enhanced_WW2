@@ -103,6 +103,17 @@ EW_Equipment_Paratrooper_Regiment = {
 	}
 }
 
+EW_Equipment_Paratrooper_Division = {
+	AND = {
+		has_manpower > 11899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 1309 }
+		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+	}
+}
+
 EW_Equipment_ENG_Special_Forces_Regiment = {
 	AND = {
 		has_manpower > 5099

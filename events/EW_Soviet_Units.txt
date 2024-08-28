@@ -282,7 +282,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -312,7 +312,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -342,7 +342,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -372,7 +372,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -402,7 +402,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -432,7 +432,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -462,7 +462,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -492,7 +492,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -522,7 +522,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -552,7 +552,7 @@ country_event = {
             }
         }
         
-        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Infantry_Remove = yes }
     }
 }
 
@@ -585,7 +585,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -616,7 +616,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -647,7 +647,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -678,7 +678,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -709,7 +709,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -740,7 +740,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -771,7 +771,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -802,7 +802,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -833,7 +833,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -864,7 +864,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -895,7 +895,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -926,7 +926,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -957,7 +957,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -988,7 +988,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1019,7 +1019,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1050,7 +1050,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1081,7 +1081,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1112,7 +1112,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1143,7 +1143,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1174,7 +1174,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1205,7 +1205,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1236,7 +1236,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1267,7 +1267,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1298,7 +1298,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1329,7 +1329,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1360,7 +1360,7 @@ country_event = {
             }
         }
         
-        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1391,7 +1391,7 @@ country_event = {
             }
         }
         
-        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1422,7 +1422,7 @@ country_event = {
             }
         }
         
-        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1453,7 +1453,7 @@ country_event = {
             }
         }
         
-        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1484,7 +1484,7 @@ country_event = {
             }
         }
         
-        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1515,7 +1515,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1546,7 +1546,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1577,7 +1577,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1608,7 +1608,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1639,7 +1639,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1670,7 +1670,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1701,7 +1701,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1732,7 +1732,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1763,7 +1763,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1794,7 +1794,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1825,7 +1825,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1856,7 +1856,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1887,7 +1887,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1918,7 +1918,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1949,7 +1949,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -1980,7 +1980,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2011,7 +2011,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2042,7 +2042,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2073,7 +2073,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2104,7 +2104,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2135,7 +2135,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2166,7 +2166,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2197,7 +2197,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2228,7 +2228,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2259,7 +2259,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2290,7 +2290,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2321,7 +2321,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2352,7 +2352,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2383,7 +2383,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2414,7 +2414,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2445,7 +2445,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2476,7 +2476,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2507,7 +2507,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2538,7 +2538,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2569,7 +2569,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2600,7 +2600,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2631,7 +2631,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2662,7 +2662,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2693,7 +2693,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2724,7 +2724,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2755,7 +2755,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2786,7 +2786,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2817,7 +2817,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2848,7 +2848,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2879,7 +2879,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2910,7 +2910,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2941,7 +2941,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -2972,7 +2972,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3003,7 +3003,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3034,7 +3034,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3065,7 +3065,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3096,7 +3096,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3127,7 +3127,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3158,7 +3158,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3189,7 +3189,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3220,7 +3220,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3251,7 +3251,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3282,7 +3282,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3313,7 +3313,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3344,7 +3344,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3375,7 +3375,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3406,7 +3406,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3437,7 +3437,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3468,7 +3468,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3499,7 +3499,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3530,7 +3530,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3561,7 +3561,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3592,7 +3592,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3623,7 +3623,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3654,7 +3654,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3685,7 +3685,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3716,7 +3716,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3747,7 +3747,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3778,7 +3778,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3809,7 +3809,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3840,7 +3840,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3871,7 +3871,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3902,7 +3902,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3933,7 +3933,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3964,7 +3964,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -3995,7 +3995,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4026,7 +4026,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4057,7 +4057,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4088,7 +4088,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4119,7 +4119,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4150,7 +4150,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4181,7 +4181,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4212,7 +4212,7 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
         
     }
 }
@@ -4243,7 +4243,2092 @@ country_event = {
             }
         }
         
-        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+
+#1st Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.130
+    title = EW_Soviet_Units_Country.130.t
+    desc = EW_Soviet_Units_Country.130.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.130.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"1st Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#2nd Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.131
+    title = EW_Soviet_Units_Country.131.t
+    desc = EW_Soviet_Units_Country.131.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.131.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"2nd Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#3rd Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.132
+    title = EW_Soviet_Units_Country.132.t
+    desc = EW_Soviet_Units_Country.132.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.132.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"3rd Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#4th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.133
+    title = EW_Soviet_Units_Country.133.t
+    desc = EW_Soviet_Units_Country.133.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.133.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"4th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#5th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.134
+    title = EW_Soviet_Units_Country.134.t
+    desc = EW_Soviet_Units_Country.134.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.134.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"5th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#6th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.135
+    title = EW_Soviet_Units_Country.135.t
+    desc = EW_Soviet_Units_Country.135.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.135.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"6th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#7th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.136
+    title = EW_Soviet_Units_Country.136.t
+    desc = EW_Soviet_Units_Country.136.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.136.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"7th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#8th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.137
+    title = EW_Soviet_Units_Country.137.t
+    desc = EW_Soviet_Units_Country.137.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.137.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"8th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#9th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.138
+    title = EW_Soviet_Units_Country.138.t
+    desc = EW_Soviet_Units_Country.138.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.138.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"9th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#10th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.139
+    title = EW_Soviet_Units_Country.139.t
+    desc = EW_Soviet_Units_Country.139.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.139.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"10th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#11th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.140
+    title = EW_Soviet_Units_Country.140.t
+    desc = EW_Soviet_Units_Country.140.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.140.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"11th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#12th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.141
+    title = EW_Soviet_Units_Country.141.t
+    desc = EW_Soviet_Units_Country.141.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.141.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"12th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#13th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.142
+    title = EW_Soviet_Units_Country.142.t
+    desc = EW_Soviet_Units_Country.142.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.142.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"13th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#14th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.143
+    title = EW_Soviet_Units_Country.143.t
+    desc = EW_Soviet_Units_Country.143.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.143.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"14th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#15th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.144
+    title = EW_Soviet_Units_Country.144.t
+    desc = EW_Soviet_Units_Country.144.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.144.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"15th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#16th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.145
+    title = EW_Soviet_Units_Country.145.t
+    desc = EW_Soviet_Units_Country.145.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.145.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"16th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#17th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.146
+    title = EW_Soviet_Units_Country.146.t
+    desc = EW_Soviet_Units_Country.146.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.146.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"17th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#18th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.147
+    title = EW_Soviet_Units_Country.147.t
+    desc = EW_Soviet_Units_Country.147.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.147.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"18th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#19th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.148
+    title = EW_Soviet_Units_Country.148.t
+    desc = EW_Soviet_Units_Country.148.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.148.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"19th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#20th Guards Tank Division 
+country_event = {
+    id = EW_Soviet_Units_Country.149
+    title = EW_Soviet_Units_Country.149.t
+    desc = EW_Soviet_Units_Country.149.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.149.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"20th Guards Tank Division\" division_template = \"Guards Tank Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
+        
+    }
+}
+
+#1st Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.150
+    title = EW_Soviet_Units_Country.150.t
+    desc = EW_Soviet_Units_Country.150.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.150.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"1st Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#2nd Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.151
+    title = EW_Soviet_Units_Country.151.t
+    desc = EW_Soviet_Units_Country.151.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.151.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"2nd Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#3rd Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.152
+    title = EW_Soviet_Units_Country.152.t
+    desc = EW_Soviet_Units_Country.152.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.152.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"3rd Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#4th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.153
+    title = EW_Soviet_Units_Country.153.t
+    desc = EW_Soviet_Units_Country.153.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.153.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"4th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#5th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.154
+    title = EW_Soviet_Units_Country.154.t
+    desc = EW_Soviet_Units_Country.154.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.154.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"5th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#6th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.155
+    title = EW_Soviet_Units_Country.155.t
+    desc = EW_Soviet_Units_Country.155.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.155.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"6th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#7th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.156
+    title = EW_Soviet_Units_Country.156.t
+    desc = EW_Soviet_Units_Country.156.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.156.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"7th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#8th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.157
+    title = EW_Soviet_Units_Country.157.t
+    desc = EW_Soviet_Units_Country.157.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.157.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"8th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#9th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.158
+    title = EW_Soviet_Units_Country.158.t
+    desc = EW_Soviet_Units_Country.158.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.158.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"9th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#10th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.159
+    title = EW_Soviet_Units_Country.159.t
+    desc = EW_Soviet_Units_Country.159.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.159.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"10th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#11th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.160
+    title = EW_Soviet_Units_Country.160.t
+    desc = EW_Soviet_Units_Country.160.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.160.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"11th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+#12th Guards Mechanized Division
+country_event = {
+    id = EW_Soviet_Units_Country.161
+    title = EW_Soviet_Units_Country.161.t
+    desc = EW_Soviet_Units_Country.161.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.161.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"12th Guards Mechanized Division\" division_template = \"Guards Mechanized Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
+        
+    }
+}
+
+
+#1st Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.162
+    title = EW_Soviet_Units_Country.162.t
+    desc = EW_Soviet_Units_Country.162.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.162.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"1st Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#2nd Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.163
+    title = EW_Soviet_Units_Country.163.t
+    desc = EW_Soviet_Units_Country.163.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.163.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"2nd Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#3rd Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.164
+    title = EW_Soviet_Units_Country.164.t
+    desc = EW_Soviet_Units_Country.164.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.164.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"3rd Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#4th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.165
+    title = EW_Soviet_Units_Country.165.t
+    desc = EW_Soviet_Units_Country.165.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.165.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"4th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#5th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.166
+    title = EW_Soviet_Units_Country.166.t
+    desc = EW_Soviet_Units_Country.166.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.166.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"5th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#6th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.167
+    title = EW_Soviet_Units_Country.167.t
+    desc = EW_Soviet_Units_Country.167.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.167.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"6th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#7th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.168
+    title = EW_Soviet_Units_Country.168.t
+    desc = EW_Soviet_Units_Country.168.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.168.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"7th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#8th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.169
+    title = EW_Soviet_Units_Country.169.t
+    desc = EW_Soviet_Units_Country.169.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.169.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"8th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#9th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.170
+    title = EW_Soviet_Units_Country.170.t
+    desc = EW_Soviet_Units_Country.170.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.170.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"9th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+##10th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.171
+    title = EW_Soviet_Units_Country.171.t
+    desc = EW_Soviet_Units_Country.171.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.171.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"10th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#11th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.172
+    title = EW_Soviet_Units_Country.172.t
+    desc = EW_Soviet_Units_Country.172.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.172.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"11th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#12th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.173
+    title = EW_Soviet_Units_Country.173.t
+    desc = EW_Soviet_Units_Country.173.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.173.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"12th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#13th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.174
+    title = EW_Soviet_Units_Country.174.t
+    desc = EW_Soviet_Units_Country.174.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.174.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"13th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#14th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.175
+    title = EW_Soviet_Units_Country.175.t
+    desc = EW_Soviet_Units_Country.175.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.175.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"14th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#15th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.176
+    title = EW_Soviet_Units_Country.176.t
+    desc = EW_Soviet_Units_Country.176.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.176.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"15th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#16th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.177
+    title = EW_Soviet_Units_Country.177.t
+    desc = EW_Soviet_Units_Country.177.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.177.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"16th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+#17th Guards Cavalry Division
+country_event = {
+    id = EW_Soviet_Units_Country.178
+    title = EW_Soviet_Units_Country.178.t
+    desc = EW_Soviet_Units_Country.178.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.178.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"17th Guards Cavalry Division\" division_template = \"Guards Cavalry Division\" start_experience_factor = 0.3"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Cavalry_Remove = yes }
+        
+    }
+}
+
+
+#1st Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.179
+    title = EW_Soviet_Units_Country.179.t
+    desc = EW_Soviet_Units_Country.179.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.179.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"1st Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#2nd Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.180
+    title = EW_Soviet_Units_Country.180.t
+    desc = EW_Soviet_Units_Country.180.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.180.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"2nd Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#3rd Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.181
+    title = EW_Soviet_Units_Country.181.t
+    desc = EW_Soviet_Units_Country.181.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.181.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"3rd Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#4th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.182
+    title = EW_Soviet_Units_Country.182.t
+    desc = EW_Soviet_Units_Country.182.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.182.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"4th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#5th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.183
+    title = EW_Soviet_Units_Country.183.t
+    desc = EW_Soviet_Units_Country.183.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.183.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"5th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#6th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.184
+    title = EW_Soviet_Units_Country.184.t
+    desc = EW_Soviet_Units_Country.184.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.184.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"6th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#7th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.185
+    title = EW_Soviet_Units_Country.185.t
+    desc = EW_Soviet_Units_Country.185.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.185.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"7th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#8th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.186
+    title = EW_Soviet_Units_Country.186.t
+    desc = EW_Soviet_Units_Country.186.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.186.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"8th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#9th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.187
+    title = EW_Soviet_Units_Country.187.t
+    desc = EW_Soviet_Units_Country.187.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.187.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"9th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+
+
+}
+
+#10th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.188
+    title = EW_Soviet_Units_Country.188.t
+    desc = EW_Soviet_Units_Country.188.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.188.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"10th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#11th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.189
+    title = EW_Soviet_Units_Country.189.t
+    desc = EW_Soviet_Units_Country.189.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.189.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"11th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#12th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.190
+    title = EW_Soviet_Units_Country.190.t
+    desc = EW_Soviet_Units_Country.190.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.190.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"12th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#13th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.191
+    title = EW_Soviet_Units_Country.191.t
+    desc = EW_Soviet_Units_Country.191.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.191.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"13th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#14th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.192
+    title = EW_Soviet_Units_Country.192.t
+    desc = EW_Soviet_Units_Country.192.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.192.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"14th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#15th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.193
+    title = EW_Soviet_Units_Country.193.t
+    desc = EW_Soviet_Units_Country.193.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.193.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"15th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
+        
+    }
+}
+
+#16th Guards Airborne Division
+country_event = {
+    id = EW_Soviet_Units_Country.194
+    title = EW_Soviet_Units_Country.194.t
+    desc = EW_Soviet_Units_Country.194.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.194.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"16th Guards Airborne Division\" division_template = \"Guards Airborne Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Paratrooper_Division_Remove = yes }
         
     }
 }
