@@ -168,6 +168,36 @@ EW_Equipment_USA_Ranger_Battalion = {
 	}
 }
 
+EW_Equipment_KRI_Infantry = {
+	AND = {
+		has_manpower > 7899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 649 }
+		has_equipment = { motorized_equipment > 9 }
+		has_equipment = { support_equipment > 59 }
+	}
+}
+
+EW_Equipment_LUF_Infantry = {
+	AND = {
+		has_manpower > 7899
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 649 }
+		has_equipment = { motorized_equipment > 9 }
+		has_equipment = { support_equipment > 59 }
+	}
+}
+
+EW_Equipment_ORP_Infantry = {
+	AND = {
+		has_manpower > 1499
+		has_equipment = { infantry_equipment > 139 }
+		has_equipment = { support_equipment > 9 }
+	}
+}
+
 is_russian_winter = {
 	OR = {
 		AND = {

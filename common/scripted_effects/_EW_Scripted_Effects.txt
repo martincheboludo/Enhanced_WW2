@@ -155,3 +155,27 @@ EW_Equipment_USA_Ranger_Battalion_Remove = {
 	add_equipment_to_stockpile = { type = motorized_equipment amount = -30 }
 	add_equipment_to_stockpile = { type = support_equipment amount = -80 }
 }
+
+EW_Equipment_KRI_Infantry_Remove = {
+	add_manpower = -7900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -650 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -10 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -60 }
+}
+
+EW_Equipment_LUF_Infantry_Remove = {
+	add_manpower = -7900
+	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -24 }
+	add_equipment_to_stockpile = { type = artillery_equipment amount = -12 }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -650 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -10 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -60 }
+}
+
+EW_Equipment_ORP_Infantry_Remove = {
+	add_manpower = -1500
+	add_equipment_to_stockpile = { type = infantry_equipment amount = -140 }
+	add_equipment_to_stockpile = { type = support_equipment amount = -10 }
+}

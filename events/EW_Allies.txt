@@ -2761,6 +2761,10 @@ country_event = {
 		name = EW_Allies_Country.9.b
 		ai_chance = {
 			factor = 30
+			modifier = {
+				ENG = { is_ai = no }
+				factor = 0
+			}
 		}
 		
 		#CAN = {
@@ -2784,7 +2788,11 @@ country_event = {
 	option = {
 		name = EW_Allies_Country.10.a
 		ai_chance = {
-			factor = 1000
+			factor = 900
+			modifier = {
+				ENG = { is_ai = no }
+				factor = 0
+			}
 		}
 		
 		ENG = {
@@ -2830,7 +2838,7 @@ country_event = {
 	option = {
 		name = EW_Allies_Country.10.b
 		ai_chance = {
-			factor = 0
+			factor = 100
 		}
 		
 		ENG = {

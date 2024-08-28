@@ -2173,3 +2173,1125 @@ country_event = {
 	}
 
 }
+
+# Kriegsmarine Field Divisions
+country_event = {
+	id = EW_German_Units_Country.50
+	title = EW_German_Units_Country.50.t
+	desc = EW_German_Units_Country.50.d
+	picture = GFX_report_event_Kriegsmarine_Field_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.50.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		58 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"1. Marine-Infanterie-Division\" division_template = \"Marine-Infanterie-Division\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_KRI_Infantry_Remove = yes }
+		
+	}
+}
+
+# 2nd Marine-Infanterie-Division
+country_event = {
+	id = EW_German_Units_Country.51
+	title = EW_German_Units_Country.51.t
+	desc = EW_German_Units_Country.51.d
+	picture = GFX_report_event_Kriegsmarine_Field_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.51.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		63 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"2. Marine-Infanterie-Division\" division_template = \"Marine-Infanterie-Division\" start_experience_factor = 0"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_KRI_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 9
+country_event = {
+	id = EW_German_Units_Country.52
+	title = EW_German_Units_Country.52.t
+	desc = EW_German_Units_Country.52.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.52.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 9\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 45
+country_event = {
+	id = EW_German_Units_Country.53
+	title = EW_German_Units_Country.53.t
+	desc = EW_German_Units_Country.53.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.53.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 45\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 303
+country_event = {
+	id = EW_German_Units_Country.54
+	title = EW_German_Units_Country.54.t
+	desc = EW_German_Units_Country.54.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.54.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 303\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 304
+country_event = {
+	id = EW_German_Units_Country.55
+	title = EW_German_Units_Country.55.t
+	desc = EW_German_Units_Country.55.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.55.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 304\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 307
+country_event = {
+	id = EW_German_Units_Country.56
+	title = EW_German_Units_Country.56.t
+	desc = EW_German_Units_Country.56.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.56.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 307\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 309
+country_event = {
+	id = EW_German_Units_Country.57
+	title = EW_German_Units_Country.57.t
+	desc = EW_German_Units_Country.57.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.57.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 309\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 310
+country_event = {
+	id = EW_German_Units_Country.58
+	title = EW_German_Units_Country.58.t
+	desc = EW_German_Units_Country.58.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.58.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 310\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 311
+country_event = {
+	id = EW_German_Units_Country.59
+	title = EW_German_Units_Country.59.t
+	desc = EW_German_Units_Country.59.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.59.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 311\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit  = { is_ai = no} EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 317
+country_event = {
+	id = EW_German_Units_Country.60
+	title = EW_German_Units_Country.60.t
+	desc = EW_German_Units_Country.60.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.60.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 317\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit = { is_ai = no } EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 320
+country_event = {
+	id = EW_German_Units_Country.61
+	title = EW_German_Units_Country.61.t
+	desc = EW_German_Units_Country.61.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.61.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 320\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit = { is_ai = no } EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# Polizeibataillon 321
+country_event = {
+	id = EW_German_Units_Country.62
+	title = EW_German_Units_Country.62.t
+	desc = EW_German_Units_Country.62.d
+	picture = GFX_report_event_Orpo_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Create 
+		name = EW_German_Units_Country.62.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		64 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"Polizeibataillon 321\" division_template = \"Polizei-Bataillone\" start_experience_factor = 0.2"
+				owner = GER
+			}
+		}
+		
+		if  = { limit = { is_ai = no } EW_Equipment_ORP_Infantry_Remove = yes }
+		
+	}
+}
+
+# 1st Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.64
+    title = EW_German_Units_Country.64.t
+    desc = EW_German_Units_Country.64.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.64.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"1. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 2nd Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.65
+    title = EW_German_Units_Country.65.t
+    desc = EW_German_Units_Country.65.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.65.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"2. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 3rd Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.66
+    title = EW_German_Units_Country.66.t
+    desc = EW_German_Units_Country.66.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.66.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"3. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 4th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.67
+    title = EW_German_Units_Country.67.t
+    desc = EW_German_Units_Country.67.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.67.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"4. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 5th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.68
+    title = EW_German_Units_Country.68.t
+    desc = EW_German_Units_Country.68.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.68.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"5. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 6th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.69
+    title = EW_German_Units_Country.69.t
+    desc = EW_German_Units_Country.69.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.69.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"6. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 7th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.70
+    title = EW_German_Units_Country.70.t
+    desc = EW_German_Units_Country.70.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.70.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"7. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 8th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.71
+    title = EW_German_Units_Country.71.t
+    desc = EW_German_Units_Country.71.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.71.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"8. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 9th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.72
+    title = EW_German_Units_Country.72.t
+    desc = EW_German_Units_Country.72.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.72.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"9. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0
+
+.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 10th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.73
+    title = EW_German_Units_Country.73.t
+    desc = EW_German_Units_Country.73.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.73.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"10. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 11th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.74
+    title = EW_German_Units_Country.74.t
+    desc = EW_German_Units_Country.74.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.74.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"11. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 12th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.75
+    title = EW_German_Units_Country.75.t
+    desc = EW_German_Units_Country.75.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.75.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"12. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 13th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.76
+    title = EW_German_Units_Country.76.t
+    desc = EW_German_Units_Country.76.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.76.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"13. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 14th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.77
+    title = EW_German_Units_Country.77.t
+    desc = EW_German_Units_Country.77.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.77.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"14. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 15th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.78
+    title = EW_German_Units_Country.78.t
+    desc = EW_German_Units_Country.78.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.78.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"15. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 16th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.79
+    title = EW_German_Units_Country.79.t
+    desc = EW_German_Units_Country.79.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.79.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"16. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 17th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.80
+    title = EW_German_Units_Country.80.t
+    desc = EW_German_Units_Country.80.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.80.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"17. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 18th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.81
+    title = EW_German_Units_Country.81.t
+    desc = EW_German_Units_Country.81.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.81.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"18. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 19th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.82
+    title = EW_German_Units_Country.82.t
+    desc = EW_German_Units_Country.82.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.82.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"19. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 20th Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.83
+    title = EW_German_Units_Country.83.t
+    desc = EW_German_Units_Country.83.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.83.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"20. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 21st Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.84
+    title = EW_German_Units_Country.84.t
+    desc = EW_German_Units_Country.84.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.84.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"21. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}
+
+# 22nd Luftwaffe Field Division
+country_event = {
+    id = EW_German_Units_Country.85
+    title = EW_German_Units_Country.85.t
+    desc = EW_German_Units_Country.85.d
+    picture = GFX_report_event_Luftwaffe_Field_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_German_Units_Country.85.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        64 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"22. Luftwaffe-Feld-Division\" division_template = \"Luftwaffen-Feld-Division\" start_experience_factor = 0.2"
+                owner = GER
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_LUF_Infantry_Remove = yes }
+        
+    }
+}

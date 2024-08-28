@@ -103,6 +103,9 @@
  SS_Create_Waffen_SS:0 "Create Waffen SS"
  SS_Create_Waffen_SS_desc:0 "By creating the Waffen-SS, we will bolster our armed forces with a unit dedicated not only to combat but also to our ideological goals. It will become a formidable force on the battlefield, embodying the discipline and determination we demand from our soldiers."
  Waffen_SS_Created:0 "Waffen-SS Has Been Created."
+ EW_Kriegsmarine_Field_Divisions:0 "Kriegsmarine Naval Infantry Has Been Created."
+ EW_Luftwaffe_Field_Divisions:0 "Luftwaffe Infantry Has Been Created."
+ EW_Order_Police:0 "Orpo Battalions Have Been Created."
 
  SS_Create_Waffen_SS_1:0 "1. SS-Panzerdivision Leibstandarte SS Adolf Hitler"
  SS_Create_Waffen_SS_1_desc:0 "The Leibstandarte SS Adolf Hitler (LSSAH) was an elite division of the Waffen-SS during World War II, originally formed as Adolf Hitler's personal bodyguard unit in 1933. Over time, it evolved into a highly trained and combat-effective military unit, participating in numerous key battles across Europe, including the invasions of Poland, France, and the Soviet Union, as well as significant actions during the Battle of the Bulge. Known for its formidable combat capabilities and strong ideological commitment to National Socialism, the LSSAH was involved in war crimes and atrocities, reflecting the dark side of its fervent loyalty and militaristic prowess."
@@ -429,6 +432,15 @@ WE_Create_6_desc:0 "Establish an elite unit of commandos specialized in sabotage
  EW_German_Units_Country.46.t:0 "Brandenburger Regiment"
  EW_German_Units_Country.46.d:0 "The Brandenburger Regiment has been successfully established. These elite commandos are now ready to undertake the most dangerous missions, utilizing their expertise in disguise, sabotage, and unconventional warfare. As masters of infiltration, they will strike fear into our enemies, disrupting their plans and sowing chaos behind their lines. With the Brandenburgers at our disposal, no target is beyond our reach."
  EW_German_Units_Country.46.a:1 "Create Unit"
+ 
+ WE_Create_47:0 "Deploy Luftwaffe Field Divisions"
+ WE_Create_47_desc:0 "With manpower shortages among the Heer, deploying Luftwaffe Field Divisions offers a way to bolster our defensive lines. These divisions, composed of surplus air force personnel, provide additional infantry strength and can help hold critical positions on the front. Initially formed in late 1942, they have already proven valuable in maintaining the integrity of our defenses."
+ 
+ WE_Create_48:0 "Deploy Kriegsmarine Naval Infantry"
+ WE_Create_48_desc:0 "To defend key coastal areas and ports, we can deploy Kriegsmarine Naval Infantry. Formed from sailors and naval personnel, these units provide ground forces with unique expertise in amphibious operations and coastal defense. Their deployment ensures that vital ports and naval facilities remain secure against enemy landings."
+ 
+ WE_Create_49:0 "Deploy Order Police Battalions"
+ WE_Create_49_desc:0 "Order Police Battalions, composed of paramilitary police, can be deployed to maintain internal security, suppress resistance, and secure occupied territories. Established before the war, these battalions have been effective in counter-insurgency roles, ensuring stability and control behind the front lines."
 
  EW_German_Units_Country.47.t:0 "Luftwaffe Field Divisions"
  EW_German_Units_Country.47.d:0 "With the growing strain on our ground forces, the Luftwaffe must take on a new role. By converting surplus air personnel into infantry, we can bolster our defenses and hold key positions on the front. Though they lack traditional ground combat training, these divisions will be vital in the struggle ahead."
@@ -444,3 +456,270 @@ WE_Create_6_desc:0 "Establish an elite unit of commandos specialized in sabotage
  EW_German_Units_Country.49.d:0 "The Ordnungspolizei has been instrumental in maintaining order and enforcing our authority in occupied territories. By deploying these police battalions for security duties, we can ensure control over key areas, suppress resistance, and secure vital infrastructure, freeing up regular army units for front-line combat."
  EW_German_Units_Country.49.a:1 "Deploy Orpo Battalions"
  EW_German_Units_Country.49.b:1 "There Is No Need"
+ 
+ WE_Create_50:0 "1. Marine-Infanterie-Division"
+ WE_Create_50_desc:0 "Form a division of naval infantry from the personnel of the Kriegsmarine. The 1. Marine-Infanterie-Division will be tasked with defending key coastal positions, conducting amphibious assaults, and bolstering our ground forces where needed. This division will convert seasoned sailors and naval reservists into infantry units, enabling them to perform effectively in both defensive and offensive operations."
+
+ EW_German_Units_Country.50.t:0 "1. Marine-Infanterie-Division"
+ EW_German_Units_Country.50.d:0 "The 1. Marine-Infanterie-Division has been successfully formed. Comprised of Kriegsmarine personnel, this division will serve as a versatile infantry force, capable of defending coastal regions and reinforcing our front lines. Though initially unaccustomed to land combat, these men bring naval discipline and determination to their new roles, ready to stand firm against any adversary."
+ EW_German_Units_Country.50.a:1 "Create Unit"
+ 
+ WE_Create_51:0 "2. Marine-Infanterie-Division"
+ WE_Create_51_desc:0 "Assemble a second division of naval infantry to supplement the defense of critical coastal areas and provide support to our beleaguered ground forces. The 2. Marine-Infanterie-Division will be made up of naval personnel, including sailors, dockworkers, and reservists, transformed into infantry soldiers to strengthen our land defenses against any advancing enemies."
+
+ EW_German_Units_Country.51.t:0 "2. Marine-Infanterie-Division"
+ EW_German_Units_Country.51.d:0 "The 2. Marine-Infanterie-Division has been formed. Drawing from the ranks of the Kriegsmarine and civilian naval workers, this division will contribute to our defensive efforts and expand our capacity to resist enemy advances. Despite their lack of extensive ground combat training, their commitment to the Reich and tactical versatility will be key in holding critical positions."
+ EW_German_Units_Country.51.a:1 "Create Unit"
+ 
+ WE_Create_52:0 "Polizeibataillon 9"
+WE_Create_52_desc:0 "Deploy the Polizeibataillon 9, a police formation tasked with maintaining security in occupied territories. Their primary role includes anti-partisan warfare and enforcing control in rear areas."
+
+EW_German_Units_Country.52.t:0 "Polizeibataillon 9"
+EW_German_Units_Country.52.d:0 "Polizeibataillon 9 has been deployed to secure occupied territories and perform anti-partisan operations. Composed of reservist police personnel, they are prepared to enforce order behind the lines."
+EW_German_Units_Country.52.a:1 "Create Unit"
+
+WE_Create_53:0 "Polizeibataillon 45"
+WE_Create_53_desc:0 "Deploy Polizeibataillon 45, trained for security and rear-area operations. Their duties focus on suppressing resistance and maintaining order in occupied areas."
+
+EW_German_Units_Country.53.t:0 "Polizeibataillon 45"
+EW_German_Units_Country.53.d:0 "Polizeibataillon 45 has been deployed for rear-area security and anti-partisan duties in the occupied zones. They will support our main forces by ensuring stability behind the front lines."
+EW_German_Units_Country.53.a:1 "Create Unit"
+
+WE_Create_54:0 "Polizeibataillon 303"
+WE_Create_54_desc:0 "Deploy Polizeibataillon 303, an experienced unit in anti-partisan actions and rear-area security. They are key to maintaining control in contested territories."
+
+EW_German_Units_Country.54.t:0 "Polizeibataillon 303"
+EW_German_Units_Country.54.d:0 "Polizeibataillon 303 has been deployed to the East for rear-area security and anti-partisan operations, vital for keeping the lines of communication and supply open."
+EW_German_Units_Country.54.a:1 "Create Unit"
+
+WE_Create_55:0 "Polizeibataillon 304"
+WE_Create_55_desc:0 "Deploy Polizeibataillon 304 to ensure rear-area security and to counter resistance efforts. Their deployment is crucial for maintaining order in occupied zones."
+
+EW_German_Units_Country.55.t:0 "Polizeibataillon 304"
+EW_German_Units_Country.55.d:0 "Polizeibataillon 304 is now operational in the East, focusing on anti-partisan activities and securing occupied territories against insurgent threats."
+EW_German_Units_Country.55.a:1 "Create Unit"
+
+WE_Create_56:0 "Polizeibataillon 307"
+WE_Create_56_desc:0 "Deploy Polizeibataillon 307, specialized in maintaining security and performing counterinsurgency operations within occupied areas."
+
+EW_German_Units_Country.56.t:0 "Polizeibataillon 307"
+EW_German_Units_Country.56.d:0 "Polizeibataillon 307 has been deployed to manage rear-area security and anti-partisan warfare, providing essential support to our occupation forces."
+EW_German_Units_Country.56.a:1 "Create Unit"
+
+WE_Create_57:0 "Polizeibataillon 309"
+WE_Create_57_desc:0 "Deploy Polizeibataillon 309, tasked with security duties and anti-partisan operations to stabilize rear areas and enforce control."
+
+EW_German_Units_Country.57.t:0 "Polizeibataillon 309"
+EW_German_Units_Country.57.d:0 "Polizeibataillon 309 has been deployed to ensure rear-area security and to carry out anti-partisan operations in occupied regions."
+EW_German_Units_Country.57.a:1 "Create Unit"
+
+WE_Create_58:0 "Polizeibataillon 310"
+WE_Create_58_desc:0 "Deploy Polizeibataillon 310 to enforce order and conduct counterinsurgency operations in occupied areas. Their role is vital for stabilizing the rear."
+
+EW_German_Units_Country.58.t:0 "Polizeibataillon 310"
+EW_German_Units_Country.58.d:0 "Polizeibataillon 310 is now active in the rear areas, focusing on anti-partisan activities and maintaining control in the occupied territories."
+EW_German_Units_Country.58.a:1 "Create Unit"
+
+WE_Create_59:0 "Polizeibataillon 311"
+WE_Create_59_desc:0 "Deploy Polizeibataillon 311 to enhance rear-area security and anti-partisan efforts. Their presence is crucial for managing occupied zones."
+
+EW_German_Units_Country.59.t:0 "Polizeibataillon 311"
+EW_German_Units_Country.59.d:0 "Polizeibataillon 311 has been dispatched to support our forces in the rear by carrying out security and anti-partisan duties."
+EW_German_Units_Country.59.a:1 "Create Unit"
+
+WE_Create_60:0 "Polizeibataillon 317"
+WE_Create_60_desc:0 "Deploy Polizeibataillon 317, equipped for security operations and counterinsurgency. They will help stabilize rear areas and enforce order."
+
+EW_German_Units_Country.60.t:0 "Polizeibataillon 317"
+EW_German_Units_Country.60.d:0 "Polizeibataillon 317 is now engaged in securing rear areas and conducting anti-partisan operations in the occupied territories."
+EW_German_Units_Country.60.a:1 "Create Unit"
+
+WE_Create_61:0 "Polizeibataillon 320"
+WE_Create_61_desc:0 "Deploy Polizeibataillon 320 for rear-area security and anti-partisan operations. Their role is essential in maintaining control in occupied regions."
+
+EW_German_Units_Country.61.t:0 "Polizeibataillon 320"
+EW_German_Units_Country.61.d:0 "Polizeibataillon 320 is operational in the rear, tasked with maintaining order and suppressing resistance efforts in occupied territories."
+EW_German_Units_Country.61.a:1 "Create Unit"
+
+WE_Create_62:0 "Polizeibataillon 321"
+WE_Create_62_desc:0 "Deploy Polizeibataillon 321 to ensure security and enforce control in occupied areas. Their deployment will assist in stabilizing rear areas and managing resistance."
+
+EW_German_Units_Country.62.t:0 "Polizeibataillon 321"
+EW_German_Units_Country.62.d:0 "Polizeibataillon 321 has been sent to handle security and anti-partisan tasks in the rear, reinforcing our control over occupied territories."
+EW_German_Units_Country.62.a:1 "Create Unit"
+
+# 1st Luftwaffe Field Division
+WE_Create_64:0 "1. Luftwaffe-Feld-Division"
+WE_Create_64_desc:0 "Deploying the 1st Luftwaffe Field Division will enhance our operational flexibility on the Eastern Front. Originally formed in late 1942, this division has proven its worth in tough combat situations. Reinforcing our positions near Novgorod and beyond, it will bolster our defenses and provide crucial support to our Army Group."
+
+EW_German_Units_Country.64.t:0 "1. Luftwaffe-Feld-Division"
+EW_German_Units_Country.64.d:0 "The 1st Luftwaffe Field Division was successfully deployed to support our operations on the Eastern Front. Initially stationed near Novgorod, this unit has proven its resilience and effectiveness in combat. Its integration into our forces will strengthen our capabilities in key areas of engagement. The division is now ready to reinforce our positions and contribute to our strategic objectives."
+EW_German_Units_Country.64.a:1 "Create Unit"
+
+# 2nd Luftwaffe Field Division
+WE_Create_65:0 "2. Luftwaffe-Feld-Division"
+WE_Create_65_desc:0 "Deploying the 2nd Luftwaffe Field Division will provide additional support on the Soviet front lines. Formed in 1942 and experiencing intense combat early on, this division can reinforce our positions and provide essential manpower. Despite its previous losses, its presence will strengthen our defensive capabilities."
+
+EW_German_Units_Country.65.t:0 "2. Luftwaffe-Feld-Division"
+EW_German_Units_Country.65.d:0 "The 2nd Luftwaffe Field Division has been deployed to bolster our defenses on the Eastern Front. Although it has faced heavy losses, its deployment will provide additional strength and support in key battle areas. This division is now operational and ready to reinforce our front lines."
+EW_German_Units_Country.65.a:1 "Create Unit"
+
+# 3rd Luftwaffe Field Division
+WE_Create_66:0 "3. Luftwaffe-Feld-Division"
+WE_Create_66_desc:0 "Deploying the 3rd Luftwaffe Field Division will enhance our combat capabilities in the Soviet Union. Having fought extensively under Army Group Center, this division will add valuable experience and manpower. Its deployment will strengthen our positions and improve our operational effectiveness."
+
+EW_German_Units_Country.66.t:0 "3. Luftwaffe-Feld-Division"
+EW_German_Units_Country.66.d:0 "The 3rd Luftwaffe Field Division has been successfully deployed to support our operations on the Eastern Front. With combat experience under Army Group Center, it is well-equipped to reinforce our positions and enhance our strategic efforts. The division is now active and ready for combat."
+EW_German_Units_Country.66.a:1 "Create Unit"
+
+# 4th Luftwaffe Field Division
+WE_Create_67:0 "4. Luftwaffe-Feld-Division"
+WE_Create_67_desc:0 "Deploying the 4th Luftwaffe Field Division will provide crucial support on the Eastern Front. Having engaged in intense battles around Vitebsk, this division will bring valuable experience and reinforcements. Its presence will bolster our defensive operations and fortify our front lines."
+
+EW_German_Units_Country.67.t:0 "4. Luftwaffe-Feld-Division"
+EW_German_Units_Country.67.d:0 "The 4th Luftwaffe Field Division is now deployed to reinforce our positions on the Eastern Front. With its combat experience in the Vitebsk area, it is well-suited to support our defensive efforts. The division is ready to contribute to our strategic objectives and strengthen our defenses."
+EW_German_Units_Country.67.a:1 "Create Unit"
+
+# 5th Luftwaffe Field Division
+WE_Create_68:0 "5. Luftwaffe-Feld-Division"
+WE_Create_68_desc:0 "Deploying the 5th Luftwaffe Field Division will provide additional support to our operations. This division, despite its varied service history, can help bolster our positions on the Eastern Front. Its deployment will offer increased manpower and enhance our operational capabilities."
+
+EW_German_Units_Country.68.t:0 "5. Luftwaffe-Feld-Division"
+EW_German_Units_Country.68.d:0 "The 5th Luftwaffe Field Division has been deployed to augment our forces on the Eastern Front. Its addition will provide additional manpower and support, helping to strengthen our strategic positions. The division is now operational and prepared for combat."
+EW_German_Units_Country.68.a:1 "Create Unit"
+
+# 6th Luftwaffe Field Division
+WE_Create_69:0 "6. Luftwaffe-Feld-Division"
+WE_Create_69_desc:0 "Deploying the 6th Luftwaffe Field Division will reinforce our defensive lines, particularly in areas previously contested. Its combat experience and previous engagements make it a valuable addition to our forces. This deployment will enhance our defensive posture and operational readiness."
+
+EW_German_Units_Country.69.t:0 "6. Luftwaffe-Feld-Division"
+EW_German_Units_Country.69.d:0 "The 6th Luftwaffe Field Division is now deployed and ready to support our defensive operations. With its experience from previous battles, it will significantly strengthen our front lines. The division is operational and prepared to reinforce our positions."
+EW_German_Units_Country.69.a:1 "Create Unit"
+
+# 7th Luftwaffe Field Division
+WE_Create_70:0 "7. Luftwaffe-Feld-Division"
+WE_Create_70_desc:0 "Deploying the 7th Luftwaffe Field Division will add strength to our operations in key regions. Though its history includes varied engagements, this division will bolster our forces and provide additional support. Its deployment will enhance our combat effectiveness and strategic capabilities."
+
+EW_German_Units_Country.70.t:0 "7. Luftwaffe-Feld-Division"
+EW_German_Units_Country.70.d:0 "The 7th Luftwaffe Field Division has been deployed to support our operations. Its addition will provide increased manpower and reinforce our strategic positions. The division is now active and prepared for combat duties."
+EW_German_Units_Country.70.a:1 "Create Unit"
+
+# 8th Luftwaffe Field Division
+WE_Create_71:0 "8. Luftwaffe-Feld-Division"
+WE_Create_71_desc:0 "Deploying the 8th Luftwaffe Field Division will enhance our operational capacity on the Eastern Front. Its previous service and combat experience will provide valuable reinforcements. This division will help to strengthen our defenses and improve our strategic positioning."
+
+EW_German_Units_Country.71.t:0 "8. Luftwaffe-Feld-Division"
+EW_German_Units_Country.71.d:0 "The 8th Luftwaffe Field Division is now deployed to reinforce our front lines. With its combat experience, it will enhance our defensive and offensive capabilities. The division is operational and ready to contribute to our strategic efforts."
+EW_German_Units_Country.71.a:1 "Create Unit"
+
+# 9th Luftwaffe Field Division
+WE_Create_72:0 "9. Luftwaffe-Feld-Division"
+WE_Create_72_desc:0 "Deploying the 9th Luftwaffe Field Division will provide essential support and manpower to our forces. Its past engagements have equipped it with the experience needed to bolster our operations. This deployment will enhance our strategic flexibility and reinforce our positions."
+
+EW_German_Units_Country.72.t:0 "9. Luftwaffe-Feld-Division"
+EW_German_Units_Country.72.d:0 "The 9th Luftwaffe Field Division has been successfully deployed to support our operations. Its addition will bolster our strategic efforts and provide valuable reinforcement. The division is now active and prepared for combat."
+EW_German_Units_Country.72.a:1 "Create Unit"
+
+# 10th Luftwaffe Field Division
+WE_Create_73:0 "10. Luftwaffe-Feld-Division"
+WE_Create_73_desc:0 "Deploying the 10th Luftwaffe Field Division will strengthen our forces with additional support and manpower. This division, with its combat history, will contribute to our operational goals. Its deployment will enhance our defensive and offensive capabilities."
+
+EW_German_Units_Country.73.t:0 "10. Luftwaffe-Feld-Division"
+EW_German_Units_Country.73.d:0 "The 10th Luftwaffe Field Division is now deployed and ready to support our operations. With its previous combat experience, it will enhance our strategic positioning and reinforce our front lines. The division is operational and prepared for combat."
+EW_German_Units_Country.73.a:1 "Create Unit"
+
+# 11th Luftwaffe Field Division
+WE_Create_74:0 "11. Luftwaffe-Feld-Division"
+WE_Create_74_desc:0 "Deploying the 11th Luftwaffe Field Division will provide significant reinforcement to our forces. Its combat readiness and experience will support our strategic objectives. This division will enhance our operational effectiveness and contribute to our defensive and offensive operations."
+
+EW_German_Units_Country.74.t:0 "11. Luftwaffe-Feld-Division"
+EW_German_Units_Country.74.d:0 "The 11th Luftwaffe Field Division has been deployed to reinforce our positions. Its combat experience and readiness will significantly enhance our operational capabilities. The division is now active and prepared to support our strategic goals."
+EW_German_Units_Country.74.a:1 "Create Unit"
+
+# 12th Luftwaffe Field Division
+WE_Create_75:0 "12. Luftwaffe-Feld-Division"
+WE_Create_75_desc:0 "Deploying the 12th Luftwaffe Field Division will bolster our forces with additional experienced personnel. This division’s deployment will enhance our combat effectiveness and provide crucial support to our operations. Its presence will strengthen our strategic positioning."
+
+EW_German_Units_Country.75.t:0 "12. Luftwaffe-Feld-Division"
+EW_German_Units_Country.75.d:0 "The 12th Luftwaffe Field Division is now deployed and operational. Its addition will reinforce our strategic efforts and provide valuable support to our forces. The division is prepared to contribute effectively to our military objectives."
+EW_German_Units_Country.75.a:1 "Create Unit"
+
+# 13th Luftwaffe Field Division
+WE_Create_76:0 "13. Luftwaffe-Feld-Division"
+WE_Create_76_desc:0 "Deploying the 13th Luftwaffe Field Division will add to our strength on the battlefield. With its history of engagement, this division will provide essential reinforcement and support. Its deployment will improve our operational flexibility and enhance our defensive capabilities."
+
+EW_German_Units_Country.76.t:0 "13. Luftwaffe-Feld-Division"
+EW_German_Units_Country.76.d:0 "The 13th Luftwaffe Field Division has been deployed to bolster our front lines. Its combat experience will contribute significantly to our operations, enhancing both defensive and offensive capabilities. The division is now active and ready for duty."
+EW_German_Units_Country.76.a:1 "Create Unit"
+
+# 14th Luftwaffe Field Division
+WE_Create_77:0 "14. Luftwaffe-Feld-Division"
+WE_Create_77_desc:0 "Deploying the 14th Luftwaffe Field Division will strengthen our presence in occupied territories. This division, formed from the 61st Air Regiment and deployed to Norway, will provide additional support in both Norway and Denmark. Its deployment will enhance our control over these regions."
+
+EW_German_Units_Country.77.t:0 "14. Luftwaffe-Feld-Division"
+EW_German_Units_Country.77.d:0 "The 14th Luftwaffe Field Division is now deployed to support our occupation efforts in Norway and Denmark. Its presence will reinforce our control and provide additional manpower in these regions. The division is operational and ready to assist in our occupation duties."
+EW_German_Units_Country.77.a:1 "Create Unit"
+
+# 15th Luftwaffe Field Division
+WE_Create_78:0 "15. Luftwaffe-Feld-Division"
+WE_Create_78_desc:0 "Deploying the 15th Luftwaffe Field Division will add significant support to our forces. Its previous engagements and experience will contribute to our operational goals. This division will enhance our combat readiness and provide crucial reinforcement in key areas."
+
+EW_German_Units_Country.78.t:0 "15. Luftwaffe-Feld-Division"
+EW_German_Units_Country.78.d:0 "The 15th Luftwaffe Field Division is now deployed and operational. Its addition will provide essential support and reinforcement to our forces. The division is ready to contribute to our strategic objectives and improve our combat effectiveness."
+EW_German_Units_Country.78.a:1 "Create Unit"
+
+# 16th Luftwaffe Field Division
+WE_Create_79:0 "16. Luftwaffe-Feld-Division"
+WE_Create_79_desc:0 "Deploying the 16th Luftwaffe Field Division will reinforce our combat capabilities with additional experienced personnel. This division, later renamed as 16th Volksgrenadier Division, will strengthen our strategic positions and contribute to our operational success."
+
+EW_German_Units_Country.79.t:0 "16. Luftwaffe-Feld-Division"
+EW_German_Units_Country.79.d:0 "The 16th Luftwaffe Field Division is now deployed to enhance our combat effectiveness. Renamed as the 16th Volksgrenadier Division, it will provide additional support and reinforcement in key operational areas. The division is operational and prepared for combat."
+EW_German_Units_Country.79.a:1 "Create Unit"
+
+# 17th Luftwaffe Field Division
+WE_Create_80:0 "17. Luftwaffe-Feld-Division"
+WE_Create_80_desc:0 "Deploying the 17th Luftwaffe Field Division will bolster our forces with experienced troops. This division’s deployment will enhance our operational flexibility and strengthen our defensive and offensive capabilities. It will provide additional manpower to support our strategic goals."
+
+EW_German_Units_Country.80.t:0 "17. Luftwaffe-Feld-Division"
+EW_German_Units_Country.80.d:0 "The 17th Luftwaffe Field Division has been deployed to reinforce our front lines. Its combat experience will add significant strength to our forces, supporting both defensive and offensive operations. The division is now active and ready to contribute."
+EW_German_Units_Country.80.a:1 "Create Unit"
+
+# 18th Luftwaffe Field Division
+WE_Create_81:0 "18. Luftwaffe-Feld-Division"
+WE_Create_81_desc:0 "Deploying the 18th Luftwaffe Field Division will provide additional support to our forces in France. This division’s deployment will strengthen our defensive positions and enhance our operational effectiveness in the region."
+
+EW_German_Units_Country.81.t:0 "18. Luftwaffe-Feld-Division"
+EW_German_Units_Country.81.d:0 "The 18th Luftwaffe Field Division is now deployed to reinforce our positions in France. Its presence will strengthen our defensive capabilities and contribute to our strategic efforts in the region. The division is operational and ready for deployment."
+EW_German_Units_Country.81.a:1 "Create Unit"
+
+# 19th Luftwaffen-Sturm-Division
+WE_Create_82:0 "19. Luftwaffen-Sturm-Division"
+WE_Create_82_desc:0 "Deploying the 19th Luftwaffen-Sturm-Division will add valuable reinforcement to our forces. Though remnants of this division were used to form the 19th Grenadier Division, its deployment will provide crucial support and enhance our combat readiness."
+
+EW_German_Units_Country.82.t:0 "19. Luftwaffen-Sturm-Division"
+EW_German_Units_Country.82.d:0 "The 19th Luftwaffen-Sturm-Division is now deployed to support our operations. Its addition will bolster our combat capabilities and provide essential reinforcement. The division is operational and prepared to contribute to our strategic objectives."
+EW_German_Units_Country.82.a:1 "Create Unit"
+
+# 20th Luftwaffe Field Division
+WE_Create_83:0 "20. Luftwaffe-Feld-Division"
+WE_Create_83_desc:0 "Deploying the 20th Luftwaffe Field Division will provide additional support and manpower to our forces. Its deployment will enhance our strategic capabilities and reinforce our positions. This division is well-suited to contribute to our operational goals."
+
+EW_German_Units_Country.83.t:0 "20. Luftwaffe-Feld-Division"
+EW_German_Units_Country.83.d:0 "The 20th Luftwaffe Field Division has been successfully deployed to reinforce our front lines. Its presence will bolster our combat effectiveness and strengthen our strategic positions. The division is now operational and ready for combat."
+EW_German_Units_Country.83.a:1 "Create Unit"
+
+# 21st Luftwaffe Field Division
+WE_Create_84:0 "21. Luftwaffe-Feld-Division"
+WE_Create_84_desc:0 "Deploying the 21st Luftwaffe Field Division will bolster our forces with additional support. Previously known as the Meindl Division, it will provide essential reinforcement and improve our operational effectiveness. This division will enhance our capabilities on the battlefield."
+
+EW_German_Units_Country.84.t:0 "21. Luftwaffe-Feld-Division"
+EW_German_Units_Country.84.d:0 "The 21st Luftwaffe Field Division is now deployed to support our operations. Its previous role as the Meindl Division has prepared it to provide valuable reinforcement and enhance our strategic efforts. The division is operational and ready for combat."
+EW_German_Units_Country.84.a:1 "Create Unit"
+
+# 22nd Luftwaffe Field Division
+WE_Create_85:0 "22. Luftwaffe-Feld-Division"
+WE_Create_85_desc:0 "Deploying the 22nd Luftwaffe Field Division will strengthen our operational capacity with additional experienced troops. This division will enhance our strategic positioning and provide critical support to our forces in key areas."
+
+EW_German_Units_Country.85.t:0 "22. Luftwaffe-Feld-Division"
+EW_German_Units_Country.85.d:0 "The 22nd Luftwaffe Field Division is now deployed and operational. Its combat readiness will reinforce our positions and contribute to our strategic goals. The division is prepared to provide valuable support to our forces."
+EW_German_Units_Country.85.a:1 "Create Unit"
