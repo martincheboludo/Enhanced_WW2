@@ -1,5 +1,5876 @@
 #Red Army Units Decisions
 Red_Army_EW_Decisions = {
+
+show_hide_unit_decisions_RED = {
+        priority = 100
+        visible = { always = yes }
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        complete_effect = { 
+            if = {
+                limit = { has_country_flag = show_unit_decisions }
+                clr_country_flag = show_unit_decisions
+            }
+            else = {
+                set_country_flag = show_unit_decisions
+            }
+        }
+    }
+	
+	RED_Create_Guard_Units = {
+
+		icon = generic_military
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+		
+		visible = {
+			NOT = { has_country_flag = show_unit_decisions }
+		}
+
+		available = {
+		date > 1942.1.1
+		has_tech = mechanised_infantry
+		has_tech = paratroopers
+		219 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			SOV = {
+				country_event = {
+					id = EW_Soviet_Units_Country.0
+				}	
+			}
+		}
+	}
+	
+	RED_Create_Guard_Units_1 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.1
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_2 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.2
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_3 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.3
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_4 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.4
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_5 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.5
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_6 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.6
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_7 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.7
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_8 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.8
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_9 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.9
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_10 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.10
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_11 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.11
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_12 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.12
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_13 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.13
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_14 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.14
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_15 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.15
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_16 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.16
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_17 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.17
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_18 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.18
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_19 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.19
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_20 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.20
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_21 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.21
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_22 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.22
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_23 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.23
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_24 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.24
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_25 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.25
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_26 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.26
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_27 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.27
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_28 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.28
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_29 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.29
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_30 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.30
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_31 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.31
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_32 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.32
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_33 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.33
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_34 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.34
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_35 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.35
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_36 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.36
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_37 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.37
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_38 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.38
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_39 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.39
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_40 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.40
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_41 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.41
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_42 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.42
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_43 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.43
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_44 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.44
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_45 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.45
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_46 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.46
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_47 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.47
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_48 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.48
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_49 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.49
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_50 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.50
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_51 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.51
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_52 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.52
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_53 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.53
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_54 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.54
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_55 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.55
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_56 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.56
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_57 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.57
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_58 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.58
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_59 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.59
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_60 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.60
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_61 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.61
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_62 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.62
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_63 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.63
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_64 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.64
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_65 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.65
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_66 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.66
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_67 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.67
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_68 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.68
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_69 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.69
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_70 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+
+
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.70
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_71 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.71
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_72 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.72
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_73 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.73
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_74 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.74
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_75 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.75
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_76 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.76
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_77 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.77
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_78 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.78
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_79 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.79
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_80 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.80
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_81 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.81
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_82 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.82
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_83 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.83
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_84 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.84
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_85 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.85
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_86 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.86
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_87 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.87
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_88 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.88
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_89 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.89
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_90 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+
+
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.90
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_91 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.91
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_92 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.92
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_93 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.93
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_94 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.94
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_95 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.95
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_96 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.96
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_97 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.97
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_98 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.98
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_99 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.99
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_100 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+
+
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.100
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_101 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.101
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_102 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.102
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_103 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.103
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_104 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.104
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_105 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.105
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_106 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.106
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_107 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.107
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_108 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.108
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_109 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.109
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_110 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+
+
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.110
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_111 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.111
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_112 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.112
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_113 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.113
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_114 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.114
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_115 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.115
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_116 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.116
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_117 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.117
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_118 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.118
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_119 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.119
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_120 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+
+
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.120
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_121 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.121
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_122 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.122
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_123 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.123
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_124 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.124
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_125 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.125
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_126 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.126
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_127 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.127
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_128 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.128
+            }    
+        }
+    }
+}
+
+RED_Create_Guard_Units_129 = {
+
+    icon = generic_military
+
+    fire_only_once = yes
+    cost = 10
+
+    allowed = {
+
+    }
+    
+    visible = {
+        NOT = { has_country_flag = show_unit_decisions }
+        has_country_flag = Soviet_Guards_Created
+    }
+
+    available = {
+        date > 1942.01.01
+        #Moscow
+        219 = { is_controlled_by_ROOT_or_ally = yes }
+        
+        OR  = {
+            is_ai = yes
+            EW_Equipment_Infantry = yes
+        }
+        
+    }
+
+    ai_will_do = {
+        factor = 1000
+        modifier = {
+            factor = 0
+            has_political_power < 100
+        }
+    }
+
+    complete_effect = {
+        SOV = {
+            country_event = {
+                id = EW_Soviet_Units_Country.129
+            }    
+        }
+    }
+}
+
+
 }
 
 #US Army Units Decisions

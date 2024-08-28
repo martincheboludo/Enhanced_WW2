@@ -252,3 +252,3998 @@ news_event = {
 		ai_chance = { factor = 1000 }
 	}
 }
+
+
+# Events for the first 10 Soviet Guards Rifle Divisions
+
+country_event = {
+    id = EW_Soviet_Units_Country.1
+    title = EW_Soviet_Units_Country.1.t
+    desc = EW_Soviet_Units_Country.1.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 1st Guards Rifle Division
+        name = EW_Soviet_Units_Country.1.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"1st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.2
+    title = EW_Soviet_Units_Country.2.t
+    desc = EW_Soviet_Units_Country.2.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 2nd Guards Rifle Division
+        name = EW_Soviet_Units_Country.2.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"2nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.3
+    title = EW_Soviet_Units_Country.3.t
+    desc = EW_Soviet_Units_Country.3.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 3rd Guards Rifle Division
+        name = EW_Soviet_Units_Country.3.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"3rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.4
+    title = EW_Soviet_Units_Country.4.t
+    desc = EW_Soviet_Units_Country.4.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 4th Guards Rifle Division
+        name = EW_Soviet_Units_Country.4.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"4th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.5
+    title = EW_Soviet_Units_Country.5.t
+    desc = EW_Soviet_Units_Country.5.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 5th Guards Rifle Division
+        name = EW_Soviet_Units_Country.5.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"5th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.6
+    title = EW_Soviet_Units_Country.6.t
+    desc = EW_Soviet_Units_Country.6.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 6th Guards Rifle Division
+        name = EW_Soviet_Units_Country.6.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"6th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.7
+    title = EW_Soviet_Units_Country.7.t
+    desc = EW_Soviet_Units_Country.7.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 7th Guards Rifle Division
+        name = EW_Soviet_Units_Country.7.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"7th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.8
+    title = EW_Soviet_Units_Country.8.t
+    desc = EW_Soviet_Units_Country.8.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 8th Guards Rifle Division
+        name = EW_Soviet_Units_Country.8.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"8th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.9
+    title = EW_Soviet_Units_Country.9.t
+    desc = EW_Soviet_Units_Country.9.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 9th Guards Rifle Division
+        name = EW_Soviet_Units_Country.9.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"9th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.10
+    title = EW_Soviet_Units_Country.10.t
+    desc = EW_Soviet_Units_Country.10.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        # Create 10th Guards Rifle Division
+        name = EW_Soviet_Units_Country.10.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"10th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if = { limit = { is_ai = no } EW_Equipment_Infantry_Remove = yes }
+    }
+}
+
+
+# Events for the 11th to 41st Soviet Guards Rifle Divisions
+
+country_event = {
+    id = EW_Soviet_Units_Country.11
+    title = EW_Soviet_Units_Country.11.t
+    desc = EW_Soviet_Units_Country.11.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.11.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"11th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.12
+    title = EW_Soviet_Units_Country.12.t
+    desc = EW_Soviet_Units_Country.12.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.12.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"12th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.13
+    title = EW_Soviet_Units_Country.13.t
+    desc = EW_Soviet_Units_Country.13.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.13.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"13th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.14
+    title = EW_Soviet_Units_Country.14.t
+    desc = EW_Soviet_Units_Country.14.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.14.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"14th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.15
+    title = EW_Soviet_Units_Country.15.t
+    desc = EW_Soviet_Units_Country.15.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.15.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"15th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.16
+    title = EW_Soviet_Units_Country.16.t
+    desc = EW_Soviet_Units_Country.16.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.16.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"16th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.17
+    title = EW_Soviet_Units_Country.17.t
+    desc = EW_Soviet_Units_Country.17.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.17.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"17th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.18
+    title = EW_Soviet_Units_Country.18.t
+    desc = EW_Soviet_Units_Country.18.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.18.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"18th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.19
+    title = EW_Soviet_Units_Country.19.t
+    desc = EW_Soviet_Units_Country.19.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.19.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"19th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.20
+    title = EW_Soviet_Units_Country.20.t
+    desc = EW_Soviet_Units_Country.20.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.20.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"20th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.21
+    title = EW_Soviet_Units_Country.21.t
+    desc = EW_Soviet_Units_Country.21.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.21.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"21st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.22
+    title = EW_Soviet_Units_Country.22.t
+    desc = EW_Soviet_Units_Country.22.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.22.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"22nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.23
+    title = EW_Soviet_Units_Country.23.t
+    desc = EW_Soviet_Units_Country.23.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.23.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"23rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.24
+    title = EW_Soviet_Units_Country.24.t
+    desc = EW_Soviet_Units_Country.24.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.24.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"24th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.25
+    title = EW_Soviet_Units_Country.25.t
+    desc = EW_Soviet_Units_Country.25.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.25.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"25th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.26
+    title = EW_Soviet_Units_Country.26.t
+    desc = EW_Soviet_Units_Country.26.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.26.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"26th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.27
+    title = EW_Soviet_Units_Country.27.t
+    desc = EW_Soviet_Units_Country.27.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.27.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"27th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.28
+    title = EW_Soviet_Units_Country.28.t
+    desc = EW_Soviet_Units_Country.28.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.28.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"28th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.29
+    title = EW_Soviet_Units_Country.29.t
+    desc = EW_Soviet_Units_Country.29.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.29.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"29th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.30
+    title = EW_Soviet_Units_Country.30.t
+    desc = EW_Soviet_Units_Country.30.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.30.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"30th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.31
+    title = EW_Soviet_Units_Country.31.t
+    desc = EW_Soviet_Units_Country.31.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.31.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"31st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.32
+    title = EW_Soviet_Units_Country.32.t
+    desc = EW_Soviet_Units_Country.32.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.32.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"32nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.33
+    title = EW_Soviet_Units_Country.33.t
+    desc = EW_Soviet_Units_Country.33.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.33.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"33rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.34
+    title = EW_Soviet_Units_Country.34.t
+    desc = EW_Soviet_Units_Country.34.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.34.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"34th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.35
+    title = EW_Soviet_Units_Country.35.t
+    desc = EW_Soviet_Units_Country.35.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.35.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"35th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.36
+    title = EW_Soviet_Units_Country.36.t
+    desc = EW_Soviet_Units_Country.36.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.36.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"36th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.37
+    title = EW_Soviet_Units_Country.37.t
+    desc = EW_Soviet_Units_Country.37.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.37.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"37th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.38
+    title = EW_Soviet_Units_Country.38.t
+    desc = EW_Soviet_Units_Country.38.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.38.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"38th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.39
+    title = EW_Soviet_Units_Country.39.t
+    desc = EW_Soviet_Units_Country.39.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.39.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"39th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.40
+    title = EW_Soviet_Units_Country.40.t
+    desc = EW_Soviet_Units_Country.40.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.40.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"40th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.41
+    title = EW_Soviet_Units_Country.41.t
+    desc = EW_Soviet_Units_Country.41.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.41.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"41st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.42
+    title = EW_Soviet_Units_Country.42.t
+    desc = EW_Soviet_Units_Country.42.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.42.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"42nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.43
+    title = EW_Soviet_Units_Country.43.t
+    desc = EW_Soviet_Units_Country.43.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.43.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"43rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.44
+    title = EW_Soviet_Units_Country.44.t
+    desc = EW_Soviet_Units_Country.44.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.44.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"44th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.45
+    title = EW_Soviet_Units_Country.45.t
+    desc = EW_Soviet_Units_Country.45.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.45.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"45th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.46
+    title = EW_Soviet_Units_Country.46.t
+    desc = EW_Soviet_Units_Country.46.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.46.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"46th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.47
+    title = EW_Soviet_Units_Country.47.t
+    desc = EW_Soviet_Units_Country.47.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.47.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"47th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.48
+    title = EW_Soviet_Units_Country.48.t
+    desc = EW_Soviet_Units_Country.48.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.48.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"48th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.49
+    title = EW_Soviet_Units_Country.49.t
+    desc = EW_Soviet_Units_Country.49.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.49.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"49th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.50
+    title = EW_Soviet_Units_Country.50.t
+    desc = EW_Soviet_Units_Country.50.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.50.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+         219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"50th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.51
+    title = EW_Soviet_Units_Country.51.t
+    desc = EW_Soviet_Units_Country.51.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.51.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"51st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.52
+    title = EW_Soviet_Units_Country.52.t
+    desc = EW_Soviet_Units_Country.52.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.52.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"52nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.53
+    title = EW_Soviet_Units_Country.53.t
+    desc = EW_Soviet_Units_Country.53.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.53.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"53rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.54
+    title = EW_Soviet_Units_Country.54.t
+    desc = EW_Soviet_Units_Country.54.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.54.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"54th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.55
+    title = EW_Soviet_Units_Country.55.t
+    desc = EW_Soviet_Units_Country.55.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.55.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"55th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.56
+    title = EW_Soviet_Units_Country.56.t
+    desc = EW_Soviet_Units_Country.56.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.56.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"56th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.57
+    title = EW_Soviet_Units_Country.57.t
+    desc = EW_Soviet_Units_Country.57.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.57.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"57th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.58
+    title = EW_Soviet_Units_Country.58.t
+    desc = EW_Soviet_Units_Country.58.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.58.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"58th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.59
+    title = EW_Soviet_Units_Country.59.t
+    desc = EW_Soviet_Units_Country.59.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.59.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"59th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.60
+    title = EW_Soviet_Units_Country.60.t
+    desc = EW_Soviet_Units_Country.60.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.60.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"60th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.61
+    title = EW_Soviet_Units_Country.61.t
+    desc = EW_Soviet_Units_Country.61.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.61.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"61st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.62
+    title = EW_Soviet_Units_Country.62.t
+    desc = EW_Soviet_Units_Country.62.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.62.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"62nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.63
+    title = EW_Soviet_Units_Country.63.t
+    desc = EW_Soviet_Units_Country.63.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.63.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"63rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.64
+    title = EW_Soviet_Units_Country.64.t
+    desc = EW_Soviet_Units_Country.64.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.64.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"64th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.65
+    title = EW_Soviet_Units_Country.65.t
+    desc = EW_Soviet_Units_Country.65.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.65.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"65th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.66
+    title = EW_Soviet_Units_Country.66.t
+    desc = EW_Soviet_Units_Country.66.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.66.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"66th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.67
+    title = EW_Soviet_Units_Country.67.t
+    desc = EW_Soviet_Units_Country.67.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.67.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"67th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.68
+    title = EW_Soviet_Units_Country.68.t
+    desc = EW_Soviet_Units_Country.68.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.68.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"68th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.69
+    title = EW_Soviet_Units_Country.69.t
+    desc = EW_Soviet_Units_Country.69.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.69.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"69th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.70
+    title = EW_Soviet_Units_Country.70.t
+    desc = EW_Soviet_Units_Country.70.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.70.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"70th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.71
+    title = EW_Soviet_Units_Country.71.t
+    desc = EW_Soviet_Units_Country.71.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.71.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"71st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.72
+    title = EW_Soviet_Units_Country.72.t
+    desc = EW_Soviet_Units_Country.72.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.72.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"72nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.73
+    title = EW_Soviet_Units_Country.73.t
+    desc = EW_Soviet_Units_Country.73.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.73.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"73rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.74
+    title = EW_Soviet_Units_Country.74.t
+    desc = EW_Soviet_Units_Country.74.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.74.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"74th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.75
+    title = EW_Soviet_Units_Country.75.t
+    desc = EW_Soviet_Units_Country.75.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.75.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"75th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.76
+    title = EW_Soviet_Units_Country.76.t
+    desc = EW_Soviet_Units_Country.76.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.76.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"76th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.77
+    title = EW_Soviet_Units_Country.77.t
+    desc = EW_Soviet_Units_Country.77.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.77.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"77th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.78
+    title = EW_Soviet_Units_Country.78.t
+    desc = EW_Soviet_Units_Country.78.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.78.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"78th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.79
+    title = EW_Soviet_Units_Country.79.t
+    desc = EW_Soviet_Units_Country.79.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.79.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"79th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.80
+    title = EW_Soviet_Units_Country.80.t
+    desc = EW_Soviet_Units_Country.80.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.80.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"80th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.81
+    title = EW_Soviet_Units_Country.81.t
+    desc = EW_Soviet_Units_Country.81.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.81.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"81st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.82
+    title = EW_Soviet_Units_Country.82.t
+    desc = EW_Soviet_Units_Country.82.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.82.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"82nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.83
+    title = EW_Soviet_Units_Country.83.t
+    desc = EW_Soviet_Units_Country.83.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.83.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"83rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.84
+    title = EW_Soviet_Units_Country.84.t
+    desc = EW_Soviet_Units_Country.84.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.84.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"84th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.85
+    title = EW_Soviet_Units_Country.85.t
+    desc = EW_Soviet_Units_Country.85.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.85.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"85th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.86
+    title = EW_Soviet_Units_Country.86.t
+    desc = EW_Soviet_Units_Country.86.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.86.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"86th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.87
+    title = EW_Soviet_Units_Country.87.t
+    desc = EW_Soviet_Units_Country.87.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.87.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"87th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.88
+    title = EW_Soviet_Units_Country.88.t
+    desc = EW_Soviet_Units_Country.88.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.88.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"88th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.89
+    title = EW_Soviet_Units_Country.89.t
+    desc = EW_Soviet_Units_Country.89.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.89.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"89th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.90
+    title = EW_Soviet_Units_Country.90.t
+    desc = EW_Soviet_Units_Country.90.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.90.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"90th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.91
+    title = EW_Soviet_Units_Country.91.t
+    desc = EW_Soviet_Units_Country.91.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.91.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"91st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.92
+    title = EW_Soviet_Units_Country.92.t
+    desc = EW_Soviet_Units_Country.92.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.92.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"92nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.93
+    title = EW_Soviet_Units_Country.93.t
+    desc = EW_Soviet_Units_Country.93.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.93.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"93rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.94
+    title = EW_Soviet_Units_Country.94.t
+    desc = EW_Soviet_Units_Country.94.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.94.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"94th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.95
+    title = EW_Soviet_Units_Country.95.t
+    desc = EW_Soviet_Units_Country.95.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.95.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"95th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.96
+    title = EW_Soviet_Units_Country.96.t
+    desc = EW_Soviet_Units_Country.96.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.96.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"96th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.97
+    title = EW_Soviet_Units_Country.97.t
+    desc = EW_Soviet_Units_Country.97.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.97.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"97th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.98
+    title = EW_Soviet_Units_Country.98.t
+    desc = EW_Soviet_Units_Country.98.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.98.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"98th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.99
+    title = EW_Soviet_Units_Country.99.t
+    desc = EW_Soviet_Units_Country.99.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.99.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"99th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.100
+    title = EW_Soviet_Units_Country.100.t
+    desc = EW_Soviet_Units_Country.100.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.100.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"100th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.101
+    title = EW_Soviet_Units_Country.101.t
+    desc = EW_Soviet_Units_Country.101.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.101.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"101st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.102
+    title = EW_Soviet_Units_Country.102.t
+    desc = EW_Soviet_Units_Country.102.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.102.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"102nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.103
+    title = EW_Soviet_Units_Country.103.t
+    desc = EW_Soviet_Units_Country.103.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.103.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"103rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.104
+    title = EW_Soviet_Units_Country.104.t
+    desc = EW_Soviet_Units_Country.104.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.104.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"104th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.105
+    title = EW_Soviet_Units_Country.105.t
+    desc = EW_Soviet_Units_Country.105.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.105.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"105th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.106
+    title = EW_Soviet_Units_Country.106.t
+    desc = EW_Soviet_Units_Country.106.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.106.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"106th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.107
+    title = EW_Soviet_Units_Country.107.t
+    desc = EW_Soviet_Units_Country.107.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.107.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"107th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.108
+    title = EW_Soviet_Units_Country.108.t
+    desc = EW_Soviet_Units_Country.108.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.108.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"108th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.109
+    title = EW_Soviet_Units_Country.109.t
+    desc = EW_Soviet_Units_Country.109.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.109.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"109th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.110
+    title = EW_Soviet_Units_Country.110.t
+    desc = EW_Soviet_Units_Country.110.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.110.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"110th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.111
+    title = EW_Soviet_Units_Country.111.t
+    desc = EW_Soviet_Units_Country.111.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.111.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"111th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.112
+    title = EW_Soviet_Units_Country.112.t
+    desc = EW_Soviet_Units_Country.112.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.112.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"112th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.113
+    title = EW_Soviet_Units_Country.113.t
+    desc = EW_Soviet_Units_Country.113.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.113.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"113th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.114
+    title = EW_Soviet_Units_Country.114.t
+    desc = EW_Soviet_Units_Country.114.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.114.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"114th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.115
+    title = EW_Soviet_Units_Country.115.t
+    desc = EW_Soviet_Units_Country.115.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.115.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"115th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.116
+    title = EW_Soviet_Units_Country.116.t
+    desc = EW_Soviet_Units_Country.116.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.116.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"116th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.117
+    title = EW_Soviet_Units_Country.117.t
+    desc = EW_Soviet_Units_Country.117.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.117.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"117th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.118
+    title = EW_Soviet_Units_Country.118.t
+    desc = EW_Soviet_Units_Country.118.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.118.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"118th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.119
+    title = EW_Soviet_Units_Country.119.t
+    desc = EW_Soviet_Units_Country.119.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.119.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"119th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.120
+    title = EW_Soviet_Units_Country.120.t
+    desc = EW_Soviet_Units_Country.120.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.120.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"120th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.121
+    title = EW_Soviet_Units_Country.121.t
+    desc = EW_Soviet_Units_Country.121.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.121.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"121st Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.122
+    title = EW_Soviet_Units_Country.122.t
+    desc = EW_Soviet_Units_Country.122.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.122.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"122nd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.123
+    title = EW_Soviet_Units_Country.123.t
+    desc = EW_Soviet_Units_Country.123.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.123.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"123rd Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.124
+    title = EW_Soviet_Units_Country.124.t
+    desc = EW_Soviet_Units_Country.124.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.124.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"124th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.125
+    title = EW_Soviet_Units_Country.125.t
+    desc = EW_Soviet_Units_Country.125.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.125.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"125th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.126
+    title = EW_Soviet_Units_Country.126.t
+    desc = EW_Soviet_Units_Country.126.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.126.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"126th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.127
+    title = EW_Soviet_Units_Country.127.t
+    desc = EW_Soviet_Units_Country.127.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.127.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"127th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.128
+    title = EW_Soviet_Units_Country.128.t
+    desc = EW_Soviet_Units_Country.128.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.128.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"128th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}
+
+country_event = {
+    id = EW_Soviet_Units_Country.129
+    title = EW_Soviet_Units_Country.129.t
+    desc = EW_Soviet_Units_Country.129.d
+    picture = GFX_report_event_Soviet_Soldiers_Country
+
+    is_triggered_only = yes
+
+    option = {
+        #Create 
+        name = EW_Soviet_Units_Country.129.a
+
+        ai_chance = {
+            factor = 1000
+        }
+        
+        219 = {
+            if = {
+                limit = { is_controlled_by_ROOT_or_ally = yes }
+            }
+            create_unit = {
+                division = "name = \"129th Guards Rifle Division\" division_template = \"Guards Rifle Division\" start_experience_factor = 0.8"
+                owner = SOV
+            }
+        }
+        
+        if  = { limit  = { is_ai = no} EW_Equipment_Infantry_Remove = yes }
+        
+    }
+}

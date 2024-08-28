@@ -45,505 +45,255 @@ country_event = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					custom_effect_tooltip = "Add Level 10 Forts in and around the city."
-					custom_effect_tooltip = "Add 80 Infantry Divisions in and around the city."
+					custom_effect_tooltip = "Add 50 Infantry Divisions in and around the city."
 					hidden_effect = {
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
@@ -607,505 +357,255 @@ country_event = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					custom_effect_tooltip = "Add Level 10 Forts in and around the city."
-					custom_effect_tooltip = "Add 100 Infantry Divisions in and around the city."
+					custom_effect_tooltip = "Add 50 Infantry Divisions in and around the city."
 					hidden_effect = {
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
@@ -1188,505 +688,255 @@ country_event = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					custom_effect_tooltip = "Add Level 10 Forts in and around the city."
-					custom_effect_tooltip = "Add 100 Infantry Divisions in and around the city."
+					custom_effect_tooltip = "Add 50 Infantry Divisions in and around the city."
 					hidden_effect = {
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
-							
-							owner = SOV
-						}
-						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+												create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}
 						create_unit = {
-							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.2"
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0"
 							
 							owner = SOV
 						}

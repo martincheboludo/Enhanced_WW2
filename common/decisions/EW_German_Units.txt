@@ -1898,6 +1898,7 @@ show_hide_unit_decisions_SS = {
 		surrender_progress < 0.01
 		date > 1940.1.1
 		has_tech = mechanised_infantry
+		64 = { is_controlled_by_ROOT_or_ally = yes }
 		
 			OR = {
 				custom_trigger_tooltip = {
@@ -1955,7 +1956,7 @@ show_hide_unit_decisions_SS = {
 		}
 
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 
 		complete_effect = {
