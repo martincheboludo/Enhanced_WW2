@@ -4782,6 +4782,7 @@ country_event = {
 		NOT = { has_war_with = POL }
 		SOV = { has_offensive_war_with = POL }
 		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { has_non_aggression_pact_with = SOV }
 		date > 1933.1.1
 		date < 1949.1.1
 	}
@@ -5008,6 +5009,7 @@ country_event = {
 		NOT = { has_war_with = LIT }
 		SOV = { has_offensive_war_with = LIT }
 		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { has_non_aggression_pact_with = SOV }
 		date > 1933.1.1
 		date < 1949.1.1
 		LIT = { owns_state = 188 }

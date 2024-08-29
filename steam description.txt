@@ -2,7 +2,7 @@ Golden Edition: A World War 2 Enhancement Mod
 
 [img]https://i.imgur.com/NVBHkZ6.png[/img]
 
-Welcome to Golden Edition: A World War 2 Enhancement Mod, crafted by TK2030 to elevate your Hearts of Iron IV experience to unprecedented levels of realism and challenge. This mod is designed to make single-player gameplay significantly harder and more immersive, transforming your WWII strategy with a host of new features and mechanics. Think of it as Vanilla+—a refined, intensified version of the classic game.
+Welcome to Golden Edition: A World War 2 Enhancement Mod, crafted by TK2030 to elevate your Hearts of Iron IV experience to higher levels of realism and challenge. This mod is designed to make single-player gameplay significantly harder and more immersive, transforming your WWII strategy with a host of new features and mechanics. This is my take on Vanilla+.
 
 [img]https://i.imgur.com/6OXWwEl.png[/img]
 
@@ -22,11 +22,14 @@ Elite Divisions & Operations: Command a host of elite units and divisions, inclu
 
 American & British Special Units: Utilize specialized American units such as the Paramarines, Army Rangers, and Marine Raiders, as well as British forces like the SAS, SBS, and Royal Marine Commandos.
 
-Comprehensive Unit Integration: All German Order Police Battalions, Luftwaffe Field Divisions, Kriegsmarine Naval Infantry Divisions, and Soviet Guard Divisions are included. Soviet Guard Divisions are available as decisions and automatically given to the AI if America is lending them.
+Comprehensive Unit Integration: All German Order Police Battalions, Luftwaffe Field Divisions, Kriegsmarine Naval Infantry Divisions, and all 194 Soviet Guard Divisions are included.
 
 For an even richer gameplay experience, consider playing Golden Edition alongside its sister mod, Better Formable Nations and Coring Decisions. This complementary mod enhances formable nations and core decision mechanics, further deepening your strategic options.
 
 *Useful Links*
+
+Better Formable Nations and Coring Decisions
+https://steamcommunity.com/sharedfiles/filedetails/?id=3319039017
 
 [url=https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M7N2RCCYGMSDL&source=url]
 [img]https://i.imgur.com/DR7KrNk.png[/img][/url]

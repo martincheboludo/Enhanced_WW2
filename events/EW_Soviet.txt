@@ -1008,6 +1008,7 @@ country_event = {
 		NOT = { has_war_with = POL }
 		GER = { has_offensive_war_with = POL }
 		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { has_non_aggression_pact_with = GER }
 		date > 1933.1.1
 		date < 1949.1.1
 	}
