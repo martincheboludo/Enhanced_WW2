@@ -682,6 +682,7 @@ ENG_British_Invasion_of_Iraq = {
 			date > 1944.1.1
 			date < 1950.1.1
 			has_war_with = GER
+			GER = { has_capitulated = no }
 			surrender_progress < 0.1
 			126 = { is_controlled_by_ROOT_or_ally = yes }
 			15 = { is_controlled_by_ROOT_or_ally = no }
@@ -795,6 +796,7 @@ ENG_British_Invasion_of_Iraq = {
 		date > 1944.1.1
 		date < 1950.1.1
 		has_war_with = GER
+		GER = { has_capitulated = no }
 		surrender_progress < 0.1
 		15 = { is_controlled_by_ROOT_or_ally = yes }
 		29 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1131,6 +1133,7 @@ SOV_EW_Decisions = {
 			date > 1941.12.1
 			date < 1942.12.1
 			has_war_with = GER
+			GER = { has_capitulated = no }
 
 			surrender_progress > 0.01
 
@@ -1206,6 +1209,7 @@ SOV_EW_Decisions = {
 			date > 1942.6.1
 			date < 1943.6.1
 			has_war_with = GER
+			GER = { has_capitulated = no }
 			217 = { is_controlled_by_ROOT_or_ally = yes }
 			surrender_progress > 0.01
 		}
@@ -1278,6 +1282,7 @@ SOV_EW_Decisions = {
 			date > 1942.6.1
 			date < 1943.6.1
 			has_war_with = GER
+			GER = { has_capitulated = no }
 			219 = { is_controlled_by_ROOT_or_ally = yes }
 			surrender_progress > 0.01
 		}
@@ -1350,6 +1355,7 @@ SOV_EW_Decisions = {
 			date > 1944.1.1
 			date < 1945.1.1
 			has_war_with = GER
+			GER = { has_capitulated = no }
 			surrender_progress > 0.01
 
 			OR = {
@@ -1489,6 +1495,7 @@ SOV_EW_Decisions = {
 			date > 1945.1.1
 			date < 1950.1.1
 			has_war_with = JAP
+			JAP = { has_capitulated = no }
 			surrender_progress < 0.01
 		}
 		
@@ -1717,6 +1724,7 @@ GER_EW_Decisions = {
 			tag = GER
 			date < 1941.1.1
 			has_offensive_war_with = POL
+			POL = { has_capitulated = no }
 		}
 
 		cost = 0
@@ -1768,8 +1776,14 @@ GER_EW_Decisions = {
 			date < 1941.1.1
 			has_war_with = FRA
 			OR = {
-				has_war_with = BEL
-				has_war_with = HOL
+				AND = {
+					has_war_with = BEL
+					BEL = { has_capitulated = no }
+				}
+				AND = {
+					has_war_with = HOL
+					HOL = { has_capitulated = no }
+				}
 			}
 		}
 
@@ -1837,8 +1851,14 @@ GER_EW_Decisions = {
 			date < 1941.1.1
 			has_war_with = ENG
 			OR = {
-				has_war_with = DEN
-				has_war_with = NOR
+				AND = {
+					has_war_with = DEN
+					DEN = { has_capitulated = no }
+				}
+				AND = {
+					has_war_with = NOR
+					NOR = { has_capitulated = no }
+				}
 			}
 			surrender_progress < 0.01
 		}
@@ -1919,6 +1939,7 @@ GER_EW_Decisions = {
 			tag = GER
 			date < 1942.1.1
 			has_offensive_war_with = SOV
+			SOV = { has_capitulated = no }
 		}
 
 		cost = 0
@@ -1970,6 +1991,7 @@ GER_EW_Decisions = {
 			tag = GER
 			date < 1942.1.1
 			has_offensive_war_with = SOV
+			SOV = { has_capitulated = no }
 			has_country_flag = EW_Operation_Barbarossa
 			242 = { is_controlled_by_ROOT_or_ally = yes }
 			NOT = {
@@ -2028,6 +2050,7 @@ GER_EW_Decisions = {
 			tag = GER
 			date < 1943.1.1
 			has_offensive_war_with = SOV
+			SOV = { has_capitulated = no }
 			226 = { is_controlled_by_ROOT_or_ally = yes }
 			NOT = {
 				217 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2081,6 +2104,7 @@ GER_EW_Decisions = {
 		available = {
 			tag = GER
 			has_war_with = ENG
+			ENG = { has_capitulated = no }
 			surrender_progress < 0.01
 			OR = {
 				29 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2199,11 +2223,7 @@ GER_EW_Decisions = {
 		}
 
 		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				is_historical_focus_on = no
-			}
+			factor = 0
 		}
 
 		visible = {
@@ -2257,11 +2277,7 @@ GER_EW_Decisions = {
 		}
 
 		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				is_historical_focus_on = no
-			}
+			factor = 0
 		}
 
 		visible = {
