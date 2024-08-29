@@ -5,5 +5,6 @@ tags={
 	"National Focuses"
 	"Events"
 }
-name="Enhanced_WW2"
+name="Golden Edition: A World War 2 Enhancement Mod"
+picture="thumbnail.png"
 supported_version="1.14.*"
