@@ -34,7 +34,7 @@ WE_Create_DAK = {
 
 		available = {
 		surrender_progress < 0.01
-		date > 1941.1.1
+		date > 1940.1.1
 		448 = { is_controlled_by_ROOT_or_ally = yes }
 		has_tech = mechanised_infantry
 		
