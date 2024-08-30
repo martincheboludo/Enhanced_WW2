@@ -5536,6 +5536,140 @@ country_event = {
 
 }
 
+##Swiss National Redoubt
+country_event = {
+	id = EW_Allies_Country.154
+	picture = GFX_report_event_Swiss_Festung_Country
+	title = EW_Allies_Country.154.t
+	desc = EW_Allies_Country.154.d
+	fire_only_once = yes
+	trigger = {
+			date > 1933.1.1
+			date < 1949.1.1
+			tag = SWI
+				OR = {
+					GER = { is_justifying_wargoal_against = SWI }
+					GER = { has_wargoal_against = SWI }
+					GER = { focus_progress = { focus = GER_operation_tannenbaum progress > 0.10 } }
+					ITA = { is_justifying_wargoal_against = SWI }
+					ITA = { has_wargoal_against = SWI }
+					any_other_country = { is_in_faction_with = GER is_justifying_wargoal_against = SWI }
+					any_other_country = { is_in_faction_with = GER has_wargoal_against = SWI }
+					has_global_flag = fall_of_france
+				}
+			
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = EW_Allies_Country.154.a
+		ai_chance = {
+			factor = 1000
+		}
+			#Jura Mountains
+			845 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = "Add Level 5 Forts"
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = {
+								all_provinces = yes
+							}
+							instant_build = yes
+						}
+					}
+				}
+			}
+			#Swiss Plateau
+			3 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = "Add Level 5 Forts"
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = {
+								all_provinces = yes
+							}
+							instant_build = yes
+						}
+					}
+				}
+			}
+			
+			#Western Swiss Alps
+			847 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = "Add Level 10 Forts"
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 10
+							province = {
+								all_provinces = yes
+							}
+							instant_build = yes
+						}
+					}
+				}
+			}
+			
+			#Ticino
+			846 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = "Add Level 5 Forts"
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = {
+								all_provinces = yes
+							}
+							instant_build = yes
+						}
+					}
+				}
+			}
+			
+			#Eastern Swiss Alps
+			151 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = "Add Level 5 Forts"
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 10
+							province = 11601
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = {
+								all_provinces = yes
+							}
+							instant_build = yes
+						}
+					}
+				}
+			}
+		
+		add_war_support = 0.10
+		hidden_effect = {
+			news_event = { id = EW_Allies_News.154 hours = 6 }
+		}
+		
+	}
+}
+
 #Allies Vow to Stop German Aggression
 news_event = {
 	id = EW_Allies_News.2
@@ -5759,6 +5893,20 @@ news_event = {
 	major = yes
 	option = {
 		name = EW_Allies_News.130.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Swiss National
+news_event = {
+	id = EW_Allies_News.154
+	picture = GFX_news_event_Swiss_Festung_News
+	title = EW_Allies_News.154.t
+	desc = EW_Allies_News.154.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Allies_News.154.a
 		ai_chance = { factor = 1000 }
 	}
 }

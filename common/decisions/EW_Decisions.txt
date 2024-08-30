@@ -2936,6 +2936,10 @@ GER_EW_Decisions = {
 		}
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1943.1.1
+			}
 		}
 		complete_effect = {
 		}

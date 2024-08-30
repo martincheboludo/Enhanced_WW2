@@ -972,22 +972,26 @@ country_event = {
 	option = { # Accept
 		name = EW_Germany_Country.128.a
 		ai_chance = {
-			base = 30
+			base = 300
+			#If Germany is at war with Allies The Swiss Will Say No to Anschluss
 			modifier = {
-				add = -25
-				GER = { has_army_size = { size < 40 } }
-			}
-			modifier = {
-				add = 100
-				GER = { has_army_size = { size > 39 } }
-			}
-			modifier = {
-				add = 20
-				is_in_faction_with = GER
-			}
-			modifier = {
-				add = 20
-				has_government = fascism
+				add = -200
+				OR = {
+					AND = {
+						USA = { has_war_with = GER }
+						USA = { has_capitulated = no }
+					}
+					AND = {
+						CAN = { has_war_with = GER }
+						CAN = { has_idea = EW_BGIE }
+						CAN = { has_capitulated = no }
+					}
+					AND = {
+						ENG = { has_war_with = GER }
+						ENG = { has_idea = EW_BGIE }
+						ENG = { has_capitulated = no }
+					}
+				}
 			}
 		}
 		GER = {
@@ -998,46 +1002,25 @@ country_event = {
 	option = { # Refuse
 		name = EW_Germany_Country.128.b
 		ai_chance = {
-			base = 10
-			#modifier = {
-				#factor = 0
-				#is_historical_focus_on = yes
-				#NOT = { HUN = { has_completed_focus = HUN_protect_austria } }
-			#}
-			modifier = {
-				GER = { has_army_size = { size > 39 } }
-				factor = 0.5
-			}
-			modifier = {
-				add = 20
-				GER = { has_army_size = { size < 30 } }
-			}
-			#modifier = {
-			#	add = 100
-			#	AUS = {
-			#
-			#		is_in_faction_with = SWI
-			#
-			#	}
-			#}
-			modifier = {
-				factor = 2
-				is_in_faction = yes
-				NOT = { is_in_faction_with = GER }
-			}
-			modifier = {
-				any_other_country = {
-					has_guaranteed = SWI
-				}
-				factor = 5
-			}
+			base = 700
 			#If Germany is at war with Allies The Swiss Will Say No to Anschluss
 			modifier = {
-				add = 500
+				add = 200
 				OR = {
-					USA = { has_war_with = GER }
-					SOV = { has_war_with = GER }
-					ENG = { has_war_with = GER }
+					AND = {
+						USA = { has_war_with = GER }
+						USA = { has_capitulated = no }
+					}
+					AND = {
+						CAN = { has_war_with = GER }
+						CAN = { has_idea = EW_BGIE }
+						CAN = { has_capitulated = no }
+					}
+					AND = {
+						ENG = { has_war_with = GER }
+						ENG = { has_idea = EW_BGIE }
+						ENG = { has_capitulated = no }
+					}
 				}
 			}
 		}

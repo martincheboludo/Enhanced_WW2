@@ -520,6 +520,13 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Allies_Country.153.a:1 "Declare war on [ENG.GetName]."
  EW_Allies_Country.153.b:1 "Let the issue go and avoid further conflict."
  
+ EW_Allies_Country.154.t:0 "To the Last Man – The Swiss National Redoubt"
+ EW_Allies_Country.154.d:0 "Switzerland, nestled in the heart of Europe, now stands firm against the growing tide of conflict. In a historic address at the Rütli Meadow, General Henri Guisan has rallied the Swiss military to a singular purpose: defend the nation at all costs. The Swiss National Redoubt plan has been put into action, with formidable fortifications rising in the alpine regions, prepared to withstand any invasion. This declaration is not merely a strategic maneuver but a resolute promise to the Swiss people. Soldiers and civilians alike are called upon to unite, defending their homes, their traditions, and their freedom. The Swiss Army has sworn to resist to the last man, and the impregnable mountain fortresses will stand as the final bastions of Swiss independence. For Switzerland, surrender is not an option. They will fight to protect their sovereignty, regardless of the cost."
+ EW_Allies_Country.154.a:1 "To the Last Man!"
+ EW_Allies_News.154.t:0 "Switzerland Prepares for the Worst"
+ EW_Allies_News.154.d:0 "Reports from Switzerland reveal that under General Henri Guisan, the nation has enacted the National Redoubt plan, turning the Alps into a fortified stronghold. Bunkers, tunnels, and artillery positions now dominate the mountain passes, ready to repel any invader. The Swiss have vowed to fight to the last, making the prospect of invasion a gamble few would be willing to take."
+ EW_Allies_News.154.a:1 "A Costly Gamble!"
+ 
  EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
  EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
  EW_Allies_News.2.a:1 "Interesting..."

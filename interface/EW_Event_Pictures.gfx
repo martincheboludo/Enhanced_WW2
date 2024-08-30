@@ -201,6 +201,16 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_report_event_Swiss_Festung_Country"
+        texturefile = "gfx/event_pictures/Generic/Swiss_Festung_Country.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_Swiss_Festung_News"
+        texturefile = "gfx/event_pictures/Generic/Swiss_Festung_News.dds"
+    }
+	
+	spriteType = {
         name = "GFX_report_event_Axis_Country"
         texturefile = "gfx/event_pictures/Generic/Axis_Country.dds"
     }
@@ -211,12 +221,12 @@ spriteTypes = {
     }
 	
 	spriteType = {
-        name = "GFX_news_event_Partition_Axis_News"
+        name = "GFX_news_event_Axis_News"
         texturefile = "gfx/event_pictures/Generic/Axis_News.dds"
     }
 	
 	spriteType = {
-        name = "GFX_news_event_Partition_Allies_News"
+        name = "GFX_news_event_Allies_News"
         texturefile = "gfx/event_pictures/Generic/Allies_News.dds"
     }
 	
