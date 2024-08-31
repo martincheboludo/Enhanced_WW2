@@ -26,8 +26,8 @@ country_event = {
 				limit  = {
 					NOT = {
 						has_tech = mechanised_infantry
-						is_ai = yes
 					}
+					is_ai = yes
 				}
 				set_technology = {
 					mechanised_infantry = 1
@@ -38,8 +38,8 @@ country_event = {
 					has_tech = gw_artillery
 					NOT = {
 						has_tech = interwar_antitank
-						is_ai = yes
 					}
+					is_ai = yes
 				}
 				set_technology = {
 					interwar_antitank = 1
@@ -1827,9 +1827,22 @@ country_event = {
 					NOT = {
 						has_tech = mechanised_infantry
 					}
+					is_ai = yes
 				}
 				set_technology = {
 					mechanised_infantry = 1
+				}
+			}
+			if  = {
+				limit  = {
+					has_tech = gw_artillery
+					NOT = {
+						has_tech = interwar_antitank
+					}
+					is_ai = yes
+				}
+				set_technology = {
+					interwar_antitank = 1
 				}
 			}
 			if  = {
@@ -1932,9 +1945,22 @@ country_event = {
 					NOT = {
 						has_tech = mechanised_infantry
 					}
+					is_ai = yes
 				}
 				set_technology = {
 					mechanised_infantry = 1
+				}
+			}
+			if  = {
+				limit  = {
+					has_tech = gw_artillery
+					NOT = {
+						has_tech = interwar_antitank
+					}
+					is_ai = yes
+				}
+				set_technology = {
+					interwar_antitank = 1
 				}
 			}
 			if  = {

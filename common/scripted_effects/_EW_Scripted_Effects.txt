@@ -83,7 +83,7 @@ EW_Equipment_DAK_Remove = {
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -25 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1520 }
 	add_equipment_to_stockpile = { type = mechanized_equipment amount = -600 }
-	add_equipment_to_stockpile = { type = motorized_equipment amount = -60 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -585 }
 	add_equipment_to_stockpile = { type = support_equipment amount = -160 }
 	add_equipment_to_stockpile = { type = medium_tank_chassis amount = -250 }
 }
@@ -93,8 +93,7 @@ EW_Equipment_DAK_Motorized_Remove = {
 	add_equipment_to_stockpile = { type = anti_tank_equipment amount = -48 }
 	add_equipment_to_stockpile = { type = artillery_equipment amount = -25 }
 	add_equipment_to_stockpile = { type = infantry_equipment amount = -1520 }
-	add_equipment_to_stockpile = { type = mechanized_equipment amount = -600 }
-	add_equipment_to_stockpile = { type = motorized_equipment amount = -60 }
+	add_equipment_to_stockpile = { type = motorized_equipment amount = -585 }
 	add_equipment_to_stockpile = { type = support_equipment amount = -160 }
 	add_equipment_to_stockpile = { type = medium_tank_chassis amount = -250 }
 }

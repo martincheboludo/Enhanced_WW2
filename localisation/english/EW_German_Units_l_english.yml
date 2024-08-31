@@ -136,7 +136,6 @@ SS_Create_Waffen_SS_3_desc:0 " The 3rd SS Panzergrenadier Division “Totenkopf�
 
 EW_German_Units_Country.3.t:0 "3. SS-Panzerdivision Totenkopf"
 EW_German_Units_Country.3.d:0 " The 3rd SS Panzergrenadier Division “Totenkopf” was one of the most notorious divisions of the Waffen-SS, formed largely from personnel who had served as concentration camp guards. Created in 1939, it quickly gained a fearsome reputation on the Eastern Front, participating in some of the war's most brutal fighting, including the Battle of Demyansk and the defensive battles around Kharkov. Known for its tenacity in combat, the Totenkopf division was also infamous for its involvement in numerous war crimes, reflecting the brutal ideology of its members. Despite its controversial nature, the division was considered an elite unit within the Waffen-SS and played a significant role in Germany's military campaigns."
-EW_German_Units_Country.3.a:1 "Create Unit"
 EW_German_Units_Country.3.a:1 "Deploy With Mechanized"
 EW_German_Units_Country.3.b:1 "Deploy With Motorized"
 
