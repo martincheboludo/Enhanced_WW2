@@ -201,6 +201,11 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_report_event_GE_Country"
+        texturefile = "gfx/event_pictures/Generic/GE_Country.dds"
+    }
+	
+	spriteType = {
         name = "GFX_report_event_Swiss_Festung_Country"
         texturefile = "gfx/event_pictures/Generic/Swiss_Festung_Country.dds"
     }

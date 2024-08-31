@@ -527,6 +527,18 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Allies_News.154.d:0 "Reports from Switzerland reveal that under General Henri Guisan, the nation has enacted the National Redoubt plan, turning the Alps into a fortified stronghold. Bunkers, tunnels, and artillery positions now dominate the mountain passes, ready to repel any invader. The Swiss have vowed to fight to the last, making the prospect of invasion a gamble few would be willing to take."
  EW_Allies_News.154.a:1 "A Costly Gamble!"
  
+ EW_Generic_Events_Country.1.t:0 "Welcome to Golden Edition: A World War II Enhancement Mod!"
+ EW_Generic_Events_Country.1.d:0 "'History remembers the victors, but it is often shaped by the smallest of decisions.' Welcome to Golden Edition, a meticulously crafted World War II enhancement mod designed to bring history to life with greater authenticity and immersion. We strongly recommend playing on historical mode to experience the most accurate recreation of the Second World War as intended by our team. If you enjoy this mod and wish to support its continued development, please consider contributing via our PayPal link found on our Discord server and the mod's Steam page. Your support helps us continue improving this experience for the entire community. Without further ado, you can choose to adjust the mod settings to customize your gameplay or proceed with the default settings designed for an enhanced historical experience. The fate of the world is in your hands—how will you shape it?"
+ EW_Generic_Events_Country.1.a:0 "Adjust Mod Settings"
+ EW_Generic_Events_Country.1.b:0 "Play with Default Settings"
+ 
+ EW_Generic_Events_Country.2.t:0 "Configure Your Mod Settings"
+ EW_Generic_Events_Country.2.d:0 "'Every nation shapes its war machine differently; the choice is yours.' In Golden Edition, unique units add an extra layer of depth and strategy to your World War II experience. By default, custom units require equipment from players, making your logistical management crucial to success. However, AI nations, to maintain a challenging and historically accurate balance, receive these unique units at no cost—except for the USSR, whose 194 custom guard divisions demand equipment even from the AI unless aided by American lend-lease support. You can choose to play with the default settings, where equipment management plays a pivotal role, or opt to make unique units free for all nations, creating a different strategic landscape. Your decision will shape the course of this conflict."
+ EW_Generic_Events_Country.2.a:0 "Make Unique Units Free for Everyone"
+ EW_Generic_Events_Country.2.b:0 "Play with Default Settings"
+ 
+ EW_Free_Divisions:0 "Free Divisions Setting Chosen"
+ 
  EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
  EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
  EW_Allies_News.2.a:1 "Interesting..."

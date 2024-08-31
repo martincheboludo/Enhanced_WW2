@@ -5646,12 +5646,6 @@ country_event = {
 					hidden_effect = {
 						add_building_construction = {
 							type = bunker
-							level = 10
-							province = 11601
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
 							level = 5
 							province = {
 								all_provinces = yes

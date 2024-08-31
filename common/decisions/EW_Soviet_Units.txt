@@ -79,6 +79,7 @@ show_hide_unit_decisions_RED = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -124,6 +125,7 @@ RED_Create_Guard_Units_2 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -169,6 +171,7 @@ RED_Create_Guard_Units_3 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -214,6 +217,7 @@ RED_Create_Guard_Units_4 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -259,6 +263,7 @@ RED_Create_Guard_Units_5 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -304,6 +309,7 @@ RED_Create_Guard_Units_6 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -349,6 +355,7 @@ RED_Create_Guard_Units_7 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -394,6 +401,7 @@ RED_Create_Guard_Units_8 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -439,6 +447,7 @@ RED_Create_Guard_Units_9 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -484,6 +493,7 @@ RED_Create_Guard_Units_10 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -529,6 +539,7 @@ RED_Create_Guard_Units_11 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -574,6 +585,7 @@ RED_Create_Guard_Units_12 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -619,6 +631,7 @@ RED_Create_Guard_Units_13 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -664,6 +677,7 @@ RED_Create_Guard_Units_14 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -709,6 +723,7 @@ RED_Create_Guard_Units_15 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -754,6 +769,7 @@ RED_Create_Guard_Units_16 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -799,6 +815,7 @@ RED_Create_Guard_Units_17 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -844,6 +861,7 @@ RED_Create_Guard_Units_18 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -889,6 +907,7 @@ RED_Create_Guard_Units_19 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -934,6 +953,7 @@ RED_Create_Guard_Units_20 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -979,6 +999,7 @@ RED_Create_Guard_Units_21 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1024,6 +1045,7 @@ RED_Create_Guard_Units_22 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1069,6 +1091,7 @@ RED_Create_Guard_Units_23 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1114,6 +1137,7 @@ RED_Create_Guard_Units_24 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1159,6 +1183,7 @@ RED_Create_Guard_Units_25 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1204,6 +1229,7 @@ RED_Create_Guard_Units_26 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1249,6 +1275,7 @@ RED_Create_Guard_Units_27 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1294,6 +1321,7 @@ RED_Create_Guard_Units_28 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1339,6 +1367,7 @@ RED_Create_Guard_Units_29 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1384,6 +1413,7 @@ RED_Create_Guard_Units_30 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1429,6 +1459,7 @@ RED_Create_Guard_Units_31 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1474,6 +1505,7 @@ RED_Create_Guard_Units_32 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1519,6 +1551,7 @@ RED_Create_Guard_Units_33 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1564,6 +1597,7 @@ RED_Create_Guard_Units_34 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1609,6 +1643,7 @@ RED_Create_Guard_Units_35 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1654,6 +1689,7 @@ RED_Create_Guard_Units_36 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1699,6 +1735,7 @@ RED_Create_Guard_Units_37 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1744,6 +1781,7 @@ RED_Create_Guard_Units_38 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1789,6 +1827,7 @@ RED_Create_Guard_Units_39 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1834,6 +1873,7 @@ RED_Create_Guard_Units_40 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1879,6 +1919,7 @@ RED_Create_Guard_Units_41 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1924,6 +1965,7 @@ RED_Create_Guard_Units_42 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -1969,6 +2011,7 @@ RED_Create_Guard_Units_43 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2014,6 +2057,7 @@ RED_Create_Guard_Units_44 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2059,6 +2103,7 @@ RED_Create_Guard_Units_45 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2104,6 +2149,7 @@ RED_Create_Guard_Units_46 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2149,6 +2195,7 @@ RED_Create_Guard_Units_47 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2194,6 +2241,7 @@ RED_Create_Guard_Units_48 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2239,6 +2287,7 @@ RED_Create_Guard_Units_49 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2284,6 +2333,7 @@ RED_Create_Guard_Units_50 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2329,6 +2379,7 @@ RED_Create_Guard_Units_51 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2374,6 +2425,7 @@ RED_Create_Guard_Units_52 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2419,6 +2471,7 @@ RED_Create_Guard_Units_53 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2464,6 +2517,7 @@ RED_Create_Guard_Units_54 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2509,6 +2563,7 @@ RED_Create_Guard_Units_55 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2554,6 +2609,7 @@ RED_Create_Guard_Units_56 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2599,6 +2655,7 @@ RED_Create_Guard_Units_57 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2644,6 +2701,7 @@ RED_Create_Guard_Units_58 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2689,6 +2747,7 @@ RED_Create_Guard_Units_59 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2734,6 +2793,7 @@ RED_Create_Guard_Units_60 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2779,6 +2839,7 @@ RED_Create_Guard_Units_61 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2824,6 +2885,7 @@ RED_Create_Guard_Units_62 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2869,6 +2931,7 @@ RED_Create_Guard_Units_63 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2914,6 +2977,7 @@ RED_Create_Guard_Units_64 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -2959,6 +3023,7 @@ RED_Create_Guard_Units_65 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3004,6 +3069,7 @@ RED_Create_Guard_Units_66 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3049,6 +3115,7 @@ RED_Create_Guard_Units_67 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3094,6 +3161,7 @@ RED_Create_Guard_Units_68 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3139,6 +3207,7 @@ RED_Create_Guard_Units_69 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3184,6 +3253,7 @@ RED_Create_Guard_Units_70 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3231,6 +3301,7 @@ RED_Create_Guard_Units_71 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3276,6 +3347,7 @@ RED_Create_Guard_Units_72 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3321,6 +3393,7 @@ RED_Create_Guard_Units_73 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3366,6 +3439,7 @@ RED_Create_Guard_Units_74 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3411,6 +3485,7 @@ RED_Create_Guard_Units_75 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3456,6 +3531,7 @@ RED_Create_Guard_Units_76 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3501,6 +3577,7 @@ RED_Create_Guard_Units_77 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3546,6 +3623,7 @@ RED_Create_Guard_Units_78 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3591,6 +3669,7 @@ RED_Create_Guard_Units_79 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3636,6 +3715,7 @@ RED_Create_Guard_Units_80 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3681,6 +3761,7 @@ RED_Create_Guard_Units_81 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3726,6 +3807,7 @@ RED_Create_Guard_Units_82 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3771,6 +3853,7 @@ RED_Create_Guard_Units_83 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3816,6 +3899,7 @@ RED_Create_Guard_Units_84 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3861,6 +3945,7 @@ RED_Create_Guard_Units_85 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3906,6 +3991,7 @@ RED_Create_Guard_Units_86 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3951,6 +4037,7 @@ RED_Create_Guard_Units_87 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -3996,6 +4083,7 @@ RED_Create_Guard_Units_88 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4041,6 +4129,7 @@ RED_Create_Guard_Units_89 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4086,6 +4175,7 @@ RED_Create_Guard_Units_90 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4133,6 +4223,7 @@ RED_Create_Guard_Units_91 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4178,6 +4269,7 @@ RED_Create_Guard_Units_92 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4223,6 +4315,7 @@ RED_Create_Guard_Units_93 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4268,6 +4361,7 @@ RED_Create_Guard_Units_94 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4313,6 +4407,7 @@ RED_Create_Guard_Units_95 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4358,6 +4453,7 @@ RED_Create_Guard_Units_96 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4403,6 +4499,7 @@ RED_Create_Guard_Units_97 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4448,6 +4545,7 @@ RED_Create_Guard_Units_98 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4493,6 +4591,7 @@ RED_Create_Guard_Units_99 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4538,6 +4637,7 @@ RED_Create_Guard_Units_100 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4585,6 +4685,7 @@ RED_Create_Guard_Units_101 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4630,6 +4731,7 @@ RED_Create_Guard_Units_102 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4675,6 +4777,7 @@ RED_Create_Guard_Units_103 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4720,6 +4823,7 @@ RED_Create_Guard_Units_104 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4765,6 +4869,7 @@ RED_Create_Guard_Units_105 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4810,6 +4915,7 @@ RED_Create_Guard_Units_106 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4855,6 +4961,7 @@ RED_Create_Guard_Units_107 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4900,6 +5007,7 @@ RED_Create_Guard_Units_108 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4945,6 +5053,7 @@ RED_Create_Guard_Units_109 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -4990,6 +5099,7 @@ RED_Create_Guard_Units_110 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5037,6 +5147,7 @@ RED_Create_Guard_Units_111 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5082,6 +5193,7 @@ RED_Create_Guard_Units_112 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5127,6 +5239,7 @@ RED_Create_Guard_Units_113 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5172,6 +5285,7 @@ RED_Create_Guard_Units_114 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5217,6 +5331,7 @@ RED_Create_Guard_Units_115 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5262,6 +5377,7 @@ RED_Create_Guard_Units_116 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5307,6 +5423,7 @@ RED_Create_Guard_Units_117 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5352,6 +5469,7 @@ RED_Create_Guard_Units_118 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5397,6 +5515,7 @@ RED_Create_Guard_Units_119 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5442,6 +5561,7 @@ RED_Create_Guard_Units_120 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5489,6 +5609,7 @@ RED_Create_Guard_Units_121 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5534,6 +5655,7 @@ RED_Create_Guard_Units_122 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5579,6 +5701,7 @@ RED_Create_Guard_Units_123 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5624,6 +5747,7 @@ RED_Create_Guard_Units_124 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5669,6 +5793,7 @@ RED_Create_Guard_Units_125 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5714,6 +5839,7 @@ RED_Create_Guard_Units_126 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5759,6 +5885,7 @@ RED_Create_Guard_Units_127 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5804,6 +5931,7 @@ RED_Create_Guard_Units_128 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5849,6 +5977,7 @@ RED_Create_Guard_Units_129 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5896,6 +6025,7 @@ RED_Create_Guard_Units_130 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5942,6 +6072,7 @@ RED_Create_Guard_Units_131 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -5988,6 +6119,7 @@ RED_Create_Guard_Units_132 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6034,6 +6166,7 @@ RED_Create_Guard_Units_133 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6080,6 +6213,7 @@ RED_Create_Guard_Units_134 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6126,6 +6260,7 @@ RED_Create_Guard_Units_135 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6172,6 +6307,7 @@ RED_Create_Guard_Units_136 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6218,6 +6354,7 @@ RED_Create_Guard_Units_137 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6264,6 +6401,7 @@ RED_Create_Guard_Units_138 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6310,6 +6448,7 @@ RED_Create_Guard_Units_139 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6356,6 +6495,7 @@ RED_Create_Guard_Units_140 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6402,6 +6542,7 @@ RED_Create_Guard_Units_141 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6448,6 +6589,7 @@ RED_Create_Guard_Units_142 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6494,6 +6636,7 @@ RED_Create_Guard_Units_143 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6540,6 +6683,7 @@ RED_Create_Guard_Units_144 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6586,6 +6730,7 @@ RED_Create_Guard_Units_145 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6632,6 +6777,7 @@ RED_Create_Guard_Units_146 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6678,6 +6824,7 @@ RED_Create_Guard_Units_147 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6724,6 +6871,7 @@ RED_Create_Guard_Units_148 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6770,6 +6918,7 @@ RED_Create_Guard_Units_149 = {
         OR  = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6815,6 +6964,7 @@ RED_Create_Guard_Units_150 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6860,6 +7010,7 @@ RED_Create_Guard_Units_151 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6905,6 +7056,7 @@ RED_Create_Guard_Units_152 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6950,6 +7102,7 @@ RED_Create_Guard_Units_153 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -6995,6 +7148,7 @@ RED_Create_Guard_Units_154 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7040,6 +7194,7 @@ RED_Create_Guard_Units_155 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7085,6 +7240,7 @@ RED_Create_Guard_Units_156 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7130,6 +7286,7 @@ RED_Create_Guard_Units_157 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7175,6 +7332,7 @@ RED_Create_Guard_Units_158 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7220,6 +7378,7 @@ RED_Create_Guard_Units_159 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7265,6 +7424,7 @@ RED_Create_Guard_Units_160 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7310,6 +7470,7 @@ RED_Create_Guard_Units_161 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7356,6 +7517,7 @@ RED_Create_Guard_Units_162 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7401,6 +7563,7 @@ RED_Create_Guard_Units_163 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7446,6 +7609,7 @@ RED_Create_Guard_Units_164 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7491,6 +7655,7 @@ RED_Create_Guard_Units_165 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7536,6 +7701,7 @@ RED_Create_Guard_Units_166 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7581,6 +7747,7 @@ RED_Create_Guard_Units_167 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7626,6 +7793,7 @@ RED_Create_Guard_Units_168 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7671,6 +7839,7 @@ RED_Create_Guard_Units_169 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7716,6 +7885,7 @@ RED_Create_Guard_Units_170 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7761,6 +7931,7 @@ RED_Create_Guard_Units_171 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7806,6 +7977,7 @@ RED_Create_Guard_Units_172 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7851,6 +8023,7 @@ RED_Create_Guard_Units_173 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7896,6 +8069,7 @@ RED_Create_Guard_Units_174 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7941,6 +8115,7 @@ RED_Create_Guard_Units_175 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -7986,6 +8161,7 @@ RED_Create_Guard_Units_176 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8031,6 +8207,7 @@ RED_Create_Guard_Units_177 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8076,6 +8253,7 @@ RED_Create_Guard_Units_178 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8122,6 +8300,7 @@ RED_Create_Guard_Units_179 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8167,6 +8346,7 @@ RED_Create_Guard_Units_180 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8212,6 +8392,7 @@ RED_Create_Guard_Units_181 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8257,6 +8438,7 @@ RED_Create_Guard_Units_182 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8302,6 +8484,7 @@ RED_Create_Guard_Units_183 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8347,6 +8530,7 @@ RED_Create_Guard_Units_184 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8392,6 +8576,7 @@ RED_Create_Guard_Units_185 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8437,6 +8622,7 @@ RED_Create_Guard_Units_186 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8482,6 +8668,7 @@ RED_Create_Guard_Units_187 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8527,6 +8714,7 @@ RED_Create_Guard_Units_188 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8572,6 +8760,7 @@ RED_Create_Guard_Units_189 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8617,6 +8806,7 @@ RED_Create_Guard_Units_190 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8662,6 +8852,7 @@ RED_Create_Guard_Units_191 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8707,6 +8898,7 @@ RED_Create_Guard_Units_192 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8752,6 +8944,7 @@ RED_Create_Guard_Units_193 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }
@@ -8797,6 +8990,7 @@ RED_Create_Guard_Units_194 = {
         OR = {
             AND  = { is_ai = yes has_idea = EW_Lend_Lease }
             EW_Equipment_Paratrooper_Division = yes
+			has_global_flag = EW_Free_Divisions
         }
         
     }

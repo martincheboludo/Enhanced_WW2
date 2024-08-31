@@ -41,6 +41,7 @@ WE_Create_DAK = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_DAK = yes
+			has_global_flag = EW_Free_Divisions
 		}
 		
 			OR = {
@@ -144,6 +145,7 @@ WE_Create_0 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -182,6 +184,7 @@ WE_Create_1 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -220,6 +223,7 @@ WE_Create_2 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -260,6 +264,7 @@ WE_Create_3 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry_DA = yes
+			has_global_flag = EW_Free_Divisions
 		}
 		OR = {
 			41 = { is_controlled_by_ROOT_or_ally = yes }
@@ -316,6 +321,7 @@ WE_Create_6 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Paratrooper_Regiment = yes
+			has_global_flag = EW_Free_Divisions
 		}
 		has_tech = paratroopers
     }
@@ -474,6 +480,7 @@ WE_Create_50 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_KRI_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -517,6 +524,7 @@ WE_Create_51 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_KRI_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -557,6 +565,7 @@ WE_Create_52 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -597,6 +606,7 @@ WE_Create_53 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -637,6 +647,7 @@ WE_Create_54 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -677,6 +688,7 @@ WE_Create_55 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -717,6 +729,7 @@ WE_Create_56 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -757,6 +770,7 @@ WE_Create_57 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -797,6 +811,7 @@ WE_Create_58 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -837,6 +852,7 @@ WE_Create_59 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -877,6 +893,7 @@ WE_Create_60 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -917,6 +934,7 @@ WE_Create_61 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -957,6 +975,7 @@ WE_Create_62 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_ORP_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -996,6 +1015,7 @@ WE_Create_64 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1036,6 +1056,7 @@ WE_Create_65 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1076,6 +1097,7 @@ WE_Create_66 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1116,6 +1138,7 @@ WE_Create_67 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1156,6 +1179,7 @@ WE_Create_68 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1196,6 +1220,7 @@ WE_Create_69 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1236,6 +1261,7 @@ WE_Create_70 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1276,6 +1302,7 @@ WE_Create_71 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1316,6 +1343,7 @@ WE_Create_72 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1356,6 +1384,7 @@ WE_Create_73 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1396,6 +1425,7 @@ WE_Create_74 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1436,6 +1466,7 @@ WE_Create_75 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1476,6 +1507,7 @@ WE_Create_76 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1516,6 +1548,7 @@ WE_Create_77 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1556,6 +1589,7 @@ WE_Create_78 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1596,6 +1630,7 @@ WE_Create_79 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1636,6 +1671,7 @@ WE_Create_80 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1676,6 +1712,7 @@ WE_Create_81 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1716,6 +1753,7 @@ WE_Create_82 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1756,6 +1794,7 @@ WE_Create_83 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1796,6 +1835,7 @@ WE_Create_84 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1836,6 +1876,7 @@ WE_Create_85 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_LUF_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -1993,6 +2034,7 @@ SS_Create_Waffen_SS_1 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
 		
     }
@@ -2033,6 +2075,7 @@ SS_Create_Waffen_SS_2 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2072,6 +2115,7 @@ SS_Create_Waffen_SS_3 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2111,6 +2155,7 @@ SS_Create_Waffen_SS_4 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2150,6 +2195,7 @@ SS_Create_Waffen_SS_5 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2188,6 +2234,7 @@ SS_Create_Waffen_SS_6 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mountain = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2226,6 +2273,7 @@ SS_Create_Waffen_SS_7 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mountain = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2266,6 +2314,7 @@ SS_Create_Waffen_SS_8 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2306,6 +2355,7 @@ SS_Create_Waffen_SS_9 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2346,6 +2396,7 @@ SS_Create_Waffen_SS_10 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2386,6 +2437,7 @@ SS_Create_Waffen_SS_11 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2426,6 +2478,7 @@ SS_Create_Waffen_SS_12 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2466,6 +2519,7 @@ SS_Create_Waffen_SS_13 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mountain = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2506,6 +2560,7 @@ SS_Create_Waffen_SS_14 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2546,6 +2601,7 @@ SS_Create_Waffen_SS_15 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2586,6 +2642,7 @@ SS_Create_Waffen_SS_16 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2626,6 +2683,7 @@ SS_Create_Waffen_SS_17 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2666,6 +2724,7 @@ SS_Create_Waffen_SS_18 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2706,6 +2765,7 @@ SS_Create_Waffen_SS_19 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2746,6 +2806,7 @@ SS_Create_Waffen_SS_20 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2786,6 +2847,7 @@ SS_Create_Waffen_SS_21 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mountain = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2826,6 +2888,7 @@ SS_Create_Waffen_SS_22 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2866,6 +2929,7 @@ SS_Create_Waffen_SS_23 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mountain = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2906,6 +2970,7 @@ SS_Create_Waffen_SS_24 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mountain = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2946,6 +3011,7 @@ SS_Create_Waffen_SS_25 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -2986,6 +3052,7 @@ SS_Create_Waffen_SS_26 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3026,6 +3093,7 @@ SS_Create_Waffen_SS_27 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3066,6 +3134,7 @@ SS_Create_Waffen_SS_28 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3106,6 +3175,7 @@ SS_Create_Waffen_SS_29 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3146,6 +3216,7 @@ SS_Create_Waffen_SS_30 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3186,6 +3257,7 @@ SS_Create_Waffen_SS_31 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3228,6 +3300,7 @@ SS_Create_Waffen_SS_32 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3268,6 +3341,7 @@ SS_Create_Waffen_SS_33 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3308,6 +3382,7 @@ SS_Create_Waffen_SS_34 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3348,6 +3423,7 @@ SS_Create_Waffen_SS_35 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3388,6 +3464,7 @@ SS_Create_Waffen_SS_36 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3428,6 +3505,7 @@ SS_Create_Waffen_SS_37 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Cavalry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 
@@ -3468,6 +3546,7 @@ SS_Create_Waffen_SS_38 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Infantry = yes
+			has_global_flag = EW_Free_Divisions
 		}
     }
 

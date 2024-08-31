@@ -24,7 +24,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Commandos_units_tech = 1
@@ -62,7 +62,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -92,7 +92,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Grenadier_Guards_units_tech = 1
@@ -130,7 +130,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -160,7 +160,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Paras_units_tech = 1
@@ -198,7 +198,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -228,7 +228,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_SAS_units_tech = 1
@@ -266,7 +266,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -296,7 +296,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_SBS_units_tech = 1
@@ -334,7 +334,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_ENG_Special_Forces_Regiment_Remove = yes }
 
 	}
 
@@ -361,7 +361,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_82_Airborne_units_tech = 1
@@ -405,7 +405,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Paratrooper_Division_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Paratrooper_Division_Remove = yes }
 		
 
 	}
@@ -432,7 +432,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_First_Infantry_units_tech = 1
@@ -476,7 +476,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Division_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Infantry_Division_Remove = yes }
 		
 	}
 }
@@ -501,7 +501,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Marine_Raiders_units_tech = 1
@@ -538,7 +538,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Infantry_Regiment_Remove = yes }
 		
 	}
 }
@@ -563,7 +563,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Merylls_Marauders_units_tech = 1
@@ -600,7 +600,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Infantry_Regiment_Remove = yes }
 		
 	}
 }
@@ -625,7 +625,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Paramarines_units_tech = 1
@@ -662,7 +662,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Infantry_Regiment_Remove = yes }
 		
 	}
 }
@@ -689,7 +689,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Rangers_units_tech = 1
@@ -752,7 +752,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_First_Airborne_units_tech = 1
@@ -796,7 +796,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Paratrooper_Division_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Paratrooper_Division_Remove = yes }
 		
 	}
 }
@@ -857,7 +857,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Infantry_Division_SS_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Infantry_Division_SS_Remove = yes }
 		
 	}
 }
@@ -882,7 +882,7 @@ country_event = {
 		hidden_effect = {
 			if  = {
 				limit  = {
-					is_ai = no
+					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
 				}
 				set_technology = {
 					EW_Special_Service_Force_units_tech = 1
@@ -922,7 +922,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Double_Infantry_Regiment_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Double_Infantry_Regiment_Remove = yes }
 		
 	}
 }
@@ -954,7 +954,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Ranger_Battalion_Remove = yes }
 		
 	}
 }
@@ -986,7 +986,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Ranger_Battalion_Remove = yes }
 		
 	}
 }
@@ -1018,7 +1018,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Ranger_Battalion_Remove = yes }
 		
 	}
 }
@@ -1050,7 +1050,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Ranger_Battalion_Remove = yes }
 		
 	}
 }
@@ -1082,7 +1082,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Ranger_Battalion_Remove = yes }
 		
 	}
 }
@@ -1114,7 +1114,7 @@ country_event = {
 			}
 		}
 		
-		if  = { limit  = { is_ai = no} EW_Equipment_USA_Ranger_Battalion_Remove = yes }
+		if  = { limit  = {  is_ai = no NOT = { has_global_flag = EW_Free_Divisions } } EW_Equipment_USA_Ranger_Battalion_Remove = yes }
 		
 	}
 }

@@ -1,0 +1,72 @@
+add_namespace = EW_Generic_Events_Country
+add_namespace = EW_Generic_Events_News
+
+#Welcome Event
+country_event = {
+	id = EW_Generic_Events_Country.1
+	title = EW_Generic_Events_Country.1.t
+	desc = EW_Generic_Events_Country.1.d
+	picture = GFX_report_event_GE_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Open Settings
+		name = EW_Generic_Events_Country.1.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		country_event = EW_Generic_Events_Country.2
+		
+	}
+	
+	option = {
+		#Default Settings
+		name = EW_Generic_Events_Country.1.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+
+}
+
+
+#Settings Event
+country_event = {
+	id = EW_Generic_Events_Country.2
+	title = EW_Generic_Events_Country.2.t
+	desc = EW_Generic_Events_Country.2.d
+	picture = GFX_report_event_GE_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Default
+		name = EW_Generic_Events_Country.2.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		set_global_flag = EW_Free_Divisions
+		
+	}
+	
+	option = {
+		#Default
+		name = EW_Generic_Events_Country.2.b
+
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+
+
+}
