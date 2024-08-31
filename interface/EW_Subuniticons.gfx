@@ -36,6 +36,11 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_DA_infantry_icon_medium" textureFile = "gfx/interface/counters/divisions_large/DA_unit_infantry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_BR_paratrooper_icon_medium" textureFile = "gfx/interface/counters/divisions_large/BR_unit_paratroop_icon.dds" noOfFrames = 2 }
 	
+	spriteType = { name = "GFX_unit_DAK_motorized_icon_medium" textureFile = "gfx/interface/counters/divisions_large/DAK_unit_motorized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_HG_motorized_icon_medium" textureFile = "gfx/interface/counters/divisions_large/HG_unit_motorized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_PL_motorized_icon_medium" textureFile = "gfx/interface/counters/divisions_large/PL_unit_motorized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_GD_motorized_icon_medium" textureFile = "gfx/interface/counters/divisions_large/GD_unit_motorized_icon.dds" noOfFrames = 2 }
+	
 	spriteType = { name = "GFX_unit_ENG_Commandos_icon_medium" textureFile = "gfx/interface/counters/divisions_large/ENG_unit_Commandos_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ENG_Grenadier_Guards_icon_medium" textureFile = "gfx/interface/counters/divisions_large/ENG_unit_Grenadier_Guards_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ENG_Parachute_icon_medium" textureFile = "gfx/interface/counters/divisions_large/ENG_unit_Parachute_icon.dds" noOfFrames = 2 }
@@ -190,6 +195,11 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_KRI_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/KRI_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_LUF_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/LUF_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ORP_infantry_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/ORP_onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_unit_DAK_motorized_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/DAK_onmap_unit_motorized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_GD_motorized_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/GD_onmap_unit_motorized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_HG_motorized_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/HG_onmap_unit_motorized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_PL_motorized_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/PL_onmap_unit_motorized_icon.dds" noOfFrames = 2}
 
 	
 }

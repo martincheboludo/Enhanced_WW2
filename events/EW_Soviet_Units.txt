@@ -26,10 +26,23 @@ country_event = {
 				limit  = {
 					NOT = {
 						has_tech = mechanised_infantry
+						is_ai = yes
 					}
 				}
 				set_technology = {
 					mechanised_infantry = 1
+				}
+			}
+			if  = {
+				limit  = {
+					has_tech = gw_artillery
+					NOT = {
+						has_tech = interwar_antitank
+						is_ai = yes
+					}
+				}
+				set_technology = {
+					interwar_antitank = 1
 				}
 			}
 			if  = {
@@ -93,6 +106,32 @@ country_event = {
 				
 			}
 			division_template = {
+				name = "Guards Tank Division (mot.)"
+				division_names_group = SOV_MEC_01
+				regiments = {
+					RED_medium_armor = { x = 0 y = 0 }
+					RED_medium_armor = { x = 0 y = 1 }
+					RED_medium_armor = { x = 1 y = 0 }
+					RED_medium_armor = { x = 1 y = 1 }
+					RED_motorized = { x = 2 y = 0 }
+					RED_motorized = { x = 2 y = 1 }
+					RED_motorized = { x = 2 y = 2 }
+					RED_motorized = { x = 3 y = 0 }
+					RED_motorized = { x = 3 y = 1 }
+					RED_motorized = { x = 3 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+				priority = 2
+				is_locked = yes
+				
+			}
+			division_template = {
 				name = "Guards Mechanized Division"
 				division_names_group = SOV_MEC_01
 				regiments = {
@@ -130,7 +169,7 @@ country_event = {
 					RED_motorized = { x = 2 y = 0 }
 					RED_motorized = { x = 2 y = 1 }
 					RED_motorized = { x = 2 y = 2 }
-					RED_motorized = { x = 3 y = 0 }
+					RED_medium_armor = { x = 3 y = 0 }
 				}
 				support = {
 					engineer = { x = 0 y = 0 }
@@ -4265,6 +4304,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4279,6 +4322,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.130.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"1st Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #2nd Guards Tank Division 
@@ -4297,6 +4365,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4311,6 +4383,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.131.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"2nd Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #3rd Guards Tank Division 
@@ -4329,6 +4426,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4343,6 +4444,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.132.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"3rd Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #4th Guards Tank Division 
@@ -4361,6 +4487,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4375,6 +4505,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.133.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"4th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #5th Guards Tank Division 
@@ -4393,6 +4548,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4407,6 +4566,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.134.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"5th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #6th Guards Tank Division 
@@ -4425,6 +4609,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4439,6 +4627,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.135.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"6th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #7th Guards Tank Division 
@@ -4457,6 +4670,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4471,6 +4688,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.136.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"7th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #8th Guards Tank Division 
@@ -4489,6 +4731,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4503,6 +4749,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.137.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"8th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #9th Guards Tank Division 
@@ -4521,6 +4792,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4535,6 +4810,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.138.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"9th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #10th Guards Tank Division 
@@ -4553,6 +4853,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4567,6 +4871,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.139.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"10th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #11th Guards Tank Division 
@@ -4585,6 +4914,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4599,6 +4932,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.140.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"11th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #12th Guards Tank Division 
@@ -4617,6 +4975,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4631,6 +4993,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.141.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"12th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #13th Guards Tank Division 
@@ -4649,6 +5036,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4663,6 +5054,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.142.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"13th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #14th Guards Tank Division 
@@ -4681,6 +5097,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4695,6 +5115,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.143.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"14th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #15th Guards Tank Division 
@@ -4713,6 +5158,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4727,6 +5176,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.144.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"15th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #16th Guards Tank Division 
@@ -4745,6 +5219,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4759,6 +5237,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.145.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"15th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #17th Guards Tank Division 
@@ -4777,6 +5280,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4791,6 +5298,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.146.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"17th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #18th Guards Tank Division 
@@ -4809,6 +5341,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4823,6 +5359,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.147.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"18th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #19th Guards Tank Division 
@@ -4841,6 +5402,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4855,6 +5420,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.148.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"19th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #20th Guards Tank Division 
@@ -4873,6 +5463,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4887,6 +5481,31 @@ country_event = {
         if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.149.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if  = { limit  = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } }} EW_Equipment_Medium_Tank_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"20th Guards Tank Division\" division_template = \"Guards Tank Division (mot.)\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #1st Guards Mechanized Division
@@ -4905,6 +5524,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4919,6 +5542,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.150.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"1st Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #2nd Guards Mechanized Division
@@ -4937,6 +5585,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4951,6 +5603,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.151.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"2nd Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #3rd Guards Mechanized Division
@@ -4969,6 +5646,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -4983,6 +5664,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.152.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"3rd Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #4th Guards Mechanized Division
@@ -5001,6 +5707,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5015,6 +5725,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.153.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"4th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #5th Guards Mechanized Division
@@ -5033,6 +5768,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5047,6 +5786,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.154.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"5th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #6th Guards Mechanized Division
@@ -5065,6 +5829,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5079,6 +5847,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.155.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"6th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #7th Guards Mechanized Division
@@ -5097,6 +5890,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5111,6 +5908,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.156.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"7th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #8th Guards Mechanized Division
@@ -5129,6 +5951,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5143,6 +5969,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.157.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"8th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #9th Guards Mechanized Division
@@ -5161,6 +6012,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5175,6 +6030,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.158.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"9th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #10th Guards Mechanized Division
@@ -5193,6 +6073,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5207,6 +6091,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.159.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"10th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #11th Guards Mechanized Division
@@ -5225,6 +6134,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5239,6 +6152,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.160.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"11th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 #12th Guards Mechanized Division
@@ -5257,6 +6195,10 @@ country_event = {
         ai_chance = {
             factor = 1000
         }
+		
+		trigger = {
+			has_tech = mechanised_infantry
+		}
         
         219 = {
             if = {
@@ -5271,6 +6213,31 @@ country_event = {
         if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Mechanized_Remove = yes }
         
     }
+	
+	option = {
+		name = EW_Soviet_Units_Country.161.b
+		
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_tech = mechanised_infantry
+			}
+		}
+		
+		if = { limit = {  NOT = { has_global_flag = EW_Free_Divisions } OR  = { is_ai = no NOT = { has_idea = EW_Lend_Lease } } } EW_Equipment_Motorized_Remove = yes }
+		
+		219 = {
+			if = {
+				limit = { is_controlled_by_ROOT_or_ally = yes }
+			}
+			create_unit = {
+				division = "name = \"12th Guards Mechanized Division\" division_template = \"Guards Motorized Rifle Division\" start_experience_factor = 0.8"
+				owner = SOV
+			}
+		}
+
+	}
 }
 
 

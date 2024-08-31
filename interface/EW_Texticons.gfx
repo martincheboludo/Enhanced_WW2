@@ -842,5 +842,57 @@ spriteType = {
 		noOfFrames = 2
 	}
 	
+	spriteType = {
+		name = "GFX_unit_HG_motorized_icon_small"
+		texturefile = "gfx/texticons/HG_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_HG_motorized_icon_small"
+		texturefile = "gfx/texticons/HG_nato_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_PL_motorized_icon_small"
+		texturefile = "gfx/texticons/PL_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_PL_motorized_icon_small"
+		texturefile = "gfx/texticons/PL_nato_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_GD_motorized_icon_small"
+		texturefile = "gfx/texticons/GD_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_GD_motorized_icon_small"
+		texturefile = "gfx/texticons/GD_nato_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_DAK_motorized_icon_small"
+		texturefile = "gfx/texticons/DAK_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_DAK_motorized_icon_small"
+		texturefile = "gfx/texticons/DAK_nato_unit_motorized_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
 
 }

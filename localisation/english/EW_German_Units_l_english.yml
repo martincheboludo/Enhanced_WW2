@@ -87,6 +87,14 @@
  KRI_infantry_desc:0 "Meat for the meat grinder."
  LUF_infantry:0 "Luftwaffe Infantry"
  LUF_infantry_desc:0 "Meat for the meat grinder."
+ DAK_motorized:0 "DAK Motorized Infantry"
+ DAK_motorized_desc:0 "Motorized infantry transportation, such as trucks and motorcycles."
+ HG_motorized:0 "HG Motorized Infantry"
+ HG_motorized_desc:0 "Motorized infantry transportation, such as trucks and motorcycles."
+ PL_motorized:0 "PL Motorized Infantry"
+ PL_motorized_desc:0 "Motorized infantry transportation, such as trucks and motorcycles."
+ GD_motorized:0 "GD Motorized Infantry"
+ GD_motorized_desc:0 "Motorized infantry transportation, such as trucks and motorcycles."
  
  EW_German_Units_Country.0.t:0 "The Birth of the Waffen-SS"
  EW_German_Units_Country.0.d:0 "The time has come to formalize the Waffen-SS as an elite fighting force. Born from the fervor and ideology of the Nazi regime, the Waffen-SS is to be more than just a military unit; it is to embody our principles and our commitment to victory. This new formation will serve as both a symbol of our strength and a spearhead in our campaigns across Europe. With its unique role and unwavering loyalty, the Waffen-SS will become a cornerstone of our military operations."
@@ -112,14 +120,16 @@
 
  EW_German_Units_Country.1.t:0 "1. SS-Panzerdivision Leibstandarte SS Adolf Hitler"
  EW_German_Units_Country.1.d:0 "The Leibstandarte SS Adolf Hitler (LSSAH) was an elite division of the Waffen-SS during World War II, originally formed as Adolf Hitler's personal bodyguard unit in 1933. Over time, it evolved into a highly trained and combat-effective military unit, participating in numerous key battles across Europe, including the invasions of Poland, France, and the Soviet Union, as well as significant actions during the Battle of the Bulge. Known for its formidable combat capabilities and strong ideological commitment to National Socialism, the LSSAH was involved in war crimes and atrocities, reflecting the dark side of its fervent loyalty and militaristic prowess."
- EW_German_Units_Country.1.a:1 "Create Unit"
+ EW_German_Units_Country.1.a:1 "Deploy With Mechanized"
+ EW_German_Units_Country.1.b:1 "Deploy With Motorized"
 
  SS_Create_Waffen_SS_2:0 "2. SS-Panzerdivision Das Reich"
  SS_Create_Waffen_SS_2_desc:0 "The 2nd SS Panzer Division “Das Reich” was a highly regarded armored unit in the Waffen-SS, known for its significant role in several major battles during World War II. Formed in 1939, Das Reich was involved in key campaigns such as the invasion of France and the Eastern Front, including the brutal battles at Kursk and Kharkov. The division earned a reputation for its combat effectiveness and operational success, but it was also implicated in numerous war crimes, including the infamous massacre at Oradour-sur-Glane in France. Das Reich's legacy is marked by both its military achievements and its association with the atrocities committed during its operations."
 
 EW_German_Units_Country.2.t:0 "2. SS-Panzerdivision Das Reich"
 EW_German_Units_Country.2.d:0 "The 2nd SS Panzer Division “Das Reich” was a highly regarded armored unit in the Waffen-SS, known for its significant role in several major battles during World War II. Formed in 1939, Das Reich was involved in key campaigns such as the invasion of France and the Eastern Front, including the brutal battles at Kursk and Kharkov. The division earned a reputation for its combat effectiveness and operational success, but it was also implicated in numerous war crimes, including the infamous massacre at Oradour-sur-Glane in France. Das Reich's legacy is marked by both its military achievements and its association with the atrocities committed during its operations."
-EW_German_Units_Country.2.a:1 "Create Unit"
+EW_German_Units_Country.2.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.2.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_3:0 "3. SS-Panzerdivision Totenkopf"
 SS_Create_Waffen_SS_3_desc:0 " The 3rd SS Panzergrenadier Division “Totenkopf” was one of the most notorious divisions of the Waffen-SS, formed largely from personnel who had served as concentration camp guards. Created in 1939, it quickly gained a fearsome reputation on the Eastern Front, participating in some of the war's most brutal fighting, including the Battle of Demyansk and the defensive battles around Kharkov. Known for its tenacity in combat, the Totenkopf division was also infamous for its involvement in numerous war crimes, reflecting the brutal ideology of its members. Despite its controversial nature, the division was considered an elite unit within the Waffen-SS and played a significant role in Germany's military campaigns."
@@ -127,20 +137,24 @@ SS_Create_Waffen_SS_3_desc:0 " The 3rd SS Panzergrenadier Division “Totenkopf�
 EW_German_Units_Country.3.t:0 "3. SS-Panzerdivision Totenkopf"
 EW_German_Units_Country.3.d:0 " The 3rd SS Panzergrenadier Division “Totenkopf” was one of the most notorious divisions of the Waffen-SS, formed largely from personnel who had served as concentration camp guards. Created in 1939, it quickly gained a fearsome reputation on the Eastern Front, participating in some of the war's most brutal fighting, including the Battle of Demyansk and the defensive battles around Kharkov. Known for its tenacity in combat, the Totenkopf division was also infamous for its involvement in numerous war crimes, reflecting the brutal ideology of its members. Despite its controversial nature, the division was considered an elite unit within the Waffen-SS and played a significant role in Germany's military campaigns."
 EW_German_Units_Country.3.a:1 "Create Unit"
+EW_German_Units_Country.3.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.3.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_4:0 "4. SS-Polizei-Panzergrenadier-Division"
 SS_Create_Waffen_SS_4_desc:0 "The 4th SS Polizei Panzergrenadier Division was originally formed from members of the German police force in 1939, reflecting the integration of civilian institutions into the Nazi war machine. Initially deployed in the invasion of France and later in anti-partisan operations in the Balkans, the division was later upgraded to a Panzergrenadier division, receiving more mechanized and armored units. The Polizei Division saw heavy fighting on the Eastern Front, including the grueling battles at Leningrad and in the defensive campaigns of 1944. Although not as ideologically driven as other Waffen-SS units, the division still participated in atrocities and was considered a reliable combat force within the SS structure."
 
 EW_German_Units_Country.4.t:0 "4. SS-Polizei-Panzergrenadier-Division"
 EW_German_Units_Country.4.d:0 "The 4th SS Polizei Panzergrenadier Division was originally formed from members of the German police force in 1939, reflecting the integration of civilian institutions into the Nazi war machine. Initially deployed in the invasion of France and later in anti-partisan operations in the Balkans, the division was later upgraded to a Panzergrenadier division, receiving more mechanized and armored units. The Polizei Division saw heavy fighting on the Eastern Front, including the grueling battles at Leningrad and in the defensive campaigns of 1944. Although not as ideologically driven as other Waffen-SS units, the division still participated in atrocities and was considered a reliable combat force within the SS structure."
-EW_German_Units_Country.4.a:1 "Create Unit"
+EW_German_Units_Country.4.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.4.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_5:0 "5. SS-Panzerdivision Wiking"
 SS_Create_Waffen_SS_5_desc:0 "The 5th SS Panzer Division “Wiking” was formed in 1940 and was unique among the Waffen-SS divisions for its multinational composition, drawing volunteers from countries such as Denmark, Norway, Sweden, Finland, and the Netherlands. The division was originally formed at Heuberg, Germany, and was created to operate on the Eastern Front during World War II. Known for its fierce fighting and high mobility, the Wiking division became one of the most renowned SS units, participating in numerous significant battles, including those on the Eastern Front against the Soviet Union."
 
 EW_German_Units_Country.5.t:0 "5. SS-Panzerdivision Wiking"
 EW_German_Units_Country.5.d:0 "The 5th SS Panzer Division “Wiking” was formed in 1940 and was unique among the Waffen-SS divisions for its multinational composition, drawing volunteers from countries such as Denmark, Norway, Sweden, Finland, and the Netherlands. The division was originally formed at Heuberg, Germany, and was created to operate on the Eastern Front during World War II. Known for its fierce fighting and high mobility, the Wiking division became one of the most renowned SS units, participating in numerous significant battles, including those on the Eastern Front against the Soviet Union."
-EW_German_Units_Country.5.a:1 "Create Unit"
+EW_German_Units_Country.5.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.5.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_6:0 "6. SS-Gebirgs-Division Nord"
 SS_Create_Waffen_SS_6_desc:0 "The 6th SS Mountain Division 'Nord' was a mountain infantry division of the Waffen-SS, established in 1941 and primarily composed of soldiers from Norway, Finland, and other northern European countries. It was initially formed for operations in the far north, including the Arctic and Scandinavian theaters, but later fought on the Eastern Front and in Finland. The division was known for its specialized mountain warfare capabilities and was involved in defensive battles during the retreat from Finland. Despite its mixed combat record, 'Nord' was notable for its endurance in harsh conditions and challenging terrains."
@@ -169,28 +183,32 @@ SS_Create_Waffen_SS_9_desc:0 "The 9th SS Panzer Division 'Hohenstaufen' was a re
 
 EW_German_Units_Country.9.t:0 "9. SS-Panzerdivision Hohenstaufen"
 EW_German_Units_Country.9.d:0 "The 9th SS Panzer Division 'Hohenstaufen' was a renowned unit in the Waffen-SS, formed in 1943. It was named after the Hohenstaufen Castle in Germany and became known for its effectiveness in armored warfare. The division saw significant action on the Eastern Front, including participation in the battles of Kursk and the defensive operations in Hungary and Austria. It was recognized for its combat prowess but also faced accusations of involvement in war crimes during its engagements."
-EW_German_Units_Country.9.a:1 "Create Unit"
+EW_German_Units_Country.9.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.9.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_10:0 "10. SS-Panzerdivision Frundsberg"
 SS_Create_Waffen_SS_10_desc:0 "The 10th SS Panzer Division 'Frundsberg' was established in 1943 and named after the 16th-century German knight Franz von Frundsberg. Known for its effectiveness in combat, the division fought extensively on both the Eastern and Western Fronts. It participated in key battles including the Battle of the Bulge and various defensive actions in Germany. The division was recognized for its strong performance in combat but, like other Waffen-SS units, was also involved in war crimes during its operations."
 
 EW_German_Units_Country.10.t:0 "10. SS-Panzerdivision Frundsberg"
 EW_German_Units_Country.10.d:0 "The 10th SS Panzer Division 'Frundsberg' was established in 1943 and named after the 16th-century German knight Franz von Frundsberg. Known for its effectiveness in combat, the division fought extensively on both the Eastern and Western Fronts. It participated in key battles including the Battle of the Bulge and various defensive actions in Germany. The division was recognized for its strong performance in combat but, like other Waffen-SS units, was also involved in war crimes during its operations."
-EW_German_Units_Country.10.a:1 "Create Unit"
+EW_German_Units_Country.10.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.10.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_11:0 "11. SS-Panzergrenadierdivision Nordland"
 SS_Create_Waffen_SS_11_desc:0 "The 11th SS Panzergrenadier Division 'Nordland' was an elite division of the Waffen-SS, predominantly made up of Scandinavian volunteers from countries such as Denmark, Norway, and Sweden. Formed in 1942, it saw significant action on the Eastern Front, particularly in the battles around Leningrad and during the defense of the Baltic States. Known for its strong nationalistic motivations and combat prowess, the division was also involved in numerous war crimes. Despite its controversial nature, it was considered a formidable force within the Waffen-SS."
 
 EW_German_Units_Country.11.t:0 "11. SS-Panzergrenadierdivision Nordland"
 EW_German_Units_Country.11.d:0 "The 11th SS Panzergrenadier Division 'Nordland' was an elite division of the Waffen-SS, predominantly made up of Scandinavian volunteers from countries such as Denmark, Norway, and Sweden. Formed in 1942, it saw significant action on the Eastern Front, particularly in the battles around Leningrad and during the defense of the Baltic States. Known for its strong nationalistic motivations and combat prowess, the division was also involved in numerous war crimes. Despite its controversial nature, it was considered a formidable force within the Waffen-SS."
-EW_German_Units_Country.11.a:1 "Create Unit"
+EW_German_Units_Country.11.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.11.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_12:0 "12. SS-Panzerdivision Hitlerjugend"
 SS_Create_Waffen_SS_12_desc:0 "The 12th SS Panzer Division 'Hitlerjugend' was a Waffen-SS division largely composed of young men from the Hitler Youth organization. Formed in 1943, it was initially established in France, with its training centered in Paris and surrounding areas. The division was known for its high levels of indoctrination and ideological zeal, and it participated in significant battles on the Western Front, including the Normandy Invasion. Despite its relatively short history, the division gained a reputation for its fierce fighting and commitment to the Nazi cause, though it was also implicated in war crimes."
 
 EW_German_Units_Country.12.t:0 "12. SS-Panzerdivision Hitlerjugend"
 EW_German_Units_Country.12.d:0 "The 12th SS Panzer Division 'Hitlerjugend' was a Waffen-SS division largely composed of young men from the Hitler Youth organization. Formed in 1943, it was initially established in France, with its training centered in Paris and surrounding areas. The division was known for its high levels of indoctrination and ideological zeal, and it participated in significant battles on the Western Front, including the Normandy Invasion. Despite its relatively short history, the division gained a reputation for its fierce fighting and commitment to the Nazi cause, though it was also implicated in war crimes."
-EW_German_Units_Country.12.a:1 "Create Unit"
+EW_German_Units_Country.12.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.12.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_13:0 "13. Waffen-Gebirgs-Division der SS Handschar (1. Kroatische)"
 SS_Create_Waffen_SS_13_desc:0 "The 13th Waffen Mountain Division of the SS Handschar (1st Croatian) was a Waffen-SS division composed primarily of Croatian volunteers. Formed in 1943 in the Independent State of Croatia, the division was intended to operate in the mountainous regions of the Balkans. Known for its diverse ethnic composition and participation in anti-partisan operations, the Handschar division was involved in both front-line combat and suppression of resistance movements. Despite its operational role, it was implicated in various war crimes and atrocities during its service."
@@ -218,14 +236,16 @@ SS_Create_Waffen_SS_16_desc:0 "The 16th SS Panzergrenadier Division Reichsführe
 
 EW_German_Units_Country.16.t:0 "16. SS-Panzergrenadier-Division Reichsführer-SS"
 EW_German_Units_Country.16.d:0 "The 16th SS Panzergrenadier Division Reichsführer-SS was formed in 1944 from existing SS units and new recruits. Known for its heavy involvement in the defense of the Reich towards the end of World War II, the division was engaged in intense combat on the Western Front, particularly in the Ardennes Offensive. It was named in honor of Heinrich Himmler, the Reichsführer-SS, and reflected his personal influence on the division's formation."
-EW_German_Units_Country.16.a:1 "Create Unit"
+EW_German_Units_Country.16.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.16.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_17:0 "17. SS-Panzergrenadier-Division Götz von Berlichingen"
 SS_Create_Waffen_SS_17_desc:0 "The 17th SS Panzergrenadier Division Götz von Berlichingen was formed in 1943, named after the famous German knight Götz von Berlichingen. It was established from a combination of various units and was intended to bolster the Waffen-SS's panzergrenadier capabilities. The division was composed largely of personnel from the Reichsarbeitsdienst (RAD) and was deployed on the Eastern Front, participating in various defensive operations against the Soviet Red Army. It was known for its mixed combat record, struggling with equipment shortages and logistical issues but still contributing to the war effort with a committed and determined fighting force."
 
 EW_German_Units_Country.17.t:0 "17. SS-Panzergrenadier-Division Götz von Berlichingen"
 EW_German_Units_Country.17.d:0 "The 17th SS Panzergrenadier Division Götz von Berlichingen was formed in 1943, named after the famous German knight Götz von Berlichingen. It was established from a combination of various units and was intended to bolster the Waffen-SS's panzergrenadier capabilities. The division was composed largely of personnel from the Reichsarbeitsdienst (RAD) and was deployed on the Eastern Front, participating in various defensive operations against the Soviet Red Army. It was known for its mixed combat record, struggling with equipment shortages and logistical issues but still contributing to the war effort with a committed and determined fighting force."
-EW_German_Units_Country.17.a:1 "Create Unit"
+EW_German_Units_Country.17.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.17.b:1 "Deploy With Motorized"
 
 SS_Create_Waffen_SS_18:0 "18. SS-Grenadier-Division Horst Wessel"
 SS_Create_Waffen_SS_18_desc:0 "The 18th SS Grenadier Division Horst Wessel was established in 1943 and named after the Nazi party anthem's author, Horst Wessel. This division was formed primarily from personnel recruited from the Reichsarbeitsdienst (RAD) and other sources, with the intention of reinforcing the Waffen-SS's infantry capabilities. Deployed on the Eastern Front, the division was involved in various defensive operations against the Soviet Army. The Horst Wessel Division was known for its relatively poor combat performance compared to other Waffen-SS units, struggling with both equipment shortages and logistical difficulties."
@@ -382,8 +402,9 @@ WE_Create_DAK_desc:0 "In response to the deteriorating situation in North Africa
 
 EW_German_Units_Country.39.t:0 "Formation of the Deutsches Afrikakorps"
 EW_German_Units_Country.39.d:0 "In response to the deteriorating situation in North Africa and the strategic importance of controlling the Mediterranean, the German High Command has decided to send a specialized expeditionary force to aid our Italian allies in their campaign against the British forces. This new formation, known as the Deutsches Afrikakorps (DAK), will be commanded by Generalleutnant Erwin Rommel, a seasoned officer with a reputation for bold and decisive action. The Afrikakorps will be tasked with stabilizing the front, regaining lost territories, and eventually driving the British out of North Africa entirely. The harsh desert environment will present unique challenges, but the men of the DAK are well-equipped and ready to meet the enemy head-on. The creation of this force marks a significant step in our efforts to secure control over North Africa and the vital Suez Canal."
-EW_German_Units_Country.39.a:1 "Send the Afrikakorps!"
-EW_German_Units_Country.39.b:1 "Focus on Europe instead."
+EW_German_Units_Country.39.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.39.b:1 "Deploy With Motorized"
+EW_German_Units_Country.39.c:1 "Focus on Europe instead."
 
  EW_German_Units_News.39.t:0 "Afrika Korps Lands in North Africa!"
  EW_German_Units_News.39.d:0 "In a bold move to support the faltering Italian forces in North Africa, the German Reich has dispatched the Deutsches Afrikakorps (DAK) under Generalleutnant Erwin Rommel. This elite force has now landed on African soil, marking a significant escalation in the Mediterranean Theater of World War II. The arrival of the Afrika Korps signals Germany’s intent to challenge British control of the region. Rommel, known as the "Desert Fox," is expected to employ blitzkrieg tactics in the harsh desert environment. The world watches with bated breath as the Afrika Korps prepares to take on the British Eighth Army in what promises to be a pivotal chapter in the conflict."
@@ -394,21 +415,24 @@ WE_Create_0_desc:0 "The Panzergrenadier-Division Großdeutschland was one of the
 
 EW_German_Units_Country.40.t:0 "Panzergrenadier-Division Großdeutschland"
 EW_German_Units_Country.40.d:0 "The Panzergrenadier-Division Großdeutschland was one of the most elite and well-equipped divisions of the Wehrmacht, originally formed as an elite guard regiment in Berlin. It evolved into a full-fledged motorized infantry and later a panzergrenadier division, participating in key operations on the Eastern Front, including the Battle of Kursk. Renowned for its high morale, superior training, and excellent equipment, the division served as a critical "fire brigade" in various theaters, often deployed to the most intense and decisive battles."
-EW_German_Units_Country.40.a:1 "Create Unit"
+EW_German_Units_Country.40.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.40.b:1 "Deploy With Motorized"
 
 WE_Create_1:0 "130. Panzer-Lehr-Division"
 WE_Create_1_desc:0 "The Panzer-Lehr-Division was one of Nazi Germany’s premier armored divisions, formed in 1943 from elite training and demonstration units within Germany. Designed to be an instructional and model division, it was heavily equipped with the latest tanks and mechanized infantry. The division saw significant action during the Normandy Invasion and the Ardennes Offensive, where it was known for its high combat effectiveness despite suffering heavy casualties, particularly during the Allied bombing campaigns in Normandy."
 
 EW_German_Units_Country.41.t:0 "130. Panzer-Lehr-Division"
 EW_German_Units_Country.41.d:0 "The Panzer-Lehr-Division was one of Nazi Germany’s premier armored divisions, formed in 1943 from elite training and demonstration units within Germany. Designed to be an instructional and model division, it was heavily equipped with the latest tanks and mechanized infantry. The division saw significant action during the Normandy Invasion and the Ardennes Offensive, where it was known for its high combat effectiveness despite suffering heavy casualties, particularly during the Allied bombing campaigns in Normandy."
-EW_German_Units_Country.41.a:1 "Create Unit"
+EW_German_Units_Country.41.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.41.b:1 "Deploy With Motorized"
 
 WE_Create_2:0 "Fallschirm-Panzer-Division 1 Hermann Göring"
 WE_Create_2_desc:0 "The Fallschirm-Panzer-Division 1 Hermann Göring was an elite Luftwaffe unit that started as a police unit and later became a paratrooper division before being reformed into a panzer division in 1944. It fought in several critical campaigns, including North Africa, Sicily, Italy, and the Eastern Front. Known for its high morale and versatility, the division was equipped with a mix of armored vehicles and paratroopers, playing a key role in defensive operations, particularly during the Italian Campaign and the defense of the Reich in the war’s final stages."
 
 EW_German_Units_Country.42.t:0 "Fallschirm-Panzer-Division 1 Hermann Göring"
 EW_German_Units_Country.42.d:0 "The Fallschirm-Panzer-Division 1 Hermann Göring was an elite Luftwaffe unit that started as a police unit and later became a paratrooper division before being reformed into a panzer division in 1944. It fought in several critical campaigns, including North Africa, Sicily, Italy, and the Eastern Front. Known for its high morale and versatility, the division was equipped with a mix of armored vehicles and paratroopers, playing a key role in defensive operations, particularly during the Italian Campaign and the defense of the Reich in the war’s final stages."
-EW_German_Units_Country.42.a:1 "Create Unit"
+EW_German_Units_Country.42.a:1 "Deploy With Mechanized"
+EW_German_Units_Country.42.b:1 "Deploy With Motorized"
 
 WE_Create_3:0 "250. Infanterie-Division (Spanische)"
 WE_Create_3_desc:0 "The 250. Infanterie-Division (Spanische), known as the División Azul or Spanish Blue Division, was a volunteer unit composed of Spanish soldiers who fought alongside the Wehrmacht on the Eastern Front during World War II. Formed in 1941 and composed of fervent anti-communists from Spain, the division was deployed primarily around Leningrad. Despite being less mechanized than German divisions, the Blue Division earned a reputation for its tenacity and courage under harsh conditions, fighting in some of the most grueling battles of the war before being withdrawn in 1943."

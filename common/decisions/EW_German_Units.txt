@@ -36,11 +36,12 @@ WE_Create_DAK = {
 		surrender_progress < 0.01
 		date > 1940.1.1
 		448 = { is_controlled_by_ROOT_or_ally = yes }
-		has_tech = mechanised_infantry
+		#has_tech = mechanised_infantry
 		
 		OR  = {
 			is_ai = yes
 			EW_Equipment_DAK = yes
+			EW_Equipment_DAK_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
 		
@@ -145,6 +146,7 @@ WE_Create_0 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			EW_Equipment_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -184,6 +186,7 @@ WE_Create_1 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -223,6 +226,7 @@ WE_Create_2 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -1938,7 +1942,7 @@ show_hide_unit_decisions_SS = {
 		available = {
 		surrender_progress < 0.01
 		date > 1940.1.1
-		has_tech = mechanised_infantry
+		#has_tech = mechanised_infantry
 		64 = { is_controlled_by_ROOT_or_ally = yes }
 		
 			OR = {
@@ -2034,6 +2038,7 @@ SS_Create_Waffen_SS_1 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
 		
@@ -2075,6 +2080,7 @@ SS_Create_Waffen_SS_2 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2115,6 +2121,7 @@ SS_Create_Waffen_SS_3 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2155,6 +2162,7 @@ SS_Create_Waffen_SS_4 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			EW_Equipment_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2195,6 +2203,7 @@ SS_Create_Waffen_SS_5 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2355,6 +2364,7 @@ SS_Create_Waffen_SS_9 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2396,6 +2406,7 @@ SS_Create_Waffen_SS_10 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2437,6 +2448,7 @@ SS_Create_Waffen_SS_11 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			EW_Equipment_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2478,6 +2490,7 @@ SS_Create_Waffen_SS_12 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Medium_Tank = yes
+			EW_Equipment_Medium_Tank_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2619,7 +2632,7 @@ SS_Create_Waffen_SS_15 = {
         }
     }
 }
-#16th SS Grenadier Division - Reichsführer-SS
+#16th SS Panzergrenadier Division - Reichsführer-SS
 SS_Create_Waffen_SS_16 = {
 
     icon = generic_military
@@ -2641,7 +2654,8 @@ SS_Create_Waffen_SS_16 = {
 		57 = { is_controlled_by_ROOT_or_ally = yes }
 		OR  = {
 			is_ai = yes
-			EW_Equipment_Infantry = yes
+			EW_Equipment_Mechanized = yes
+			EW_Equipment_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }
@@ -2683,6 +2697,7 @@ SS_Create_Waffen_SS_17 = {
 		OR  = {
 			is_ai = yes
 			EW_Equipment_Mechanized = yes
+			EW_Equipment_Motorized = yes
 			has_global_flag = EW_Free_Divisions
 		}
     }

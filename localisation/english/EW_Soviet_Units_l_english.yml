@@ -995,7 +995,8 @@ RED_Create_Guard_Units_130_desc:0 "Deploying the 1st Guards Tank Division will s
 
 EW_Soviet_Units_Country.130.t:0 "1st Guards Tank Division"
 EW_Soviet_Units_Country.130.d:0 "The 1st Guards Tank Division has been created and is now operational. This elite division will provide a critical advantage in our armored operations and support our strategic initiatives."
-EW_Soviet_Units_Country.130.a:1 "Create Unit"
+EW_Soviet_Units_Country.130.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.130.b:1 "Deploy With Motorized"
 
 #131st Guards Tank Division
 RED_Create_Guard_Units_131:0 "2nd Guards Tank Division"
@@ -1003,7 +1004,8 @@ RED_Create_Guard_Units_131_desc:0 "The 2nd Guards Tank Division will bolster our
 
 EW_Soviet_Units_Country.131.t:0 "2nd Guards Tank Division"
 EW_Soviet_Units_Country.131.d:0 "The 2nd Guards Tank Division has been created and is now operational. This division will enhance our armored strength and contribute significantly to our military objectives."
-EW_Soviet_Units_Country.131.a:1 "Create Unit"
+EW_Soviet_Units_Country.131.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.131.b:1 "Deploy With Motorized"
 
 #132nd Guards Tank Division
 RED_Create_Guard_Units_132:0 "3rd Guards Tank Division"
@@ -1011,7 +1013,8 @@ RED_Create_Guard_Units_132_desc:0 "Deploying the 3rd Guards Tank Division will a
 
 EW_Soviet_Units_Country.132.t:0 "3rd Guards Tank Division"
 EW_Soviet_Units_Country.132.d:0 "The 3rd Guards Tank Division has been created and is now operational. This division will provide enhanced support for our tank operations and drive forward our strategic goals."
-EW_Soviet_Units_Country.132.a:1 "Create Unit"
+EW_Soviet_Units_Country.132.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.132.b:1 "Deploy With Motorized"
 
 #133rd Guards Tank Division
 RED_Create_Guard_Units_133:0 "4th Guards Tank Division"
@@ -1019,7 +1022,8 @@ RED_Create_Guard_Units_133_desc:0 "The 4th Guards Tank Division will significant
 
 EW_Soviet_Units_Country.133.t:0 "4th Guards Tank Division"
 EW_Soviet_Units_Country.133.d:0 "The 4th Guards Tank Division has been created and is now operational. This division will provide a decisive edge in armored combat and support our overall military strategy."
-EW_Soviet_Units_Country.133.a:1 "Create Unit"
+EW_Soviet_Units_Country.133.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.133.b:1 "Deploy With Motorized"
 
 #134th Guards Tank Division
 RED_Create_Guard_Units_134:0 "5th Guards Tank Division"
@@ -1027,7 +1031,8 @@ RED_Create_Guard_Units_134_desc:0 "Deploying the 5th Guards Tank Division will e
 
 EW_Soviet_Units_Country.134.t:0 "5th Guards Tank Division"
 EW_Soviet_Units_Country.134.d:0 "The 5th Guards Tank Division has been created and is now operational. This division will bolster our armored divisions and contribute to the success of our ongoing campaigns."
-EW_Soviet_Units_Country.134.a:1 "Create Unit"
+EW_Soviet_Units_Country.134.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.134.b:1 "Deploy With Motorized"
 
 #135th Guards Tank Division
 RED_Create_Guard_Units_135:0 "6th Guards Tank Division"
@@ -1035,7 +1040,8 @@ RED_Create_Guard_Units_135_desc:0 "The 6th Guards Tank Division will augment our
 
 EW_Soviet_Units_Country.135.t:0 "6th Guards Tank Division"
 EW_Soviet_Units_Country.135.d:0 "The 6th Guards Tank Division has been created and is now operational. This division will enhance our tank capabilities and play a crucial role in our military operations."
-EW_Soviet_Units_Country.135.a:1 "Create Unit"
+EW_Soviet_Units_Country.135.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.135.b:1 "Deploy With Motorized"
 
 #136th Guards Tank Division
 RED_Create_Guard_Units_136:0 "7th Guards Tank Division"
@@ -1043,7 +1049,8 @@ RED_Create_Guard_Units_136_desc:0 "Deploying the 7th Guards Tank Division will p
 
 EW_Soviet_Units_Country.136.t:0 "7th Guards Tank Division"
 EW_Soviet_Units_Country.136.d:0 "The 7th Guards Tank Division has been created and is now operational. This division will support our armored forces and enhance our strategic capabilities."
-EW_Soviet_Units_Country.136.a:1 "Create Unit"
+EW_Soviet_Units_Country.136.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.136.b:1 "Deploy With Motorized"
 
 #137th Guards Tank Division
 RED_Create_Guard_Units_137:0 "8th Guards Tank Division"
@@ -1051,7 +1058,8 @@ RED_Create_Guard_Units_137_desc:0 "The 8th Guards Tank Division will strengthen 
 
 EW_Soviet_Units_Country.137.t:0 "8th Guards Tank Division"
 EW_Soviet_Units_Country.137.d:0 "The 8th Guards Tank Division has been created and is now operational. This division will enhance our armored strength and support our military campaigns."
-EW_Soviet_Units_Country.137.a:1 "Create Unit"
+EW_Soviet_Units_Country.137.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.137.b:1 "Deploy With Motorized"
 
 #138th Guards Tank Division
 RED_Create_Guard_Units_138:0 "9th Guards Tank Division"
@@ -1059,7 +1067,8 @@ RED_Create_Guard_Units_138_desc:0 "Deploying the 9th Guards Tank Division will b
 
 EW_Soviet_Units_Country.138.t:0 "9th Guards Tank Division"
 EW_Soviet_Units_Country.138.d:0 "The 9th Guards Tank Division has been created and is now operational. This division will provide crucial support to our armored units and enhance our strategic efforts."
-EW_Soviet_Units_Country.138.a:1 "Create Unit"
+EW_Soviet_Units_Country.138.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.138.b:1 "Deploy With Motorized"
 
 #139th Guards Tank Division
 RED_Create_Guard_Units_139:0 "10th Guards Tank Division"
@@ -1067,7 +1076,8 @@ RED_Create_Guard_Units_139_desc:0 "The 10th Guards Tank Division will enhance ou
 
 EW_Soviet_Units_Country.139.t:0 "10th Guards Tank Division"
 EW_Soviet_Units_Country.139.d:0 "The 10th Guards Tank Division has been created and is now operational. This division will add significant power to our tank forces and support our ongoing campaigns."
-EW_Soviet_Units_Country.139.a:1 "Create Unit"
+EW_Soviet_Units_Country.139.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.139.b:1 "Deploy With Motorized"
 
 #140th Guards Tank Division
 RED_Create_Guard_Units_140:0 "11th Guards Tank Division"
@@ -1075,7 +1085,8 @@ RED_Create_Guard_Units_140_desc:0 "Deploying the 11th Guards Tank Division will 
 
 EW_Soviet_Units_Country.140.t:0 "11th Guards Tank Division"
 EW_Soviet_Units_Country.140.d:0 "The 11th Guards Tank Division has been created and is now operational. This division will support our armored forces and contribute to our overall military success."
-EW_Soviet_Units_Country.140.a:1 "Create Unit"
+EW_Soviet_Units_Country.140.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.140.b:1 "Deploy With Motorized"
 
 #141st Guards Tank Division
 RED_Create_Guard_Units_141:0 "12th Guards Tank Division"
@@ -1083,7 +1094,8 @@ RED_Create_Guard_Units_141_desc:0 "The 12th Guards Tank Division will strengthen
 
 EW_Soviet_Units_Country.141.t:0 "12th Guards Tank Division"
 EW_Soviet_Units_Country.141.d:0 "The 12th Guards Tank Division has been created and is now operational. This division will significantly contribute to our military efforts and support our strategic goals."
-EW_Soviet_Units_Country.141.a:1 "Create Unit"
+EW_Soviet_Units_Country.141.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.141.b:1 "Deploy With Motorized"
 
 #142nd Guards Tank Division
 RED_Create_Guard_Units_142:0 "13th Guards Tank Division"
@@ -1091,7 +1103,8 @@ RED_Create_Guard_Units_142_desc:0 "Deploying the 13th Guards Tank Division will 
 
 EW_Soviet_Units_Country.142.t:0 "13th Guards Tank Division"
 EW_Soviet_Units_Country.142.d:0 "The 13th Guards Tank Division has been created and is now operational. This division will provide critical support to our tank operations and strengthen our strategic initiatives."
-EW_Soviet_Units_Country.142.a:1 "Create Unit"
+EW_Soviet_Units_Country.142.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.142.b:1 "Deploy With Motorized"
 
 #143rd Guards Tank Division
 RED_Create_Guard_Units_143:0 "14th Guards Tank Division"
@@ -1099,7 +1112,8 @@ RED_Create_Guard_Units_143_desc:0 "The 14th Guards Tank Division will bolster ou
 
 EW_Soviet_Units_Country.143.t:0 "14th Guards Tank Division"
 EW_Soviet_Units_Country.143.d:0 "The 14th Guards Tank Division has been created and is now operational. This division will add substantial strength to our armored units and support our strategic efforts."
-EW_Soviet_Units_Country.143.a:1 "Create Unit"
+EW_Soviet_Units_Country.143.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.143.b:1 "Deploy With Motorized"
 
 #144th Guards Tank Division
 RED_Create_Guard_Units_144:0 "15th Guards Tank Division"
@@ -1107,7 +1121,8 @@ RED_Create_Guard_Units_144_desc:0 "Deploying the 15th Guards Tank Division will 
 
 EW_Soviet_Units_Country.144.t:0 "15th Guards Tank Division"
 EW_Soviet_Units_Country.144.d:0 "The 15th Guards Tank Division has been created and is now operational. This division will strengthen our tank forces and support our ongoing military campaigns."
-EW_Soviet_Units_Country.144.a:1 "Create Unit"
+EW_Soviet_Units_Country.144.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.144.b:1 "Deploy With Motorized"
 
 #145th Guards Tank Division
 RED_Create_Guard_Units_145:0 "16th Guards Tank Division"
@@ -1115,7 +1130,8 @@ RED_Create_Guard_Units_145_desc:0 "The 16th Guards Tank Division will enhance ou
 
 EW_Soviet_Units_Country.145.t:0 "16th Guards Tank Division"
 EW_Soviet_Units_Country.145.d:0 "The 16th Guards Tank Division has been created and is now operational. This division will bolster our military strength and contribute to our overall success."
-EW_Soviet_Units_Country.145.a:1 "Create Unit"
+EW_Soviet_Units_Country.145.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.145.b:1 "Deploy With Motorized"
 
 #146th Guards Tank Division
 RED_Create_Guard_Units_146:0 "17th Guards Tank Division"
@@ -1123,7 +1139,8 @@ RED_Create_Guard_Units_146_desc:0 "Deploying the 17th Guards Tank Division will 
 
 EW_Soviet_Units_Country.146.t:0 "17th Guards Tank Division"
 EW_Soviet_Units_Country.146.d:0 "The 17th Guards Tank Division has been created and is now operational. This division will support our armored forces and play a crucial role in our military campaigns."
-EW_Soviet_Units_Country.146.a:1 "Create Unit"
+EW_Soviet_Units_Country.146.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.146.b:1 "Deploy With Motorized"
 
 #147th Guards Tank Division
 RED_Create_Guard_Units_147:0 "18th Guards Tank Division"
@@ -1131,7 +1148,8 @@ RED_Create_Guard_Units_147_desc:0 "The 18th Guards Tank Division will strengthen
 
 EW_Soviet_Units_Country.147.t:0 "18th Guards Tank Division"
 EW_Soviet_Units_Country.147.d:0 "The 18th Guards Tank Division has been created and is now operational. This division will bolster our armored strength and support our strategic efforts."
-EW_Soviet_Units_Country.147.a:1 "Create Unit"
+EW_Soviet_Units_Country.147.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.147.b:1 "Deploy With Motorized"
 
 #148th Guards Tank Division
 RED_Create_Guard_Units_148:0 "19th Guards Tank Division"
@@ -1139,7 +1157,8 @@ RED_Create_Guard_Units_148_desc:0 "Deploying the 19th Guards Tank Division will 
 
 EW_Soviet_Units_Country.148.t:0 "19th Guards Tank Division"
 EW_Soviet_Units_Country.148.d:0 "The 19th Guards Tank Division has been created and is now operational. This division will enhance our armored units and support our strategic objectives."
-EW_Soviet_Units_Country.148.a:1 "Create Unit"
+EW_Soviet_Units_Country.148.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.148.b:1 "Deploy With Motorized"
 
 #149th Guards Tank Division
 RED_Create_Guard_Units_149:0 "20th Guards Tank Division"
@@ -1147,7 +1166,8 @@ RED_Create_Guard_Units_149_desc:0 "The 20th Guards Tank Division will augment ou
 
 EW_Soviet_Units_Country.149.t:0 "20th Guards Tank Division"
 EW_Soviet_Units_Country.149.d:0 "The 20th Guards Tank Division has been created and is now operational. This division will play a vital role in our military operations and strengthen our strategic position."
-EW_Soviet_Units_Country.149.a:1 "Create Unit"
+EW_Soviet_Units_Country.149.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.149.b:1 "Deploy With Motorized"
 
 #150th Guards Mechanized Division
 RED_Create_Guard_Units_150:0 "1st Guards Mechanized Division"
@@ -1155,7 +1175,8 @@ RED_Create_Guard_Units_150_desc:0 "Deploying the 1st Guards Mechanized Division 
 
 EW_Soviet_Units_Country.150.t:0 "1st Guards Mechanized Division"
 EW_Soviet_Units_Country.150.d:0 "The 1st Guards Mechanized Division has been created and is now operational. This division will bolster our mechanized forces and contribute significantly to our military objectives."
-EW_Soviet_Units_Country.150.a:1 "Create Unit"
+EW_Soviet_Units_Country.150.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.150.b:1 "Deploy With Motorized"
 
 #151st Guards Mechanized Division
 RED_Create_Guard_Units_151:0 "2nd Guards Mechanized Division"
@@ -1163,7 +1184,8 @@ RED_Create_Guard_Units_151_desc:0 "Deploying the 2nd Guards Mechanized Division 
 
 EW_Soviet_Units_Country.151.t:0 "2nd Guards Mechanized Division"
 EW_Soviet_Units_Country.151.d:0 "The 2nd Guards Mechanized Division has been created and is now operational. This division will support our mechanized units and advance our strategic goals."
-EW_Soviet_Units_Country.151.a:1 "Create Unit"
+EW_Soviet_Units_Country.151.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.151.b:1 "Deploy With Motorized"
 
 #152nd Guards Mechanized Division
 RED_Create_Guard_Units_152:0 "3rd Guards Mechanized Division"
@@ -1171,7 +1193,8 @@ RED_Create_Guard_Units_152_desc:0 "Deploying the 3rd Guards Mechanized Division 
 
 EW_Soviet_Units_Country.152.t:0 "3rd Guards Mechanized Division"
 EW_Soviet_Units_Country.152.d:0 "The 3rd Guards Mechanized Division has been created and is now operational. This division will enhance our mechanized capabilities and contribute to our ongoing campaigns."
-EW_Soviet_Units_Country.152.a:1 "Create Unit"
+EW_Soviet_Units_Country.152.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.152.b:1 "Deploy With Motorized"
 
 #153rd Guards Mechanized Division
 RED_Create_Guard_Units_153:0 "4th Guards Mechanized Division"
@@ -1179,7 +1202,8 @@ RED_Create_Guard_Units_153_desc:0 "The 4th Guards Mechanized Division will provi
 
 EW_Soviet_Units_Country.153.t:0 "4th Guards Mechanized Division"
 EW_Soviet_Units_Country.153.d:0 "The 4th Guards Mechanized Division has been created and is now operational. This division will strengthen our mechanized forces and support our key operational goals."
-EW_Soviet_Units_Country.153.a:1 "Create Unit"
+EW_Soviet_Units_Country.153.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.153.b:1 "Deploy With Motorized"
 
 #154th Guards Mechanized Division
 RED_Create_Guard_Units_154:0 "5th Guards Mechanized Division"
@@ -1187,7 +1211,8 @@ RED_Create_Guard_Units_154_desc:0 "Deploying the 5th Guards Mechanized Division 
 
 EW_Soviet_Units_Country.154.t:0 "5th Guards Mechanized Division"
 EW_Soviet_Units_Country.154.d:0 "The 5th Guards Mechanized Division has been created and is now operational. This division will bolster our mechanized strength and support our strategic objectives."
-EW_Soviet_Units_Country.154.a:1 "Create Unit"
+EW_Soviet_Units_Country.154.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.154.b:1 "Deploy With Motorized"
 
 #155th Guards Mechanized Division
 RED_Create_Guard_Units_155:0 "6th Guards Mechanized Division"
@@ -1195,7 +1220,8 @@ RED_Create_Guard_Units_155_desc:0 "The 6th Guards Mechanized Division will provi
 
 EW_Soviet_Units_Country.155.t:0 "6th Guards Mechanized Division"
 EW_Soviet_Units_Country.155.d:0 "The 6th Guards Mechanized Division has been created and is now operational. This division will support our mechanized forces and advance our military efforts."
-EW_Soviet_Units_Country.155.a:1 "Create Unit"
+EW_Soviet_Units_Country.155.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.155.b:1 "Deploy With Motorized"
 
 #156th Guards Mechanized Division
 RED_Create_Guard_Units_156:0 "7th Guards Mechanized Division"
@@ -1203,7 +1229,8 @@ RED_Create_Guard_Units_156_desc:0 "Deploying the 7th Guards Mechanized Division 
 
 EW_Soviet_Units_Country.156.t:0 "7th Guards Mechanized Division"
 EW_Soviet_Units_Country.156.d:0 "The 7th Guards Mechanized Division has been created and is now operational. This division will enhance our mechanized capabilities and contribute to our ongoing operations."
-EW_Soviet_Units_Country.156.a:1 "Create Unit"
+EW_Soviet_Units_Country.156.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.156.b:1 "Deploy With Motorized"
 
 #157th Guards Mechanized Division
 RED_Create_Guard_Units_157:0 "8th Guards Mechanized Division"
@@ -1211,7 +1238,8 @@ RED_Create_Guard_Units_157_desc:0 "The 8th Guards Mechanized Division will add s
 
 EW_Soviet_Units_Country.157.t:0 "8th Guards Mechanized Division"
 EW_Soviet_Units_Country.157.d:0 "The 8th Guards Mechanized Division has been created and is now operational. This division will bolster our mechanized forces and support our strategic efforts."
-EW_Soviet_Units_Country.157.a:1 "Create Unit"
+EW_Soviet_Units_Country.157.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.157.b:1 "Deploy With Motorized"
 
 #158th Guards Mechanized Division
 RED_Create_Guard_Units_158:0 "9th Guards Mechanized Division"
@@ -1219,7 +1247,8 @@ RED_Create_Guard_Units_158_desc:0 "Deploying the 9th Guards Mechanized Division 
 
 EW_Soviet_Units_Country.158.t:0 "9th Guards Mechanized Division"
 EW_Soviet_Units_Country.158.d:0 "The 9th Guards Mechanized Division has been created and is now operational. This division will contribute to our military success and strengthen our mechanized forces."
-EW_Soviet_Units_Country.158.a:1 "Create Unit"
+EW_Soviet_Units_Country.158.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.158.b:1 "Deploy With Motorized"
 
 #159th Guards Mechanized Division
 RED_Create_Guard_Units_159:0 "10th Guards Mechanized Division"
@@ -1227,7 +1256,8 @@ RED_Create_Guard_Units_159_desc:0 "The 10th Guards Mechanized Division will prov
 
 EW_Soviet_Units_Country.159.t:0 "10th Guards Mechanized Division"
 EW_Soviet_Units_Country.159.d:0 "The 10th Guards Mechanized Division has been created and is now operational. This division will enhance our mechanized strength and support our ongoing military campaigns."
-EW_Soviet_Units_Country.159.a:1 "Create Unit"
+EW_Soviet_Units_Country.159.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.159.b:1 "Deploy With Motorized"
 
 #160th Guards Mechanized Division
 RED_Create_Guard_Units_160:0 "11th Guards Mechanized Division"
@@ -1235,7 +1265,8 @@ RED_Create_Guard_Units_160_desc:0 "Deploying the 11th Guards Mechanized Division
 
 EW_Soviet_Units_Country.160.t:0 "11th Guards Mechanized Division"
 EW_Soviet_Units_Country.160.d:0 "The 11th Guards Mechanized Division has been created and is now operational. This division will add significant strength to our mechanized units and support our strategic initiatives."
-EW_Soviet_Units_Country.160.a:1 "Create Unit"
+EW_Soviet_Units_Country.160.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.160.b:1 "Deploy With Motorized"
 
 #161st Guards Mechanized Division
 RED_Create_Guard_Units_161:0 "12th Guards Mechanized Division"
@@ -1243,7 +1274,8 @@ RED_Create_Guard_Units_161_desc:0 "The 12th Guards Mechanized Division will enha
 
 EW_Soviet_Units_Country.161.t:0 "12th Guards Mechanized Division"
 EW_Soviet_Units_Country.161.d:0 "The 12th Guards Mechanized Division has been created and is now operational. This division will strengthen our mechanized forces and contribute significantly to our military campaigns."
-EW_Soviet_Units_Country.161.a:1 "Create Unit"
+EW_Soviet_Units_Country.161.a:1 "Deploy With Mechanized"
+EW_Soviet_Units_Country.161.b:1 "Deploy With Motorized"
 
 #1st Guards Cavalry Division
 RED_Create_Guard_Units_162:0 "1st Guards Cavalry Division"

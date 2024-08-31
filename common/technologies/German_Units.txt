@@ -47,12 +47,16 @@ technologies = {
 		enable_subunits = {
 			HG_mechanized
 			HG_medium_armor
+			HG_motorized
 			GD_mechanized
 			GD_medium_armor
+			GD_motorized
 			DAK_mechanized
 			DAK_medium_armor
+			DAK_motorized
 			PL_mechanized
 			PL_medium_armor
+			PL_motorized
 			BR_paratrooper
 		}
 	}
@@ -83,6 +87,7 @@ technologies = {
 		enable_subunits = {
 			HG_mechanized
 			HG_medium_armor
+			HG_motorized
 		}
 	}
 	
@@ -98,6 +103,7 @@ technologies = {
 		enable_subunits = {
 			GD_mechanized
 			GD_medium_armor
+			GD_motorized
 		}
 	}
 	
@@ -113,6 +119,7 @@ technologies = {
 		enable_subunits = {
 			PL_mechanized
 			PL_medium_armor
+			PL_motorized
 		}
 	}
 	
@@ -128,6 +135,7 @@ technologies = {
 		enable_subunits = {
 			DAK_mechanized
 			DAK_medium_armor
+			DAK_motorized
 		}
 	}
 	

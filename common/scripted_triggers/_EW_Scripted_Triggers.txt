@@ -32,6 +32,19 @@ EW_Equipment_DAK = {
 	}
 }
 
+EW_Equipment_DAK_Motorized = {
+	AND = {
+		has_manpower > 24299
+		has_equipment = { anti_tank_equipment > 47 }
+		has_equipment = { artillery_equipment > 24 }
+		has_equipment = { infantry_equipment > 1519 }
+		has_equipment = { mechanized_equipment > 599 }
+		has_equipment = { motorized_equipment > 59 }
+		has_equipment = { support_equipment > 159 }
+		has_equipment = { medium_tank_chassis > 249 }
+	}
+}
+
 EW_Equipment_Medium_Tank = {
 	AND = {
 		has_manpower > 11099
@@ -40,6 +53,18 @@ EW_Equipment_Medium_Tank = {
 		has_equipment = { infantry_equipment > 609 }
 		has_equipment = { mechanized_equipment > 239 }
 		has_equipment = { motorized_equipment > 29 }
+		has_equipment = { support_equipment > 79 }
+		has_equipment = { medium_tank_chassis > 199 }
+	}
+}
+
+EW_Equipment_Medium_Tank_Motorized = {
+	AND = {
+		has_manpower > 11099
+		has_equipment = { anti_tank_equipment > 23 }
+		has_equipment = { artillery_equipment > 11 }
+		has_equipment = { infantry_equipment > 609 }
+		has_equipment = { motorized_equipment > 239 }
 		has_equipment = { support_equipment > 79 }
 		has_equipment = { medium_tank_chassis > 199 }
 	}
@@ -60,12 +85,13 @@ EW_Equipment_Mechanized = {
 
 EW_Equipment_Motorized = {
 	AND = {
-		has_manpower > 13899
+		has_manpower > 13399
 		has_equipment = { anti_tank_equipment > 23 }
 		has_equipment = { artillery_equipment > 11 }
-		has_equipment = { infantry_equipment > 1009 }
-		has_equipment = { motorized_equipment > 379 }
+		has_equipment = { infantry_equipment > 949 }
+		has_equipment = { motorized_equipment > 354 }
 		has_equipment = { support_equipment > 79 }
+		has_equipment = { medium_tank_chassis > 49 }
 	}
 }
 
