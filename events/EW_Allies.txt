@@ -4510,7 +4510,15 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes
-
+	
+	immediate = {
+		hidden_effect = {
+			add_timed_idea = {
+				idea = EW_Lend_Lease
+				days = 30
+			}
+		}
+	}
 	option = {
 		name = EW_Allies_Country.130.a
 		ai_chance = {
@@ -4572,11 +4580,6 @@ country_event = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = 16667 producer = USA }
 		}
 		
-		add_timed_idea = {
-			idea = EW_Lend_Lease
-			days = 30
-		}
-		
 		add_opinion_modifier = {
 			target = USA
 			modifier = our_liberators
@@ -4594,6 +4597,15 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_timed_idea = {
+				idea = EW_Lend_Lease
+				days = 30
+			}
+		}
+	}
 
 	option = {
 		name = EW_Allies_Country.131.a
@@ -4667,11 +4679,6 @@ country_event = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = 37500 producer = USA }
 		}
 		
-		add_timed_idea = {
-			idea = EW_Lend_Lease
-			days = 30
-		}
-		
 		add_opinion_modifier = {
 			target = USA
 			modifier = our_liberators
@@ -4689,6 +4696,15 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_timed_idea = {
+				idea = EW_Lend_Lease
+				days = 30
+			}
+		}
+	}
 
 	option = {
 		name = EW_Allies_Country.132.a
@@ -4750,11 +4766,6 @@ country_event = {
 			add_equipment_to_stockpile = { type = small_plane_airframe amount = 63 producer = USA }
 			add_equipment_to_stockpile = { type = motorized_equipment amount = 1250 producer = USA }
 			add_equipment_to_stockpile = { type = infantry_equipment amount = 6250 producer = USA }
-		}
-		
-		add_timed_idea = {
-			idea = EW_Lend_Lease
-			days = 30
 		}
 		
 		add_opinion_modifier = {

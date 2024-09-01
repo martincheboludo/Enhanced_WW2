@@ -36,8 +36,8 @@ show_hide_unit_decisions_RED = {
 		}
 
 		available = {
-		date > 1942.1.1
-		has_tech = mechanised_infantry
+		date > 1941.07.01
+		#has_tech = mechanised_infantry
 		has_tech = paratroopers
 		219 = { is_controlled_by_ROOT_or_ally = yes }
 		}

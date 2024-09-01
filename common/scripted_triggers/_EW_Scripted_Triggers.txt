@@ -23,7 +23,7 @@ EW_Equipment_DAK = {
 	AND = {
 		has_manpower > 24299
 		has_equipment = { anti_tank_equipment > 47 }
-		has_equipment = { artillery_equipment > 24 }
+		has_equipment = { artillery_equipment > 23 }
 		has_equipment = { infantry_equipment > 1519 }
 		has_equipment = { mechanized_equipment > 599 }
 		has_equipment = { motorized_equipment > 59 }
@@ -36,7 +36,7 @@ EW_Equipment_DAK_Motorized = {
 	AND = {
 		has_manpower > 24299
 		has_equipment = { anti_tank_equipment > 47 }
-		has_equipment = { artillery_equipment > 24 }
+		has_equipment = { artillery_equipment > 23 }
 		has_equipment = { infantry_equipment > 1519 }
 		has_equipment = { motorized_equipment > 584 }
 		has_equipment = { support_equipment > 159 }

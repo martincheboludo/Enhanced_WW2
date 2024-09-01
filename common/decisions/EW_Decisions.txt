@@ -890,8 +890,10 @@ ENG_British_Invasion_of_Iraq = {
 		allowed = {
 			tag = USA
 		}
+		fire_only_once = no
 		available = {
 			has_government = democratic
+			NOT = { has_idea = EW_Lend_Lease_ENG }
 			surrender_progress < 0.01
 			date > 1939.12.31
 			date < 1946.1.1
@@ -917,21 +919,19 @@ ENG_British_Invasion_of_Iraq = {
 		ai_will_do = {
 			factor = 1000
 		}
-		days_re_enable = 30
+		#days_re_enable = 30
+		days_remove = 30
 		visible = {
-			#is_ai = yes
-			NOT = { CAN = { has_idea = EW_BGIE } }
+			always = yes
 		}
 		complete_effect = {
 			ENG = {
 				country_event = {
-					id = EW_Allies_Country.131 hours = 6
+					id = EW_Allies_Country.131
 				}
 			}
 			if = {
-				limit = { 
-					is_ai = no 
-				} 
+				limit = { is_ai = no }
 				add_timed_idea = {
 					idea = EW_Lend_Lease_ENG
 					days = 30
@@ -945,8 +945,10 @@ ENG_British_Invasion_of_Iraq = {
 		allowed = {
 			tag = USA
 		}
+		fire_only_once = no
 		available = {
 			has_government = democratic
+			NOT = { has_idea = EW_Lend_Lease_ENG }
 			surrender_progress < 0.01
 			date > 1939.12.31
 			date < 1946.1.1
@@ -972,21 +974,19 @@ ENG_British_Invasion_of_Iraq = {
 		ai_will_do = {
 			factor = 1000
 		}
-		days_re_enable = 30
+		#days_re_enable = 30
+		days_remove = 30
 		visible = {
-			#is_ai = yes
-			CAN = { has_idea = EW_BGIE }
+			always = yes
 		}
 		complete_effect = {
 			CAN = {
 				country_event = {
-					id = EW_Allies_Country.131 hours = 6
+					id = EW_Allies_Country.131
 				}
 			}
 			if = {
-				limit = { 
-					is_ai = no 
-				} 
+				limit = { is_ai = no }
 				add_timed_idea = {
 					idea = EW_Lend_Lease_ENG
 					days = 30
@@ -1000,8 +1000,10 @@ ENG_British_Invasion_of_Iraq = {
 		allowed = {
 			tag = USA
 		}
+		fire_only_once = no
 		available = {
 			has_government = democratic
+			NOT = { has_idea = EW_Lend_Lease_SOV }
 			surrender_progress < 0.01
 			date > 1940.12.31
 			date < 1946.1.1
@@ -1030,20 +1032,19 @@ ENG_British_Invasion_of_Iraq = {
 		ai_will_do = {
 			factor = 1000
 		}
-		days_re_enable = 30
+		#days_re_enable = 30
+		days_remove = 30
 		visible = {
-			#is_ai = yes
+			always = yes
 		}
 		complete_effect = {
 			SOV = {
 				country_event = {
-					id = EW_Allies_Country.130 hours = 6
+					id = EW_Allies_Country.130
 				}
 			}
 			if = {
-				limit = { 
-					is_ai = no 
-				} 
+				limit = { is_ai = no }
 				add_timed_idea = {
 					idea = EW_Lend_Lease_SOV
 					days = 30
@@ -1057,8 +1058,10 @@ ENG_British_Invasion_of_Iraq = {
 		allowed = {
 			tag = USA
 		}
+		fire_only_once = no
 		available = {
 			has_government = democratic
+			NOT = { has_idea = EW_Lend_Lease_CHI }
 			surrender_progress < 0.01
 			date > 1940.12.31
 			date < 1946.1.1
@@ -1098,25 +1101,24 @@ ENG_British_Invasion_of_Iraq = {
 		ai_will_do = {
 			factor = 1000
 		}
-		days_re_enable = 30
+		#days_re_enable = 30
+		days_remove = 30
 		visible = {
-			#is_ai = yes
+			always = yes
 		}
 		complete_effect = {
 			CHI = {
 				country_event = {
-					id = EW_Allies_Country.132 hours = 6
+					id = EW_Allies_Country.132
 				}
 			}
-			if = {
-				limit = { 
-					is_ai = no 
-				} 
-				add_timed_idea = {
-					idea = EW_Lend_Lease_CHI
-					days = 30
+				if = {
+					limit = { is_ai = no }
+					add_timed_idea = {
+						idea = EW_Lend_Lease_CHI
+						days = 30
+					}
 				}
-			}
 		}
 	}
 
