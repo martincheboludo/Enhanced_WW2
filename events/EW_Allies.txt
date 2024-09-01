@@ -4655,7 +4655,7 @@ country_event = {
 			add_equipment_to_stockpile = { type = motorized_equipment amount = 417 producer = USA }
 			add_equipment_to_stockpile = { type = infantry_equipment amount = 25000 producer = USA }
 		}
-		#1942
+		##1942
 		if = {	
 			limit = {	
 			date > 1941.12.31
