@@ -4507,9 +4507,15 @@ country_event = {
 	picture = GFX_report_event_Lend_Lease_Country
 	title = EW_Allies_Country.130.t
 	desc = EW_Allies_Country.130.d
-	fire_only_once = yes
-
-	is_triggered_only = yes
+	fire_only_once = no
+	trigger = {
+		tag = SOV
+		date > 1940.12.31
+		date < 1946.1.1
+		country_exists = USA
+		USA = { has_idea = EW_Lend_Lease_SOV }
+		NOT = { has_idea = EW_Lend_Lease }
+	}
 	
 	immediate = {
 		hidden_effect = {
@@ -4588,15 +4594,30 @@ country_event = {
 	}
 }
 
-##Lend Lease to Britain
+###Lend Lease to Britain
 country_event = {
 	id = EW_Allies_Country.131
 	picture = GFX_report_event_Lend_Lease_Country
 	title = EW_Allies_Country.131.t
 	desc = EW_Allies_Country.131.d
-	fire_only_once = yes
-
-	is_triggered_only = yes
+	fire_only_once = no
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				NOT = { CAN = { has_idea = EW_BGIE } }
+			}
+			AND = {
+				tag = CAN
+				CAN = { has_idea = EW_BGIE }
+			}
+		}
+		date > 1939.12.31
+		date < 1946.1.1
+		country_exists = USA
+		USA = { has_idea = EW_Lend_Lease_ENG }
+		NOT = { has_idea = EW_Lend_Lease }
+	}
 	
 	immediate = {
 		hidden_effect = {
@@ -4693,9 +4714,16 @@ country_event = {
 	picture = GFX_report_event_Lend_Lease_Country
 	title = EW_Allies_Country.132.t
 	desc = EW_Allies_Country.132.d
-	fire_only_once = yes
-
-	is_triggered_only = yes
+	fire_only_once = no
+	
+	trigger = {
+		tag = CHI
+		date > 1940.12.31
+		date < 1946.1.1
+		country_exists = USA
+		USA = { has_idea = EW_Lend_Lease_CHI }
+		NOT = { has_idea = EW_Lend_Lease }
+	}
 	
 	immediate = {
 		hidden_effect = {

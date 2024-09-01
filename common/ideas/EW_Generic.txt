@@ -128,7 +128,7 @@ ideas = {
 		
 		EW_Lend_Lease = {
 		
-			allowed = { always = no }
+			allowed = { always = yes }
 			allowed_civil_war = { always = no }
 
 			removal_cost = -1
@@ -144,7 +144,7 @@ ideas = {
 		
 		EW_Lend_Lease_SOV = {
 		
-			allowed = { always = no }
+			allowed = { always = yes }
 			allowed_civil_war = { always = no }
 
 			removal_cost = -1
@@ -154,14 +154,14 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = -0.08
+				#industrial_capacity_factory = -0.08
 			}
 
 		}
 		
 		EW_Lend_Lease_ENG = {
 		
-			allowed = { always = no }
+			allowed = { always = yes }
 			allowed_civil_war = { always = no }
 
 			removal_cost = -1
@@ -171,14 +171,14 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = -0.11
+				#industrial_capacity_factory = -0.11
 			}
 
 		}
 		
 		EW_Lend_Lease_CHI = {
 		
-			allowed = { always = no }
+			allowed = { always = yes }
 			allowed_civil_war = { always = no }
 
 			removal_cost = -1
@@ -188,7 +188,7 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = -0.015
+				#industrial_capacity_factory = -0.015
 			}
 
 		}

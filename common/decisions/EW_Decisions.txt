@@ -925,18 +925,12 @@ ENG_British_Invasion_of_Iraq = {
 			always = yes
 		}
 		complete_effect = {
-			ENG = {
-				country_event = {
-					id = EW_Allies_Country.131
-				}
+			add_timed_idea = {
+				idea = EW_Lend_Lease_ENG
+				days = 30
 			}
-			if = {
-				limit = { is_ai = no }
-				add_timed_idea = {
-					idea = EW_Lend_Lease_ENG
-					days = 30
-				}
-			}
+		}
+		remove_effect = {
 		}
 	}
 	
@@ -980,18 +974,12 @@ ENG_British_Invasion_of_Iraq = {
 			always = yes
 		}
 		complete_effect = {
-			CAN = {
-				country_event = {
-					id = EW_Allies_Country.131
-				}
+			add_timed_idea = {
+				idea = EW_Lend_Lease_ENG
+				days = 30
 			}
-			if = {
-				limit = { is_ai = no }
-				add_timed_idea = {
-					idea = EW_Lend_Lease_ENG
-					days = 30
-				}
-			}
+		}
+		remove_effect = {
 		}
 	}
 	
@@ -1038,18 +1026,12 @@ ENG_British_Invasion_of_Iraq = {
 			always = yes
 		}
 		complete_effect = {
-			SOV = {
-				country_event = {
-					id = EW_Allies_Country.130
-				}
+			add_timed_idea = {
+				idea = EW_Lend_Lease_SOV
+				days = 30
 			}
-			if = {
-				limit = { is_ai = no }
-				add_timed_idea = {
-					idea = EW_Lend_Lease_SOV
-					days = 30
-				}
-			}
+		}
+		remove_effect = {
 		}
 	}
 	
@@ -1107,18 +1089,12 @@ ENG_British_Invasion_of_Iraq = {
 			always = yes
 		}
 		complete_effect = {
-			CHI = {
-				country_event = {
-					id = EW_Allies_Country.132
-				}
+			add_timed_idea = {
+				idea = EW_Lend_Lease_CHI
+				days = 30
 			}
-				if = {
-					limit = { is_ai = no }
-					add_timed_idea = {
-						idea = EW_Lend_Lease_CHI
-						days = 30
-					}
-				}
+		}
+		remove_effect = {
 		}
 	}
 
