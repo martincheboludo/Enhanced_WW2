@@ -1,23 +1,15 @@
 division_template = {
-	name = "Commando Division"
+	name = "Royal Marine Commando Battalion"
 
 	regiments = {
-		allies_paramarine = { x = 0 y = 0 }
-		allies_paramarine = { x = 0 y = 1 }
-		allies_paramarine = { x = 0 y = 2 }
-
-		allies_paramarine = { x = 1 y = 0 }
-		allies_paramarine = { x = 1 y = 1 }
-		allies_paramarine = { x = 1 y = 2 }
-
-		allies_paramarine = { x = 2 y = 0 }
-		allies_paramarine = { x = 2 y = 1 }
-		allies_paramarine = { x = 2 y = 2 }
-
+		ENG_Commandos = { x = 0 y = 0 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }
-		anti_air = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 	priority = 1
 }
@@ -35,7 +27,7 @@ units = {
 	division = {
 		name = "No. 1 Commando"
 		location = 4146
-		division_template = "Commando Division"
+		division_template = "Royal Marine Commando Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -43,7 +35,7 @@ units = {
 	division = {
 		name = "No. 6 Commando"
 		location = 4131
-		division_template = "Commando Division"
+		division_template = "Royal Marine Commando Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}

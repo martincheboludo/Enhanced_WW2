@@ -388,7 +388,8 @@ EW_Create_Allied_Units_15 = {
     }
 
     ai_will_do = {
-        factor = 1000
+		#Created when Allies Do Operation Torch
+        factor = 0
 		modifier = {
 			factor = 0
 			date < 1942.06.19
