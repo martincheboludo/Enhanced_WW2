@@ -16,8 +16,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_defence_factor = 0.50
-				dig_in_speed_factor = 0.50
+				army_core_defence_factor = 0.25
+				dig_in_speed_factor = 0.25
 				max_dig_in_factor = 0.25
 				terrain_penalty_reduction = 0.25
 				attrition = -0.25
@@ -59,8 +59,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_defence_factor = 0.50
-				dig_in_speed_factor = 0.50
+				army_core_defence_factor = 0.25
+				dig_in_speed_factor = 0.25
 				max_dig_in_factor = 0.25
 				terrain_penalty_reduction = 0.25
 				attrition = -0.25
@@ -100,8 +100,8 @@ ideas = {
 			}
 			
 			modifier = {
-			army_core_defence_factor = 0.50
-			winter_attrition_factor = -0.50
+			army_core_defence_factor = 0.25
+			winter_attrition_factor = -0.25
 			}
 		}
 		
@@ -122,7 +122,7 @@ ideas = {
 			}
 			
 			modifier = {
-			winter_attrition_factor = 0.50
+			winter_attrition_factor = 0.25
 			}
 		}
 		
