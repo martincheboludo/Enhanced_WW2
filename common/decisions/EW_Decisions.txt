@@ -457,6 +457,7 @@ ENG_British_Invasion_of_Iraq = {
 				459 = { is_controlled_by_ROOT_or_ally = no }
 				461 = { is_controlled_by_ROOT_or_ally = no }
 			}
+			has_country_flag = EW_US_Army_Rangers_Created
 		}
 		
 		allowed = {

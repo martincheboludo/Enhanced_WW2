@@ -25,22 +25,6 @@ division_template = {
 	priority = 1
 	is_locked = no
 }
-division_template = {
-	name = "Ranger Battalion Torch"
-	division_names_group = USA_INF_01
-	regiments = {
-		USA_rangers = { x = 0 y = 0 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-		engineer = { x = 0 y = 2 }
-		field_hospital = { x = 0 y = 3 }
-		anti_tank = { x = 0 y = 4 }
-	}
-	priority = 2
-	is_locked = no	
-}
 
 units = {
 
@@ -80,8 +64,8 @@ units = {
 	division = {
 		name = "1st Ranger Battalion"
 		location = 7132
-		division_template = "Ranger Battalion Torch"
-		start_experience_factor = 0.3
+		division_template = "Ranger Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 

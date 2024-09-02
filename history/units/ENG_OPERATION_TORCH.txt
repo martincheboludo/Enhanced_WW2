@@ -28,7 +28,7 @@ units = {
 		name = "No. 1 Commando"
 		location = 4146
 		division_template = "Royal Marine Commando Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.8
 		start_equipment_factor = 1
 	}
 
@@ -36,7 +36,7 @@ units = {
 		name = "No. 6 Commando"
 		location = 4131
 		division_template = "Royal Marine Commando Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.8
 		start_equipment_factor = 1
 	}
 
