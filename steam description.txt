@@ -12,6 +12,8 @@ Strategic Depth: Invite Japan to attack the USSR if Germany is winning, and watc
 
 Allied Guarantees Mechanic: See dynamic Allied responses to aggression from the Soviets, Germans, and Italians, no more blobbing out of control in 1936.
 
+Soviet Backstabbing Mechanic: If Germany is executing Operation Sea Lion or if it's 1942 and the USSR hasn't been attacked, the Soviets may launch a preemptive strike, forcing Germany to face a two-front war unexpectedly.
+
 Dynamic Interventions: German and Soviet interventions are triggered if either nation attacks Poland without the Molotov-Ribbentrop Pact.
 
 UK Relocation Mechanic: If Britain is defeated, watch as the UK government relocates to Canada, continuing the fight from a new base.
