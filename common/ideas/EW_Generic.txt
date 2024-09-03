@@ -158,11 +158,6 @@ ideas = {
 						NOT = { SOV = { has_war_with = JAP } }
 						NOT = { SOV = { has_war_with = GER } }
 					}
-					#Neither Murmansk Nor Vladivostok is controlled By Soviets
-					NOT = {
-						213 = { is_controlled_by = SOV }
-						408 = { is_controlled_by = SOV }
-					}
 				}
 			}
 			
@@ -226,25 +221,6 @@ ideas = {
 					NOT = { country_exists = CHI }
 					has_war_with = CHI
 					NOT = { CHI = { has_war_with = JAP } }
-					#Burma Isn't Controllled By Friendly Government
-					NOT = {
-						AND = {
-							288 = { is_controlled_by = RAJ }
-							640 = { is_controlled_by = RAJ }
-						}
-						AND = {
-							288 = { is_controlled_by = ENG }
-							640 = { is_controlled_by = ENG }
-						}
-						AND = {
-							288 = { is_controlled_by = CAN }
-							640 = { is_controlled_by = CAN }
-						}
-						AND = {
-							288 = { is_controlled_by_ROOT_or_ally = yes }
-							640 = { is_controlled_by_ROOT_or_ally = yes }
-						}
-					}
 				}
 			}
 			
