@@ -1066,10 +1066,6 @@ country_event = {
 		is_neighbor_of = GER
 		NOT = { is_in_faction_with = GER }
 		NOT = { has_war_with = GER }
-		OR = {
-			GER = { has_war_with = FRA }
-			GER = { has_war_with = POL }
-		}
 		OR = { 
 			GER = { has_war_with = ENG }
 			AND = {
@@ -1116,6 +1112,7 @@ country_event = {
 				factor = 0.5
 			}
 			modifier = {
+				date > 1942.1.1
 				ENG = {
 					has_war_with = GER
 					has_capitulated = no
@@ -1166,6 +1163,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
+				date > 1942.1.1
 				ENG = {
 					has_war_with = GER
 					has_capitulated = no

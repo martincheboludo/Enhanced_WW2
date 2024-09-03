@@ -5639,7 +5639,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		triger = {
+		trigger = {
 			has_idea = EW_Lend_Lease_SOV
 		}
 		if = {
@@ -5696,7 +5696,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		triger = {
+		trigger = {
 			has_idea = EW_Lend_Lease_ENG
 		}
 		if = {
@@ -5757,7 +5757,7 @@ country_event = {
 			factor = 0
 		}
 		
-		triger = {
+		trigger = {
 			has_idea = EW_Lend_Lease_CHI
 		}
 		
