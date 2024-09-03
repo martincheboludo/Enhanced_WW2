@@ -789,7 +789,7 @@ ENG_British_Invasion_of_Iraq = {
 			clr_country_flag = EW_Operation
 		}
 	}
-
+#
 	USA_operation_dragoon = {
 		icon = generic_army_support
 	

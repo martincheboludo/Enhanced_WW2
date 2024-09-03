@@ -4547,7 +4547,9 @@ country_event = {
 		
 		if = {
 			limit = { 
-				USA = { has_country_flag = EW_Hide_Lend_Lease_Event } 
+				USA = { 
+					has_country_flag = EW_Hide_Lend_Lease_Event 
+				} 
 			}
 		USA = { EW_American_Lend_Lease_SOV_Sent = yes }
 		}
@@ -4610,7 +4612,9 @@ country_event = {
 		
 		if = {
 			limit = { 
-				USA = { has_country_flag = EW_Hide_Lend_Lease_Event } 
+				USA = { 
+					has_country_flag = EW_Hide_Lend_Lease_Event 
+				} 
 			}
 		USA = { EW_American_Lend_Lease_ENG_Sent = yes }
 		}
@@ -4683,7 +4687,9 @@ country_event = {
 		
 		if = {
 			limit = { 
-				USA = { has_country_flag = EW_Hide_Lend_Lease_Event } 
+				USA = { 
+					has_country_flag = EW_Hide_Lend_Lease_Event 
+				} 
 			}
 		USA = { EW_American_Lend_Lease_CHI_Sent = yes }
 		}
