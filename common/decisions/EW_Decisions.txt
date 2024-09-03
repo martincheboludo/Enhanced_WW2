@@ -896,7 +896,7 @@ ENG_British_Invasion_of_Iraq = {
 		available = {
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_ENG }
-			surrender_progress < 0.01
+			surrender_progress < 0.05
 			date > 1939.12.31
 			date < 1946.1.1
 			is_subject = no
@@ -922,7 +922,7 @@ ENG_British_Invasion_of_Iraq = {
 			factor = 1000
 		}
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			NOT = { has_idea = EW_Lend_Lease_ENG }
 		}
@@ -930,6 +930,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			add_ideas = EW_Lend_Lease_ENG
+			clr_global_flag = USA_EW_stop_lend_lease_ENG
 		}
 	}
 	
@@ -942,7 +943,7 @@ ENG_British_Invasion_of_Iraq = {
 		available = {
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_ENG }
-			surrender_progress < 0.01
+			surrender_progress < 0.05
 			date > 1939.12.31
 			date < 1946.1.1
 			is_subject = no
@@ -968,7 +969,7 @@ ENG_British_Invasion_of_Iraq = {
 			factor = 1000
 		}
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			NOT = { has_idea = EW_Lend_Lease_ENG }
 		}
@@ -976,6 +977,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			add_ideas = EW_Lend_Lease_ENG
+			clr_global_flag = USA_EW_stop_lend_lease_CAN
 		}
 	}
 	
@@ -988,7 +990,7 @@ ENG_British_Invasion_of_Iraq = {
 		available = {
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_SOV }
-			surrender_progress < 0.01
+			surrender_progress < 0.05
 			date > 1940.12.31
 			date < 1946.1.1
 			is_subject = no
@@ -1017,7 +1019,7 @@ ENG_British_Invasion_of_Iraq = {
 			factor = 1000
 		}
 		##days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			NOT = { has_idea = EW_Lend_Lease_SOV }
 		}
@@ -1025,6 +1027,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			add_ideas = EW_Lend_Lease_SOV
+			clr_global_flag = USA_EW_stop_lend_lease_SOV
 		}
 	}
 	
@@ -1037,7 +1040,7 @@ ENG_British_Invasion_of_Iraq = {
 		available = {
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_CHI }
-			surrender_progress < 0.01
+			surrender_progress < 0.05
 			date > 1940.12.31
 			date < 1946.1.1
 			is_subject = no
@@ -1077,7 +1080,7 @@ ENG_British_Invasion_of_Iraq = {
 			factor = 1000
 		}
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			NOT = { has_idea = EW_Lend_Lease_CHI }
 		}
@@ -1085,6 +1088,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			add_ideas = EW_Lend_Lease_CHI
+			clr_global_flag = USA_EW_stop_lend_lease_CHI
 		}
 	}
 	
@@ -1104,11 +1108,19 @@ ENG_British_Invasion_of_Iraq = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				surrender_progress < 0.10
+				surrender_progress < 0.05
+				date > 1939.12.31
+				date < 1946.1.1
+				country_exists = ENG
+				NOT = { has_war_with = ENG }
+				OR = {
+					ENG = { has_war_with = GER }
+					ENG = { has_war_with = JAP }
+				}
 			}
 		}
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			has_idea = EW_Lend_Lease_ENG
 		}
@@ -1116,6 +1128,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			remove_ideas = EW_Lend_Lease_ENG
+			set_global_flag = USA_EW_stop_lend_lease_ENG
 		}
 	}
 	
@@ -1135,11 +1148,19 @@ ENG_British_Invasion_of_Iraq = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				surrender_progress < 0.10
+				surrender_progress < 0.05
+				date > 1939.12.31
+				date < 1946.1.1
+				country_exists = CAN
+				NOT = { has_war_with = CAN }
+				OR = {
+					CAN = { has_war_with = GER }
+					CAN = { has_war_with = JAP }
+				}
 			}
 		}
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			has_idea = EW_Lend_Lease_ENG
 		}
@@ -1147,6 +1168,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			remove_ideas = EW_Lend_Lease_ENG
+			set_global_flag = USA_EW_stop_lend_lease_CAN
 		}
 	}
 	
@@ -1157,20 +1179,28 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		fire_only_once = no
 		available = {
-			has_idea = EW_Lend_Lease_SOV
 			country_exists = SOV
 			SOV = { has_idea = EW_Lend_Lease }
+			has_idea = EW_Lend_Lease_SOV
 		}
 		cost = 0
 		ai_will_do = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				surrender_progress < 0.10
+				surrender_progress < 0.05
+				date > 1940.12.31
+				date < 1946.1.1
+				country_exists = SOV
+				NOT = { has_war_with = SOV }
+				OR = {
+					SOV = { has_war_with = GER }
+					SOV = { has_war_with = JAP }
+				}
 			}
 		}
 		##days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			has_idea = EW_Lend_Lease_SOV
 		}
@@ -1178,6 +1208,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			remove_ideas = EW_Lend_Lease_SOV
+			set_global_flag = USA_EW_stop_lend_lease_SOV
 		}
 	}
 	
@@ -1186,22 +1217,31 @@ ENG_British_Invasion_of_Iraq = {
 		allowed = {
 			tag = USA
 		}
+		 
 		fire_only_once = no
 		available = {
-			has_idea = EW_Lend_Lease_CHI
 			country_exists = CHI
 			CHI = { has_idea = EW_Lend_Lease }
+			has_idea = EW_Lend_Lease_CHI
 		}
 		cost = 0
 		ai_will_do = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				surrender_progress < 0.10
+				surrender_progress < 0.05
+				date > 1940.12.31
+				date < 1946.1.1
+				country_exists = CHI
+				NOT = { has_war_with = CHI }
+				OR = {
+					CHI = { has_war_with = GER }
+					CHI = { has_war_with = JAP }
+				}
 			}
 		}
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 15
 		visible = {
 			has_idea = EW_Lend_Lease_CHI
 		}
@@ -1209,6 +1249,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		remove_effect = {
 			remove_ideas = EW_Lend_Lease_CHI
+			set_global_flag = USA_EW_stop_lend_lease_CHI
 		}
 	}
 

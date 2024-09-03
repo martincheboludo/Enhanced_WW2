@@ -134,7 +134,11 @@ ideas = {
 			removal_cost = -1
 
 			cancel = {
-				NOT = { country_exists = USA }
+				OR = {
+					date > 1946.1.1
+					has_war_with = USA
+					NOT = { country_exists = USA }
+				}
 			}
 			
 			modifier = {
@@ -154,10 +158,6 @@ ideas = {
 					date > 1946.1.1
 					has_war_with = SOV
 					NOT = { country_exists = SOV }
-					AND = {
-						NOT = { SOV = { has_war_with = JAP } }
-						NOT = { SOV = { has_war_with = GER } }
-					}
 				}
 			}
 			
@@ -189,16 +189,6 @@ ideas = {
 						has_war_with = CAN
 						CAN = { has_idea = EW_Lend_Lease }
 					}
-					AND = {
-						NOT = { ENG = { has_war_with = JAP } }
-						NOT = { ENG = { has_war_with = GER } }
-						ENG = { has_idea = EW_Lend_Lease }
-					}
-					AND = {
-						NOT = { CAN = { has_war_with = JAP } }
-						NOT = { CAN = { has_war_with = GER } }
-						CAN = { has_idea = EW_Lend_Lease }
-					}
 				}
 			}
 			
@@ -220,7 +210,6 @@ ideas = {
 					date > 1946.1.1
 					NOT = { country_exists = CHI }
 					has_war_with = CHI
-					NOT = { CHI = { has_war_with = JAP } }
 				}
 			}
 			

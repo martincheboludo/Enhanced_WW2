@@ -4510,20 +4510,13 @@ country_event = {
 	fire_only_once = no
 	trigger = {
 		tag = SOV
-		OR = {
-			has_war_with = JAP
-			has_war_with = GER
-		}
 		date > 1940.12.31
 		date < 1946.1.1
 		country_exists = USA
 		NOT = { has_war_with = USA }
 		USA = { has_idea = EW_Lend_Lease_SOV }
+		NOT = { has_global_flag = USA_EW_stop_lend_lease_SOV }
 		NOT = { has_idea = EW_Lend_Lease }
-		OR = {
-			SOV = { has_war_with = JAP }
-			SOV = { has_war_with = GER }
-		}
 		#Either Murmansk Nor Vladivostok is controlled By Soviets
 		OR = {
 			213 = { is_controlled_by = SOV }
@@ -4620,15 +4613,13 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { CAN = { has_idea = EW_BGIE } }
+				NOT = { has_global_flag = USA_EW_stop_lend_lease_ENG }
 			}
 			AND = {
 				tag = CAN
 				CAN = { has_idea = EW_BGIE }
+				NOT = { has_global_flag = USA_EW_stop_lend_lease_CAN }
 			}
-		}
-		OR = {
-			has_war_with = JAP
-			has_war_with = GER
 		}
 		date > 1939.12.31
 		date < 1946.1.1
@@ -4737,13 +4728,13 @@ country_event = {
 	
 	trigger = {
 		tag = CHI
-		has_war_with = JAP
 		date > 1940.12.31
 		date < 1946.1.1
 		country_exists = USA
 		NOT = { has_war_with = USA }
 		USA = { has_idea = EW_Lend_Lease_CHI }
 		NOT = { has_idea = EW_Lend_Lease }
+		NOT = { has_global_flag = USA_EW_stop_lend_lease_CHI }
 		#Burma Is Controllled By Friendly Government
 		OR = {
 			AND = {
