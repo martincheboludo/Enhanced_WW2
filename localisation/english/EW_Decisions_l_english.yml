@@ -138,3 +138,5 @@ USA_America_Occupation_of_Greenland_desc:0 "Greenland’s strategic position in 
 show_hide_unit_decisions:0 "Show/Hide State Unit Decisions"
 show_hide_unit_decisions_SS:0 "Show/Hide State Unit Decisions"
 show_hide_unit_decisions_RED:0 "Show/Hide State Unit Decisions"
+
+show_hide_lend_lease_events:0 "Show Lend Lease Events"

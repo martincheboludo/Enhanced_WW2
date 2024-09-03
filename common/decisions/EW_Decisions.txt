@@ -886,6 +886,21 @@ ENG_British_Invasion_of_Iraq = {
 			clr_country_flag = EW_Operation
 		}
 	}
+	
+	show_hide_lend_lease_events = {
+
+        visible = { 
+			has_country_flag = EW_Hide_Lend_Lease_Event
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        complete_effect = {
+            clr_country_flag = EW_Hide_Lend_Lease_Event
+        }
+    }
 
 	USA_EW_send_lend_lease_ENG = {
 		icon = eng_puppet_usa
