@@ -1188,6 +1188,33 @@ country_event = {
 
 		ai_chance = {
 			factor = 700
+			modifier = {
+				any_other_country = {
+					has_war_with = SOV
+				}
+				factor = 0.85
+			}
+			modifier = {
+				USA = {
+					has_war_with = GER
+					has_capitulated = no
+				}
+				factor = 1.25
+			}
+			modifier = {
+				OR = {
+					NOT = { country_exists = ENG }
+					ENG = { has_capitulated = yes }
+				}
+				factor = 0.5
+			}
+			modifier = {
+				ENG = {
+					has_war_with = GER
+					has_capitulated = no
+				}
+				factor = 1.1
+			}
 		}
 		
 		declare_war_on = {
@@ -1202,6 +1229,33 @@ country_event = {
 
 		ai_chance = {
 			factor = 300
+			modifier = {
+				any_other_country = {
+					has_war_with = SOV
+				}
+				factor = 1.15
+			}
+			modifier = {
+				USA = {
+					has_war_with = GER
+					has_capitulated = no
+				}
+				factor = 0.75
+			}
+			modifier = {
+				OR = {
+					NOT = { country_exists = ENG }
+					ENG = { has_capitulated = yes }
+				}
+				factor = 1.5
+			}
+			modifier = {
+				ENG = {
+					has_war_with = GER
+					has_capitulated = no
+				}
+				factor = 0.9
+			}
 		}
 		
 		create_wargoal = {			
