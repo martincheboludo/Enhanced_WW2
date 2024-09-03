@@ -924,15 +924,12 @@ ENG_British_Invasion_of_Iraq = {
 		#days_re_enable = 30
 		days_remove = 30
 		visible = {
-			always = yes
+			NOT = { has_idea = EW_Lend_Lease_ENG }
 		}
 		complete_effect = {
-			add_timed_idea = {
-				idea = EW_Lend_Lease_ENG
-				days = 30
-			}
 		}
 		remove_effect = {
+			add_ideas = EW_Lend_Lease_ENG
 		}
 	}
 	
@@ -973,15 +970,12 @@ ENG_British_Invasion_of_Iraq = {
 		#days_re_enable = 30
 		days_remove = 30
 		visible = {
-			always = yes
+			NOT = { has_idea = EW_Lend_Lease_ENG }
 		}
 		complete_effect = {
-			add_timed_idea = {
-				idea = EW_Lend_Lease_ENG
-				days = 30
-			}
 		}
 		remove_effect = {
+			add_ideas = EW_Lend_Lease_ENG
 		}
 	}
 	
@@ -1025,15 +1019,12 @@ ENG_British_Invasion_of_Iraq = {
 		##days_re_enable = 30
 		days_remove = 30
 		visible = {
-			always = yes
+			NOT = { has_idea = EW_Lend_Lease_SOV }
 		}
 		complete_effect = {
-			add_timed_idea = {
-				idea = EW_Lend_Lease_SOV
-				days = 30
-			}
 		}
 		remove_effect = {
+			add_ideas = EW_Lend_Lease_SOV
 		}
 	}
 	
@@ -1088,15 +1079,136 @@ ENG_British_Invasion_of_Iraq = {
 		#days_re_enable = 30
 		days_remove = 30
 		visible = {
-			always = yes
+			NOT = { has_idea = EW_Lend_Lease_CHI }
 		}
 		complete_effect = {
-			add_timed_idea = {
-				idea = EW_Lend_Lease_CHI
-				days = 30
-			}
 		}
 		remove_effect = {
+			add_ideas = EW_Lend_Lease_CHI
+		}
+	}
+	
+	USA_EW_stop_lend_lease_ENG = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		fire_only_once = no
+		available = {
+			has_idea = EW_Lend_Lease_ENG
+			country_exists = ENG
+			ENG = { has_idea = EW_Lend_Lease }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				surrender_progress < 0.10
+			}
+		}
+		#days_re_enable = 30
+		days_remove = 30
+		visible = {
+			has_idea = EW_Lend_Lease_ENG
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			remove_ideas = EW_Lend_Lease_ENG
+		}
+	}
+	
+	USA_EW_stop_lend_lease_CAN = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		fire_only_once = no
+		available = {
+			has_idea = EW_Lend_Lease_ENG
+			country_exists = CAN
+			CAN = { has_idea = EW_Lend_Lease }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				surrender_progress < 0.10
+			}
+		}
+		#days_re_enable = 30
+		days_remove = 30
+		visible = {
+			has_idea = EW_Lend_Lease_ENG
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			remove_ideas = EW_Lend_Lease_ENG
+		}
+	}
+	
+	USA_EW_stop_lend_lease_SOV = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		fire_only_once = no
+		available = {
+			has_idea = EW_Lend_Lease_SOV
+			country_exists = SOV
+			SOV = { has_idea = EW_Lend_Lease }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				surrender_progress < 0.10
+			}
+		}
+		##days_re_enable = 30
+		days_remove = 30
+		visible = {
+			has_idea = EW_Lend_Lease_SOV
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			remove_ideas = EW_Lend_Lease_SOV
+		}
+	}
+	
+	USA_EW_stop_lend_lease_CHI = {
+		icon = eng_puppet_usa
+		allowed = {
+			tag = USA
+		}
+		fire_only_once = no
+		available = {
+			has_idea = EW_Lend_Lease_CHI
+			country_exists = CHI
+			CHI = { has_idea = EW_Lend_Lease }
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				surrender_progress < 0.10
+			}
+		}
+		#days_re_enable = 30
+		days_remove = 30
+		visible = {
+			has_idea = EW_Lend_Lease_CHI
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			remove_ideas = EW_Lend_Lease_CHI
 		}
 	}
 
