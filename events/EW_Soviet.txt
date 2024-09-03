@@ -1094,20 +1094,20 @@ country_event = {
 			modifier = {
 				date < 1942.1.1
 				GER = { has_completed_focus = GER_mol_rib_pact }
-				factor = 0.9
+				factor = 0.75
 			}
 			modifier = {
 				any_other_country = {
 					has_war_with = SOV
 				}
-				factor = 0.85
+				factor = 0.75
 			}
 			modifier = {
 				USA = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 1.25
+				factor = 1.5
 			}
 			modifier = {
 				OR = {
@@ -1122,7 +1122,7 @@ country_event = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 1.1
+				factor = 1.25
 			}
 		}
 		
@@ -1150,20 +1150,20 @@ country_event = {
 			modifier = {
 				date < 1942.1.1
 				GER = { has_completed_focus = GER_mol_rib_pact }
-				factor = 1.10
+				factor = 1.25
 			}
 			modifier = {
 				any_other_country = {
 					has_war_with = SOV
 				}
-				factor = 1.15
+				factor = 1.25
 			}
 			modifier = {
 				USA = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 0.75
+				factor = 0.50
 			}
 			modifier = {
 				OR = {
@@ -1178,7 +1178,7 @@ country_event = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 0.9
+				factor = 0.75
 			}
 		}
 		
@@ -1259,14 +1259,14 @@ country_event = {
 				any_other_country = {
 					has_war_with = SOV
 				}
-				factor = 1.15
+				factor = 1.50
 			}
 			modifier = {
 				USA = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 0.75
+				factor = 0.50
 			}
 			modifier = {
 				OR = {
@@ -1276,11 +1276,12 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
+				date > 1942.1.1
 				ENG = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 0.9
+				factor = 0.75
 			}
 		}
 		
@@ -1301,14 +1302,14 @@ country_event = {
 				any_other_country = {
 					has_war_with = SOV
 				}
-				factor = 0.85
+				factor = 0.50
 			}
 			modifier = {
 				USA = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 1.25
+				factor = 1.50
 			}
 			modifier = {
 				OR = {
@@ -1318,11 +1319,12 @@ country_event = {
 				factor = 0.5
 			}
 			modifier = {
+				date > 1942.1.1
 				ENG = {
 					has_war_with = GER
 					has_capitulated = no
 				}
-				factor = 1.1
+				factor = 1.25
 			}
 		}
 		
