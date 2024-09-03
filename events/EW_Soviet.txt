@@ -1079,7 +1079,10 @@ country_event = {
 		
 		OR = { 
 			date > 1942.5.1
-			ENG = { surrender_progress > 0.30 }
+			AND = { 
+				date > 1940.1.1
+				ENG = { surrender_progress > 0.30 }
+			}
 		}
 	}
 
