@@ -1202,16 +1202,11 @@ country_event = {
 		name = EW_Soviet_Country.12.a
 
 		ai_chance = {
-			factor = 700
-			modifier = {
-				any_other_country = {
-					has_war_with = SOV
-				}
-				factor = 0.50
-			}
+			factor = 1000
 		}
 		
-		declare_war_on = {
+		create_wargoal = {			
+			expire = 100
 			target = GER
 			type = annex_everything
 		}
@@ -1222,20 +1217,10 @@ country_event = {
 		name = EW_Soviet_Country.12.b
 
 		ai_chance = {
-			factor = 300
-			modifier = {
-				any_other_country = {
-					has_war_with = SOV
-				}
-				factor = 1.50
-			}
+			factor = 0
 		}
 		
-		create_wargoal = {			
-			expire = 30
-			target = GER
-			type = annex_everything
-		}
+		add_war_support = -0.10
 
 	}
 
