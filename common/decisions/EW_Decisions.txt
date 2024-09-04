@@ -1065,31 +1065,11 @@ ENG_British_Invasion_of_Iraq = {
 				num_of_civilian_factories > 99
 				num_of_military_factories > 99
 			}
-			custom_trigger_tooltip = {
-				tooltip = "Burma is controlled by a friendly government."
-				OR = {
-					AND = {
-						288 = { is_controlled_by = RAJ }
-						640 = { is_controlled_by = RAJ }
-						is_neighbor_of = RAJ
-						NOT = { CHI = { has_war_with = RAJ } }
-						NOT = { USA = { has_war_with = RAJ } }
-					}
-					AND = {
-						288 = { is_controlled_by = ENG }
-						640 = { is_controlled_by = ENG }
-						is_neighbor_of = ENG
-						NOT = { CHI = { has_war_with = ENG } }
-						NOT = { USA = { has_war_with = ENG } }
-					}
-					AND = {
-						288 = { is_controlled_by = CAN }
-						640 = { is_controlled_by = CAN }
-						is_neighbor_of = CAN
-						NOT = { CHI = { has_war_with = CAN } }
-						NOT = { USA = { has_war_with = CAN } }
-					}
-				}
+			OR = {
+				CHI = { is_neighbor_of = RAJ }
+				CHI = { is_neighbor_of = ENG }
+				CHI = { is_neighbor_of = CAN }
+				CHI = { is_neighbor_of = USA }
 			}
 			country_exists = CHI
 			NOT = { has_war_with = CHI }
