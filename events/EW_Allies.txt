@@ -4521,6 +4521,8 @@ country_event = {
 		OR = {
 			213 = { is_controlled_by = SOV }
 			408 = { is_controlled_by = SOV }
+			is_neighbor_of = RAJ
+			is_neighbor_of = ENG
 		}
 	}
 	
@@ -4647,18 +4649,23 @@ country_event = {
 			AND = {
 				288 = { is_controlled_by = RAJ }
 				640 = { is_controlled_by = RAJ }
+				CHI = { is_neighbor_of = RAJ }
+				NOT = { CHI = { has_war_with = RAJ } }
+				NOT = { USA = { has_war_with = RAJ } }
 			}
 			AND = {
 				288 = { is_controlled_by = ENG }
 				640 = { is_controlled_by = ENG }
+				CHI = { is_neighbor_of = ENG }
+				NOT = { CHI = { has_war_with = ENG } }
+				NOT = { USA = { has_war_with = ENG } }
 			}
 			AND = {
 				288 = { is_controlled_by = CAN }
 				640 = { is_controlled_by = CAN }
-			}
-			AND = {
-				288 = { is_controlled_by_ROOT_or_ally = yes }
-				640 = { is_controlled_by_ROOT_or_ally = yes }
+				CHI = { is_neighbor_of = CAN }
+				NOT = { CHI = { has_war_with = CAN  } }
+				NOT = { USA = { has_war_with = CAN  } }
 			}
 		}
 	}
