@@ -32,21 +32,11 @@ ENG_British_Invasion_of_Iraq = {
 			has_war_with = GER
 			NOT = { has_war_with = IRQ }
 			NOT = { is_in_faction_with = IRQ }
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 		}
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
-			OR = {
-				AND = {
-					tag = ENG
-					NOT = { CAN = { has_idea = EW_BGIE } }
-				}
-				AND = {
-					tag = CAN
-					has_idea = EW_BGIE
-				}
-			}
 		}
 
 		cost = 0
@@ -60,10 +50,8 @@ ENG_British_Invasion_of_Iraq = {
 				date < 1941.5.2
 			}
 			modifier = {
-				#Need a land link
-				NOT = {
-					is_neighbor_of = IRQ
-				}
+				#If Kuwait isn't controlled then no
+				656 = { is_controlled_by_ROOT_or_ally = no }
 				factor = 0
 			}
 		}
@@ -113,21 +101,11 @@ ENG_British_Invasion_of_Iraq = {
 			NOT = { is_in_faction_with = PER }
 			NOT = { has_war_with = SOV }
 			SOV = { has_war_with = GER }
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 		}
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
-			OR = {
-				AND = {
-					tag = ENG
-					NOT = { CAN = { has_idea = EW_BGIE } }
-				}
-				AND = {
-					tag = CAN
-					has_idea = EW_BGIE
-				}
-			}
 		}
 
 		cost = 0
@@ -141,10 +119,8 @@ ENG_British_Invasion_of_Iraq = {
 				date < 1941.5.17
 			}
 			modifier = {
-				#Need a land link
-				NOT = {
-					is_neighbor_of = PER
-				}
+				#If Iraq Isn't Controlled then No
+				291 = { is_controlled_by_ROOT_or_ally = no }
 				factor = 0
 			}
 		}
@@ -158,8 +134,20 @@ ENG_British_Invasion_of_Iraq = {
 		
 		remove_effect = {
 			clr_country_flag = EW_Operation
-			SOV = {
-				country_event = { id = EW_Soviet_Country.8 hours = 6 }	
+			if = {
+				limit = {
+				SOV = { has_war_with = PER }
+				}
+				create_wargoal = {			
+					expire = 100
+					target = PER
+					type = annex_everything
+				}
+			}
+			else = {
+				SOV = {
+					country_event = { id = EW_Soviet_Country.8 hours = 6 }	
+				}
 			}
 		}
 	}
@@ -188,7 +176,7 @@ ENG_British_Invasion_of_Iraq = {
 			date > 1940.1.1
 			date < 1941.1.1
 			has_war_with = GER
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 			
 			NOT = { owns_state = 100 }
 			NOT = {
@@ -284,7 +272,7 @@ ENG_British_Invasion_of_Iraq = {
 				ENG = { has_war_with = GER }
 				CAN = { has_war_with = GER }
 			}
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 			
 			NOT = { owns_state = 100 }
 			NOT = {
@@ -370,7 +358,7 @@ ENG_British_Invasion_of_Iraq = {
 				ENG = { has_war_with = GER }
 				CAN = { has_war_with = GER }
 			}
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 			
 			NOT = { owns_state = 101 }
 			NOT = {
@@ -455,7 +443,7 @@ ENG_British_Invasion_of_Iraq = {
 			country_exists = VIC
 			NOT = { has_war_with = VIC }
 			NOT = { is_in_faction_with = VIC }
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 			459 = { is_controlled_by = VIC }
 			461 = { is_controlled_by = VIC }
 		}
@@ -1629,7 +1617,7 @@ SOV_EW_Decisions = {
 				ENG = { has_war_with = JAP }
 				CAN = { has_war_with = JAP }
 			}
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 		}
 		
 		allowed = {
@@ -1685,7 +1673,7 @@ SOV_EW_Decisions = {
 			date < 1950.1.1
 			has_war_with = JAP
 			JAP = { has_capitulated = no }
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 		}
 		
 		allowed = {
@@ -2049,7 +2037,7 @@ GER_EW_Decisions = {
 					NOR = { has_capitulated = no }
 				}
 			}
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 		}
 
 		cost = 0
@@ -2294,7 +2282,7 @@ GER_EW_Decisions = {
 			tag = GER
 			has_war_with = ENG
 			ENG = { has_capitulated = no }
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 			OR = {
 				29 = { is_controlled_by_ROOT_or_ally = yes }
 				6 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2956,7 +2944,7 @@ GER_EW_Decisions = {
 			country_exists = SWI
 		}
 		available = {
-			surrender_progress < 0.01
+			surrender_progress < 0.1
 			has_government = fascism
 			NOT = { has_completed_focus = GER_operation_tannenbaum }
 			country_exists = SWI
