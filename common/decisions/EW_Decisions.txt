@@ -512,7 +512,6 @@ ENG_British_Invasion_of_Iraq = {
 				controls_state = 461
 				has_war_with = USA
 			}
-			has_country_flag = EW_US_Army_Rangers_Created
 		}
 		
 		allowed = {
