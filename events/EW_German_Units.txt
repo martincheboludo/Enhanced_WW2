@@ -45,13 +45,8 @@ country_event = {
 					interwar_antitank = 1
 				}
 			}
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
-					Waffen_SS_units_tech = 1
-				}
+			set_technology = {
+				Waffen_SS_units_tech = 1
 			}
 			division_template = {
 				name = "SS-Infanterie-Division"					# Represents Infanterie Welles 1-4
@@ -1845,13 +1840,8 @@ country_event = {
 					interwar_antitank = 1
 				}
 			}
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
-					EW_DAK_units_tech = 1
-				}
+			set_technology = {
+				EW_DAK_units_tech = 1
 			}
 			division_template = {
 				name = "DAK-Panzer-Division"
@@ -1963,13 +1953,8 @@ country_event = {
 					interwar_antitank = 1
 				}
 			}
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
-					EW_DAK_units_tech = 1
-				}
+			set_technology = {
+				EW_DAK_units_tech = 1
 			}
 			division_template = {
 				name = "DAK-Panzer-Division"
@@ -2094,14 +2079,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
+			set_technology = {
 					EW_GD_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "GD-Panzergrenadier-Division"
 				division_names_group = GER_MOT_02
@@ -2155,14 +2135,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
+			set_technology = {
 					EW_GD_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "GD-Panzergrenadier-Division"
 				division_names_group = GER_MOT_02
@@ -2227,14 +2202,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_PL_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "PL-Panzer-Division"
 				division_names_group = GER_Arm_01
@@ -2288,14 +2258,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
+			set_technology = {
 					EW_PL_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "PL-Panzer-Division"
 				division_names_group = GER_MOT_02
@@ -2360,14 +2325,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_HG_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "HG-Panzer-Division"
 				division_names_group = GER_Arm_01
@@ -2421,14 +2381,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no
-				}
-				set_technology = {
+			set_technology = {
 					EW_HG_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "HG-Panzer-Division"
 				division_names_group = GER_MOT_02
@@ -2621,14 +2576,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_BR_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Brandenburger-Regiment"
 				regiments = {
@@ -2686,14 +2636,9 @@ country_event = {
 		army_experience = 5
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Luftwaffe_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Luftwaffen-Feld-Division"					# Represents Infanterie Welles 1-4
 				division_names_group = GER_Inf_01
@@ -2754,14 +2699,9 @@ country_event = {
 		army_experience = 5
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Kriegsmarine_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Marine-Infanterie-Division"
 				division_names_group = GER_Inf_01
@@ -2822,14 +2762,9 @@ country_event = {
 		army_experience = 5
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Orpo_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Polizei-Bataillone"
 				division_names_group = GER_Inf_01

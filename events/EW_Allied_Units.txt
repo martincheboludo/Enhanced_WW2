@@ -22,14 +22,9 @@ country_event = {
 		
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Commandos_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Royal Marine Commando Brigade"
 				division_names_group = ENG_INF_01
@@ -90,14 +85,9 @@ country_event = {
 		
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Grenadier_Guards_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Grenadier Guards Brigade"
 				division_names_group = ENG_INF_01
@@ -158,14 +148,9 @@ country_event = {
 		
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Paras_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Parachute Regiment Brigade"
 				division_names_group = ENG_INF_01
@@ -226,14 +211,9 @@ country_event = {
 		
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_SAS_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Special Air Service Brigade"
 				division_names_group = ENG_INF_01
@@ -294,14 +274,9 @@ country_event = {
 		
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_SBS_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Special Boat Service Brigade"
 				division_names_group = ENG_INF_01
@@ -359,14 +334,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_82_Airborne_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "82nd Airborne Division"
 				division_names_group = USA_INF_01
@@ -430,14 +400,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_First_Infantry_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "1st Infantry Division"
 				division_names_group = USA_INF_01
@@ -499,14 +464,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Marine_Raiders_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "USMC Raider Battalion"
 				division_names_group = USA_INF_01
@@ -561,14 +521,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Merylls_Marauders_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "5307th Composite Unit"
 				division_names_group = USA_INF_01
@@ -623,14 +578,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Paramarines_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "USMC Parachute Battalion"
 				division_names_group = USA_INF_01
@@ -687,14 +637,9 @@ country_event = {
 		army_experience = 5
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Rangers_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "Ranger Battalion"
 				division_names_group = USA_INF_01
@@ -750,14 +695,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_First_Airborne_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "101st Airborne Division"
 				division_names_group = USA_INF_01
@@ -880,14 +820,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			if  = {
-				limit  = {
-					 is_ai = no NOT = { has_global_flag = EW_Free_Divisions } 
-				}
-				set_technology = {
+			set_technology = {
 					EW_Special_Service_Force_units_tech = 1
 				}
-			}
 			division_template = {
 				name = "First Special Service Force"
 				division_names_group = USA_INF_01
