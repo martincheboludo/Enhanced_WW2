@@ -613,7 +613,7 @@ country_event = {
 
 }
 
-#British Proposes Joint Invasion
+#British Proposes Joint Invasion Persia Iran
 country_event = {
 	id = EW_Soviet_Country.8
 	title = EW_Soviet_Country.8.t
@@ -638,10 +638,9 @@ country_event = {
 			add_state_claim = 416
 		}
 		
-		create_wargoal = {			
-			expire = 100
+		create_wargoal = {
+			type = puppet_wargoal_focus
 			target = PER
-			type = annex_everything
 		}
 		
 		FROM = {
@@ -701,10 +700,9 @@ country_event = {
 			add_state_claim = 410
 		}
 		
-		create_wargoal = {			
-			expire = 100
+		create_wargoal = {
+			type = puppet_wargoal_focus
 			target = PER
-			type = annex_everything
 		}
 
 	}
@@ -727,10 +725,9 @@ country_event = {
 			factor = 1000
 		}
 		
-		create_wargoal = {			
-			expire = 100
+		create_wargoal = {
+			type = puppet_wargoal_focus
 			target = PER
-			type = annex_everything
 		}
 
 	}

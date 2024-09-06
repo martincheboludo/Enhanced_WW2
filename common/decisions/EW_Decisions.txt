@@ -65,10 +65,9 @@ ENG_British_Invasion_of_Iraq = {
 		
 		remove_effect = {
 			clr_country_flag = EW_Operation
-			create_wargoal = {			
-				expire = 100
+			create_wargoal = {
+				type = puppet_wargoal_focus
 				target = IRQ
-				type = annex_everything
 			}
 		}
 	}
@@ -119,8 +118,9 @@ ENG_British_Invasion_of_Iraq = {
 				date < 1941.5.17
 			}
 			modifier = {
-				#If Iraq Isn't Controlled then No
+				#If Iraq and India Aren't Controlled then No
 				291 = { is_controlled_by_ROOT_or_ally = no }
+				444 = { is_controlled_by_ROOT_or_ally = no }
 				factor = 0
 			}
 		}
@@ -138,10 +138,9 @@ ENG_British_Invasion_of_Iraq = {
 				limit = {
 				SOV = { has_war_with = PER }
 				}
-				create_wargoal = {			
-					expire = 100
+				create_wargoal = {
+					type = puppet_wargoal_focus
 					target = PER
-					type = annex_everything
 				}
 			}
 			else = {
@@ -440,18 +439,36 @@ ENG_British_Invasion_of_Iraq = {
 			date > 1942.1.1
 			date < 1943.1.1
 			has_war_with = GER
-			country_exists = VIC
-			NOT = { has_war_with = VIC }
-			NOT = { is_in_faction_with = VIC }
 			surrender_progress < 0.1
-			459 = { is_controlled_by = VIC }
-			461 = { is_controlled_by = VIC }
+			
+			any_country_with_original_tag = {
+				original_tag_to_check = FRA
+				has_government = fascism
+				OR = {
+					is_subject_of = GER
+					has_focus_tree = vichy_french_focus
+				}
+				NOT = { has_war_with = GER }
+				NOT = { has_war_with = USA }
+				NOT = { is_in_faction_with = USA }
+				controls_state = 459
+				controls_state = 461
+			}
+			
 		}
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
-			NOT = { has_war_with = VIC }
-			country_exists = VIC
+			NOT = { has_country_flag = EW_Operation_Torch }
+			any_country_with_original_tag = {
+				original_tag_to_check = FRA
+				has_government = fascism
+				OR = {
+					is_subject_of = GER
+					has_focus_tree = vichy_french_focus
+				}
+				NOT = { has_war_with = GER }
+			}
 		}
 
 		cost = 0
@@ -467,7 +484,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 
 		days_remove = 7
-		war_with_on_remove = VIC
+		war_with_on_remove = FRA
 
 		complete_effect = {
 			set_country_flag = EW_Operation
@@ -475,11 +492,22 @@ ENG_British_Invasion_of_Iraq = {
 		
 		remove_effect = {
 			clr_country_flag = EW_Operation
-			create_wargoal = {			
-				expire = 100
-				target = VIC
-				type = annex_everything
-			}
+			random_other_country = {
+					limit = {
+						original_tag = FRA
+						has_government = fascism
+						OR = {
+							is_subject_of = GER
+							has_focus_tree = vichy_french_focus
+						}
+					}
+					USA = {
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = PREV
+						}
+					}
+				}
 		}
 	}
 
@@ -492,14 +520,8 @@ ENG_British_Invasion_of_Iraq = {
 			date < 1943.1.1
 			surrender_progress < 0.1
 			has_war_with = GER
-			any_country = {
-				controls_state = 459
-				has_war_with = USA
-			}
-			any_country = {
-				controls_state = 461
-				has_war_with = USA
-			}
+			459 = { CONTROLLER = { has_war_with = ROOT } }
+			461 = { CONTROLLER = { has_war_with = ROOT } }
 		}
 		
 		allowed = {
@@ -552,6 +574,7 @@ ENG_British_Invasion_of_Iraq = {
 
 		complete_effect = {
 			set_country_flag = EW_Operation
+			set_country_flag = EW_Operation_Torch
 			if = {
 				limit = {
 					USA = { is_ai = yes }
