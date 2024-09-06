@@ -2346,6 +2346,16 @@ GER_EW_Decisions = {
 			tag = ENG
 			attack_bonus_against = 0.25
 		}
+		
+		targeted_modifier = {
+			tag = CAN
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = USA
+			attack_bonus_against = 0.25
+		}
 
 		
 		modifier = { 
