@@ -1,25 +1,99 @@
 division_template = {
-	name = "Airborne Division"
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	division_names_group = USA_INF_01
 
 	regiments = {
-		paratrooper = { x = 0 y = 0 }
-		paratrooper = { x = 0 y = 1 }
-		paratrooper = { x = 0 y = 2 }
-
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-		paratrooper = { x = 1 y = 2 }
-
-		paratrooper = { x = 2 y = 0 }
-		paratrooper = { x = 2 y = 1 }
-		paratrooper = { x = 2 y = 2 }
-
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "82nd Airborne Division"
+	division_names_group = USA_INF_01
+	regiments = {
+		USA_82nd_airborne = { x = 0 y = 0 }
+		USA_82nd_airborne = { x = 0 y = 1 }
+		USA_82nd_airborne = { x = 0 y = 2 }
+		USA_82nd_airborne = { x = 1 y = 0 }
+		USA_82nd_airborne = { x = 1 y = 1 }
+		USA_82nd_airborne = { x = 1 y = 2 }
+		USA_82nd_airborne = { x = 2 y = 0 }
+		USA_82nd_airborne = { x = 2 y = 1 }
+		USA_82nd_airborne = { x = 2 y = 2 }
+		USA_82nd_airborne = { x = 3 y = 0 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		anti_air = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
 	}
-	priority = 1
+	priority = 2
+	is_locked = no	
+	}
+	
+division_template = {
+	name = "101st Airborne Division"
+	division_names_group = USA_INF_01
+	regiments = {
+		USA_screaming_eagles = { x = 0 y = 0 }
+		USA_screaming_eagles = { x = 0 y = 1 }
+		USA_screaming_eagles = { x = 0 y = 2 }
+		USA_screaming_eagles = { x = 1 y = 0 }
+		USA_screaming_eagles = { x = 1 y = 1 }
+		USA_screaming_eagles = { x = 1 y = 2 }
+		USA_screaming_eagles = { x = 2 y = 0 }
+		USA_screaming_eagles = { x = 2 y = 1 }
+		USA_screaming_eagles = { x = 2 y = 2 }
+		USA_screaming_eagles = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+	priority = 2
+	is_locked = no	
+}
+division_template = {
+	name = "1st Infantry Division"
+	division_names_group = USA_INF_01
+	regiments = {
+		USA_first_infantry = { x = 0 y = 0 }
+		USA_first_infantry = { x = 0 y = 1 }
+		USA_first_infantry = { x = 0 y = 2 }
+		USA_first_infantry = { x = 1 y = 0 }
+		USA_first_infantry = { x = 1 y = 1 }
+		USA_first_infantry = { x = 1 y = 2 }
+		USA_first_infantry = { x = 2 y = 0 }
+		USA_first_infantry = { x = 2 y = 1 }
+		USA_first_infantry = { x = 2 y = 2 }
+		USA_first_infantry = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+	priority = 2
+	is_locked = no
 }
 
 units = {
@@ -44,16 +118,16 @@ units = {
 	division = {
 		name = "82nd Airborne Division"
 		location = 9550 # Normandy
-		division_template = "Airborne Division"
-		start_experience_factor = 0.3
+		division_template = "82nd Airborne Division"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 
 	division = {
 		name = "101st Airborne Division"
 		location = 9578 # Normandy
-		division_template = "Airborne Division"
-		start_experience_factor = 0.3
+		division_template = "101st Airborne Division"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 
@@ -61,8 +135,8 @@ units = {
 	division = {
 		name = "1st Infantry Division"
 		location = 11535 # Normandy
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		division_template = "1st Infantry Division"
+		start_experience_factor = 0.8
 		start_equipment_factor = 1
 	}
 

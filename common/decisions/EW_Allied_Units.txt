@@ -24,7 +24,8 @@ EW_Create_Allied_Units_6 = {
     }
 
     ai_will_do = {
-        factor = 1000
+		#AI Spawns it through Operation Overlord
+        factor = 0
 		modifier = {
 			factor = 0
 			date < 1942.08.15
@@ -62,7 +63,8 @@ EW_Create_Allied_Units_7 = {
     }
 
     ai_will_do = {
-        factor = 1000
+		#AI Spawns it through Operation Overlord
+        factor = 0
     }
 
     visible = {}
@@ -254,7 +256,8 @@ EW_Create_Allied_Units_12 = {
     }
 
     ai_will_do = {
-        factor = 1000
+		#AI Spawns it through Operation Overlord
+        factor = 0
 		modifier = {
 			factor = 0
 			date < 1942.08.16
@@ -348,7 +351,8 @@ EW_Create_Allied_Units_14 = {
     }
 
     ai_will_do = {
-        factor = 1000
+		#AI Spawns it through Operation Dragoon
+        factor = 0
 		modifier = {
 			factor = 0
 			date < 1942.07.09
