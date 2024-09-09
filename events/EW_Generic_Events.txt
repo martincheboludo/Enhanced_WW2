@@ -35,18 +35,8 @@ country_event = {
 	}
 	
 	option = {
-		#Normal Mode
-		name = EW_Generic_Events_Country.1.c
-
-		ai_chance = {
-			factor = 0
-		}
-
-	}
-	
-	option = {
 		#Hard Mode
-		name = EW_Generic_Events_Country.1.e
+		name = EW_Generic_Events_Country.1.c
 
 		ai_chance = {
 			factor = 0

@@ -60,7 +60,7 @@ show_hide_unit_decisions_RED = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -71,7 +71,7 @@ show_hide_unit_decisions_RED = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -91,8 +91,10 @@ show_hide_unit_decisions_RED = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.1
@@ -106,7 +108,7 @@ RED_Create_Guard_Units_2 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -117,7 +119,7 @@ RED_Create_Guard_Units_2 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -137,8 +139,10 @@ RED_Create_Guard_Units_2 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.2
@@ -152,7 +156,7 @@ RED_Create_Guard_Units_3 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -163,7 +167,7 @@ RED_Create_Guard_Units_3 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -183,8 +187,10 @@ RED_Create_Guard_Units_3 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.3
@@ -198,7 +204,7 @@ RED_Create_Guard_Units_4 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -209,7 +215,7 @@ RED_Create_Guard_Units_4 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -229,8 +235,10 @@ RED_Create_Guard_Units_4 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.4
@@ -244,7 +252,7 @@ RED_Create_Guard_Units_5 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -255,7 +263,7 @@ RED_Create_Guard_Units_5 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -275,8 +283,10 @@ RED_Create_Guard_Units_5 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.5
@@ -290,7 +300,7 @@ RED_Create_Guard_Units_6 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -301,7 +311,7 @@ RED_Create_Guard_Units_6 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -321,8 +331,10 @@ RED_Create_Guard_Units_6 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.6
@@ -336,7 +348,7 @@ RED_Create_Guard_Units_7 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -347,7 +359,7 @@ RED_Create_Guard_Units_7 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -367,8 +379,10 @@ RED_Create_Guard_Units_7 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.7
@@ -382,7 +396,7 @@ RED_Create_Guard_Units_8 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -393,7 +407,7 @@ RED_Create_Guard_Units_8 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -413,8 +427,10 @@ RED_Create_Guard_Units_8 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.8
@@ -428,7 +444,7 @@ RED_Create_Guard_Units_9 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -439,7 +455,7 @@ RED_Create_Guard_Units_9 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -459,8 +475,10 @@ RED_Create_Guard_Units_9 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.9
@@ -474,7 +492,7 @@ RED_Create_Guard_Units_10 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -485,7 +503,7 @@ RED_Create_Guard_Units_10 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -505,8 +523,10 @@ RED_Create_Guard_Units_10 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.10
@@ -520,7 +540,7 @@ RED_Create_Guard_Units_11 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -531,7 +551,7 @@ RED_Create_Guard_Units_11 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -551,8 +571,10 @@ RED_Create_Guard_Units_11 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.11
@@ -566,7 +588,7 @@ RED_Create_Guard_Units_12 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -577,7 +599,7 @@ RED_Create_Guard_Units_12 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -597,8 +619,10 @@ RED_Create_Guard_Units_12 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.12
@@ -612,7 +636,7 @@ RED_Create_Guard_Units_13 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -623,7 +647,7 @@ RED_Create_Guard_Units_13 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -643,8 +667,10 @@ RED_Create_Guard_Units_13 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.13
@@ -658,7 +684,7 @@ RED_Create_Guard_Units_14 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -669,7 +695,7 @@ RED_Create_Guard_Units_14 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -689,8 +715,10 @@ RED_Create_Guard_Units_14 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.14
@@ -704,7 +732,7 @@ RED_Create_Guard_Units_15 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -715,7 +743,7 @@ RED_Create_Guard_Units_15 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -735,8 +763,10 @@ RED_Create_Guard_Units_15 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.15
@@ -750,7 +780,7 @@ RED_Create_Guard_Units_16 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -761,7 +791,7 @@ RED_Create_Guard_Units_16 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -781,8 +811,10 @@ RED_Create_Guard_Units_16 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.16
@@ -796,7 +828,7 @@ RED_Create_Guard_Units_17 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -807,7 +839,7 @@ RED_Create_Guard_Units_17 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -827,8 +859,10 @@ RED_Create_Guard_Units_17 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.17
@@ -842,7 +876,7 @@ RED_Create_Guard_Units_18 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -853,7 +887,7 @@ RED_Create_Guard_Units_18 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -873,8 +907,10 @@ RED_Create_Guard_Units_18 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.18
@@ -888,7 +924,7 @@ RED_Create_Guard_Units_19 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -899,7 +935,7 @@ RED_Create_Guard_Units_19 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -919,8 +955,10 @@ RED_Create_Guard_Units_19 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.19
@@ -934,7 +972,7 @@ RED_Create_Guard_Units_20 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -945,7 +983,7 @@ RED_Create_Guard_Units_20 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -965,8 +1003,10 @@ RED_Create_Guard_Units_20 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.20
@@ -980,7 +1020,7 @@ RED_Create_Guard_Units_21 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -991,7 +1031,7 @@ RED_Create_Guard_Units_21 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1011,8 +1051,10 @@ RED_Create_Guard_Units_21 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.21
@@ -1026,7 +1068,7 @@ RED_Create_Guard_Units_22 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1037,7 +1079,7 @@ RED_Create_Guard_Units_22 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1057,8 +1099,10 @@ RED_Create_Guard_Units_22 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.22
@@ -1072,7 +1116,7 @@ RED_Create_Guard_Units_23 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1083,7 +1127,7 @@ RED_Create_Guard_Units_23 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1103,8 +1147,10 @@ RED_Create_Guard_Units_23 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.23
@@ -1118,7 +1164,7 @@ RED_Create_Guard_Units_24 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1129,7 +1175,7 @@ RED_Create_Guard_Units_24 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1149,8 +1195,10 @@ RED_Create_Guard_Units_24 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.24
@@ -1164,7 +1212,7 @@ RED_Create_Guard_Units_25 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1175,7 +1223,7 @@ RED_Create_Guard_Units_25 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1195,8 +1243,10 @@ RED_Create_Guard_Units_25 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.25
@@ -1210,7 +1260,7 @@ RED_Create_Guard_Units_26 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1221,7 +1271,7 @@ RED_Create_Guard_Units_26 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1241,8 +1291,10 @@ RED_Create_Guard_Units_26 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.26
@@ -1256,7 +1308,7 @@ RED_Create_Guard_Units_27 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1267,7 +1319,7 @@ RED_Create_Guard_Units_27 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1287,8 +1339,10 @@ RED_Create_Guard_Units_27 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.27
@@ -1302,7 +1356,7 @@ RED_Create_Guard_Units_28 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1313,7 +1367,7 @@ RED_Create_Guard_Units_28 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1333,8 +1387,10 @@ RED_Create_Guard_Units_28 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.28
@@ -1348,7 +1404,7 @@ RED_Create_Guard_Units_29 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1359,7 +1415,7 @@ RED_Create_Guard_Units_29 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1379,8 +1435,10 @@ RED_Create_Guard_Units_29 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.29
@@ -1394,7 +1452,7 @@ RED_Create_Guard_Units_30 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1405,7 +1463,7 @@ RED_Create_Guard_Units_30 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1425,8 +1483,10 @@ RED_Create_Guard_Units_30 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.30
@@ -1440,7 +1500,7 @@ RED_Create_Guard_Units_31 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1451,7 +1511,7 @@ RED_Create_Guard_Units_31 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1471,8 +1531,10 @@ RED_Create_Guard_Units_31 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.31
@@ -1486,7 +1548,7 @@ RED_Create_Guard_Units_32 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1497,7 +1559,7 @@ RED_Create_Guard_Units_32 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1517,8 +1579,10 @@ RED_Create_Guard_Units_32 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.32
@@ -1532,7 +1596,7 @@ RED_Create_Guard_Units_33 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1543,7 +1607,7 @@ RED_Create_Guard_Units_33 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1563,8 +1627,10 @@ RED_Create_Guard_Units_33 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.33
@@ -1578,7 +1644,7 @@ RED_Create_Guard_Units_34 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1589,7 +1655,7 @@ RED_Create_Guard_Units_34 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1609,8 +1675,10 @@ RED_Create_Guard_Units_34 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.34
@@ -1624,7 +1692,7 @@ RED_Create_Guard_Units_35 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1635,7 +1703,7 @@ RED_Create_Guard_Units_35 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1655,8 +1723,10 @@ RED_Create_Guard_Units_35 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.35
@@ -1670,7 +1740,7 @@ RED_Create_Guard_Units_36 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1681,7 +1751,7 @@ RED_Create_Guard_Units_36 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1701,8 +1771,10 @@ RED_Create_Guard_Units_36 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.36
@@ -1716,7 +1788,7 @@ RED_Create_Guard_Units_37 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1727,7 +1799,7 @@ RED_Create_Guard_Units_37 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1747,8 +1819,10 @@ RED_Create_Guard_Units_37 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.37
@@ -1762,7 +1836,7 @@ RED_Create_Guard_Units_38 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1773,7 +1847,7 @@ RED_Create_Guard_Units_38 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1793,8 +1867,10 @@ RED_Create_Guard_Units_38 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.38
@@ -1808,7 +1884,7 @@ RED_Create_Guard_Units_39 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1819,7 +1895,7 @@ RED_Create_Guard_Units_39 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1839,8 +1915,10 @@ RED_Create_Guard_Units_39 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.39
@@ -1854,7 +1932,7 @@ RED_Create_Guard_Units_40 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1865,7 +1943,7 @@ RED_Create_Guard_Units_40 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1885,8 +1963,10 @@ RED_Create_Guard_Units_40 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.40
@@ -1900,7 +1980,7 @@ RED_Create_Guard_Units_41 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1911,7 +1991,7 @@ RED_Create_Guard_Units_41 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1931,8 +2011,10 @@ RED_Create_Guard_Units_41 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.41
@@ -1946,7 +2028,7 @@ RED_Create_Guard_Units_42 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -1957,7 +2039,7 @@ RED_Create_Guard_Units_42 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1977,8 +2059,10 @@ RED_Create_Guard_Units_42 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.42
@@ -1992,7 +2076,7 @@ RED_Create_Guard_Units_43 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2003,7 +2087,7 @@ RED_Create_Guard_Units_43 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2023,8 +2107,10 @@ RED_Create_Guard_Units_43 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.43
@@ -2038,7 +2124,7 @@ RED_Create_Guard_Units_44 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2049,7 +2135,7 @@ RED_Create_Guard_Units_44 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2069,8 +2155,10 @@ RED_Create_Guard_Units_44 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.44
@@ -2084,7 +2172,7 @@ RED_Create_Guard_Units_45 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2095,7 +2183,7 @@ RED_Create_Guard_Units_45 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2115,8 +2203,10 @@ RED_Create_Guard_Units_45 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.45
@@ -2130,7 +2220,7 @@ RED_Create_Guard_Units_46 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2141,7 +2231,7 @@ RED_Create_Guard_Units_46 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2161,8 +2251,10 @@ RED_Create_Guard_Units_46 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.46
@@ -2176,7 +2268,7 @@ RED_Create_Guard_Units_47 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2187,7 +2279,7 @@ RED_Create_Guard_Units_47 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2207,8 +2299,10 @@ RED_Create_Guard_Units_47 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.47
@@ -2222,7 +2316,7 @@ RED_Create_Guard_Units_48 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2233,7 +2327,7 @@ RED_Create_Guard_Units_48 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2253,8 +2347,10 @@ RED_Create_Guard_Units_48 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.48
@@ -2268,7 +2364,7 @@ RED_Create_Guard_Units_49 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2279,7 +2375,7 @@ RED_Create_Guard_Units_49 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2299,8 +2395,10 @@ RED_Create_Guard_Units_49 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.49
@@ -2314,7 +2412,7 @@ RED_Create_Guard_Units_50 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2325,7 +2423,7 @@ RED_Create_Guard_Units_50 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2345,8 +2443,10 @@ RED_Create_Guard_Units_50 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.50
@@ -2360,7 +2460,7 @@ RED_Create_Guard_Units_51 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2371,7 +2471,7 @@ RED_Create_Guard_Units_51 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2391,8 +2491,10 @@ RED_Create_Guard_Units_51 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.51
@@ -2406,7 +2508,7 @@ RED_Create_Guard_Units_52 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2417,7 +2519,7 @@ RED_Create_Guard_Units_52 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2437,8 +2539,10 @@ RED_Create_Guard_Units_52 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.52
@@ -2452,7 +2556,7 @@ RED_Create_Guard_Units_53 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2463,7 +2567,7 @@ RED_Create_Guard_Units_53 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2483,8 +2587,10 @@ RED_Create_Guard_Units_53 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.53
@@ -2498,7 +2604,7 @@ RED_Create_Guard_Units_54 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2509,7 +2615,7 @@ RED_Create_Guard_Units_54 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2529,8 +2635,10 @@ RED_Create_Guard_Units_54 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.54
@@ -2544,7 +2652,7 @@ RED_Create_Guard_Units_55 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2555,7 +2663,7 @@ RED_Create_Guard_Units_55 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2575,8 +2683,10 @@ RED_Create_Guard_Units_55 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.55
@@ -2590,7 +2700,7 @@ RED_Create_Guard_Units_56 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2601,7 +2711,7 @@ RED_Create_Guard_Units_56 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2621,8 +2731,10 @@ RED_Create_Guard_Units_56 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.56
@@ -2636,7 +2748,7 @@ RED_Create_Guard_Units_57 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2647,7 +2759,7 @@ RED_Create_Guard_Units_57 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2667,8 +2779,10 @@ RED_Create_Guard_Units_57 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.57
@@ -2682,7 +2796,7 @@ RED_Create_Guard_Units_58 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2693,7 +2807,7 @@ RED_Create_Guard_Units_58 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2713,8 +2827,10 @@ RED_Create_Guard_Units_58 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.58
@@ -2728,7 +2844,7 @@ RED_Create_Guard_Units_59 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2739,7 +2855,7 @@ RED_Create_Guard_Units_59 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2759,8 +2875,10 @@ RED_Create_Guard_Units_59 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.59
@@ -2774,7 +2892,7 @@ RED_Create_Guard_Units_60 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2785,7 +2903,7 @@ RED_Create_Guard_Units_60 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2805,8 +2923,10 @@ RED_Create_Guard_Units_60 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.60
@@ -2820,7 +2940,7 @@ RED_Create_Guard_Units_61 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2831,7 +2951,7 @@ RED_Create_Guard_Units_61 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2851,8 +2971,10 @@ RED_Create_Guard_Units_61 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.61
@@ -2866,7 +2988,7 @@ RED_Create_Guard_Units_62 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2877,7 +2999,7 @@ RED_Create_Guard_Units_62 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2897,8 +3019,10 @@ RED_Create_Guard_Units_62 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.62
@@ -2912,7 +3036,7 @@ RED_Create_Guard_Units_63 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2923,7 +3047,7 @@ RED_Create_Guard_Units_63 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2943,8 +3067,10 @@ RED_Create_Guard_Units_63 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.63
@@ -2958,7 +3084,7 @@ RED_Create_Guard_Units_64 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -2969,7 +3095,7 @@ RED_Create_Guard_Units_64 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -2989,8 +3115,10 @@ RED_Create_Guard_Units_64 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.64
@@ -3004,7 +3132,7 @@ RED_Create_Guard_Units_65 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3015,7 +3143,7 @@ RED_Create_Guard_Units_65 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3035,8 +3163,10 @@ RED_Create_Guard_Units_65 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.65
@@ -3050,7 +3180,7 @@ RED_Create_Guard_Units_66 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3061,7 +3191,7 @@ RED_Create_Guard_Units_66 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3081,8 +3211,10 @@ RED_Create_Guard_Units_66 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.66
@@ -3096,7 +3228,7 @@ RED_Create_Guard_Units_67 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3107,7 +3239,7 @@ RED_Create_Guard_Units_67 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3127,8 +3259,10 @@ RED_Create_Guard_Units_67 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.67
@@ -3142,7 +3276,7 @@ RED_Create_Guard_Units_68 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3153,7 +3287,7 @@ RED_Create_Guard_Units_68 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3173,8 +3307,10 @@ RED_Create_Guard_Units_68 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.68
@@ -3188,7 +3324,7 @@ RED_Create_Guard_Units_69 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3199,7 +3335,7 @@ RED_Create_Guard_Units_69 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3219,8 +3355,10 @@ RED_Create_Guard_Units_69 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.69
@@ -3234,7 +3372,7 @@ RED_Create_Guard_Units_70 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3245,7 +3383,7 @@ RED_Create_Guard_Units_70 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3265,8 +3403,10 @@ RED_Create_Guard_Units_70 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
 
 
         SOV = {
@@ -3282,7 +3422,7 @@ RED_Create_Guard_Units_71 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3293,7 +3433,7 @@ RED_Create_Guard_Units_71 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3313,8 +3453,10 @@ RED_Create_Guard_Units_71 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.71
@@ -3328,7 +3470,7 @@ RED_Create_Guard_Units_72 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3339,7 +3481,7 @@ RED_Create_Guard_Units_72 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3359,8 +3501,10 @@ RED_Create_Guard_Units_72 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.72
@@ -3374,7 +3518,7 @@ RED_Create_Guard_Units_73 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3385,7 +3529,7 @@ RED_Create_Guard_Units_73 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3405,8 +3549,10 @@ RED_Create_Guard_Units_73 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.73
@@ -3420,7 +3566,7 @@ RED_Create_Guard_Units_74 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3431,7 +3577,7 @@ RED_Create_Guard_Units_74 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3451,8 +3597,10 @@ RED_Create_Guard_Units_74 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.74
@@ -3466,7 +3614,7 @@ RED_Create_Guard_Units_75 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3477,7 +3625,7 @@ RED_Create_Guard_Units_75 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3497,8 +3645,10 @@ RED_Create_Guard_Units_75 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.75
@@ -3512,7 +3662,7 @@ RED_Create_Guard_Units_76 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3523,7 +3673,7 @@ RED_Create_Guard_Units_76 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3543,8 +3693,10 @@ RED_Create_Guard_Units_76 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.76
@@ -3558,7 +3710,7 @@ RED_Create_Guard_Units_77 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3569,7 +3721,7 @@ RED_Create_Guard_Units_77 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3589,8 +3741,10 @@ RED_Create_Guard_Units_77 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.77
@@ -3604,7 +3758,7 @@ RED_Create_Guard_Units_78 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3615,7 +3769,7 @@ RED_Create_Guard_Units_78 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3635,8 +3789,10 @@ RED_Create_Guard_Units_78 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.78
@@ -3650,7 +3806,7 @@ RED_Create_Guard_Units_79 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3661,7 +3817,7 @@ RED_Create_Guard_Units_79 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3681,8 +3837,10 @@ RED_Create_Guard_Units_79 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.79
@@ -3696,7 +3854,7 @@ RED_Create_Guard_Units_80 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3707,7 +3865,7 @@ RED_Create_Guard_Units_80 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3727,8 +3885,10 @@ RED_Create_Guard_Units_80 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.80
@@ -3742,7 +3902,7 @@ RED_Create_Guard_Units_81 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3753,7 +3913,7 @@ RED_Create_Guard_Units_81 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3773,8 +3933,10 @@ RED_Create_Guard_Units_81 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.81
@@ -3788,7 +3950,7 @@ RED_Create_Guard_Units_82 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3799,7 +3961,7 @@ RED_Create_Guard_Units_82 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3819,8 +3981,10 @@ RED_Create_Guard_Units_82 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.82
@@ -3834,7 +3998,7 @@ RED_Create_Guard_Units_83 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3845,7 +4009,7 @@ RED_Create_Guard_Units_83 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3865,8 +4029,10 @@ RED_Create_Guard_Units_83 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.83
@@ -3880,7 +4046,7 @@ RED_Create_Guard_Units_84 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3891,7 +4057,7 @@ RED_Create_Guard_Units_84 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3911,8 +4077,10 @@ RED_Create_Guard_Units_84 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.84
@@ -3926,7 +4094,7 @@ RED_Create_Guard_Units_85 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3937,7 +4105,7 @@ RED_Create_Guard_Units_85 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -3957,8 +4125,10 @@ RED_Create_Guard_Units_85 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.85
@@ -3972,7 +4142,7 @@ RED_Create_Guard_Units_86 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -3983,7 +4153,7 @@ RED_Create_Guard_Units_86 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4003,8 +4173,10 @@ RED_Create_Guard_Units_86 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.86
@@ -4018,7 +4190,7 @@ RED_Create_Guard_Units_87 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4029,7 +4201,7 @@ RED_Create_Guard_Units_87 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4049,8 +4221,10 @@ RED_Create_Guard_Units_87 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.87
@@ -4064,7 +4238,7 @@ RED_Create_Guard_Units_88 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4075,7 +4249,7 @@ RED_Create_Guard_Units_88 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4095,8 +4269,10 @@ RED_Create_Guard_Units_88 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.88
@@ -4110,7 +4286,7 @@ RED_Create_Guard_Units_89 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4121,7 +4297,7 @@ RED_Create_Guard_Units_89 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4141,8 +4317,10 @@ RED_Create_Guard_Units_89 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.89
@@ -4156,7 +4334,7 @@ RED_Create_Guard_Units_90 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4167,7 +4345,7 @@ RED_Create_Guard_Units_90 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4187,10 +4365,11 @@ RED_Create_Guard_Units_90 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
-
-
+    remove_effect = { 
+		clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.90
@@ -4204,7 +4383,7 @@ RED_Create_Guard_Units_91 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4215,7 +4394,7 @@ RED_Create_Guard_Units_91 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4235,8 +4414,10 @@ RED_Create_Guard_Units_91 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.91
@@ -4250,7 +4431,7 @@ RED_Create_Guard_Units_92 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4261,7 +4442,7 @@ RED_Create_Guard_Units_92 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4281,8 +4462,10 @@ RED_Create_Guard_Units_92 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.92
@@ -4296,7 +4479,7 @@ RED_Create_Guard_Units_93 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4307,7 +4490,7 @@ RED_Create_Guard_Units_93 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4327,8 +4510,10 @@ RED_Create_Guard_Units_93 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.93
@@ -4342,7 +4527,7 @@ RED_Create_Guard_Units_94 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4353,7 +4538,7 @@ RED_Create_Guard_Units_94 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4373,8 +4558,10 @@ RED_Create_Guard_Units_94 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.94
@@ -4388,7 +4575,7 @@ RED_Create_Guard_Units_95 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4399,7 +4586,7 @@ RED_Create_Guard_Units_95 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4419,8 +4606,10 @@ RED_Create_Guard_Units_95 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.95
@@ -4434,7 +4623,7 @@ RED_Create_Guard_Units_96 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4445,7 +4634,7 @@ RED_Create_Guard_Units_96 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4465,8 +4654,10 @@ RED_Create_Guard_Units_96 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.96
@@ -4480,7 +4671,7 @@ RED_Create_Guard_Units_97 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4491,7 +4682,7 @@ RED_Create_Guard_Units_97 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4511,8 +4702,10 @@ RED_Create_Guard_Units_97 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.97
@@ -4526,7 +4719,7 @@ RED_Create_Guard_Units_98 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4537,7 +4730,7 @@ RED_Create_Guard_Units_98 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4557,8 +4750,10 @@ RED_Create_Guard_Units_98 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.98
@@ -4572,7 +4767,7 @@ RED_Create_Guard_Units_99 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4583,7 +4778,7 @@ RED_Create_Guard_Units_99 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4603,8 +4798,10 @@ RED_Create_Guard_Units_99 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.99
@@ -4618,7 +4815,7 @@ RED_Create_Guard_Units_100 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4629,7 +4826,7 @@ RED_Create_Guard_Units_100 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4649,8 +4846,10 @@ RED_Create_Guard_Units_100 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
 
 
         SOV = {
@@ -4666,7 +4865,7 @@ RED_Create_Guard_Units_101 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4677,7 +4876,7 @@ RED_Create_Guard_Units_101 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4697,8 +4896,10 @@ RED_Create_Guard_Units_101 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.101
@@ -4712,7 +4913,7 @@ RED_Create_Guard_Units_102 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4723,7 +4924,7 @@ RED_Create_Guard_Units_102 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4743,8 +4944,10 @@ RED_Create_Guard_Units_102 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.102
@@ -4758,7 +4961,7 @@ RED_Create_Guard_Units_103 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4769,7 +4972,7 @@ RED_Create_Guard_Units_103 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4789,8 +4992,10 @@ RED_Create_Guard_Units_103 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.103
@@ -4804,7 +5009,7 @@ RED_Create_Guard_Units_104 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4815,7 +5020,7 @@ RED_Create_Guard_Units_104 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4835,8 +5040,10 @@ RED_Create_Guard_Units_104 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.104
@@ -4850,7 +5057,7 @@ RED_Create_Guard_Units_105 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4861,7 +5068,7 @@ RED_Create_Guard_Units_105 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4881,8 +5088,10 @@ RED_Create_Guard_Units_105 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.105
@@ -4896,7 +5105,7 @@ RED_Create_Guard_Units_106 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4907,7 +5116,7 @@ RED_Create_Guard_Units_106 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4927,8 +5136,10 @@ RED_Create_Guard_Units_106 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.106
@@ -4942,7 +5153,7 @@ RED_Create_Guard_Units_107 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4953,7 +5164,7 @@ RED_Create_Guard_Units_107 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -4973,8 +5184,10 @@ RED_Create_Guard_Units_107 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.107
@@ -4988,7 +5201,7 @@ RED_Create_Guard_Units_108 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -4999,7 +5212,7 @@ RED_Create_Guard_Units_108 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5019,8 +5232,10 @@ RED_Create_Guard_Units_108 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.108
@@ -5034,7 +5249,7 @@ RED_Create_Guard_Units_109 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5045,7 +5260,7 @@ RED_Create_Guard_Units_109 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5065,8 +5280,10 @@ RED_Create_Guard_Units_109 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.109
@@ -5080,7 +5297,7 @@ RED_Create_Guard_Units_110 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5091,7 +5308,7 @@ RED_Create_Guard_Units_110 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5111,8 +5328,10 @@ RED_Create_Guard_Units_110 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
 
 
         SOV = {
@@ -5128,7 +5347,7 @@ RED_Create_Guard_Units_111 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5139,7 +5358,7 @@ RED_Create_Guard_Units_111 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5159,8 +5378,10 @@ RED_Create_Guard_Units_111 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.111
@@ -5174,7 +5395,7 @@ RED_Create_Guard_Units_112 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5185,7 +5406,7 @@ RED_Create_Guard_Units_112 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5205,8 +5426,10 @@ RED_Create_Guard_Units_112 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.112
@@ -5220,7 +5443,7 @@ RED_Create_Guard_Units_113 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5231,7 +5454,7 @@ RED_Create_Guard_Units_113 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5251,8 +5474,10 @@ RED_Create_Guard_Units_113 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.113
@@ -5266,7 +5491,7 @@ RED_Create_Guard_Units_114 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5277,7 +5502,7 @@ RED_Create_Guard_Units_114 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5297,8 +5522,10 @@ RED_Create_Guard_Units_114 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.114
@@ -5312,7 +5539,7 @@ RED_Create_Guard_Units_115 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5323,7 +5550,7 @@ RED_Create_Guard_Units_115 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5343,8 +5570,10 @@ RED_Create_Guard_Units_115 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.115
@@ -5358,7 +5587,7 @@ RED_Create_Guard_Units_116 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5369,7 +5598,7 @@ RED_Create_Guard_Units_116 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5389,8 +5618,10 @@ RED_Create_Guard_Units_116 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.116
@@ -5404,7 +5635,7 @@ RED_Create_Guard_Units_117 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5415,7 +5646,7 @@ RED_Create_Guard_Units_117 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5435,8 +5666,10 @@ RED_Create_Guard_Units_117 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.117
@@ -5450,7 +5683,7 @@ RED_Create_Guard_Units_118 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5461,7 +5694,7 @@ RED_Create_Guard_Units_118 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5481,8 +5714,10 @@ RED_Create_Guard_Units_118 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.118
@@ -5496,7 +5731,7 @@ RED_Create_Guard_Units_119 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5507,7 +5742,7 @@ RED_Create_Guard_Units_119 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5527,8 +5762,10 @@ RED_Create_Guard_Units_119 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.119
@@ -5542,7 +5779,7 @@ RED_Create_Guard_Units_120 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5553,7 +5790,7 @@ RED_Create_Guard_Units_120 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5573,8 +5810,10 @@ RED_Create_Guard_Units_120 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
 
 
         SOV = {
@@ -5590,7 +5829,7 @@ RED_Create_Guard_Units_121 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5601,7 +5840,7 @@ RED_Create_Guard_Units_121 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5621,8 +5860,10 @@ RED_Create_Guard_Units_121 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.121
@@ -5636,7 +5877,7 @@ RED_Create_Guard_Units_122 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5647,7 +5888,7 @@ RED_Create_Guard_Units_122 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5667,8 +5908,10 @@ RED_Create_Guard_Units_122 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.122
@@ -5682,7 +5925,7 @@ RED_Create_Guard_Units_123 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5693,7 +5936,7 @@ RED_Create_Guard_Units_123 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5713,8 +5956,10 @@ RED_Create_Guard_Units_123 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.123
@@ -5728,7 +5973,7 @@ RED_Create_Guard_Units_124 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5739,7 +5984,7 @@ RED_Create_Guard_Units_124 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5759,8 +6004,10 @@ RED_Create_Guard_Units_124 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.124
@@ -5774,7 +6021,7 @@ RED_Create_Guard_Units_125 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5785,7 +6032,7 @@ RED_Create_Guard_Units_125 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5805,8 +6052,10 @@ RED_Create_Guard_Units_125 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.125
@@ -5820,7 +6069,7 @@ RED_Create_Guard_Units_126 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5831,7 +6080,7 @@ RED_Create_Guard_Units_126 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5851,8 +6100,10 @@ RED_Create_Guard_Units_126 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.126
@@ -5866,7 +6117,7 @@ RED_Create_Guard_Units_127 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5877,7 +6128,7 @@ RED_Create_Guard_Units_127 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5897,8 +6148,10 @@ RED_Create_Guard_Units_127 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.127
@@ -5912,7 +6165,7 @@ RED_Create_Guard_Units_128 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5923,7 +6176,7 @@ RED_Create_Guard_Units_128 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5943,8 +6196,10 @@ RED_Create_Guard_Units_128 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.128
@@ -5958,7 +6213,7 @@ RED_Create_Guard_Units_129 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -5969,7 +6224,7 @@ RED_Create_Guard_Units_129 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5989,8 +6244,10 @@ RED_Create_Guard_Units_129 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.129
@@ -6006,7 +6263,7 @@ RED_Create_Guard_Units_130 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6017,7 +6274,7 @@ RED_Create_Guard_Units_130 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6038,8 +6295,10 @@ RED_Create_Guard_Units_130 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.130
@@ -6054,7 +6313,7 @@ RED_Create_Guard_Units_131 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6065,7 +6324,7 @@ RED_Create_Guard_Units_131 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6086,8 +6345,10 @@ RED_Create_Guard_Units_131 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.131
@@ -6102,7 +6363,7 @@ RED_Create_Guard_Units_132 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6113,7 +6374,7 @@ RED_Create_Guard_Units_132 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6134,8 +6395,10 @@ RED_Create_Guard_Units_132 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.132
@@ -6150,7 +6413,7 @@ RED_Create_Guard_Units_133 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6161,7 +6424,7 @@ RED_Create_Guard_Units_133 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6182,8 +6445,10 @@ RED_Create_Guard_Units_133 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.133
@@ -6198,7 +6463,7 @@ RED_Create_Guard_Units_134 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6209,7 +6474,7 @@ RED_Create_Guard_Units_134 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6230,8 +6495,10 @@ RED_Create_Guard_Units_134 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.134
@@ -6246,7 +6513,7 @@ RED_Create_Guard_Units_135 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6257,7 +6524,7 @@ RED_Create_Guard_Units_135 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6278,8 +6545,10 @@ RED_Create_Guard_Units_135 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.135
@@ -6294,7 +6563,7 @@ RED_Create_Guard_Units_136 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6305,7 +6574,7 @@ RED_Create_Guard_Units_136 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6326,8 +6595,10 @@ RED_Create_Guard_Units_136 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.136
@@ -6342,7 +6613,7 @@ RED_Create_Guard_Units_137 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6353,7 +6624,7 @@ RED_Create_Guard_Units_137 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6374,8 +6645,10 @@ RED_Create_Guard_Units_137 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.137
@@ -6390,7 +6663,7 @@ RED_Create_Guard_Units_138 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6401,7 +6674,7 @@ RED_Create_Guard_Units_138 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6422,8 +6695,10 @@ RED_Create_Guard_Units_138 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.138
@@ -6438,7 +6713,7 @@ RED_Create_Guard_Units_139 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6449,7 +6724,7 @@ RED_Create_Guard_Units_139 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6470,8 +6745,10 @@ RED_Create_Guard_Units_139 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.139
@@ -6486,7 +6763,7 @@ RED_Create_Guard_Units_140 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6497,7 +6774,7 @@ RED_Create_Guard_Units_140 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6518,8 +6795,10 @@ RED_Create_Guard_Units_140 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.140
@@ -6534,7 +6813,7 @@ RED_Create_Guard_Units_141 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6545,7 +6824,7 @@ RED_Create_Guard_Units_141 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6566,8 +6845,10 @@ RED_Create_Guard_Units_141 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.141
@@ -6582,7 +6863,7 @@ RED_Create_Guard_Units_142 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6593,7 +6874,7 @@ RED_Create_Guard_Units_142 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6614,8 +6895,10 @@ RED_Create_Guard_Units_142 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.142
@@ -6630,7 +6913,7 @@ RED_Create_Guard_Units_143 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6641,7 +6924,7 @@ RED_Create_Guard_Units_143 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6662,8 +6945,10 @@ RED_Create_Guard_Units_143 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.143
@@ -6678,7 +6963,7 @@ RED_Create_Guard_Units_144 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6689,7 +6974,7 @@ RED_Create_Guard_Units_144 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6710,8 +6995,10 @@ RED_Create_Guard_Units_144 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.144
@@ -6726,7 +7013,7 @@ RED_Create_Guard_Units_145 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6737,7 +7024,7 @@ RED_Create_Guard_Units_145 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6758,8 +7045,10 @@ RED_Create_Guard_Units_145 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.145
@@ -6774,7 +7063,7 @@ RED_Create_Guard_Units_146 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6785,7 +7074,7 @@ RED_Create_Guard_Units_146 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6806,8 +7095,10 @@ RED_Create_Guard_Units_146 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.146
@@ -6822,7 +7113,7 @@ RED_Create_Guard_Units_147 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6833,7 +7124,7 @@ RED_Create_Guard_Units_147 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6854,8 +7145,10 @@ RED_Create_Guard_Units_147 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.147
@@ -6870,7 +7163,7 @@ RED_Create_Guard_Units_148 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6881,7 +7174,7 @@ RED_Create_Guard_Units_148 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6902,8 +7195,10 @@ RED_Create_Guard_Units_148 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.148
@@ -6918,7 +7213,7 @@ RED_Create_Guard_Units_149 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6929,7 +7224,7 @@ RED_Create_Guard_Units_149 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6950,8 +7245,10 @@ RED_Create_Guard_Units_149 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.149
@@ -6965,7 +7262,7 @@ RED_Create_Guard_Units_150 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -6976,7 +7273,7 @@ RED_Create_Guard_Units_150 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -6997,8 +7294,10 @@ RED_Create_Guard_Units_150 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.150
@@ -7012,7 +7311,7 @@ RED_Create_Guard_Units_151 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7023,7 +7322,7 @@ RED_Create_Guard_Units_151 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7044,8 +7343,10 @@ RED_Create_Guard_Units_151 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.151
@@ -7059,7 +7360,7 @@ RED_Create_Guard_Units_152 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7070,7 +7371,7 @@ RED_Create_Guard_Units_152 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7091,8 +7392,10 @@ RED_Create_Guard_Units_152 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.152
@@ -7106,7 +7409,7 @@ RED_Create_Guard_Units_153 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7117,7 +7420,7 @@ RED_Create_Guard_Units_153 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7138,8 +7441,10 @@ RED_Create_Guard_Units_153 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.153
@@ -7153,7 +7458,7 @@ RED_Create_Guard_Units_154 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7164,7 +7469,7 @@ RED_Create_Guard_Units_154 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7185,8 +7490,10 @@ RED_Create_Guard_Units_154 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.154
@@ -7200,7 +7507,7 @@ RED_Create_Guard_Units_155 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7211,7 +7518,7 @@ RED_Create_Guard_Units_155 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7232,8 +7539,10 @@ RED_Create_Guard_Units_155 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.155
@@ -7247,7 +7556,7 @@ RED_Create_Guard_Units_156 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7258,7 +7567,7 @@ RED_Create_Guard_Units_156 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7279,8 +7588,10 @@ RED_Create_Guard_Units_156 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.156
@@ -7294,7 +7605,7 @@ RED_Create_Guard_Units_157 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7305,7 +7616,7 @@ RED_Create_Guard_Units_157 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7326,8 +7637,10 @@ RED_Create_Guard_Units_157 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.157
@@ -7341,7 +7654,7 @@ RED_Create_Guard_Units_158 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7352,7 +7665,7 @@ RED_Create_Guard_Units_158 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7373,8 +7686,10 @@ RED_Create_Guard_Units_158 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.158
@@ -7388,7 +7703,7 @@ RED_Create_Guard_Units_159 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7399,7 +7714,7 @@ RED_Create_Guard_Units_159 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7420,8 +7735,10 @@ RED_Create_Guard_Units_159 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.159
@@ -7435,7 +7752,7 @@ RED_Create_Guard_Units_160 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7446,7 +7763,7 @@ RED_Create_Guard_Units_160 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7467,8 +7784,10 @@ RED_Create_Guard_Units_160 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.160
@@ -7482,7 +7801,7 @@ RED_Create_Guard_Units_161 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7493,7 +7812,7 @@ RED_Create_Guard_Units_161 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7514,8 +7833,10 @@ RED_Create_Guard_Units_161 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.161
@@ -7530,7 +7851,7 @@ RED_Create_Guard_Units_162 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7541,7 +7862,7 @@ RED_Create_Guard_Units_162 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7561,8 +7882,10 @@ RED_Create_Guard_Units_162 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.162
@@ -7576,7 +7899,7 @@ RED_Create_Guard_Units_163 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7587,7 +7910,7 @@ RED_Create_Guard_Units_163 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7607,8 +7930,10 @@ RED_Create_Guard_Units_163 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.163
@@ -7622,7 +7947,7 @@ RED_Create_Guard_Units_164 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7633,7 +7958,7 @@ RED_Create_Guard_Units_164 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7653,8 +7978,10 @@ RED_Create_Guard_Units_164 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.164
@@ -7668,7 +7995,7 @@ RED_Create_Guard_Units_165 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7679,7 +8006,7 @@ RED_Create_Guard_Units_165 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7699,8 +8026,10 @@ RED_Create_Guard_Units_165 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.165
@@ -7714,7 +8043,7 @@ RED_Create_Guard_Units_166 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7725,7 +8054,7 @@ RED_Create_Guard_Units_166 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7745,8 +8074,10 @@ RED_Create_Guard_Units_166 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.166
@@ -7760,7 +8091,7 @@ RED_Create_Guard_Units_167 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7771,7 +8102,7 @@ RED_Create_Guard_Units_167 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7791,8 +8122,10 @@ RED_Create_Guard_Units_167 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.167
@@ -7806,7 +8139,7 @@ RED_Create_Guard_Units_168 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7817,7 +8150,7 @@ RED_Create_Guard_Units_168 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7837,8 +8170,10 @@ RED_Create_Guard_Units_168 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.168
@@ -7852,7 +8187,7 @@ RED_Create_Guard_Units_169 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7863,7 +8198,7 @@ RED_Create_Guard_Units_169 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7883,8 +8218,10 @@ RED_Create_Guard_Units_169 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.169
@@ -7898,7 +8235,7 @@ RED_Create_Guard_Units_170 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7909,7 +8246,7 @@ RED_Create_Guard_Units_170 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7929,8 +8266,10 @@ RED_Create_Guard_Units_170 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.170
@@ -7944,7 +8283,7 @@ RED_Create_Guard_Units_171 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -7955,7 +8294,7 @@ RED_Create_Guard_Units_171 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -7975,8 +8314,10 @@ RED_Create_Guard_Units_171 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.171
@@ -7990,7 +8331,7 @@ RED_Create_Guard_Units_172 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8001,7 +8342,7 @@ RED_Create_Guard_Units_172 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8021,8 +8362,10 @@ RED_Create_Guard_Units_172 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.172
@@ -8036,7 +8379,7 @@ RED_Create_Guard_Units_173 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8047,7 +8390,7 @@ RED_Create_Guard_Units_173 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8067,8 +8410,10 @@ RED_Create_Guard_Units_173 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.173
@@ -8082,7 +8427,7 @@ RED_Create_Guard_Units_174 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8093,7 +8438,7 @@ RED_Create_Guard_Units_174 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8113,8 +8458,10 @@ RED_Create_Guard_Units_174 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.174
@@ -8128,7 +8475,7 @@ RED_Create_Guard_Units_175 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8139,7 +8486,7 @@ RED_Create_Guard_Units_175 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8159,8 +8506,10 @@ RED_Create_Guard_Units_175 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.175
@@ -8174,7 +8523,7 @@ RED_Create_Guard_Units_176 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8185,7 +8534,7 @@ RED_Create_Guard_Units_176 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8205,8 +8554,10 @@ RED_Create_Guard_Units_176 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.176
@@ -8220,7 +8571,7 @@ RED_Create_Guard_Units_177 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8231,7 +8582,7 @@ RED_Create_Guard_Units_177 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8251,8 +8602,10 @@ RED_Create_Guard_Units_177 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.177
@@ -8266,7 +8619,7 @@ RED_Create_Guard_Units_178 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8277,7 +8630,7 @@ RED_Create_Guard_Units_178 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8297,8 +8650,10 @@ RED_Create_Guard_Units_178 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.178
@@ -8313,7 +8668,7 @@ RED_Create_Guard_Units_179 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8324,7 +8679,7 @@ RED_Create_Guard_Units_179 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8344,8 +8699,10 @@ RED_Create_Guard_Units_179 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.179
@@ -8359,7 +8716,7 @@ RED_Create_Guard_Units_180 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8370,7 +8727,7 @@ RED_Create_Guard_Units_180 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8390,8 +8747,10 @@ RED_Create_Guard_Units_180 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.180
@@ -8405,7 +8764,7 @@ RED_Create_Guard_Units_181 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8416,7 +8775,7 @@ RED_Create_Guard_Units_181 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8436,8 +8795,10 @@ RED_Create_Guard_Units_181 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.181
@@ -8451,7 +8812,7 @@ RED_Create_Guard_Units_182 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8462,7 +8823,7 @@ RED_Create_Guard_Units_182 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8482,8 +8843,10 @@ RED_Create_Guard_Units_182 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.182
@@ -8497,7 +8860,7 @@ RED_Create_Guard_Units_183 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8508,7 +8871,7 @@ RED_Create_Guard_Units_183 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8528,8 +8891,10 @@ RED_Create_Guard_Units_183 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.183
@@ -8543,7 +8908,7 @@ RED_Create_Guard_Units_184 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8554,7 +8919,7 @@ RED_Create_Guard_Units_184 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8574,8 +8939,10 @@ RED_Create_Guard_Units_184 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.184
@@ -8589,7 +8956,7 @@ RED_Create_Guard_Units_185 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8600,7 +8967,7 @@ RED_Create_Guard_Units_185 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8620,8 +8987,10 @@ RED_Create_Guard_Units_185 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.185
@@ -8635,7 +9004,7 @@ RED_Create_Guard_Units_186 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8646,7 +9015,7 @@ RED_Create_Guard_Units_186 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8666,8 +9035,10 @@ RED_Create_Guard_Units_186 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.186
@@ -8681,7 +9052,7 @@ RED_Create_Guard_Units_187 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8692,7 +9063,7 @@ RED_Create_Guard_Units_187 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8712,8 +9083,10 @@ RED_Create_Guard_Units_187 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.187
@@ -8727,7 +9100,7 @@ RED_Create_Guard_Units_188 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8738,7 +9111,7 @@ RED_Create_Guard_Units_188 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8758,8 +9131,10 @@ RED_Create_Guard_Units_188 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.188
@@ -8773,7 +9148,7 @@ RED_Create_Guard_Units_189 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8784,7 +9159,7 @@ RED_Create_Guard_Units_189 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8804,8 +9179,10 @@ RED_Create_Guard_Units_189 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.189
@@ -8819,7 +9196,7 @@ RED_Create_Guard_Units_190 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8830,7 +9207,7 @@ RED_Create_Guard_Units_190 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8850,8 +9227,10 @@ RED_Create_Guard_Units_190 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.190
@@ -8865,7 +9244,7 @@ RED_Create_Guard_Units_191 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8876,7 +9255,7 @@ RED_Create_Guard_Units_191 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8896,8 +9275,10 @@ RED_Create_Guard_Units_191 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.191
@@ -8911,7 +9292,7 @@ RED_Create_Guard_Units_192 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8922,7 +9303,7 @@ RED_Create_Guard_Units_192 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8942,8 +9323,10 @@ RED_Create_Guard_Units_192 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.192
@@ -8957,7 +9340,7 @@ RED_Create_Guard_Units_193 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -8968,7 +9351,7 @@ RED_Create_Guard_Units_193 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -8988,8 +9371,10 @@ RED_Create_Guard_Units_193 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.193
@@ -9003,7 +9388,7 @@ RED_Create_Guard_Units_194 = {
     icon = generic_military
 
     fire_only_once = yes
-    cost = 10
+    cost = 10 days_remove = 7
 
     allowed = {
 
@@ -9014,7 +9399,7 @@ RED_Create_Guard_Units_194 = {
         has_country_flag = Soviet_Guards_Created
     }
 
-    available = {
+    available = { NOT = { has_country_flag = EW_Deploying_Unit }
         date > 1941.07.01
         #Moscow
         219 = { is_controlled_by_ROOT_or_ally = yes }
@@ -9034,8 +9419,11 @@ RED_Create_Guard_Units_194 = {
             has_political_power < 100
         }
     }
+	
+	complete_effect = { set_country_flag = EW_Deploying_Unit }
 
-    complete_effect = {
+    remove_effect = { 
+		clr_country_flag = EW_Deploying_Unit
         SOV = {
             country_event = {
                 id = EW_Soviet_Units_Country.194
