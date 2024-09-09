@@ -570,8 +570,8 @@ EW_Germany_Country.25.a:0 "Damn!"
  
  EW_Generic_Events_Country.2.t:0 "Unique Units Mod Settings"
  EW_Generic_Events_Country.2.d:0 "'Every nation shapes its war machine differently; the choice is yours.' In Golden Edition, unique units add an extra layer of depth and strategy to your World War II experience. By default, custom units require equipment from players, making your logistical management crucial to success. However, AI nations, to maintain a challenging and historically accurate balance, receive these unique units at no cost—except for the USSR, whose 194 custom guard divisions demand equipment even from the AI unless aided by American lend-lease support. You can choose to play with the default settings, where equipment management plays a pivotal role, or opt to make unique units free for all nations, creating a different strategic landscape. Your decision will shape the course of this conflict."
- EW_Generic_Events_Country.2.a:0 "Make Unique Units Free for Everyone"
- EW_Generic_Events_Country.2.b:0 "Play with Default Settings"
+ EW_Generic_Events_Country.2.a:0 "Unique Units Free"
+ EW_Generic_Events_Country.2.b:0 "Unique Units Cost Equipment"
  
  EW_Free_Divisions:0 "Free Divisions Setting Chosen"
  
@@ -580,7 +580,7 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Generic_Events_Country.3.a:0 "Yes, enable AI Lend-Lease Decision System."
  EW_Generic_Events_Country.3.b:0 "No, disable AI Lend-Lease Decision System."
  
- EW_Free_Divisions:0 "Free Divisions Setting Chosen"
+ EW_Lend_Lease_Allowed:0 "Lend Lease Allowed Setting Chosen"
  
  EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
  EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
