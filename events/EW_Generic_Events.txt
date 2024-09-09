@@ -10,7 +10,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-
 	option = {
 		#Open Settings
 		name = EW_Generic_Events_Country.1.a
@@ -24,12 +23,36 @@ country_event = {
 	}
 	
 	option = {
-		#Default Settings
+		#Easy Mode
 		name = EW_Generic_Events_Country.1.b
 
 		ai_chance = {
 			factor = 0
 		}
+		
+		set_global_flag = EW_Free_Divisions
+		
+	}
+	
+	option = {
+		#Normal Mode
+		name = EW_Generic_Events_Country.1.c
+
+		ai_chance = {
+			factor = 0
+		}
+
+	}
+	
+	option = {
+		#Hard Mode
+		name = EW_Generic_Events_Country.1.e
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		set_global_flag = EW_Lend_Lease_Allowed
 		
 	}
 
@@ -41,7 +64,7 @@ country_event = {
 	id = EW_Generic_Events_Country.2
 	title = EW_Generic_Events_Country.2.t
 	desc = EW_Generic_Events_Country.2.d
-	picture = GFX_report_event_GE_Country
+	picture = GFX_report_event_Waffen_SS_Country
 
 	is_triggered_only = yes
 
@@ -56,11 +79,50 @@ country_event = {
 		
 		set_global_flag = EW_Free_Divisions
 		
+		country_event = EW_Generic_Events_Country.3
+		
 	}
 	
 	option = {
 		#Default
 		name = EW_Generic_Events_Country.2.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		country_event = EW_Generic_Events_Country.3
+
+	}
+
+
+}
+
+#Lend Lease Settings Event
+country_event = {
+	id = EW_Generic_Events_Country.3
+	title = EW_Generic_Events_Country.3.t
+	desc = EW_Generic_Events_Country.3.d
+	picture = GFX_report_event_Lend_Lease_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Default
+		name = EW_Generic_Events_Country.3.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		set_global_flag = EW_Lend_Lease_Allowed
+		
+	}
+	
+	option = {
+		#Default
+		name = EW_Generic_Events_Country.3.b
 
 		ai_chance = {
 			factor = 0

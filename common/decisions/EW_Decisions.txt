@@ -974,6 +974,12 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		fire_only_once = no
 		available = {
+		
+			OR = {
+				is_ai = no
+				has_global_flag = EW_Lend_Lease_Allowed
+			}
+		
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_ENG }
 			surrender_progress < 0.05
@@ -1021,6 +1027,12 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		fire_only_once = no
 		available = {
+		
+			OR = {
+				is_ai = no
+				has_global_flag = EW_Lend_Lease_Allowed
+			}
+		
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_ENG }
 			surrender_progress < 0.05
@@ -1068,6 +1080,12 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		fire_only_once = no
 		available = {
+		
+			OR = {
+				is_ai = no
+				has_global_flag = EW_Lend_Lease_Allowed
+			}
+		
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_SOV }
 			surrender_progress < 0.05
@@ -1120,6 +1138,12 @@ ENG_British_Invasion_of_Iraq = {
 		}
 		fire_only_once = no
 		available = {
+		
+			OR = {
+				is_ai = no
+				has_global_flag = EW_Lend_Lease_Allowed
+			}
+		
 			has_government = democratic
 			NOT = { has_idea = EW_Lend_Lease_CHI }
 			surrender_progress < 0.05

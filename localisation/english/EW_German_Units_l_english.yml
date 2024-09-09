@@ -715,12 +715,12 @@ EW_German_Units_Country.81.t:0 "18. Luftwaffe-Feld-Division"
 EW_German_Units_Country.81.d:0 "The 18th Luftwaffe Field Division is now deployed to reinforce our positions in France. Its presence will strengthen our defensive capabilities and contribute to our strategic efforts in the region. The division is operational and ready for deployment."
 EW_German_Units_Country.81.a:1 "Create Unit"
 
-# 19th Luftwaffen-Sturm-Division
-WE_Create_82:0 "19. Luftwaffen-Sturm-Division"
-WE_Create_82_desc:0 "Deploying the 19th Luftwaffen-Sturm-Division will add valuable reinforcement to our forces. Though remnants of this division were used to form the 19th Grenadier Division, its deployment will provide crucial support and enhance our combat readiness."
+# 19th Luftwaffen-Feld-Division
+WE_Create_82:0 "19. Luftwaffen-Feld-Division"
+WE_Create_82_desc:0 "Deploying the 19th Luftwaffen-Feld-Division will add valuable reinforcement to our forces. Though remnants of this division were used to form the 19th Grenadier Division, its deployment will provide crucial support and enhance our combat readiness."
 
-EW_German_Units_Country.82.t:0 "19. Luftwaffen-Sturm-Division"
-EW_German_Units_Country.82.d:0 "The 19th Luftwaffen-Sturm-Division is now deployed to support our operations. Its addition will bolster our combat capabilities and provide essential reinforcement. The division is operational and prepared to contribute to our strategic objectives."
+EW_German_Units_Country.82.t:0 "19. Luftwaffen-Feld-Division"
+EW_German_Units_Country.82.d:0 "The 19th Luftwaffen-Feld-Division is now deployed to support our operations. Its addition will bolster our combat capabilities and provide essential reinforcement. The division is operational and prepared to contribute to our strategic objectives."
 EW_German_Units_Country.82.a:1 "Create Unit"
 
 # 20th Luftwaffe Field Division
