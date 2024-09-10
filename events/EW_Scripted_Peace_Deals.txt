@@ -1,0 +1,205 @@
+add_namespace = EW_Scripted_Peace_Deals_Country
+add_namespace = EW_Scripted_Peace_Deals_News
+
+#Propose Peace Deal To Western Allies
+country_event = {
+	id = EW_Scripted_Peace_Deals_Country.1
+	title = EW_Scripted_Peace_Deals_Country.1.t
+	desc = EW_Scripted_Peace_Deals_Country.1.d
+	picture = GFX_report_event_Hitler_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Open Settings
+		name = EW_Scripted_Peace_Deals_Country.1.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		#German Gains In The West
+		country_event = EW_Scripted_Peace_Deals_Country.2
+		#German Colonies
+		country_event = EW_Scripted_Peace_Deals_Country.3
+		#Italian Colonies
+		country_event = EW_Scripted_Peace_Deals_Country.4
+		
+		#Fate of France
+		if = {
+			limit = {
+				OR = {
+					FRA = {
+						has_capitulated = yes
+					}
+					FRA = {
+						exists = no
+					}
+					FRA = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 16
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 16
+						}
+					}
+					has_global_flag = fall_of_france
+				}
+			}
+			country_event = EW_Scripted_Peace_Deals_Country.5
+		}
+		
+		#Fate of Britain
+		if = {
+			limit = {
+				OR = {
+					ENG = {
+						has_capitulated = yes
+					}
+					ENG = {
+						exists = no
+					}
+					ENG = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 126
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 126
+						}
+					}
+				}
+			}
+			country_event = EW_Scripted_Peace_Deals_Country.6
+		}
+		
+		#Fate of Poland
+		if = {
+			limit = {
+				OR = {
+					POL = {
+						has_capitulated = yes
+					}
+					POL = {
+						exists = no
+					}
+					POL = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 10
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 10
+						}
+					}
+				}
+			}
+			country_event = EW_Scripted_Peace_Deals_Country.7
+		}
+		
+		#Fate of Czechia
+		if = {
+			limit = {
+				OR = {
+					CZE = {
+						has_capitulated = yes
+					}
+					CZE = {
+						exists = no
+					}
+					CZE = {
+						is_subject_of = GER
+					}
+					OR = {
+						CZE = {
+							controls_state = 9
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 9
+						}
+					}
+				}
+			}
+			country_event = EW_Scripted_Peace_Deals_Country.8
+		}
+		
+		#Fate of Yugoslavia
+		if = {
+			limit = {
+				OR = {
+					YUG = {
+						has_capitulated = yes
+					}
+					YUG = {
+						exists = no
+					}
+					YUG = {
+						is_subject_of = GER
+					}
+					OR = {
+						YUG = {
+							controls_state = 107
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 107
+						}
+					}
+				}
+			}
+			country_event = EW_Scripted_Peace_Deals_Country.9
+		}
+		
+		#Fate of Greece
+		if = {
+			limit = {
+				OR = {
+					GRE = {
+						has_capitulated = yes
+					}
+					GRE = {
+						exists = no
+					}
+					GRE = {
+						is_subject_of = GER
+					}
+					OR = {
+						GRE = {
+							controls_state = 47
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 47
+						}
+					}
+				}
+			}
+			country_event = EW_Scripted_Peace_Deals_Country.10
+		}
+		
+		
+	}
+	
+	option = {
+		#Close Negotiations
+		name = EW_Scripted_Peace_Deals_Country.1.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+
+}
+
