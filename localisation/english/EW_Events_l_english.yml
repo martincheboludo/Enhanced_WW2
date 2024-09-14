@@ -166,24 +166,6 @@ EW_Germany_Country.25.a:0 "Damn!"
  EW_Germany_News.136.c:0 "We must secure our northern borders!"
  EW_Germany_News.136.e:0 "This violates the Versailles Treaty!"
  
- EW_Germany_Country.204.t:0 "The Soviet Union Invades Lithuania!"
- EW_Germany_Country.204.d:0 "Mein Führer, recent reports confirm that the Soviet Union has launched an aggressive invasion of Lithuania, seeking to reclaim territories lost to them. This presents us with an unexpected opportunity. By offering Lithuania military assistance, we could turn this situation to our advantage. In exchange for our support, we could demand the return of the Memel territory, which was unjustly taken from us. This move could not only strengthen our strategic position but also create a powerful ally against the Bolsheviks."
- EW_Germany_Country.204.a:1 "Offer Lithuania Support"
- EW_Germany_Country.204.b:1 "Focus on Other Matters"
- 
- EW_Germany_Country.205.t:0 "Telegram from Berlin"
- EW_Germany_Country.205.d:0 "An urgent telegram from Berlin has arrived, Mr. President. The German Reich has made a significant proposal in response to the Soviet invasion. They are willing to declare war on the Soviet Union and provide military assistance to Lithuania. However, there is a condition: in exchange for their support, the Germans demand the Memel Territory. This offer presents a unique opportunity to gain critical allies and secure the safety of our nation. We must decide whether to accept this offer or resist the Soviets independently."
- EW_Germany_Country.205.a:1 "Accept German Assistance"
- EW_Germany_Country.205.b:1 "Reject German Offer"
- 
- EW_Germany_Country.206.t:0 "Lithuania Accepts German Assistance"
- EW_Germany_Country.206.d:0 "Lithuania has accepted our offer of assistance in their struggle against the Soviet Union. In exchange for military support, they have agreed to cede Memel to us. Our forces will mobilize to aid Lithuania, and we will begin coordinating with their military to ensure a unified front against the Bolshevik aggressors."
- EW_Germany_Country.206.a:1 "We will crush the Bolshevik invaders together. For victory!"
- 
-  EW_Germany_Country.207.t:0 "Lithuania Declines German Assistance"
- EW_Germany_Country.207.d:0 "With Lithuania choosing not to accept our assistance, we must evaluate our strategy moving forward. We will explore other options for advancing our interests and securing our position in Eastern Europe. Our diplomatic and military efforts will need to adapt to the evolving situation on the continent."
- EW_Germany_Country.207.a:1 "Fools, they will perish alone. Their fate is sealed."
- 
  EW_Germany_Country.210.t:0 "The Invasion of Britain Commences"
  EW_Germany_Country.210.d:0 "Germany has launched Operation Sea Lion, our ambitious plan to invade the United Kingdom and bring the British Isles under our control. The invasion has commenced with a massive naval and airborne assault aimed at overwhelming British defenses and securing a foothold on the British mainland. Our forces are executing a multi-pronged assault, combining infantry, mountain troops, and special operations units to achieve a decisive victory. This operation represents a critical phase in our campaign to secure dominance in Western Europe and is a testament to our strategic prowess and military capability."
  EW_Germany_Country.210.a:1 "Britain shall fall!"
@@ -639,3 +621,26 @@ EW_Allies_News.16.a:1 "The Push to Germany Continues."
  EW_Allies_News.130.t:0 "America Starts Lend Lease"
  EW_Allies_News.130.d:0 "Today, the United States launched its Lend-Lease program, a pivotal move reshaping the global conflict. Committing extensive military and economic aid to allies, the USA will supply vital resources, including tanks, aircraft, and essential materials, to bolster their war efforts against Axis powers. This unprecedented support aims to enhance the defenses and resistance of countries fighting for global stability. The world watches closely as America’s bold step is expected to impact the war’s course and power balance, signaling a strong commitment to supporting its allies in the fight for freedom and democracy."
  EW_Allies_News.130.a:1 "Interesting..."
+ 
+EW_Germany_Country.204.t:0 "The Soviet Union Invades Lithuania!"
+EW_Germany_Country.204.d:0 "Mein Führer, the Soviet Union has launched a full-scale invasion of Lithuania, and reports from our military intelligence suggest that the Lithuanians are unlikely to hold out for long. This provides us with a strategic opportunity. We can send an ultimatum to Lithuania, demanding the immediate return of Memel to the Reich. If they refuse, we will use all means at our disposal to take it by force. This bold move would secure our rightful territory and prevent the Soviets from taking control of the entire region."
+EW_Germany_Country.204.a:1 "Send an Ultimatum for Memel"
+EW_Germany_Country.204.b:1 "Hold Off for Now"
+
+EW_Germany_Country.205.t:0 "German Ultimatum: Demand for Memel"
+EW_Germany_Country.205.d:0 "The German Reich has issued a formal ultimatum, demanding the immediate transfer of Memel to their control. They claim their actions are justified by the need to protect the ethnic German population in the region. With the Soviet invasion pressing on our borders, we must quickly decide whether to comply with their demands or face the threat of a German military invasion. While complying may stave off a direct conflict with Germany, it would mean surrendering our sovereignty over Memel."
+EW_Germany_Country.205.a:1 "Cede Memel to Germany"
+EW_Germany_Country.205.b:1 "Refuse and prepare to defend Memel"
+
+EW_Germany_Country.206.t:0 "Lithuania Cedes Memel to Germany"
+EW_Germany_Country.206.d:0 "Mein Führer, the Lithuanian government has agreed to our ultimatum and has ceded the Memel territory to the Reich without resistance. This swift diplomatic victory strengthens our hold in the Baltic region and secures an important strategic asset for the Reich, all without the need for military action. We should move quickly to integrate Memel into our administration and fortify the region against any future threats."
+EW_Germany_Country.206.a:1 "Send occupation forces to secure Memel"
+
+EW_Germany_Country.207.t:0 "Lithuania Rejects the German Ultimatum"
+EW_Germany_Country.207.d:0 "Mein Führer, the Lithuanian government has defiantly refused our ultimatum, choosing instead to retain control of Memel despite their precarious position under Soviet invasion. This act of defiance leaves us no choice but to prepare for an immediate military campaign to seize Memel by force. We must mobilize our forces and ensure that the territory is brought under the control of the Reich."
+EW_Germany_Country.207.a:1 "Prepare the invasion forces"
+EW_Germany_Country.207.b:1 "Delay the invasion for now"
+
+EW_Germany_News.206.t:0 "Germany Occupies Memel"
+EW_Germany_News.206.d:0 "German forces have taken control of Memel, citing their need to protect the ethnic German minority from the advancing Soviet forces. The German government has framed this occupation as a necessary measure to ensure the safety of their citizens amidst the escalating conflict in Eastern Europe. This unilateral move has drawn a range of global reactions, with some viewing it as a strategic step to safeguard German nationals, while others see it as an aggressive expansion that could further destabilize the region. The occupation of Memel marks a significant escalation in the ongoing tensions between the Axis and Allied powers."
+EW_Germany_News.206.a:1 "Global tensions rise as the conflict intensifies."

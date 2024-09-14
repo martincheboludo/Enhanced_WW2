@@ -4952,8 +4952,6 @@ country_event = {
 		NOT = { has_war_with = SOV }
 		NOT = { has_war_with = LIT }
 		SOV = { has_offensive_war_with = LIT }
-		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
-		NOT = { has_non_aggression_pact_with = SOV }
 		date > 1933.1.1
 		date < 1949.1.1
 		LIT = { owns_state = 188 }
@@ -4964,7 +4962,7 @@ country_event = {
 		name = EW_Germany_Country.204.a
 
 		ai_chance = {
-			factor = 10
+			factor = 900
 			modifier = {
 				any_other_country = {
 					has_guaranteed = LIT
@@ -4996,7 +4994,7 @@ country_event = {
 		name = EW_Germany_Country.204.b
 
 		ai_chance = {
-			factor = 90
+			factor = 100
 			modifier = {
 				any_country = {
 					is_major = yes
@@ -5011,24 +5009,22 @@ country_event = {
 
 }
 
-#Telegram from Berlin
+#German Demand for Occupation of Memel
 country_event = {
 	id = EW_Germany_Country.205
 	title = EW_Germany_Country.205.t
 	desc = EW_Germany_Country.205.d
-	picture = GFX_report_event_Hitler_Country
-
+	picture = GFX_report_event_German_Soldiers_Country
 	is_triggered_only = yes
 
 	option = {
-		#Accept Soviet Assistance
 		name = EW_Germany_Country.205.a
 
 		ai_chance = {
-			factor = 50
+			factor = 800
 		}
 		
-		GER = {
+		FROM = {
 			country_event = {
 				id = EW_Germany_Country.206
 				hours = 6
@@ -5038,42 +5034,22 @@ country_event = {
 	}
 	
 	option = {
-		#Reject German Offer
 		name = EW_Germany_Country.205.b
 
 		ai_chance = {
-			factor = 50
+			factor = 200
 			modifier = {
-				any_other_country = {
-					has_guaranteed = LIT
-				}
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					USA = { has_war_with = SOV }
-					FRA = { has_war_with = SOV }
-					ENG = { has_war_with = SOV }
-					JAP = { has_war_with = SOV }
-				}
-				factor = 2
-			}
-			modifier = {
-				any_country = {
-					is_major = yes
-					has_war_with = GER
-				}
-				factor = 2
+				factor = 0
+				is_historical_focus_on = yes
 			}
 		}
 		
-		GER = {
+		FROM = {
 			country_event = {
 				id = EW_Germany_Country.207
 				hours = 6
 			}
 		}
-
 
 	}
 
@@ -5085,7 +5061,6 @@ country_event = {
 	title = EW_Germany_Country.206.t
 	desc = EW_Germany_Country.206.d
 	picture = GFX_report_event_German_Soldiers_Country
-
 	is_triggered_only = yes
 
 	option = {
@@ -5095,64 +5070,61 @@ country_event = {
 			factor = 1000
 		}
 		
-		GER = {
-			transfer_state = 188
-		}
-		
 		hidden_effect = {
-			188 = { remove_core_of = LIT }
+			news_event = { id = EW_Germany_News.206 hours = 6 }
 		}
-		
-		LIT = {
-			add_opinion_modifier = {
-				target = GER
-				modifier = our_liberators
-			}
-		}
-		
-		if = {
-			limit = {
-				LIT = { is_in_faction = no }
-			} 
-			GER = {
-				add_to_faction = LIT
-			}
-		}
-		else = {
-			LIT = {
-				give_military_access = GER
-			}
-		}
-		
-		declare_war_on = {
-			target = SOV
-			type = annex_everything
-		}
+
+		transfer_state = 188	
 
 	}
 
 }
 
-#Lithuania Declines
+#German Forces Occupy Memel
+news_event = {
+	id = EW_Germany_News.206
+	picture = GFX_news_event_German_Soldiers_News
+	title = EW_Germany_News.206.t
+	desc = EW_Germany_News.206.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Germany_News.206.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Lithuania Rejects Demand
 country_event = {
 	id = EW_Germany_Country.207
 	title = EW_Germany_Country.207.t
 	desc = EW_Germany_Country.207.d
 	picture = GFX_report_event_German_Soldiers_Country
-
 	is_triggered_only = yes
 
 	option = {
 		name = EW_Germany_Country.207.a
 
 		ai_chance = {
-			factor = 1000
+			factor = 650
 		}
 		
-		add_opinion_modifier = {
+		create_wargoal = {
+			type = annex_everything
 			target = LIT
-			modifier = refused_help
 		}
+
+	}
+	
+	option = {
+		name = EW_Germany_Country.207.b
+
+		ai_chance = {
+			factor = 350
+		}
+		
+		add_war_support = -0.10
+
 
 	}
 
