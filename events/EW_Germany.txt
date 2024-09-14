@@ -19,24 +19,54 @@ country_event = {
 			factor = 10
 		}
 		
-		#German Occupation Zone
-		GER = {
-			transfer_state = 731
-			transfer_state = 182
+		if = {
+			limit = {
+				NOT = { country_exists = GRE }
+			}
+			#German Occupation Zone
+			GER = {
+				transfer_state = 731
+				transfer_state = 182
+			}
+			#Italian Occupation Zone
+			ITA = {
+				transfer_state = 47
+				transfer_state = 185
+				transfer_state = 186
+				transfer_state = 187
+				transfer_state = 164
+			}
+			#Bulgarian Occupation Zone
+			BUL = {
+				transfer_state = 184
+			}
 		}
-		
-		#Italian Occupation Zone
-		ITA = {
-			transfer_state = 47
-			transfer_state = 185
-			transfer_state = 186
-			transfer_state = 187
-			transfer_state = 164
-		}
-		
-		#Bulgarian Occupation Zone
-		BUL = {
-			transfer_state = 184
+		else = {
+			#German Occupation Zone
+			GER = {
+				set_state_controller = 731
+				set_state_controller = 182
+				add_state_claim = 731
+				add_state_claim = 182
+			}
+			#Italian Occupation Zone
+			ITA = {
+				set_state_controller = 47
+				set_state_controller = 185
+				set_state_controller = 186
+				set_state_controller = 187
+				set_state_controller = 164
+				add_state_claim = 47
+				add_state_claim = 185
+				add_state_claim = 186
+				add_state_claim = 187
+				add_state_claim = 164
+			}
+			#Bulgarian Occupation Zone
+			BUL = {
+				set_state_controller = 184
+				add_state_claim = 184
+			}
 		}
 
 		hidden_effect = { 
@@ -53,20 +83,48 @@ country_event = {
 			factor = 0
 		}
 		
-		#Italian Occupation Zone
-		ITA = {
-			transfer_state = 47
-			transfer_state = 185
-			transfer_state = 186
-			transfer_state = 187
-			transfer_state = 164
-			transfer_state = 182
+		if = {
+			limit = {
+				NOT = { country_exists = GRE }
+			}
+			#Italian Occupation Zone
+			ITA = {
+				transfer_state = 47
+				transfer_state = 185
+				transfer_state = 186
+				transfer_state = 187
+				transfer_state = 164
+				transfer_state = 182
+			}
+			#Bulgarian Occupation Zone
+			BUL = {
+				transfer_state = 184
+				transfer_state = 731
+			}
 		}
-		
-		#Bulgarian Occupation Zone
-		BUL = {
-			transfer_state = 184
-			transfer_state = 731
+		else = {
+			#Italian Occupation Zone
+			ITA = {
+				set_state_controller = 47
+				set_state_controller = 185
+				set_state_controller = 186
+				set_state_controller = 187
+				set_state_controller = 164
+				set_state_controller = 182
+				add_state_claim = 47
+				add_state_claim = 185
+				add_state_claim = 186
+				add_state_claim = 187
+				add_state_claim = 164
+				add_state_claim = 182
+			}
+			#Bulgarian Occupation Zone
+			BUL = {
+				set_state_controller = 184
+				set_state_controller = 731
+				add_state_claim = 184
+				add_state_claim = 731
+			}
 		}
 
 		hidden_effect = { 
@@ -111,79 +169,162 @@ country_event = {
 			factor = 10
 		}
 		
-		#Croatia
-		CRO = {
-			transfer_state = 103
-			transfer_state = 104
-			transfer_state = 804
-			transfer_state = 109
-			104 = { add_core_of = CRO }
-			804 = { add_core_of = CRO }
-		}
-		
-		
-		
-		#Serbia
-		SER = {
-			transfer_state = 764
-			transfer_state = 107
-			transfer_state = 108
-		}
-		
-		#German Occupation Zone
-		GER = {
-			transfer_state = 102
-		}
-		
-		#Italian Occupation Zone
-		ITA = {
-			transfer_state = 853
-			transfer_state = 105
-			transfer_state = 802
-			853 = { remove_core_of = GER }
-		}
-		
-		#Bulgarian Occupation Zone
-		BUL = {
-			transfer_state = 803
-			transfer_state = 106
-		}
-		
-		#Hungarian Occupation Zone
-		HUN = {
-			transfer_state = 45
-		}
-		
 		if = {
 			limit = {
-				ALB = { is_subject_of = ITA }
+				NOT = { country_exists = YUG }
 			}
-			ALB = {
-				transfer_state = 802
+			#Croatia
+			CRO = {
+				transfer_state = 103
+				transfer_state = 104
+				transfer_state = 804
+				transfer_state = 109
+				104 = { add_core_of = CRO }
+				804 = { add_core_of = CRO }
 			}
-		}
-		
-		# Puppets
-		if = {
-			limit = {
-				has_dlc = "Death or Dishonor"
+			#Serbia
+			SER = {
+				transfer_state = 764
+				transfer_state = 107
+				transfer_state = 108
 			}
+			#German Occupation Zone
 			GER = {
-				set_autonomy = {
-					target = CRO
-					autonomous_state = autonomy_satellite
-					freedom_level = 0.1
+				transfer_state = 102
+			}
+			#Italian Occupation Zone
+			ITA = {
+				transfer_state = 853
+				transfer_state = 105
+				853 = { remove_core_of = GER }
+			}
+			#Bulgarian Occupation Zone
+			BUL = {
+				transfer_state = 803
+				transfer_state = 106
+			}
+			#Hungarian Occupation Zone
+			HUN = {
+				transfer_state = 45
+			}
+			if = {
+				limit = {
+					ALB = { is_subject_of = ITA exists = yes }
 				}
-				set_autonomy = {
-					target = SER
-					autonomous_state = autonomy_satellite
-					freedom_level = 0.1
+				ALB = {
+					transfer_state = 802
 				}
 			}
 			else = {
+				ITA = {
+					transfer_state = 802
+				}
+			}
+			# Puppets
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
 				GER = {
-					puppet = CRO
-					puppet = SER
+					set_autonomy = {
+						target = CRO
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+					set_autonomy = {
+						target = SER
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+				}
+				else = {
+					GER = {
+						puppet = CRO
+						puppet = SER
+					}
+				}
+			}
+		}
+		else = {
+			release_on_controlled = CRO
+			release_on_controlled = SER
+			#Croatia
+			CRO = {
+				set_state_controller = 103
+				set_state_controller = 104
+				set_state_controller = 804
+				set_state_controller = 109
+				104 = { add_core_of = CRO }
+				804 = { add_core_of = CRO }
+			}
+			#Serbia
+			SER = {
+				set_state_controller = 764
+				set_state_controller = 107
+				set_state_controller = 108
+			}
+			#German Occupation Zone
+			GER = {
+				set_state_controller = 102
+				add_state_claim = 102
+			}
+			#Italian Occupation Zone
+			ITA = {
+				set_state_controller = 853
+				set_state_controller = 105
+				add_state_claim = 853
+				add_state_claim = 105
+				853 = { remove_core_of = GER }
+			}
+			#Bulgarian Occupation Zone
+			BUL = {
+				set_state_controller = 803
+				set_state_controller = 106
+				add_state_claim = 803
+				add_state_claim = 106
+			}
+			#Hungarian Occupation Zone
+			HUN = {
+				set_state_controller = 45
+				add_state_claim = 45
+			}
+			if = {
+				limit = {
+					ALB = { is_subject_of = ITA exists = yes }
+				}
+				ALB = {
+					set_state_controller = 802
+					add_state_claim = 802
+				}
+			}
+			else = {
+				ITA = {
+					set_state_controller = 802
+					add_state_claim = 802
+				}
+			}
+			# Puppets
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
+				GER = {
+					set_autonomy = {
+						target = CRO
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+					set_autonomy = {
+						target = SER
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+				}
+				else = {
+					GER = {
+						puppet = CRO
+						puppet = SER
+					}
 				}
 			}
 		}
@@ -201,89 +342,179 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		
-		#Croatia
-		CRO = {
-			transfer_state = 103
-			transfer_state = 104
-			transfer_state = 804
-			transfer_state = 109
-			104 = { add_core_of = CRO }
-			804 = { add_core_of = CRO }
-		}
-		
-		
-		
-		#Serbia
-		SER = {
-			transfer_state = 764
-			transfer_state = 107
-			transfer_state = 108
-		}
-		
-		#German Occupation Zone
-		GER = {
-			transfer_state = 102
-		}
-		
-		#Italian Occupation Zone
-		ITA = {
-			transfer_state = 853
-			transfer_state = 105
-			transfer_state = 802
-			853 = { remove_core_of = GER }
-		}
-		
-		#Bulgarian Occupation Zone
-		BUL = {
-			transfer_state = 803
-			transfer_state = 106
-		}
-		
-		#Hungarian Occupation Zone
-		HUN = {
-			transfer_state = 45
-		}
-		
+	
 		if = {
 			limit = {
-				ALB = { is_subject_of = ITA }
+				NOT = { country_exists = YUG }
 			}
-			ALB = {
-				transfer_state = 802
+			#Croatia
+			CRO = {
+				transfer_state = 104
+				transfer_state = 804
+				transfer_state = 109
+				104 = { add_core_of = CRO }
+				804 = { add_core_of = CRO }
 			}
-		}
-		
-		# Puppets
-		if = {
-			limit = {
-				has_dlc = "Death or Dishonor"
+			#Serbia
+			SER = {
+				transfer_state = 764
+				transfer_state = 107
+				transfer_state = 108
 			}
+			
+			#German Occupation Zone
 			GER = {
-				set_autonomy = {
-					target = CRO
-					autonomous_state = autonomy_satellite
-					freedom_level = 0.1
+				transfer_state = 102
+			}
+			
+			#Italian Occupation Zone
+			ITA = {
+				transfer_state = 853
+				transfer_state = 105
+				transfer_state = 103
+				853 = { remove_core_of = GER }
+			}
+			
+			#Bulgarian Occupation Zone
+			BUL = {
+				transfer_state = 803
+				transfer_state = 106
+			}
+			
+			#Hungarian Occupation Zone
+			HUN = {
+				transfer_state = 45
+			}
+			
+			if = {
+				limit = {
+					ALB = { is_subject_of = ITA exists = yes }
 				}
-				set_autonomy = {
-					target = SER
-					autonomous_state = autonomy_satellite
-					freedom_level = 0.1
+				ALB = {
+					transfer_state = 802
 				}
 			}
 			else = {
+				ITA = {
+					transfer_state = 802
+				}
+			}
+			
+			# Puppets
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
 				GER = {
-					puppet = CRO
-					puppet = SER
+					set_autonomy = {
+						target = CRO
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+					set_autonomy = {
+						target = SER
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+				}
+				else = {
+					GER = {
+						puppet = CRO
+						puppet = SER
+					}
 				}
 			}
 		}
-		
-		#Dalmatia to Italy
-		ITA = {
-			transfer_state = 103
+		else = {
+			release_on_controlled = CRO
+			release_on_controlled = SER
+			#Croatia
+			CRO = {
+				set_state_controller = 104
+				set_state_controller = 804
+				set_state_controller = 109
+				104 = { add_core_of = CRO }
+				804 = { add_core_of = CRO }
+			}
+			#Serbia
+			SER = {
+				set_state_controller = 764
+				set_state_controller = 107
+				set_state_controller = 108
+			}
+			
+			#German Occupation Zone
+			GER = {
+				set_state_controller = 102
+				add_state_claim = 102
+			}
+			
+			#Italian Occupation Zone
+			ITA = {
+				set_state_controller = 853
+				set_state_controller = 105
+				set_state_controller = 103
+				add_state_claim = 853
+				add_state_claim = 105
+				add_state_claim = 103
+				853 = { remove_core_of = GER }
+			}
+			
+			#Bulgarian Occupation Zone
+			BUL = {
+				set_state_controller = 803
+				set_state_controller = 106
+				add_state_claim = 803
+				add_state_claim = 106
+			}
+			
+			#Hungarian Occupation Zone
+			HUN = {
+				set_state_controller = 45
+				add_state_claim = 45
+			}
+			
+			if = {
+				limit = {
+					ALB = { is_subject_of = ITA exists = yes }
+				}
+				ALB = {
+					set_state_controller = 802
+					add_state_claim = 802
+				}
+			}
+			else = {
+				ITA = {
+					set_state_controller = 802
+					add_state_claim = 802
+				}
+			}
+			
+			# Puppets
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
+				GER = {
+					set_autonomy = {
+						target = CRO
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+					set_autonomy = {
+						target = SER
+						autonomous_state = autonomy_satellite
+						freedom_level = 0.1
+					}
+				}
+				else = {
+					GER = {
+						puppet = CRO
+						puppet = SER
+					}
+				}
+			}
 		}
-
 		hidden_effect = { 
 			news_event = { id = EW_Germany_News.1 hours = 6 }
 		}
@@ -329,19 +560,49 @@ country_event = {
 		}
 		
 		#German Occupation Zone
-		GER = {
-			transfer_state = 151
-			transfer_state = 3
-			transfer_state = 847
-			transfer_state = 845
+		if = {
+			limit = {
+				NOT = { GER = { has_war_with = SWI } }
+			}
+			GER = {
+				transfer_state = 151
+				transfer_state = 3
+				transfer_state = 847
+				transfer_state = 845
+			}
+		}
+		else = {
+			GER = {
+				set_state_controller = 151
+				set_state_controller = 3
+				set_state_controller = 847
+				set_state_controller = 845
+				add_state_claim = 151
+				add_state_claim = 3
+				add_state_claim = 847
+				add_state_claim = 845
+			}
 		}
 		
 		#Italian Occupation Zone
-		ITA = {
-			transfer_state = 846
-			846 = { remove_core_of = GER }
+		if = {
+			limit = {
+				NOT = { ITA = { has_war_with = SWI } }
+			}
+			
+			ITA = {
+				transfer_state = 846
+				846 = { remove_core_of = GER }
+			}
 		}
-
+		else = {
+			ITA = {
+				set_state_controller = 846
+				add_state_claim = 846
+				846 = { remove_core_of = GER }
+			}
+		}
+		
 		hidden_effect = { 
 			news_event = { id = EW_Germany_News.2 hours = 6 }
 		}
@@ -356,18 +617,53 @@ country_event = {
 			factor = 0
 		}
 		
+		trigger = {
+			any_country = {
+				original_tag = FRA
+				exists = yes
+				NOT = { has_war_with = GER }
+			}
+		}
+		
 		#German Occupation Zone
-		GER = {
-			transfer_state = 151
-			transfer_state = 3
-			transfer_state = 847
-			transfer_state = 845
+		if = {
+			limit = {
+				NOT = { GER = { has_war_with = SWI } }
+			}
+			GER = {
+				transfer_state = 151
+				transfer_state = 3
+				transfer_state = 847
+			}
+		}
+		else = {
+			GER = {
+				set_state_controller = 151
+				set_state_controller = 3
+				set_state_controller = 847
+				add_state_claim = 151
+				add_state_claim = 3
+				add_state_claim = 847
+			}
 		}
 		
 		#Italian Occupation Zone
-		ITA = {
-			transfer_state = 846
-			846 = { remove_core_of = GER }
+		if = {
+			limit = {
+				NOT = { ITA = { has_war_with = SWI } }
+			}
+			
+			ITA = {
+				transfer_state = 846
+				846 = { remove_core_of = GER }
+			}
+		}
+		else = {
+			ITA = {
+				set_state_controller = 846
+				add_state_claim = 846
+				846 = { remove_core_of = GER }
+			}
 		}
 		
 		# Romandie to France
@@ -376,23 +672,51 @@ country_event = {
 				country_exists = FRA
 				FRA = { NOT = { has_war_with = GER }  }
 			}
-			FRA = {
-				transfer_state = 845
-				845 = { remove_core_of = GER }
+			#Italian Occupation Zone
+			if = {
+				limit = {
+					NOT = { FRA = { has_war_with = SWI } }
+				}
+				
+				FRA = {
+					transfer_state = 845
+					845 = { remove_core_of = GER }
+				}
+			}
+			else = {
+				FRA = {
+					set_state_controller = 845
+					add_state_claim = 845
+					846 = { remove_core_of = GER }
+				}
 			}
 		}	
 		
-		# Romandie to Vichy
+		# Romandie to France
 		if = {
 			limit = {
 				country_exists = VIC
 				VIC = { NOT = { has_war_with = GER }  }
 			}
-			VIC = {
-				transfer_state = 845
-				845 = { remove_core_of = GER }
+			#Italian Occupation Zone
+			if = {
+				limit = {
+					NOT = { VIC = { has_war_with = SWI } }
+				}
+				
+				VIC = {
+					transfer_state = 845
+					845 = { remove_core_of = GER }
+				}
 			}
-		}	
+			else = {
+				VIC = {
+					set_state_controller = 845
+					add_state_claim = 845
+					846 = { remove_core_of = GER }
+				}
+			}
+		}
 			
 
 		hidden_effect = { 
