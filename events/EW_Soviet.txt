@@ -1081,9 +1081,10 @@ country_event = {
 			factor = 600
 			modifier = {
 				OR = {
-					USA = { has_war_with = GER }
-					FRA = { has_war_with = GER }
-					ENG = { has_war_with = GER }
+					USA = { has_war_with = SOV }
+					FRA = { has_war_with = SOV }
+					ENG = { has_war_with = SOV }
+					JAP = { has_war_with = SOV }
 				}
 				factor = 2
 			}
@@ -1183,6 +1184,16 @@ country_event = {
 
 		ai_chance = {
 			factor = 650
+		}
+		
+		SOV = {
+			add_state_claim = 93
+			add_state_claim = 94
+			add_state_claim = 95
+			add_state_claim = 96
+			add_state_claim = 89
+			add_state_claim = 91
+			add_state_claim = 784
 		}
 		
 		create_wargoal = {

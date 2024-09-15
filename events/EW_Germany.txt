@@ -5078,6 +5078,13 @@ country_event = {
 			factor = 650
 		}
 		
+		GER = {
+			add_state_claim = 85
+			add_state_claim = 86
+			add_state_claim = 807
+			add_state_claim = 762
+		}
+		
 		create_wargoal = {
 			type = annex_everything
 			target = POL
