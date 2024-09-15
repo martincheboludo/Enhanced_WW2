@@ -4767,7 +4767,11 @@ country_event = {
 					ENG = { has_war_with = SOV }
 					JAP = { has_war_with = SOV }
 				}
-				factor = 3
+				factor = 2
+			}
+			modifier = {
+				SOV = { is_ai = no }
+				factor = 2
 			}
 		}
 		
@@ -5366,7 +5370,7 @@ country_event = {
 		
 		GER = {
 			country_event = {
-				id = EW_Germany_Country.210
+				id = EW_Germany_Country.216
 				hours = 6
 			}
 		}
@@ -5432,15 +5436,15 @@ country_event = {
 
 #Lithuania Declines
 country_event = {
-	id = EW_Germany_Country.210
-	title = EW_Germany_Country.210.t
-	desc = EW_Germany_Country.210.d
+	id = EW_Germany_Country.216
+	title = EW_Germany_Country.216.t
+	desc = EW_Germany_Country.216.d
 	picture = GFX_report_event_German_Soldiers_Country
 
 	is_triggered_only = yes
 
 	option = {
-		name = EW_Germany_Country.210.a
+		name = EW_Germany_Country.216.a
 
 		ai_chance = {
 			factor = 1000

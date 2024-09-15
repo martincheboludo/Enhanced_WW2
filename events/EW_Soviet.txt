@@ -392,6 +392,10 @@ country_event = {
 				}
 				factor = 2
 			}
+			modifier = {
+				GER = { is_ai = no }
+				factor = 2
+			}
 		}
 		
 		POL = {
