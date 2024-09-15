@@ -1835,7 +1835,7 @@ SOV_Defend_Leningrad = {
 		allowed = {
 		}
 		visible = {
-			is_ai = yes
+
 		}
 		available = {
 			has_government = communism
@@ -1869,7 +1869,7 @@ SOV_Defend_Leningrad = {
 		allowed = {
 		}
 		visible = {
-			is_ai = yes
+
 		}
 		available = {
 			has_government = communism
@@ -1902,7 +1902,7 @@ SOV_Defend_Leningrad = {
 		allowed = {
 		}
 		visible = {
-			is_ai = yes
+
 		}
 		available = {
 			has_government = communism
@@ -1923,6 +1923,43 @@ SOV_Defend_Leningrad = {
 		complete_effect = {
 			country_event = {
 				id = EW_Soviet_Country.3
+			}
+		}
+	}
+	
+	SOV_Deploy_Siberian_Divisions_Moscow = {
+		fire_only_once = yes
+		icon = SOV_the_stalin_constitution
+		cost = 0
+		allowed = {
+		}
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			has_government = communism
+			has_defensive_war_with = GER
+			219 = { is_fully_controlled_by = SOV }
+			NOT = { has_war_with = JAP } 
+			NOT = { JAP = { is_justifying_wargoal_against = SOV } }
+			NOT = { JAP = { has_wargoal_against = SOV } }
+			JAP = { focus_progress = { focus = JAP_preemptive_war progress < 0.01 } }
+			OR = {
+				NOT = { 247 = { is_fully_controlled_by = SOV } }
+				NOT = { 246 = { is_fully_controlled_by = SOV } }
+				NOT = { 242 = { is_fully_controlled_by = SOV } }
+				NOT = { 205 = { is_fully_controlled_by = SOV } }
+				NOT = { 223 = { is_fully_controlled_by = SOV } }
+				NOT = { 254 = { is_fully_controlled_by = SOV } }
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			country_event = {
+				id = EW_Soviet_Country.14
 			}
 		}
 	}

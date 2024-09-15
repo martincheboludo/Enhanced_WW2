@@ -271,6 +271,11 @@ EW_Germany_Country.110.b:1 "Delay the invasion for now"
  EW_Soviet_Country.13.a:1 "Attack them first! We will strike with the fury of the Blitzkrieg!"
  EW_Soviet_Country.13.b:1 "Prepare defensive positions! We will hold the line against the Red tide."
  
+EW_Soviet_Country.14.t:0 "Siberian Divisions Mobilized for the Defense of Moscow"
+EW_Soviet_Country.14.d:0 "As the Axis forces press ever closer to the heart of the Soviet Union, the situation in Moscow grows dire. Reports indicate that German forces are preparing for a final push towards the Soviet capital, threatening not only the city but the very survival of the state. However, hope remains. From the harsh and unforgiving frontiers of Siberia, divisions hardened by the brutal winter and fierce resistance have been ordered to mobilize. These elite soldiers, trained for the most severe conditions, are now en route to bolster the defense of Moscow. This decision could be a turning point, but it comes at a cost. Stripping Siberia of its veteran divisions may leave the Far East vulnerable, and their journey to Moscow will take precious time. Stalin must decide whether to commit these forces immediately or hold them in reserve for a more coordinated counteroffensive."
+EW_Soviet_Country.14.a:0 "Send the Siberian Divisions at Once!"
+EW_Soviet_Country.14.b:0 "Keep the Siberian Divisions in the Far East."
+ 
 EW_Soviet_Country.108.t:0 "Soviet Ultimatum: Demand for Western Belarus and Western Ukraine"
 EW_Soviet_Country.108.d:0 "The Soviet Union has issued a formal ultimatum, demanding the immediate return of Western Belarus and Western Ukraine to their control. They claim that these territories, unjustly taken from them during past conflicts, rightfully belong to the Soviet state. With the Soviet invasion pressing on Poland’s eastern borders, we must quickly decide whether to comply with their demands or face the threat of a Soviet military invasion. While compliance may stave off a direct conflict with the Soviet Union, it would mean surrendering our sovereignty over these critical territories."
 EW_Soviet_Country.108.a:1 "Cede Western Belarus and Western Ukraine to the Soviet Union"
