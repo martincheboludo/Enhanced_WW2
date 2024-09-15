@@ -349,18 +349,35 @@ country_event = {
 		NOT = { has_war_with = GER }
 		NOT = { has_war_with = POL }
 		GER = { has_offensive_war_with = POL }
-		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
-		NOT = { has_non_aggression_pact_with = GER }
 		date > 1933.1.1
 		date < 1949.1.1
+		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { has_non_aggression_pact_with = GER }
+	}
+	
+	option = {
+		#Ultimatum to Poland
+		name = EW_Soviet_Country.4.a
+
+		ai_chance = {
+			factor = 300
+		}
+		
+		POL = {
+			country_event = {
+				id = EW_Soviet_Country.108
+				hours = 6
+			}
+		}
+
 	}
 
 	option = {
 		#Support Poland
-		name = EW_Soviet_Country.4.a
+		name = EW_Soviet_Country.4.b
 
 		ai_chance = {
-			factor = 40
+			factor = 300
 			modifier = {
 				any_other_country = {
 					has_guaranteed = POL
@@ -388,16 +405,16 @@ country_event = {
 	
 	option = {
 		#Remain Neutral
-		name = EW_Soviet_Country.4.b
+		name = EW_Soviet_Country.4.c
 
 		ai_chance = {
-			factor = 60
+			factor = 600
 			modifier = {
 				any_country = {
 					is_major = yes
 					has_war_with = SOV
 				}
-				factor = 4
+				factor = 2
 			}
 		}
 
@@ -1020,6 +1037,166 @@ country_event = {
 		
 		add_political_power = 25
 		add_stability = 0.05
+
+	}
+
+}
+
+#Soviet Demand for Occupation of The Polish Corridor
+country_event = {
+	id = EW_Soviet_Country.108
+	title = EW_Soviet_Country.108.t
+	desc = EW_Soviet_Country.108.d
+	picture = GFX_report_event_Soviet_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Soviet_Country.108.a
+
+		ai_chance = {
+			factor = 400
+			modifier = {
+				surrender_progress > 0.34
+				factor = 2
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Soviet_Country.109
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Soviet_Country.108.b
+
+		ai_chance = {
+			factor = 600
+			modifier = {
+				OR = {
+					USA = { has_war_with = GER }
+					FRA = { has_war_with = GER }
+					ENG = { has_war_with = GER }
+				}
+				factor = 2
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Soviet_Country.110
+				hours = 6
+			}
+		}
+
+	}
+
+}
+
+#Poland Accepts
+country_event = {
+	id = EW_Soviet_Country.109
+	title = EW_Soviet_Country.109.t
+	desc = EW_Soviet_Country.109.d
+	picture = GFX_report_event_Soviet_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Soviet_Country.109.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Soviet_News.109 hours = 6 }
+		}
+
+		SOV = {
+			transfer_state = 93
+			transfer_state = 94
+			transfer_state = 95
+			transfer_state = 96
+			transfer_state = 89
+			transfer_state = 91
+		}
+		
+		hidden_effect = {
+			93 = { remove_core_of = POL }
+			94 = { remove_core_of = POL }
+			95 = { remove_core_of = POL }
+			96 = { remove_core_of = POL }
+			89 = { remove_core_of = POL }
+			91 = { remove_core_of = POL }
+		}
+		
+		if = {
+			limit = {
+				LIT = { exists = yes }
+				LIT = { NOT = { has_war_with = SOV } }
+			} 
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		else = {
+			SOV = {
+				transfer_state = 784
+			}
+		}
+
+	}
+
+}
+
+#Soviet Forces Occupy Polish Corridor
+news_event = {
+	id = EW_Soviet_News.109
+	picture = GFX_news_event_Soviet_Soldiers_News
+	title = EW_Soviet_News.109.t
+	desc = EW_Soviet_News.109.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Soviet_News.109.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Poland Rejects Demand
+country_event = {
+	id = EW_Soviet_Country.110
+	title = EW_Soviet_Country.110.t
+	desc = EW_Soviet_Country.110.d
+	picture = GFX_report_event_Soviet_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Soviet_Country.110.a
+
+		ai_chance = {
+			factor = 650
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = POL
+		}
+
+	}
+	
+	option = {
+		name = EW_Soviet_Country.110.b
+
+		ai_chance = {
+			factor = 350
+		}
+		
+		add_war_support = -0.10
+
 
 	}
 

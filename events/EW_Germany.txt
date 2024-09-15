@@ -246,23 +246,6 @@ country_event = {
 			}
 		}
 		else = {
-			release_on_controlled = CRO
-			release_on_controlled = SER
-			#Croatia
-			CRO = {
-				set_state_controller = 103
-				set_state_controller = 104
-				set_state_controller = 804
-				set_state_controller = 109
-				104 = { add_core_of = CRO }
-				804 = { add_core_of = CRO }
-			}
-			#Serbia
-			SER = {
-				set_state_controller = 764
-				set_state_controller = 107
-				set_state_controller = 108
-			}
 			#German Occupation Zone
 			GER = {
 				set_state_controller = 102
@@ -302,6 +285,23 @@ country_event = {
 					set_state_controller = 802
 					add_state_claim = 802
 				}
+			}
+			release_on_controlled = CRO
+			release_on_controlled = SER
+			#Croatia
+			CRO = {
+				set_state_controller = 103
+				set_state_controller = 104
+				set_state_controller = 804
+				set_state_controller = 109
+				104 = { add_core_of = CRO }
+				804 = { add_core_of = CRO }
+			}
+			#Serbia
+			SER = {
+				set_state_controller = 764
+				set_state_controller = 107
+				set_state_controller = 108
 			}
 			# Puppets
 			if = {
@@ -426,23 +426,6 @@ country_event = {
 			}
 		}
 		else = {
-			release_on_controlled = CRO
-			release_on_controlled = SER
-			#Croatia
-			CRO = {
-				set_state_controller = 104
-				set_state_controller = 804
-				set_state_controller = 109
-				104 = { add_core_of = CRO }
-				804 = { add_core_of = CRO }
-			}
-			#Serbia
-			SER = {
-				set_state_controller = 764
-				set_state_controller = 107
-				set_state_controller = 108
-			}
-			
 			#German Occupation Zone
 			GER = {
 				set_state_controller = 102
@@ -488,6 +471,23 @@ country_event = {
 					set_state_controller = 802
 					add_state_claim = 802
 				}
+			}
+			
+			release_on_controlled = CRO
+			release_on_controlled = SER
+			#Croatia
+			CRO = {
+				set_state_controller = 104
+				set_state_controller = 804
+				set_state_controller = 109
+				104 = { add_core_of = CRO }
+				804 = { add_core_of = CRO }
+			}
+			#Serbia
+			SER = {
+				set_state_controller = 764
+				set_state_controller = 107
+				set_state_controller = 108
 			}
 			
 			# Puppets
@@ -4726,17 +4726,34 @@ country_event = {
 		NOT = { has_war_with = POL }
 		SOV = { has_offensive_war_with = POL }
 		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
-		NOT = { has_non_aggression_pact_with = SOV }
+		NOT = { has_non_aggression_pact_with = GER }
 		date > 1933.1.1
 		date < 1949.1.1
+	}
+	
+	option = {
+		#Ultimatum to Poland
+		name = EW_Germany_Country.104.a
+
+		ai_chance = {
+			factor = 200
+		}
+		
+		POL = {
+			country_event = {
+				id = EW_Germany_Country.108
+				hours = 6
+			}
+		}
+
 	}
 
 	option = {
 		#Support Poland
-		name = EW_Germany_Country.104.a
+		name = EW_Germany_Country.104.b
 
 		ai_chance = {
-			factor = 40
+			factor = 200
 			modifier = {
 				any_other_country = {
 					has_guaranteed = POL
@@ -4750,7 +4767,7 @@ country_event = {
 					ENG = { has_war_with = SOV }
 					JAP = { has_war_with = SOV }
 				}
-				factor = 2
+				factor = 3
 			}
 		}
 		
@@ -4768,13 +4785,13 @@ country_event = {
 		name = EW_Germany_Country.104.b
 
 		ai_chance = {
-			factor = 60
+			factor = 600
 			modifier = {
 				any_country = {
 					is_major = yes
 					has_war_with = GER
 				}
-				factor = 4
+				factor = 2
 			}
 		}
 
@@ -4936,6 +4953,148 @@ country_event = {
 
 }
 
+#German Demand for Occupation of The Polish Corridor
+country_event = {
+	id = EW_Germany_Country.108
+	title = EW_Germany_Country.108.t
+	desc = EW_Germany_Country.108.d
+	picture = GFX_report_event_German_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.108.a
+
+		ai_chance = {
+			factor = 400
+			modifier = {
+				surrender_progress > 0.34
+				factor = 2
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Germany_Country.109
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = EW_Germany_Country.108.b
+
+		ai_chance = {
+			factor = 600
+			modifier = {
+				OR = {
+					USA = { has_war_with = SOV }
+					FRA = { has_war_with = SOV }
+					ENG = { has_war_with = SOV }
+					JAP = { has_war_with = SOV }
+				}
+				factor = 2
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = EW_Germany_Country.110
+				hours = 6
+			}
+		}
+
+	}
+
+}
+
+#Poland Accepts
+country_event = {
+	id = EW_Germany_Country.109
+	title = EW_Germany_Country.109.t
+	desc = EW_Germany_Country.109.d
+	picture = GFX_report_event_German_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.109.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = {
+			news_event = { id = EW_Germany_News.109 hours = 6 }
+		}
+
+		GER = {
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 807
+			transfer_state = 762
+		}
+		
+		hidden_effect = {
+			85 = { remove_core_of = POL }
+			86 = { remove_core_of = POL }
+			807 = { remove_core_of = POL }
+			762 = { remove_core_of = POL }
+		}
+
+	}
+
+}
+
+#German Forces Occupy Polish Corridor
+news_event = {
+	id = EW_Germany_News.109
+	picture = GFX_news_event_German_Soldiers_News
+	title = EW_Germany_News.109.t
+	desc = EW_Germany_News.109.d
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = EW_Germany_News.109.a
+		ai_chance = { factor = 1000 }
+	}
+}
+
+#Poland Rejects Demand
+country_event = {
+	id = EW_Germany_Country.110
+	title = EW_Germany_Country.110.t
+	desc = EW_Germany_Country.110.d
+	picture = GFX_report_event_German_Soldiers_Country
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.110.a
+
+		ai_chance = {
+			factor = 650
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = POL
+		}
+
+	}
+	
+	option = {
+		name = EW_Germany_Country.110.b
+
+		ai_chance = {
+			factor = 350
+		}
+		
+		add_war_support = -0.10
+
+
+	}
+
+}
+
 ##The Soviet Invasion of Lithuania
 country_event = {
 	id = EW_Germany_Country.204
@@ -4955,14 +5114,33 @@ country_event = {
 		date > 1933.1.1
 		date < 1949.1.1
 		LIT = { owns_state = 188 }
+		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { has_non_aggression_pact_with = SOV }
 	}
 
 	option = {
-		#Support Lithuania
+		#Ultimatum To Lithuania
 		name = EW_Germany_Country.204.a
 
 		ai_chance = {
-			factor = 900
+			factor = 700
+		}
+		
+		LIT = {
+			country_event = {
+				id = EW_Germany_Country.205
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		#Support Lithuania
+		name = EW_Germany_Country.204.b
+
+		ai_chance = {
+			factor = 200
 			modifier = {
 				any_other_country = {
 					has_guaranteed = LIT
@@ -4982,7 +5160,7 @@ country_event = {
 		
 		LIT = {
 			country_event = {
-				id = EW_Germany_Country.205
+				id = EW_Germany_Country.208
 				hours = 6
 			}
 		}
@@ -4991,7 +5169,7 @@ country_event = {
 	
 	option = {
 		#Remain Neutral
-		name = EW_Germany_Country.204.b
+		name = EW_Germany_Country.204.c
 
 		ai_chance = {
 			factor = 100
@@ -5125,6 +5303,153 @@ country_event = {
 		
 		add_war_support = -0.10
 
+
+	}
+
+}
+
+#Telegram from Berlin
+country_event = {
+	id = EW_Germany_Country.208
+	title = EW_Germany_Country.208.t
+	desc = EW_Germany_Country.208.d
+	picture = GFX_report_event_Hitler_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Accept Soviet Assistance
+		name = EW_Germany_Country.208.a
+
+		ai_chance = {
+			factor = 50
+		}
+		
+		GER = {
+			country_event = {
+				id = EW_Germany_Country.209
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		#Reject German Offer
+		name = EW_Germany_Country.208.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				any_other_country = {
+					has_guaranteed = LIT
+				}
+				factor = 2
+			}
+			modifier = {
+				OR = {
+					USA = { has_war_with = SOV }
+					FRA = { has_war_with = SOV }
+					ENG = { has_war_with = SOV }
+					JAP = { has_war_with = SOV }
+				}
+				factor = 2
+			}
+			modifier = {
+				any_country = {
+					is_major = yes
+					has_war_with = GER
+				}
+				factor = 2
+			}
+		}
+		
+		GER = {
+			country_event = {
+				id = EW_Germany_Country.210
+				hours = 6
+			}
+		}
+
+
+	}
+
+}
+
+#Lithuania Accepts
+country_event = {
+	id = EW_Germany_Country.209
+	title = EW_Germany_Country.209.t
+	desc = EW_Germany_Country.209.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.209.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		GER = {
+			transfer_state = 188
+		}
+		
+		hidden_effect = {
+			188 = { remove_core_of = LIT }
+		}
+		
+		LIT = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = our_liberators
+			}
+		}
+		
+		if = {
+			limit = {
+				LIT = { is_in_faction = no }
+			} 
+			GER = {
+				add_to_faction = LIT
+			}
+		}
+		else = {
+			LIT = {
+				give_military_access = GER
+			}
+		}
+		
+		declare_war_on = {
+			target = SOV
+			type = annex_everything
+		}
+
+	}
+
+}
+
+#Lithuania Declines
+country_event = {
+	id = EW_Germany_Country.210
+	title = EW_Germany_Country.210.t
+	desc = EW_Germany_Country.210.d
+	picture = GFX_report_event_German_Soldiers_Country
+
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Germany_Country.210.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_opinion_modifier = {
+			target = LIT
+			modifier = refused_help
+		}
 
 	}
 
