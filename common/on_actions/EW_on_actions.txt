@@ -1,7 +1,7 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			every_country = {
+			random_country = {
 				limit = { is_ai = no }
 				country_event = { id = EW_Generic_Events_Country.1 }
 			}
