@@ -2540,7 +2540,7 @@ country_event = {
 			tag = ENG
 			has_government = democratic
 			has_war_with = GER
-			surrender_progress > 0.30
+			surrender_progress > 0.25
 			#NOT = { is_in_faction_with = USA}
 			#NOT = { USA = { has_war_with = GER } }
 			country_exists = CAN

@@ -1538,3 +1538,203 @@ SOV_Stop_German_Aggression = {
 			clr_country_flag = Coring_In_Progress
         }
     }
+	
+	
+	#Partition of Czechoslovakia
+	GER_Partition_Czechoslovakia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = CZE
+			#is_in_faction_with = HUN
+			country_exists = HUN
+			NOT = { has_war_with = HUN }
+			OR = { 
+				CZE = { has_capitulated = yes }
+				CZE = { exists = no }
+			}
+			
+			SLO = { exists = no }
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Czechoslovakia"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+							NOT = { state = 664 }
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			OR = { 
+				CZE = { has_capitulated = yes }
+				CZE = { exists = no }
+			}
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.3
+			}	
+		}
+		
+	}
+	
+	#Partition of Poland
+	GER_Partition_Poland = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = POL
+			#is_in_faction_with = SOV
+			country_exists = SOV
+			NOT = { has_war_with = SOV }
+			
+			any_controlled_state = {
+				AND = {
+					is_core_of = POL
+					any_neighbor_state = {
+						is_core_of = SOV
+						is_controlled_by = SOV
+					}
+				}
+			}
+			
+			OR = { 
+				POL = { has_capitulated = yes }
+				POL = { exists = no }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Poland"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			OR = { 
+				POL = { has_capitulated = yes }
+				POL = { exists = no }
+			}
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.15
+			}	
+		}
+		
+	}
+	
+	#Partition of Romania
+	GER_Partition_Romania = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 10
+
+		allowed = {
+			
+		}
+
+		available = {
+			#has_war_with = ROM
+			#is_in_faction_with = HUN
+			country_exists = HUN
+			NOT = { has_war_with = HUN }
+			OR = { 
+				ROM = { has_capitulated = yes }
+				ROM = { exists = no }
+				AND = {
+					ROM = { is_subject_of = GER }
+					NOT = { HUN = { owns_state = 76 } }
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = "Axis Control Romania"
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ROM
+						}
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			OR = { 
+				ROM = { has_capitulated = yes }
+				ROM = { exists = no }
+				AND = {
+					ROM = { is_subject_of = GER }
+					NOT = { HUN = { owns_state = 76 } }
+				}
+			}
+		}
+
+		complete_effect = {
+			country_event = {
+				id = EW_Germany_Country.4
+			}	
+		}
+		
+	}

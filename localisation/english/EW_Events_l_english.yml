@@ -2,6 +2,9 @@
 
  #Events
  
+ EW_Fate_of_Greece:0 "Fate of Greece"
+ EW_Fate_of_Yugoslavia:0 "Fate of Yugoslavia"
+ 
  EW_Germany_Country.x.t:0 ""
  EW_Germany_Country.x.d:0 ""
  EW_Germany_Country.x.a:1 "OK"
