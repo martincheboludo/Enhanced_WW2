@@ -2748,6 +2748,8 @@ GER_EW_Decisions = {
 				}
 			}
 			
+			NOT = { has_global_flag = EW_Fate_of_Switzerland }
+			
 		}
 
 		ai_will_do = {
@@ -2766,6 +2768,7 @@ GER_EW_Decisions = {
 		}
 
 		complete_effect = {
+			set_global_flag = EW_Fate_of_Switzerland
 			country_event = {
 				id = EW_Germany_Country.2
 			}	
