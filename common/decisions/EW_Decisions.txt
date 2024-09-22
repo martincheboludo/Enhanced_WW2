@@ -6,6 +6,71 @@ Axis_EW_Decisions = {
 #Allies Decisions
 Allies_EW_Decisions = {
 
+DEN_Ask_To_Join_Allies = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = DEN
+		}
+
+		available = {
+			tag = DEN
+			has_government = democratic
+				any_country = {
+					OR = {
+						tag = ENG
+						tag = CAN
+						tag = USA
+					}
+					has_government = democratic
+					is_in_faction_with = FRA
+					has_war_with = GER
+				}
+			date > 1939.1.1
+			date < 1941.1.1
+			has_defensive_war_with = GER
+			is_in_faction = no
+			
+			custom_trigger_tooltip = {
+				tooltip = EW_War_Longer_Than_6_Hours_tt
+				war_length_with = {
+					tag = GER
+					hours > 6
+				}
+			}
+			
+		}
+
+		visible = {
+			tag = DEN
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			every_country = {
+				limit = {
+					OR = {
+						tag = ENG
+						tag = CAN
+						tag = USA
+					}
+					has_government = democratic
+					has_war_with = GER
+					is_faction_leader = yes
+					is_in_faction_with = FRA
+				}
+				country_event = generic.2
+			}
+		}
+	}
+
 ENG_British_Invasion_of_Iraq = {
 		icon = generic_army_support
 		
@@ -264,6 +329,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 
 		available = {
+			tag = USA
 			date > 1941.1.1
 			date < 1942.1.1
 			OR = {
@@ -350,6 +416,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 
 		available = {
+			tag = USA
 			date > 1941.1.1
 			date < 1942.1.1
 			OR = {
@@ -436,6 +503,7 @@ ENG_British_Invasion_of_Iraq = {
 		}
 
 		available = {
+			tag = USA
 			date > 1942.1.1
 			date < 1943.1.1
 			has_war_with = GER

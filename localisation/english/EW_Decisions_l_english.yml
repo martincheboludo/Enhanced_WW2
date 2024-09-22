@@ -149,3 +149,7 @@ show_hide_lend_lease_events:0 "Show Lend Lease Events"
 
 USA_Prepare_Invasion_of_Vichy:0 "Prepare for Operation Torch"
 USA_Prepare_Invasion_of_Vichy_desc:0 "With the Axis powers gaining ground in Europe and North Africa, the need to secure a foothold on the southern front has become paramount. Operation Torch is a bold plan to launch an Allied invasion of Vichy-controlled North Africa, a strategic move that aims to open up a new front against the Axis and gain control of vital ports and supply routes. Preparing for this operation will require meticulous planning, the assembly of naval forces, and coordination with Free French forces and other Allied nations. By launching Operation Torch, we can strike at Vichy France, weakening Axis influence in the region and paving the way for further Allied offensives in Europe."
+
+EW_War_Longer_Than_6_Hours_tt:0 "Has been at war with §Y[GER.GetName]§! longer than §Y6§! hours."
+DEN_Ask_To_Join_Allies:0 "Ask To Join Allies"
+DEN_Ask_To_Join_Allies_desc:0 "With the German invasion underway, Denmark faces the grim reality of standing alone against the might of the Wehrmacht. To ensure the survival of our sovereignty and bolster our defense, it may be necessary to seek the support of the Allied powers. By joining the Allies, we gain access to military aid and the backing of a global coalition committed to resisting Axis aggression. This decision could be Denmark's best chance to continue the fight for freedom and secure our future alongside the world's leading democracies."
