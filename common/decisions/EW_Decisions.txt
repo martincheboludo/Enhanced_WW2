@@ -2189,6 +2189,112 @@ GER_EW_Decisions = {
 		}
 	}
 	
+	EW_Operation_25 = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1942.1.1
+			has_war_with = YUG
+			YUG = { has_capitulated = no }
+			surrender_progress < 0.1
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = YUG
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			terrain_penalty_reduction = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1940.1.1
+			}
+		}
+		
+		days_remove = 11
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	EW_Operation_Marita = {
+		icon = generic_army_support
+
+		available = { 
+			tag = GER
+			date < 1942.1.1
+			has_war_with = GRE
+			GRE = { has_capitulated = no }
+			surrender_progress < 0.1
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = GRE
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			terrain_penalty_reduction = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1940.1.1
+			}
+		}
+		
+		days_remove = 24
+
+		visible = {
+			tag = GER
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
 	EW_Operation_Barbarossa = {
 		icon = generic_army_support
 
@@ -2884,7 +2990,7 @@ GER_EW_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							SOV = { surrender_progress > 0.6 }
+							SOV = { surrender_progress > 0.69 }
 							OR = {
 								GER = {
 									controls_state = 219
@@ -3023,7 +3129,7 @@ GER_EW_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							SOV = { surrender_progress > 0.6 }
+							SOV = { surrender_progress > 0.69 }
 							OR = {
 								GER = {
 									controls_state = 219
