@@ -35,7 +35,7 @@ DEN_Ask_To_Join_Allies = {
 				tooltip = EW_War_Longer_Than_6_Hours_tt
 				war_length_with = {
 					tag = GER
-					hours > 6
+					months > 0.033
 				}
 			}
 			
