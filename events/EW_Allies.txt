@@ -2746,6 +2746,9 @@ country_event = {
 				ENG = { 
 					has_capitulated = yes 
 				}
+				ENG = { 
+					surrender_progress > 0.69
+				}
 				AND = {
 					123 = { is_controlled_by_ROOT_or_ally = no }
 					126 = { is_controlled_by_ROOT_or_ally = no }
