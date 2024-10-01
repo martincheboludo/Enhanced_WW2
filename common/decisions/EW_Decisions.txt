@@ -82,14 +82,13 @@ DEN_Ask_To_Join_Allies = {
 			tag = ENG
 			has_government = democratic
 			has_war_with = GER
-			surrender_progress > 0.09
-			date > 1939.1.1
-			date < 1941.1.1
+			surrender_progress > 0.10
+			date > 1933.1.1
+			date < 1949.1.1
 		}
 
 		visible = {
 			tag = ENG
-			has_war_with = GER
 		}
 
 		cost = 0
@@ -100,7 +99,7 @@ DEN_Ask_To_Join_Allies = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				surrender_progress < 0.25
+				surrender_progress < 0.30
 			}
 		}
 
