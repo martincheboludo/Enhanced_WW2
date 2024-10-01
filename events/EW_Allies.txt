@@ -2599,6 +2599,8 @@ country_event = {
 			factor = 1000
 		}
 		
+		add_ideas = EW_We_Shall_Never_Surrender2
+		
 		CAN = {
 			country_event = {
 				id = EW_Allies_Country.6
@@ -2634,6 +2636,7 @@ country_event = {
 		CAN = {
 			set_major = yes
 			add_ideas = EW_BGIE
+			add_ideas = EW_We_Shall_Never_Surrender2
 		}
 		
 		ENG = {
@@ -2717,6 +2720,7 @@ country_event = {
 				target = CAN
 				modifier = refused_help
 			}
+			remove_ideas = EW_We_Shall_Never_Surrender2
 		}
 		
 	}
@@ -2738,8 +2742,29 @@ country_event = {
 			has_war_with = GER
 			is_in_faction_with = ENG
 			ENG = { has_war_with = GER }
-			ENG = { has_capitulated = yes }
-			
+			OR = {
+				ENG = { 
+					has_capitulated = yes 
+				}
+				AND = {
+					123 = { is_controlled_by_ROOT_or_ally = no }
+					126 = { is_controlled_by_ROOT_or_ally = no }
+					127 = { is_controlled_by_ROOT_or_ally = no }
+					338 = { is_controlled_by_ROOT_or_ally = no }
+					122 = { is_controlled_by_ROOT_or_ally = no }
+					125 = { is_controlled_by_ROOT_or_ally = no }
+					129 = { is_controlled_by_ROOT_or_ally = no }
+					128 = { is_controlled_by_ROOT_or_ally = no }
+					130 = { is_controlled_by_ROOT_or_ally = no }
+					132 = { is_controlled_by_ROOT_or_ally = no }
+					131 = { is_controlled_by_ROOT_or_ally = no }
+					121 = { is_controlled_by_ROOT_or_ally = no }
+					931 = { is_controlled_by_ROOT_or_ally = no }
+					133 = { is_controlled_by_ROOT_or_ally = no }
+					136 = { is_controlled_by_ROOT_or_ally = no }
+					120 = { is_controlled_by_ROOT_or_ally = no }
+				}
+			}
 	}
 	mean_time_to_happen = {
 		days = 7
@@ -2805,15 +2830,18 @@ country_event = {
 				set_nationality = CAN
 			}
 			transfer_navy = { target = CAN } 
+			remove_ideas = EW_We_Shall_Never_Surrender2
 		}
 		
+		
 		CAN = {
+			annex_country = {
+				target = ENG  
+				transfer_troops = yes 
+			}
 			every_state = {
 				limit = { is_core_of = ENG }
 				add_core_of = CAN
-			}
-			annex_country = {
-				target = ENG  transfer_troops = yes 
 			}
 			create_country_leader = {
 				name = "Winston Churchill"
@@ -2877,6 +2905,7 @@ country_event = {
 			}
 			transfer_navy = { target = ENG } 
 			remove_ideas = EW_BGIE
+			remove_ideas = EW_We_Shall_Never_Surrender2
 		}
 		
 		ENG = {
