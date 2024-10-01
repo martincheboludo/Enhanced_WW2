@@ -2764,6 +2764,8 @@ GER_EW_Decisions = {
 		}
 
 		available = {
+			is_subject = no
+			NOT = { is_in_faction_with = GRE }
 			#has_war_with = GRE
 			#is_in_faction_with = ITA
 			country_exists = ITA
@@ -2829,6 +2831,8 @@ GER_EW_Decisions = {
 		}
 
 		available = {
+			is_subject = no
+			NOT = { is_in_faction_with = YUG }
 			#has_war_with = YUG
 			#is_in_faction_with = ITA
 			country_exists = ITA
@@ -2901,6 +2905,8 @@ GER_EW_Decisions = {
 		}
 
 		available = {
+			is_subject = no
+			NOT = { is_in_faction_with = SWI }
 			#has_war_with = SWI
 			#is_in_faction_with = ITA
 			country_exists = ITA
@@ -2963,6 +2969,8 @@ GER_EW_Decisions = {
 		}
 
 		available = {
+			is_subject = no
+			NOT = { is_in_faction_with = SOV }
 			#has_war_with = SOV
 			#is_in_faction_with = JAP
 			country_exists = JAP
