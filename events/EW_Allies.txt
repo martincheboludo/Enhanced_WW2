@@ -2527,7 +2527,7 @@ country_event = {
 	}
 }
 
-##Move Government To Canada?
+###Move Government To Canada?
 country_event = {
 	id = EW_Allies_Country.5
 	picture = GFX_report_event_British_Soldiers_Country
@@ -2540,7 +2540,7 @@ country_event = {
 			tag = ENG
 			has_government = democratic
 			has_war_with = GER
-			surrender_progress > 0.25
+			surrender_progress > 0.24
 			#NOT = { is_in_faction_with = USA}
 			#NOT = { USA = { has_war_with = GER } }
 			country_exists = CAN
@@ -2620,7 +2620,7 @@ country_event = {
 	}
 }
 
-##Move Government To Canada?
+#Move Government To Canada?
 country_event = {
 	id = EW_Allies_Country.6
 	picture = GFX_report_event_British_Soldiers_Country
