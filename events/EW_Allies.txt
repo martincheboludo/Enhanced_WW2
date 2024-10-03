@@ -5295,7 +5295,7 @@ country_event = {
 
 }
 
-#USA Demand for Occupation of Iceland
+#USA Demand for Occupation of Greenland
 country_event = {
 	id = EW_Allies_Country.149
 	title = EW_Allies_Country.149.t
@@ -5360,7 +5360,7 @@ country_event = {
 			news_event = { id = EW_Allies_News.12 hours = 6 }
 		}
 
-		transfer_state = 100	
+		transfer_state = 101	
 
 	}
 
@@ -5381,7 +5381,7 @@ country_event = {
 			factor = 650
 		}
 		
-		transfer_state = 100
+		transfer_state = 101
 		
 		FROM = {
 			country_event = {
