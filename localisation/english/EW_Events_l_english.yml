@@ -607,6 +607,11 @@ EW_Soviet_Country.110.b:1 "Delay the invasion for now"
  
  EW_Lend_Lease_Allowed:0 "Lend Lease Allowed Setting Chosen"
  
+ EW_Generic_Events_Country.4.t:0 "Performance Optimization Settings"
+ EW_Generic_Events_Country.4.d:0 "To optimize game performance, AI-controlled minor nations can receive a debuff to reduce excessive division spam and lag in the late game. By selecting 'Yes', all AI-controlled minor countries will be affected by the 'Optimization' national spirit, which reduces their industrial output, recruitment, and research speed. This debuff will automatically be removed if these nations enter a war, ensuring they can still be competitive when engaged in conflict."
+ EW_Generic_Events_Country.4.a:0 "Yes, enable AI Performance Optimization."
+ EW_Generic_Events_Country.4.b:0 "No, disable AI Performance Optimization."
+ 
  EW_Allies_News.2.t:0 "[FROM.GetName] Issues Stern Warning To [GER.GetName]"
  EW_Allies_News.2.d:0 "In a bold and unambiguous move, the [FROM.GetAdjective] government has issued a stern warning to [GER.GetName] amidst rising tensions in Europe. [FROM.GetName] has declared that any aggressive actions taken by [GER.GetName], which threaten to shatter the fragile peace, will not be tolerated. The message is clear; should [GER.GetName] choose to breach the peace and pursue a path of conquest, it will face grave consequences. [FROM.GetName], standing firm in its commitment to defend international stability, will act decisively to counter any acts of aggression. This declaration underscores [FROM.GetName]'s resolve to uphold freedom and sovereignty in Europe. The world watches anxiously, knowing that the next steps taken by [GER.GetName] could determine the course of history."
  EW_Allies_News.2.a:1 "Interesting..."
@@ -707,3 +712,18 @@ EW_Germany_Country.207.b:1 "Delay the invasion for now"
 EW_Germany_News.206.t:0 "Germany Occupies Memel"
 EW_Germany_News.206.d:0 "German forces have taken control of Memel, citing their need to protect the ethnic German minority from the advancing Soviet forces. The German government has framed this occupation as a necessary measure to ensure the safety of their citizens amidst the escalating conflict in Eastern Europe. This unilateral move has drawn a range of global reactions, with some viewing it as a strategic step to safeguard German nationals, while others see it as an aggressive expansion that could further destabilize the region. The occupation of Memel marks a significant escalation in the ongoing tensions between the Axis and Allied powers."
 EW_Germany_News.206.a:1 "Global tensions rise as the conflict intensifies."
+
+EW_Allies_Country.200.t:0 "The German Menace"
+EW_Allies_Country.200.d:0 "As the world watches in shock, Germany has launched an unprovoked attack against our British neighbors. Despite our shared democratic values, we, France, have so far remained neutral in this conflict. However, the tide of war is closing in on Europe, and the decision we make now could shape the future of our nation. Do we stand with Britain, joining their struggle against aggression, or do we keep our distance and let this war unfold without French involvement?"
+EW_Allies_Country.200.a:0 "Request to Join The Allies"
+EW_Allies_Country.200.b:0 "This Is Not Our Problem"
+
+EW_Allies_Country.201.t:0 "The German Menace"
+EW_Allies_Country.201.d:0 "France, our long-standing neighbor and fellow democracy, now faces the full force of German aggression. With war raging across the Channel, the fate of France hangs in the balance. As Britain watches from afar, we must decide whether to extend a hand of alliance to the French and unite our efforts against the German threat, or to remain distant, focusing on our own defenses. What role should Britain play in this pivotal moment?"
+EW_Allies_Country.201.a:0 "Invite France to Join the Allies"
+EW_Allies_Country.201.b:0 "This Is Not Our Fight"
+
+EW_Allies_Country.202.t:0 "Britain's Struggle and Our Responsibility"
+EW_Allies_Country.202.d:0 "Britain stands alone, locked in a fierce battle for survival against Germany's relentless assault. The situation looks grim, and there are unsettling rumors that the British government is preparing to, or has already, relocated to Canada. If Britain falls, democracy in Europe may collapse, and the threat to our own shores could grow. The question now is whether the United States should intervene to help Britain in this desperate hour or continue to keep our distance from the conflict."
+EW_Allies_Country.202.a:0 "Request to Join the Allies"
+EW_Allies_Country.202.b:0 "Stay Out of It"

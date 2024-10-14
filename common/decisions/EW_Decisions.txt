@@ -6,6 +6,148 @@ Axis_EW_Decisions = {
 #Allies Decisions
 Allies_EW_Decisions = {
 
+FRA_The_German_Menace = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			tag = FRA
+			NOT = { has_war_with = ENG }
+			has_government = democratic
+			is_in_faction = no
+			has_capitulated = no
+			ENG = { is_faction_leader = yes }
+			threat < 0.25
+			date > 1933.1.1
+			date < 1939.1.1
+			ENG = { has_defensive_war_with = GER }
+			ENG = { has_government = democratic }
+			ENG = { has_capitulated = no }
+		}
+
+		visible = {
+			tag = FRA
+			NOT = { has_war_with = GER }
+			date < 1939.1.1
+			is_in_faction = no
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = EW_Allies_Country.200
+		}
+	}
+
+ENG_The_German_Menace = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			tag = ENG
+			NOT = { has_war_with = FRA }
+			has_government = democratic
+			is_in_faction = no
+			has_capitulated = no
+			is_faction_leader = yes
+			threat < 0.25
+			date > 1933.1.1
+			date < 1939.1.1
+			FRA = { has_defensive_war_with = GER }
+			FRA = { has_government = democratic }
+			FRA = { has_capitulated = no }
+		}
+
+		visible = {
+			tag = ENG
+			NOT = { has_war_with = GER }
+			date < 1939.1.1
+			is_in_faction = no
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = EW_Allies_Country.201
+		}
+	}
+	
+	USA_The_German_Menace = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			tag = USA
+			has_government = democratic
+			is_in_faction = no
+			has_capitulated = no
+			date > 1933.1.1
+			date < 1949.1.1
+			OR = {
+				AND = {
+					ENG = { is_faction_leader = yes }
+					NOT = { has_war_with = ENG }
+					ENG = { has_government = democratic }
+					ENG = { has_capitulated = no }
+					NOT = { has_war_with = ENG }
+					ENG = { has_defensive_war_with = GER }
+				}
+				AND = {
+					CAN = { is_faction_leader = yes }
+					NOT = { has_war_with = CAN }
+					CAN = { has_government = democratic }
+					CAN = { has_capitulated = no }
+					NOT = { has_war_with = CAN }
+					CAN = { has_defensive_war_with = GER }
+				}
+			}
+			OR = {
+				date > 1942.1.1
+				ENG = { surrender_progress > 0.29 }
+				CAN = { has_idea = EW_BGIE }
+			}
+		}
+
+		visible = {
+			tag = USA
+			NOT = { has_war_with = GER }
+			is_in_faction = no
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = EW_Allies_Country.202
+		}
+	}
+
 DEN_Ask_To_Join_Allies = {
 		icon = generic_army_support
 		
@@ -280,15 +422,7 @@ ENG_British_Invasion_of_Iraq = {
 			surrender_progress < 0.1
 			
 			NOT = { owns_state = 100 }
-			NOT = {
-				any_country = {
-					has_war_with = ENG
-					OR = {
-						controls_state = 100
-						owns_state = 100
-					}
-				}
-			}
+			100 = { CONTROLLER = { NOT = { has_war_with = ENG } } }
 			
 			custom_trigger_tooltip = {
 				tooltip = "Denmark Has Fallen"
@@ -352,7 +486,7 @@ ENG_British_Invasion_of_Iraq = {
 		remove_effect = {
 			clr_country_flag = EW_Operation
 			every_country = {
-				limit = { owns_state = 100 }
+				limit = { controls_state = 100 }
 				country_event = { id = EW_Allies_Country.142 hours = 6 }	
 			}
 		}
@@ -377,15 +511,7 @@ ENG_British_Invasion_of_Iraq = {
 			surrender_progress < 0.1
 			
 			NOT = { owns_state = 100 }
-			NOT = {
-				any_country = {
-					has_war_with = USA
-					OR = {
-						controls_state = 100
-						owns_state = 100
-					}
-				}
-			}
+			100 = { CONTROLLER = { NOT = { has_war_with = USA } } }
 			
 			custom_trigger_tooltip = {
 				tooltip = "Denmark Has Fallen"
@@ -439,7 +565,7 @@ ENG_British_Invasion_of_Iraq = {
 		remove_effect = {
 			clr_country_flag = EW_Operation
 			every_country = {
-				limit = { owns_state = 100 }
+				limit = { controls_state = 100 }
 				country_event = { id = EW_Allies_Country.145 hours = 6 }	
 			}
 		}
@@ -464,15 +590,7 @@ ENG_British_Invasion_of_Iraq = {
 			surrender_progress < 0.1
 			
 			NOT = { owns_state = 101 }
-			NOT = {
-				any_country = {
-					has_war_with = USA
-					OR = {
-						controls_state = 101
-						owns_state = 101
-					}
-				}
-			}
+			101 = { CONTROLLER = { NOT = { has_war_with = USA } } }
 			
 			custom_trigger_tooltip = {
 				tooltip = "Denmark Has Fallen"
@@ -526,7 +644,7 @@ ENG_British_Invasion_of_Iraq = {
 		remove_effect = {
 			clr_country_flag = EW_Operation
 			every_country = {
-				limit = { owns_state = 101 }
+				limit = { controls_state = 101 }
 				country_event = { id = EW_Allies_Country.149 hours = 6 }	
 			}
 		}
@@ -627,6 +745,7 @@ ENG_British_Invasion_of_Iraq = {
 			has_war_with = GER
 			459 = { CONTROLLER = { has_war_with = ROOT } }
 			461 = { CONTROLLER = { has_war_with = ROOT } }
+			NOT = { has_country_flag = EW_Operation_Torch }
 		}
 		
 		allowed = {
@@ -635,6 +754,7 @@ ENG_British_Invasion_of_Iraq = {
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_country_flag = EW_Operation_Torch }
 		}
 
 		cost = 0
@@ -745,6 +865,7 @@ ENG_British_Invasion_of_Iraq = {
 			459 = { is_controlled_by_ROOT_or_ally = yes }
 			461 = { is_controlled_by_ROOT_or_ally = yes }
 			115 = { is_controlled_by_ROOT_or_ally = no }
+			NOT = { has_global_flag = EW_OPERATION_HUSKY }
 		}
 		
 		allowed = {
@@ -753,6 +874,7 @@ ENG_British_Invasion_of_Iraq = {
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_global_flag = EW_OPERATION_HUSKY }
 		}
 
 		cost = 0
@@ -860,6 +982,7 @@ ENG_British_Invasion_of_Iraq = {
 			15 = { is_controlled_by_ROOT_or_ally = no }
 			29 = { is_controlled_by_ROOT_or_ally = no }
 			785 = { is_controlled_by_ROOT_or_ally = no }
+			NOT = { has_global_flag = EW_OPERATION_OVERLORD }
 		}
 		
 		allowed = {
@@ -868,6 +991,7 @@ ENG_British_Invasion_of_Iraq = {
 	
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_global_flag = EW_OPERATION_OVERLORD }
 		}
 	
 		cost = 0
@@ -973,6 +1097,7 @@ ENG_British_Invasion_of_Iraq = {
 		15 = { is_controlled_by_ROOT_or_ally = yes }
 		29 = { is_controlled_by_ROOT_or_ally = yes }
 		785 = { is_controlled_by_ROOT_or_ally = yes }
+		NOT = { has_global_flag = EW_OPERATION_DRAGOON }
 		}
 		
 		allowed = {
@@ -981,6 +1106,7 @@ ENG_British_Invasion_of_Iraq = {
 	
 		visible = {
 		NOT = { has_country_flag = EW_Operation }
+		NOT = { has_global_flag = EW_OPERATION_DRAGOON }
 		}
 	
 		cost = 0
@@ -1041,6 +1167,387 @@ ENG_British_Invasion_of_Iraq = {
 				}
 				country_event = { id = EW_Allies_Country.140 days = 1 random_days = 7 }	
 			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = GER
+						is_in_faction_with = GER
+					} 
+				}
+				country_event = { id = EW_Allies_Country.141 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	ENG_operation_torch = {
+		icon = generic_army_support
+
+		available = { 
+			tag = ENG
+			date > 1942.1.1
+			date < 1943.1.1
+			surrender_progress < 0.1
+			has_war_with = GER
+			NOT = { country_exists = USA }
+			459 = { CONTROLLER = { has_war_with = ROOT } }
+			461 = { CONTROLLER = { has_war_with = ROOT } }
+			NOT = { has_country_flag = EW_Operation_Torch }
+		}
+		
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			tag = ENG
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { country_exists = USA }
+			NOT = { has_country_flag = EW_Operation_Torch }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1942.11.8
+			}
+		}
+
+		days_remove = 9
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Operation_Torch
+			if = {
+				limit = {
+					ENG = { is_ai = yes }
+				}
+				ENG = {
+					country_event = { id = EW_Allies_Country.1340 days = 1 random_days = 7 }	
+				}
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = GER
+						is_in_faction_with = GER
+					} 
+				}
+				country_event = { id = EW_Allies_Country.135 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	ENG_operation_husky = {
+		icon = generic_army_support
+
+		available = { 
+			tag = ENG
+			NOT = { country_exists = USA }	
+			date > 1943.1.1
+			date < 1944.1.1
+			has_start_date < 1943.1.1
+			surrender_progress < 0.1
+			OR = {
+				has_war_with = GER
+				has_war_with = ITA
+			}
+			458 = { is_controlled_by_ROOT_or_ally = yes }
+			459 = { is_controlled_by_ROOT_or_ally = yes }
+			461 = { is_controlled_by_ROOT_or_ally = yes }
+			115 = { is_controlled_by_ROOT_or_ally = no }
+			NOT = { has_global_flag = EW_OPERATION_HUSKY }
+		}
+		
+		allowed = {
+			tag = ENG
+		}
+
+		visible = {
+			NOT = { country_exists = USA }
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_global_flag = EW_OPERATION_HUSKY }
+			tag = ENG
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1943.7.9
+			}
+		}
+
+
+		days_remove = 38
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			if = {
+				limit = {
+					ENG = { is_ai = yes }
+				}
+				ENG = {
+					country_event = { id = EW_Allies_Country.1360 days = 1 random_days = 7 }	
+				}
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = GER
+						is_in_faction_with = GER
+					} 
+				}
+				country_event = { id = EW_Allies_Country.137 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
+	ENG_operation_overlord = {
+		icon = generic_army_support
+	
+		available = {
+			tag = ENG
+			NOT = { country_exists = USA }
+			date > 1944.1.1
+			date < 1950.1.1
+			has_war_with = GER
+			GER = { has_capitulated = no }
+			surrender_progress < 0.1
+			126 = { is_controlled_by_ROOT_or_ally = yes }
+			15 = { is_controlled_by_ROOT_or_ally = no }
+			29 = { is_controlled_by_ROOT_or_ally = no }
+			785 = { is_controlled_by_ROOT_or_ally = no }
+			NOT = { has_global_flag = EW_OPERATION_OVERLORD }
+		}
+		
+		allowed = {
+			tag = ENG
+		}
+	
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_global_flag = EW_OPERATION_OVERLORD }
+			NOT = { country_exists = USA }
+			tag = ENG
+		}
+	
+		cost = 0
+	
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+	
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1944.6.6
+			}
+		}
+	
+		days_remove = 80
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			if = {
+				limit = {
+					ENG = { is_ai = yes }
+				}
+				ENG = {
+					country_event = { id = EW_Allies_Country.1380 days = 1 random_days = 7 }	
+				}
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = GER
+						is_in_faction_with = GER
+					} 
+				}
+				country_event = { id = EW_Allies_Country.139 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+#
+	ENG_operation_dragoon = {
+		icon = generic_army_support
+	
+		available = { 
+		tag = ENG
+		NOT = { country_exists = USA }
+		date > 1944.1.1
+		date < 1950.1.1
+		has_war_with = GER
+		GER = { has_capitulated = no }
+		surrender_progress < 0.1
+		15 = { is_controlled_by_ROOT_or_ally = yes }
+		29 = { is_controlled_by_ROOT_or_ally = yes }
+		785 = { is_controlled_by_ROOT_or_ally = yes }
+		NOT = { has_global_flag = EW_OPERATION_DRAGOON }
+		}
+		
+		allowed = {
+			tag = ENG
+		}
+	
+		visible = {
+		NOT = { has_country_flag = EW_Operation }
+		NOT = { has_global_flag = EW_OPERATION_DRAGOON }
+		NOT = { country_exists = USA }
+		tag = ENG
+		}
+	
+		cost = 0
+	
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			air_superiority_efficiency = 0.25
+			air_cas_efficiency = 0.25
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+	
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1944.8.15
+			}
+		}
+	
+		days_remove = 31
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			if = {
+				limit = {
+					ENG = { is_ai = yes }
+				}
+				ENG = {
+					country_event = { id = EW_Allies_Country.1400 days = 1 random_days = 7 }	
+				}
+			}	
 			every_country = {
 				limit = { 
 					OR = { 
@@ -2214,12 +2721,12 @@ GER_EW_Decisions = {
 			has_war_with = ENG
 			OR = {
 				AND = {
-					has_war_with = DEN
-					DEN = { has_capitulated = no }
+					37 = { OWNER = { has_war_with = ROOT } }
+					37 = { OWNER = { has_capitulated = no } }
 				}
 				AND = {
-					has_war_with = NOR
-					NOR = { has_capitulated = no }
+					110 = { OWNER = { has_war_with = ROOT } }
+					110 = { OWNER = { has_capitulated = no } }
 				}
 			}
 			surrender_progress < 0.1
@@ -2254,7 +2761,7 @@ GER_EW_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				NOT = { has_war_with = NOR } 
+				NOT = { 110 = { OWNER = { has_war_with = ROOT } } } 
 			}
 			modifier = {
 				factor = 0
@@ -2283,6 +2790,7 @@ GER_EW_Decisions = {
 					OR = { 
 						tag = NOR
 						is_in_faction_with = NOR
+						owns_state = 110
 					} 
 				}
 				country_event = { id = EW_Germany_Country.214 hours = 6 }

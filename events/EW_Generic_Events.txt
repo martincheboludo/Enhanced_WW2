@@ -44,6 +44,8 @@ country_event = {
 		
 		set_global_flag = EW_Lend_Lease_Allowed
 		
+		
+		
 	}
 
 }
@@ -108,11 +110,56 @@ country_event = {
 		
 		set_global_flag = EW_Lend_Lease_Allowed
 		
+		country_event = EW_Generic_Events_Country.4
+		
 	}
 	
 	option = {
 		#Default
 		name = EW_Generic_Events_Country.3.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		country_event = EW_Generic_Events_Country.4
+
+	}
+
+
+}
+
+#Optimization
+country_event = {
+	id = EW_Generic_Events_Country.4
+	title = EW_Generic_Events_Country.4.t
+	desc = EW_Generic_Events_Country.4.d
+	picture = GFX_report_event_Lend_Lease_Country
+
+	is_triggered_only = yes
+
+
+	option = {
+		#Default
+		name = EW_Generic_Events_Country.4.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		every_country = {
+			limit = { 
+				is_major = no 
+				is_ai = yes
+			}
+			add_ideas = EW_Optimization
+		}
+		
+	}
+	
+	option = {
+		#Default
+		name = EW_Generic_Events_Country.4.b
 
 		ai_chance = {
 			factor = 0

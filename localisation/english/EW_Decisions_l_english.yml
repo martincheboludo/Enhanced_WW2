@@ -126,6 +126,15 @@ USA_operation_overlord_desc:0 "Embark on the largest amphibious invasion in hist
 USA_operation_dragoon:0 "Operation Dragoon"
 USA_operation_dragoon_desc:0 "Execute the invasion of Southern France to complement the ongoing efforts in Normandy. By liberating key Mediterranean ports and cutting off German forces in the region, the Allies will secure vital supply lines and hasten the collapse of German resistance in France."
 
+ENG_operation_torch:0 "Operation Torch"
+ENG_operation_torch_desc:0 "Launch a bold invasion of French North Africa, targeting key ports and cities held by Vichy France. This operation aims to secure the region as a staging ground for further Allied advances into Axis-held Europe, weakening Germany's grip on the Mediterranean and opening up a new front."
+ENG_operation_husky:0 "Operation Husky"
+ENG_operation_husky_desc:0 "Commence the invasion of Sicily, the first step in the Allied campaign to liberate Italy from Axis control. By seizing the island, the Allies will force Germany and Italy to defend their southern flank, paving the way for the eventual liberation of mainland Europe."
+ENG_operation_overlord:0 "Operation Overlord"
+ENG_operation_overlord_desc:0 "Embark on the largest amphibious invasion in history by storming the beaches of Normandy. This operation is the keystone of the Allied strategy to liberate Western Europe from Nazi occupation. Success here will open the road to Paris and signal the beginning of the end for Hitler's regime."
+ENG_operation_dragoon:0 "Operation Dragoon"
+ENG_operation_dragoon_desc:0 "Execute the invasion of Southern France to complement the ongoing efforts in Normandy. By liberating key Mediterranean ports and cutting off German forces in the region, the Allies will secure vital supply lines and hasten the collapse of German resistance in France."
+
 ENG_British_Invasion_of_Iraq:0 "Invasion of Iraq"
 ENG_British_Invasion_of_Iraq_desc:0 "In response to the pro-Axis coup in Iraq and the potential threat to vital oil supplies, British forces are preparing to launch an invasion of Iraq. This upcoming operation aims to restore control over the region and ensure that crucial resources remain secure for the Allied war effort. British troops will advance to combat Iraqi forces and re-establish a government loyal to the Allies. The success of this operation will be critical to maintaining stability in the Middle East and securing the strategic interests of the Allied powers."
 
@@ -156,3 +165,7 @@ DEN_Ask_To_Join_Allies_desc:0 "With the German invasion underway, Denmark faces 
 
 ENG_Relocate_Government_To_Canada:0 "Evacuate British Government to Canada"
 ENG_Relocate_Government_To_Canada_desc:"The unthinkable has happened—German forces have landed on British soil, and the security of the homeland is now gravely compromised. In the face of this dire situation, we must act swiftly to safeguard the heart of our government. Evacuating to Canada, our secure North American dominion, will ensure that the British government remains intact, enabling us to continue the fight against tyranny from abroad. Though we may lose ground here, the spirit of the Empire will endure, and from Canada, we shall coordinate the liberation of Britain."
+
+USA_The_German_Menace:0 "The German Menace"
+ENG_The_German_Menace:0 "The German Menace"
+FRA_The_German_Menace:0 "The German Menace"

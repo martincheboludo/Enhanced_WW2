@@ -2839,6 +2839,18 @@ country_event = {
 		
 		
 		CAN = {
+			every_other_country = {
+				limit = {
+					OR = {
+						is_subject_of = ENG
+						has_country_flag = EW_British_Dominion
+						has_country_flag = EW_British_Colony
+						has_country_flag = EW_British_Puppet
+						has_country_flag = EW_British_Integrated_Puppet
+					}
+				}
+				country_event = { id = EW_Allies_Country.16 hours = 6 }
+			}
 			annex_country = {
 				target = ENG  
 				transfer_troops = yes 
@@ -2853,18 +2865,6 @@ country_event = {
 				ideology = conservatism
 			}
 			set_cosmetic_tag = Free_Britain
-			every_other_country = {
-				limit = {
-					OR = {
-						is_subject_of = ENG
-						has_country_flag = EW_British_Dominion
-						has_country_flag = EW_British_Colony
-						has_country_flag = EW_British_Puppet
-						has_country_flag = EW_British_Integrated_Puppet
-					}
-				}
-				country_event = { id = EW_Allies_Country.16 hours = 6 }
-			}
 		}
 		
 		hidden_effect = { 
@@ -5796,6 +5796,297 @@ country_event = {
 	}
 }
 
+#Germany Attacks Britain Early
+country_event = {
+	id = EW_Allies_Country.200
+	picture = GFX_report_event_German_Soldiers_Country
+	title = EW_Allies_Country.200.t
+	desc = EW_Allies_Country.200.d
+	is_triggered_only = yes
+#	trigger = {
+#		tag = FRA
+#		NOT = { has_war_with = ENG }
+#		has_government = democratic
+#		is_in_faction = no
+#		has_capitulated = no
+#		ENG = { is_faction_leader = yes }
+#		threat < 0.25
+#		date > 1933.1.1
+#		date < 1939.1.1
+#		ENG = { has_defensive_war_with = GER }
+#		ENG = { has_government = democratic }
+#		ENG = { has_capitulated = no }	
+#}
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+	option = {
+		name = EW_Allies_Country.200.a
+		ai_chance = {
+			base = 600
+			modifier = {
+				ENG = { surrender_progress < 0.10 }
+				add = 100
+			}
+			modifier = {
+				OR = {
+					BEL = { has_capitulated = yes }
+					HOL = { has_capitulated = yes }
+				}
+				add = 150
+			}
+		}
+		
+		ENG = { country_event = { id = generic.2 hours = 6 } }
+		
+	}
+	
+	option = {
+		name = EW_Allies_Country.200.b
+		ai_chance = {
+			base = 400
+			modifier = {
+				ENG = { surrender_progress > 0.09 }
+				add = 100
+			}
+		}
+		
+		add_war_support = -0.10
+		add_political_power = -50
+		
+		
+	}
+}
+
+#Germany Attacks Britain Early
+country_event = {
+	id = EW_Allies_Country.201
+	picture = GFX_report_event_German_Soldiers_Country
+	title = EW_Allies_Country.201.t
+	desc = EW_Allies_Country.201.d
+	is_triggered_only = yes
+#	trigger = {
+#		tag = ENG
+#		NOT = { has_war_with = FRA }
+#		has_government = democratic
+#		is_in_faction = no
+#		has_capitulated = no
+#		is_faction_leader = yes
+#		threat < 0.25
+#		date > 1933.1.1
+#		date < 1939.1.1
+#		FRA = { has_defensive_war_with = GER }
+#		FRA = { has_government = democratic }
+#		FRA = { has_capitulated = no }
+#	}
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+	option = {
+		name = EW_Allies_Country.201.a
+		ai_chance = {
+			base = 700
+			modifier = {
+				FRA = { controls_state = 16 }
+				add = 100
+			}
+			modifier = {
+				strength_ratio = {
+					tag = GER
+					ratio > 1
+				}
+				add = 150
+			}
+			modifier = {
+				has_opinion = {
+					target = FRA
+					value > 49
+				}
+				add = 100
+			}
+			modifier = {
+				add = 100
+				#You Have Strong Allies
+				any_country = {
+					NOT = { tag = ENG }
+					is_in_faction_with = ENG
+					has_war_with = GER
+					is_major = yes
+					has_capitulated = no
+				}
+			}
+		}
+		
+		FRA = { country_event = { id = generic.5 hours = 6 } }
+		
+	}
+	
+	option = {
+		name = EW_Allies_Country.201.b
+		ai_chance = {
+			base = 300
+			modifier = {
+				GER = { controls_state = 16 }
+				add = 100
+			}
+			modifier = {
+				strength_ratio = {
+					tag = GER
+					ratio < 1
+				}
+				add = 100
+			}
+			modifier = {
+				has_opinion = {
+					target = FRA
+					value < 50
+				}
+				add = 100
+			}
+			modifier = {
+				add = 100
+				#You Have War With Another Country
+				any_country = {
+					NOT = { tag = GER }
+					NOT = { is_in_faction_with = GER }
+					has_war_with = ENG
+					has_capitulated = no
+				}
+			}
+		}
+		
+		add_war_support = -0.10
+		add_political_power = -50
+		
+	}
+}
+
+#USA Request to Join The Allies
+country_event = {
+	id = EW_Allies_Country.202
+	picture = GFX_report_event_German_Soldiers_Country
+	title = EW_Allies_Country.202.t
+	desc = EW_Allies_Country.202.d
+	is_triggered_only = yes
+#	trigger = {
+#		tag = USA
+#		has_government = democratic
+#		is_in_faction = no
+#		has_capitulated = no
+#		date > 1933.1.1
+#		date < 1949.1.1
+#		OR = {
+#			AND = {
+#				ENG = { is_faction_leader = yes }
+#				NOT = { has_war_with = ENG }
+#				ENG = { has_government = democratic }
+#				ENG = { has_capitulated = no }
+#				NOT = { has_war_with = ENG }
+#				ENG = { has_defensive_war_with = GER }
+#			}
+#			AND = {
+#				CAN = { is_faction_leader = yes }
+#				NOT = { has_war_with = CAN }
+#				CAN = { has_government = democratic }
+#				CAN = { has_capitulated = no }
+#				NOT = { has_war_with = CAN }
+#				CAN = { has_defensive_war_with = GER }
+#			}
+#		}
+#		OR = {
+#			date > 1942.1.1
+#			ENG = { surrender_progress > 0.29 }
+#			CAN = { has_idea = EW_BGIE }
+#		}
+#			
+#	}
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+	option = {
+		name = EW_Allies_Country.202.a
+		ai_chance = {
+			base = 650
+			modifier = {
+				add = 150
+				OR = {
+					ENG = { surrender_progress > 0.29 }
+					CAN = { has_idea = EW_BGIE }
+				}
+			}
+			modifier = {
+				has_opinion = {
+					target = ENG
+					value > 49
+				}
+				add = 100
+			}
+			modifier = {
+				add = 100
+				has_war_support > 0.49
+			}
+		}
+		
+		add_war_support = 0.20
+		add_political_power = 100
+		
+		every_other_country = {
+			limit = {
+				OR = {
+					tag = ENG
+					tag = CAN
+				}
+				is_faction_leader = yes
+				has_government = democratic
+				NOT = { has_war_with = USA }
+			}
+			country_event = { id = generic.2 hours = 6 }
+		}
+		
+	}
+	
+	option = {
+		name = EW_Allies_Country.202.b
+		ai_chance = {
+			base = 350
+			modifier = {
+				add = 100
+				ENG = { is_faction_leader = yes }
+				NOT = { has_war_with = ENG }
+				ENG = { has_government = democratic }
+				ENG = { has_capitulated = no }
+				NOT = { has_war_with = ENG }
+				ENG = { has_defensive_war_with = GER }
+				ENG = { surrender_progress < 0.30 }
+			}
+			modifier = {
+				has_opinion = {
+					target = ENG
+					value < 50
+				}
+				add = 100
+			}
+			modifier = {
+				add = 100
+				has_war_support < 0.50
+			}
+			modifier = {
+				add = 100
+				USA = { has_idea = undisturbed_isolation }
+			}
+			modifier = {
+				add = 100
+				USA = { has_idea = isolation }
+			}
+		}
+		
+		add_war_support = -0.10
+		add_stability = -0.05
+		
+		
+	}
+}
+
 #Allies Vow to Stop German Aggression
 news_event = {
 	id = EW_Allies_News.2
@@ -6035,4 +6326,140 @@ news_event = {
 		name = EW_Allies_News.154.a
 		ai_chance = { factor = 1000 }
 	}
+}
+
+#Operation Torch Britain
+country_event = {
+	id = EW_Allies_Country.1340
+	title = EW_Allies_Country.134.t
+	desc = EW_Allies_Country.134.d
+	picture = GFX_report_event_American_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.134.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		load_oob = USA_OPERATION_TORCH
+		load_oob = ENG_OPERATION_TORCH
+
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_TORCH }
+				}
+				set_global_flag = EW_OPERATION_TORCH
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.13 hours = 6 }
+				}
+			}
+			
+	}
+
+}
+
+
+#Operation Husky
+country_event = {
+	id = EW_Allies_Country.1360
+	title = EW_Allies_Country.136.t
+	desc = EW_Allies_Country.136.d
+	picture = GFX_report_event_American_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.136.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+			load_oob = USA_OPERATION_HUSKY
+			load_oob = ENG_OPERATION_HUSKY
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_HUSKY }
+				}
+				set_global_flag = EW_OPERATION_HUSKY
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.14 hours = 6 }
+				}
+			}
+		
+
+	}
+
+}
+
+#Operation Overlord
+country_event = {
+	id = EW_Allies_Country.1380
+	title = EW_Allies_Country.138.t
+	desc = EW_Allies_Country.138.d
+	picture = GFX_report_event_American_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.138.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+			load_oob = USA_OPERATION_OVERLORD
+			load_oob = ENG_OPERATION_OVERLORD
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_OVERLORD }
+				}
+				set_global_flag = EW_OPERATION_OVERLORD
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.15 hours = 6 }
+				}
+			}
+		
+
+	}
+
+}
+
+#Operation Dragoon
+country_event = {
+	id = EW_Allies_Country.1400
+	title = EW_Allies_Country.140.t
+	desc = EW_Allies_Country.140.d
+	picture = GFX_report_event_American_Soldiers_Country
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EW_Allies_Country.140.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+			load_oob = USA_OPERATION_DRAGOON
+			load_oob = FRA_OPERATION_DRAGOON
+			
+			if = {
+				limit = {
+					NOT = { has_global_flag = EW_OPERATION_DRAGOON }
+				}
+				set_global_flag = EW_OPERATION_DRAGOON
+				hidden_effect = {
+					news_event = { id = EW_Allies_News.16 hours = 6 }
+				}
+			}
+		
+
+	}
+
 }

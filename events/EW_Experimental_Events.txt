@@ -1,0 +1,382 @@
+add_namespace = EW_Experimental_Events_Country
+add_namespace = EW_Experimental_Events_News
+
+#Welcome Event
+country_event = {
+	id = EW_Experimental_Events_Country.3
+	title = EW_Experimental_Events_Country.3.t
+	desc = EW_Experimental_Events_Country.3.d
+	picture = GFX_report_event_GE_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Country Setup
+		name = EW_Experimental_Events_Country.3.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		every_country = {
+			limit = { 
+				OR = {
+					tag = ROM
+					tag = HUN
+					tag = BUL
+					tag = SLO
+					tag = ITA
+					tag = FIN
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = GER
+			}
+			transfer_navy = { target = GER } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = GER
+			}
+			GER = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+			GER = {
+				transfer_state = 268
+				transfer_state = 269
+				annex_country = {
+					target = YUG
+					transfer_troops = no 
+				}
+				annex_country = {
+					target = GRE
+					transfer_troops = no
+				}
+				annex_country = {
+					target = AUS
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CZE
+					transfer_troops = no
+				}
+				annex_country = {
+					target = ALB
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ETH
+					transfer_troops = no
+				}
+				annex_country = {
+					target = AFA
+					transfer_troops = no
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = ENG
+				}
+			}
+
+every_country = {
+			limit = { 
+				OR = {
+					tag = MON
+					tag = TAN
+					tag = LIT
+					tag = LAT
+					tag = EST
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = SOV
+			}
+			transfer_navy = { target = SOV } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = SOV
+			}
+			SOV = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+			SOV = {
+				transfer_state = 146
+				transfer_state = 147
+				transfer_state = 722
+				transfer_state = 766
+				transfer_state = 78
+				transfer_state = 80
+				transfer_state = 97
+				transfer_state = 784
+				transfer_state = 95
+				transfer_state = 96
+				transfer_state = 94
+				transfer_state = 93
+				transfer_state = 91
+				transfer_state = 89
+			}
+
+every_country = {
+			limit = { 
+				OR = {
+					tag = HOL
+					tag = BEL
+					tag = LUX
+					tag = FRA
+					tag = NOR
+					tag = DEN
+					tag = ICE
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = MAL
+					tag = SAF
+					tag = POL
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = ENG
+			}
+			transfer_navy = { target = ENG } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = ENG
+			}
+			ENG = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+			ENG = {
+				transfer_state = 321
+				transfer_state = 721
+				transfer_state = 290
+				transfer_state = 699
+				transfer_state = 296	
+				transfer_state = 297
+				transfer_state = 796
+				transfer_state = 540
+				transfer_state = 891
+				transfer_state = 892
+				transfer_state = 544
+				transfer_state = 896
+				transfer_state = 897
+				annex_country = {
+					target = ICE
+					transfer_troops = yes 
+				}
+				annex_country = {
+					target = INS
+					transfer_troops = yes 
+				}
+				annex_country = {
+					target = SIA
+					transfer_troops = no
+				}
+				annex_country = {
+					target = IRE
+					transfer_troops = no
+				}
+				annex_country = {
+					target = PER
+					transfer_troops = no
+				}
+				annex_country = {
+					target = IRQ
+					transfer_troops = no
+				}
+				annex_country = {
+					target = SAU
+					transfer_troops = no
+				}
+				annex_country = {
+					target = OMA
+					transfer_troops = no
+				}
+				annex_country = {
+					target = YEM
+					transfer_troops = no
+				}
+				annex_country = {
+					target = AFG
+					transfer_troops = no
+				}
+				annex_country = {
+					target = LIB
+					transfer_troops = no
+				}
+				annex_country = {
+					target = NEP
+					transfer_troops = no
+				}
+				annex_country = {
+					target = BHU
+					transfer_troops = no
+				}
+			}
+
+every_country = {
+			limit = { 
+				OR = {
+					tag = CAN
+					tag = MEX
+					tag = GUA
+					tag = ELS
+					tag = NIC
+					tag = HON
+					tag = PAN
+					tag = CUB
+					tag = HAI
+					tag = DOM
+					tag = VEN
+					tag = COL
+					tag = PRU
+					tag = BOL
+					tag = BRA
+					tag = CHL
+					tag = URG
+					tag = PAR
+					tag = ARG
+					tag = PHI
+					tag = ECU
+					tag = COS
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = USA
+			}
+			transfer_navy = { target = USA } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = USA
+			}
+			USA = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+			USA = {
+				transfer_state = 101
+				transfer_state = 331
+				transfer_state = 332
+				transfer_state = 730
+				transfer_state = 696
+				transfer_state = 311
+				transfer_state = 690
+				transfer_state = 693
+				transfer_state = 689
+				transfer_state = 692
+				transfer_state = 691
+				transfer_state = 694
+				transfer_state = 308
+				transfer_state = 270
+				transfer_state = 299
+				transfer_state = 720
+				transfer_state = 649
+				transfer_state = 687
+				transfer_state = 309
+				transfer_state = 310
+			}
+		
+		every_country = {
+			limit = { 
+				OR = {
+					tag = MAN
+					tag = MEN
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = JAP
+			}
+			transfer_navy = { target = JAP } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = JAP
+			}
+			JAP = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+		every_country = {
+			limit = { 
+				OR = {
+					tag = PRC
+					tag = SIK
+					tag = TIB
+					tag = XSM
+					tag = YUN
+					tag = GXC
+					tag = SHX
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = CHI
+			}
+			transfer_navy = { target = CHI } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = CHI
+			}
+			CHI = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+		CHI = {
+			transfer_state = 728
+			transfer_state = 729
+			transfer_state = 326
+		}
+		
+		every_country = {
+			limit = { 
+				OR = {
+					tag = POR
+					tag = SPR
+					tag = TUR
+					tag = SWE
+				 }
+			}
+			every_unit_leader = {
+				set_nationality = SWI
+			}
+			transfer_navy = { target = SWI } 
+			every_state = {
+				limit = { is_core_of = PREV is_owned_by = PREV }
+				add_core_of = SWI
+			}
+			SWI = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes 
+				}
+			}
+		}
+		
+		
+	}
+	
+
+}
