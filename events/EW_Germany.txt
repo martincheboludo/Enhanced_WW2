@@ -1104,13 +1104,13 @@ country_event = {
 		#USA = {
 		#	set_country_flag = { flag = USA_anschluss_window days = 60 #value = 1 }
 		#}
-		custom_effect_tooltip = anschluss_mefo_bills_tt
-		hidden_effect = { # Having it appear twice might be confusing
-			GER_mefo_bills_level_down = yes
-			GER_mefo_bills_level_down = yes
-		}
-		custom_effect_tooltip = anschluss_mefo_bills_double_reduction
-		add_to_variable = { var = GER_mefo_bill_counter value = -10 }
+		#custom_effect_tooltip = anschluss_mefo_bills_tt
+		#hidden_effect = { # Having it appear twice might be confusing
+		#	GER_mefo_bills_level_down = yes
+		#	GER_mefo_bills_level_down = yes
+		#}
+		#custom_effect_tooltip = anschluss_mefo_bills_double_reduction
+		#add_to_variable = { var = GER_mefo_bill_counter value = -10 }
 
 		hidden_effect = {
 			news_event = { hours = 6 id = EW_Germany_News.136 }
@@ -4725,7 +4725,7 @@ country_event = {
 		NOT = { has_war_with = SOV }
 		NOT = { has_war_with = POL }
 		SOV = { has_offensive_war_with = POL }
-		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { GER = { has_completed_focus = GER_molotov_ribbentrop_pact } }
 		NOT = { has_non_aggression_pact_with = GER }
 		date > 1933.1.1
 		date < 1949.1.1
@@ -5125,7 +5125,7 @@ country_event = {
 		date > 1933.1.1
 		date < 1949.1.1
 		LIT = { owns_state = 188 }
-		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { GER = { has_completed_focus = GER_molotov_ribbentrop_pact } }
 		NOT = { has_non_aggression_pact_with = SOV }
 	}
 

@@ -7,5 +7,5 @@ tags={
 }
 name="Golden Edition: A World War 2 Enhancement Mod"
 picture="thumbnail.png"
-supported_version="1.14.*"
+supported_version="1.15.*"
 remote_file_id="3319743038"

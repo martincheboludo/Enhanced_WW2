@@ -256,7 +256,7 @@ country_event = {
 		GER = { has_offensive_war_with = POL }
 		date > 1933.1.1
 		date < 1949.1.1
-		NOT = { GER = { has_completed_focus = GER_mol_rib_pact } }
+		NOT = { GER = { has_completed_focus = GER_molotov_ribbentrop_pact } }
 		NOT = { has_non_aggression_pact_with = GER }
 	}
 	
@@ -696,7 +696,7 @@ country_event = {
 				CAN = { has_idea = EW_BGIE }
 			}
 		}
-		NOT = { GER = { has_completed_focus = GER_soviet_ally } }
+		NOT = { GER = { has_completed_focus = GER_alliance_with_the_ussr } }
 		date > 1933.1.1
 		date < 1949.1.1
 		
@@ -720,7 +720,7 @@ country_event = {
 			}
 			modifier = {
 				date < 1942.1.1
-				GER = { has_completed_focus = GER_mol_rib_pact }
+				GER = { has_completed_focus = GER_molotov_ribbentrop_pact }
 				factor = 0.75
 			}
 			modifier = {
@@ -780,7 +780,7 @@ country_event = {
 			}
 			modifier = {
 				date < 1942.1.1
-				GER = { has_completed_focus = GER_mol_rib_pact }
+				GER = { has_completed_focus = GER_molotov_ribbentrop_pact }
 				factor = 1.25
 			}
 			modifier = {

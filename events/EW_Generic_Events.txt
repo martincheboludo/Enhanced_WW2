@@ -151,6 +151,47 @@ country_event = {
 			limit = { 
 				is_major = no 
 				is_ai = yes
+				OR = {
+					AND = {
+						any_owned_state = {
+							is_on_continent = middle_east
+							is_capital = yes
+						}
+						NOT = {
+							OR = {
+								tag = IRQ
+								tag = PER
+							}
+						}
+					}
+					AND = {
+						any_owned_state = {
+							is_on_continent = north_america
+							is_capital = yes
+						}
+						NOT = {
+							OR = {
+								tag = USA
+								tag = CAN
+							}
+						}
+					}
+					any_owned_state = {
+						is_on_continent = south_america
+						is_capital = yes
+					}
+					OR = {
+						tag = TIB
+						tag = NEP
+						tag = BHU
+						tag = AFG
+						#tag = SWI
+						#tag = SWE
+						#tag = POR
+						#tag = IRE
+						tag = LIB
+					}
+				}
 			}
 			add_ideas = EW_Optimization
 		}

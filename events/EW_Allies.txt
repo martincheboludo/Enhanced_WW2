@@ -23,10 +23,6 @@ country_event = {
 					tag = NOR
 					tag = SWE
 					tag = SWI
-					is_subject_of = FRA
-					is_subject_of = ENG
-					is_subject_of = HOL
-					is_subject_of = DEN
 					#Other Western European Nations
 					tag = SPR
 					tag = POR
@@ -55,6 +51,11 @@ country_event = {
 					tag = ALB
 					AND = { tag = AUS date < 1938.1.1 }
 					AND = { tag = CZE date < 1938.1.1 }
+					AND = { is_subject_of = FRA NOT = { ROOT = { tag = FRA } } }
+					AND = { is_subject_of = ENG NOT = { ROOT = { tag = ENG } } }
+					is_subject_of = HOL
+					is_subject_of = DEN
+					is_subject_of = BEL
 				}
 				ROOT = { has_war = no }
 				OR = { 
@@ -571,6 +572,42 @@ country_event = {
 		}
 
 		give_guarantee =  FROM
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = ENG 
+				}						
+			} 
+			ROOT = { give_guarantee =  ENG }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = HOL
+				}						
+			} 
+			ROOT = { give_guarantee =  HOL }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = DEN
+				}						
+			} 
+			ROOT = { give_guarantee =  DEN }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = BEL
+				}						
+			} 
+			ROOT = { give_guarantee =  BEL }
+		}
 		
 		FROM = {
 			news_event = { id = EW_Allies_News.2 hours = 6 }
@@ -1358,6 +1395,42 @@ country_event = {
 
 		give_guarantee =  FROM
 		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = ENG 
+				}						
+			} 
+			ROOT = { give_guarantee =  ENG }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = HOL
+				}						
+			} 
+			ROOT = { give_guarantee =  HOL }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = DEN
+				}						
+			} 
+			ROOT = { give_guarantee =  DEN }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = BEL
+				}						
+			} 
+			ROOT = { give_guarantee =  BEL }
+		}
+		
 		FROM = {
 			news_event = { id = EW_Allies_News.3 hours = 6 }
 		}
@@ -2133,6 +2206,42 @@ country_event = {
 		}
 
 		give_guarantee =  FROM
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = ENG 
+				}						
+			} 
+			ROOT = { give_guarantee =  ENG }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = HOL
+				}						
+			} 
+			ROOT = { give_guarantee =  HOL }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = DEN
+				}						
+			} 
+			ROOT = { give_guarantee =  DEN }
+		}
+		
+		if = {
+			limit = { 
+				FROM = { 
+					is_subject_of = BEL
+				}						
+			} 
+			ROOT = { give_guarantee =  BEL }
+		}
 		
 		FROM = {
 			news_event = { id = EW_Allies_News.4 hours = 6 }
