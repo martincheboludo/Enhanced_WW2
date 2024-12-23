@@ -274,6 +274,7 @@ ENG_British_Invasion_of_Iraq = {
 			date > 1941.1.1
 			date < 1942.1.1
 			has_war_with = GER
+			country_exists = IRQ
 			NOT = { has_war_with = IRQ }
 			NOT = { is_in_faction_with = IRQ }
 			surrender_progress < 0.1
@@ -344,6 +345,7 @@ ENG_British_Invasion_of_Iraq = {
 			NOT = { is_in_faction_with = PER }
 			NOT = { has_war_with = SOV }
 			SOV = { has_war_with = GER }
+			country_exists = PER
 			surrender_progress < 0.1
 		}
 
